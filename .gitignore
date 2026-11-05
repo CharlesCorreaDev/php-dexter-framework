@@ -1,0 +1,35 @@
+# Repositórios e Builds
+/vendor/
+/node_modules/
+
+# Ambientes e Segredos
+.env
+.env.backup
+.env.production
+
+# Armazenamento e Caches Locais
+/storage/logs/*.log
+/storage/cache/*
+/storage/uploads/temp/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+!/storage/uploads/temp/.gitkeep
+
+# Ferramental e IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Suíte de Testes e Relatórios
+/.phpunit.cache/
+/.phpstan.cache/
+/coverage/
+
+# Compilação de Frontend
+/frontend/assets/css/bootstrap.css.map
+/frontend/assets/css/bootstrap-theme-custom.css.map
+
