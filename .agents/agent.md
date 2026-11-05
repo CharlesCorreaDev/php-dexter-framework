@@ -100,20 +100,52 @@ Todo novo arquivo PHP criado deve conter o seguinte bloco de cabeçalho padroniz
 
 ---
 
-## 4. Protocolo Grill-Me, Memória e ADR
+## 4. Protocolo Grill-Me, Handoff, Memória, Governança e Skills Operacionais
 
-### Protocolo Grill-Me (Obrigatório em toda nova tarefa)
-Antes de escrever qualquer linha de código para uma nova tarefa:
-1. Consultar a documentação do projeto e diretrizes em `docs/`.
-2. Verificar o histórico de decisões e implementações em `.agents/memory/`.
-3. Executar o alinhamento interativo de requisitos / dúvidas arquiteturais.
-4. Confirmar o plano com o desenvolvedor antes de executar.
+### Consulta Obrigatória de Handoff e Memória
+Antes de iniciar qualquer nova sessão, tarefa ou planejamento:
+1. **Consultar obrigatoriamente a pasta de Handoff ([`.agents/handoff/`](handoff/)):**
+   - Ler o arquivo [`tarefas_pendentes.md`](handoff/tarefas_pendentes.md) para analisar o estado atual, tarefas pendentes priorizadas e próximos passos.
+2. **Consultar obrigatoriamente a pasta de Memória ([`.agents/memory/`](memory/)):**
+   - Ler `memory/sessoes/` e `memory/implementacoes/` para verificar decisões anteriores, contratos já implementados e lições aprendidas, evitando retrabalho ou alucinações.
+
+### 🛠️ Matriz de Uso Mandatório das Skills Especializadas
+O agente de IA deve obrigatoriamente acionar e respeitar as skills locais para cada fase do ciclo de desenvolvimento:
+
+| Fase / Necessidade | Skill Obrigatória | Ação Executada pelo Agente |
+|---|---|---|
+| **Alinhamento & Dúvidas** | [`grill-me`](skills/grill-me/SKILL.md) / [`to-questionnaire`](skills/to-questionnaire/SKILL.md) | Entrevistar o desenvolvedor uma pergunta por vez ou gerar questionários objetivos com opções recomendadas. |
+| **Comportamento Inesperado** | [`wait-what`](skills/wait-what/SKILL.md) | Pausa analítica imediata em português: explica a discrepância antes de tentar consertos às cegas. |
+| **Escrita de Código PHP** | [`php-dev-expert`](skills/php-dev-expert/SKILL.md) | Aplicação estrita de PHP 8.4+, boas práticas de POO, MVC e mitigação de vulnerabilidades (PHP2Shell). |
+| **Revisão de Código** | [`code-review-estruturado`](skills/code-review-estruturado/SKILL.md) | Checklist estruturado de code review focado em legibilidade, concorrência, segurança e DRY. |
+| **Organização de Arquivos** | [`file-organizer`](skills/file-organizer/SKILL.md) | Estruturação consistente de pastas e arquivos taxonômicos sem espalhar arquivos soltos. |
+| **Redação Técnica & Specs** | [`writing-for-agents`](skills/writing-for-agents/SKILL.md) | Otimização de documentos usando sempre `.agents/agent.md` como base canônica sem redundância. |
+| **Criação de Novas Skills** | [`skill-creator`](skills/skill-creator/SKILL.md) | Estruturação padronizada de novas capacidades para o ecossistema de agentes. |
+| **Navegação Arquitetural** | [`graphify`](skills/graphify/SKILL.md) | Consulta ao grafo de nós e relacionamentos antes de alterar contratos do Core. |
+| **Setup & Code Mode** | [`claude-code-setup`](skills/claude-code-setup/SKILL.md) | Garantir Code Mode (Code-as-Action), cabeçalhos obrigatórios, caminhos relativos e fuso de Brasília. |
+| **Persistência de Memória** | [`claude-mem`](skills/claude-mem/SKILL.md) | Sincronização contínua entre sessões no `.agents/memory/` e Claude Mem. |
+| **Agrupamento de Commits** | [`commit-work`](skills/commit-work/SKILL.md) | Seleção e criação de commits atômicos, claros e seguindo Conventional Commits. |
+| **Documentação de Versão** | [`changelog-generator`](skills/changelog-generator/SKILL.md) | Atualização das notas de versão em `.agents/docs/CHANGELOG.md`. |
+| **Pull Requests** | [`skills-pr`](skills/skills-pr/SKILL.md) | Elaboração de PRs com resumo visual, prova de funcionamento e raio de impacto (*blast radius*). |
+| **Otimização de Tokens** | [`caveman`](skills/caveman/SKILL.md) | Comunicação densa, direta e sem floreios gramaticais para poupar tokens quando solicitado. |
+| **Transição de Sessão** | [`handoff`](skills/handoff/SKILL.md) | Atualização de `.agents/handoff/tarefas_pendentes.md` ao final da sessão com o próximo passo claro. |
+
+### 🔄 Sincronização Obrigatória Pós-Tarefa (Memória ⇄ Handoff)
+Após a conclusão de **qualquer tarefa, feature, refatoração ou correção de bug**, o agente de IA deve obrigatoriamente:
+1. **Atualizar `.agents/memory/`:**
+   - Registrar a implementação em `memory/implementacoes/AAAA-MM-DD_feature.md` e/ou resumo em `memory/sessoes/AAAA-MM-DD_topico.md`.
+   - **Regra Mandatória da Memória:** Todo arquivo em `memory/` deve conter explicitamente a diretriz:  
+     👉 *"Consulte e revise sempre [.agents/handoff/tarefas_pendentes.md](../handoff/tarefas_pendentes.md) para analisar as tarefas pendentes e o próximo passo imediato do roadmap."*
+2. **Atualizar e Sincronizar `.agents/handoff/tarefas_pendentes.md`:**
+   - Marcar itens concluídos com `[x]`.
+   - Incluir novas pendências técnicas ou de arquitetura descobertas.
+   - Atualizar a seção *"Próximo Passo Imediato"* para orientar com precisão o agente da próxima tarefa/sessão.
 
 ### Memória do Projeto (`.agents/memory/`)
 Registros contínuos mantidos em:
-- `memory/sessoes/`: `AAAA-MM-DD_topico.md` — Resumos de sessões e decisões.
+- `memory/sessoes/`: `AAAA-MM-DD_topico.md` — Resumos de sessões e decisões (com ponte para handoff).
 - `memory/erros/`: `AAAA-MM-DD_descricao.md` — Registro de bugs, causa raiz e soluções.
-- `memory/implementacoes/`: `AAAA-MM-DD_feature.md` — Histórico de features e arquivos alterados.
+- `memory/implementacoes/`: `AAAA-MM-DD_feature.md` — Histórico de features e arquivos alterados (com ponte para handoff).
 
 ### Registros de Decisões Arquiteturais (ADR)
 Salvar em `docs/adr/ADR-XXX-nome-kebab-case.md` para qualquer nova biblioteca, alteração de schema, quebra de contrato de API ou protocolo de segurança.
@@ -385,6 +417,21 @@ O repositório possui uma suíte integrada de skills para guiar a operação, ar
 | **Grilling** | [.agents/skills/grilling/](.agents/skills/grilling/SKILL.md) | Desafio aprofundado de hipóteses técnicas (falhas de rede, fallbacks, memória, concorrência). |
 | **TDD** | [.agents/skills/tdd/](.agents/skills/tdd/SKILL.md) | Ciclo Red-Green-Refactor estrito: código só entra na base se acompanhado de teste passando em `/testes`. |
 | **PHP Developer Expert** | [.agents/skills/php-dev-expert/](.agents/skills/php-dev-expert/SKILL.md) | Especialista sênior no ecossistema PHP (7.4 a 8.5), mitigação a CVEs críticas (PHP2Shell), POO moderna, MVC, documentações completas de frameworks, servidores e CMS. |
+| **Code Review Estruturado** | [.agents/skills/code-review-estruturado/](.agents/skills/code-review-estruturado/SKILL.md) | Checklist estruturado de code review focado em legibilidade, performance, segurança e arquitetura. |
+| **Design de API RESTful** | [.agents/skills/design-api-restful/](.agents/skills/design-api-restful/SKILL.md) | Boas práticas de modelagem de endpoints, verbos HTTP, idempotência e códigos de status. |
+| **System Prompt Creator** | [.agents/skills/system-prompt-creator/](.agents/skills/system-prompt-creator/SKILL.md) | Metodologia de criação e refinamento de prompts para agentes de IA especializados. |
+| **Testes Unitários Framework** | [.agents/skills/testes-unitarios-framework/](.agents/skills/testes-unitarios-framework/SKILL.md) | Framework de escrita de testes unitários confiáveis e isolamento de dependências. |
+| **Caveman Suite** | [.agents/skills/caveman/](.agents/skills/caveman/SKILL.md) | Otimização semântica, compressão de tokens e execução cirúrgica (caveman, cavecrew, commit, compress). |
+| **Ponytail Suite** | [.agents/skills/ponytail/](.agents/skills/ponytail/SKILL.md) | Gerenciamento de débitos técnicos, auditoria, revisão e ganhos incrementais de arquitetura. |
+| **Headroom** | [.agents/skills/headroom/](.agents/skills/headroom/SKILL.md) | Gestão de espaço de contexto e preservação de memória de trabalho. |
+| **Compact Service** | [.agents/skills/compact-service/](.agents/skills/compact-service/SKILL.md) | Prompt research e serviços de compactação semântica de contexto. |
+| **Commit Work** | [.agents/skills/commit-work/](.agents/skills/commit-work/SKILL.md) | Automação e agrupamento atômico de commits estruturados via Conventional Commits. |
+| **PR Description Writing** | [.agents/skills/pr-description-writing/](.agents/skills/pr-description-writing/SKILL.md) | Redação orientada a contexto e testes para Pull Requests. |
+| **Changelog Generator** | [.agents/skills/changelog-generator/](.agents/skills/changelog-generator/SKILL.md) | Geração automatizada de notas de versão e changelogs em formato Keep a Changelog. |
+| **File Organizer** | [.agents/skills/file-organizer/](.agents/skills/file-organizer/SKILL.md) | Organização e padronização taxonômica de diretórios e arquivos de assets. |
+| **Skill Creator & Template** | [.agents/skills/skill-creator/](.agents/skills/skill-creator/SKILL.md) | Ferramental para criação rápida, empacotamento e templates de novas skills de IA. |
+| **Webapp Testing** | [.agents/skills/webapp-testing/](.agents/skills/webapp-testing/SKILL.md) | Metodologia e testes integrados para validação de aplicações web e interfaces. |
+| **Artifacts Builder** | [.agents/skills/artifacts-builder/](.agents/skills/artifacts-builder/SKILL.md) | Construção e renderização estruturada de artefatos visuais e documentos técnicos. |
 
 ---
 

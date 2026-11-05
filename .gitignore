@@ -6,6 +6,10 @@
 .env
 .env.backup
 .env.production
+.env.prod
+.env.homol
+.env.local
+.env.localhost
 
 # Armazenamento e Caches Locais
 /storage/logs/*.log
