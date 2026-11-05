@@ -34,3 +34,8 @@ Substituição e expurgo completo de documentações herdadas do ecossistema leg
 10. **Segurança em Profundidade (*The Code*):** Cartilha Paragon Initiative, defesa de perímetro (`.htaccess`, blacklist `myip.ms`, GuardaIP e Stop Forum Spam), rate limiting distribuído (Valkey/Redis), defesas ativas (honeypots, blackhole, telemetria comportamental), security headers padronizados e ferramental SAST.
 11. **Modo Code Mode (Code-as-Action):** Regra obrigatória para agentes de IA atuarem com código autoverificável, testes prévios e inspeção programática direta.
 
+---
+
+## 3. Próximos Passos e Pendências
+> 👉 **Atenção:** Consulte e revise sempre [.agents/handoff/tarefas_pendentes.md](../../handoff/tarefas_pendentes.md) para analisar a lista completa de tarefas pendentes, o backlog priorizado e a próxima ação imediata a executar.
+

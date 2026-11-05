@@ -29,3 +29,8 @@
 - Fuso horário oficial definido como `America/Sao_Paulo` (UTC-3) em todas as camadas.
 - Idioma padrão: Português do Brasil (pt-BR).
 
+---
+
+## 3. Rastreamento e Sincronização de Tarefas
+> 👉 **Atenção:** Consulte e revise sempre [.agents/handoff/tarefas_pendentes.md](../../handoff/tarefas_pendentes.md) para analisar as tarefas pendentes atualizadas e a próxima entrega programada.
+
