@@ -16,7 +16,7 @@
 - [x] Estrutura de pastas do projeto criada (`core`, `app`, `backend`, `modules`, `config`, `database/migrations`, `database/seeds`, `storage`, `testes`).
 - [x] Variáveis de ambiente tipadas em `.env.example` e segurança de arquivos em `.gitignore`.
 - [x] Design System base em `Themes.css` (Paleta 90271) e telemetria unificada `DexterAnalytics` em `bootstrap-theme-custom.js`.
-- [x] Suíte completa de skills integradas em `.agents/skills/` (tdd, codebase-design, domain-modeling, grill-me, handoff, wait-what, caveman, ponytail, headroom, compact-service, commit-work, composio skills, etc.).
+- [x] Suíte completa de skills integradas em `.agents/skills/` (tdd, codebase-design, domain-modeling, grill-me, handoff, wait-what, caveman, ponytail, headroom, compact-service, commit-work, composio skills, humanizer-plus, adhd, i-have-adhd, etc.).
 
 ---
 

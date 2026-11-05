@@ -68,13 +68,20 @@ Validar sempre o código em ambiente de testes antes de aplicar no core ou produ
 ### ❌ 8. Proibido usar caminhos absolutos nos arquivos do projeto
 Use sempre caminhos relativos. Nunca escreva `C:\`, `D:\` ou `/home/user/` dentro de arquivos de configuração, código ou documentação.
 
-### ⚡ 9. Uso Obrigatório do Modo Code Mode (Code-as-Action)
+### ✍️ 9. Humanização Obrigatória e Limpeza de IA (`humanizer-plus`)
+Todo comentário de código, docstring, commit message, documentação técnica e explicação gerada pelo agente de IA deve obrigatoriamente seguir a skill [`humanizer-plus`](skills/humanizer-plus/SKILL.md):
+- **Camada A (Limpeza de Rastreamento Oculto):** Eliminar caracteres invisíveis, zero-width spaces e codepoints ocultos de telemetria de LLMs.
+- **Camada B (Limpeza de Código e Comentários):** Remover marcadores robóticos, narrativas redundantes ("// This function adds two numbers"), blocos de cabeçalho artificiais não solicitados e manias de documentação excessiva em código evidente. Manter apenas o cabeçalho oficial do Dexter Framework e docstrings técnicas substantivas.
+- **Camada C (Limpeza de Vícios de Redação de IA):** Banir terminologias infladas e clichês de IA (ex: "delve into", "tapestry", "beacon", "testament", "crucial", "robust", "plethora", "game-changer", "em resumo", "vale ressaltar", "mergulhar em").
+- **Tipografia e Estilo:** Sem uso artificial de negrito decorativo desnecessário, sem emojis infantis em documentação séria e com tom técnico, natural, profissional e direto ao ponto.
+
+### ⚡ 10. Uso Obrigatório do Modo Code Mode (Code-as-Action)
 Todo agente de IA operando no Dexter Framework deve obrigatoriamente atuar no padrão **Code Mode (Code-as-Action)** em todo o desenvolvimento:
 - Tratar o código como o principal meio de ação, inspeção e validação do ambiente.
 - Inspecionar arquivos reais, executar comandos programáticos de checagem/testes e aplicar alterações diretas via ferramentas de código, ao invés de supor estados ou responder apenas teoricamente.
 - Escrever código executável, tipado estritamente (PHP 8.4+), autoverificável e acompanhado de testes antes da entrega.
 
-### 📝 10. Cabeçalho Obrigatório em Todos os Arquivos PHP
+### 📝 11. Cabeçalho Obrigatório em Todos os Arquivos PHP
 Todo novo arquivo PHP criado deve conter o seguinte bloco de cabeçalho padronizado imediatamente após a tag `<?php`, preenchido dinamicamente com os dados do projeto e do desenvolvedor:
 
 ```php
@@ -128,6 +135,9 @@ O agente de IA deve obrigatoriamente acionar e respeitar as skills locais para c
 | **Documentação de Versão** | [`changelog-generator`](skills/changelog-generator/SKILL.md) | Atualização das notas de versão em `.agents/docs/CHANGELOG.md`. |
 | **Pull Requests** | [`skills-pr`](skills/skills-pr/SKILL.md) | Elaboração de PRs com resumo visual, prova de funcionamento e raio de impacto (*blast radius*). |
 | **Otimização de Tokens** | [`caveman`](skills/caveman/SKILL.md) | Comunicação densa, direta e sem floreios gramaticais para poupar tokens quando solicitado. |
+| **Ideação & Brainstorm Divergente** | [`adhd`](skills/adhd/SKILL.md) | Ideação paralela sob múltiplos enquadramentos conceituais para exploração arquitetural profunda. |
+| **Comunicação Direta & Foco ADHD** | [`i-have-adhd`](skills/i-have-adhd/SKILL.md) | Formatação executiva: primeira linha com ação direta, passos curtos numerados, estimativas reais e sem tangentes. |
+| **Humanização & Limpeza de IA** | [`humanizer-plus`](skills/humanizer-plus/SKILL.md) | Purga de termos inflados de IA, zero-width chars e comentários redundantes em código e documentação. |
 | **Transição de Sessão** | [`handoff`](skills/handoff/SKILL.md) | Atualização de `.agents/handoff/tarefas_pendentes.md` ao final da sessão com o próximo passo claro. |
 
 ### 🔄 Sincronização Obrigatória Pós-Tarefa (Memória ⇄ Handoff)
