@@ -1,10 +1,10 @@
 <?php
 
 /*
-* @author	Charles Corrêa <charlescorreaweb@gmail.com>
-* @copyright	Copyright ( c ) 2026
-* @app		Dexter Framework
-* @version	0.1.0-beta
+* @author   Charles Corrêa <charlescorreaweb@gmail.com>
+* @copyright    Copyright ( c ) 2026
+* @app      Dexter Framework
+* @version  0.1.0-beta
 *
 * +------------------------------------------------------------------------------------------------------------+
 * | Criação e Coordenação Projeto : Charles Corrêa <charlescorreaweb@gmail.com>                                |
@@ -35,4 +35,3 @@ final class Dexter
         return self::VERSAO;
     }
 }
-
