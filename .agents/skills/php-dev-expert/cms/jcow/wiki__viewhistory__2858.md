@@ -1,0 +1,68 @@
+# history - Jcow Community
+
+> **Fonte / Source:** https://community.jcow.net/wiki/viewhistory/2858
+
+---
+
+[![](https://community.jcow.net/themes/gray/logo.png)](https://community.jcow.net)
+
+[Login](https://community.jcow.net/member/login)     [Sign up](https://community.jcow.net/member/signup)
+
+[Create an account](https://community.jcow.net/member/signup)
+
+ [Connect with Facebook](https://community.jcow.net/fblogin)[![](https://community.jcow.net/files/common_css/g-logo.png) Connect with Google](https://community.jcow.net/jcowoauth/google)[Login](https://community.jcow.net/member/login)
+
+Explore
+
+[newspaperHome](https://community.jcow.net/feed)
+
+[live\_helpQuestions](https://community.jcow.net/questions)
+
+[articleBlogs](https://community.jcow.net/blogs)
+
+[Client Area](https://community.jcow.net/clientarea)
+
+[panoramaImages](https://community.jcow.net/images)
+
+[storefrontStore](https://community.jcow.net/store)
+
+[local\_libraryWiki](wiki__index.md)
+
+[linkAffiliate](https://community.jcow.net/jcowaffiliate)
+
+[How to create a new Jcow module](wiki__viewstory__2858.md)
+
+Recent changes
+
+2022-03-02 12:10:45
+
+post\_add
+
+[active - How to create a new Jcow module](wiki__viewstory__2858.md)
+
+[paul](https://community.jcow.net/u/paul)
+
+Created a wiki page
+
+[Jcow Home](https://community.jcow.net/go/Jcow_Home) | [Contact](https://community.jcow.net/go/Contact)
+
+×
+
+You need to login to do this
+
+## Jcow Community
+
+for Jcow users
+
+[Sign up](https://community.jcow.net/member/signup)
+[Login](https://community.jcow.net/member/login)
+
+ [Connect with Facebook](https://community.jcow.net/fblogin)[![](https://community.jcow.net/files/common_css/g-logo.png) Connect with Google](https://community.jcow.net/jcowoauth/google)
+
+[Follow @jcownet](https://twitter.com/jcownet)
+
+© Jcow!  
+
+×
+
+####

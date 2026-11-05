@@ -1,0 +1,180 @@
+# Forms · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/forms/overview
+
+---
+
+# Forms
+
+Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/forms/overview)
+
+On this page…
+
+##### On this page
+
+[**Form control**Style textual inputs and textareas with support for multiple states.](forms__form-control.md)[**Checkbox**Use our custom checkboxes in forms for selecting input options.](forms__checkbox.md)[**Radio**Use our custom radio buttons in forms for selecting input options.](forms__radio.md)[**Range**Replace browser default range inputs with our custom version.](forms__range.md)[**Input group**Attach labels and buttons to your inputs for increased semantic value.](forms__input-group.md)[**Floating labels**Create beautifully simple form labels that float over your input fields.](forms__floating-labels.md)[**Layout**Create inline, horizontal, or complex grid-based layouts with your forms.](forms__layout.md)[**Validation**Validate your forms with custom or native validation behaviors and styles.](forms__validation.md)
+
+## Overview
+
+Bootstrap’s form controls expand on [our Rebooted form styles](content__reboot.md#forms) with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.
+
+Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for email address or `number` for numerical information) to take advantage of newer input controls like email verification, number selection, and more.
+
+Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading for documentation on required classes, form layout, and more.
+
+Email address
+
+We’ll never share your email with anyone else.
+
+Password
+
+Check me out
+
+Submit
+
+HTML
+
+```
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We’ll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-field">
+    <input type="checkbox" id="exampleCheck1" class="check">
+    <label for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn-solid theme-primary">Submit</button>
+</form>
+```
+
+## Disabled forms
+
+Add the `disabled` boolean attribute on an input to prevent user interactions and make it appear lighter.
+
+HTML
+
+```
+          <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+```
+
+Add the `disabled` attribute to a `<fieldset>` to disable all the controls within. Browsers treat all native form controls (`<input>`, `<select>`, and `<button>` elements) inside a `<fieldset disabled>` as disabled, preventing both keyboard and mouse interactions on them.
+
+However, if your form also includes custom button-like elements such as `<a class="btn-*">...</a>`, these will only be given a style of `pointer-events: none`, meaning they are still focusable and operable using the keyboard. In this case, you must manually modify these controls by adding `tabindex="-1"` to prevent them from receiving focus and `aria-disabled="disabled"` to signal their state to assistive technologies.
+
+Disabled fieldset example
+
+Disabled input
+
+Disabled select menu
+
+Disabled select
+
+Can’t check this
+
+Submit
+
+HTML
+
+```
+<form>
+  <fieldset disabled>
+    <legend>Disabled fieldset example</legend>
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Disabled input</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+    </div>
+    <div class="mb-3">
+      <label for="disabledSelect" class="form-label">Disabled select menu</label>
+      <select id="disabledSelect" class="form-control">
+        <option>Disabled select</option>
+      </select>
+    </div>
+    <div class="mb-3 form-field">
+      <input type="checkbox" id="disabledFieldsetCheck" class="check" disabled>
+      <label for="disabledFieldsetCheck">
+        Can’t check this
+      </label>
+    </div>
+    <button type="submit" class="btn-solid theme-primary">Submit</button>
+  </fieldset>
+</form>
+```
+
+## Accessibility
+
+Ensure that all form controls have an appropriate accessible name so that their purpose can be conveyed to users of assistive technologies. The simplest way to achieve this is to use a `<label>` element, or—in the case of buttons—to include sufficiently descriptive text as part of the `<button>...</button>` content.
+
+For situations where it’s not possible to include a visible `<label>` or appropriate text content, there are alternative ways of still providing an accessible name, such as:
+
+- `<label>` elements hidden using the `.visually-hidden` class
+- Pointing to an existing element that can act as a label using `aria-labelledby`
+- Providing a `title` attribute
+- Explicitly setting the accessible name on an element using `aria-label`
+
+If none of these are present, assistive technologies may resort to using the `placeholder` attribute as a fallback for the accessible name on `<input>` and `<textarea>` elements. The examples in this section provide a few suggested, case-specific approaches.
+
+While using visually hidden content (`.visually-hidden`, `aria-label`, and even `placeholder` content, which disappears once a form field has content) will benefit assistive technology users, a lack of visible label text may still be problematic for certain users. Some form of visible label is generally the best approach, both for accessibility and usability.
+
+## CSS
+
+### Variables
+
+Some form variables are set at the root level to be re-used and extended by individual form components, but you’ll most often see variables set at the form control level. Root variables are often `--btn-input-*`, which are shared with [buttons](components__buttons.md), and `--input-*` variables.
+
+[scss/\_root.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_root.scss)
+
+```
+--control-checked-bg: var(--primary-base),
+--control-checked-border-color: var(--control-checked-bg),
+--control-active-bg: var(--primary-base),
+--control-active-border-color: var(--control-active-bg),
+--control-disabled-bg: var(--bg-3),
+--control-disabled-opacity: .65,
+// Shared motion for checkbox/radio marks; slight overshoot so the mark pops in
+--control-transition-duration: .15s,
+--control-transition-timing: cubic-bezier(.34, 1.56, .64, 1),
+
+--btn-input-fg: var(--fg-body),
+--btn-input-bg: var(--bg-body),
+
+--btn-input-gap: .375rem,
+--btn-input-min-height: 2.375rem,
+--btn-input-padding-y: .375rem,
+--btn-input-padding-x: .75rem,
+--btn-input-font-size: var(--body-font-size),
+--btn-input-font-weight: var(--font-weight-normal),
+--btn-input-line-height: var(--body-line-height),
+--btn-input-border-radius: var(--radius-5),
+
+--btn-input-xs-gap: var(--spacer-1),
+--btn-input-xs-min-height: 1.5rem,
+--btn-input-xs-padding-y: .125rem,
+--btn-input-xs-padding-x: .5rem,
+--btn-input-xs-font-size: var(--font-size-xs),
+--btn-input-xs-line-height: 1.125,
+--btn-input-xs-border-radius: var(--radius-5),
+
+--btn-input-sm-gap: .375rem,
+--btn-input-sm-min-height: 2rem,
+--btn-input-sm-padding-y: .25rem,
+--btn-input-sm-padding-x: .625rem,
+--btn-input-sm-font-size: var(--font-size-sm),
+--btn-input-sm-line-height: var(--line-height-sm),
+--btn-input-sm-border-radius: var(--radius-5),
+
+--btn-input-lg-gap: .375rem,
+--btn-input-lg-min-height: 2.75rem,
+--btn-input-lg-padding-y: .5rem,
+--btn-input-lg-padding-x: 1rem,
+--btn-input-lg-font-size: var(--font-size-md),
+--btn-input-lg-line-height: var(--line-height-md),
+--btn-input-lg-border-radius: var(--radius-7),
+```

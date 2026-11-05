@@ -1,0 +1,374 @@
+{
+  "root_url": "** https://doc.livehelperchat.com/docs/architecture",
+  "scope_prefix": "** https://doc.livehelperchat.com/docs/architecture",
+  "total_pages": 61,
+  "generated_at": "2026-10-28T18:55:20Z",
+  "pages": [
+    {
+      "url": "** https://doc.livehelperchat.com/docs/architecture",
+      "file": "docs__docs__architecture.md",
+      "title": "Architecture | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/back-office-theme",
+      "file": "docs__docs__back-office-theme.md",
+      "title": "Back Office Theming | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/blocking",
+      "file": "docs__docs__blocking.md",
+      "title": "How to block visitors from starting a chat | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/bot/custom-variables-extension",
+      "file": "docs__docs__bot__custom-variables-extension.md",
+      "title": "Custom variables defined in extensions | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/chat/",
+      "file": "docs__docs__chat.md",
+      "title": "Chat window | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/chat/configuration",
+      "file": "docs__docs__chat__configuration.md",
+      "title": "Chat configuration | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/chat/connection-status",
+      "file": "docs__docs__chat__connection-status.md",
+      "title": "Connection status | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/chat/multiple-languages",
+      "file": "docs__docs__chat__multiple-languages.md",
+      "title": "Multiple languages support general workflow | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/co-browsing",
+      "file": "docs__docs__co-browsing.md",
+      "title": "Co-browsing | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/debug",
+      "file": "docs__docs__debug.md",
+      "title": "Debugging Application | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/department/",
+      "file": "docs__docs__department.md",
+      "title": "Department | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/auto-login",
+      "file": "docs__docs__development__auto-login.md",
+      "title": "How to Use the Auto Login Module | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/common-classes",
+      "file": "docs__docs__development__common-classes.md",
+      "title": "Most common classes used in Live Helper Chat | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/docker",
+      "file": "docs__docs__development__docker.md",
+      "title": "Docker and Live Helper Chat | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/hosting-on-digitalocean",
+      "file": "docs__docs__development__hosting-on-digitalocean.md",
+      "title": "Hosting Live Helper Chat on DigitalOcean | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/http-and-https",
+      "file": "docs__docs__development__http-and-https.md",
+      "title": "Configuring HTTPS and HTTP for Your Site | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/incoming-webhooks",
+      "file": "docs__docs__development__incoming-webhooks.md",
+      "title": "Incoming webhooks | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/install-cli",
+      "file": "docs__docs__development__install-cli.md",
+      "title": "How to install using CLI? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/mobile-integration",
+      "file": "docs__docs__development__mobile-integration.md",
+      "title": "How to integrate Live Helper Chat into third party application, E.g mobile? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/modifying-widget",
+      "file": "docs__docs__development__modifying-widget.md",
+      "title": "Modifying Widget Style | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/move-chat",
+      "file": "docs__docs__development__move-chat.md",
+      "title": "How to Move a Chat from One Location to Another | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/operator-chat-window",
+      "file": "docs__docs__development__operator-chat-window.md",
+      "title": "How to add custom information to chat window | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/orm",
+      "file": "docs__docs__development__orm.md",
+      "title": "Object-relational mapping | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/quick-guide",
+      "file": "docs__docs__development__quick-guide.md",
+      "title": "Quick development guide | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/reducing-request-number",
+      "file": "docs__docs__development__reducing-request-number.md",
+      "title": "Reducing the Number of Requests to the Server | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/remove-index-php",
+      "file": "docs__docs__development__remove-index-php.md",
+      "title": "How to remove index.php from URL? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/rest-api",
+      "file": "docs__docs__development__rest-api.md",
+      "title": "Rest API | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/single-sign-on",
+      "file": "docs__docs__development__single-sign-on.md",
+      "title": "Implementing Login to LHC Using Third-Party Login Providers (SimpleSAMLphp) | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/site-access",
+      "file": "docs__docs__development__site-access.md",
+      "title": "Understanding Site Access Patterns | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/unbrand",
+      "file": "docs__docs__development__unbrand.md",
+      "title": "How to make unbranded version of Live Helper Chat? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/webhooks-examples",
+      "file": "docs__docs__development__webhooks-examples.md",
+      "title": "Webhook examples | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/webhooks",
+      "file": "docs__docs__development__webhooks.md",
+      "title": "Webhooks | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/development/working-with-messages",
+      "file": "docs__docs__development__working-with-messages.md",
+      "title": "Working with messages | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/extending/override-quick",
+      "file": "docs__docs__extending__override-quick.md",
+      "title": "Customize Your Web Application by Overriding Templates, Images, and CSS | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/hooks",
+      "file": "docs__docs__hooks.md",
+      "title": "Hooks | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/hosting-variations",
+      "file": "docs__docs__hosting-variations.md",
+      "title": "Hosting Variations | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/how-to-use-bot",
+      "file": "docs__docs__how-to-use-bot.md",
+      "title": "How to use a bot (AI agent builder) | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/install",
+      "file": "docs__docs__install.md",
+      "title": "Install Guide | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/integrating",
+      "file": "docs__docs__integrating.md",
+      "title": "Integrating live helper chat HTML into site | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/integrating/jitsi",
+      "file": "docs__docs__integrating__jitsi.md",
+      "title": "Jitsi Integration | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/javascript-arguments",
+      "file": "docs__docs__javascript-arguments.md",
+      "title": "Javascript arguments | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/language",
+      "file": "docs__docs__language.md",
+      "title": "How to add new language? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/mail/intro",
+      "file": "docs__docs__mail__intro.md",
+      "title": "Mail module introduction | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/mcp-setup",
+      "file": "docs__docs__mcp-setup.md",
+      "title": "AI MCP Server | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/mobile",
+      "file": "docs__docs__mobile.md",
+      "title": "Mobile app setup | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/modules/browse-offers",
+      "file": "docs__docs__modules__browse-offers.md",
+      "title": "Browse Offers | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/nginx-configuration-tips",
+      "file": "docs__docs__nginx-configuration-tips.md",
+      "title": "Nginx configuration | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/node-js",
+      "file": "docs__docs__node-js.md",
+      "title": "NodeJS Support | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/offline-online-automation",
+      "file": "docs__docs__offline-online-automation.md",
+      "title": "How to automate operator status changes automatically? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/online-hours",
+      "file": "docs__docs__online-hours.md",
+      "title": "How to setup online hours/work hours and ignore operators status completely? | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/online-visitors",
+      "file": "docs__docs__online-visitors.md",
+      "title": "Online visitors tutorial | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/performance",
+      "file": "docs__docs__performance.md",
+      "title": "Performance Tweaks for High-Load Environments | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/security",
+      "file": "docs__docs__security.md",
+      "title": "Security | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/system/configuration",
+      "file": "docs__docs__system__configuration.md",
+      "title": "Configuration | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/theme/",
+      "file": "docs__docs__theme.md",
+      "title": "Theme | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/upgrading",
+      "file": "docs__docs__upgrading.md",
+      "title": "Upgrading | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/users/account",
+      "file": "docs__docs__users__account.md",
+      "title": "Account | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/voice-video-screenshare",
+      "file": "docs__docs__voice-video-screenshare.md",
+      "title": "Voice, Video, and Screen Sharing | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/docs/voice_messages",
+      "file": "docs__docs__voice_messages.md",
+      "title": "Voice Messages | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://doc.livehelperchat.com/",
+      "file": "docs__index.md",
+      "title": "Hello from Live Helper chat | Live Helper chat",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/LiveHelperChat/livehelperchat",
+      "file": "github__github_com_LiveHelperChat_livehelperchat.md",
+      "title": "GitHub - LiveHelperChat/livehelperchat: Live Helper Chat - live support for your website. Featuring web and mobile apps, Voice & Video & ScreenShare. Supports Telegram, Twilio (whatsapp), Facebook messenger including building a bot. · GitHub",
+      "depth": 1
+    }
+  ]
+}

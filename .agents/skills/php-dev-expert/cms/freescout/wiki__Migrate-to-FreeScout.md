@@ -1,0 +1,80 @@
+# Migrate to FreeScout · freescout-help-desk/freescout Wiki · GitHub
+
+> **Fonte / Source:** https://github.com/freescout-help-desk/freescout/wiki/Migrate-to-FreeScout
+
+---
+
+> If you need to migrate from Help Scout you can use [Help Scout to FreeScout Migration Module](wiki__Community-Modules.md).
+
+You can migrate to FreeScout basically from any helpdesk using [Help Desk Migration Service](https://help-desk-migration.com/freescout/).
+
+To migrate you will need to install the **latest version** of the [API & Webhooks Module](https://freescout.net/module/api-webhooks) (**make sure to install the latest version, otherwise migration may not work properly**).
+
+Before migrating you don't have to remove existing tickets from FreeScout.
+
+During migration it's impossible to preserve other system's ticket numbers.
+
+If during migration Help Desk Migration Service will ask you to map conversation fields, map them this way:
+
+- **Type**: Chat » Email
+- **Status**: Open » Active
+
+Also keep in mind that in case of `chat` conversations, after importing, support agent replies will not reach the customer linked to the `chat` conversation, as connection to customer's messenger can't be imported.
+
+![2021-03-04_10-17-40](https://user-images.githubusercontent.com/40499291/109925491-e44a8f00-7cd2-11eb-8d2b-43af2a0c5725.png)
+
+## Migration Process
+
+Ensure FreeScout is ready — install the [API & Webhooks Module](https://freescout.net/module/api-webhooks) in your FreeScout instance — it’s essential for migration.
+
+If you want to bring your custom fields along, you’ll need the [Custom Fields Module](https://freescout.net/module/custom-fields/).
+And if tags are part of your migration mission, grab the [Tags Module](https://freescout.net/module/tags/) to make sure they’re included, too.
+
+### 1. Connect Your Platforms
+
+- Sign up or log in to [Help Desk Migration Wizar](https://app.help-desk-migration.com/?utm_source=listing&utm_medium=freescout-wiki&utm_campaign=freescout)[d](https://app.help-desk-migration.com/?utm_source=listing&utm_medium=freescout-wiki&utm_campaign=freescout).
+- Select your Source and enter the necessary credentials.
+- Select FreeScout as your Target and provide the URL and API key.
+
+![Help Desk Migration - Screenshot 1](https://private-user-images.githubusercontent.com/172874623/414293721-99eb529b-78d5-40bc-901a-85dca130c3f0.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0MjkzNzIxLTk5ZWI1MjliLTc4ZDUtNDBiYy05MDFhLTg1ZGNhMTMwYzNmMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNzM2NzVmMjA3YWFiYTBkNGI4ZGJjNWRmYmM3NDk0YmU0NDczNmRlZDhkOTQwYTNlMzMwNTkwNDgwNTQyMDkwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.09ihzhpEgouONp5aXPNXWyWIn2UXkvJAqqxQpeIwYt8)
+
+### 2. Map Your Data
+
+Match fields between your source help desk and FreeScout.
+
+![Help Desk Migration - Screenshot 2](https://private-user-images.githubusercontent.com/172874623/414294035-28ec34e4-377f-41c4-b423-33c381ba0c08.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0MDM1LTI4ZWMzNGU0LTM3N2YtNDFjNC1iNDIzLTMzYzM4MWJhMGMwOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMDAxMjZjYjliYjA1YTA1ZDc4YThhMzNiOWMxNjBjZmZjNzYzYTdjZTM1NjNhYzUwNWFiOWE0ZGE4YjgzYjBkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.GBYvgMZxJoKh0vaiDD_MqwdlOir12qwrMrmqPF_vUpY)
+
+To migrate agents, start by creating them manually. Then, if any of your agents are inactive or deleted, make sure to designate a default agent. This ensures that any tickets without a specific agent will be assigned to the default, keeping everything in order during the migration.
+
+![Help Desk Migration - Screenshot 2-2](https://private-user-images.githubusercontent.com/172874623/414294142-7f882bfe-720e-4323-a6ba-38828ebd3a06.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0MTQyLTdmODgyYmZlLTcyMGUtNDMyMy1hNmJhLTM4ODI4ZWJkM2EwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NzlhYjBmMTc5NGM2ZTc3NjYzMTBhM2I1MjAxN2M2ZGIwZDhlYWFmZjlhOWYwMmNjOTk5MGUzMjlkZTVkMWNjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.ctRxZ2HyHmpy_Zz7e_FahhhoDu2-xeVvuKmopJk2ok4)
+
+Pay extra attention to:
+
+- Custom fields (you need to create them manually in Freescout)
+- Ticket priorities and statuses
+
+![Help Desk Migration - Screenshot 3](https://private-user-images.githubusercontent.com/172874623/414294273-311b6a02-d4e5-4755-85a2-3a3276582e5f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0MjczLTMxMWI2YTAyLWQ0ZTUtNDc1NS04NWEyLTNhMzI3NjU4MmU1Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMmY1YTNjODdkYzhkZmRmYTliNTc5MDRhYzc0OWFmZDIwNzljOWZlYzZkYmQ5ZjI5YjUxZDFmZWJmMjA3N2NhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.n2-nJ5G2Y2aCSSVeUrkl90EqdMLKr-gsPhuMeZis99c)
+
+### 3. Run a Demo Migration
+
+Test the process by migrating a small data set — it's free. Review the results in FreeScout and adjust mappings as needed.
+
+![Help Desk Migration - Screenshot 4](https://private-user-images.githubusercontent.com/172874623/414294505-d03dfb20-bc86-4f72-90a1-447454c49390.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0NTA1LWQwM2RmYjIwLWJjODYtNGY3Mi05MGExLTQ0NzQ1NGM0OTM5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMjlmN2EzN2Y0NGZjYThhZTYwOTkxNTJiNTdiMDk3ZjUxMTBkMjZhYzZkNjlhOGFlZTEzYTJmZWRiZTY3ZDNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.BusQUPH1JZ23hwPPp4cmHV6Ke1HZPUwV5MFZi3TFvTk)
+
+Check the Demo results to verify that data appears in FreeScout as expected. You can adjust mapping and re-run your Demo as many times as needed (or if such an option is needed).
+
+![Help Desk Migration - Screenshot 5](https://private-user-images.githubusercontent.com/172874623/414294601-976b6a84-9efa-4954-81cb-9a651a0150dd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0NjAxLTk3NmI2YTg0LTllZmEtNDk1NC04MWNiLTlhNjUxYTAxNTBkZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lODM5YThhYzcyNTQ0NDU3YjAwOTAwOGYwYzZkZGMxMzZlMzY4MGNmYjAyNDM5ZjAxZjdlNmE4YTJhNTQwNTZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.4UzoYiMBMh8aTrS-s9lXVfD3j1nnADoDt5UDgJfCu5M)
+
+In the support service plans, you can get more features and extended support hours.
+
+![Help Desk Migration - Screenshot 6](https://private-user-images.githubusercontent.com/172874623/414294688-dba523fc-a4d5-4acd-aec9-9c3cb4a3a78c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk0Njg4LWRiYTUyM2ZjLWE0ZDUtNGFjZC1hZWM5LTljM2NiNGEzYTc4Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZWM4YWUwOTA4Y2M2YjYzYTU1OWFkMWY0ZTM0N2U1NTMyNTUzMDgwZjBlZGE1MDNiOGQwODk0NDE1YjFhYjZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.wudkdeSQVdRSzmbAZATjZ5j7qXTT9AW8-FN4_v2twl0)
+
+### 4. Start Full Migration
+
+Happy with the Demo results? Complete payment and launch your Full Migration.
+
+Tip: *Large migrations take time. Avoid making changes in FreeScout during the process.*
+
+![Help Desk Migration - Screenshot 7](https://private-user-images.githubusercontent.com/172874623/414295007-7bfd8ef0-0866-4faa-a8a0-e934ed7a4fd2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTMyMTM1OTgsIm5iZiI6MTc5MzIxMzI5OCwicGF0aCI6Ii8xNzI4NzQ2MjMvNDE0Mjk1MDA3LTdiZmQ4ZWYwLTA4NjYtNGZhYS1hOGEwLWU5MzRlZDdhNGZkMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMDI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTAyOFQxODQ4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NDQxOTBmZGNhMTM0ZGI5N2ZkYzY3YzQzMmI1YWZmYmFkYTViOGQxODYxZGQ2ODFlZWJjMTExMGRhYmU2MjkzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.uGK3QXYWbgNkdofrnEV7BEp0ZqSi0diMIyMLAib_soM)
+
+If you have questions or need assistance, Help Desk Migration’s support team will be ready to help.

@@ -1,0 +1,9340 @@
+# Lista de Funções e Métodos
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/indexes.functions.php
+
+---
+
+## Lista de Funções e Métodos
+
+Lista de todas as funções e métodos no manual
+
+[a](#refentry-index-for-a)
+[b](#refentry-index-for-b)
+[c](#refentry-index-for-c)
+[d](#refentry-index-for-d)
+[e](#refentry-index-for-e)
+[f](#refentry-index-for-f)
+[g](#refentry-index-for-g)
+[h](#refentry-index-for-h)
+[i](#refentry-index-for-i)
+[j](#refentry-index-for-j)
+[k](#refentry-index-for-k)
+[l](#refentry-index-for-l)
+[m](#refentry-index-for-m)
+[n](#refentry-index-for-n)
+[o](#refentry-index-for-o)
+[p](#refentry-index-for-p)
+[q](#refentry-index-for-q)
+[r](#refentry-index-for-r)
+[s](#refentry-index-for-s)
+[t](#refentry-index-for-t)
+[u](#refentry-index-for-u)
+[v](#refentry-index-for-v)
+[w](#refentry-index-for-w)
+[x](#refentry-index-for-x)
+[y](#refentry-index-for-y)
+[z](#refentry-index-for-z)
+[\_](#refentry-index-for-_)
+
+- a
+  - [abs](function.abs.md) - Valor absoluto
+  - [acos](function.acos.md) - Arco cosseno
+  - [acosh](function.acosh.md) - Arco cosseno hiperbólico
+  - [addcslashes](function.addcslashes.md) - Escapa string com barras invertidas no estilo C
+  - [addslashes](function.addslashes.md) - Adiciona barras invertidas a uma string
+  - [AllowDynamicProperties::\_\_construct](allowdynamicproperties.construct.md) - Constrói uma nova instância do atributo AllowDynamicProperties
+  - [apache\_child\_terminate](function.apache-child-terminate.md) - Finaliza o processo Apache depois da requisição
+  - [apache\_getenv](function.apache-getenv.md) - Retorna uma variável subprocess\_env do Apache
+  - [apache\_get\_modules](function.apache-get-modules.md) - Retorna uma lista de módulos carregados do Apache
+  - [apache\_get\_version](function.apache-get-version.md) - Retorna a versão do Apache
+  - [apache\_lookup\_uri](function.apache-lookup-uri.md) - Realiza uma requisição parcial para a URI especificada e retorna todas as informações sobre ela
+  - [apache\_note](function.apache-note.md) - Obtêm e configura notas de requisição
+  - [apache\_request\_headers](function.apache-request-headers.md) - Obtém todos os cabeçalhos da requisição HTTP
+  - [apache\_response\_headers](function.apache-response-headers.md) - Obtém todos os cabeçalhos da resposta HTTP
+  - [apache\_setenv](function.apache-setenv.md) - Define uma variável subprocess\_env do Apache
+  - [APCUIterator::current](apcuiterator.current.md) - Obtém o item atual
+  - [APCUIterator::getTotalCount](apcuiterator.gettotalcount.md) - Obtém a contagem total
+  - [APCUIterator::getTotalHits](apcuiterator.gettotalhits.md) - Obtém o total de entradas de cache
+  - [APCUIterator::getTotalSize](apcuiterator.gettotalsize.md) - Obtém o tamanho total do cache
+  - [APCUIterator::key](apcuiterator.key.md) - Obtém a chave do iterador
+  - [APCUIterator::next](apcuiterator.next.md) - Move o ponteiro para o próximo item
+  - [APCUIterator::rewind](apcuiterator.rewind.md) - Rebobina o iterador
+  - [APCUIterator::valid](apcuiterator.valid.md) - Verifica se a posição atual é válida
+  - [APCUIterator::\_\_construct](apcuiterator.construct.md) - Constrói um objeto iterador APCUIterator
+  - [apcu\_add](function.apcu-add.md) - Faz cache de uma nova variável no armazenamento de dados
+  - [apcu\_cache\_info](function.apcu-cache-info.md) - Recupera informação em cache a partir do armazenamento de dados do APCu
+  - [apcu\_cas](function.apcu-cas.md) - Atualiza um valor antigo com um novo
+  - [apcu\_clear\_cache](function.apcu-clear-cache.md) - Limpa o cache APCu
+  - [apcu\_dec](function.apcu-dec.md) - Decrementa um número armazenado
+  - [apcu\_delete](function.apcu-delete.md) - Remove uma variável armazenada do cache
+  - [apcu\_enabled](function.apcu-enabled.md) - Informa se o APCu está disponível no ambiente atual
+  - [apcu\_entry](function.apcu-entry.md) - Busca ou gera atomicamente uma entrada de cache
+  - [apcu\_exists](function.apcu-exists.md) - Verifica se uma entrada existe
+  - [apcu\_fetch](function.apcu-fetch.md) - Busca uma variável armazenada no cache
+  - [apcu\_inc](function.apcu-inc.md) - Incrementa um número armazenado
+  - [apcu\_key\_info](function.apcu-key-info.md) - Obtém informação detalhada sobre uma chave em cache
+  - [apcu\_sma\_info](function.apcu-sma-info.md) - Obtém informação de Alocação de Memória Compartilhada (SMA) do APCu
+  - [apcu\_store](function.apcu-store.md) - Armazena uma variável em cache
+  - [AppendIterator::append](appenditerator.append.md) - Acrescenta um iterador
+  - [AppendIterator::current](appenditerator.current.md) - Obtém o valor atual
+  - [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md) - Obtém o ArrayIterator
+  - [AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.md) - Obtém um índice dos iteradores
+  - [AppendIterator::key](appenditerator.key.md) - Obtém a chave atual
+  - [AppendIterator::next](appenditerator.next.md) - Move para o próximo elemento
+  - [AppendIterator::rewind](appenditerator.rewind.md) - Rebobina o Iterador
+  - [AppendIterator::valid](appenditerator.valid.md) - Verifica a validade do elemento atual
+  - [AppendIterator::\_\_construct](appenditerator.construct.md) - Constrói um AppendIterator
+  - [array](function.array.md) - Cria um array
+  - [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) - Verifica se uma posição existe
+  - [ArrayAccess::offsetGet](arrayaccess.offsetget.md) - Posição a ser obtida
+  - [ArrayAccess::offsetSet](arrayaccess.offsetset.md) - Atribui um valor a uma posição específica
+  - [ArrayAccess::offsetUnset](arrayaccess.offsetunset.md) - Remove uma posição
+  - [ArrayIterator::append](arrayiterator.append.md) - Anexa um elemento
+  - [ArrayIterator::asort](arrayiterator.asort.md) - Ordena entradas pelos valores
+  - [ArrayIterator::count](arrayiterator.count.md) - Conta os elementos
+  - [ArrayIterator::current](arrayiterator.current.md) - Retorna a entrada atual do array
+  - [ArrayIterator::getArrayCopy](arrayiterator.getarraycopy.md) - Obtém cópia do array
+  - [ArrayIterator::getFlags](arrayiterator.getflags.md) - Retorna as flags de comportamento
+  - [ArrayIterator::key](arrayiterator.key.md) - Retorna a chave do elemento atual do array
+  - [ArrayIterator::ksort](arrayiterator.ksort.md) - Ordena entradas por chaves
+  - [ArrayIterator::natcasesort](arrayiterator.natcasesort.md) - Ordena entradas naturalmente, sem diferenciar maiúsculas de minúsculas
+  - [ArrayIterator::natsort](arrayiterator.natsort.md) - Ordena entradas naturalmente
+  - [ArrayIterator::next](arrayiterator.next.md) - Avança para o próximo elemento
+  - [ArrayIterator::offsetExists](arrayiterator.offsetexists.md) - Verificar se o deslocamento existe
+  - [ArrayIterator::offsetGet](arrayiterator.offsetget.md) - Obtém valor para um deslocamento
+  - [ArrayIterator::offsetSet](arrayiterator.offsetset.md) - Define valor para um deslocamento
+  - [ArrayIterator::offsetUnset](arrayiterator.offsetunset.md) - Remove valor para um deslocamento
+  - [ArrayIterator::rewind](arrayiterator.rewind.md) - Retrocede o array
+  - [ArrayIterator::seek](arrayiterator.seek.md) - Aponta para uma posição
+  - [ArrayIterator::serialize](arrayiterator.serialize.md) - Serializa
+  - [ArrayIterator::setFlags](arrayiterator.setflags.md) - Define as flags que irão alterar o comportamento
+  - [ArrayIterator::uasort](arrayiterator.uasort.md) - Ordena com uma função de comparação definida pelo usuário e manter a associação de índices
+  - [ArrayIterator::uksort](arrayiterator.uksort.md) - Ordena por chaves usando uma função de comparação definida pelo usuário
+  - [ArrayIterator::unserialize](arrayiterator.unserialize.md) - Desserializa
+  - [ArrayIterator::valid](arrayiterator.valid.md) - Verifica se o iterador de array contém mais entradas
+  - [ArrayIterator::\_\_construct](arrayiterator.construct.md) - Constrói um ArrayIterator
+  - [ArrayObject::append](arrayobject.append.md) - Anexa o valor
+  - [ArrayObject::asort](arrayobject.asort.md) - Ordenar as entradas por valor
+  - [ArrayObject::count](arrayobject.count.md) - Obtém o número de propriedades públicas no ArrayObject
+  - [ArrayObject::exchangeArray](arrayobject.exchangearray.md) - Troca o array por outro
+  - [ArrayObject::getArrayCopy](arrayobject.getarraycopy.md) - Cria uma cópia do ArrayObject
+  - [ArrayObject::getFlags](arrayobject.getflags.md) - Obtém as flags de comportamento
+  - [ArrayObject::getIterator](arrayobject.getiterator.md) - Retorna o iterador do ArrayObject
+  - [ArrayObject::getIteratorClass](arrayobject.getiteratorclass.md) - Obtém o nome da classe do iterador para o ArrayObject
+  - [ArrayObject::ksort](arrayobject.ksort.md) - Ordena as entradas pela chave
+  - [ArrayObject::natcasesort](arrayobject.natcasesort.md) - Ordena um array usando um algoritmo de "ordem natural" insensível a maiúsculas e minúsculas
+  - [ArrayObject::natsort](arrayobject.natsort.md) - Ordena as entradas usando um algoritmo de "ordem natural"
+  - [ArrayObject::offsetExists](arrayobject.offsetexists.md) - Retorna se o índice solicitado existe
+  - [ArrayObject::offsetGet](arrayobject.offsetget.md) - Retorna o valor no índice especificado
+  - [ArrayObject::offsetSet](arrayobject.offsetset.md) - Define o valor no índice especificado para novo valor
+  - [ArrayObject::offsetUnset](arrayobject.offsetunset.md) - Remove o valor no índice especificado
+  - [ArrayObject::serialize](arrayobject.serialize.md) - Serializa um ArrayObject
+  - [ArrayObject::setFlags](arrayobject.setflags.md) - Define as opções de comportamento
+  - [ArrayObject::setIteratorClass](arrayobject.setiteratorclass.md) - Define a classe do iterador para o ArrayObject
+  - [ArrayObject::uasort](arrayobject.uasort.md) - Ordena as entradas com uma função de comparação definida pelo usuário e mantém a associação de chaves
+  - [ArrayObject::uksort](arrayobject.uksort.md) - Ordena as entradas pelas chaves usando uma função de comparação definida pelo usuário
+  - [ArrayObject::unserialize](arrayobject.unserialize.md) - Desserializa um ArrayObject
+  - [ArrayObject::\_\_construct](arrayobject.construct.md) - Constrói um novo objeto de array
+  - [array\_all](function.array-all.md) - Verifica se todos os elementos de um array satisfazem uma função de retorno
+  - [array\_any](function.array-any.md) - Verifica se pelo menos um elemento de um array satisfaz uma função de retorno
+  - [array\_change\_key\_case](function.array-change-key-case.md) - Modifica a caixa de todas as chaves em um array
+  - [array\_chunk](function.array-chunk.md) - Divide um array em pedaços
+  - [array\_column](function.array-column.md) - Retorna os valores de uma coluna do array informado
+  - [array\_combine](function.array-combine.md) - Cria um array usando um array para chaves e outro para valores
+  - [array\_count\_values](function.array-count-values.md) - Conta as ocorrências de cada valor distinto em um array
+  - [array\_diff](function.array-diff.md) - Computa as diferenças entre arrays
+  - [array\_diff\_assoc](function.array-diff-assoc.md) - Computa a diferença entre arrays com checagem adicional de índice
+  - [array\_diff\_key](function.array-diff-key.md) - Computa a diferença entre arrays usando as chaves na comparação
+  - [array\_diff\_uassoc](function.array-diff-uassoc.md) - Computa a diferença entre arrays com checagem adicional de índice que feita por uma função de callback fornecida pelo usuário
+  - [array\_diff\_ukey](function.array-diff-ukey.md) - Computa a diferença entre arrays usando uma função callback na comparação de chaves
+  - [array\_fill](function.array-fill.md) - Preenche um array com valores
+  - [array\_fill\_keys](function.array-fill-keys.md) - Preenche um array com valores, especificando chaves
+  - [array\_filter](function.array-filter.md) - Filtra elementos de um array utilizando uma função callback
+  - [array\_find](function.array-find.md) - Retorna um primeiro elemento que satisfaz uma função de retorno
+  - [array\_find\_key](function.array-find-key.md) - Retorna a chave do primeiro elemento que satisfaz uma função de retorno
+  - [array\_first](function.array-first.md) - Obtém o primeiro valor de um array
+  - [array\_flip](function.array-flip.md) - Permuta todas as chaves e seus valores associados em um array
+  - [array\_intersect](function.array-intersect.md) - Calcula a interseção entre arrays
+  - [array\_intersect\_assoc](function.array-intersect-assoc.md) - Computa a interseção de arrays com uma adicional verificação de índice
+  - [array\_intersect\_key](function.array-intersect-key.md) - Calcula a interseção de arrays, comparando pelas chaves
+  - [array\_intersect\_uassoc](function.array-intersect-uassoc.md) - Computa a interseção de arrays com checagem de índice adicional, compara índices por uma função de callback
+  - [array\_intersect\_ukey](function.array-intersect-ukey.md) - Computa a interseção de arrays usando uma função de retorno nas chaves para comparação
+  - [array\_is\_list](function.array-is-list.md) - Verifica se um array é uma lista
+  - [array\_keys](function.array-keys.md) - Retorna todas as chaves ou uma parte das chaves de um array
+  - [array\_key\_exists](function.array-key-exists.md) - Verifica se uma chave ou índice existe em um array
+  - [array\_key\_first](function.array-key-first.md) - Obtém a primeira chave de um array
+  - [array\_key\_last](function.array-key-last.md) - Obtém a última chave de um array
+  - [array\_last](function.array-last.md) - Obtém o último valor de um array
+  - [array\_map](function.array-map.md) - Aplica uma função em todos os elementos dos arrays dados
+  - [array\_merge](function.array-merge.md) - Combina um ou mais arrays
+  - [array\_merge\_recursive](function.array-merge-recursive.md) - Mescla um ou mais arrays recursivamente
+  - [array\_multisort](function.array-multisort.md) - Ordena múltiplos arrays ou arrays multidimensionais
+  - [array\_pad](function.array-pad.md) - Expande um array para um certo comprimento utilizando um determinado valor
+  - [array\_pop](function.array-pop.md) - Extrai um elemento do final do array
+  - [array\_product](function.array-product.md) - Calcula o produto dos valores de um array
+  - [array\_push](function.array-push.md) - Adiciona um ou mais elementos no final de um array
+  - [array\_rand](function.array-rand.md) - Escolhe uma ou mais chaves aleatórias de um array
+  - [array\_reduce](function.array-reduce.md) - Reduz um array para um único valor através de um processo iterativo via callback
+  - [array\_replace](function.array-replace.md) - Substitui elementos de arrays passados no primeiro array
+  - [array\_replace\_recursive](function.array-replace-recursive.md) - Substitui elementos de arrays passado no primeiro array recursivamente
+  - [array\_reverse](function.array-reverse.md) - Retorna um array com os elementos na ordem inversa
+  - [array\_search](function.array-search.md) - Procura por um valor em um array e retorna sua chave correspondente caso seja encontrado
+  - [array\_shift](function.array-shift.md) - Retira o primeiro elemento de um array
+  - [array\_slice](function.array-slice.md) - Extrai uma parcela de um array
+  - [array\_splice](function.array-splice.md) - Remove uma parte array e a substitui por outra coisa
+  - [array\_sum](function.array-sum.md) - Calcula a soma dos elementos de um array
+  - [array\_udiff](function.array-udiff.md) - Computa a diferença de arrays usando uma função de callback para comparação dos dados
+  - [array\_udiff\_assoc](function.array-udiff-assoc.md) - Computa a diferença entre arrays com verificação adicional de índice, comparando dados por uma função de retorno
+  - [array\_udiff\_uassoc](function.array-udiff-uassoc.md) - Computa a diferença entre arrays com checagem adicional de índice, compara dados e índices por uma função de callback
+  - [array\_uintersect](function.array-uintersect.md) - Computa a interseção de array, comparando dados com uma função callback
+  - [array\_uintersect\_assoc](function.array-uintersect-assoc.md) - Computa a interseção de arrays com checagem adicional de índice, compara os dados utilizando uma função de callback
+  - [array\_uintersect\_uassoc](function.array-uintersect-uassoc.md) - Computa a interseção de arrays com checagem adicional de índice, compara os dados e os índices utilizando funções de callback separadas
+  - [array\_unique](function.array-unique.md) - Remove os valores duplicados de um array
+  - [array\_unshift](function.array-unshift.md) - Adiciona um ou mais elementos no início de um array
+  - [array\_values](function.array-values.md) - Retorna todos os valores de um array
+  - [array\_walk](function.array-walk.md) - Aplica uma determinada função em cada elemento de um array
+  - [array\_walk\_recursive](function.array-walk-recursive.md) - Aplica um função do usuário recursivamente para cada membro de um array
+  - [arsort](function.arsort.md) - Ordena um array em ordem descrescente e mantém a associação de índices
+  - [asin](function.asin.md) - Arco seno
+  - [asinh](function.asinh.md) - Arco seno hiperbólico
+  - [asort](function.asort.md) - Ordena um array em ordem crescente e mantém a associação de índices
+  - [assert](function.assert.md) - Executa uma asserção
+  - [assert\_options](function.assert-options.md) - Define/obtém as várias opções de asserção
+  - [atan](function.atan.md) - Arco tangente
+  - [atan2](function.atan2.md) - Arco tangente de duas variáveis
+  - [atanh](function.atanh.md) - Arco tangente hiperbólico
+  - [Attribute::\_\_construct](attribute.construct.md) - Constrói uma nova instância da classe Attribute
+- b
+  - [BackedEnum::from](backedenum.from.md) - Mapeia um escalar para uma instância de enumeração
+  - [BackedEnum::tryFrom](backedenum.tryfrom.md) - Mapeia um escalar para uma instância de enumeração ou nulo
+  - [base64\_decode](function.base64-decode.md) - Decodifica dados no formato MIME base64
+  - [base64\_encode](function.base64-encode.md) - Codifica dados com MIME base64
+  - [basename](function.basename.md) - Retorna a última parte do caminho
+  - [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md) - Buscar alertas da última operação
+  - [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.md) - Busca contagem de alertas da última operação
+  - [base\_convert](function.base-convert.md) - Converte um número entre bases arbitrárias
+  - [bcadd](function.bcadd.md) - Adiciona dois números de precisão arbitrária
+  - [bcceil](function.bcceil.md) - Arredonda para cima um número de precisão arbitrária
+  - [bccomp](function.bccomp.md) - Compara dois números de precisão arbitrária
+  - [bcdiv](function.bcdiv.md) - Divide dois números de precisão arbitrária
+  - [bcdivmod](function.bcdivmod.md) - Obtém o quociente e o módulo de um número de precisão arbitrário
+  - [bcfloor](function.bcfloor.md) - Arredonda para baixo um número de precisão arbitrária
+  - [BcMath\Number::add](bcmath-number.add.md) - Adiciona um número de precisão arbitrária
+  - [BcMath\Number::ceil](bcmath-number.ceil.md) - Arredonda para cima um número de precisão arbitrária
+  - [BcMath\Number::compare](bcmath-number.compare.md) - Compara dois números de precisão arbitrária
+  - [BcMath\Number::div](bcmath-number.div.md) - Divide por um número de precisão arbitrária
+  - [BcMath\Number::divmod](bcmath-number.divmod.md) - Obtém quociente e resto de um número de precisão arbitrária
+  - [BcMath\Number::floor](bcmath-number.floor.md) - Arredonda para baixo um número de precisão arbitrária
+  - [BcMath\Number::mod](bcmath-number.mod.md) - Obtém o resto de um número de precisão arbitrária
+  - [BcMath\Number::mul](bcmath-number.mul.md) - Multiplica um número de precisão arbitrária
+  - [BcMath\Number::pow](bcmath-number.pow.md) - Eleva um número de precisão arbitrária
+  - [BcMath\Number::powmod](bcmath-number.powmod.md) - Eleva um número de precisão arbitrária, reduzido por um módulo especificado
+  - [BcMath\Number::round](bcmath-number.round.md) - Arredonda um número de precisão arbitrária
+  - [BcMath\Number::sqrt](bcmath-number.sqrt.md) - Obtém a raiz quadrada de um número de precisão arbitrária
+  - [BcMath\Number::sub](bcmath-number.sub.md) - Subtrai um número de precisão arbitrária
+  - [BcMath\Number::\_\_construct](bcmath-number.construct.md) - Cria um objeto BcMath\Number
+  - [BcMath\Number::\_\_serialize](bcmath-number.serialize.md) - Serializa um objeto BcMath\Number
+  - [BcMath\Number::\_\_toString](bcmath-number.tostring.md) - Converte BcMath\Number em uma string
+  - [BcMath\Number::\_\_unserialize](bcmath-number.unserialize.md) - Desserializa um parâmetro de dados em um objeto BcMath\Number
+  - [bcmod](function.bcmod.md) - Obtém o resto de uma divisão com precisão arbitrária
+  - [bcmul](function.bcmul.md) - Multiplica dois números de precisão arbitrária
+  - [bcpow](function.bcpow.md) - Eleva um número de precisão arbitrária a outro
+  - [bcpowmod](function.bcpowmod.md) - Eleva um número de precisão arbitrária para outro, reduzido por um módulo especificado
+  - [bcround](function.bcround.md) - Arredonda número de precisão arbitrária
+  - [bcscale](function.bcscale.md) - Configura ou obtêm o parâmetro escala para todas as funções bc
+  - [bcsqrt](function.bcsqrt.md) - Obtém a raiz quadrada de um número de precisão arbitrária
+  - [bcsub](function.bcsub.md) - Subtrai um número de precisão arbitrária de outro
+  - [bin2hex](function.bin2hex.md) - Converte um dado binário em representação hexadecimal
+  - [bindec](function.bindec.md) - Binário para decimal
+  - [bindtextdomain](function.bindtextdomain.md) - Define ou obtém o caminho para um domínio
+  - [bind\_textdomain\_codeset](function.bind-textdomain-codeset.md) - Especifica ou obtém a codificação de caracteres na qual as mensagens do catálogo de mensagens de DOMÍNIO serão retornadas
+  - [boolval](function.boolval.md) - Obtém o valor booleano de uma variável
+  - [bzclose](function.bzclose.md) - Fecha um ponteiro de arquivo bzip2
+  - [bzcompress](function.bzcompress.md) - Comprime uma string em dados codificados com bzip2
+  - [bzdecompress](function.bzdecompress.md) - Descomprime dados codificados com bzip2
+  - [bzerrno](function.bzerrno.md) - Retorna um número de erro da bzip2
+  - [bzerror](function.bzerror.md) - Retorna o número e string de erro do bzip2 em um array
+  - [bzerrstr](function.bzerrstr.md) - Retorna a string de erro do bzip2
+  - [bzflush](function.bzflush.md) - Sem efeitos
+  - [bzopen](function.bzopen.md) - Abre um arquivo comprimido com bzip2
+  - [bzread](function.bzread.md) - Leitura binária segura de arquivo bzip2
+  - [bzwrite](function.bzwrite.md) - Gravação binária segura em arquivo bzip2
+- c
+  - [CachingIterator::count](cachingiterator.count.md) - O número de elementos no iterador
+  - [CachingIterator::current](cachingiterator.current.md) - Retorna o elemento atual
+  - [CachingIterator::getCache](cachingiterator.getcache.md) - Recupera o conteúdo do cache
+  - [CachingIterator::getFlags](cachingiterator.getflags.md) - Obtém as opções utilizadas
+  - [CachingIterator::hasNext](cachingiterator.hasnext.md) - Verifica se o iterador interno possui um próximo elemento válido
+  - [CachingIterator::key](cachingiterator.key.md) - Retorna a chave para o elemento atual
+  - [CachingIterator::next](cachingiterator.next.md) - Move o iterador para frente
+  - [CachingIterator::offsetExists](cachingiterator.offsetexists.md) - O propósito do offsetExists
+  - [CachingIterator::offsetGet](cachingiterator.offsetget.md) - O propósito de offsetGet
+  - [CachingIterator::offsetSet](cachingiterator.offsetset.md) - O propósito do offsetSet
+  - [CachingIterator::offsetUnset](cachingiterator.offsetunset.md) - O objetivo do offsetUnset
+  - [CachingIterator::rewind](cachingiterator.rewind.md) - Rebobina o iterador
+  - [CachingIterator::setFlags](cachingiterator.setflags.md) - O propósito da função setFlags
+  - [CachingIterator::valid](cachingiterator.valid.md) - Verifica se o elemento atual é válido
+  - [CachingIterator::\_\_construct](cachingiterator.construct.md) - Constrói um novo objeto CachingIterator para o iterador
+  - [CachingIterator::\_\_toString](cachingiterator.tostring.md) - Retorna a representação em string do elemento atual
+  - [CallbackFilterIterator::accept](callbackfilteriterator.accept.md) - Chama o callback com o valor atual, a chave atual e o iterador interno como argumentos
+  - [CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.md) - Cria um iterador filtrado a partir de outro iterador
+  - [call\_user\_func](function.call-user-func.md) - Chama a função de retorno informada no primeiro parâmetro
+  - [call\_user\_func\_array](function.call-user-func-array.md) - Chama uma função de retorno com um array de parâmetros
+  - [cal\_days\_in\_month](function.cal-days-in-month.md) - Retorna o número de dias em um mês de um ano e calendário informados
+  - [cal\_from\_jd](function.cal-from-jd.md) - Converte de uma Contagem de Dias Julianos para um calendário suportado
+  - [cal\_info](function.cal-info.md) - Retorna informação sobre um calendário específico
+  - [cal\_to\_jd](function.cal-to-jd.md) - Converte de um calendário suportado para o calendário de Contagem de Dias Julianos
+  - [ceil](function.ceil.md) - Arredonda frações para cima
+  - [chdir](function.chdir.md) - Muda o diretório
+  - [checkdate](function.checkdate.md) - Valida uma data gregoriana
+  - [checkdnsrr](function.checkdnsrr.md) - Verifica os registros DNS correspondentes para o nome do host ou endereço IP informado
+  - [chgrp](function.chgrp.md) - Altera o grupo do arquivo
+  - [chmod](function.chmod.md) - Modifica as permissões do arquivo
+  - [chop](function.chop.md) - Sinônimo de rtrim
+  - [chown](function.chown.md) - Modifica o proprietário do arquivo
+  - [chr](function.chr.md) - Gera uma string de um byte a partir de um número
+  - [chroot](function.chroot.md) - Muda o diretório raiz
+  - [chunk\_split](function.chunk-split.md) - Divide uma string em pedaços menores
+  - [clamp](function.clamp.md) - Return the given value if in range, else return the nearest bound
+  - [class\_alias](function.class-alias.md) - Cria um apelido para uma classe
+  - [class\_exists](function.class-exists.md) - Verifica se uma classe foi definida
+  - [class\_implements](function.class-implements.md) - Retorna as interfaces que são implementadas pela classe ou interface fornecida
+  - [class\_parents](function.class-parents.md) - Retorna as classes pai da classe fornecida
+  - [class\_uses](function.class-uses.md) - Retorna os traits usados pela classe fornecida
+  - [clearstatcache](function.clearstatcache.md) - Limpa o cache de estado de arquivos
+  - [Client::getClient](mysql-xdevapi-client.getsession.md) - Obtém a sessão do cliente
+  - [Client::\_\_construct](mysql-xdevapi-client.construct.md) - Construtor de Client
+  - [cli\_get\_process\_title](function.cli-get-process-title.md) - Retorna o título do processo atual
+  - [cli\_set\_process\_title](function.cli-set-process-title.md) - Define o título do processo
+  - [closedir](function.closedir.md) - Fecha o manipulador do diretório
+  - [closelog](function.closelog.md) - Fecha conexão com o registrador do sistema
+  - [Closure::bind](closure.bind.md) - Duplica uma closure com um objeto vinculado e um escopo de classe
+  - [Closure::bindTo](closure.bindto.md) - Duplica a closure com um novo objeto vinculado e escopo de classe.
+  - [Closure::call](closure.call.md) - Vincula e chama a closure
+  - [Closure::fromCallable](closure.fromcallable.md) - Converte um chamável em uma closure
+  - [Closure::getCurrent](closure.getcurrent.md) - Retorna o closure em execução no momento
+  - [Closure::\_\_construct](closure.construct.md) - Construtor que desabilita a instanciação
+  - [Collator::asort](collator.asort.md) - Ordena array mantendo associação de índice
+  - [Collator::compare](collator.compare.md) - Compara duas strings Unicode
+  - [Collator::create](collator.create.md) - Cria um agrupador
+  - [Collator::getAttribute](collator.getattribute.md) - Obtém o valor de atributo de um agrupador
+  - [Collator::getErrorCode](collator.geterrorcode.md) - Obtém o último código de erro do agrupador
+  - [Collator::getErrorMessage](collator.geterrormessage.md) - Obtém o texto para o último código de erro do agrupador
+  - [Collator::getLocale](collator.getlocale.md) - Obtém o nome da localidade do agrupador
+  - [Collator::getSortKey](collator.getsortkey.md) - Obtém a chave de ordenação de uma string
+  - [Collator::getStrength](collator.getstrength.md) - Obtém a força atual de agrupamento
+  - [Collator::setAttribute](collator.setattribute.md) - Define atributo do agrupador
+  - [Collator::setStrength](collator.setstrength.md) - Define a força do agrupador
+  - [Collator::sort](collator.sort.md) - Ordena um array usando o agrupador especificado
+  - [Collator::sortWithSortKeys](collator.sortwithsortkeys.md) - Ordena um array usando agrupador e chaves de ordenação especificados
+  - [Collator::\_\_construct](collator.construct.md) - Cria um agrupador (Collator)
+  - [Collectable::isGarbage](collectable.isgarbage.md) - Determina se um objeto foi marcado como lixo
+  - [Collection::add](mysql-xdevapi-collection.add.md) - Adiciona um documento na coleção
+  - [Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.md) - Adiciona ou substitui um documento na coleção
+  - [Collection::count](mysql-xdevapi-collection.count.md) - Obtém a contagem de documentos
+  - [Collection::createIndex](mysql-xdevapi-collection.createindex.md) - Cria índice na coleção
+  - [Collection::dropIndex](mysql-xdevapi-collection.dropindex.md) - Remove um índice da coleção
+  - [Collection::existsInDatabase](mysql-xdevapi-collection.existsindatabase.md) - Verifica se uma coleção existe no banco de dados
+  - [Collection::find](mysql-xdevapi-collection.find.md) - Pesquisa por um documento
+  - [Collection::getName](mysql-xdevapi-collection.getname.md) - Obtém o nome da coleção
+  - [Collection::getOne](mysql-xdevapi-collection.getone.md) - Obtém um documento
+  - [Collection::getSchema](mysql-xdevapi-collection.getschema.md) - Obtém o objeto de esquema
+  - [Collection::getSession](mysql-xdevapi-collection.getsession.md) - Obtém o objeto de sessão
+  - [Collection::modify](mysql-xdevapi-collection.modify.md) - Modifica documentos da coleção
+  - [Collection::remove](mysql-xdevapi-collection.remove.md) - Remove documentos da coleção
+  - [Collection::removeOne](mysql-xdevapi-collection.removeone.md) - Remove um documento da coleção
+  - [Collection::replaceOne](mysql-xdevapi-collection.replaceone.md) - Substitui um documento na coleção
+  - [Collection::\_\_construct](mysql-xdevapi-collection.construct.md) - Construtor de Collection
+  - [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.md) - Executa a instrução
+  - [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.md) - Construtor de CollectionAdd
+  - [CollectionFind::bind](mysql-xdevapi-collectionfind.bind.md) - Vincula valor a marcador na consulta
+  - [CollectionFind::execute](mysql-xdevapi-collectionfind.execute.md) - Executa a instrução
+  - [CollectionFind::fields](mysql-xdevapi-collectionfind.fields.md) - Define filtro de campo de documento
+  - [CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.md) - Define critérios de agrupamento
+  - [CollectionFind::having](mysql-xdevapi-collectionfind.having.md) - Define condição para funções de agregação
+  - [CollectionFind::limit](mysql-xdevapi-collectionfind.limit.md) - Limita o número de documentos retornados
+  - [CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.md) - Executa a operação com EXCLUSIVE LOCK
+  - [CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.md) - Executa a operação com SHARED LOCK
+  - [CollectionFind::offset](mysql-xdevapi-collectionfind.offset.md) - Pula um número de elementos a serem retornados
+  - [CollectionFind::sort](mysql-xdevapi-collectionfind.sort.md) - Define os critérios de ordenação
+  - [CollectionFind::\_\_construct](mysql-xdevapi-collectionfind.construct.md) - Construtor de CollectionFind
+  - [CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.md) - Anexa elemento a um array de campos
+  - [CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.md) - Insere elemento em um array de campos
+  - [CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.md) - Vincula valor ao marcador da consulta
+  - [CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.md) - Executa operação de modificação
+  - [CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.md) - Limita o número de documentos modificados
+  - [CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.md) - Corrige documento
+  - [CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md) - Substitui campo de documento
+  - [CollectionModify::set](mysql-xdevapi-collectionmodify.set.md) - Define atributo de documento
+  - [CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.md) - Pula elementos
+  - [CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.md) - Define os critérios de ordenação
+  - [CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.md) - Remove o valor de campos do documento
+  - [CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.md) - Construtor de CollectionModify
+  - [CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.md) - Vincula valor ao marcador
+  - [CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.md) - Executa operação de remoção
+  - [CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.md) - Limita o número de documentos a remover
+  - [CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.md) - Define os critérios de ordenação
+  - [CollectionRemove::\_\_construct](mysql-xdevapi-collectionremove.construct.md) - Construtor de CollectionRemove
+  - [ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.md) - Obtém o conjunto de caracteres
+  - [ColumnResult::getCollationName](mysql-xdevapi-columnresult.getcollationname.md) - Obtém o nome da colação
+  - [ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.md) - Obtém o label da coluna
+  - [ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.md) - Obtém o nome da coluna
+  - [ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.md) - Obtém o comprimento dos dígitos fracionários
+  - [ColumnResult::getLength](mysql-xdevapi-columnresult.getlength.md) - Obtém o comprimento do campo da coluna
+  - [ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.md) - Obtám o nome do esquema
+  - [ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.md) - Obtém o label da tabela
+  - [ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.md) - Obtém o nome da tabela
+  - [ColumnResult::getType](mysql-xdevapi-columnresult.gettype.md) - Obtém o tipo de coluna
+  - [ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.md) - Verifica se é do tipo com sinal
+  - [ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.md) - Verifica se é preenchida à esquerda
+  - [ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.md) - Construtor de ColumnResult
+  - [com::\_\_construct](com.construct.md) - Construtor da classe com
+  - [CommonMark\CQL::\_\_construct](commonmark-cql.construct.md) - Construção CQL
+  - [CommonMark\CQL::\_\_invoke](commonmark-cql.invoke.md) - Execução CQL
+  - [CommonMark\Interfaces\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md) - Visitação
+  - [CommonMark\Interfaces\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md) - Visitação
+  - [CommonMark\Interfaces\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md) - Visitação
+  - [CommonMark\Node::accept](commonmark-node.accept.md) - Visitação
+  - [CommonMark\Node::appendChild](commonmark-node.appendchild.md) - Manipulação AST
+  - [CommonMark\Node::insertAfter](commonmark-node.insertafter.md) - Manipulação AST
+  - [CommonMark\Node::insertBefore](commonmark-node.insertbefore.md) - Manipulação AST
+  - [CommonMark\Node::prependChild](commonmark-node.prependchild.md) - Manipulação AST
+  - [CommonMark\Node::replace](commonmark-node.replace.md) - Manipulação AST
+  - [CommonMark\Node::unlink](commonmark-node.unlink.md) - Manipulação AST
+  - [CommonMark\Node\BulletList::\_\_construct](commonmark-node-bulletlist.construct.md) - Construção de BulletList
+  - [CommonMark\Node\CodeBlock::\_\_construct](commonmark-node-codeblock.construct.md) - Construção de CodeBlock
+  - [CommonMark\Node\Heading::\_\_construct](commonmark-node-heading.construct.md) - Construção de Heading
+  - [CommonMark\Node\Image::\_\_construct](commonmark-node-image.construct.md) - Construção de Image
+  - [CommonMark\Node\Link::\_\_construct](commonmark-node-link.construct.md) - Construção de Link
+  - [CommonMark\Node\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.md) - Construção de OrderedList
+  - [CommonMark\Node\Text::\_\_construct](commonmark-node-text.construct.md) - Construção de Text
+  - [CommonMark\Parse](function.commonmark-parse.md) - Análise
+  - [CommonMark\Parser::finish](commonmark-parser.finish.md) - Análise
+  - [CommonMark\Parser::parse](commonmark-parser.parse.md) - Análise
+  - [CommonMark\Parser::\_\_construct](commonmark-parser.construct.md) - Análise
+  - [CommonMark\Render](function.commonmark-render.md) - Renderização
+  - [CommonMark\Render\HTML](function.commonmark-render-html.md) - Renderização
+  - [CommonMark\Render\Latex](function.commonmark-render-latex.md) - Renderização
+  - [CommonMark\Render\Man](function.commonmark-render-man.md) - Renderização
+  - [CommonMark\Render\XML](function.commonmark-render-xml.md) - Renderização
+  - [compact](function.compact.md) - Cria um array contendo variáveis e seus valores
+  - [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md) - Obtém o nome do arquivo atual
+  - [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md) - Obtém o tamanho máximo do fluxo
+  - [COMPersistHelper::InitNew](compersisthelper.initnew.md) - Inicializa o objeto no estado padrão
+  - [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md) - Carrega objeto de um arquivo
+  - [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md) - Carrega objeto a partir de um fluxo
+  - [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md) - Grava o objeto em um arquivo
+  - [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md) - Grava o objeto no fluxo
+  - [COMPersistHelper::\_\_construct](compersisthelper.construct.md) - Constrói um objeto COMPersistHelper
+  - [Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md) - Adiciona Interface
+  - [Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md) - Adiciona método
+  - [Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md) - Adiciona Trait
+  - [Componere\Abstract\Definition::getReflector](componere-abstract-definition.getreflector.md) - Cria ou obtém uma reflexão
+  - [Componere\cast](componere.cast.md) - Conversão
+  - [Componere\cast\_by\_ref](componere.cast_by_ref.md) - Conversão
+  - [Componere\Definition::addConstant](componere-definition.addconstant.md) - Adiciona constante
+  - [Componere\Definition::addProperty](componere-definition.addproperty.md) - Adiciona propriedade
+  - [Componere\Definition::getClosure](componere-definition.getclosure.md) - Obtém Closure
+  - [Componere\Definition::getClosures](componere-definition.getclosures.md) - Obtém Closures
+  - [Componere\Definition::isRegistered](componere-definition.isregistered.md) - Detecção de estado
+  - [Componere\Definition::register](componere-definition.register.md) - Registro
+  - [Componere\Definition::\_\_construct](componere-definition.construct.md) - Construção da definição
+  - [Componere\Method::getReflector](componere-method.getreflector.md) - Cria ou obtém Reflexão
+  - [Componere\Method::setPrivate](componere-method.setprivate.md) - Modificação de acessibilidade
+  - [Componere\Method::setProtected](componere-method.setprotected.md) - Modificação de acessibilidade
+  - [Componere\Method::setStatic](componere-method.setstatic.md) - Modificação de acessibilidade
+  - [Componere\Method::\_\_construct](componere-method.construct.md) - Construção de método
+  - [Componere\Patch::apply](componere-patch.apply.md) - Aplica o patch
+  - [Componere\Patch::derive](componere-patch.derive.md) - Derivaçaõ de Patch
+  - [Componere\Patch::getClosure](componere-patch.getclosure.md) - Obtém Closure
+  - [Componere\Patch::getClosures](componere-patch.getclosures.md) - Obtém Closures
+  - [Componere\Patch::isApplied](componere-patch.isapplied.md) - Definição de estado
+  - [Componere\Patch::revert](componere-patch.revert.md) - Reversão
+  - [Componere\Patch::\_\_construct](componere-patch.construct.md) - Construção de Patch
+  - [Componere\Value::hasDefault](componere-value.hasdefault.md) - Intereção de Valor
+  - [Componere\Value::isPrivate](componere-value.isprivate.md) - Detecção de acessibilidade
+  - [Componere\Value::isProtected](componere-value.isprotected.md) - Detecção de acessibilidade
+  - [Componere\Value::isStatic](componere-value.isstatic.md) - Detecção de acessibilidade
+  - [Componere\Value::setPrivate](componere-value.setprivate.md) - Modificação de acessibilidade
+  - [Componere\Value::setProtected](componere-value.setprotected.md) - Modificação de acessibilidade
+  - [Componere\Value::setStatic](componere-value.setstatic.md) - Modificação de acessibilidade
+  - [Componere\Value::\_\_construct](componere-value.construct.md) - Construção de Valor
+  - [com\_create\_guid](function.com-create-guid.md) - Gera um identificador único global (GUID)
+  - [com\_event\_sink](function.com-event-sink.md) - Conecta eventos de um objeto COM a um objeto PHP
+  - [com\_get\_active\_object](function.com-get-active-object.md) - Retorna um identificador para uma instância já em execução de um objeto COM
+  - [com\_load\_typelib](function.com-load-typelib.md) - Carrega uma biblioteca de tipos
+  - [com\_message\_pump](function.com-message-pump.md) - Processa mensagens COM, aguardando por um tempo limite
+  - [com\_print\_typeinfo](function.com-print-typeinfo.md) - Mostra uma definição de classe PHP para uma interface despachável
+  - [connection\_aborted](function.connection-aborted.md) - Verifica se o cliente está desconectado
+  - [connection\_status](function.connection-status.md) - Retorna o campo de bits do estado da conexão
+  - [constant](function.constant.md) - Retorna o valor de uma constante
+  - [convert\_cyr\_string](function.convert-cyr-string.md) - Converte de um conjunto de caracteres cirílico para outro
+  - [convert\_uudecode](function.convert-uudecode.md) - Decodifica uma string codificada com uuencode
+  - [convert\_uuencode](function.convert-uuencode.md) - Codifica uma string com uuencode
+  - [copy](function.copy.md) - Copia arquivo
+  - [cos](function.cos.md) - Cosseno
+  - [cosh](function.cosh.md) - Cosseno hiperbólico
+  - [count](function.count.md) - Conta todos os elementos de um array ou de um objeto Countable
+  - [Countable::count](countable.count.md) - Conta elementos de um objeto
+  - [count\_chars](function.count-chars.md) - Retorna informação sobre caracteres usados em uma string
+  - [crc32](function.crc32.md) - Calcula polinômio crc32 de uma string
+  - [create\_function](function.create-function.md) - Cria uma função dinamicamente avaliando uma string de código
+  - [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.md) - Vincula valor ao marcador
+  - [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md) - Define o limite do resultado
+  - [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md) - Número de operações a pular
+  - [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md) - Ordena resultados
+  - [crypt](function.crypt.md) - Hash unidirecional de string
+  - [crypt\_checksalt](function.crypt-checksalt.md) - Valida uma string de configuração de criptografia
+  - [crypt\_gensalt](function.crypt-gensalt.md) - Compila uma string para uso como argumento salt para crypt
+  - [crypt\_preferred\_method](function.crypt-preferred-method.md) - Obtém o prefixo do método de hash preferido
+  - [ctype\_alnum](function.ctype-alnum.md) - Verifica se os caracteres são alfanuméricos
+  - [ctype\_alpha](function.ctype-alpha.md) - Verifica se os caracteres são alfabéticos
+  - [ctype\_cntrl](function.ctype-cntrl.md) - Verifica se os caracteres são de controle
+  - [ctype\_digit](function.ctype-digit.md) - Verifica se os caracteres são numéricos
+  - [ctype\_graph](function.ctype-graph.md) - Verifica se os caracteres são imprimíveis exceto espaço
+  - [ctype\_lower](function.ctype-lower.md) - Verifica se os caracteres são minúsculos
+  - [ctype\_print](function.ctype-print.md) - Verifica se os caracteres são imprimíveis
+  - [ctype\_punct](function.ctype-punct.md) - Verifica se é um caractere imprimível que não é um caractere de espaço ou
+    alfanumério
+  - [ctype\_space](function.ctype-space.md) - Verifica se os caracteres são espaço em branco
+  - [ctype\_upper](function.ctype-upper.md) - Verifica se os caracteres são maiúsculos
+  - [ctype\_xdigit](function.ctype-xdigit.md) - Verifica se os caracteres representam um dígito hexadecimal
+  - [cubrid\_affected\_rows](function.cubrid-affected-rows.md) - Retorna o número de linhas afetadas pela última instrução SQL
+  - [cubrid\_bind](function.cubrid-bind.md) - Vincula variáveis a instruções preparadas como parâmetros
+  - [cubrid\_client\_encoding](function.cubrid-client-encoding.md) - Retorna o conjunto de caracteres de conexão CUBRID atual
+  - [cubrid\_close](function.cubrid-close.md) - Fecha conexão CUBRID
+  - [cubrid\_close\_prepare](function.cubrid-close-prepare.md) - Fecha o identificador de requisição
+  - [cubrid\_close\_request](function.cubrid-close-request.md) - Fecha o identificador de requisição
+  - [cubrid\_column\_names](function.cubrid-column-names.md) - Obtém nomes de colunas no resultado
+  - [cubrid\_column\_types](function.cubrid-column-types.md) - Obtém tipos de colunas no resultado
+  - [cubrid\_col\_get](function.cubrid-col-get.md) - Obtém conteúdo de coluna tipo coleção usando OID
+  - [cubrid\_col\_size](function.cubrid-col-size.md) - Obtém o número de elementos de coluna tipo coleção usando OID
+  - [cubrid\_commit](function.cubrid-commit.md) - Confirma uma transação
+  - [cubrid\_connect](function.cubrid-connect.md) - Abre uma conexão a um servidor CUBRID
+  - [cubrid\_connect\_with\_url](function.cubrid-connect-with-url.md) - Prepara o ambiente para conexão ao servidor CUBRID
+  - [cubrid\_current\_oid](function.cubrid-current-oid.md) - Obtém o OID da posição atual do cursor
+  - [cubrid\_data\_seek](function.cubrid-data-seek.md) - Move o ponteiro de linha interno do resultado CUBRID
+  - [cubrid\_db\_name](function.cubrid-db-name.md) - Obtém o nome do banco de dados dos resultados de cubrid\_list\_dbs
+  - [cubrid\_disconnect](function.cubrid-disconnect.md) - Fecha uma conexão ao banco de dados
+  - [cubrid\_drop](function.cubrid-drop.md) - Remove uma instância usando OID
+  - [cubrid\_errno](function.cubrid-errno.md) - Retorna o valor numérico da mensagem de erro da operação CUBRID anterior
+  - [cubrid\_error](function.cubrid-error.md) - Obtém a mensagem de erro
+  - [cubrid\_error\_code](function.cubrid-error-code.md) - Obtém código de erro para a chamada de função mais recente
+  - [cubrid\_error\_code\_facility](function.cubrid-error-code-facility.md) - Obtém o código do módulo do erro
+  - [cubrid\_error\_msg](function.cubrid-error-msg.md) - Obtém mensagem de erro da chamada de função mais recente
+  - [cubrid\_execute](function.cubrid-execute.md) - Executa uma instrução preparada SQL
+  - [cubrid\_fetch](function.cubrid-fetch.md) - Busca a próxima linha do conjunto de resultados
+  - [cubrid\_fetch\_array](function.cubrid-fetch-array.md) - Busca uma linha de resultado como um array associativo, numérico ou ambos
+  - [cubrid\_fetch\_assoc](function.cubrid-fetch-assoc.md) - Retorna o array associativo que corresponde à linha buscada
+  - [cubrid\_fetch\_field](function.cubrid-fetch-field.md) - Obtém informações da coluna de um resultado e retorna como um objeto
+  - [cubrid\_fetch\_lengths](function.cubrid-fetch-lengths.md) - Retorna um array com os comprimentos dos valores de cada campo da linha atual
+  - [cubrid\_fetch\_object](function.cubrid-fetch-object.md) - Busca a próxima linha e retorna-a como um objeto
+  - [cubrid\_fetch\_row](function.cubrid-fetch-row.md) - Retorna um array numérico com os valores da linha atual
+  - [cubrid\_field\_flags](function.cubrid-field-flags.md) - Retorna uma string com as opções do campo informado pela posição
+  - [cubrid\_field\_len](function.cubrid-field-len.md) - Obtém o comprimento máximo do campo especificado
+  - [cubrid\_field\_name](function.cubrid-field-name.md) - Retorna o nome do índice do campo especificado
+  - [cubrid\_field\_seek](function.cubrid-field-seek.md) - Move o cursor do conjunto de resultados para a posição de campo especificada
+  - [cubrid\_field\_table](function.cubrid-field-table.md) - Retorna o nome da tabela do campo especificado
+  - [cubrid\_field\_type](function.cubrid-field-type.md) - Retorna o tipo da coluna correspondente ao campo da posição informada
+  - [cubrid\_free\_result](function.cubrid-free-result.md) - Libera a memória ocupada pelos dados do resultado
+  - [cubrid\_get](function.cubrid-get.md) - Obtém um atributo usando OID
+  - [cubrid\_get\_autocommit](function.cubrid-get-autocommit.md) - Obtém o modo de auto-confirmação da conexão
+  - [cubrid\_get\_charset](function.cubrid-get-charset.md) - Retorna o conjunto de caracteres da conexão CUBRID atual
+  - [cubrid\_get\_class\_name](function.cubrid-get-class-name.md) - Obtém o nome da classe usando OID
+  - [cubrid\_get\_client\_info](function.cubrid-get-client-info.md) - Retorna a versão da biblioteca cliente
+  - [cubrid\_get\_db\_parameter](function.cubrid-get-db-parameter.md) - Retorna os parâmetros do banco de dados CUBRID
+  - [cubrid\_get\_query\_timeout](function.cubrid-get-query-timeout.md) - Obtém o tempo limite de consulta para a requisição
+  - [cubrid\_get\_server\_info](function.cubrid-get-server-info.md) - Retorna a versão do servidor CUBRID
+  - [cubrid\_insert\_id](function.cubrid-insert-id.md) - Retorna o ID gerado pela última coluna AUTO\_INCREMENT atualizada
+  - [cubrid\_is\_instance](function.cubrid-is-instance.md) - Verifica se a instância apontada pelo OID existe
+  - [cubrid\_list\_dbs](function.cubrid-list-dbs.md) - Retorna um array com a lista de todos os bancos de dados CUBRID existentes
+  - [cubrid\_load\_from\_glo](function.cubrid-load-from-glo.md) - Lê dados de uma instância GLO e grava-os em um arquivo
+  - [cubrid\_lob2\_bind](function.cubrid-lob2-bind.md) - Vincula um objeto LOB ou uma string como objeto LOB a uma instrução preparada como parâmetros
+  - [cubrid\_lob2\_close](function.cubrid-lob2-close.md) - Fecha objeto LOB
+  - [cubrid\_lob2\_export](function.cubrid-lob2-export.md) - Exporta o objeto LOB para um arquivo
+  - [cubrid\_lob2\_import](function.cubrid-lob2-import.md) - Importa dados BLOB/CLOB de um arquivo
+  - [cubrid\_lob2\_new](function.cubrid-lob2-new.md) - Cria um objeto LOB
+  - [cubrid\_lob2\_read](function.cubrid-lob2-read.md) - Lê bytes de dados BLOB/CLOB
+  - [cubrid\_lob2\_seek](function.cubrid-lob2-seek.md) - Move o cursor de um objeto LOB
+  - [cubrid\_lob2\_seek64](function.cubrid-lob2-seek64.md) - Move o cursor de um objeto LOB
+  - [cubrid\_lob2\_size](function.cubrid-lob2-size.md) - Obtém o tamanho do objeto LOB
+  - [cubrid\_lob2\_size64](function.cubrid-lob2-size64.md) - Obtém o tamanho do objeto LOB
+  - [cubrid\_lob2\_tell](function.cubrid-lob2-tell.md) - Informa a posição do cursor do objeto LOB
+  - [cubrid\_lob2\_tell64](function.cubrid-lob2-tell64.md) - Informa a posição do cursor do objeto LOB
+  - [cubrid\_lob2\_write](function.cubrid-lob2-write.md) - Escreve em um objeto LOB
+  - [cubrid\_lob\_close](function.cubrid-lob-close.md) - Fecha os dados BLOB/CLOB
+  - [cubrid\_lob\_export](function.cubrid-lob-export.md) - Exporta dados BLOB/CLOB para um arquivo
+  - [cubrid\_lob\_get](function.cubrid-lob-get.md) - Obtém dados BLOB/CLOB
+  - [cubrid\_lob\_send](function.cubrid-lob-send.md) - Lê dados BLOB/CLOB e envia direto ao navegador
+  - [cubrid\_lob\_size](function.cubrid-lob-size.md) - Obtém o tamanho dos dados BLOB/CLOB
+  - [cubrid\_lock\_read](function.cubrid-lock-read.md) - Define uma trava de leitura em um OID informado
+  - [cubrid\_lock\_write](function.cubrid-lock-write.md) - Define uma trava de escrita em um OID informado
+  - [cubrid\_move\_cursor](function.cubrid-move-cursor.md) - Move o cursor no resultado
+  - [cubrid\_new\_glo](function.cubrid-new-glo.md) - Cria uma instância GLO
+  - [cubrid\_next\_result](function.cubrid-next-result.md) - Obtém o resultado da próxima consulta quando múltiplas instruções SQL estão sendo executadas
+  - [cubrid\_num\_cols](function.cubrid-num-cols.md) - Retorna o número de colunas no resultado
+  - [cubrid\_num\_fields](function.cubrid-num-fields.md) - Retorna o número de colunas no conjunto de resultados
+  - [cubrid\_num\_rows](function.cubrid-num-rows.md) - Obtém o número de linhas no resultado
+  - [cubrid\_pconnect](function.cubrid-pconnect.md) - Abre uma conexão persistente a um servidor CUBRID
+  - [cubrid\_pconnect\_with\_url](function.cubrid-pconnect-with-url.md) - Abre uma conexão persistente com o servidor CUBRID
+  - [cubrid\_ping](function.cubrid-ping.md) - Verifica atividade em uma conexão ao servidor ou reconecta se não houver conexão
+  - [cubrid\_prepare](function.cubrid-prepare.md) - Prepara uma instrução SQL para execução
+  - [cubrid\_put](function.cubrid-put.md) - Atualiza uma coluna usando OID
+  - [cubrid\_query](function.cubrid-query.md) - Envia uma consulta CUBRID
+  - [cubrid\_real\_escape\_string](function.cubrid-real-escape-string.md) - Escapa caracteres especiais em uma string para uso em uma instrução SQL
+  - [cubrid\_result](function.cubrid-result.md) - Retorna o valor de um campo específico em uma linha específica
+  - [cubrid\_rollback](function.cubrid-rollback.md) - Reverte uma transação
+  - [cubrid\_save\_to\_glo](function.cubrid-save-to-glo.md) - Grava o arquivo solicitado em uma instância GLO
+  - [cubrid\_schema](function.cubrid-schema.md) - Obtém informação do esquema solicitado
+  - [cubrid\_send\_glo](function.cubrid-send-glo.md) - Lê dados de uma instância GLO e envia-os à saída padrão
+  - [cubrid\_seq\_drop](function.cubrid-seq-drop.md) - Remove um elemento de coluna tipo sequência usando OID
+  - [cubrid\_seq\_insert](function.cubrid-seq-insert.md) - Insere um elemento em uma coluna tipo sequência usando OID
+  - [cubrid\_seq\_put](function.cubrid-seq-put.md) - Atualiza o valor do elemento de coluna tipo sequência usando OID
+  - [cubrid\_set\_add](function.cubrid-set-add.md) - Insere um único elemento a uma coluna tipo conjunto usando OID
+  - [cubrid\_set\_autocommit](function.cubrid-set-autocommit.md) - Define o modo de auto-confirmação da conexão
+  - [cubrid\_set\_db\_parameter](function.cubrid-set-db-parameter.md) - Define os parâmetros do banco de dados CUBRID
+  - [cubrid\_set\_drop](function.cubrid-set-drop.md) - Remove um elemento da coluna tipo conjunto usando OID
+  - [cubrid\_set\_query\_timeout](function.cubrid-set-query-timeout.md) - Define o tempo limite de execução de consulta
+  - [cubrid\_unbuffered\_query](function.cubrid-unbuffered-query.md) - Execute uma consulta sem buscar os resultados para a memória
+  - [cubrid\_version](function.cubrid-version.md) - Obtém a versão do módulo do CUBRID PHP
+  - [CURLFile::getFilename](curlfile.getfilename.md) - Obtém o nome do arquivo
+  - [CURLFile::getMimeType](curlfile.getmimetype.md) - Obtém o tipo de mídia
+  - [CURLFile::getPostFilename](curlfile.getpostfilename.md) - Obtém o nome do arquivo para requisição POST
+  - [CURLFile::setMimeType](curlfile.setmimetype.md) - Define o tipo de mídia
+  - [CURLFile::setPostFilename](curlfile.setpostfilename.md) - Define o nome do arquivo para a requisição POST
+  - [CURLFile::\_\_construct](curlfile.construct.md) - Cria um objeto CURLFile
+  - [CURLStringFile::\_\_construct](curlstringfile.construct.md) - Cria um objeto CURLStringFile
+  - [curl\_close](function.curl-close.md) - Fecha uma sessão cURL
+  - [curl\_copy\_handle](function.curl-copy-handle.md) - Copia um identificador cURL com todas as suas opções
+  - [curl\_errno](function.curl-errno.md) - Retorna o número do último erro
+  - [curl\_error](function.curl-error.md) - Retorna uma string contendo o último erro da sessão atual
+  - [curl\_escape](function.curl-escape.md) - Codifica uma string para o formato URL
+  - [curl\_exec](function.curl-exec.md) - Executa uma sessão cURL
+  - [curl\_getinfo](function.curl-getinfo.md) - Obtém informação sobre uma transferência específica
+  - [curl\_init](function.curl-init.md) - Inicializa uma sessão cURL
+  - [curl\_multi\_add\_handle](function.curl-multi-add-handle.md) - Adiciona um identificador cURL comum a um multi-identificador cURL
+  - [curl\_multi\_close](function.curl-multi-close.md) - Remove todos os identificadores cURL de um multi-identificador
+  - [curl\_multi\_errno](function.curl-multi-errno.md) - Retorna o último número de erro de curl\_multi
+  - [curl\_multi\_exec](function.curl-multi-exec.md) - Executa as subconexões do identificador cURL atual
+  - [curl\_multi\_getcontent](function.curl-multi-getcontent.md) - Retorna o conteúdo de um identificador cURL se CURLOPT\_RETURNTRANSFER estiver definido
+  - [curl\_multi\_get\_handles](function.curl-multi-get-handles.md) - Return an array of CurlHandle objects currently attached to a CurlMultiHandle
+  - [curl\_multi\_info\_read](function.curl-multi-info-read.md) - Obtém informação sobre as transferências atuais
+  - [curl\_multi\_init](function.curl-multi-init.md) - Retorna um multi-identificador cURL
+  - [curl\_multi\_remove\_handle](function.curl-multi-remove-handle.md) - Remove um identificador de um conjunto de identificadores cURL
+  - [curl\_multi\_select](function.curl-multi-select.md) - Aguarda até que leitura ou escrita seja possível em qualquer conexão multi-identificadores cURL
+  - [curl\_multi\_setopt](function.curl-multi-setopt.md) - Define múltiplas opções para cURL
+  - [curl\_multi\_strerror](function.curl-multi-strerror.md) - Retorna uma string que descreve o código de erro
+  - [curl\_pause](function.curl-pause.md) - Pausa ou continua uma conexão
+  - [curl\_reset](function.curl-reset.md) - Redefine todas as opções de um identificador de sessão libcurl
+  - [curl\_setopt](function.curl-setopt.md) - Define uma opção para uma transferência cURL
+  - [curl\_setopt\_array](function.curl-setopt-array.md) - Define múltiplas opções para uma transferência cURL
+  - [curl\_share\_close](function.curl-share-close.md) - Fecha um identificador de compartilhamento de cURL
+  - [curl\_share\_errno](function.curl-share-errno.md) - Retorna o último número de erro do curl compartilhado
+  - [curl\_share\_init](function.curl-share-init.md) - Inicializa um identificador de compartilhamento de cURL
+  - [curl\_share\_init\_persistent](function.curl-share-init-persistent.md) - Inicializa um identificador compartilhado cURL persistente
+  - [curl\_share\_setopt](function.curl-share-setopt.md) - Configura uma opção para um identificador de compartilhamento cURL
+  - [curl\_share\_strerror](function.curl-share-strerror.md) - Retorna uma string descrevendo o código de erro fornecido
+  - [curl\_strerror](function.curl-strerror.md) - Retorna uma string que descreve o código de erro informado
+  - [curl\_unescape](function.curl-unescape.md) - Decodifica a parte codificada da URL fornecida
+  - [curl\_upkeep](function.curl_upkeep.md) - Executa qualquer verificação de manutenção de conexão
+  - [curl\_version](function.curl-version.md) - Obtém informação de versão do cURL
+  - [current](function.current.md) - Retorna o elemento atual em um array
+- d
+  - [DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md) - Verifica se um objeto existe em um banco de dados
+  - [DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md) - Obtém o nome do objeto
+  - [DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md) - Obtém o nome da sessão
+  - [date](function.date.md) - Formata um timestamp Unix
+  - [DateInterval::createFromDateString](dateinterval.createfromdatestring.md) - Cria um DateInterval de porções relativas da string
+  - [DateInterval::format](dateinterval.format.md) - Formata um intervalo
+  - [DateInterval::\_\_construct](dateinterval.construct.md) - Cria um novo objeto DateInterval
+  - [DatePeriod::createFromISO8601String](dateperiod.createfromiso8601string.md) - Cria um novo objeto DatePeriod a partir de uma string ISO8601
+  - [DatePeriod::getDateInterval](dateperiod.getdateinterval.md) - Obtém o intervalo
+  - [DatePeriod::getEndDate](dateperiod.getenddate.md) - Obtém a data final
+  - [DatePeriod::getRecurrences](dateperiod.getrecurrences.md) - Obtém o número de recorrências
+  - [DatePeriod::getStartDate](dateperiod.getstartdate.md) - Obtém a data inicial
+  - [DatePeriod::\_\_construct](dateperiod.construct.md) - Cria um novo objeto DatePeriod
+  - [DateTime::add](datetime.add.md) - Modifica um objeto DateTime, com adição de dias, meses, anos, horas, minutos e segundos.
+  - [DateTime::createFromFormat](datetime.createfromformat.md) - Interpreta um string de data/horário de acordo com um formato especificado.
+  - [DateTime::createFromImmutable](datetime.createfromimmutable.md) - Retorna uma nova instância de DateTime encapsulando o objeto DateTimeImmutable informado
+  - [DateTime::createFromInterface](datetime.createfrominterface.md) - Retorna um novo objeto DateTime encapsulando o objeto DateTimeInterface informado
+  - [DateTime::createFromTimestamp](datetime.createfromtimestamp.md) - Cria uma instância a partir de um timestamp Unix
+  - [DateTime::getLastErrors](datetime.getlasterrors.md) - Sinônimo de DateTimeImmutable::getLastErrors
+  - [DateTime::modify](datetime.modify.md) - Altera o timestamp
+  - [DateTime::setDate](datetime.setdate.md) - Define a data
+  - [DateTime::setISODate](datetime.setisodate.md) - Define uma data ISO
+  - [DateTime::setMicrosecond](datetime.setmicrosecond.md) - Define a parte de microssegundos do horário
+  - [DateTime::setTime](datetime.settime.md) - Define o horário
+  - [DateTime::setTimestamp](datetime.settimestamp.md) - Define a data e hora baseada em um timestamp Unix
+  - [DateTime::setTimezone](datetime.settimezone.md) - Define o fuso horário de um objeto DateTime
+  - [DateTime::sub](datetime.sub.md) - Subtrai uma quantidade de dias, meses, anos, horas, minutos e segundos de
+    um objeto DateTime
+  - [DateTime::\_\_construct](datetime.construct.md) - Retorna um novo objeto DateTime
+  - [DateTime::\_\_serialize](datetime.serialize.md) - Serializa um DateTime
+  - [DateTime::\_\_set\_state](datetime.set-state.md) - O manipulador \_\_set\_state
+  - [DateTime::\_\_unserialize](datetime.unserialize.md) - Desserializa um Datetime
+  - [DateTime::\_\_wakeup](datetime.wakeup.md) - O manipulador \_\_wakeup
+  - [DateTimeImmutable::add](datetimeimmutable.add.md) - Retorna um novo objeto, com adição de dias, meses, anos, horas, minutos e segundos
+  - [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md) - Interpreta um string de data/horário de acordo com o formato especificado
+  - [DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md) - Retorna um novo objeto DateTimeImmutable encapsulando o objeto DateTimeInterface informado
+  - [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md) - Retorna uma nova instância DateTimeImmutable que encapsula um objeto DateTime informado
+  - [DateTimeImmutable::createFromTimestamp](datetimeimmutable.createfromtimestamp.md) - Cria uma instância a partir de um timestamp Unix
+  - [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md) - Retorna os avisos e erros
+  - [DateTimeImmutable::modify](datetimeimmutable.modify.md) - Cria um novo objeto com seu timestamp modificado
+  - [DateTimeImmutable::setDate](datetimeimmutable.setdate.md) - Define a data
+  - [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md) - Define a data ISO
+  - [DateTimeImmutable::setMicrosecond](datetimeimmutable.setmicrosecond.md) - Define a parte de microssegundos do horário
+  - [DateTimeImmutable::setTime](datetimeimmutable.settime.md) - Define um horário
+  - [DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md) - Define a data e o horário com base em um timestamp Unix
+  - [DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md) - Define o fuso horário
+  - [DateTimeImmutable::sub](datetimeimmutable.sub.md) - Subtrai uma quantidade de dias, meses, anos, horas, minutos e segundos
+  - [DateTimeImmutable::\_\_construct](datetimeimmutable.construct.md) - Retorna um novo objeto DateTimeImmutable
+  - [DateTimeImmutable::\_\_set\_state](datetimeimmutable.set-state.md) - O manipulador \_\_set\_state
+  - [DateTimeInterface::diff](datetime.diff.md) - Retorna a diferença entre dois objetos DateTime
+  - [DateTimeInterface::format](datetime.format.md) - Retorna a data formatada de acordo com um formato informado
+  - [DateTimeInterface::getMicrosecond](datetimeinterface.getmicrosecond.md) - Obtém a parte de microssegundos do timestamp Unix
+  - [DateTimeInterface::getOffset](datetime.getoffset.md) - Retorna o deslocamento do fuso horário
+  - [DateTimeInterface::getTimestamp](datetime.gettimestamp.md) - Obtém o timestamp Unix
+  - [DateTimeInterface::getTimezone](datetime.gettimezone.md) - Retorna o fuso horário correspondente a um DateTime informado
+  - [DateTimeZone::getLocation](datetimezone.getlocation.md) - Retorna informações da localização de um fuso horário
+  - [DateTimeZone::getName](datetimezone.getname.md) - Retorna o nome do fuso horário
+  - [DateTimeZone::getOffset](datetimezone.getoffset.md) - Retorna o deslocamento do fuso horário em relação ao GMT
+  - [DateTimeZone::getTransitions](datetimezone.gettransitions.md) - Retorna todas as transições para o fuso horário
+  - [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md) - Retorna um array associativo contendo indicativo de horário de verão, deslocamento e nome do fuso horário
+  - [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md) - Retorna um array numericamente indexado contendo todos os indenticadores de fuso horário
+  - [DateTimeZone::\_\_construct](datetimezone.construct.md) - Cria um novo objeto DateTimeZone
+  - [date\_add](function.date-add.md) - Sinônimo de DateTime::add
+  - [date\_create](function.date-create.md) - Cria um novo objeto DateTime
+  - [date\_create\_from\_format](function.date-create-from-format.md) - Sinônimo de DateTime::createFromFormat
+  - [date\_create\_immutable](function.date-create-immutable.md) - Cria um novo objeto DateTimeImmutable
+  - [date\_create\_immutable\_from\_format](function.date-create-immutable-from-format.md) - Sinônimo de DateTimeImmutable::createFromFormat
+  - [date\_date\_set](function.date-date-set.md) - Sinônimo de DateTime::setDate
+  - [date\_default\_timezone\_get](function.date-default-timezone-get.md) - Retorna o fuso horário padrão usado por todas as funções de data/horário em um script
+  - [date\_default\_timezone\_set](function.date-default-timezone-set.md) - Configura o fuso horário padrão utilizado por todas as funções de data/horário em um script
+  - [date\_diff](function.date-diff.md) - Sinônimo de DateTime::diff
+  - [date\_format](function.date-format.md) - Sinônimo de DateTime::format
+  - [date\_get\_last\_errors](function.date-get-last-errors.md) - Sinônimo de DateTimeImmutable::getLastErrors
+  - [date\_interval\_create\_from\_date\_string](function.date-interval-create-from-date-string.md) - Sinônimo de DateInterval::createFromDateString
+  - [date\_interval\_format](function.date-interval-format.md) - Sinônimo de DateInterval::format
+  - [date\_isodate\_set](function.date-isodate-set.md) - Sinônimo de DateTime::setISODate
+  - [date\_modify](function.date-modify.md) - Sinônimo de DateTime::modify
+  - [date\_offset\_get](function.date-offset-get.md) - Sinônimo de DateTime::getOffset
+  - [date\_parse](function.date-parse.md) - Retorna um array associativo com informações detalhadas da data/horário informada
+  - [date\_parse\_from\_format](function.date-parse-from-format.md) - Retorna informações sobre uma data informada de acordo com um formato
+  - [date\_sub](function.date-sub.md) - Sinônimo de DateTime::sub
+  - [date\_sunrise](function.date-sunrise.md) - Retorna a hora do nascer do sol para um dia e uma localicação informados
+  - [date\_sunset](function.date-sunset.md) - Retorna a hora do pôr do sol para um dia e uma localização informados.
+  - [date\_sun\_info](function.date-sun-info.md) - Retorna um array com informações sobre pôr/nascer do sol e o início/fim do dia
+  - [date\_timestamp\_get](function.date-timestamp-get.md) - Sinônimo de DateTime::getTimestamp
+  - [date\_timestamp\_set](function.date-timestamp-set.md) - Sinônimo de DateTime::setTimestamp
+  - [date\_timezone\_get](function.date-timezone-get.md) - Sinônimo de DateTime::getTimezone
+  - [date\_timezone\_set](function.date-timezone-set.md) - Sinônimo de DateTime::setTimezone
+  - [date\_time\_set](function.date-time-set.md) - Sinônimo de DateTime::setTime
+  - [db2\_autocommit](function.db2-autocommit.md) - Retorna ou define o estado AUTOCOMMIT para uma conexão de banco de dados
+  - [db2\_bind\_param](function.db2-bind-param.md) - Vincula uma variável PHP a um parâmetro de instrução SQL
+  - [db2\_client\_info](function.db2-client-info.md) - Retorna um objeto com propriedades que descrevem o cliente do banco de dados DB2
+  - [db2\_close](function.db2-close.md) - Fecha uma conexão de banco de dados
+  - [db2\_columns](function.db2-columns.md) - Retorna um conjunto de resultados listando as colunas e metadados associados para uma tabela
+  - [db2\_column\_privileges](function.db2-column-privileges.md) - Retorna um conjunto de resultados listando as colunas e privilégios associados para uma tabela
+  - [db2\_commit](function.db2-commit.md) - Confirma uma transação
+  - [db2\_connect](function.db2-connect.md) - Retorna uma conexão com um banco de dados
+  - [db2\_conn\_error](function.db2-conn-error.md) - Retorna uma string contendo o SQLSTATE retornado pela última tentativa de conexão
+  - [db2\_conn\_errormsg](function.db2-conn-errormsg.md) - Retorna a última mensagem de erro de conexão e o valor SQLCODE
+  - [db2\_cursor\_type](function.db2-cursor-type.md) - Retorna o tipo de cursor usado por um recurso de instrução
+  - [db2\_escape\_string](function.db2-escape-string.md) - Usado para escapar certos caracteres
+  - [db2\_exec](function.db2-exec.md) - Executa uma instrução SQL diretamente
+  - [db2\_execute](function.db2-execute.md) - Executa uma instrução SQL preparada
+  - [db2\_fetch\_array](function.db2-fetch-array.md) - Retorna um array, indexado pela posição da coluna, representando uma linha em um conjunto de resultados
+  - [db2\_fetch\_assoc](function.db2-fetch-assoc.md) - Retorna um array, indexado pelo nome da coluna, representando uma linha em um conjunto de resultados
+  - [db2\_fetch\_both](function.db2-fetch-both.md) - Retorna um array, indexado pelo nome da coluna e pela posição, representando uma linha em um conjunto de resultados
+  - [db2\_fetch\_object](function.db2-fetch-object.md) - Retorna um objeto com propriedades que representam colunas na linha buscada
+  - [db2\_fetch\_row](function.db2-fetch-row.md) - Define o ponteiro do conjunto de resultados para a próxima linha ou linha solicitada
+  - [db2\_field\_display\_size](function.db2-field-display-size.md) - Retorna o número máximo de bytes necessários para exibir uma coluna
+  - [db2\_field\_name](function.db2-field-name.md) - Retorna o nome da coluna no conjunto de resultados
+  - [db2\_field\_num](function.db2-field-num.md) - Retorna a posição da coluna nomeada em um conjunto de resultados
+  - [db2\_field\_precision](function.db2-field-precision.md) - Retorna a precisão da coluna indicada em um conjunto de resultados
+  - [db2\_field\_scale](function.db2-field-scale.md) - Retorna a escala da coluna indicada em um conjunto de resultados
+  - [db2\_field\_type](function.db2-field-type.md) - Retorna o tipo de dados da coluna indicada em um conjunto de resultados
+  - [db2\_field\_width](function.db2-field-width.md) - Retorna a largura do valor atual da coluna indicada em um conjunto de resultados
+  - [db2\_foreign\_keys](function.db2-foreign-keys.md) - Retorna um conjunto de resultados listando as chaves estrangeiras para uma tabela
+  - [db2\_free\_result](function.db2-free-result.md) - Libera recursos associados a um conjunto de resultados
+  - [db2\_free\_stmt](function.db2-free-stmt.md) - Libera recursos associados ao recurso de instrução indicado
+  - [db2\_get\_option](function.db2-get-option.md) - Recupera um valor de opção para um recurso de instrução ou um recurso de conexão
+  - [db2\_last\_insert\_id](function.db2-last-insert-id.md) - Retorna o ID gerado automaticamente da última consulta de inserção que foi executada com sucesso
+    nesta conexão
+  - [db2\_lob\_read](function.db2-lob-read.md) - Obtém um tamanho definido pelo usuário de arquivos LOB com cada invocação
+  - [db2\_next\_result](function.db2-next-result.md) - Solicita o próximo conjunto de resultados de um procedimento armazenado
+  - [db2\_num\_fields](function.db2-num-fields.md) - Retorna o número de campos contidos em um conjunto de resultados
+  - [db2\_num\_rows](function.db2-num-rows.md) - Retorna o número de linhas afetadas por uma instrução SQL
+  - [db2\_pclose](function.db2-pclose.md) - Fecha uma conexão persistente a um banco de dados
+  - [db2\_pconnect](function.db2-pconnect.md) - Retorna uma conexão persistente a um banco de dados
+  - [db2\_prepare](function.db2-prepare.md) - Prepara uma instrução SQL para ser executada
+  - [db2\_primary\_keys](function.db2-primary-keys.md) - Retorna um conjunto de resultados listando as chaves primárias para uma tabela
+  - [db2\_procedures](function.db2-procedures.md) - Retorna um conjunto de resultados listando os procedimentos armazenados registrados em um banco de dados
+  - [db2\_procedure\_columns](function.db2-procedure-columns.md) - Retorna um conjunto de resultados listando os parâmetros do procedimento armazenado
+  - [db2\_result](function.db2-result.md) - Retorna uma única coluna de uma linha no conjunto de resultados
+  - [db2\_rollback](function.db2-rollback.md) - Reverte uma transação
+  - [db2\_server\_info](function.db2-server-info.md) - Retorna um objeto com propriedades que descrevem o servidor de banco de dados DB2
+  - [db2\_set\_option](function.db2-set-option.md) - Define opções para recursos de conexão ou instrução
+  - [db2\_special\_columns](function.db2-special-columns.md) - Retorna um conjunto de resultados listando as colunas de identificador de linha exclusivo para uma tabela
+  - [db2\_statistics](function.db2-statistics.md) - Retorna um conjunto de resultados listando o índice e as estatísticas de uma tabela
+  - [db2\_stmt\_error](function.db2-stmt-error.md) - Retorna uma string contendo o SQLSTATE retornado por uma instrução SQL
+  - [db2\_stmt\_errormsg](function.db2-stmt-errormsg.md) - Retorna uma string contendo a última mensagem de erro da instrução SQL
+  - [db2\_tables](function.db2-tables.md) - Retorna um conjunto de resultados listando as tabelas e metadados associados em um banco de dados
+  - [db2\_table\_privileges](function.db2-table-privileges.md) - Retorna um conjunto de resultados listando as tabelas e privilégios associados em um banco de dados
+  - [dbase\_add\_record](function.dbase-add-record.md) - Adiciona um registro a um banco de dados
+  - [dbase\_close](function.dbase-close.md) - Fecha um banco de dados
+  - [dbase\_create](function.dbase-create.md) - Cria um banco de dados
+  - [dbase\_delete\_record](function.dbase-delete-record.md) - Exclui um registro do banco de dados
+  - [dbase\_get\_header\_info](function.dbase-get-header-info.md) - Obtém as informações do cabeçalho do banco de dados
+  - [dbase\_get\_record](function.dbase-get-record.md) - Obtém um registro do banco de dados como um array indexado
+  - [dbase\_get\_record\_with\_names](function.dbase-get-record-with-names.md) - Obtém um registro do banco de dados como um array associativo.
+  - [dbase\_numfields](function.dbase-numfields.md) - Obtém o número de campos em um banco de dados
+  - [dbase\_numrecords](function.dbase-numrecords.md) - Obtém o número de registros em um banco de dados
+  - [dbase\_open](function.dbase-open.md) - Abre um banco de dados
+  - [dbase\_pack](function.dbase-pack.md) - Comprime um banco de dados
+  - [dbase\_replace\_record](function.dbase-replace-record.md) - Substitui um registro em um banco de dados
+  - [dba\_close](function.dba-close.md) - Fecha um banco de dados DBA
+  - [dba\_delete](function.dba-delete.md) - Remove uma entrada DBA especificada por chave
+  - [dba\_exists](function.dba-exists.md) - Verifica existência de uma chave
+  - [dba\_fetch](function.dba-fetch.md) - Busca dados especificados por chave
+  - [dba\_firstkey](function.dba-firstkey.md) - Busca a primeira chave
+  - [dba\_handlers](function.dba-handlers.md) - Lista todos os manipuladores disponíveis
+  - [dba\_insert](function.dba-insert.md) - Insere entrada
+  - [dba\_key\_split](function.dba-key-split.md) - Divide uma chave em representação string para uma representação array
+  - [dba\_list](function.dba-list.md) - Lista todos os arquivos de banco de dados abertos
+  - [dba\_nextkey](function.dba-nextkey.md) - Busca a próxima chave
+  - [dba\_open](function.dba-open.md) - Abre um banco de dados
+  - [dba\_optimize](function.dba-optimize.md) - Otimiza o banco de dados
+  - [dba\_popen](function.dba-popen.md) - Abre o banco de dados de forma persistente
+  - [dba\_replace](function.dba-replace.md) - Substitui ou insere uma entrada
+  - [dba\_sync](function.dba-sync.md) - Sincroniza o banco de dados
+  - [dcgettext](function.dcgettext.md) - Substitui o domínio padrão para uma procura única
+  - [dcngettext](function.dcngettext.md) - Versão plural de dcgettext
+  - [debug\_backtrace](function.debug-backtrace.md) - Gera uma rastreamento retroativo
+  - [debug\_print\_backtrace](function.debug-print-backtrace.md) - Mostra um rastreamento retroativo
+  - [debug\_zval\_dump](function.debug-zval-dump.md) - Exibe na saída uma representação em string de uma estrutura zval interna
+  - [decbin](function.decbin.md) - Decimal para binário
+  - [dechex](function.dechex.md) - Decimal para hexadecimal
+  - [decoct](function.decoct.md) - Decimal para octal
+  - [define](function.define.md) - Define uma constante com nome
+  - [defined](function.defined.md) - Verifica se existe uma constante com o nome informado
+  - [deflate\_add](function.deflate-add.md) - Comprime dados incrementalmente
+  - [deflate\_init](function.deflate-init.md) - Inicializa um contexto de compressão incremental
+  - [deg2rad](function.deg2rad.md) - Converte o número em graus para o equivalente em radianos
+  - [delete](function.delete.md) - Consulte unlink ou unset
+  - [Deprecated::\_\_construct](deprecated.construct.md) - Constrói uma nova instância do atributo Deprecated
+  - [dgettext](function.dgettext.md) - Substitui o domínio atual
+  - [die](function.die.md) - Sinônimo de exit
+  - [dio\_close](function.dio-close.md) - Fecha o descritor de arquivo fornecido por fd
+  - [dio\_fcntl](function.dio-fcntl.md) - Realiza uma chamada à função fcntl da biblioteca C no descritor de arquivo
+  - [dio\_open](function.dio-open.md) - Abre um arquivo (criando-o, se necessário) em um nível mais baixo do que
+    as funções de entrada/saída da biblioteca C permitem
+  - [dio\_read](function.dio-read.md) - Lê bytes de um descritor de arquivo
+  - [dio\_seek](function.dio-seek.md) - Move para a posição pos no descritor de arquivo (fd) a partir de whence
+  - [dio\_stat](function.dio-stat.md) - Obtém informações estatísticas sobre o descritor de arquivo fd
+  - [dio\_tcsetattr](function.dio-tcsetattr.md) - Define os atributos do terminal e a taxa de transmissão para uma porta serial
+  - [dio\_truncate](function.dio-truncate.md) - Trunca o descritor de arquivo fd para o deslocamento em bytes
+  - [dio\_write](function.dio-write.md) - Escreve dados em fd com opção de truncamento no comprimento
+  - [dir](function.dir.md) - Retorna uma instância da classe Directory
+  - [Directory::close](directory.close.md) - Fecha o manipulador de diretório
+  - [Directory::read](directory.read.md) - Lê entrada de um manipulador de diretório
+  - [Directory::rewind](directory.rewind.md) - Retrocede um manipulador de diretório
+  - [DirectoryIterator::current](directoryiterator.current.md) - Retorna o item atual do DirectoryIterator
+  - [DirectoryIterator::getBasename](directoryiterator.getbasename.md) - Retorna o nome do item corrente do DirectoryIterator
+  - [DirectoryIterator::getExtension](directoryiterator.getextension.md) - Obtém a extensão do arquivo
+  - [DirectoryIterator::getFilename](directoryiterator.getfilename.md) - Retorna o nome do arquivo do item atual do DirectoryIterator
+  - [DirectoryIterator::isDot](directoryiterator.isdot.md) - Determina se o item atual do DirectoryIterator é '.' ou '..'
+  - [DirectoryIterator::key](directoryiterator.key.md) - Retorna a chave para o item atual do DirectoryIterator
+  - [DirectoryIterator::next](directoryiterator.next.md) - Mover para o próximo item do DirectoryIterator
+  - [DirectoryIterator::rewind](directoryiterator.rewind.md) - Rebobina o DirectoryIterator de volta ao início
+  - [DirectoryIterator::seek](directoryiterator.seek.md) - Aponta para uma determinada posição no item do DirectoryIterator
+  - [DirectoryIterator::valid](directoryiterator.valid.md) - Verifica se a posição atual do DirectoryIterator é um arquivo válido
+  - [DirectoryIterator::\_\_construct](directoryiterator.construct.md) - Constrói um novo iterador de diretório a partir de um caminho
+  - [DirectoryIterator::\_\_toString](directoryiterator.tostring.md) - Retorna o nome do arquivo como texto
+  - [dirname](function.dirname.md) - Retorna o caminho para o diretório pai
+  - [diskfreespace](function.diskfreespace.md) - Sinônimo de disk\_free\_space
+  - [disk\_free\_space](function.disk-free-space.md) - Retorna o espaço disponível no sistema de arquivos ou partição de disco
+  - [disk\_total\_space](function.disk-total-space.md) - Retorna o tamanho total de um sistema de arquivos ou partição de disco
+  - [dl](function.dl.md) - Carrega uma extensão do PHP durante a execução
+  - [dngettext](function.dngettext.md) - Versão plural de dgettext
+  - [dns\_check\_record](function.dns-check-record.md) - Sinônimo de checkdnsrr
+  - [dns\_get\_mx](function.dns-get-mx.md) - Sinônimo de getmxrr
+  - [dns\_get\_record](function.dns-get-record.md) - Busca registros de recursos DNS associados a um nome de host
+  - [DocResult::fetchAll](mysql-xdevapi-docresult.fetchall.md) - Obtém todas as linhas
+  - [DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.md) - Obtém uma linha
+  - [DocResult::getWarnings](mysql-xdevapi-docresult.getwarnings.md) - Obtém alertas da última operação
+  - [DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.md) - Obtém a contagem de alertas da última operação
+  - [DocResult::\_\_construct](mysql-xdevapi-docresult.construct.md) - Construtor de DocResult
+  - [DOMAttr::isId](domattr.isid.md) - Verifica se o atributo é um ID definido
+  - [DOMAttr::\_\_construct](domattr.construct.md) - Cria um novo objeto DOMAttr
+  - [DOMCdataSection::\_\_construct](domcdatasection.construct.md) - Constrói um novo objeto DOMCdataSection
+  - [DOMCharacterData::after](domcharacterdata.after.md) - Adiciona nós após os dados de caracteres
+  - [DOMCharacterData::appendData](domcharacterdata.appenddata.md) - Acrescenta a string ao final dos dados de caractere do nó
+  - [DOMCharacterData::before](domcharacterdata.before.md) - Adiciona nós antes dos dados de caracteres
+  - [DOMCharacterData::deleteData](domcharacterdata.deletedata.md) - Remove uma faixa de caracteres dos dados de caracteres
+  - [DOMCharacterData::insertData](domcharacterdata.insertdata.md) - Insere uma string na posição de ponto de código UTF-8 especificada
+  - [DOMCharacterData::remove](domcharacterdata.remove.md) - Remove o nó de dados de caractere
+  - [DOMCharacterData::replaceData](domcharacterdata.replacedata.md) - Substitui uma substring dentro dos dados de caracteres
+  - [DOMCharacterData::replaceWith](domcharacterdata.replacewith.md) - Substitui os dados de caracteres por novos nós
+  - [DOMCharacterData::substringData](domcharacterdata.substringdata.md) - Extrai uma faixa de dados dos dados de caracteres
+  - [DOMChildNode::after](domchildnode.after.md) - Adiciona nós após o nó
+  - [DOMChildNode::before](domchildnode.before.md) - Adiciona nós antes do nó
+  - [DOMChildNode::remove](domchildnode.remove.md) - Remove o nó
+  - [DOMChildNode::replaceWith](domchildnode.replacewith.md) - Substitui o nó por novos nós
+  - [DOMComment::\_\_construct](domcomment.construct.md) - Cria um novo objeto DOMComment
+  - [DOMDocument::adoptNode](domdocument.adoptnode.md) - Transfere um nó de outro documento
+  - [DOMDocument::append](domdocument.append.md) - Adiciona nós após o último nó filho
+  - [DOMDocument::createAttribute](domdocument.createattribute.md) - Cria um novo attribute
+  - [DOMDocument::createAttributeNS](domdocument.createattributens.md) - Cria um novo nó de atributo com um namespace associado
+  - [DOMDocument::createCDATASection](domdocument.createcdatasection.md) - Cria um novo nó de CDATA
+  - [DOMDocument::createComment](domdocument.createcomment.md) - Cria novo nó de comentárioe
+  - [DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md) - Cria novo fragmento de documento
+  - [DOMDocument::createElement](domdocument.createelement.md) - Cria novo nó de elemento
+  - [DOMDocument::createElementNS](domdocument.createelementns.md) - Cria novo nó de elemento com um namespace associado
+  - [DOMDocument::createEntityReference](domdocument.createentityreference.md) - Cria novo nó de referência de entidade
+  - [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md) - Cria novo nó PI (Processing Instruction)
+  - [DOMDocument::createTextNode](domdocument.createtextnode.md) - Cria novo nó de texto
+  - [DOMDocument::getElementById](domdocument.getelementbyid.md) - Procura por um elemento com um determinado ID
+  - [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md) - Procura por todos os elementos com uma determinada tag name local
+  - [DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md) - Procura por todos os elementos com uma determinada tag name em um namespace específico
+  - [DOMDocument::importNode](domdocument.importnode.md) - Importa um nó para o documento atual
+  - [DOMDocument::load](domdocument.load.md) - Carrega XML de um arquivo
+  - [DOMDocument::loadHTML](domdocument.loadhtml.md) - Carrega HTML a partir de uma string
+  - [DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.md) - Carrega HTML de um arquivo
+  - [DOMDocument::loadXML](domdocument.loadxml.md) - Carrega XML a partir de uma string
+  - [DOMDocument::normalizeDocument](domdocument.normalizedocument.md) - Normaliza o documento
+  - [DOMDocument::prepend](domdocument.prepend.md) - Adiciona nós antes do primeiro nó filho
+  - [DOMDocument::registerNodeClass](domdocument.registernodeclass.md) - Registra uma classe estendida usada para criar um tipo de nó base
+  - [DOMDocument::relaxNGValidate](domdocument.relaxngvalidate.md) - Realiza a validação relaxNG no documento
+  - [DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md) - Realiza a validação relaxNG no documento
+  - [DOMDocument::replaceChildren](domdocument.replacechildren.md) - Substitui filhos no documento
+  - [DOMDocument::save](domdocument.save.md) - Grava a árvore XML interna de volta em um arquivo
+  - [DOMDocument::saveHTML](domdocument.savehtml.md) - Despeja o documento interno em uma string usando formatação HTML
+  - [DOMDocument::saveHTMLFile](domdocument.savehtmlfile.md) - Despeja o documento interno em um arquivo usando formatação HTML
+  - [DOMDocument::saveXML](domdocument.savexml.md) - Despeja a árvore XML interna de volta em uma string
+  - [DOMDocument::schemaValidate](domdocument.schemavalidate.md) - Valida um documento com base em um esquema. Apenas XML Schema 1.0 é suportado.
+  - [DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md) - Valida um documento com base em um esquema
+  - [DOMDocument::validate](domdocument.validate.md) - Valida o documento com base em seu DTD
+  - [DOMDocument::xinclude](domdocument.xinclude.md) - Substitui XIncludes em um objeto DOMDocument
+  - [DOMDocument::\_\_construct](domdocument.construct.md) - Cria um novo objeto DOMDocument
+  - [DOMDocumentFragment::append](domdocumentfragment.append.md) - Acrescenta nós após o último nó filho
+  - [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md) - Anexa dados XML brutos
+  - [DOMDocumentFragment::prepend](domdocumentfragment.prepend.md) - Insere nós antes do primeiro nó filho
+  - [DOMDocumentFragment::replaceChildren](domdocumentfragment.replacechildren.md) - Substitui filhos no fragmento
+  - [DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.md) - Constrói um objeto DOMDocumentFragment
+  - [DOMElement::after](domelement.after.md) - Adiciona nós após o elemento
+  - [DOMElement::append](domelement.append.md) - Adiciona nós após o último nó filho
+  - [DOMElement::before](domelement.before.md) - Adiciona nós antes do elemento
+  - [DOMElement::getAttribute](domelement.getattribute.md) - Retorna o valor do atributo
+  - [DOMElement::getAttributeNames](domelement.getattributenames.md) - Obtém nomes de atributos
+  - [DOMElement::getAttributeNode](domelement.getattributenode.md) - Retorna o nó do atributo
+  - [DOMElement::getAttributeNodeNS](domelement.getattributenodens.md) - Retorna o nó do atributo
+  - [DOMElement::getAttributeNS](domelement.getattributens.md) - Retorna o valor do atributo
+  - [DOMElement::getElementsByTagName](domelement.getelementsbytagname.md) - Obtém elementos pelo nome da tag
+  - [DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md) - Obtém elementos por namespaceURI e localName
+  - [DOMElement::hasAttribute](domelement.hasattribute.md) - Verifica se o atributo existe
+  - [DOMElement::hasAttributeNS](domelement.hasattributens.md) - Verifica se o atributo existe
+  - [DOMElement::insertAdjacentElement](domelement.insertadjacentelement.md) - Insere um elemento adjacente
+  - [DOMElement::insertAdjacentText](domelement.insertadjacenttext.md) - Insere texto adjacente
+  - [DOMElement::prepend](domelement.prepend.md) - Adiciona nós antes do primeiro nó filho
+  - [DOMElement::remove](domelement.remove.md) - Remove o elemento
+  - [DOMElement::removeAttribute](domelement.removeattribute.md) - Remove atributo
+  - [DOMElement::removeAttributeNode](domelement.removeattributenode.md) - Remove atributo
+  - [DOMElement::removeAttributeNS](domelement.removeattributens.md) - Remove atributo
+  - [DOMElement::replaceChildren](domelement.replacechildren.md) - Substitui filhos no elemento
+  - [DOMElement::replaceWith](domelement.replacewith.md) - Substitui o elemento por novos nodes
+  - [DOMElement::setAttribute](domelement.setattribute.md) - Adiciona ou modifica um atributo existente
+  - [DOMElement::setAttributeNode](domelement.setattributenode.md) - Adiciona um novo nó de atributo ao elemento
+  - [DOMElement::setAttributeNodeNS](domelement.setattributenodens.md) - Adiciona um novo nó de atributo ao elemento
+  - [DOMElement::setAttributeNS](domelement.setattributens.md) - Adiciona um novo atributo
+  - [DOMElement::setIdAttribute](domelement.setidattribute.md) - Declara que o atributo especificado pelo nome é do tipo ID
+  - [DOMElement::setIdAttributeNode](domelement.setidattributenode.md) - Declara que o atributo especificado pelo nó é do tipo ID
+  - [DOMElement::setIdAttributeNS](domelement.setidattributens.md) - Declara que o atributo especificado pelo nome local e pelo URI do namespace é do tipo ID
+  - [DOMElement::toggleAttribute](domelement.toggleattribute.md) - Alterna atributo
+  - [DOMElement::\_\_construct](domelement.construct.md) - Cria um novo objeto DOMElement
+  - [DOMEntityReference::\_\_construct](domentityreference.construct.md) - Cria um novo objeto DOMEntityReference
+  - [DOMImplementation::createDocument](domimplementation.createdocument.md) - Cria um objeto DOMDocument do tipo especificado com seu elemento de documento
+  - [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md) - Cria um objeto DOMDocumentType vazio
+  - [DOMImplementation::hasFeature](domimplementation.hasfeature.md) - Testa se a implementação DOM implementa um recurso específico
+  - [DOMImplementation::\_\_construct](domimplementation.construct.md) - Cria um novo objeto DOMImplementation
+  - [DOMNamedNodeMap::count](domnamednodemap.count.md) - Obtém o número de nós no mapa
+  - [DOMNamedNodeMap::getIterator](domnamednodemap.getiterator.md) - Recupera um iterador externo
+  - [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md) - Recupera um nó especificado pelo nome
+  - [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md) - Recupera um nó especificado pelo nome local e URI do namespace
+  - [DOMNamedNodeMap::item](domnamednodemap.item.md) - Recupera um nó especificado pelo índice
+  - [DOMNameSpaceNode::\_\_sleep](domnamespacenode.sleep.md) - Proíbe a serialização a menos que métodos de serialização estejam implementados em uma subclasse
+  - [DOMNameSpaceNode::\_\_wakeup](domnamespacenode.wakeup.md) - Proíbe a desserialização a menos que métodos de desserialização estejam implementados em uma subclasse
+  - [DOMNode::appendChild](domnode.appendchild.md) - Adiciona um novo filho ao final dos filhos
+  - [DOMNode::C14N](domnode.c14n.md) - Canonicaliza nós para uma string
+  - [DOMNode::C14NFile](domnode.c14nfile.md) - Canonicaliza nós para um arquivo
+  - [DOMNode::cloneNode](domnode.clonenode.md) - Clona um nó
+  - [DOMNode::compareDocumentPosition](domnode.comparedocumentposition.md) - Compara a posição de dois nós
+  - [DOMNode::contains](domnode.contains.md) - Verifica se o nó contém outro nó
+  - [DOMNode::getLineNo](domnode.getlineno.md) - Obtém o número da linha para um nó
+  - [DOMNode::getNodePath](domnode.getnodepath.md) - Obtém um XPath para um nó
+  - [DOMNode::getRootNode](domnode.getrootnode.md) - Obtém o nó raiz
+  - [DOMNode::hasAttributes](domnode.hasattributes.md) - Verifica se o nó possui atributos
+  - [DOMNode::hasChildNodes](domnode.haschildnodes.md) - Verifica se o nó possui filhos
+  - [DOMNode::insertBefore](domnode.insertbefore.md) - Adiciona um novo filho antes de um nó de referência
+  - [DOMNode::isDefaultNamespace](domnode.isdefaultnamespace.md) - Verifica se o namespaceURI especificado é o namespace padrão ou não
+  - [DOMNode::isEqualNode](domnode.isequalnode.md) - Verifica se ambos os nós são iguais
+  - [DOMNode::isSameNode](domnode.issamenode.md) - Indica se dois nós são o mesmo nó
+  - [DOMNode::isSupported](domnode.issupported.md) - Verifica se o recurso é suportado para a versão especificada
+  - [DOMNode::lookupNamespaceURI](domnode.lookupnamespaceuri.md) - Obtém o URI do namespace do nó com base no prefixo
+  - [DOMNode::lookupPrefix](domnode.lookupprefix.md) - Obtém o prefixo do namespace do nó com base no URI do namespace
+  - [DOMNode::normalize](domnode.normalize.md) - Normaliza o nó
+  - [DOMNode::removeChild](domnode.removechild.md) - Remove um filho da lista de filhos
+  - [DOMNode::replaceChild](domnode.replacechild.md) - Substitui um filho
+  - [DOMNode::\_\_sleep](domnode.sleep.md) - Proíbe a serialização a menos que métodos de serialização estejam implementados em uma subclasse
+  - [DOMNode::\_\_wakeup](domnode.wakeup.md) - Proíbe a desserialização a menos que métodos de desserialização estejam implementados em uma subclasse
+  - [DOMNodeList::count](domnodelist.count.md) - Obtém o número de nós na lista
+  - [DOMNodeList::getIterator](domnodelist.getiterator.md) - Retorna um iterador externo
+  - [DOMNodeList::item](domnodelist.item.md) - Recupera um nó especificado pelo índice
+  - [DOMParentNode::append](domparentnode.append.md) - Acrescenta nós após o último nó filho
+  - [DOMParentNode::prepend](domparentnode.prepend.md) - Insere nós antes do primeiro nó filho
+  - [DOMParentNode::replaceChildren](domparentnode.replacechildren.md) - Substitui filhos no nó
+  - [DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.md) - Cria um novo objeto DOMProcessingInstruction
+  - [DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md) - Retorna se este nó de texto contém espaços em branco no conteúdo do elemento
+  - [DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md) - Indica se este nó de texto contém espaços em branco
+  - [DOMText::splitText](domtext.splittext.md) - Quebra este nó em dois nós no deslocamento especificado
+  - [DOMText::\_\_construct](domtext.construct.md) - Cria um novo objeto DOMText
+  - [DOMXPath::evaluate](domxpath.evaluate.md) - Avalia a expressão XPath fornecida e retorna um resultado tipado se possível
+  - [DOMXPath::query](domxpath.query.md) - Avalia a expressão XPath fornecida
+  - [DOMXPath::quote](domxpath.quote.md) - Envolve uma string com aspas para uso em uma expressão XPath
+  - [DOMXPath::registerNamespace](domxpath.registernamespace.md) - Registra o namespace com o objeto DOMXPath
+  - [DOMXPath::registerPhpFunctionNS](domxpath.registerphpfunctionns.md) - Registra uma função PHP como função XPath com namespace
+  - [DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md) - Registra funções PHP como funções XPath
+  - [DOMXPath::\_\_construct](domxpath.construct.md) - Cria um novo objeto DOMXPath
+  - [Dom\Attr::isId](dom-attr.isid.md) - Verifica se o atributo é um ID definido
+  - [Dom\Attr::rename](dom-attr.rename.md) - Altera o nome qualificado ou namespace de um atributo
+  - [Dom\CharacterData::after](dom-characterdata.after.md) - Adiciona nós após os dados de caracteres
+  - [Dom\CharacterData::appendData](dom-characterdata.appenddata.md) - Acrescenta a string ao final dos dados de caractere do nó
+  - [Dom\CharacterData::before](dom-characterdata.before.md) - Adiciona nós antes dos dados de caracteres
+  - [Dom\CharacterData::deleteData](dom-characterdata.deletedata.md) - Remove uma faixa de caracteres dos dados de caracteres
+  - [Dom\CharacterData::insertData](dom-characterdata.insertdata.md) - Insere uma string na posição de ponto de código UTF-8 especificada
+  - [Dom\CharacterData::remove](dom-characterdata.remove.md) - Remove o nó de dados de caractere
+  - [Dom\CharacterData::replaceData](dom-characterdata.replacedata.md) - Substitui uma substring dentro dos dados de caracteres
+  - [Dom\CharacterData::replaceWith](dom-characterdata.replacewith.md) - Substitui os dados de caracteres por novos nós
+  - [Dom\CharacterData::substringData](dom-characterdata.substringdata.md) - Extrai uma faixa de dados dos dados de caracteres
+  - [Dom\ChildNode::after](dom-childnode.after.md) - Adiciona nós após o nó
+  - [Dom\ChildNode::before](dom-childnode.before.md) - Adiciona nós antes do nó
+  - [Dom\ChildNode::remove](dom-childnode.remove.md) - Remove o nó
+  - [Dom\ChildNode::replaceWith](dom-childnode.replacewith.md) - Substitui o nó por novos nós
+  - [Dom\HTMLDocument::createEmpty](dom-htmldocument.createempty.md) - Cria um documento HTML vazio
+  - [Dom\HTMLDocument::createFromFile](dom-htmldocument.createfromfile.md) - Analisa um documento HTML a partir de um arquivo
+  - [Dom\HTMLDocument::createFromString](dom-htmldocument.createfromstring.md) - Analisa um documento HTML a partir de uma string
+  - [Dom\HTMLDocument::saveHtml](dom-htmldocument.savehtml.md) - Serializa o documento como uma string HTML
+  - [Dom\HTMLDocument::saveHtmlFile](dom-htmldocument.savehtmlfile.md) - Serializa o documento como um arquivo HTML
+  - [Dom\HTMLDocument::saveXml](dom-htmldocument.savexml.md) - Serializa o documento como uma string XML
+  - [Dom\HTMLDocument::saveXmlFile](dom-htmldocument.savexmlfile.md) - Serializa o documento como um arquivo XML
+  - [Dom\import\_simplexml](function.dom-ns-import-simplexml.md) - Obtém um objeto Dom\Attr ou Dom\Element a partir de um
+    objeto SimpleXMLElement
+  - [Dom\ParentNode::append](dom-parentnode.append.md) - Acrescenta nós após o último nó filho
+  - [Dom\ParentNode::prepend](dom-parentnode.prepend.md) - Insere nós antes do primeiro nó filho
+  - [Dom\ParentNode::querySelector](dom-parentnode.queryselector.md) - Retorna o primeiro elemento que corresponde aos seletores CSS
+  - [Dom\ParentNode::querySelectorAll](dom-parentnode.queryselectorall.md) - Retorna uma coleção de elementos que correspondem aos seletores CSS
+  - [Dom\ParentNode::replaceChildren](dom-parentnode.replacechildren.md) - Substitui filhos no nó
+  - [Dom\Text::splitText](dom-text.splittext.md) - Quebra este nó em dois nós no deslocamento especificado
+  - [Dom\TokenList::add](dom-tokenlist.add.md) - Adiciona os tokens informados à lista
+  - [Dom\TokenList::contains](dom-tokenlist.contains.md) - Informa se a lista contém um token específico
+  - [Dom\TokenList::count](dom-tokenlist.count.md) - Retorna o número de tokens na lista
+  - [Dom\TokenList::getIterator](dom-tokenlist.getiterator.md) - Retorna um iterador sobre a lista de tokens
+  - [Dom\TokenList::item](dom-tokenlist.item.md) - Retorna um token da lista
+  - [Dom\TokenList::remove](dom-tokenlist.remove.md) - Remove da lista os tokens informados
+  - [Dom\TokenList::replace](dom-tokenlist.replace.md) - Substitui um token por outro na lista
+  - [Dom\TokenList::supports](dom-tokenlist.supports.md) - Informa se o token informado é suportado
+  - [Dom\TokenList::toggle](dom-tokenlist.toggle.md) - Alterna a presença de um token na lista
+  - [dom\_import\_simplexml](function.dom-import-simplexml.md) - Obtém um objeto DOMAttr ou DOMElement a partir de um
+    objeto SimpleXMLElement
+  - [dotnet::\_\_construct](dotnet.construct.md) - Construtor da classe dotnet
+  - [doubleval](function.doubleval.md) - Sinônimo de floatval
+  - [DSN PDO\_SQLITE](ref.pdo-sqlite.connection.md) - Conectando a bancos de dados SQLite
+  - [Ds\Collection::clear](ds-collection.clear.md) - Remove todos os valores
+  - [Ds\Collection::copy](ds-collection.copy.md) - Retorna uma cópia rasa da coleção
+  - [Ds\Collection::isEmpty](ds-collection.isempty.md) - Retorna se a coleção está vazia
+  - [Ds\Collection::toArray](ds-collection.toarray.md) - Converte a coleção para um array
+  - [Ds\Deque::allocate](ds-deque.allocate.md) - Alloca memória suficiente para uma capacidade necessária
+  - [Ds\Deque::apply](ds-deque.apply.md) - Atualiza todos os valores aplicando uma função de retorno de chamada a cada valor
+  - [Ds\Deque::capacity](ds-deque.capacity.md) - Retorna a capacidade atual
+  - [Ds\Deque::clear](ds-deque.clear.md) - Remove todos os valores do deque
+  - [Ds\Deque::contains](ds-deque.contains.md) - Determina se a deque contém os valores fornecidos
+  - [Ds\Deque::copy](ds-deque.copy.md) - Retorna uma cópia rasa da deque
+  - [Ds\Deque::count](ds-deque.count.md) - Retorna o número de valores na coleção
+  - [Ds\Deque::filter](ds-deque.filter.md) - Cria um novo deque usando um callable para
+    determinar quais valores incluir
+  - [Ds\Deque::find](ds-deque.find.md) - Tenta encontrar o índice de um valor
+  - [Ds\Deque::first](ds-deque.first.md) - Retorna o primeiro valor na deque
+  - [Ds\Deque::get](ds-deque.get.md) - Retorna o valor em um índice específico
+  - [Ds\Deque::insert](ds-deque.insert.md) - Insere valores em um índice específico
+  - [Ds\Deque::isEmpty](ds-deque.isempty.md) - Retorna se o deque está vazio
+  - [Ds\Deque::join](ds-deque.join.md) - Une todos os valores como uma string
+  - [Ds\Deque::jsonSerialize](ds-deque.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Deque::last](ds-deque.last.md) - Retorna o último valor
+  - [Ds\Deque::map](ds-deque.map.md) - Retorna o resultado de aplicar uma função de retorno de chamada a cada valor
+  - [Ds\Deque::merge](ds-deque.merge.md) - Retorna o resultado de adicionar todos os valores dados à deque
+  - [Ds\Deque::pop](ds-deque.pop.md) - Remove e retorna o último valor
+  - [Ds\Deque::push](ds-deque.push.md) - Adiciona valores ao final do deque
+  - [Ds\Deque::reduce](ds-deque.reduce.md) - Reduz o deque a um único valor usando uma função de retorno de chamada
+  - [Ds\Deque::remove](ds-deque.remove.md) - Remove e retorna um valor pelo índice
+  - [Ds\Deque::reverse](ds-deque.reverse.md) - Inverte a deque no local
+  - [Ds\Deque::reversed](ds-deque.reversed.md) - Retorna uma cópia invertida
+  - [Ds\Deque::rotate](ds-deque.rotate.md) - Rotaciona a deque por um número dado de rotações
+  - [Ds\Deque::set](ds-deque.set.md) - Atualiza um valor em um índice específico
+  - [Ds\Deque::shift](ds-deque.shift.md) - Remove e retorna o primeiro valor
+  - [Ds\Deque::slice](ds-deque.slice.md) - Retorna uma sub-deque de um determinado intervalo
+  - [Ds\Deque::sort](ds-deque.sort.md) - Ordena a deque no local
+  - [Ds\Deque::sorted](ds-deque.sorted.md) - Retorna uma cópia ordenada
+  - [Ds\Deque::sum](ds-deque.sum.md) - Retorna a soma de todos os valores na deque
+  - [Ds\Deque::toArray](ds-deque.toarray.md) - Converte a deque para um array.
+  - [Ds\Deque::unshift](ds-deque.unshift.md) - Adiciona valores no início da deque
+  - [Ds\Deque::\_\_construct](ds-deque.construct.md) - Cria uma nova instância
+  - [Ds\Hashable::equals](ds-hashable.equals.md) - Determina se um objeto é igual à instância atual
+  - [Ds\Hashable::hash](ds-hashable.hash.md) - Retorna um valor escalar a ser usado como valor de hash
+  - [Ds\Map::allocate](ds-map.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\Map::apply](ds-map.apply.md) - Atualiza todos os valores aplicando uma função de retorno de chamada a cada valor
+  - [Ds\Map::capacity](ds-map.capacity.md) - Retorna a capacidade atual
+  - [Ds\Map::clear](ds-map.clear.md) - Remove todos os valores
+  - [Ds\Map::copy](ds-map.copy.md) - Retorna uma cópia rasa do mapa
+  - [Ds\Map::count](ds-map.count.md) - Retorna o número de valores no mapa
+  - [Ds\Map::diff](ds-map.diff.md) - Cria um novo mapa usando chaves que não estão em outro mapa
+  - [Ds\Map::filter](ds-map.filter.md) - Cria um novo mapa usando um callable para determinar quais pares incluir
+  - [Ds\Map::first](ds-map.first.md) - Retorna o primeiro par no mapa
+  - [Ds\Map::get](ds-map.get.md) - Retorna o valor para uma chave dada
+  - [Ds\Map::hasKey](ds-map.haskey.md) - Determina se o mapa contém uma chave dada
+  - [Ds\Map::hasValue](ds-map.hasvalue.md) - Determina se o mapa contém um valor dado
+  - [Ds\Map::intersect](ds-map.intersect.md) - Cria um novo mapa intersectando chaves com outro mapa
+  - [Ds\Map::isEmpty](ds-map.isempty.md) - Retorna se o mapa está vazio
+  - [Ds\Map::jsonSerialize](ds-map.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Map::keys](ds-map.keys.md) - Retorna um conjunto das chaves do mapa
+  - [Ds\Map::ksort](ds-map.ksort.md) - Ordena o mapa no local pelo chave
+  - [Ds\Map::ksorted](ds-map.ksorted.md) - Retorna uma cópia ordenada por chave
+  - [Ds\Map::last](ds-map.last.md) - Retorna o último par do mapa
+  - [Ds\Map::map](ds-map.map.md) - Retorna o resultado da aplicação de um callback a cada valor
+  - [Ds\Map::merge](ds-map.merge.md) - Retorna o resultado da adição de todas as associações fornecidas
+  - [Ds\Map::pairs](ds-map.pairs.md) - Retorna uma sequência contendo todos os pares do mapa
+  - [Ds\Map::put](ds-map.put.md) - Associa uma chave a um valor
+  - [Ds\Map::putAll](ds-map.putall.md) - Associa todos os pares chave-valor de um objeto traversable ou array
+  - [Ds\Map::reduce](ds-map.reduce.md) - Reduz o mapa a um único valor usando uma função callback
+  - [Ds\Map::remove](ds-map.remove.md) - Remove e retorna um valor pela chave
+  - [Ds\Map::reverse](ds-map.reverse.md) - Inverte o mapa no local
+  - [Ds\Map::reversed](ds-map.reversed.md) - Retorna uma cópia invertida
+  - [Ds\Map::skip](ds-map.skip.md) - Retorna o par em uma posição específica
+  - [Ds\Map::slice](ds-map.slice.md) - Retorna um subconjunto do mapa definido por um índice inicial e comprimento
+  - [Ds\Map::sort](ds-map.sort.md) - Ordena o mapa no local pelo valor
+  - [Ds\Map::sorted](ds-map.sorted.md) - Retorna uma cópia, ordenada por valor
+  - [Ds\Map::sum](ds-map.sum.md) - Retorna a soma de todos os valores no mapa
+  - [Ds\Map::toArray](ds-map.toarray.md) - Converte o mapa em um array
+  - [Ds\Map::union](ds-map.union.md) - Cria um novo mapa usando valores da instância atual e de outro mapa
+  - [Ds\Map::values](ds-map.values.md) - Retorna uma sequência dos valores do mapa
+  - [Ds\Map::xor](ds-map.xor.md) - Cria um novo mapa usando chaves apenas do mapa atual ou de outro mapa, mas não de ambos
+  - [Ds\Map::\_\_construct](ds-map.construct.md) - Cria uma nova instância
+  - [Ds\Pair::clear](ds-pair.clear.md) - Remove todos os valores
+  - [Ds\Pair::copy](ds-pair.copy.md) - Retorna uma cópia rasa do par
+  - [Ds\Pair::isEmpty](ds-pair.isempty.md) - Retorna se o par está vazio
+  - [Ds\Pair::jsonSerialize](ds-pair.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Pair::toArray](ds-pair.toarray.md) - Converte o par para um array
+  - [Ds\Pair::\_\_construct](ds-pair.construct.md) - Cria uma nova instância
+  - [Ds\PriorityQueue::allocate](ds-priorityqueue.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\PriorityQueue::capacity](ds-priorityqueue.capacity.md) - Retorna a capacidade atual
+  - [Ds\PriorityQueue::clear](ds-priorityqueue.clear.md) - Remove todos os valores
+  - [Ds\PriorityQueue::copy](ds-priorityqueue.copy.md) - Retorna uma cópia rasa da fila
+  - [Ds\PriorityQueue::count](ds-priorityqueue.count.md) - Retorna o número de valores na fila
+  - [Ds\PriorityQueue::isEmpty](ds-priorityqueue.isempty.md) - Retorna se a fila está vazia
+  - [Ds\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\PriorityQueue::peek](ds-priorityqueue.peek.md) - Retorna o valor na frente da fila
+  - [Ds\PriorityQueue::pop](ds-priorityqueue.pop.md) - Remove e retorna o valor com a maior prioridade
+  - [Ds\PriorityQueue::push](ds-priorityqueue.push.md) - Adiciona valores na fila
+  - [Ds\PriorityQueue::toArray](ds-priorityqueue.toarray.md) - Converte a fila para um array
+  - [Ds\PriorityQueue::\_\_construct](ds-priorityqueue.construct.md) - Cria uma nova instância
+  - [Ds\Queue::allocate](ds-queue.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\Queue::capacity](ds-queue.capacity.md) - Retorna a capacidade atual
+  - [Ds\Queue::clear](ds-queue.clear.md) - Remove todos os valores
+  - [Ds\Queue::copy](ds-queue.copy.md) - Retorna uma cópia rasa da fila
+  - [Ds\Queue::count](ds-queue.count.md) - Retorna o número de valores na fila
+  - [Ds\Queue::isEmpty](ds-queue.isempty.md) - Retorna se a fila está vazia
+  - [Ds\Queue::jsonSerialize](ds-queue.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Queue::peek](ds-queue.peek.md) - Retorna o valor no início da fila
+  - [Ds\Queue::pop](ds-queue.pop.md) - Remove e retorna o valor no início da fila
+  - [Ds\Queue::push](ds-queue.push.md) - Insere valores na fila
+  - [Ds\Queue::toArray](ds-queue.toarray.md) - Converte a fila para um array
+  - [Ds\Queue::\_\_construct](ds-queue.construct.md) - Cria uma nova instância
+  - [Ds\Sequence::allocate](ds-sequence.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\Sequence::apply](ds-sequence.apply.md) - Atualiza todos os valores aplicando uma função callback a cada valor
+  - [Ds\Sequence::capacity](ds-sequence.capacity.md) - Retorna a capacidade atual
+  - [Ds\Sequence::contains](ds-sequence.contains.md) - Determina se a sequência contém determinados valores
+  - [Ds\Sequence::filter](ds-sequence.filter.md) - Cria uma nova sequência usando um callable para
+    determinar quais valores incluir.
+  - [Ds\Sequence::find](ds-sequence.find.md) - Tenta encontrar o índice de um valor
+  - [Ds\Sequence::first](ds-sequence.first.md) - Retorna o primeiro valor na sequência
+  - [Ds\Sequence::get](ds-sequence.get.md) - Retorna o valor em um índice específico
+  - [Ds\Sequence::insert](ds-sequence.insert.md) - Insere valores em um índice específico
+  - [Ds\Sequence::join](ds-sequence.join.md) - Une todos os valores como uma string
+  - [Ds\Sequence::last](ds-sequence.last.md) - Retorna o último valor
+  - [Ds\Sequence::map](ds-sequence.map.md) - Retorna o resultado da aplicação de um callback a cada valor
+  - [Ds\Sequence::merge](ds-sequence.merge.md) - Retorna o resultado de adicionar todos os valores fornecidos à sequência
+  - [Ds\Sequence::pop](ds-sequence.pop.md) - Remove e retorna o último valor
+  - [Ds\Sequence::push](ds-sequence.push.md) - Adiciona valores ao final da sequência
+  - [Ds\Sequence::reduce](ds-sequence.reduce.md) - Reduz a sequência a um único valor usando uma função de callback
+  - [Ds\Sequence::remove](ds-sequence.remove.md) - Remove e retorna um valor pelo índice
+  - [Ds\Sequence::reverse](ds-sequence.reverse.md) - Inverte a sequência no local
+  - [Ds\Sequence::reversed](ds-sequence.reversed.md) - Retorna uma cópia reversa
+  - [Ds\Sequence::rotate](ds-sequence.rotate.md) - Rotaciona a sequência pelo número dado de rotações
+  - [Ds\Sequence::set](ds-sequence.set.md) - Atualiza um valor em um índice específico
+  - [Ds\Sequence::shift](ds-sequence.shift.md) - Remove e retorna o primeiro valor
+  - [Ds\Sequence::slice](ds-sequence.slice.md) - Retorna uma sub-sequência de um intervalo dado
+  - [Ds\Sequence::sort](ds-sequence.sort.md) - Ordena a sequência no local
+  - [Ds\Sequence::sorted](ds-sequence.sorted.md) - Retorna uma cópia ordenada
+  - [Ds\Sequence::sum](ds-sequence.sum.md) - Retorna a soma de todos os valores na sequência
+  - [Ds\Sequence::unshift](ds-sequence.unshift.md) - Adiciona valores no início da sequência
+  - [Ds\Set::add](ds-set.add.md) - Adiciona valores ao conjunto
+  - [Ds\Set::allocate](ds-set.allocate.md) - Aloca memória suficiente para uma capacidade necessária
+  - [Ds\Set::capacity](ds-set.capacity.md) - Retorna a capacidade atual
+  - [Ds\Set::clear](ds-set.clear.md) - Remove todos os valores
+  - [Ds\Set::contains](ds-set.contains.md) - Determina se o conjunto contém todos os valores
+  - [Ds\Set::copy](ds-set.copy.md) - Retorna uma cópia rasa do conjunto
+  - [Ds\Set::count](ds-set.count.md) - Retorna o número de valores no conjunto
+  - [Ds\Set::diff](ds-set.diff.md) - Cria um novo conjunto usando valores que não estão em outro conjunto
+  - [Ds\Set::filter](ds-set.filter.md) - Cria um novo conjunto usando um callable para
+    determinar quais valores incluir
+  - [Ds\Set::first](ds-set.first.md) - Retorna o primeiro valor no conjunto
+  - [Ds\Set::get](ds-set.get.md) - Retorna o valor em um índice específico
+  - [Ds\Set::intersect](ds-set.intersect.md) - Cria um novo conjunto interseccionando valores com outro conjunto
+  - [Ds\Set::isEmpty](ds-set.isempty.md) - Retorna se o conjunto está vazio
+  - [Ds\Set::join](ds-set.join.md) - Junta todos os valores em uma string
+  - [Ds\Set::jsonSerialize](ds-set.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Set::last](ds-set.last.md) - Retorna o último valor no conjunto
+  - [Ds\Set::map](ds-set.map.md) - Retorna o resultado da aplicação de um retorno de chamada a cada valor
+  - [Ds\Set::merge](ds-set.merge.md) - Retorna o resultado da adição de todos os valores dados ao conjunto
+  - [Ds\Set::reduce](ds-set.reduce.md) - Reduz o conjunto a um único valor usando uma função de callback
+  - [Ds\Set::remove](ds-set.remove.md) - Remove todos os valores dados do conjunto
+  - [Ds\Set::reverse](ds-set.reverse.md) - Inverte o conjunto no local
+  - [Ds\Set::reversed](ds-set.reversed.md) - Retorna uma cópia invertida
+  - [Ds\Set::slice](ds-set.slice.md) - Retorna um subconjunto de um intervalo dado
+  - [Ds\Set::sort](ds-set.sort.md) - Ordena o conjunto no local
+  - [Ds\Set::sorted](ds-set.sorted.md) - Retorna uma cópia ordenada
+  - [Ds\Set::sum](ds-set.sum.md) - Retorna a soma de todos os valores no conjunto
+  - [Ds\Set::toArray](ds-set.toarray.md) - Converte o conjunto para um array
+  - [Ds\Set::union](ds-set.union.md) - Cria um novo conjunto usando valores da instância atual e de outro conjunto
+  - [Ds\Set::xor](ds-set.xor.md) - Cria um novo conjunto usando valores na instância atual ou em outro conjunto, mas não em ambos
+  - [Ds\Set::\_\_construct](ds-set.construct.md) - Cria uma nova instância
+  - [Ds\Stack::allocate](ds-stack.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\Stack::capacity](ds-stack.capacity.md) - Retorna a capacidade atual
+  - [Ds\Stack::clear](ds-stack.clear.md) - Remove todos os valores
+  - [Ds\Stack::copy](ds-stack.copy.md) - Retorna uma cópia rasa da pilha
+  - [Ds\Stack::count](ds-stack.count.md) - Retorna o número de valores na pilha
+  - [Ds\Stack::isEmpty](ds-stack.isempty.md) - Retorna se a pilha está vazia
+  - [Ds\Stack::jsonSerialize](ds-stack.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Stack::peek](ds-stack.peek.md) - Retorna o valor no topo da pilha
+  - [Ds\Stack::pop](ds-stack.pop.md) - Remove e retorna o valor no topo da pilha
+  - [Ds\Stack::push](ds-stack.push.md) - Empurra valores para a pilha
+  - [Ds\Stack::toArray](ds-stack.toarray.md) - Converte a pilha para um array
+  - [Ds\Stack::\_\_construct](ds-stack.construct.md) - Cria uma nova instância
+  - [Ds\Vector::allocate](ds-vector.allocate.md) - Aloca memória suficiente para uma capacidade requerida
+  - [Ds\Vector::apply](ds-vector.apply.md) - Atualiza todos os valores aplicando uma função de callback a cada valor
+  - [Ds\Vector::capacity](ds-vector.capacity.md) - Retorna a capacidade atual
+  - [Ds\Vector::clear](ds-vector.clear.md) - Remove todos os valores
+  - [Ds\Vector::contains](ds-vector.contains.md) - Determina se o vetor contém os valores fornecidos
+  - [Ds\Vector::copy](ds-vector.copy.md) - Retorna uma cópia rasa do vetor
+  - [Ds\Vector::count](ds-vector.count.md) - Retorna o número de valores na coleção
+  - [Ds\Vector::filter](ds-vector.filter.md) - Cria um novo vetor usando um callable para
+    determinar quais valores incluir.
+  - [Ds\Vector::find](ds-vector.find.md) - Tenta encontrar o índice de um valor
+  - [Ds\Vector::first](ds-vector.first.md) - Retorna o primeiro valor no vetor
+  - [Ds\Vector::get](ds-vector.get.md) - Retorna o valor em um índice específico
+  - [Ds\Vector::insert](ds-vector.insert.md) - Insere valores em um índice específico
+  - [Ds\Vector::isEmpty](ds-vector.isempty.md) - Retorna se o vetor está vazio
+  - [Ds\Vector::join](ds-vector.join.md) - Junta todos os valores como uma string
+  - [Ds\Vector::jsonSerialize](ds-vector.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [Ds\Vector::last](ds-vector.last.md) - Retorna o último valor
+  - [Ds\Vector::map](ds-vector.map.md) - Retorna o resultado da aplicação de uma função de callback a cada valor
+  - [Ds\Vector::merge](ds-vector.merge.md) - Retorna o resultado da adição de todos os valores fornecidos ao vetor
+  - [Ds\Vector::pop](ds-vector.pop.md) - Remove e retorna o último valor
+  - [Ds\Vector::push](ds-vector.push.md) - Adiciona valores ao final do vetor
+  - [Ds\Vector::reduce](ds-vector.reduce.md) - Reduz o vetor a um único valor usando uma função de callback
+  - [Ds\Vector::remove](ds-vector.remove.md) - Remove e retorna um valor pelo índice
+  - [Ds\Vector::reverse](ds-vector.reverse.md) - Inverte o vetor no local
+  - [Ds\Vector::reversed](ds-vector.reversed.md) - Retorna uma cópia invertida
+  - [Ds\Vector::rotate](ds-vector.rotate.md) - Rotaciona o vetor por um número dado de rotações
+  - [Ds\Vector::set](ds-vector.set.md) - tualiza um valor em um índice específico
+  - [Ds\Vector::shift](ds-vector.shift.md) - Remove e retorna o primeiro valor
+  - [Ds\Vector::slice](ds-vector.slice.md) - Retorna um sub-vetor de um determinado intervalo
+  - [Ds\Vector::sort](ds-vector.sort.md) - Ordena o vetor no local
+  - [Ds\Vector::sorted](ds-vector.sorted.md) - Retorna uma cópia ordenada
+  - [Ds\Vector::sum](ds-vector.sum.md) - Retorna a soma de todos os valores no vetor
+  - [Ds\Vector::toArray](ds-vector.toarray.md) - Converte o vetor em um array
+  - [Ds\Vector::unshift](ds-vector.unshift.md) - Adiciona valores no início do vetor
+  - [Ds\Vector::\_\_construct](ds-vector.construct.md) - Cria uma nova instância
+- e
+  - [each](function.each.md) - Retorna o par atual de chave e valor de um array e avança o seu cursor
+  - [easter\_date](function.easter-date.md) - Obtém o timestamp Unix para a meia-noite local da Páscoa de um ano informado
+  - [easter\_days](function.easter-days.md) - Obtém o número de dias depois de 21 de março no qual a Páscoa cai para um determinado ano
+  - [echo](function.echo.md) - Envia uma ou mais strings para a saída
+  - [eio\_busy](function.eio-busy.md) - Aumenta artificialmente a carga. Pode ser útil em testes,
+    benchmarking
+  - [eio\_cancel](function.eio-cancel.md) - Cancela uma requisição
+  - [eio\_chmod](function.eio-chmod.md) - Altera permissões de arquivo/diretório
+  - [eio\_chown](function.eio-chown.md) - Altera proprietário de arquivo/diretório
+  - [eio\_close](function.eio-close.md) - Fecha arquivo
+  - [eio\_custom](function.eio-custom.md) - Executa requisição personalizada como qualquer outra chamada eio\_\*
+  - [eio\_dup2](function.eio-dup2.md) - Duplica um descritor de arquivo
+  - [eio\_event\_loop](function.eio-event-loop.md) - Consulta a libeio até que todas as requisições tenham concluído
+  - [eio\_fallocate](function.eio-fallocate.md) - Permite ao chamador manipular diretamente o espaço alocado
+    em disco para um arquivo
+  - [eio\_fchmod](function.eio-fchmod.md) - Altera permissões de arquivo
+  - [eio\_fchown](function.eio-fchown.md) - Altera proprietário de arquivo
+  - [eio\_fdatasync](function.eio-fdatasync.md) - Sincroniza o estado central de um arquivo com o dispositivo de armazenamento
+  - [eio\_fstat](function.eio-fstat.md) - Obtém status de arquivo
+  - [eio\_fstatvfs](function.eio-fstatvfs.md) - Obtém estatísticas de sistema de um arquivo
+  - [eio\_fsync](function.eio-fsync.md) - Sincroniza o estado central de um arquivo com o dispositivo de armazenamento
+  - [eio\_ftruncate](function.eio-ftruncate.md) - Trunca um arquivo
+  - [eio\_futime](function.eio-futime.md) - Altera o horário de último acesso e última modificação de um arquivo
+  - [eio\_get\_event\_stream](function.eio-get-event-stream.md) - Obtém fluxo representando uma variável usada em comunicações internas com libeio
+  - [eio\_get\_last\_error](function.eio-get-last-error.md) - Retorna uma string que descreve o último erro associado a um recurso de requisição
+  - [eio\_grp](function.eio-grp.md) - Cria um grupo de requisições
+  - [eio\_grp\_add](function.eio-grp-add.md) - Adiciona uma requisição ao grupo de requisições
+  - [eio\_grp\_cancel](function.eio-grp-cancel.md) - Cancela um grupo de requisições
+  - [eio\_grp\_limit](function.eio-grp-limit.md) - Define limite de grupo
+  - [eio\_init](function.eio-init.md) - (Re-)inicializa a Eio
+  - [eio\_link](function.eio-link.md) - Cria uma ligação física para um arquivo
+  - [eio\_lstat](function.eio-lstat.md) - Obtém status de arquivo
+  - [eio\_mkdir](function.eio-mkdir.md) - Cria diretório
+  - [eio\_mknod](function.eio-mknod.md) - Cria arquivo normal ou especial
+  - [eio\_nop](function.eio-nop.md) - Não faz nada, exceto passar por todo o ciclo de requisição
+  - [eio\_npending](function.eio-npending.md) - Retorna o número de requisições concluídas, mas não tratadas
+  - [eio\_nready](function.eio-nready.md) - Retorna o número de requisições ainda não tratadas
+  - [eio\_nreqs](function.eio-nreqs.md) - Retorna o número de requisições a serem processadas
+  - [eio\_nthreads](function.eio-nthreads.md) - Retorna o número de threads em uso
+  - [eio\_open](function.eio-open.md) - Abre um arquivo
+  - [eio\_poll](function.eio-poll.md) - Pode ser chamada sempre que houver solicitações pendentes que precisem ser finalizadas
+  - [eio\_read](function.eio-read.md) - Lê um descritor de arquivo em determinada posição
+  - [eio\_readahead](function.eio-readahead.md) - Execute a leitura antecipada do arquivo no cache da página
+  - [eio\_readdir](function.eio-readdir.md) - Lê um diretório inteiro
+  - [eio\_readlink](function.eio-readlink.md) - Lê o valor de uma ligação simbólica
+  - [eio\_realpath](function.eio-realpath.md) - Obtém o caminho absoluto canônico
+  - [eio\_rename](function.eio-rename.md) - Altera o nome ou localização de um arquivo
+  - [eio\_rmdir](function.eio-rmdir.md) - Remove um diretório
+  - [eio\_seek](function.eio-seek.md) - Aponta para uma posição
+  - [eio\_sendfile](function.eio-sendfile.md) - Transfere dados entre descritores de arquivo
+  - [eio\_set\_max\_idle](function.eio-set-max-idle.md) - Define o número máximo de threads ociosas
+  - [eio\_set\_max\_parallel](function.eio-set-max-parallel.md) - Define número máximo de threads paralelas
+  - [eio\_set\_max\_poll\_reqs](function.eio-set-max-poll-reqs.md) - Define número máximo de requisições processadas em uma consulta
+  - [eio\_set\_max\_poll\_time](function.eio-set-max-poll-time.md) - Define o tempo máximo de consulta
+  - [eio\_set\_min\_parallel](function.eio-set-min-parallel.md) - Define número mínimo de threads paralelas
+  - [eio\_stat](function.eio-stat.md) - Obtém status de arquivo
+  - [eio\_statvfs](function.eio-statvfs.md) - Obtém estatísticas do sistema de arquivos
+  - [eio\_symlink](function.eio-symlink.md) - Cria uma ligação simbólica
+  - [eio\_sync](function.eio-sync.md) - Envia o cache em buffer para o disco
+  - [eio\_syncfs](function.eio-syncfs.md) - Faz a chamada de sistema syncfs do Linux, se disponível
+  - [eio\_sync\_file\_range](function.eio-sync-file-range.md) - Sincroniza um segmento de arquivo com o disco
+  - [eio\_truncate](function.eio-truncate.md) - Trunca um arquivo
+  - [eio\_unlink](function.eio-unlink.md) - Remove um nome e possivelmente o arquivo ao qual ele se refere
+  - [eio\_utime](function.eio-utime.md) - Altera os horários de último acesso e de modificação de um arquivo
+  - [eio\_write](function.eio-write.md) - Escreve em um arquivo
+  - [empty](function.empty.md) - Determina se uma variável está vazia
+  - [EmptyIterator::current](emptyiterator.current.md) - O método current()
+  - [EmptyIterator::key](emptyiterator.key.md) - O método key()
+  - [EmptyIterator::next](emptyiterator.next.md) - O método next()
+  - [EmptyIterator::rewind](emptyiterator.rewind.md) - O método rewind()
+  - [EmptyIterator::valid](emptyiterator.valid.md) - Verifica se o elemento atual é válido
+  - [enchant\_broker\_describe](function.enchant-broker-describe.md) - Enumera os provedores de Enchant
+  - [enchant\_broker\_dict\_exists](function.enchant-broker-dict-exists.md) - Informa se um dicionário existe ou não
+  - [enchant\_broker\_free](function.enchant-broker-free.md) - Libera o recurso do broker e seus dicionários
+  - [enchant\_broker\_free\_dict](function.enchant-broker-free-dict.md) - Libera um recurso de dicionário
+  - [enchant\_broker\_get\_dict\_path](function.enchant-broker-get-dict-path.md) - Obtém o caminho do diretório para um determinado back-end
+  - [enchant\_broker\_get\_error](function.enchant-broker-get-error.md) - Retorna o último erro do broker
+  - [enchant\_broker\_init](function.enchant-broker-init.md) - Cria um novo objeto broker
+  - [enchant\_broker\_list\_dicts](function.enchant-broker-list-dicts.md) - Retorna uma lista de dicionários disponíveis
+  - [enchant\_broker\_request\_dict](function.enchant-broker-request-dict.md) - Cria um novo dicionário usando uma etiqueta
+  - [enchant\_broker\_request\_pwl\_dict](function.enchant-broker-request-pwl-dict.md) - Cria um dicionário usando um arquivo PWL
+  - [enchant\_broker\_set\_dict\_path](function.enchant-broker-set-dict-path.md) - Define o caminho do diretório para um determinado back-end
+  - [enchant\_broker\_set\_ordering](function.enchant-broker-set-ordering.md) - Declara uma preferência de dicionários a serem usados ​​para o idioma
+  - [enchant\_dict\_add](function.enchant-dict-add.md) - Adiciona uma palavra à lista de palavras personalizadas
+  - [enchant\_dict\_add\_to\_personal](function.enchant-dict-add-to-personal.md) - Sinônimo de enchant\_dict\_add
+  - [enchant\_dict\_add\_to\_session](function.enchant-dict-add-to-session.md) - Adciona uma palavra a esta sessão de verificação de ortografia
+  - [enchant\_dict\_check](function.enchant-dict-check.md) - Verifica se uma palavra está escrita de forma correta
+  - [enchant\_dict\_describe](function.enchant-dict-describe.md) - Descreve um dicionário individual
+  - [enchant\_dict\_get\_error](function.enchant-dict-get-error.md) - Retorna o último erro da sessão de correção ortográfica atual
+  - [enchant\_dict\_is\_added](function.enchant-dict-is-added.md) - Informa se uma palavra existe ou não nesta sessão de correção ortográfica
+  - [enchant\_dict\_is\_in\_session](function.enchant-dict-is-in-session.md) - Sinônimo de enchant\_dict\_is\_added
+  - [enchant\_dict\_quick\_check](function.enchant-dict-quick-check.md) - Verifica se a palavra está escrita corretamente e fornece sugestões
+  - [enchant\_dict\_remove](function.enchant-dict-remove.md) - Add a word to the exclusion list and remove it from the personal dictionary
+  - [enchant\_dict\_remove\_from\_session](function.enchant-dict-remove-from-session.md) - Remove a word from the session dictionary
+  - [enchant\_dict\_store\_replacement](function.enchant-dict-store-replacement.md) - Adiciona uma correção para uma palavra
+  - [enchant\_dict\_suggest](function.enchant-dict-suggest.md) - Sugere grafias para uma palavra
+  - [end](function.end.md) - Define o ponteiro interno de um array para seu último elemento
+  - [enum\_exists](function.enum-exists.md) - Verifica se uma enumeração foi definida
+  - [Error::getCode](error.getcode.md) - Recupera o código do erro
+  - [Error::getFile](error.getfile.md) - Recupera o nome do arquivo onde o erro ocorreu
+  - [Error::getLine](error.getline.md) - Recupera a linha onde o erro ocorreu
+  - [Error::getMessage](error.getmessage.md) - Recupera a mensagem de erro
+  - [Error::getPrevious](error.getprevious.md) - Retorna o último Throwable
+  - [Error::getTrace](error.gettrace.md) - Recupera a pilha de rastreio
+  - [Error::getTraceAsString](error.gettraceasstring.md) - Recupera a pilha de rastreio como uma string
+  - [Error::\_\_clone](error.clone.md) - Clona o erro
+  - [Error::\_\_construct](error.construct.md) - Constrói o objeto error
+  - [Error::\_\_toString](error.tostring.md) - Representação em string do erro
+  - [ErrorException::getSeverity](errorexception.getseverity.md) - Obtém o nível da exceção
+  - [ErrorException::\_\_construct](errorexception.construct.md) - Constrói a exceção
+  - [error\_clear\_last](function.error-clear-last.md) - Limpa o erro mais recente
+  - [error\_get\_last](function.error-get-last.md) - Obtém o último erro ocorrido
+  - [error\_log](function.error-log.md) - Envia uma mensagem de erro para as rotinas de tratamento de erros definidas
+  - [error\_reporting](function.error-reporting.md) - Define quais erros do PHP são relatados
+  - [escapeshellarg](function.escapeshellarg.md) - Escapa uma string para ser usada como um argumento shell
+  - [escapeshellcmd](function.escapeshellcmd.md) - Escapa meta-caracteres shell
+  - [Ev::backend](ev.backend.md) - Retorna um inteiro descrevendo o backend usado por libev
+  - [Ev::depth](ev.depth.md) - Retorna profundidade de recursão
+  - [Ev::embeddableBackends](ev.embeddablebackends.md) - Retorna o conjunto de backends que podem ser incorporados em outros laços de eventos
+  - [Ev::feedSignal](ev.feedsignal.md) - Alimenta um evento de sinal no Ev
+  - [Ev::feedSignalEvent](ev.feedsignalevent.md) - Alimenta o evento de sinal no laço padrão
+  - [Ev::iteration](ev.iteration.md) - Retorna o número de vezes que o laço de eventos padrão pesquisou novos
+    eventos
+  - [Ev::now](ev.now.md) - Retorna o horário em que a última iteração do laço de eventos padrão
+    foi iniciada
+  - [Ev::nowUpdate](ev.nowupdate.md) - Estabelece a hora atual consultando o kernel, atualizando o horário
+    retornado por Ev::now no progresso
+  - [Ev::recommendedBackends](ev.recommendedbackends.md) - Retorna uma máscara de bits de backends recomendados para a
+    plataforma atual
+  - [Ev::resume](ev.resume.md) - Retoma o laço de eventos padrão suspenso anteriormente
+  - [Ev::run](ev.run.md) - Começa a verificar eventos e chamar funções de retorno para o
+    laço padrão
+  - [Ev::sleep](ev.sleep.md) - Bloqueia o processo pelo número de segundos fornecido
+  - [Ev::stop](ev.stop.md) - Interrompe o laço de eventos padrão
+  - [Ev::supportedBackends](ev.supportedbackends.md) - Retorna o conjunto de backends suportados pela configuração atual
+    do libev
+  - [Ev::suspend](ev.suspend.md) - Suspende o laço de eventos padrão
+  - [Ev::time](ev.time.md) - Retorna o horário atual em segundos fracionários desde a época
+  - [Ev::verify](ev.verify.md) - Executa verificações de consistência interna (para depuração)
+  - [eval](function.eval.md) - Avalia uma string como código PHP
+  - [EvCheck::createStopped](evcheck.createstopped.md) - Cria uma instância de um observador EvCheck parado
+  - [EvCheck::\_\_construct](evcheck.construct.md) - Constrói o objeto observador EvCheck
+  - [EvChild::createStopped](evchild.createstopped.md) - Cria uma instância de um observador EvChild parado
+  - [EvChild::set](evchild.set.md) - Configura o observador
+  - [EvChild::\_\_construct](evchild.construct.md) - Constrói o objeto observador EvChild
+  - [EvEmbed::createStopped](evembed.createstopped.md) - Cria objeto observador EvEmbed parado
+  - [EvEmbed::set](evembed.set.md) - Configura o observador
+  - [EvEmbed::sweep](evembed.sweep.md) - Faz uma varredura única e sem bloqueio sobre o laço incorporado
+  - [EvEmbed::\_\_construct](evembed.construct.md) - Constrói o objeto EvEmbed
+  - [Event::add](event.add.md) - Torna o evento pendente
+  - [Event::addSignal](event.addsignal.md) - Sinônimo de Event::add
+  - [Event::addTimer](event.addtimer.md) - Sinônimo de Event::add
+  - [Event::del](event.del.md) - Torna o evento não pendente
+  - [Event::delSignal](event.delsignal.md) - Sinônimo de Event::del
+  - [Event::delTimer](event.deltimer.md) - Sinônimo de Event::del
+  - [Event::free](event.free.md) - Torna o evento não pendente e libera recursos alocados para este
+    evento
+  - [Event::getSupportedMethods](event.getsupportedmethods.md) - Retorna um array com nomes de métodos suportados nesta versão do Libevent
+  - [Event::pending](event.pending.md) - Detecta se o evento está pendente ou agendado
+  - [Event::set](event.set.md) - Reconfigura o evento
+  - [Event::setPriority](event.setpriority.md) - Define a prioridade do evento
+  - [Event::setTimer](event.settimer.md) - Reconfigura o evento do temporizador
+  - [Event::signal](event.signal.md) - Constrói objeto de evento de sinal
+  - [Event::timer](event.timer.md) - Constrói objeto de evento de temporizador
+  - [Event::\_\_construct](event.construct.md) - Constrói o objeto Event
+  - [EventBase::dispatch](eventbase.dispatch.md) - Despacha eventos pendentes
+  - [EventBase::exit](eventbase.exit.md) - Para de despachar eventos
+  - [EventBase::free](eventbase.free.md) - Libera recursos alocados para esta base de eventos
+  - [EventBase::getFeatures](eventbase.getfeatures.md) - Retorna a máscara de bits dos recursos suportados
+  - [EventBase::getMethod](eventbase.getmethod.md) - Retorna o método de evento em uso
+  - [EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.md) - Retorna o horário base do evento atua
+  - [EventBase::gotExit](eventbase.gotexit.md) - Verifica se o laço de eventos foi informado para sair
+  - [EventBase::gotStop](eventbase.gotstop.md) - Verifica se o laço de eventos foi informado para sair
+  - [EventBase::loop](eventbase.loop.md) - Despacha eventos pendentes
+  - [EventBase::priorityInit](eventbase.priorityinit.md) - Define o número de prioridades por base de eventos
+  - [EventBase::reInit](eventbase.reinit.md) - Reinicializa a base de eventos (após um "fork")
+  - [EventBase::stop](eventbase.stop.md) - Informa ao event\_base para parar de despachar eventos
+  - [EventBase::\_\_construct](eventbase.construct.md) - Constrói objeto EventBase
+  - [EventBuffer::add](eventbuffer.add.md) - Acrescenta dados ao final de um buffer de eventos
+  - [EventBuffer::addBuffer](eventbuffer.addbuffer.md) - Move todos os dados de um buffer fornecido para a instância atual do EventBuffer
+  - [EventBuffer::appendFrom](eventbuffer.appendfrom.md) - Move o número especificado de bytes de um buffer de origem para o
+    fim do buffer atual
+  - [EventBuffer::copyout](eventbuffer.copyout.md) - Copia um número especificado de bytes da frente do buffer
+  - [EventBuffer::drain](eventbuffer.drain.md) - Remove o número especificado de bytes da frente do buffer
+    sem copiá-lo para lugar nenhum
+  - [EventBuffer::enableLocking](eventbuffer.enablelocking.md) - Habilita bloqueio
+  - [EventBuffer::expand](eventbuffer.expand.md) - Reserva espaço no buffer
+  - [EventBuffer::freeze](eventbuffer.freeze.md) - Impede que chamadas que modificam um buffer de eventos sejam bem-sucedidas
+  - [EventBuffer::lock](eventbuffer.lock.md) - Adquire uma trava no buffer
+  - [EventBuffer::prepend](eventbuffer.prepend.md) - Adiciona dados à frente do buffer
+  - [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) - Move todos os dados do buffer de origem para a frente do buffer atual
+  - [EventBuffer::pullup](eventbuffer.pullup.md) - Lineariza os dados dentro do buffer
+    e retorna seu conteúdo como uma string
+  - [EventBuffer::read](eventbuffer.read.md) - Lê dados de um evbuffer e drena os bytes lidos
+  - [EventBuffer::readFrom](eventbuffer.readfrom.md) - Lê dados de um arquivo no final do buffer
+  - [EventBuffer::readLine](eventbuffer.readline.md) - Extrai uma linha da frente do buffer
+  - [EventBuffer::search](eventbuffer.search.md) - Verifica o buffer em busca de uma ocorrência de uma string
+  - [EventBuffer::searchEol](eventbuffer.searcheol.md) - Verifica o buffer para detectar a ocorrência de um fim de linha
+  - [EventBuffer::substr](eventbuffer.substr.md) - Subtrai uma parte dos dados do buffer
+  - [EventBuffer::unfreeze](eventbuffer.unfreeze.md) - Reativa chamadas que modificam um buffer de eventos
+  - [EventBuffer::unlock](eventbuffer.unlock.md) - Libera a trava adquirida por EventBuffer::lock
+  - [EventBuffer::write](eventbuffer.write.md) - Grava o conteúdo do buffer em um arquivo ou soquete
+  - [EventBuffer::\_\_construct](eventbuffer.construct.md) - Constrói objeto EventBuffer
+  - [EventBufferEvent::close](eventbufferevent.close.md) - Fecha o descritor de arquivo associado ao evento de buffer atual
+  - [EventBufferEvent::connect](eventbufferevent.connect.md) - Conecta o descritor de arquivo do evento de buffer ao endereço fornecido ou
+    soquete UNIX
+  - [EventBufferEvent::connectHost](eventbufferevent.connecthost.md) - Conecta-se a um nome de host com resolução DNS opcionalmente assíncrona
+  - [EventBufferEvent::createPair](eventbufferevent.createpair.md) - Cria dois eventos de buffer conectados um ao outro
+  - [EventBufferEvent::disable](eventbufferevent.disable.md) - Desabilita eventos de leitura, escrita ou ambos em um evento de buffer
+  - [EventBufferEvent::enable](eventbufferevent.enable.md) - Habilita eventos de leitura, escrita ou ambos em um evento de buffer
+  - [EventBufferEvent::free](eventbufferevent.free.md) - Libera um evento de buffer
+  - [EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md) - Retorna uma string descrevendo a última tentativa de pesquisa de DNS com falha
+  - [EventBufferEvent::getEnabled](eventbufferevent.getenabled.md) - Retorna a máscara de bits dos eventos atualmente habilitados no evento do buffer
+  - [EventBufferEvent::getInput](eventbufferevent.getinput.md) - Retorna o buffer de entrada subjacente associado ao evento de buffer
+    atual
+  - [EventBufferEvent::getOutput](eventbufferevent.getoutput.md) - Retorna o buffer de saída subjacente associado ao evento de buffer
+    atual
+  - [EventBufferEvent::read](eventbufferevent.read.md) - Lê dados do buffer
+  - [EventBufferEvent::readBuffer](eventbufferevent.readbuffer.md) - Drena todo o conteúdo do buffer de entrada e os coloca em um EventBuffer
+  - [EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md) - Atribui funções de retorno de leitura, escrita e evento (status)
+  - [EventBufferEvent::setPriority](eventbufferevent.setpriority.md) - Atribui uma prioridade a um evento de buffer
+  - [EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.md) - Define o tempo limite de leitura e gravação para um evento de buffer
+  - [EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md) - Ajusta marcas d'água de leitura e/ou gravação
+  - [EventBufferEvent::sslError](eventbufferevent.sslerror.md) - Retorna o erro OpenSSL mais recente relatado no evento de buffer
+  - [EventBufferEvent::sslFilter](eventbufferevent.sslfilter.md) - Cria um novo evento de buffer SSL para enviar seus dados por outro evento de buffer
+  - [EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md) - Retorna uma descrição textual da cifra
+  - [EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md) - Retorna o nome da cifra atual da conexão SSL
+  - [EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md) - Retorna a versão da cifra usada pela conexão SSL atual
+  - [EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md) - Retorna o nome do protocolo usado para a conexão SSL atual
+  - [EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md) - Solicita a um evento de buffer que inicie a renegociação SSL
+  - [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.md) - Cria um novo evento de buffer SSL para enviar seus dados por meio de um SSL em um soquete
+  - [EventBufferEvent::write](eventbufferevent.write.md) - Adiciona dados ao buffer de saída de um evento de buffer
+  - [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.md) - Adiciona o conteúdo de todo o buffer à saída de um evento de buffer
+    buffer
+  - [EventBufferEvent::\_\_construct](eventbufferevent.construct.md) - Constrói objeto EventBufferEvent
+  - [EventConfig::avoidMethod](eventconfig.avoidmethod.md) - Diz ao libvent para evitar um método de evento específico
+  - [EventConfig::requireFeatures](eventconfig.requirefeatures.md) - Insere um recurso de método de evento obrigatório que o aplicativo exige
+  - [EventConfig::setFlags](eventconfig.setflags.md) - Define um ou mais sinalizadores que configuram como o EventBase eventual será inicializado
+  - [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md) - Evita inversão de prioridade
+  - [EventConfig::\_\_construct](eventconfig.construct.md) - Constrói objeto EventConfig
+  - [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md) - Adiciona um servidor de nomes à base DNS
+  - [EventDnsBase::addSearch](eventdnsbase.addsearch.md) - Adiciona um domínio à lista de domínios de pesquisa
+  - [EventDnsBase::clearSearch](eventdnsbase.clearsearch.md) - Remove todos os sufixos de pesquisa atuais
+  - [EventDnsBase::countNameservers](eventdnsbase.countnameservers.md) - Obtém o número de servidores de nomes configurados
+  - [EventDnsBase::loadHosts](eventdnsbase.loadhosts.md) - Carrega um arquivo hosts (no mesmo formato que /etc/hosts) do arquivo hosts
+  - [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md) - Verifica o arquivo formatado em resolv.conf
+  - [EventDnsBase::setOption](eventdnsbase.setoption.md) - Define o valor de uma opção de configuração
+  - [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.md) - Define o parâmetro 'ndots' para pesquisas
+  - [EventDnsBase::\_\_construct](eventdnsbase.construct.md) - Constrói objeto EventDnsBase
+  - [EventHttp::accept](eventhttp.accept.md) - Faz com que um servidor HTTP aceite conexões no recurso ou fluxo de soquete especificado
+  - [EventHttp::addServerAlias](eventhttp.addserveralias.md) - Adiciona um sinônimo de servidor ao objeto do servidor HTTP
+  - [EventHttp::bind](eventhttp.bind.md) - Vincula um servidor HTTP no endereço e porta especificados
+  - [EventHttp::removeServerAlias](eventhttp.removeserveralias.md) - Remove sinônimo do servidor
+  - [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md) - Define quais métodos HTTP são suportados em solicitações aceitas por este servidor e passadas para funções de retorno do usuário
+  - [EventHttp::setCallback](eventhttp.setcallback.md) - Define uma função de retorno para o URI especificado
+  - [EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md) - Define a função de retorno padrão para lidar com solicitações que não são capturadas por funções de retorno específicas
+  - [EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md) - Define o tamanho máximo do corpo da solicitação
+  - [EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.md) - Define o tamanho máximo do cabeçalho HTTP
+  - [EventHttp::setTimeout](eventhttp.settimeout.md) - Define o tempo limite para uma solicitação HTTP
+  - [EventHttp::\_\_construct](eventhttp.construct.md) - Constrói objeto EventHttp (o servidor HTTP)
+  - [EventHttpConnection::getBase](eventhttpconnection.getbase.md) - Retorna a base de eventos associada à conexão
+  - [EventHttpConnection::getPeer](eventhttpconnection.getpeer.md) - Obtém o endereço remoto e a porta associados à conexão
+  - [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.md) - Faz uma requisição HTTP pela conexão especificada
+  - [EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md) - Define função de retorno para o fechamento da conexão
+  - [EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.md) - Define o endereço IP a partir do qual as conexões HTTP são feitas
+  - [EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md) - Define a porta local a partir da qual as conexões são feitas
+  - [EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md) - Define o tamanho máximo do corpo para a conexão
+  - [EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md) - Define o tamanho máximo do cabeçalho
+  - [EventHttpConnection::setRetries](eventhttpconnection.setretries.md) - Define o limite de novas tentativas para a conexão
+  - [EventHttpConnection::setTimeout](eventhttpconnection.settimeout.md) - Define o tempo limite para a conexão
+  - [EventHttpConnection::\_\_construct](eventhttpconnection.construct.md) - Constrói objeto EventHttpConnection
+  - [EventHttpRequest::addHeader](eventhttprequest.addheader.md) - Adiciona um cabeçalho HTTP aos cabeçalhos da requisição
+  - [EventHttpRequest::cancel](eventhttprequest.cancel.md) - Cancela uma requisição HTTP pendente
+  - [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md) - Remove todos os cabeçalhos de saída da lista de cabeçalhos da requisição
+  - [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md) - Fecha a conexão HTTP associada
+  - [EventHttpRequest::findHeader](eventhttprequest.findheader.md) - Encontra o valor pertencente a um cabeçalho
+  - [EventHttpRequest::free](eventhttprequest.free.md) - Libera o objeto e remove os eventos associados
+  - [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md) - Retorna o objeto EventBufferEvent
+  - [EventHttpRequest::getCommand](eventhttprequest.getcommand.md) - Retorna o comando de requisição (método)
+  - [EventHttpRequest::getConnection](eventhttprequest.getconnection.md) - Retorna objeto EventHttpConnection
+  - [EventHttpRequest::getHost](eventhttprequest.gethost.md) - Retorna o host da requisição
+  - [EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.md) - Retorna o buffer de entrada
+  - [EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.md) - Retorna um array associativo dos cabeçalhos de entrada
+  - [EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md) - Retorna o buffer de saída da requisição
+  - [EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md) - Retorna um array associativo dos cabeçalhos de saída
+  - [EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.md) - Retorna o código de resposta
+  - [EventHttpRequest::getUri](eventhttprequest.geturi.md) - Retorna o URI da requisição
+  - [EventHttpRequest::removeHeader](eventhttprequest.removeheader.md) - Remove um cabeçalho HTTP dos cabeçalhos da requisição
+  - [EventHttpRequest::sendError](eventhttprequest.senderror.md) - Envia uma mensagem de erro HTML para o cliente
+  - [EventHttpRequest::sendReply](eventhttprequest.sendreply.md) - Envia uma resposta HTML ao cliente
+  - [EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md) - Envia outro bloco de dados como parte de uma resposta em bloco em andamento
+  - [EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md) - Conclui uma resposta em blocos, liberando a requisição conforme apropriado
+  - [EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.md) - Inicia uma resposta em blocos
+  - [EventHttpRequest::\_\_construct](eventhttprequest.construct.md) - Constrói objeto EventHttpRequest
+  - [EventListener::disable](eventlistener.disable.md) - Desabilita um objeto ouvinte de conexão de evento
+  - [EventListener::enable](eventlistener.enable.md) - Habilita um objeto ouvinte de conexão de evento
+  - [EventListener::getBase](eventlistener.getbase.md) - Retorna a base de eventos associada ao ouvinte de eventos
+  - [EventListener::getSocketName](eventlistener.getsocketname.md) - Recupera o endereço atual ao qual o
+    soquete do ouvinte está vinculado
+  - [EventListener::setCallback](eventlistener.setcallback.md) - Define função de retorno
+  - [EventListener::setErrorCallback](eventlistener.seterrorcallback.md) - Define a função de retorno de erro do ouvinte de eventos
+  - [EventListener::\_\_construct](eventlistener.construct.md) - Cria um novo ouvinte de conexão associado a uma base de eventos
+  - [EventSslContext::\_\_construct](eventsslcontext.construct.md) - Constrói um contexto OpenSSL para uso com classes Event
+  - [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md) - Retorna o número de erro de soquete mais recente
+  - [EventUtil::getLastSocketError](eventutil.getlastsocketerror.md) - Retorna o erro de soquete mais recente
+  - [EventUtil::getSocketFd](eventutil.getsocketfd.md) - Retorna o descritor numérico de arquivo de um soquete ou fluxo
+  - [EventUtil::getSocketName](eventutil.getsocketname.md) - Recupera o endereço atual ao qual o
+    soquete está vinculado
+  - [EventUtil::setSocketOption](eventutil.setsocketoption.md) - Define opções de soquete
+  - [EventUtil::sslRandPoll](eventutil.sslrandpoll.md) - Gera entropia por meio de RAND\_poll() do OpenSSL
+  - [EventUtil::\_\_construct](eventutil.construct.md) - O construtor abstrato
+  - [EvFork::createStopped](evfork.createstopped.md) - Cria uma instância parada da classe observadora EvFork
+  - [EvFork::\_\_construct](evfork.construct.md) - Constrói o objeto observador EvFork
+  - [EvIdle::createStopped](evidle.createstopped.md) - Cria uma instância de um objeto observador EvIdle
+  - [EvIdle::\_\_construct](evidle.construct.md) - Constrói o objeto observador EvIdle
+  - [EvIo::createStopped](evio.createstopped.md) - Cria objeto observador EvIo parado
+  - [EvIo::set](evio.set.md) - Configura o observador
+  - [EvIo::\_\_construct](evio.construct.md) - Constrói objeto observador EvIo
+  - [EvLoop::backend](evloop.backend.md) - Retorna um inteiro descrevendo o backend usado por libev
+  - [EvLoop::check](evloop.check.md) - Cria o objeto EvCheck associado à instância atual do laço
+    de eventos
+  - [EvLoop::child](evloop.child.md) - Cria o objeto EvChild associado ao laço de eventos atual
+  - [EvLoop::defaultLoop](evloop.defaultloop.md) - Retorna ou cria o laço de eventos padrão
+  - [EvLoop::embed](evloop.embed.md) - Cria uma instância do observador EvEmbed associado
+    ao objeto EvLoop atual
+  - [EvLoop::fork](evloop.fork.md) - Cria um objeto observador EvFork associado à instância atual
+    do laço de eventos
+  - [EvLoop::idle](evloop.idle.md) - Cria objeto observador EvIdle associado à instância de laço de evento
+    atual
+  - [EvLoop::invokePending](evloop.invokepending.md) - Invoca todos os observadores pendentes enquanto redefine seu estado pendente
+  - [EvLoop::io](evloop.io.md) - Cria objeto observador EvIo associado à instância de laço de evento
+    atual
+  - [EvLoop::loopFork](evloop.loopfork.md) - Deve ser chamado após um fork
+  - [EvLoop::now](evloop.now.md) - Retorna o "horário do laço de eventos" atual
+  - [EvLoop::nowUpdate](evloop.nowupdate.md) - Estabelece o horário atual consultando o kernel, atualizando o
+    horário retornado por EvLoop::now no progresso
+  - [EvLoop::periodic](evloop.periodic.md) - Cria um objeto observador EvPeriodic associado à instância atual do
+    laço de eventos
+  - [EvLoop::prepare](evloop.prepare.md) - Cria um objeto observador EvPrepare associado à instância atual do
+    laço de eventos
+  - [EvLoop::resume](evloop.resume.md) - Retoma o laço de eventos padrão suspenso anteriormente
+  - [EvLoop::run](evloop.run.md) - Começa a verificar eventos e chamar funções de retorno para o laço
+  - [EvLoop::signal](evloop.signal.md) - Cria um objeto observador EvSignal associado à instância atual do
+    laço de eventos
+  - [EvLoop::stat](evloop.stat.md) - Cria objeto observador EvStat associado à instância de laço de evento
+    atual
+  - [EvLoop::stop](evloop.stop.md) - Interrompe o laço de eventos
+  - [EvLoop::suspend](evloop.suspend.md) - Suspende o laço
+  - [EvLoop::timer](evloop.timer.md) - Cria objeto observador EvTimer associado à instância de laço de evento
+    atual
+  - [EvLoop::verify](evloop.verify.md) - Executa verificações de consistência interna (para depuração)
+  - [EvLoop::\_\_construct](evloop.construct.md) - Constrói o objeto de laço de eventos
+  - [EvPeriodic::again](evperiodic.again.md) - Simplesmente para e reinicia o observador periódico novamente
+  - [EvPeriodic::at](evperiodic.at.md) - Retorna o tempo absoluto em que este observador
+    deve disparar em seguida
+  - [EvPeriodic::createStopped](evperiodic.createstopped.md) - Cria um observador EvPeriodic parado
+  - [EvPeriodic::set](evperiodic.set.md) - Configura o observador
+  - [EvPeriodic::\_\_construct](evperiodic.construct.md) - Constrói objeto observador EvPeriodic
+  - [EvPrepare::createStopped](evprepare.createstopped.md) - Cria uma instância parada do observador EvPrepare
+  - [EvPrepare::\_\_construct](evprepare.construct.md) - Constrói objeto observador EvPrepare
+  - [EvSignal::createStopped](evsignal.createstopped.md) - Cria objeto observador EvSignal parado
+  - [EvSignal::set](evsignal.set.md) - Configura o observador
+  - [EvSignal::\_\_construct](evsignal.construct.md) - Constrói objeto observador EvSignal
+  - [EvStat::attr](evstat.attr.md) - Retorna os valores detectados mais recentemente por Ev
+  - [EvStat::createStopped](evstat.createstopped.md) - Cria um objeto observador EvStat parado
+  - [EvStat::prev](evstat.prev.md) - Retorna o conjunto anterior de valores retornados por EvStat::attr
+  - [EvStat::set](evstat.set.md) - Configura o observador
+  - [EvStat::stat](evstat.stat.md) - Inicia a chamada stat
+  - [EvStat::\_\_construct](evstat.construct.md) - Contrói objeto observador EvStat
+  - [EvTimer::again](evtimer.again.md) - Reinicia o observador do temporizador
+  - [EvTimer::createStopped](evtimer.createstopped.md) - Cria objeto observador EvTimer parado
+  - [EvTimer::set](evtimer.set.md) - Configura o observador
+  - [EvTimer::\_\_construct](evtimer.construct.md) - Contrói objeto observador EvTimer
+  - [EvWatcher::clear](evwatcher.clear.md) - Limpa o status pendente do observador
+  - [EvWatcher::feed](evwatcher.feed.md) - Alimenta o conjunto de "revents" fornecido no laço de eventos
+  - [EvWatcher::getLoop](evwatcher.getloop.md) - Retorna o laço responsável pelo observador
+  - [EvWatcher::invoke](evwatcher.invoke.md) - Invoca a função de retorno do observador com a máscara de bits dos eventos
+    recebidos fornecidos
+  - [EvWatcher::keepalive](evwatcher.keepalive.md) - Configura opção de impedir que o laço retorne
+  - [EvWatcher::setCallback](evwatcher.setcallback.md) - Define uma nova função de retorno para o observador
+  - [EvWatcher::start](evwatcher.start.md) - Inicia o observador
+  - [EvWatcher::stop](evwatcher.stop.md) - Interrrompe o observador
+  - [EvWatcher::\_\_construct](evwatcher.construct.md) - Construtor abstrato de um objeto observador
+  - [Exception::getCode](exception.getcode.md) - Obtém o código da exceção
+  - [Exception::getFile](exception.getfile.md) - Obtém o arquivo no qual a exceção foi criada
+  - [Exception::getLine](exception.getline.md) - Obtém a linha na qual a exceção foi criada
+  - [Exception::getMessage](exception.getmessage.md) - Obtém a mensagem da exceção
+  - [Exception::getPrevious](exception.getprevious.md) - Retorna o Throwable anterior
+  - [Exception::getTrace](exception.gettrace.md) - Obtém a stack trace
+  - [Exception::getTraceAsString](exception.gettraceasstring.md) - Obtém a stack trace como uma string
+  - [Exception::\_\_clone](exception.clone.md) - Clona a exceção
+  - [Exception::\_\_construct](exception.construct.md) - Construtor da exceção
+  - [Exception::\_\_toString](exception.tostring.md) - Representação em string da exceção
+  - [exec](function.exec.md) - Executa um programa externo
+  - [Executable::execute](mysql-xdevapi-executable.execute.md) - Executa instrução
+  - [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md) - Construtor de ExecutionStatus
+  - [exif\_imagetype](function.exif-imagetype.md) - Verifica o tipo de uma imagem
+  - [exif\_read\_data](function.exif-read-data.md) - Lê os cabeçalhos EXIF de um arquivo de imagen
+  - [exif\_tagname](function.exif-tagname.md) - Obtém o nome do cabeçalho para um índice
+  - [exif\_thumbnail](function.exif-thumbnail.md) - Recupera a miniatura embutida de uma imagem
+  - [exit](function.exit.md) - Termina o script atual com um código ou uma mensagem de status
+  - [exp](function.exp.md) - Calcula o expoente de e
+  - [expect\_expectl](function.expect-expectl.md) - Espera até que a saída de um processo corresponda a um
+    dos padrões, um período de tempo especificado tenha passado ou um EOF seja alcançado
+  - [expect\_popen](function.expect-popen.md) - Executa comando via Bourne shell, e abre o fluxo PTY para
+    o processo
+  - [explode](function.explode.md) - Divide uma string com base em outra string
+  - [expm1](function.expm1.md) - Retorna exp($num) - 1, computado de forma precisa mesmo
+    quando o valor do número está próximo de zero.
+  - [expression](function.mysql-xdevapi-expression.md) - Vincula as variáveis de instrução preparada como parâmetros
+  - [Expression::\_\_construct](mysql-xdevapi-expression.construct.md) - Construtor de Expression
+  - [extension\_loaded](function.extension-loaded.md) - Descobre se uma extensão está carregada
+  - [extract](function.extract.md) - Importa variáveis para a tabela de símbolos a partir de um array
+  - [ezmlm\_hash](function.ezmlm-hash.md) - Calcula o valor do hash necessário para EZMLM
+- f
+  - [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md) - Retorna a posição do neurônio inicial
+  - [FANNConnection::getToNeuron](fannconnection.gettoneuron.md) - Retorna a posição do neurônio final
+  - [FANNConnection::getWeight](fannconnection.getweight.md) - Retorna o peso da conexão
+  - [FANNConnection::setWeight](fannconnection.setweight.md) - Define o peso da conexão
+  - [FANNConnection::\_\_construct](fannconnection.construct.md) - O construtor de conexão
+  - [fann\_cascadetrain\_on\_data](function.fann-cascadetrain-on-data.md) - Treina um conjunto de dados inteiro, por um período de tempo, usando o algoritmo de treinamento Cascade2
+  - [fann\_cascadetrain\_on\_file](function.fann-cascadetrain-on-file.md) - Treina em um conjunto de dados inteiro lido do arquivo, por um período de tempo usando o algoritmo de treinamento Cascade2
+  - [fann\_clear\_scaling\_params](function.fann-clear-scaling-params.md) - Limpa parâmetros de dimensionamento
+  - [fann\_copy](function.fann-copy.md) - Cria uma cópia de uma estrutura fann
+  - [fann\_create\_from\_file](function.fann-create-from-file.md) - Constrói uma rede neural de retropropagação a partir de um arquivo de configuração
+  - [fann\_create\_shortcut](function.fann-create-shortcut.md) - Cria uma rede neural de retropropagação padrão que não está totalmente conectada e possui conexões de atalho
+  - [fann\_create\_shortcut\_array](function.fann-create-shortcut-array.md) - Cria uma rede neural de retropropagação padrão que não está totalmente conectada e possui conexões de atalho
+  - [fann\_create\_sparse](function.fann-create-sparse.md) - Cria uma rede neural de retropropagação padrão, que não está totalmente conectada
+  - [fann\_create\_sparse\_array](function.fann-create-sparse-array.md) - Cria uma rede neural de retropropagação padrão, que não está totalmente conectada usando um array de tamanhos de camada
+  - [fann\_create\_standard](function.fann-create-standard.md) - Cria uma rede neural de retropropagação padrão totalmente conectada
+  - [fann\_create\_standard\_array](function.fann-create-standard-array.md) - Cria uma rede neural de retropropagação padrão totalmente conectada usando um array de tamanhos de camada
+  - [fann\_create\_train](function.fann-create-train.md) - Cria uma estrutura de dados de treinamento vazia
+  - [fann\_create\_train\_from\_callback](function.fann-create-train-from-callback.md) - Cria a estrutura de dados de treinamento a partir de uma função fornecida pelo usuário
+  - [fann\_descale\_input](function.fann-descale-input.md) - Restaura o dimensionamento do vetor de entrada com base em parâmetros previamente calculados, após obtê-lo da rede neural
+  - [fann\_descale\_output](function.fann-descale-output.md) - Restaura o dimensionamento do vetor de saída com base em parâmetros previamente calculados, após obtê-lo da rede neural
+  - [fann\_descale\_train](function.fann-descale-train.md) - Restaura o dimensionamento da entrada e da saída com base em parâmetros previamente calculados
+  - [fann\_destroy](function.fann-destroy.md) - Destrói a rede neural inteira e libera adequadamente a memória associada
+  - [fann\_destroy\_train](function.fann-destroy-train.md) - Destrói os dados de treinamento
+  - [fann\_duplicate\_train\_data](function.fann-duplicate-train-data.md) - Retorna uma cópia exata de dados de treinamento de rede neural
+  - [fann\_get\_activation\_function](function.fann-get-activation-function.md) - Retorna a função de ativação
+  - [fann\_get\_activation\_steepness](function.fann-get-activation-steepness.md) - Retorna a inclinação da função de ativação para o neurônio e a camada informados
+  - [fann\_get\_bias\_array](function.fann-get-bias-array.md) - Obtém o número da polarização em cada camada na rede
+  - [fann\_get\_bit\_fail](function.fann-get-bit-fail.md) - O número de falhas de bit
+  - [fann\_get\_bit\_fail\_limit](function.fann-get-bit-fail-limit.md) - Retorna o limite de falha de bit usado durante o treinamento
+  - [fann\_get\_cascade\_activation\_functions](function.fann-get-cascade-activation-functions.md) - Retorna as funções de ativação em cascata
+  - [fann\_get\_cascade\_activation\_functions\_count](function.fann-get-cascade-activation-functions-count.md) - Retorna o número de funções de ativação em cascata
+  - [fann\_get\_cascade\_activation\_steepnesses](function.fann-get-cascade-activation-steepnesses.md) - Retorna as inclinações de ativação em cascata
+  - [fann\_get\_cascade\_activation\_steepnesses\_count](function.fann-get-cascade-activation-steepnesses-count.md) - O número de inclinações de ativação
+  - [fann\_get\_cascade\_candidate\_change\_fraction](function.fann-get-cascade-candidate-change-fraction.md) - Retorna a fração de alteração de candidatos em cascata
+  - [fann\_get\_cascade\_candidate\_limit](function.fann-get-cascade-candidate-limit.md) - Retorna o limite de candidato
+  - [fann\_get\_cascade\_candidate\_stagnation\_epochs](function.fann-get-cascade-candidate-stagnation-epochs.md) - Retorna o número de épocas de estagnação de candidatos em cascata
+  - [fann\_get\_cascade\_max\_cand\_epochs](function.fann-get-cascade-max-cand-epochs.md) - Retorna o máximo de épocas de candidatos
+  - [fann\_get\_cascade\_max\_out\_epochs](function.fann-get-cascade-max-out-epochs.md) - Retorna o máximo de épocas da saída
+  - [fann\_get\_cascade\_min\_cand\_epochs](function.fann-get-cascade-min-cand-epochs.md) - Retorna o mínimo de épocas de candidatos
+  - [fann\_get\_cascade\_min\_out\_epochs](function.fann-get-cascade-min-out-epochs.md) - Retorna o mínimo de épocas de saída
+  - [fann\_get\_cascade\_num\_candidates](function.fann-get-cascade-num-candidates.md) - Retorna o número de candidatos utilizados durante o treinamento
+  - [fann\_get\_cascade\_num\_candidate\_groups](function.fann-get-cascade-num-candidate-groups.md) - Retorna o número de grupos candidatos
+  - [fann\_get\_cascade\_output\_change\_fraction](function.fann-get-cascade-output-change-fraction.md) - Retorna a fração de alteração da saída em cascata
+  - [fann\_get\_cascade\_output\_stagnation\_epochs](function.fann-get-cascade-output-stagnation-epochs.md) - Retorna o número de épocas de estagnação da saída em cascata
+  - [fann\_get\_cascade\_weight\_multiplier](function.fann-get-cascade-weight-multiplier.md) - Retorna o multiplicador de peso
+  - [fann\_get\_connection\_array](function.fann-get-connection-array.md) - Obtém conexões na rede
+  - [fann\_get\_connection\_rate](function.fann-get-connection-rate.md) - Obtém a taxa de conexão usada quando a rede foi criada
+  - [fann\_get\_errno](function.fann-get-errno.md) - Retorna o número do último erro
+  - [fann\_get\_errstr](function.fann-get-errstr.md) - Retorna a última mensagem de erro
+  - [fann\_get\_layer\_array](function.fann-get-layer-array.md) - Obtém o número de neurônios em cada camada na rede
+  - [fann\_get\_learning\_momentum](function.fann-get-learning-momentum.md) - Retorna o impulso de aprendizagem
+  - [fann\_get\_learning\_rate](function.fann-get-learning-rate.md) - Retorna a taxa de aprendizagem
+  - [fann\_get\_MSE](function.fann-get-mse.md) - Lê o erro quadrático médio da rede
+  - [fann\_get\_network\_type](function.fann-get-network-type.md) - Obtém o tipo da rede neural em que ela foi criada
+  - [fann\_get\_num\_input](function.fann-get-num-input.md) - Obtém o número de neurônios de entrada
+  - [fann\_get\_num\_layers](function.fann-get-num-layers.md) - Obtém o número de camadas na rede neural
+  - [fann\_get\_num\_output](function.fann-get-num-output.md) - Obtém o número de neurônios de saída
+  - [fann\_get\_quickprop\_decay](function.fann-get-quickprop-decay.md) - Retorna o decaimento que é um fator que os pesos devem reduzir em cada ideração durante o treinamento Quickprop
+  - [fann\_get\_quickprop\_mu](function.fann-get-quickprop-mu.md) - Retorna o fator mu
+  - [fann\_get\_rprop\_decrease\_factor](function.fann-get-rprop-decrease-factor.md) - Retorna o fator de redução usado durante treinamento RPROP
+  - [fann\_get\_rprop\_delta\_max](function.fann-get-rprop-delta-max.md) - Retorna o tamanho máximo do passo
+  - [fann\_get\_rprop\_delta\_min](function.fann-get-rprop-delta-min.md) - Retorna o tamanho mínimo do passo
+  - [fann\_get\_rprop\_delta\_zero](function.fann-get-rprop-delta-zero.md) - Retorna o tamanho inicial do passo
+  - [fann\_get\_rprop\_increase\_factor](function.fann-get-rprop-increase-factor.md) - Retorna o fator de aumento usado durante o treinamento RPROP
+  - [fann\_get\_sarprop\_step\_error\_shift](function.fann-get-sarprop-step-error-shift.md) - Retorna o deslocamento de erro de passo do treinamento Sarprop
+  - [fann\_get\_sarprop\_step\_error\_threshold\_factor](function.fann-get-sarprop-step-error-threshold-factor.md) - Retorna o fator de limite de erro de passo do treinamento Sarprop
+  - [fann\_get\_sarprop\_temperature](function.fann-get-sarprop-temperature.md) - Retorna a temperatura do treinamento Sarprop
+  - [fann\_get\_sarprop\_weight\_decay\_shift](function.fann-get-sarprop-weight-decay-shift.md) - Retorna o deslocamento de decaimento de peso do treinamento Sarprop
+  - [fann\_get\_total\_connections](function.fann-get-total-connections.md) - Obtém o número total de conexões em toda a rede
+  - [fann\_get\_total\_neurons](function.fann-get-total-neurons.md) - Obtém o número total de neurônios em toda a rede
+  - [fann\_get\_training\_algorithm](function.fann-get-training-algorithm.md) - Retorna o algoritmo de treinamento
+  - [fann\_get\_train\_error\_function](function.fann-get-train-error-function.md) - Retorna a função de erro usada durante o treinamento
+  - [fann\_get\_train\_stop\_function](function.fann-get-train-stop-function.md) - Retorna a função de parada usada durante o treinamento
+  - [fann\_init\_weights](function.fann-init-weights.md) - Inicializa os pesos usando o algoritmo de Widrow + Nguyen
+  - [fann\_length\_train\_data](function.fann-length-train-data.md) - Retorna o número de padrões de treinamento nos dados de treinamento
+  - [fann\_merge\_train\_data](function.fann-merge-train-data.md) - Mescla os dados de treinamento
+  - [fann\_num\_input\_train\_data](function.fann-num-input-train-data.md) - Retorna o número de entradas em cada um dos padrões de treinamento nos dados de treinamento
+  - [fann\_num\_output\_train\_data](function.fann-num-output-train-data.md) - Retorna o número de saídas em cada um dos padrões de treinamento nos dados de treinamento
+  - [fann\_print\_error](function.fann-print-error.md) - Exibe a string de erro
+  - [fann\_randomize\_weights](function.fann-randomize-weights.md) - Fornece a cada conexão um peso aleatório entre um mínimo e um máximo
+  - [fann\_read\_train\_from\_file](function.fann-read-train-from-file.md) - Lê um arquivo que armazena dados de treinamento
+  - [fann\_reset\_errno](function.fann-reset-errno.md) - Redefine o número do último erro
+  - [fann\_reset\_errstr](function.fann-reset-errstr.md) - Redefine a string do último erro
+  - [fann\_reset\_MSE](function.fann-reset-mse.md) - Redefine o erro quadrático médio da rede
+  - [fann\_run](function.fann-run.md) - Executa a entrada através da rede neural
+  - [fann\_save](function.fann-save.md) - Grava a rede neural inteira em um arquivo de configuração
+  - [fann\_save\_train](function.fann-save-train.md) - Grava a estrutura de treinamento em um arquivo
+  - [fann\_scale\_input](function.fann-scale-input.md) - Dimensiona dados no vetor de entrada com base em parâmetros previamente calculados, antes de inseri-lo na rede neural
+  - [fann\_scale\_input\_train\_data](function.fann-scale-input-train-data.md) - Dimensiona as entradas nos dados de treinamento para a faixa especificada
+  - [fann\_scale\_output](function.fann-scale-output.md) - Dimensiona dados no vetor de saída com base em parâmetros previamente calculados, após obtê-lo da rede neural
+  - [fann\_scale\_output\_train\_data](function.fann-scale-output-train-data.md) - Dimensiona as saídas nos dados de treinamento para uma faixa especificada
+  - [fann\_scale\_train](function.fann-scale-train.md) - Dimensiona entrada e saída com base em parâmetros previamente calculados
+  - [fann\_scale\_train\_data](function.fann-scale-train-data.md) - Dimensiona as entradas e saídas nos dados de treinamento para a faixa especificada
+  - [fann\_set\_activation\_function](function.fann-set-activation-function.md) - Define a função de ativação para o neurônio e a camada informados
+  - [fann\_set\_activation\_function\_hidden](function.fann-set-activation-function-hidden.md) - Define a função de ativação para todas as camadas ocultas
+  - [fann\_set\_activation\_function\_layer](function.fann-set-activation-function-layer.md) - Define a função de ativação para todos os neurônios na camada especificada
+  - [fann\_set\_activation\_function\_output](function.fann-set-activation-function-output.md) - Define a função de ativação para a camada de saída
+  - [fann\_set\_activation\_steepness](function.fann-set-activation-steepness.md) - Define a inclinação de ativação para o neurônio e camada informados
+  - [fann\_set\_activation\_steepness\_hidden](function.fann-set-activation-steepness-hidden.md) - Define a inclinação de ativação para todos os neurônios em todas as camadas ocultas
+  - [fann\_set\_activation\_steepness\_layer](function.fann-set-activation-steepness-layer.md) - Define a inclinação de ativação para todos os neurônios da camada especificada
+  - [fann\_set\_activation\_steepness\_output](function.fann-set-activation-steepness-output.md) - Define a inclinação de ativação na camada de saída
+  - [fann\_set\_bit\_fail\_limit](function.fann-set-bit-fail-limit.md) - Define o limite de falhas de bit usado durante o treinamento
+  - [fann\_set\_callback](function.fann-set-callback.md) - Define a função de retorno para uso durante o treinamento
+  - [fann\_set\_cascade\_activation\_functions](function.fann-set-cascade-activation-functions.md) - Define o array de funções de ativação de candidatos em cascata
+  - [fann\_set\_cascade\_activation\_steepnesses](function.fann-set-cascade-activation-steepnesses.md) - Define o array de inclinação de ativação de candidatos em cascata
+  - [fann\_set\_cascade\_candidate\_change\_fraction](function.fann-set-cascade-candidate-change-fraction.md) - Define a fração de modificação de candidatos em cascata
+  - [fann\_set\_cascade\_candidate\_limit](function.fann-set-cascade-candidate-limit.md) - Define o limite de candidatos
+  - [fann\_set\_cascade\_candidate\_stagnation\_epochs](function.fann-set-cascade-candidate-stagnation-epochs.md) - Define o número de épocas de estagnação de candidatos em cascata
+  - [fann\_set\_cascade\_max\_cand\_epochs](function.fann-set-cascade-max-cand-epochs.md) - Define o máximo de épocas de candidatos
+  - [fann\_set\_cascade\_max\_out\_epochs](function.fann-set-cascade-max-out-epochs.md) - Define o máximo de épocas de saída
+  - [fann\_set\_cascade\_min\_cand\_epochs](function.fann-set-cascade-min-cand-epochs.md) - Define o mínimo de épocas de candidatos
+  - [fann\_set\_cascade\_min\_out\_epochs](function.fann-set-cascade-min-out-epochs.md) - Define o mínimo de épocas de saída
+  - [fann\_set\_cascade\_num\_candidate\_groups](function.fann-set-cascade-num-candidate-groups.md) - Define o número de grupos candidatos
+  - [fann\_set\_cascade\_output\_change\_fraction](function.fann-set-cascade-output-change-fraction.md) - Define a fração de modificação da saída em cascata
+  - [fann\_set\_cascade\_output\_stagnation\_epochs](function.fann-set-cascade-output-stagnation-epochs.md) - Define o número de épocas de estagnação de saída em cascata
+  - [fann\_set\_cascade\_weight\_multiplier](function.fann-set-cascade-weight-multiplier.md) - Define o multiplicador de peso
+  - [fann\_set\_error\_log](function.fann-set-error-log.md) - Define onde os erros são registrados
+  - [fann\_set\_input\_scaling\_params](function.fann-set-input-scaling-params.md) - Calcula os parâmetros de dimensionamento da entrada para uso futuro com base nos dados de treinamento
+  - [fann\_set\_learning\_momentum](function.fann-set-learning-momentum.md) - Define o impulso de aprendizagem
+  - [fann\_set\_learning\_rate](function.fann-set-learning-rate.md) - Define a taxa de aprendizagem
+  - [fann\_set\_output\_scaling\_params](function.fann-set-output-scaling-params.md) - Calcula os parâmetros de dimensionamento de saída para uso futuro com base nos dados de treinamento
+  - [fann\_set\_quickprop\_decay](function.fann-set-quickprop-decay.md) - Define o fator de decaimento do Quickprop
+  - [fann\_set\_quickprop\_mu](function.fann-set-quickprop-mu.md) - Define o fator mu do Quickprop
+  - [fann\_set\_rprop\_decrease\_factor](function.fann-set-rprop-decrease-factor.md) - Define o fator de redução usado durante o treinamento RPROP
+  - [fann\_set\_rprop\_delta\_max](function.fann-set-rprop-delta-max.md) - Define o tamanho máximo do passo
+  - [fann\_set\_rprop\_delta\_min](function.fann-set-rprop-delta-min.md) - Define o tamanho mínimo do passo
+  - [fann\_set\_rprop\_delta\_zero](function.fann-set-rprop-delta-zero.md) - Define o tamanho inicial do passo
+  - [fann\_set\_rprop\_increase\_factor](function.fann-set-rprop-increase-factor.md) - Define o fator de aumento usado durante o treinamento RPROP
+  - [fann\_set\_sarprop\_step\_error\_shift](function.fann-set-sarprop-step-error-shift.md) - Define o deslocamento de erro de passo do Sarprop
+  - [fann\_set\_sarprop\_step\_error\_threshold\_factor](function.fann-set-sarprop-step-error-threshold-factor.md) - Define o fator de limite de erro de passo do Sarprop
+  - [fann\_set\_sarprop\_temperature](function.fann-set-sarprop-temperature.md) - Define a temperatura do Sarprop
+  - [fann\_set\_sarprop\_weight\_decay\_shift](function.fann-set-sarprop-weight-decay-shift.md) - Define o deslocamento de decaimento do peso do Sarprop
+  - [fann\_set\_scaling\_params](function.fann-set-scaling-params.md) - Calcula parâmetros de entrada e saída para uso futuro com base nos dados de treinamento
+  - [fann\_set\_training\_algorithm](function.fann-set-training-algorithm.md) - Define o algoritmo de treinamento
+  - [fann\_set\_train\_error\_function](function.fann-set-train-error-function.md) - Define a função de erro usada durante o treinamento
+  - [fann\_set\_train\_stop\_function](function.fann-set-train-stop-function.md) - Define a função de parada usada durante o treinamento
+  - [fann\_set\_weight](function.fann-set-weight.md) - Define uma conexão na rede
+  - [fann\_set\_weight\_array](function.fann-set-weight-array.md) - Define as conexões na rede
+  - [fann\_shuffle\_train\_data](function.fann-shuffle-train-data.md) - Embaralha o dados de treinamento, tornando a ordem aleatória
+  - [fann\_subset\_train\_data](function.fann-subset-train-data.md) - Retorna uma cópia de um subconjunto dos dados de treinamento
+  - [fann\_test](function.fann-test.md) - Testa com um conjunto de entradas, e um conjunto de saídas desejadas
+  - [fann\_test\_data](function.fann-test-data.md) - Testa um conjunto de dados de treinamento e calcula seu MSE
+  - [fann\_train](function.fann-train.md) - Treina uma iteração com um conjunto de entradas e um conjunto de saídas desejadas
+  - [fann\_train\_epoch](function.fann-train-epoch.md) - Treina uma época com um conjunto de dados de treinamento
+  - [fann\_train\_on\_data](function.fann-train-on-data.md) - Treina em um conjunto de dados inteiro por um período de tempo
+  - [fann\_train\_on\_file](function.fann-train-on-file.md) - Treina em um conjunto de dados inteiro, que é lido de um arquivo, por um período de tempo
+  - [fastcgi\_finish\_request](function.fastcgi-finish-request.md) - Envia todos os dados de resposta ao cliente
+  - [fbird\_add\_user](function.fbird-add-user.md) - Sinônimo de ibase\_add\_user
+  - [fbird\_affected\_rows](function.fbird-affected-rows.md) - Sinônimo de ibase\_affected\_rows
+  - [fbird\_backup](function.fbird-backup.md) - Sinônimo de ibase\_backup
+  - [fbird\_blob\_add](function.fbird-blob-add.md) - Sinônimo de ibase\_blob\_add
+  - [fbird\_blob\_cancel](function.fbird-blob-cancel.md) - Cancela a criação de blob
+  - [fbird\_blob\_close](function.fbird-blob-close.md) - Sinônimo de ibase\_blob\_close
+  - [fbird\_blob\_create](function.fbird-blob-create.md) - Sinônimo de ibase\_blob\_create
+  - [fbird\_blob\_echo](function.fbird-blob-echo.md) - Sinônimo de ibase\_blob\_echo
+  - [fbird\_blob\_get](function.fbird-blob-get.md) - Sinônimo de ibase\_blob\_get
+  - [fbird\_blob\_import](function.fbird-blob-import.md) - Sinônimo de ibase\_blob\_import
+  - [fbird\_blob\_info](function.fbird-blob-info.md) - Sinônimo de ibase\_blob\_info
+  - [fbird\_blob\_open](function.fbird-blob-open.md) - Sinônimo de ibase\_blob\_open
+  - [fbird\_close](function.fbird-close.md) - Sinônimo de ibase\_close
+  - [fbird\_commit](function.fbird-commit.md) - Sinônimo de ibase\_commit
+  - [fbird\_commit\_ret](function.fbird-commit-ret.md) - Sinônimo de ibase\_commit\_ret
+  - [fbird\_connect](function.fbird-connect.md) - Sinônimo de ibase\_connect
+  - [fbird\_db\_info](function.fbird-db-info.md) - Sinônimo de ibase\_db\_info
+  - [fbird\_delete\_user](function.fbird-delete-user.md) - Sinônimo de ibase\_delete\_user
+  - [fbird\_drop\_db](function.fbird-drop-db.md) - Sinônimo de ibase\_drop\_db
+  - [fbird\_errcode](function.fbird-errcode.md) - Sinônimo de ibase\_errcode
+  - [fbird\_errmsg](function.fbird-errmsg.md) - Sinônimo de ibase\_errmsg
+  - [fbird\_execute](function.fbird-execute.md) - Sinônimo de ibase\_execute
+  - [fbird\_fetch\_assoc](function.fbird-fetch-assoc.md) - Sinônimo de ibase\_fetch\_assoc
+  - [fbird\_fetch\_object](function.fbird-fetch-object.md) - Sinônimo de ibase\_fetch\_object
+  - [fbird\_fetch\_row](function.fbird-fetch-row.md) - Sinônimo de ibase\_fetch\_row
+  - [fbird\_field\_info](function.fbird-field-info.md) - Sinônimo de ibase\_field\_info
+  - [fbird\_free\_event\_handler](function.fbird-free-event-handler.md) - Sinônimo de ibase\_free\_event\_handler
+  - [fbird\_free\_query](function.fbird-free-query.md) - Sinônimo de ibase\_free\_query
+  - [fbird\_free\_result](function.fbird-free-result.md) - Sinônimo de ibase\_free\_result
+  - [fbird\_gen\_id](function.fbird-gen-id.md) - Sinônimo de ibase\_gen\_id
+  - [fbird\_maintain\_db](function.fbird-maintain-db.md) - Sinônimo de ibase\_maintain\_db
+  - [fbird\_modify\_user](function.fbird-modify-user.md) - Sinônimo de ibase\_modify\_user
+  - [fbird\_name\_result](function.fbird-name-result.md) - Sinônimo de ibase\_name\_result
+  - [fbird\_num\_fields](function.fbird-num-fields.md) - Sinônimo de ibase\_num\_fields
+  - [fbird\_num\_params](function.fbird-num-params.md) - Sinônimo de ibase\_num\_params
+  - [fbird\_param\_info](function.fbird-param-info.md) - Sinônimo de ibase\_param\_info
+  - [fbird\_pconnect](function.fbird-pconnect.md) - Sinônimo de ibase\_pconnect
+  - [fbird\_prepare](function.fbird-prepare.md) - Sinônimo de ibase\_prepare
+  - [fbird\_query](function.fbird-query.md) - Sinônimo de ibase\_query
+  - [fbird\_restore](function.fbird-restore.md) - Sinônimo de ibase\_restore
+  - [fbird\_rollback](function.fbird-rollback.md) - Sinônimo de ibase\_rollback
+  - [fbird\_rollback\_ret](function.fbird-rollback-ret.md) - Sinônimo de ibase\_rollback\_ret
+  - [fbird\_server\_info](function.fbird-server-info.md) - Sinônimo de ibase\_server\_info
+  - [fbird\_service\_attach](function.fbird-service-attach.md) - Sinônimo de ibase\_service\_attach
+  - [fbird\_service\_detach](function.fbird-service-detach.md) - Sinônimo de ibase\_service\_detach
+  - [fbird\_set\_event\_handler](function.fbird-set-event-handler.md) - Sinônimo de ibase\_set\_event\_handler
+  - [fbird\_trans](function.fbird-trans.md) - Sinônimo de ibase\_trans
+  - [fbird\_wait\_event](function.fbird-wait-event.md) - Sinônimo de ibase\_wait\_event
+  - [fclose](function.fclose.md) - Fecha um ponteiro de arquivo aberto
+  - [fdatasync](function.fdatasync.md) - Sincroniza dados (mas não metadados) ao arquivo
+  - [fdf\_add\_doc\_javascript](function.fdf-add-doc-javascript.md) - Adiciona código javascript ao documento FDF
+  - [fdf\_add\_template](function.fdf-add-template.md) - Adiciona um modelo ao documento FDF
+  - [fdf\_close](function.fdf-close.md) - Fecha um documento FDF
+  - [fdf\_create](function.fdf-create.md) - Cria um novo documento FDF
+  - [fdf\_enum\_values](function.fdf-enum-values.md) - Chama uma função definida pelo usuário para cada valor do documento
+  - [fdf\_errno](function.fdf-errno.md) - Retorna o código de erro para a última operação fdf
+  - [fdf\_error](function.fdf-error.md) - Retorna a descrição do erro para o código de erro FDF
+  - [fdf\_get\_ap](function.fdf-get-ap.md) - Obtém a aparência de um campo
+  - [fdf\_get\_attachment](function.fdf-get-attachment.md) - Extrai o arquivo carregado incorporado no FDF
+  - [fdf\_get\_encoding](function.fdf-get-encoding.md) - Obtém o valor da chave /Encoding
+  - [fdf\_get\_file](function.fdf-get-file.md) - Obtém o valor da chave /F
+  - [fdf\_get\_flags](function.fdf-get-flags.md) - Obtém os sinalizadores de um campo
+  - [fdf\_get\_opt](function.fdf-get-opt.md) - Obtém um valor do array de opções de um campo
+  - [fdf\_get\_status](function.fdf-get-status.md) - Obtém o valor da chave /STATUS
+  - [fdf\_get\_value](function.fdf-get-value.md) - Obtém o valor de um campo
+  - [fdf\_get\_version](function.fdf-get-version.md) - Obtém o número da versão para a API ou arquivo FDF
+  - [fdf\_header](function.fdf-header.md) - Define cabeçalhos de saída específicos de FDF
+  - [fdf\_next\_field\_name](function.fdf-next-field-name.md) - Obtém o próximo nome de campo
+  - [fdf\_open](function.fdf-open.md) - Abre um documento FDF
+  - [fdf\_open\_string](function.fdf-open-string.md) - Lê um documento FDF de uma string
+  - [fdf\_remove\_item](function.fdf-remove-item.md) - Define o quadro de destino para o formulário
+  - [fdf\_save](function.fdf-save.md) - Salva um documento FDF
+  - [fdf\_save\_string](function.fdf-save-string.md) - Retorna o documento FDF como uma string
+  - [fdf\_set\_ap](function.fdf-set-ap.md) - Define a aparência de um campo
+  - [fdf\_set\_encoding](function.fdf-set-encoding.md) - Define a codificação de caracteres FDF
+  - [fdf\_set\_file](function.fdf-set-file.md) - Define o documento PDF para exibição de dados FDF
+  - [fdf\_set\_flags](function.fdf-set-flags.md) - Define um sinalizador de um campo
+  - [fdf\_set\_javascript\_action](function.fdf-set-javascript-action.md) - Define uma ação javascript de um campo
+  - [fdf\_set\_on\_import\_javascript](function.fdf-set-on-import-javascript.md) - Adiciona código javascript para ser executado quando o Acrobat abre o FDF
+  - [fdf\_set\_opt](function.fdf-set-opt.md) - Define uma opção de um campo
+  - [fdf\_set\_status](function.fdf-set-status.md) - Define o valor da chave /STATUS
+  - [fdf\_set\_submit\_form\_action](function.fdf-set-submit-form-action.md) - Define uma ação de envio de formulário de um campo
+  - [fdf\_set\_target\_frame](function.fdf-set-target-frame.md) - Define o quadro de destino para exibição do formulário
+  - [fdf\_set\_value](function.fdf-set-value.md) - Define o valor de um campo
+  - [fdf\_set\_version](function.fdf-set-version.md) - Define o número da versão para um arquivo FDF
+  - [fdiv](function.fdiv.md) - Divide dois números de acordo com a IEEE 754
+  - [feof](function.feof.md) - Testa pelo fim-de-arquivo em um ponteiro de arquivo
+  - [FFI::addr](ffi.addr.md) - Cria um ponteiro não gerenciado para dado C
+  - [FFI::alignof](ffi.alignof.md) - Obtém o alinhamento
+  - [FFI::arrayType](ffi.arraytype.md) - Constrói dinamicamente um novo array tipo C
+  - [FFI::cast](ffi.cast.md) - Realiza um conversão de tipo C
+  - [FFI::cdef](ffi.cdef.md) - Cria um novo objeto FFI
+  - [FFI::free](ffi.free.md) - Libera uma estrutura de dados não gerenciada
+  - [FFI::isNull](ffi.isnull.md) - Verifica se um FFI\CData é um ponteiro nulo
+  - [FFI::load](ffi.load.md) - Carrega declarações C a partir de um arquivo de cabeçalho
+  - [FFI::memcmp](ffi.memcmp.md) - Compara áreas da memória
+  - [FFI::memcpy](ffi.memcpy.md) - Copia uma área da memória para outra
+  - [FFI::memset](ffi.memset.md) - Preenche uma área de memória
+  - [FFI::new](ffi.new.md) - Cria uma estrutura de dados C
+  - [FFI::scope](ffi.scope.md) - Instancia um objeto FFI com declarações C analisadas durante o pré-carregamento
+  - [FFI::sizeof](ffi.sizeof.md) - Obtém o tamanho do dado ou tipo C
+  - [FFI::string](ffi.string.md) - Cria uma string PHP a partir de uma área de memória
+  - [FFI::type](ffi.type.md) - Cria um objeto FFI\CType a partir de uma declaração C
+  - [FFI::typeof](ffi.typeof.md) - Obtém o FFI\CType de FFI\CData
+  - [FFI\CType::getAlignment](ffi-ctype.getalignment.md) - Descrição
+  - [FFI\CType::getArrayElementType](ffi-ctype.getarrayelementtype.md) - Descrição
+  - [FFI\CType::getArrayLength](ffi-ctype.getarraylength.md) - Descrição
+  - [FFI\CType::getAttributes](ffi-ctype.getattributes.md) - Descrição
+  - [FFI\CType::getEnumKind](ffi-ctype.getenumkind.md) - Descrição
+  - [FFI\CType::getFuncABI](ffi-ctype.getfuncabi.md) - Descrição
+  - [FFI\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.md) - Obtém a contagem de parâmetros de um tipo de função
+  - [FFI\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.md) - Obtém o tipo de um parâmetro de função
+  - [FFI\CType::getFuncReturnType](ffi-ctype.getfuncreturntype.md) - Descrição
+  - [FFI\CType::getKind](ffi-ctype.getkind.md) - Descrição
+  - [FFI\CType::getName](ffi-ctype.getname.md) - Descrição
+  - [FFI\CType::getPointerType](ffi-ctype.getpointertype.md) - Descrição
+  - [FFI\CType::getSize](ffi-ctype.getsize.md) - Descrição
+  - [FFI\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.md) - Descrição
+  - [FFI\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md) - Descrição
+  - [FFI\CType::getStructFieldType](ffi-ctype.getstructfieldtype.md) - Descrição
+  - [fflush](function.fflush.md) - Força a liberação do buffer para um arquivo
+  - [fgetc](function.fgetc.md) - Lê um caractere do ponteiro de arquivo
+  - [fgetcsv](function.fgetcsv.md) - Lê uma linha do ponteiro de arquivos e a interpreta como campos CSV
+  - [fgets](function.fgets.md) - Lê uma linha de um ponteiro de arquivo
+  - [fgetss](function.fgetss.md) - Ler uma linha de um ponteiro de arquivo e retira as tags HTML
+  - [Fiber::getCurrent](fiber.getcurrent.md) - Obtém a instância de Fiber sendo executada no momento
+  - [Fiber::getReturn](fiber.getreturn.md) - Obtém o valor retornado pela Fiber
+  - [Fiber::isRunning](fiber.isrunning.md) - Determina se a Fiber está em execução
+  - [Fiber::isStarted](fiber.isstarted.md) - Determina se uma Fiber foi iniciada
+  - [Fiber::isSuspended](fiber.issuspended.md) - Determina se uma Fiber está suspensa
+  - [Fiber::isTerminated](fiber.isterminated.md) - Determina se a Fiber terminou
+  - [Fiber::resume](fiber.resume.md) - Retoma a execução de uma Fiber com um valor
+  - [Fiber::start](fiber.start.md) - Inicia execução de uma Fibra
+  - [Fiber::suspend](fiber.suspend.md) - Suspende a execução da Fiber atual
+  - [Fiber::throw](fiber.throw.md) - Retoma a execução de uma Fiber com uma exceção
+  - [Fiber::\_\_construct](fiber.construct.md) - Cria uma nova instância de Fiber
+  - [FiberError::\_\_construct](fibererror.construct.md) - Construtor para não permitir instanciação direta
+  - [file](function.file.md) - Lê todo o arquivo para um array
+  - [fileatime](function.fileatime.md) - Obtém o último horário de acesso do arquivo
+  - [filectime](function.filectime.md) - Obtém o horário de modificação de inode do arquivo
+  - [filegroup](function.filegroup.md) - Lê o grupo do arquivo
+  - [fileinode](function.fileinode.md) - Lê o inode do arquivo
+  - [filemtime](function.filemtime.md) - Obtém o horário de modificação do arquivo
+  - [fileowner](function.fileowner.md) - Obtem o proprietário do arquivo
+  - [fileperms](function.fileperms.md) - Obtém permissões de arquivo
+  - [filesize](function.filesize.md) - Obtém o tamanho do arquivo
+  - [FilesystemIterator::current](filesystemiterator.current.md) - O arquivo atual
+  - [FilesystemIterator::getFlags](filesystemiterator.getflags.md) - Obtem as opções de manipulação
+  - [FilesystemIterator::key](filesystemiterator.key.md) - Recupera a chave para o arquivo atual
+  - [FilesystemIterator::next](filesystemiterator.next.md) - Move para o próximo arquivo
+  - [FilesystemIterator::rewind](filesystemiterator.rewind.md) - Retrocede para o início
+  - [FilesystemIterator::setFlags](filesystemiterator.setflags.md) - Define opções de manipulação
+  - [FilesystemIterator::\_\_construct](filesystemiterator.construct.md) - Constrói um novo iterador de sistema de arquivos
+  - [filetype](function.filetype.md) - Obtém o tipo do arquivo
+  - [file\_exists](function.file-exists.md) - Verifica se um arquivo ou diretório existe
+  - [file\_get\_contents](function.file-get-contents.md) - Lê todo o conteúdo de um arquivo para uma string
+  - [file\_put\_contents](function.file-put-contents.md) - Escreve dados em um arquivo
+  - [FilterIterator::accept](filteriterator.accept.md) - Verifica se o elemento atual do iterador é aceitável
+  - [FilterIterator::current](filteriterator.current.md) - Retorna o valor do elemento atual
+  - [FilterIterator::key](filteriterator.key.md) - Retorna a chave do elemento atual
+  - [FilterIterator::next](filteriterator.next.md) - Avança o iterador
+  - [FilterIterator::rewind](filteriterator.rewind.md) - Recomeça o iterador
+  - [FilterIterator::valid](filteriterator.valid.md) - Verifica se o elemento atual é válido ou não
+  - [FilterIterator::\_\_construct](filteriterator.construct.md) - Constrói um FilterIterator
+  - [filter\_has\_var](function.filter-has-var.md) - Verifica se uma variável de um tipo especificado existe
+  - [filter\_id](function.filter-id.md) - Retorna o ID de filtro pertencente a um filtro nomeado
+  - [filter\_input](function.filter-input.md) - Obtém uma variável externa específica por nome e filtra-a opcionalmente
+  - [filter\_input\_array](function.filter-input-array.md) - Obtem variáveis externas e opcionalmente as filtra
+  - [filter\_list](function.filter-list.md) - Retorna a lista de todos os filtros suportados
+  - [filter\_var](function.filter-var.md) - Filtra uma variável com um filtro especificado
+  - [filter\_var\_array](function.filter-var-array.md) - Obtêm e opcionalmente filtra múltiplas variáveis
+  - [finfo::buffer](finfo.buffer.md) - Sinônimo de finfo\_buffer()
+  - [finfo::file](finfo.file.md) - Sinônimo de finfo\_file()
+  - [finfo::set\_flags](finfo.set-flags.md) - Sinônimo de finfo\_set\_flags()
+  - [finfo::\_\_construct](finfo.construct.md) - Sinônimo de finfo\_open
+  - [finfo\_buffer](function.finfo-buffer.md) - Retorna informações sobre um buffer de string
+  - [finfo\_close](function.finfo-close.md) - Fecha uma instância de finfo
+  - [finfo\_file](function.finfo-file.md) - Retorna informações sobre um arquivo
+  - [finfo\_open](function.finfo-open.md) - Cria uma instância de finfo
+  - [finfo\_set\_flags](function.finfo-set-flags.md) - Define as opções de configuração da libmagic
+  - [floatval](function.floatval.md) - Obtém o valor em ponto flutuante da variável
+  - [flock](function.flock.md) - Travamento consultivo portável de arquivo
+  - [floor](function.floor.md) - Arredonda frações para baixo
+  - [flush](function.flush.md) - Descarrega o buffer na saída do sistema
+  - [fmod](function.fmod.md) - Retorna o resto (módulo) em ponto flutuante da divisão
+    dos argumentos
+  - [fnmatch](function.fnmatch.md) - Compara nome de arquivo com um padrão
+  - [fopen](function.fopen.md) - Abre um arquivo ou URL
+  - [forward\_static\_call](function.forward-static-call.md) - Chama um método estático
+  - [forward\_static\_call\_array](function.forward-static-call-array.md) - Chama um método estático e passa os argumentos como array
+  - [fpassthru](function.fpassthru.md) - Imprime todos os dados restantes de um ponteiro de arquivo
+  - [fpm\_get\_status](function.fpm-get-status.md) - Retorna o status do pool FPM atual
+  - [fpow](function.fpow.md) - Eleva um número à potência de outro, de acordo com a IEEE 754
+  - [fprintf](function.fprintf.md) - Escreve uma string formatada para um fluxo
+  - [fputcsv](function.fputcsv.md) - Formata a linha como CSV e a escreve em um ponteiro de arquivo
+  - [fputs](function.fputs.md) - Sinônimo de fwrite
+  - [fread](function.fread.md) - Leitura de arquivo segura para binário
+  - [frenchtojd](function.frenchtojd.md) - Converte uma data do calendário Republicano Francês para uma contagem de Dias Julianos
+  - [fscanf](function.fscanf.md) - Interpreta a leitura de um arquivo de acordo com um formato
+  - [fseek](function.fseek.md) - Aponta para uma posição no arquivo
+  - [fsockopen](function.fsockopen.md) - Abre uma conexão socket de domínio Unix ou de Internet
+  - [fstat](function.fstat.md) - Lê informações sobre um arquivo usando um ponteiro de arquivo aberto
+  - [fsync](function.fsync.md) - Sincroniza mudanças ao arquivo (incluindo metadados)
+  - [ftell](function.ftell.md) - Retorna a posição atual do ponteiro de leitura/gravação do arquivo
+  - [ftok](function.ftok.md) - Converte um nome de caminho e um identificador de projeto em uma chave IPC do System V
+  - [ftp\_alloc](function.ftp-alloc.md) - Aloca espaço para um arquivo ser carregado
+  - [ftp\_append](function.ftp-append.md) - Acrescenta o conteúdo de um arquivo a outro arquivo no servidor FTP
+  - [ftp\_cdup](function.ftp-cdup.md) - Muda para o diretório acima
+  - [ftp\_chdir](function.ftp-chdir.md) - Muda o diretório atual em um servidor FTP
+  - [ftp\_chmod](function.ftp-chmod.md) - Define as permissões de um arquivo via FTP
+  - [ftp\_close](function.ftp-close.md) - Fecha uma conexão FTP
+  - [ftp\_connect](function.ftp-connect.md) - Abre uma conexão FTP
+  - [ftp\_delete](function.ftp-delete.md) - Exclui um arquivo no servidor FTP
+  - [ftp\_exec](function.ftp-exec.md) - Solicita a execução de um comando no servidor FTP
+  - [ftp\_fget](function.ftp-fget.md) - Recebe um arquivo do servidor FTP e salva em um arquivo aberto
+  - [ftp\_fput](function.ftp-fput.md) - Envia um arquivo aberto para o servidor FTP
+  - [ftp\_get](function.ftp-get.md) - Recebe um arquivo do servidor FTP
+  - [ftp\_get\_option](function.ftp-get-option.md) - Obtém várias opções em tempo de execução da conexão FTP atual
+  - [ftp\_login](function.ftp-login.md) - Realiza o login em uma conexão FTP
+  - [ftp\_mdtm](function.ftp-mdtm.md) - Retorna o horário da última modificação do arquivo informado
+  - [ftp\_mkdir](function.ftp-mkdir.md) - Cria um diretório
+  - [ftp\_mlsd](function.ftp-mlsd.md) - Retorna uma lista de arquivos no diretório fornecido
+  - [ftp\_nb\_continue](function.ftp-nb-continue.md) - Continua a receber/enviar um arquivo (sem bloquear)
+  - [ftp\_nb\_fget](function.ftp-nb-fget.md) - Recupera um arquivo do servidor FTP e grava-o em um arquivo aberto (sem bloqueio)
+  - [ftp\_nb\_fput](function.ftp-nb-fput.md) - Armazena um arquivo de um arquivo aberto no servidor FTP (sem bloqueio)
+  - [ftp\_nb\_get](function.ftp-nb-get.md) - Recupera um arquivo do servidor FTP e grava-o em um arquivo local (sem bloqueio)
+  - [ftp\_nb\_put](function.ftp-nb-put.md) - Armazena um arquivo no servidor FTP (sem bloqueio)
+  - [ftp\_nlist](function.ftp-nlist.md) - Retorna uma lista de arquivos em um diretório
+  - [ftp\_pasv](function.ftp-pasv.md) - Liga ou desliga o modo passivo
+  - [ftp\_put](function.ftp-put.md) - Envia um arquivo para o servidor FTP
+  - [ftp\_pwd](function.ftp-pwd.md) - Retorna o nome do diretório atual
+  - [ftp\_quit](function.ftp-quit.md) - Sinônimo de ftp\_close
+  - [ftp\_raw](function.ftp-raw.md) - Envia um comando arbritário a um servidor FTP
+  - [ftp\_rawlist](function.ftp-rawlist.md) - Retorna uma lista detalhada de arquivos no diretório fornecido
+  - [ftp\_rename](function.ftp-rename.md) - Renomeia um arquivo ou um diretório no servidor FTP
+  - [ftp\_rmdir](function.ftp-rmdir.md) - Remove um diretório
+  - [ftp\_set\_option](function.ftp-set-option.md) - Define opções diversas em tempo de execução
+  - [ftp\_site](function.ftp-site.md) - Envia um comando SITE para o servidor
+  - [ftp\_size](function.ftp-size.md) - Retorna o tamanho do arquivo especificado
+  - [ftp\_ssl\_connect](function.ftp-ssl-connect.md) - Abre uma conexão SSL-FTP segura
+  - [ftp\_systype](function.ftp-systype.md) - Retorna o identificador de tipo de sistema do servidor FTP remoto
+  - [ftruncate](function.ftruncate.md) - Trunca um arquivo a um tamanho especificado
+  - [function\_exists](function.function-exists.md) - Retorna true se a função informada estiver definida
+  - [func\_get\_arg](function.func-get-arg.md) - Retorna um item de uma lista de argumentos
+  - [func\_get\_args](function.func-get-args.md) - Retorna um array contendo uma lista de argumentos da função
+  - [func\_num\_args](function.func-num-args.md) - Retorna o número de argumentos passados ​​para a função
+  - [fwrite](function.fwrite.md) - Escrita binary-safe em arquivos
+- g
+  - [gc\_collect\_cycles](function.gc-collect-cycles.md) - Força a coleta de quaisquer ciclos de lixo existentes.
+  - [gc\_disable](function.gc-disable.md) - Desativa o coletor de referência circular
+  - [gc\_enable](function.gc-enable.md) - Ativa o coletor de referência circular
+  - [gc\_enabled](function.gc-enabled.md) - Retorna o status do coletor de referência circular
+  - [gc\_mem\_caches](function.gc-mem-caches.md) - Recupera memória usada pelo gerenciador de memória Zend Engine
+  - [gc\_status](function.gc-status.md) - Obtém informações sobre o coletor de lixo
+  - [gd\_info](function.gd-info.md) - Obtém informações sobre a biblioteca GD instalada atualmente
+  - [GearmanClient::addOptions](gearmanclient.addoptions.md) - Adiciona opções do cliente
+  - [GearmanClient::addServer](gearmanclient.addserver.md) - Adiciona um servidor de tarefa ao cliente
+  - [GearmanClient::addServers](gearmanclient.addservers.md) - Adiciona uma lista de servidores de tarefa ao cliente
+  - [GearmanClient::addTask](gearmanclient.addtask.md) - Adiciona uma tarefa para ser executada em paralelo
+  - [GearmanClient::addTaskBackground](gearmanclient.addtaskbackground.md) - Adiciona uma tarefa em segundo plano para ser executada em paralelo
+  - [GearmanClient::addTaskHigh](gearmanclient.addtaskhigh.md) - Adiciona uma tarefa de alta prioridade para ser executada em paralelo
+  - [GearmanClient::addTaskHighBackground](gearmanclient.addtaskhighbackground.md) - Adiciona uma tarefa de segundo plano de alta prioridade para ser executada em paralelo
+  - [GearmanClient::addTaskLow](gearmanclient.addtasklow.md) - Adiciona uma tarefa de baixa prioridade para ser executada em paralelo
+  - [GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.md) - Adiciona uma tarefa em segundo plano de baixa prioridade para ser executada em paralelo
+  - [GearmanClient::addTaskStatus](gearmanclient.addtaskstatus.md) - Adiciona uma tarefa para obter status
+  - [GearmanClient::clearCallbacks](gearmanclient.clearcallbacks.md) - Limpa todas as funções de retorno de tarefa
+  - [GearmanClient::clone](gearmanclient.clone.md) - Cria uma cópia de um objeto GearmanClient
+  - [GearmanClient::context](gearmanclient.context.md) - Obtém o contexto da aplicação
+  - [GearmanClient::data](gearmanclient.data.md) - Obtém os dados do aplicativo (descontinuado)
+  - [GearmanClient::do](gearmanclient.do.md) - Executa uma única tarefa e retorna um resultado (descontinuado)
+  - [GearmanClient::doBackground](gearmanclient.dobackground.md) - Executa uma tarefa em segundo plano
+  - [GearmanClient::doHigh](gearmanclient.dohigh.md) - Executa uma única tarefa de alta prioridade
+  - [GearmanClient::doHighBackground](gearmanclient.dohighbackground.md) - Executa uma tarefa de alta prioridade em segundo plano
+  - [GearmanClient::doJobHandle](gearmanclient.dojobhandle.md) - Obtém o identificador para a tarefa em execução
+  - [GearmanClient::doLow](gearmanclient.dolow.md) - Executa uma única tarefa de baixa prioridade
+  - [GearmanClient::doLowBackground](gearmanclient.dolowbackground.md) - Executa uma tarefa de baixa prioridade em segundo plano
+  - [GearmanClient::doNormal](gearmanclient.donormal.md) - Executa uma única tarefa e retorna um resultado
+  - [GearmanClient::doStatus](gearmanclient.dostatus.md) - Obtém o status da tarefa em execução
+  - [GearmanClient::echo](gearmanclient.echo.md) - Envia dados para todos os servidores de trabalho para ver se eles os ecoam de volta (descontinuado)
+  - [GearmanClient::error](gearmanclient.error.md) - Retorna uma string de erro para o último erro encontrado
+  - [GearmanClient::getErrno](gearmanclient.geterrno.md) - Obtém um número de erro
+  - [GearmanClient::jobStatus](gearmanclient.jobstatus.md) - Obtém o status de uma tarefa em segundo plano
+  - [GearmanClient::ping](gearmanclient.ping.md) - Envia dados para todos os servidores de tarefa para ver se eles os ecoam de volta
+  - [GearmanClient::removeOptions](gearmanclient.removeoptions.md) - Remove opções do cliente
+  - [GearmanClient::returnCode](gearmanclient.returncode.md) - Obtém o último código de retorno do Gearman
+  - [GearmanClient::runTasks](gearmanclient.runtasks.md) - Executa uma lista de tarefas em paralelo
+  - [GearmanClient::setClientCallback](gearmanclient.setclientcallback.md) - Define a função de retorno quando há um pacote de dados para uma tarefa (descontinuado)
+  - [GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md) - Define uma função a ser chamada na conclusão da tarefa
+  - [GearmanClient::setContext](gearmanclient.setcontext.md) - Define o contexto da aplicação
+  - [GearmanClient::setCreatedCallback](gearmanclient.setcreatedcallback.md) - Define uma função de retorno para quando uma tarefa é enfileirada
+  - [GearmanClient::setData](gearmanclient.setdata.md) - Define dados da aplicação (descontinuado)
+  - [GearmanClient::setDataCallback](gearmanclient.setdatacallback.md) - Define a função de retorno quando há um pacote de dados para uma tarefa
+  - [GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md) - Define uma função de retorno para exceções de trabalhador
+  - [GearmanClient::setFailCallback](gearmanclient.setfailcallback.md) - Define a função de retorno para falha de tarefa
+  - [GearmanClient::setOptions](gearmanclient.setoptions.md) - Define opções do cliente
+  - [GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md) - Define uma função de retorno para coletar o status da tarefa
+  - [GearmanClient::setTimeout](gearmanclient.settimeout.md) - Define o tempo limite da atividade de E/S do soquete
+  - [GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.md) - Define uma função de retorno para alertas de trabalhadores
+  - [GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md) - Define uma função de retorno para aceitar atualizações de dados incrementais
+  - [GearmanClient::timeout](gearmanclient.timeout.md) - Obtém o valor de tempo limite da atividade de E/S do soquete atual
+  - [GearmanClient::wait](gearmanclient.wait.md) - Aguarda atividade de E/S em todas as conexões em um cliente
+  - [GearmanClient::\_\_construct](gearmanclient.construct.md) - Cria uma instância GearmanClient
+  - [GearmanJob::complete](gearmanjob.complete.md) - Envia o resultado e o status completo (descontinuado)
+  - [GearmanJob::data](gearmanjob.data.md) - Envia dados para um trabalho em execução (descontinuado)
+  - [GearmanJob::exception](gearmanjob.exception.md) - Envia exceção para trabalho em execução (descontinuado)
+  - [GearmanJob::fail](gearmanjob.fail.md) - Envia status de falha (descontinuado)
+  - [GearmanJob::functionName](gearmanjob.functionname.md) - Obtém o nome da função
+  - [GearmanJob::handle](gearmanjob.handle.md) - Obtém o identificador do trabalho
+  - [GearmanJob::returnCode](gearmanjob.returncode.md) - Obtém o último código de retorno
+  - [GearmanJob::sendComplete](gearmanjob.sendcomplete.md) - Envia o resultado e status completo
+  - [GearmanJob::sendData](gearmanjob.senddata.md) - Envia dados para um trabalho em execução
+  - [GearmanJob::sendException](gearmanjob.sendexception.md) - Envia exceção para trabalho em execução (exceção)
+  - [GearmanJob::sendFail](gearmanjob.sendfail.md) - Envia status de falha
+  - [GearmanJob::sendStatus](gearmanjob.sendstatus.md) - Envia status
+  - [GearmanJob::sendWarning](gearmanjob.sendwarning.md) - Envia um alerta
+  - [GearmanJob::setReturn](gearmanjob.setreturn.md) - Define um valor de retorno
+  - [GearmanJob::status](gearmanjob.status.md) - Envia status (descontinuado)
+  - [GearmanJob::unique](gearmanjob.unique.md) - Obtém o identificador exclusivo
+  - [GearmanJob::warning](gearmanjob.warning.md) - Envia um alerta (descontinuado)
+  - [GearmanJob::workload](gearmanjob.workload.md) - Obtém a carga de trabalho
+  - [GearmanJob::workloadSize](gearmanjob.workloadsize.md) - Obtém o tamanho da carga de trabalho
+  - [GearmanJob::\_\_construct](gearmanjob.construct.md) - Cria uma instância de GearmanJob
+  - [GearmanTask::create](gearmantask.create.md) - Cria uma tarefa (descontinuado)
+  - [GearmanTask::data](gearmantask.data.md) - Obtém dados retornados para uma tarefa
+  - [GearmanTask::dataSize](gearmantask.datasize.md) - Obtém o tamanho dos dados retornados
+  - [GearmanTask::function](gearmantask.function.md) - Obtém o nome da função associada (descontinuado)
+  - [GearmanTask::functionName](gearmantask.functionname.md) - Obtém o nome da função associada
+  - [GearmanTask::isKnown](gearmantask.isknown.md) - Determina se a tarefa é conhecida
+  - [GearmanTask::isRunning](gearmantask.isrunning.md) - Testa se a tarefa está em execução no momento
+  - [GearmanTask::jobHandle](gearmantask.jobhandle.md) - Obtém o identificador do trabalho
+  - [GearmanTask::recvData](gearmantask.recvdata.md) - Lê dados de trabalho ou resultado em um buffer para uma tarefa
+  - [GearmanTask::returnCode](gearmantask.returncode.md) - Obtém o último código de retorno
+  - [GearmanTask::sendData](gearmantask.senddata.md) - Envia dados para uma tarefa (descontinuado)
+  - [GearmanTask::sendWorkload](gearmantask.sendworkload.md) - Envia dados para uma tarefa
+  - [GearmanTask::taskDenominator](gearmantask.taskdenominator.md) - Obtém o denominador percentual de conclusão
+  - [GearmanTask::taskNumerator](gearmantask.tasknumerator.md) - Obtém o numerador da porcentagem de conclusão
+  - [GearmanTask::unique](gearmantask.unique.md) - Obtém o identificador exclusivo para uma tarefa
+  - [GearmanTask::uuid](gearmantask.uuid.md) - Obtém o identificador exclusivo para uma tarefa (descontinuado)
+  - [GearmanTask::\_\_construct](gearmantask.construct.md) - Cria uma instância de GearmanTask
+  - [GearmanWorker::addFunction](gearmanworker.addfunction.md) - Registra e adiciona função de retorno
+  - [GearmanWorker::addOptions](gearmanworker.addoptions.md) - Adiciona opções do trabalhador
+  - [GearmanWorker::addServer](gearmanworker.addserver.md) - Adiciona um servidor de trabalho
+  - [GearmanWorker::addServers](gearmanworker.addservers.md) - Adiciona servidores de trabalho
+  - [GearmanWorker::clone](gearmanworker.clone.md) - Cria uma cópia do trabalhador
+  - [GearmanWorker::echo](gearmanworker.echo.md) - Testa a resposta do servidor de trabalho
+  - [GearmanWorker::error](gearmanworker.error.md) - Obtém o último erro encontrado
+  - [GearmanWorker::getErrno](gearmanworker.geterrno.md) - Obtém o número do erro
+  - [GearmanWorker::options](gearmanworker.options.md) - Obtém opções do trabalhador
+  - [GearmanWorker::register](gearmanworker.register.md) - Registra uma função com o servidor de trabalho
+  - [GearmanWorker::removeOptions](gearmanworker.removeoptions.md) - Remove opções do trabalhador
+  - [GearmanWorker::returnCode](gearmanworker.returncode.md) - Obtém o último código de retorno do Gearman
+  - [GearmanWorker::setId](gearmanworker.setid.md) - Fornece ao trabalhador um identificador para que ele possa ser rastreado ao solicitar ao gearmand a lista de trabalhadores disponíveis
+  - [GearmanWorker::setOptions](gearmanworker.setoptions.md) - Define opções do trabalhador
+  - [GearmanWorker::setTimeout](gearmanworker.settimeout.md) - Define o tempo limite da atividade de E/S do soquete
+  - [GearmanWorker::timeout](gearmanworker.timeout.md) - Obtém tempo limite de atividade de E/S do soquete
+  - [GearmanWorker::unregister](gearmanworker.unregister.md) - Cancela o registro de um nome de função com os servidores de trabalho
+  - [GearmanWorker::unregisterAll](gearmanworker.unregisterall.md) - Cancela o registro de todos os nomes de funções com os servidores de trabalho
+  - [GearmanWorker::wait](gearmanworker.wait.md) - Aguarda atividade de um dos servidores de trabalho
+  - [GearmanWorker::work](gearmanworker.work.md) - Espera e executa trabalhos
+  - [GearmanWorker::\_\_construct](gearmanworker.construct.md) - Cria uma instância de GearmanWorker
+  - [Gender\Gender::connect](gender-gender.connect.md) - Conecta-se a um dicionário de nomes externo
+  - [Gender\Gender::country](gender-gender.country.md) - Obtém representação textual do país
+  - [Gender\Gender::get](gender-gender.get.md) - Obtém o gênero de um nome
+  - [Gender\Gender::isNick](gender-gender.isnick.md) - Verifica se um nome é apelido de outro
+  - [Gender\Gender::similarNames](gender-gender.similarnames.md) - Obtém nomes semelhantes
+  - [Gender\Gender::\_\_construct](gender-gender.construct.md) - Constrói o objeto Gender
+  - [Generator::current](generator.current.md) - Obtém o valor gerado
+  - [Generator::getReturn](generator.getreturn.md) - Obtém o valor de retorno de um gerador
+  - [Generator::key](generator.key.md) - Obtém o chave gerada
+  - [Generator::next](generator.next.md) - Continua a execução do gerador
+  - [Generator::rewind](generator.rewind.md) - Executa o gerador até o primeiro "yield" inclusive
+  - [Generator::send](generator.send.md) - Envia um valor ao gerador
+  - [Generator::throw](generator.throw.md) - Lança uma exceção no gerador
+  - [Generator::valid](generator.valid.md) - Verifica se o gerador está ativo
+  - [Generator::\_\_wakeup](generator.wakeup.md) - Serializa o gerador (sempre falha)
+  - [geoip\_asnum\_by\_name](function.geoip-asnum-by-name.md) - Obtém os Números do Sistema Autônomo (ASN)
+  - [geoip\_continent\_code\_by\_name](function.geoip-continent-code-by-name.md) - Obtém o código de duas letras do continente
+  - [geoip\_country\_code3\_by\_name](function.geoip-country-code3-by-name.md) - Obtenha o código de país de três letras
+  - [geoip\_country\_code\_by\_name](function.geoip-country-code-by-name.md) - Obtém o código de país de duas letras
+  - [geoip\_country\_name\_by\_name](function.geoip-country-name-by-name.md) - Obtém o nome completo do país
+  - [geoip\_database\_info](function.geoip-database-info.md) - Obtém informações do banco de dados GeoIP
+  - [geoip\_db\_avail](function.geoip-db-avail.md) - Determina se o banco de dados GeoIP está disponível
+  - [geoip\_db\_filename](function.geoip-db-filename.md) - Retorna o nome do arquivo do banco de dados GeoIP correspondente
+  - [geoip\_db\_get\_all\_info](function.geoip-db-get-all-info.md) - Retorna informações detalhadas sobre todos os tipos de banco de dados GeoIP
+  - [geoip\_domain\_by\_name](function.geoip-domain-by-name.md) - Obtém o nome de domínio de segundo nível
+  - [geoip\_id\_by\_name](function.geoip-id-by-name.md) - Obtém o tipo de conexão com a Internet
+  - [geoip\_isp\_by\_name](function.geoip-isp-by-name.md) - Obtém o nome do Provedor de Serviços de Internet (ISP)
+  - [geoip\_netspeedcell\_by\_name](function.geoip-netspeedcell-by-name.md) - Obtém a velocidade de conexão da Internet
+  - [geoip\_org\_by\_name](function.geoip-org-by-name.md) - Obtém o nome da organização
+  - [geoip\_record\_by\_name](function.geoip-record-by-name.md) - Retorna as informações detalhadas da cidade encontradas no banco de dados GeoIP
+  - [geoip\_region\_by\_name](function.geoip-region-by-name.md) - Obtém o código do país e a região
+  - [geoip\_region\_name\_by\_code](function.geoip-region-name-by-code.md) - Retorna o nome da região para alguma combinação de código de país e região
+  - [geoip\_setup\_custom\_directory](function.geoip-setup-custom-directory.md) - Define um diretório personalizado para o banco de dados GeoIP
+  - [geoip\_time\_zone\_by\_country\_and\_region](function.geoip-time-zone-by-country-and-region.md) - Retorna o fuso horário para alguma combinação de código de país e região
+  - [getallheaders](function.getallheaders.md) - Obtém todos os cabeçalhos da requisição HTTP
+  - [getcwd](function.getcwd.md) - Obtém o diretório atual
+  - [getdate](function.getdate.md) - Recupera informações de data/horário
+  - [getenv](function.getenv.md) - Obtém o valor de uma única ou de todas as variáveis ​​de ambiente
+  - [gethostbyaddr](function.gethostbyaddr.md) - Obtém nome do servidor de Internet correspondente ao endereço de IP fornecido
+  - [gethostbyname](function.gethostbyname.md) - Obtém o endereço IPv4 correspondente a um determinado nome de host da Internet
+  - [gethostbynamel](function.gethostbynamel.md) - Obtém uma lista de endereços IPv4 correspondentes a um determinado nome de host da
+    Internet
+  - [gethostname](function.gethostname.md) - Obtém o nome do host
+  - [getimagesize](function.getimagesize.md) - Obtém o tamanho de uma imagem
+  - [getimagesizefromstring](function.getimagesizefromstring.md) - Obtém o tamanho de uma imagem a partir de uma string
+  - [getlastmod](function.getlastmod.md) - Obtém o horário da última modificação na página
+  - [getmxrr](function.getmxrr.md) - Obtém registros MX correspondentes a um determinado nome de host da Internet
+  - [getmygid](function.getmygid.md) - Obtém o GID do proprietário do script PHP
+  - [getmyinode](function.getmyinode.md) - Obtém o inode do script atual
+  - [getmypid](function.getmypid.md) - Obtém o ID do processo PHP
+  - [getmyuid](function.getmyuid.md) - Obtém o UID do proprietário do script PHP
+  - [getopt](function.getopt.md) - Obtêm opções da linha de comando
+  - [getprotobyname](function.getprotobyname.md) - Obtém o número do protocolo associado ao nome do protocolo
+  - [getprotobynumber](function.getprotobynumber.md) - Obtém o nome do protocolo associado ao número do protocolo
+  - [getrandmax](function.getrandmax.md) - Mostrar o maior valor aleatório possível
+  - [getrusage](function.getrusage.md) - Obtém os usos atuais de recursos
+  - [getservbyname](function.getservbyname.md) - Obtém o número da porta associado a um serviço e protocolo de Internet
+  - [getservbyport](function.getservbyport.md) - Obtém o serviço de Internet que corresponde à porta e ao protocolo
+  - [getSession](function.mysql-xdevapi-getsession.md) - Conecta a um servidor MySQL
+  - [gettext](function.gettext.md) - Pesquisa uma mensagem no domínio atual
+  - [gettimeofday](function.gettimeofday.md) - Obtém o horário atual
+  - [gettype](function.gettype.md) - Obtém o tipo de uma variável
+  - [get\_browser](function.get-browser.md) - Diz o que o navegador do usuário é capaz fazer
+  - [get\_called\_class](function.get-called-class.md) - O nome da classe da qual o método estático foi chamado
+  - [get\_cfg\_var](function.get-cfg-var.md) - Obtém o valor de uma opção de configuração do PHP
+  - [get\_class](function.get-class.md) - Retorna o nome da classe de um objeto
+  - [get\_class\_methods](function.get-class-methods.md) - Obtém o nome dos métodos da classe
+  - [get\_class\_vars](function.get-class-vars.md) - Obtém as propriedades padrão da classe
+  - [get\_current\_user](function.get-current-user.md) - Obtém o nome do proprietário do script PHP atual
+  - [get\_debug\_type](function.get-debug-type.md) - Obtém o nome do tipo de uma variável de forma adequada a depuração
+  - [get\_declared\_classes](function.get-declared-classes.md) - Retorna um array com os nomes das classes definidas
+  - [get\_declared\_interfaces](function.get-declared-interfaces.md) - Retorna um array com todas as interfaces declaradas
+  - [get\_declared\_traits](function.get-declared-traits.md) - Retorna um array de todas as Traits declaradas
+  - [get\_defined\_constants](function.get-defined-constants.md) - Retorna um array associativo com os nomes de todas as constantes e seus valores
+  - [get\_defined\_functions](function.get-defined-functions.md) - Retorna um array com todas as funções definidas
+  - [get\_defined\_vars](function.get-defined-vars.md) - Retorna um array com todas variáveis definidas
+  - [get\_error\_handler](function.get-error-handler.md) - Obtém a função de manipulação de erro definida pelo usuário
+  - [get\_exception\_handler](function.get-exception-handler.md) - Obtém a função de manipulação de exceção definida pelo usuário
+  - [get\_extension\_funcs](function.get-extension-funcs.md) - Retorna um array com os nomes das funções de um módulo
+  - [get\_headers](function.get-headers.md) - Retorna todos os cabeçalhos enviados pelo servidor em resposta a uma requisição HTTP
+  - [get\_html\_translation\_table](function.get-html-translation-table.md) - Retorna a tabela de tradução usada por htmlspecialchars e htmlentities
+  - [get\_included\_files](function.get-included-files.md) - Retorna um array com os nomes dos arquivos incluídos ou requeridos
+  - [get\_include\_path](function.get-include-path.md) - Obtém a opção de configuração include\_path atual
+  - [get\_loaded\_extensions](function.get-loaded-extensions.md) - Retorna um array com os nomes de todos os módulos compilados e carregados
+  - [get\_magic\_quotes\_gpc](function.get-magic-quotes-gpc.md) - Obtém a configuração atual de magic\_quotes\_gpc
+  - [get\_magic\_quotes\_runtime](function.get-magic-quotes-runtime.md) - Obtém a configuração ativa para magic\_quotes\_runtime
+  - [get\_mangled\_object\_vars](function.get-mangled-object-vars.md) - Retorna um array de nomes únicos e valores das propriedades do objeto
+  - [get\_meta\_tags](function.get-meta-tags.md) - Extrai todos os atributos de conteúdo de metatags de um arquivo e retorna um array
+  - [get\_object\_vars](function.get-object-vars.md) - Obtém as propriedades de um objeto
+  - [get\_parent\_class](function.get-parent-class.md) - Obtém o nome da classe pai para o objeto ou classe
+  - [get\_required\_files](function.get-required-files.md) - Sinônimo de get\_included\_files
+  - [get\_resources](function.get-resources.md) - Retorna recursos ativos
+  - [get\_resource\_id](function.get-resource-id.md) - Retorna um identificador inteiro para o recurso informado
+  - [get\_resource\_type](function.get-resource-type.md) - Retorna o tipo de recurso
+  - [glob](function.glob.md) - Encontra caminhos que combinam com uma expressão
+  - [GlobIterator::count](globiterator.count.md) - Obtém o número de diretórios e arquivos
+  - [GlobIterator::\_\_construct](globiterator.construct.md) - Constrói um diretório usando glob
+  - [Gmagick::addimage](gmagick.addimage.md) - Adiciona nova imagem à lista de imagens de objetos Gmagick
+  - [Gmagick::addnoiseimage](gmagick.addnoiseimage.md) - Adiciona ruído aleatório à imagem
+  - [Gmagick::annotateimage](gmagick.annotateimage.md) - Anota uma imagem com texto
+  - [Gmagick::blurimage](gmagick.blurimage.md) - Adiciona filtro de desfoque à imagem
+  - [Gmagick::borderimage](gmagick.borderimage.md) - Envolve a imagem com uma borda
+  - [Gmagick::charcoalimage](gmagick.charcoalimage.md) - Simula um desenho a carvão
+  - [Gmagick::chopimage](gmagick.chopimage.md) - Remove uma região de uma imagem e corta
+  - [Gmagick::clear](gmagick.clear.md) - Limpa todos os recursos associados ao objeto Gmagick
+  - [Gmagick::commentimage](gmagick.commentimage.md) - Adiciona um comentário à sua imagem
+  - [Gmagick::compositeimage](gmagick.compositeimage.md) - Compõe uma imagem em outra
+  - [Gmagick::cropimage](gmagick.cropimage.md) - Extrai uma região da imagem
+  - [Gmagick::cropthumbnailimage](gmagick.cropthumbnailimage.md) - Cria uma miniatura de corte
+  - [Gmagick::current](gmagick.current.md) - Retorna referência ao objeto Gmagick atual
+  - [Gmagick::cyclecolormapimage](gmagick.cyclecolormapimage.md) - Desloca o mapa de cores de uma imagem
+  - [Gmagick::deconstructimages](gmagick.deconstructimages.md) - Retorna certas diferenças de pixels entre imagens
+  - [Gmagick::despeckleimage](gmagick.despeckleimage.md) - Reduz manchas em uma imagem
+  - [Gmagick::destroy](gmagick.destroy.md) - Destrói o objeto Gmagick
+  - [Gmagick::drawimage](gmagick.drawimage.md) - Renderiza o objeto GmagickDraw na imagem atual
+  - [Gmagick::edgeimage](gmagick.edgeimage.md) - Melhora as bordas da imagem
+  - [Gmagick::embossimage](gmagick.embossimage.md) - Retorna uma imagem em tons de cinza com efeito tridimensional
+  - [Gmagick::enhanceimage](gmagick.enhanceimage.md) - Melhora a qualidade de uma imagem com ruído
+  - [Gmagick::equalizeimage](gmagick.equalizeimage.md) - Equaliza o histograma da imagem
+  - [Gmagick::flipimage](gmagick.flipimage.md) - Cria uma imagem espelhada vertical
+  - [Gmagick::flopimage](gmagick.flopimage.md) - Cria uma imagem espelhada horizontal
+  - [Gmagick::frameimage](gmagick.frameimage.md) - Adiciona uma borda tridimensional simulada
+  - [Gmagick::gammaimage](gmagick.gammaimage.md) - Corrige o gama da imagem
+  - [Gmagick::getcopyright](gmagick.getcopyright.md) - Retorna os direitos autorais da API GraphicsMagick como uma string
+  - [Gmagick::getfilename](gmagick.getfilename.md) - Obtém o nome do arquivo associado a uma sequência de imagens
+  - [Gmagick::getimagebackgroundcolor](gmagick.getimagebackgroundcolor.md) - Retorna a cor de fundo da imagem
+  - [Gmagick::getimageblueprimary](gmagick.getimageblueprimary.md) - Retorna o ponto primário azul da cromaticidade
+  - [Gmagick::getimagebordercolor](gmagick.getimagebordercolor.md) - Retorna a cor da borda da imagem
+  - [Gmagick::getimagechanneldepth](gmagick.getimagechanneldepth.md) - Obtém a profundidade de um canal de imagem específico
+  - [Gmagick::getimagecolors](gmagick.getimagecolors.md) - Retorna a cor do índice do mapa de cores especificado
+  - [Gmagick::getimagecolorspace](gmagick.getimagecolorspace.md) - Obtém o espaço de cores da imagem
+  - [Gmagick::getimagecompose](gmagick.getimagecompose.md) - Retorna o operador de composição associado à imagem
+  - [Gmagick::getimagedelay](gmagick.getimagedelay.md) - Obtém o atraso da imagem
+  - [Gmagick::getimagedepth](gmagick.getimagedepth.md) - Obtém a profundidade da imagem
+  - [Gmagick::getimagedispose](gmagick.getimagedispose.md) - Obtém o método de descarte de imagem
+  - [Gmagick::getimageextrema](gmagick.getimageextrema.md) - Obtém os extremos da imagem
+  - [Gmagick::getimagefilename](gmagick.getimagefilename.md) - Retorna o nome do arquivo de uma imagem específica em uma sequência
+  - [Gmagick::getimageformat](gmagick.getimageformat.md) - Retorna o formato de uma imagem específica em uma sequência
+  - [Gmagick::getimagegamma](gmagick.getimagegamma.md) - Obtém o gama da imagem
+  - [Gmagick::getimagegreenprimary](gmagick.getimagegreenprimary.md) - Retorna o ponto primário verde da cromaticidade
+  - [Gmagick::getimageheight](gmagick.getimageheight.md) - Retorna a altura da imagem
+  - [Gmagick::getimagehistogram](gmagick.getimagehistogram.md) - Obtém o histograma da imagem
+  - [Gmagick::getimageindex](gmagick.getimageindex.md) - Obtém o índice da imagem ativa atual
+  - [Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.md) - Obtém o esquema de entrelaçamento da imagem
+  - [Gmagick::getimageiterations](gmagick.getimageiterations.md) - Obtém as iterações da imagem
+  - [Gmagick::getimagematte](gmagick.getimagematte.md) - Verifique se a imagem possui um canal fosco
+  - [Gmagick::getimagemattecolor](gmagick.getimagemattecolor.md) - Retorna a cor fosca da imagem
+  - [Gmagick::getimageprofile](gmagick.getimageprofile.md) - Retorna o perfil de imagem nomeado
+  - [Gmagick::getimageredprimary](gmagick.getimageredprimary.md) - Retorna o ponto primário vermelho da cromaticidade
+  - [Gmagick::getimagerenderingintent](gmagick.getimagerenderingintent.md) - Obtém a intenção de renderização da imagem
+  - [Gmagick::getimageresolution](gmagick.getimageresolution.md) - Obtém a resolução X e Y da imagem
+  - [Gmagick::getimagescene](gmagick.getimagescene.md) - Obtém a cena da imagem
+  - [Gmagick::getimagesignature](gmagick.getimagesignature.md) - Gera um resumo de mensagem SHA-256
+  - [Gmagick::getimagetype](gmagick.getimagetype.md) - Obtém o tipo de imagem potencial
+  - [Gmagick::getimageunits](gmagick.getimageunits.md) - Obtém as unidades de resolução da imagem
+  - [Gmagick::getimagewhitepoint](gmagick.getimagewhitepoint.md) - Retorna o ponto branco da cromaticidade
+  - [Gmagick::getimagewidth](gmagick.getimagewidth.md) - Retorna a largura da imagem
+  - [Gmagick::getpackagename](gmagick.getpackagename.md) - Retorna o nome do pacote GraphicsMagick
+  - [Gmagick::getquantumdepth](gmagick.getquantumdepth.md) - Retorna a profundidade de Quantum do Gmagick como uma string
+  - [Gmagick::getreleasedate](gmagick.getreleasedate.md) - Retorna a data de lançamento do GraphicsMagick como uma string
+  - [Gmagick::getsamplingfactors](gmagick.getsamplingfactors.md) - Obtém o fator de amostragem horizontal e vertical
+  - [Gmagick::getsize](gmagick.getsize.md) - Retorna o tamanho associado ao objeto Gmagick
+  - [Gmagick::getversion](gmagick.getversion.md) - Retorna a versão da API GraphicsMagick
+  - [Gmagick::hasnextimage](gmagick.hasnextimage.md) - Verifica se o objeto possui mais imagens
+  - [Gmagick::haspreviousimage](gmagick.haspreviousimage.md) - Verifica se o objeto possui uma imagem anterior
+  - [Gmagick::implodeimage](gmagick.implodeimage.md) - Cria uma nova imagem implodida
+  - [Gmagick::labelimage](gmagick.labelimage.md) - Adiciona um rótulo a uma imagem
+  - [Gmagick::levelimage](gmagick.levelimage.md) - Ajusta os níveis de uma imagem
+  - [Gmagick::magnifyimage](gmagick.magnifyimage.md) - Amplia uma imagem para o dobro de seu tamanho
+  - [Gmagick::mapimage](gmagick.mapimage.md) - Substitui as cores de uma imagem pela cor mais próxima de uma imagem de referência
+  - [Gmagick::medianfilterimage](gmagick.medianfilterimage.md) - Aplica um filtro digital
+  - [Gmagick::minifyimage](gmagick.minifyimage.md) - Reduz uma imagem à metade de seu tamanho
+  - [Gmagick::modulateimage](gmagick.modulateimage.md) - Controle brilho, saturação e matiz
+  - [Gmagick::motionblurimage](gmagick.motionblurimage.md) - Simula desfoque de movimento
+  - [Gmagick::newimage](gmagick.newimage.md) - Cria uma nova imagem
+  - [Gmagick::nextimage](gmagick.nextimage.md) - Passa para a próxima imagem
+  - [Gmagick::normalizeimage](gmagick.normalizeimage.md) - Melhora o contraste de uma imagem colorida
+  - [Gmagick::oilpaintimage](gmagick.oilpaintimage.md) - Simula uma pintura a óleo
+  - [Gmagick::previousimage](gmagick.previousimage.md) - Passa para a imagem anterior no objeto
+  - [Gmagick::profileimage](gmagick.profileimage.md) - Adiciona ou remove um perfil de uma imagem
+  - [Gmagick::quantizeimage](gmagick.quantizeimage.md) - Analisa as cores dentro de uma imagem de referência
+  - [Gmagick::quantizeimages](gmagick.quantizeimages.md) - Analisa as cores dentro de imagens de referência
+  - [Gmagick::queryfontmetrics](gmagick.queryfontmetrics.md) - Retorna um array representando as métricas da fonte
+  - [Gmagick::queryfonts](gmagick.queryfonts.md) - Retorna as fontes configuradas
+  - [Gmagick::queryformats](gmagick.queryformats.md) - Retorna formatos suportados pelo Gmagick
+  - [Gmagick::radialblurimage](gmagick.radialblurimage.md) - Desfoca uma imagem de forma radial
+  - [Gmagick::raiseimage](gmagick.raiseimage.md) - Cria um efeito simulado de botão 3D
+  - [Gmagick::read](gmagick.read.md) - Lê imagem a partir de um arquivo
+  - [Gmagick::readimage](gmagick.readimage.md) - Lê imagem a partir de um arquivo
+  - [Gmagick::readimageblob](gmagick.readimageblob.md) - Lê imagem a partir de uma string binária
+  - [Gmagick::readimagefile](gmagick.readimagefile.md) - Lê imagem a partir de um descritor de arquivo
+  - [Gmagick::reducenoiseimage](gmagick.reducenoiseimage.md) - Suaviza os contornos de uma imagem
+  - [Gmagick::removeimage](gmagick.removeimage.md) - Remove uma imagem da lista de imagens
+  - [Gmagick::removeimageprofile](gmagick.removeimageprofile.md) - Remove o perfil de imagem nomeado e o retorna
+  - [Gmagick::resampleimage](gmagick.resampleimage.md) - Reamostra imagem para a resolução desejada
+  - [Gmagick::resizeimage](gmagick.resizeimage.md) - Dimensiona uma imagem
+  - [Gmagick::rollimage](gmagick.rollimage.md) - Desloca uma imagem
+  - [Gmagick::rotateimage](gmagick.rotateimage.md) - Rotaciona uma imagem
+  - [Gmagick::scaleimage](gmagick.scaleimage.md) - Dimensiona o tamanho de uma imagem
+  - [Gmagick::separateimagechannel](gmagick.separateimagechannel.md) - Separa um canal da imagem
+  - [Gmagick::setCompressionQuality](gmagick.setcompressionquality.md) - Define a qualidade de compactação padrão do objeto
+  - [Gmagick::setfilename](gmagick.setfilename.md) - Define o nome do arquivo antes de ler ou gravar a imagem
+  - [Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md) - Define a cor de fundo da imagem
+  - [Gmagick::setimageblueprimary](gmagick.setimageblueprimary.md) - Define o ponto primário azul da cromaticidade da imagem
+  - [Gmagick::setimagebordercolor](gmagick.setimagebordercolor.md) - Define a cor da borda da imagem
+  - [Gmagick::setimagechanneldepth](gmagick.setimagechanneldepth.md) - Define a profundidade de um canal de imagem específico
+  - [Gmagick::setimagecolorspace](gmagick.setimagecolorspace.md) - Define o espaço de cores da imagem
+  - [Gmagick::setimagecompose](gmagick.setimagecompose.md) - Define o operador de composição da imagem
+  - [Gmagick::setimagedelay](gmagick.setimagedelay.md) - Define o atraso da imagem
+  - [Gmagick::setimagedepth](gmagick.setimagedepth.md) - Define a profundidade da imagem
+  - [Gmagick::setimagedispose](gmagick.setimagedispose.md) - Define o método de descarte de imagem
+  - [Gmagick::setimagefilename](gmagick.setimagefilename.md) - Define o nome do arquivo de uma imagem específica em uma sequência
+  - [Gmagick::setimageformat](gmagick.setimageformat.md) - Define o formato de uma imagem específica
+  - [Gmagick::setimagegamma](gmagick.setimagegamma.md) - Define o gama da imagem
+  - [Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.md) - Define o ponto primário verde da cromaticidade da imagem
+  - [Gmagick::setimageindex](gmagick.setimageindex.md) - Defina o iterador para a posição na lista de imagens especificada
+  - [Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md) - Define o esquema de entrelaçamento da imagem
+  - [Gmagick::setimageiterations](gmagick.setimageiterations.md) - Define as iterações da imagem
+  - [Gmagick::setimageprofile](gmagick.setimageprofile.md) - Adiciona um perfil nomeado ao objeto Gmagick
+  - [Gmagick::setimageredprimary](gmagick.setimageredprimary.md) - Define o ponto primário vermelho da cromaticidade da imagem
+  - [Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md) - Define a intenção de renderização da imagem
+  - [Gmagick::setimageresolution](gmagick.setimageresolution.md) - Define a resolução da imagem
+  - [Gmagick::setimagescene](gmagick.setimagescene.md) - Define a cena da imagem
+  - [Gmagick::setimagetype](gmagick.setimagetype.md) - Define o tipo de imagem
+  - [Gmagick::setimageunits](gmagick.setimageunits.md) - Define as unidades de resolução da imagem
+  - [Gmagick::setimagewhitepoint](gmagick.setimagewhitepoint.md) - Define o ponto branco da cromaticidade da imagem
+  - [Gmagick::setsamplingfactors](gmagick.setsamplingfactors.md) - Define os fatores de amostragem da imagem
+  - [Gmagick::setsize](gmagick.setsize.md) - Define o tamanho do objeto Gmagick
+  - [Gmagick::shearimage](gmagick.shearimage.md) - Criando um paralelogramo
+  - [Gmagick::solarizeimage](gmagick.solarizeimage.md) - Aplica um efeito de solarização à imagem
+  - [Gmagick::spreadimage](gmagick.spreadimage.md) - Desloca aleatoriamente cada pixel em um bloco
+  - [Gmagick::stripimage](gmagick.stripimage.md) - Remove todos os comentário e perfir de uma imagem
+  - [Gmagick::swirlimage](gmagick.swirlimage.md) - Turbilhona os pixels em torno do centro da imagem
+  - [Gmagick::thumbnailimage](gmagick.thumbnailimage.md) - Altera o tamanho de uma imagem
+  - [Gmagick::trimimage](gmagick.trimimage.md) - Remover bordas da imagem
+  - [Gmagick::write](gmagick.write.md) - Sinônimo de Gmagick::writeimage
+  - [Gmagick::writeimage](gmagick.writeimage.md) - Grava uma imagem no arquivo especificado
+  - [Gmagick::\_\_construct](gmagick.construct.md) - O construtor Gmagick
+  - [GmagickDraw::annotate](gmagickdraw.annotate.md) - Desenha texto na imagem
+  - [GmagickDraw::arc](gmagickdraw.arc.md) - Desenha um arco
+  - [GmagickDraw::bezier](gmagickdraw.bezier.md) - Desenha uma curva de Bézier
+  - [GmagickDraw::ellipse](gmagickdraw.ellipse.md) - Desenha uma elipse na imagem
+  - [GmagickDraw::getfillcolor](gmagickdraw.getfillcolor.md) - Retorna a cor de preenchimento
+  - [GmagickDraw::getfillopacity](gmagickdraw.getfillopacity.md) - Retorna a opacidade usada ao desenhar
+  - [GmagickDraw::getfont](gmagickdraw.getfont.md) - Retorna a fonte
+  - [GmagickDraw::getfontsize](gmagickdraw.getfontsize.md) - Retorna o tamanho da fonte em pontos
+  - [GmagickDraw::getfontstyle](gmagickdraw.getfontstyle.md) - Retorna o estilo da fonte
+  - [GmagickDraw::getfontweight](gmagickdraw.getfontweight.md) - Retorna o peso da fonte
+  - [GmagickDraw::getstrokecolor](gmagickdraw.getstrokecolor.md) - Retorna a cor usada para traçar os contornos dos objetos
+  - [GmagickDraw::getstrokeopacity](gmagickdraw.getstrokeopacity.md) - Retorna a opacidade dos contornos dos objetos traçados
+  - [GmagickDraw::getstrokewidth](gmagickdraw.getstrokewidth.md) - Retorna a largura do traço usado para desenhar contornos de objetos
+  - [GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.md) - Retorna a decoração do texto
+  - [GmagickDraw::gettextencoding](gmagickdraw.gettextencoding.md) - Retorna o conjunto de caracteres usado para anotações de texto
+  - [GmagickDraw::line](gmagickdraw.line.md) - Desenha uma linha
+  - [GmagickDraw::point](gmagickdraw.point.md) - Desenha um ponto
+  - [GmagickDraw::polygon](gmagickdraw.polygon.md) - Desenha um polígono
+  - [GmagickDraw::polyline](gmagickdraw.polyline.md) - Desenha uma polilinha
+  - [GmagickDraw::rectangle](gmagickdraw.rectangle.md) - Desenha um retângulo
+  - [GmagickDraw::rotate](gmagickdraw.rotate.md) - Aplica a rotação especificada ao espaço de coordenadas atual
+  - [GmagickDraw::roundrectangle](gmagickdraw.roundrectangle.md) - Desenha um retângulo arredondado
+  - [GmagickDraw::scale](gmagickdraw.scale.md) - Ajusta o fator de escala
+  - [GmagickDraw::setfillcolor](gmagickdraw.setfillcolor.md) - Define a cor de preenchimento a ser usada para desenhar objetos preenchidos
+  - [GmagickDraw::setfillopacity](gmagickdraw.setfillopacity.md) - Define a opacidade de preenchimento
+  - [GmagickDraw::setfont](gmagickdraw.setfont.md) - Define a fonte totalmente especificada a ser usada ao fazer anotações com texto
+  - [GmagickDraw::setfontsize](gmagickdraw.setfontsize.md) - Define o tamanho da fonte a ser usado ao fazer anotações com texto
+  - [GmagickDraw::setfontstyle](gmagickdraw.setfontstyle.md) - Define o estilo da fonte a ser usado ao fazer anotações com texto
+  - [GmagickDraw::setfontweight](gmagickdraw.setfontweight.md) - Define o peso da fonte
+  - [GmagickDraw::setstrokecolor](gmagickdraw.setstrokecolor.md) - Define a cor usada para traçar os contornos dos objetos
+  - [GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.md) - Especifica a opacidade dos contornos dos objetos traçados
+  - [GmagickDraw::setstrokewidth](gmagickdraw.setstrokewidth.md) - Define a largura do traço usado para desenhar contornos de objetos
+  - [GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.md) - Especifica uma decoração
+  - [GmagickDraw::settextencoding](gmagickdraw.settextencoding.md) - Especifica a codificação de caracteres de texto
+  - [GmagickPixel::getcolor](gmagickpixel.getcolor.md) - Retorna a cor
+  - [GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.md) - Retorna a contagem de cores associada a esta cor
+  - [GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.md) - Obtém o valor normalizado do canal de cores fornecido
+  - [GmagickPixel::setcolor](gmagickpixel.setcolor.md) - Define a cor
+  - [GmagickPixel::setcolorvalue](gmagickpixel.setcolorvalue.md) - Define o valor normalizado de um dos canais
+  - [GmagickPixel::\_\_construct](gmagickpixel.construct.md) - O construtor GmagickPixel
+  - [gmdate](function.gmdate.md) - Formata uma data/horário GMT/CUT
+  - [gmmktime](function.gmmktime.md) - Obtém um timestamp Unix para uma data GMT
+  - [GMP::\_\_construct](gmp.construct.md) - Cria um número GMP
+  - [GMP::\_\_serialize](gmp.serialize.md) - Serializa o objeto GMP
+  - [GMP::\_\_unserialize](gmp.unserialize.md) - Desserializa o parâmetro data em um objeto GMP
+  - [gmp\_abs](function.gmp-abs.md) - Valor absoluto
+  - [gmp\_add](function.gmp-add.md) - Adiciona números
+  - [gmp\_and](function.gmp-and.md) - Operação binária AND
+  - [gmp\_binomial](function.gmp-binomial.md) - Calcula o coeficiente binomial
+  - [gmp\_clrbit](function.gmp-clrbit.md) - Limpa um bit
+  - [gmp\_cmp](function.gmp-cmp.md) - Compara números
+  - [gmp\_com](function.gmp-com.md) - Calcula o complemento de um
+  - [gmp\_div](function.gmp-div.md) - Sinônimo de gmp\_div\_q
+  - [gmp\_divexact](function.gmp-divexact.md) - Divisão exata de números
+  - [gmp\_div\_q](function.gmp-div-q.md) - Divide números
+  - [gmp\_div\_qr](function.gmp-div-qr.md) - Divide números e obtém quociente e resto
+  - [gmp\_div\_r](function.gmp-div-r.md) - Resto da divisão de dois números
+  - [gmp\_export](function.gmp-export.md) - Exporta para uma string binária
+  - [gmp\_fact](function.gmp-fact.md) - Fatorial
+  - [gmp\_gcd](function.gmp-gcd.md) - Calcula o MDC
+  - [gmp\_gcdext](function.gmp-gcdext.md) - Calcula MDC e multiplicadores
+  - [gmp\_hamdist](function.gmp-hamdist.md) - Distância de Hamming
+  - [gmp\_import](function.gmp-import.md) - Importa de uma string binária
+  - [gmp\_init](function.gmp-init.md) - Cria um número GMP
+  - [gmp\_intval](function.gmp-intval.md) - Converte um número GMP para um inteiro
+  - [gmp\_invert](function.gmp-invert.md) - Inverso modular
+  - [gmp\_jacobi](function.gmp-jacobi.md) - Símbolo de Jacobi
+  - [gmp\_kronecker](function.gmp-kronecker.md) - Símbolo de Kronecker
+  - [gmp\_lcm](function.gmp-lcm.md) - Calcula o MMC
+  - [gmp\_legendre](function.gmp-legendre.md) - Símbolo de Legendre
+  - [gmp\_mod](function.gmp-mod.md) - Operação Módulo
+  - [gmp\_mul](function.gmp-mul.md) - Multiplica números
+  - [gmp\_neg](function.gmp-neg.md) - Negativa o número
+  - [gmp\_nextprime](function.gmp-nextprime.md) - Encontra o próximo número primo
+  - [gmp\_or](function.gmp-or.md) - Operação binária OR
+  - [gmp\_perfect\_power](function.gmp-perfect-power.md) - Verificação de potência perfeita
+  - [gmp\_perfect\_square](function.gmp-perfect-square.md) - Verificação de quadrado perfeito
+  - [gmp\_popcount](function.gmp-popcount.md) - Contagem de população
+  - [gmp\_pow](function.gmp-pow.md) - Elevar o número a uma potência
+  - [gmp\_powm](function.gmp-powm.md) - Eleva um número a uma potência com módulo
+  - [gmp\_prob\_prime](function.gmp-prob-prime.md) - Verifica se o número é "provavelmente primo"
+  - [gmp\_random](function.gmp-random.md) - Número aleatório
+  - [gmp\_random\_bits](function.gmp-random-bits.md) - Numero aleatório
+  - [gmp\_random\_range](function.gmp-random-range.md) - Obtém um inteiro uniformemente selecionado
+  - [gmp\_random\_seed](function.gmp-random-seed.md) - Define a semente do gerador de números aleatórios
+  - [gmp\_root](function.gmp-root.md) - Obtém a parte inteira da raiz enésima
+  - [gmp\_rootrem](function.gmp-rootrem.md) - Obtém a parte inteira e o resto da raiz enésima
+  - [gmp\_scan0](function.gmp-scan0.md) - Procura por 0
+  - [gmp\_scan1](function.gmp-scan1.md) - Procura por 1
+  - [gmp\_setbit](function.gmp-setbit.md) - Define um bit
+  - [gmp\_sign](function.gmp-sign.md) - Sinal do número
+  - [gmp\_sqrt](function.gmp-sqrt.md) - Calcula a raiz quadrada
+  - [gmp\_sqrtrem](function.gmp-sqrtrem.md) - Raiz quadrada com resto
+  - [gmp\_strval](function.gmp-strval.md) - Converte um número GMP para uma string
+  - [gmp\_sub](function.gmp-sub.md) - Subtrai números
+  - [gmp\_testbit](function.gmp-testbit.md) - Testa se um bit está definido
+  - [gmp\_xor](function.gmp-xor.md) - Operação binária XOR
+  - [gmstrftime](function.gmstrftime.md) - Formata uma data/horário GMT/UTC de acordo com as configurações de localidade
+  - [gnupg\_adddecryptkey](function.gnupg-adddecryptkey.md) - Adiciona uma chave para descriptografia
+  - [gnupg\_addencryptkey](function.gnupg-addencryptkey.md) - Adiciona uma chave para criptografia
+  - [gnupg\_addsignkey](function.gnupg-addsignkey.md) - Adiciona uma chave para assinatura
+  - [gnupg\_cleardecryptkeys](function.gnupg-cleardecryptkeys.md) - Remove todas as chaves que foram definidas para descriptografia antes
+  - [gnupg\_clearencryptkeys](function.gnupg-clearencryptkeys.md) - Remove todas as chaves que foram definidas para criptografia antes
+  - [gnupg\_clearsignkeys](function.gnupg-clearsignkeys.md) - Remove todas as chaves que foram definidas para assinatura antes
+  - [gnupg\_decrypt](function.gnupg-decrypt.md) - Descriptografa um texto fornecido
+  - [gnupg\_decryptverify](function.gnupg-decryptverify.md) - Descriptografa e verifica um texto fornecido
+  - [gnupg\_deletekey](function.gnupg-deletekey.md) - Exclui uma chave do chaveiro
+  - [gnupg\_encrypt](function.gnupg-encrypt.md) - Criptografa um texto fornecido
+  - [gnupg\_encryptsign](function.gnupg-encryptsign.md) - Criptografa e assina um texto fornecido
+  - [gnupg\_export](function.gnupg-export.md) - Exporta uma chave
+  - [gnupg\_getengineinfo](function.gnupg-getengineinfo.md) - Retorna as informações do mecanismo
+  - [gnupg\_geterror](function.gnupg-geterror.md) - Retorna o texto de erro, se uma função falhar
+  - [gnupg\_geterrorinfo](function.gnupg-geterrorinfo.md) - Retorna as informações de erro
+  - [gnupg\_getprotocol](function.gnupg-getprotocol.md) - Retorna o protocolo atualmente ativo para todas as operações
+  - [gnupg\_gettrustlist](function.gnupg-gettrustlist.md) - Pesquisa os itens confiáveis
+  - [gnupg\_import](function.gnupg-import.md) - Importa uma chave
+  - [gnupg\_init](function.gnupg-init.md) - Inicializa uma conexão
+  - [gnupg\_keyinfo](function.gnupg-keyinfo.md) - Retorna um array com informações sobre todas as chaves que correspondem ao padrão fornecido
+  - [gnupg\_listsignatures](function.gnupg-listsignatures.md) - Lista as assinaturas de clave
+  - [gnupg\_setarmor](function.gnupg-setarmor.md) - Alterna a saída blindada
+  - [gnupg\_seterrormode](function.gnupg-seterrormode.md) - Define o modo para relato de erros
+  - [gnupg\_setsignmode](function.gnupg-setsignmode.md) - Define o modo de assinatura
+  - [gnupg\_sign](function.gnupg-sign.md) - Assina um texto fornecido
+  - [gnupg\_verify](function.gnupg-verify.md) - Verifica um texto assinado
+  - [grapheme\_extract](function.grapheme-extract.md) - Extrai uma sequência de grupos padrão de grafemas de um buffer de texto em UTF-8
+  - [grapheme\_levenshtein](function.grapheme-levenshtein.md) - Calculate Levenshtein distance between two strings in grapheme units
+  - [grapheme\_stripos](function.grapheme-stripos.md) - Encontra a posição (em unidades de grafema) da primeira ocorrência de uma string não sensível a maiúsculas/minúsculas
+  - [grapheme\_stristr](function.grapheme-stristr.md) - Retorna parte de uma string a partir da primeira ocorrência de outra string (insensível a maiúsculas/minúsculas) até o final
+  - [grapheme\_strlen](function.grapheme-strlen.md) - Obtém o comprimento de uma string em unidade de grafema
+  - [grapheme\_strpos](function.grapheme-strpos.md) - Encontra a posição (em unidades de grafema) da primeira ocorrência de uma string
+  - [grapheme\_strripos](function.grapheme-strripos.md) - Encontra a posição (em unidades de grafema) da última ocorrência de uma string (insensível a maiúsculas/minúsculas)
+  - [grapheme\_strrpos](function.grapheme-strrpos.md) - Encontra a posição (em unidades de grafema) da última ocorrência de uma string
+  - [grapheme\_strstr](function.grapheme-strstr.md) - Retorna parte de uma string a partir da primeira ocorrência de outra string até o final
+  - [grapheme\_str\_split](function.grapheme-str-split.md) - Separa uma string em um array
+  - [grapheme\_substr](function.grapheme-substr.md) - Retorna parte de uma string
+  - [gregoriantojd](function.gregoriantojd.md) - Converte uma data Gregoriana para a Contagem de Dias Julianos
+  - [gzclose](function.gzclose.md) - Fecha um ponteiro de um arquivo gz aberto
+  - [gzcompress](function.gzcompress.md) - Comprime uma string
+  - [gzdecode](function.gzdecode.md) - Decodifica uma string comprimida usando o gzip
+  - [gzdeflate](function.gzdeflate.md) - Desinfla uma string
+  - [gzencode](function.gzencode.md) - Cria uma string comprimida no formato gzip
+  - [gzeof](function.gzeof.md) - Testar o EOF em um ponteiro de arquivo gz
+  - [gzfile](function.gzfile.md) - Lê todo o arquivo gz em um array
+  - [gzgetc](function.gzgetc.md) - Obtém caractere de um ponteiro de arquivo gz
+  - [gzgets](function.gzgets.md) - Obtém uma linha de um ponteiro de arquivo
+  - [gzgetss](function.gzgetss.md) - Obtém linha de um ponteiro de arquivo gz e remover tags HTML
+  - [gzinflate](function.gzinflate.md) - Descomprime uma string comprimida
+  - [gzopen](function.gzopen.md) - Abre arquivo gz
+  - [gzpassthru](function.gzpassthru.md) - Escreve na saída todos os dados restantes em um ponteiro de arquivo gz
+  - [gzputs](function.gzputs.md) - Sinônimo de gzwrite
+  - [gzread](function.gzread.md) - Leitura de arquivo gz binária segura
+  - [gzrewind](function.gzrewind.md) - Retorna ao início a posição de um ponteiro para um arquivo-gz
+  - [gzseek](function.gzseek.md) - Posiciona um ponteiro de arquivo gz
+  - [gztell](function.gztell.md) - Indica a posição de leitura/gravação em um ponteiro para arquivo-gz
+  - [gzuncompress](function.gzuncompress.md) - Descomprime uma string comprimida
+  - [gzwrite](function.gzwrite.md) - Escrita segura para binário em arquivo-gz
+- h
+  - [hash](function.hash.md) - Gera um valor hash (resumo da mensagem)
+  - [HashContext::\_\_construct](hashcontext.construct.md) - Construtor privado para impedir instanciação direta
+  - [HashContext::\_\_debugInfo](hashcontext.debuginfo.md) - Retorna informação de depuração sobre o contexto de hash
+  - [HashContext::\_\_serialize](hashcontext.serialize.md) - Serializa o objeto HashContext
+  - [HashContext::\_\_unserialize](hashcontext.unserialize.md) - Desserializa o parâmetro data em um objeto HashContext
+  - [hash\_algos](function.hash-algos.md) - Retorna uma lista de algoritmos de hash registrados
+  - [hash\_copy](function.hash-copy.md) - Copia contexto de hash
+  - [hash\_equals](function.hash-equals.md) - Comparação de strings segura para ataque de temporização
+  - [hash\_file](function.hash-file.md) - Gera um valor hash usando o conteúdo de um arquivo fornecido
+  - [hash\_final](function.hash-final.md) - Finaliza um hash incremental e retorna o resumo resultante
+  - [hash\_hkdf](function.hash-hkdf.md) - Gera uma derivação de chave HKDF de uma entrada de chave fornecida
+  - [hash\_hmac](function.hash-hmac.md) - Gera um valor de hash com chave usando o método HMAC
+  - [hash\_hmac\_algos](function.hash-hmac-algos.md) - Retorna uma lista de algoritmos de hash registrados adequados para hash\_hmac
+  - [hash\_hmac\_file](function.hash-hmac-file.md) - Gera um valor hash com chave usando o método HMAC e o conteúdo de um arquivo fornecido
+  - [hash\_init](function.hash-init.md) - Inicializa um contexto de hash incremental
+  - [hash\_pbkdf2](function.hash-pbkdf2.md) - Gera uma derivação de chave PBKDF2 de uma senha fornecida
+  - [hash\_update](function.hash-update.md) - Injeta dados em um contexto de hash ativo
+  - [hash\_update\_file](function.hash-update-file.md) - Injeta dados em um contexto de hash ativo a partir de um arquivo
+  - [hash\_update\_stream](function.hash-update-stream.md) - Injeta dados em um contexto de hash ativo a partir de um fluxo
+  - [header](function.header.md) - Envia um cabeçalho HTTP bruto
+  - [headers\_list](function.headers-list.md) - Retorna uma lista de cabeçalhos de resposta enviados (ou prontos para enviar)
+  - [headers\_sent](function.headers-sent.md) - Verifica se ou onde os cabeçalhos foram enviados
+  - [header\_register\_callback](function.header-register-callback.md) - Chama uma função de cabeçalho
+  - [header\_remove](function.header-remove.md) - Remove cabeçalhos definidos anteriormente
+  - [hebrev](function.hebrev.md) - Converte texto hebraico lógico para texto visual
+  - [hebrevc](function.hebrevc.md) - Converte texto hebraico lógico para texto visual com conversão de novas linhas
+  - [hex2bin](function.hex2bin.md) - Decodifica uma string binária codificada em hexadecimal
+  - [hexdec](function.hexdec.md) - Hexadecimal para decimal
+  - [highlight\_file](function.highlight-file.md) - Destaca a sintaxe de um arquivo
+  - [highlight\_string](function.highlight-string.md) - Destaque de sintaxe de uma string
+  - [hrtime](function.hrtime.md) - Obtém o tempo de alta resolução do sistema
+  - [HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md) - Frequência do temporizador em tiques por segundo
+  - [HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md) - Tiques atuais do sistema
+  - [HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md) - Tiques decorridos desde um valor informado
+  - [HRTime\StopWatch::getElapsedTicks](hrtime-stopwatch.getelapsedticks.md) - Obtém os tiques decorridos para todos os intervalos
+  - [HRTime\StopWatch::getElapsedTime](hrtime-stopwatch.getelapsedtime.md) - Obtém o tempo decorrido para todos os intervalos
+  - [HRTime\StopWatch::getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md) - Obtém os tiques decorridos para o último intervalo
+  - [HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md) - Obtém o tempo decorrido para o último intervalo
+  - [HRTime\StopWatch::isRunning](hrtime-stopwatch.isrunning.md) - Informa se a medição está em execução
+  - [HRTime\StopWatch::start](hrtime-stopwatch.start.md) - Inicia a medição de tempo
+  - [HRTime\StopWatch::stop](hrtime-stopwatch.stop.md) - Para a medição do tempo
+  - [htmlentities](function.htmlentities.md) - Converte todos os caracteres aplicáveis em entidades HTML
+  - [htmlspecialchars](function.htmlspecialchars.md) - Converte caracteres especiais para entidades HTML
+  - [htmlspecialchars\_decode](function.htmlspecialchars-decode.md) - Converte entidades especiais HTML de volta para caracteres
+  - [html\_entity\_decode](function.html-entity-decode.md) - Converte entidades HTML aos seus caracteres correspondentes
+  - [http\_build\_query](function.http-build-query.md) - Gera a string de consulta em formato URL
+  - [http\_clear\_last\_response\_headers](function.http-clear-last-response-headers.md) - Limpa os cabeçalhos de resposta HTTP armazenados
+  - [http\_get\_last\_response\_headers](function.http-get-last-response-headers.md) - Recupera os últimos cabeçalhos de reposta HTTP
+  - [http\_response\_code](function.http-response-code.md) - Obtém ou define o código de resposta HTTP
+  - [hypot](function.hypot.md) - Calcula o comprimento da hipotenusa de triângulo retângulo
+- i
+  - [ibase\_add\_user](function.ibase-add-user.md) - Adiciona um usuário a um banco de dados seguro
+  - [ibase\_affected\_rows](function.ibase-affected-rows.md) - Retorna o número de linhas que foram afetados pela consulta anterior
+  - [ibase\_backup](function.ibase-backup.md) - Inicia uma tarefa de backup no gerenciador de serviços e retorna imediatamente
+  - [ibase\_blob\_add](function.ibase-blob-add.md) - Adiciona dados em um blob recém criado
+  - [ibase\_blob\_cancel](function.ibase-blob-cancel.md) - Cancela a criação de blob
+  - [ibase\_blob\_close](function.ibase-blob-close.md) - Fecha blob
+  - [ibase\_blob\_create](function.ibase-blob-create.md) - Cria um novo blob para adicionar dados
+  - [ibase\_blob\_echo](function.ibase-blob-echo.md) - Envia o conteúdo do blob para o navegador
+  - [ibase\_blob\_get](function.ibase-blob-get.md) - Retorna uma quantidade especificada de bytes de dados de um blob aberto
+  - [ibase\_blob\_import](function.ibase-blob-import.md) - Cria um blob, copia um arquivo para ele e o fecha
+  - [ibase\_blob\_info](function.ibase-blob-info.md) - Retorna o tamanho do blob e outras informações úteis
+  - [ibase\_blob\_open](function.ibase-blob-open.md) - Abre um blob para obter partes de dados
+  - [ibase\_close](function.ibase-close.md) - Fecha uma conexão com um banco de dados InterBase
+  - [ibase\_commit](function.ibase-commit.md) - Confirma uma transação
+  - [ibase\_commit\_ret](function.ibase-commit-ret.md) - Confirma uma transação sem fechá-la
+  - [ibase\_connect](function.ibase-connect.md) - Abre uma conexão com um banco de dados
+  - [ibase\_db\_info](function.ibase-db-info.md) - Solicita estatísticas sobre um banco de dados
+  - [ibase\_delete\_user](function.ibase-delete-user.md) - Exclui um usuário de um banco de dados seguro
+  - [ibase\_drop\_db](function.ibase-drop-db.md) - Exclui um banco de dados
+  - [ibase\_errcode](function.ibase-errcode.md) - Retorna um código de erro
+  - [ibase\_errmsg](function.ibase-errmsg.md) - Retorna mensagens de erro
+  - [ibase\_execute](function.ibase-execute.md) - Executa uma consulta preparada anteriormente
+  - [ibase\_fetch\_assoc](function.ibase-fetch-assoc.md) - Obtém uma linha de resultado de uma consulta como um array associativo
+  - [ibase\_fetch\_object](function.ibase-fetch-object.md) - Obtém um objeto de um banco de dados InterBase
+  - [ibase\_fetch\_row](function.ibase-fetch-row.md) - Busca uma linha de um banco de dados InterBase
+  - [ibase\_field\_info](function.ibase-field-info.md) - Obtém informação sobre um campo
+  - [ibase\_free\_event\_handler](function.ibase-free-event-handler.md) - Cancela um manipulador de eventos registrado
+  - [ibase\_free\_query](function.ibase-free-query.md) - Libera a memória alocada para uma consulta preparada
+  - [ibase\_free\_result](function.ibase-free-result.md) - Libera um conjunto de resultados
+  - [ibase\_gen\_id](function.ibase-gen-id.md) - Incrementa o gerador nomeado e retorna seu novo valor
+  - [ibase\_maintain\_db](function.ibase-maintain-db.md) - Executa um comando de manutenção no servidor de banco de dados
+  - [ibase\_modify\_user](function.ibase-modify-user.md) - Modifica um usuário para um banco de dados seguro
+  - [ibase\_name\_result](function.ibase-name-result.md) - Define um nome para um conjunto de resultados
+  - [ibase\_num\_fields](function.ibase-num-fields.md) - Obtém o número de campos em um conjunto de resultados
+  - [ibase\_num\_params](function.ibase-num-params.md) - Retorna o número de parâmetros em uma consulta preparada
+  - [ibase\_param\_info](function.ibase-param-info.md) - Retorna informação sobre um parâmetro em uma consulta preparada
+  - [ibase\_pconnect](function.ibase-pconnect.md) - Abre uma conexão persistente com um banco de dados InterBase
+  - [ibase\_prepare](function.ibase-prepare.md) - Prepara uma consulta para ligação de parâmetros e execução posteriores
+  - [ibase\_query](function.ibase-query.md) - Executa uma consulta em um banco de dados InterBase
+  - [ibase\_restore](function.ibase-restore.md) - Inicia uma tarefa de restauração no gerenciador de serviços e retorna imediatamente
+  - [ibase\_rollback](function.ibase-rollback.md) - Reverte uma transação
+  - [ibase\_rollback\_ret](function.ibase-rollback-ret.md) - Reverte uma transação sem fechá-la
+  - [ibase\_server\_info](function.ibase-server-info.md) - Solicita informações sobre um servidor de banco de dados
+  - [ibase\_service\_attach](function.ibase-service-attach.md) - Conecta ao gerenciador de serviços
+  - [ibase\_service\_detach](function.ibase-service-detach.md) - Desconecta do gerenciador de serviços
+  - [ibase\_set\_event\_handler](function.ibase-set-event-handler.md) - Registra uma função de retorno a ser chamada quando eventos são postados
+  - [ibase\_trans](function.ibase-trans.md) - Inicia uma transação
+  - [ibase\_wait\_event](function.ibase-wait-event.md) - Espera por um evento ser postado pelo banco de dados
+  - [iconv](function.iconv.md) - Converte uma string de uma codificação de caracteres para outra
+  - [iconv\_get\_encoding](function.iconv-get-encoding.md) - Recuperar variáveis de configuração internas da extensão iconv
+  - [iconv\_mime\_decode](function.iconv-mime-decode.md) - Decodifica um campo de cabeçalho MIME
+  - [iconv\_mime\_decode\_headers](function.iconv-mime-decode-headers.md) - Decodifica vários campos de cabeçalho MIME de uma só vez
+  - [iconv\_mime\_encode](function.iconv-mime-encode.md) - Compõe um campo de cabeçalho MIME
+  - [iconv\_set\_encoding](function.iconv-set-encoding.md) - Define a configuração atual para conversão de codificação de caracteres
+  - [iconv\_strlen](function.iconv-strlen.md) - Retorna a contagem de caracteres da string
+  - [iconv\_strpos](function.iconv-strpos.md) - Localiza a posição da primeira ocorrência de um caractere em uma string
+  - [iconv\_strrpos](function.iconv-strrpos.md) - Localiza a última ocorrência de um caractere em uma string
+  - [iconv\_substr](function.iconv-substr.md) - Corta parte de uma string
+  - [idate](function.idate.md) - Formata uma parte de uma data/horário local como um inteiro
+  - [idn\_to\_ascii](function.idn-to-ascii.md) - Converte nome de domínio para a forma ASCII IDNA
+  - [idn\_to\_utf8](function.idn-to-utf8.md) - Converte nome de domínio de ASCII IDNA para Unicode
+  - [igbinary\_serialize](function.igbinary-serialize.md) - Gera uma representação binária compacta e armazenável de um valor
+  - [igbinary\_unserialize](function.igbinary-unserialize.md) - Cria um valor PHP a partir de uma representação armazenada por igbinary\_serialize
+  - [ignore\_user\_abort](function.ignore-user-abort.md) - Define se uma desconexão de cliente deve abortar execução de script
+  - [image2wbmp](function.image2wbmp.md) - Envia a imagem para o navegador ou para um arquivo
+  - [imageaffine](function.imageaffine.md) - Retorna uma imagem contendo a imagem fonte com transformação afim, usando uma área de recorte opcional
+  - [imageaffinematrixconcat](function.imageaffinematrixconcat.md) - Concatena duas matrizes de transformação afim
+  - [imageaffinematrixget](function.imageaffinematrixget.md) - Obtém uma matriz de transformação afim
+  - [imagealphablending](function.imagealphablending.md) - Define o modo de combinação para uma imagem
+  - [imageantialias](function.imageantialias.md) - Define se as funções de suavização de serrilhado devem ser usadas ou não
+  - [imagearc](function.imagearc.md) - Desenha um arco
+  - [imageavif](function.imageavif.md) - Envia a imagem para o navegador ou para um arquivo
+  - [imagebmp](function.imagebmp.md) - Mostra ou grava uma imagem BMP
+  - [imagechar](function.imagechar.md) - Desenha um caractere horizontalmente
+  - [imagecharup](function.imagecharup.md) - Desenha um caractere verticalmente
+  - [imagecolorallocate](function.imagecolorallocate.md) - Aloca uma cor para uma imagem
+  - [imagecolorallocatealpha](function.imagecolorallocatealpha.md) - Aloca uma cor para uma imagem
+  - [imagecolorat](function.imagecolorat.md) - Obtém o índica da cor de um pixel
+  - [imagecolorclosest](function.imagecolorclosest.md) - Obtém o índice da cor mais próxima à especificada
+  - [imagecolorclosestalpha](function.imagecolorclosestalpha.md) - Obtém o índice da cor mais próxima à especificada (incluindo alfa)
+  - [imagecolorclosesthwb](function.imagecolorclosesthwb.md) - Obtém o índice da cor que tem a matiz, brancura e negritude mais próximas de uma cor informada
+  - [imagecolordeallocate](function.imagecolordeallocate.md) - Desaloca uma cor de uma imagem
+  - [imagecolorexact](function.imagecolorexact.md) - Obtém o índice da cor especificada
+  - [imagecolorexactalpha](function.imagecolorexactalpha.md) - Obtém o índice da cor e alfa especificados
+  - [imagecolormatch](function.imagecolormatch.md) - Faz com que as cores da versão em paleta da imagem fiquem mais próximas da versão em cores verdadeiras
+  - [imagecolorresolve](function.imagecolorresolve.md) - Obtém o índice da cor especificada ou a alternativa mais próxima
+  - [imagecolorresolvealpha](function.imagecolorresolvealpha.md) - Obtém o índice da cor + alfa especificados ou a alternativa mais próxima
+  - [imagecolorset](function.imagecolorset.md) - Define a cor para o índice da paleta especificado
+  - [imagecolorsforindex](function.imagecolorsforindex.md) - Obtém as cores para um índice
+  - [imagecolorstotal](function.imagecolorstotal.md) - Obtém o número de cores em uma paleta de imagem
+  - [imagecolortransparent](function.imagecolortransparent.md) - Define uma cor como transparente
+  - [imageconvolution](function.imageconvolution.md) - Aplica uma matriz de convolução 3x3, usando coeficiente e deslocamento
+  - [imagecopy](function.imagecopy.md) - Copia uma parte de uma imagem
+  - [imagecopymerge](function.imagecopymerge.md) - Copia e funde parte de uma imagem
+  - [imagecopymergegray](function.imagecopymergegray.md) - Copia e funde parte de uma imagem com escala de cinza
+  - [imagecopyresampled](function.imagecopyresampled.md) - Copia e redimensiona parte de uma imagem com reamostragem
+  - [imagecopyresized](function.imagecopyresized.md) - Copia e redimensiona parte de uma imagem
+  - [imagecreate](function.imagecreate.md) - Crie uma nova imagem baseada em paleta
+  - [imagecreatefromavif](function.imagecreatefromavif.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefrombmp](function.imagecreatefrombmp.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromgd](function.imagecreatefromgd.md) - Cria uma nova imagem a partir de um arquivo GD ou URL
+  - [imagecreatefromgd2](function.imagecreatefromgd2.md) - Cria uma nova imagem a partir de um arquivo GD2 ou URL
+  - [imagecreatefromgd2part](function.imagecreatefromgd2part.md) - Cria uma nova imagem a partir de uma parte de um arquivo GD2 ou URL
+  - [imagecreatefromgif](function.imagecreatefromgif.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromjpeg](function.imagecreatefromjpeg.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefrompng](function.imagecreatefrompng.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromstring](function.imagecreatefromstring.md) - Cria uma nova imagem a partir de um fluxo de imagem na string
+  - [imagecreatefromtga](function.imagecreatefromtga.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromwbmp](function.imagecreatefromwbmp.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromwebp](function.imagecreatefromwebp.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromxbm](function.imagecreatefromxbm.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatefromxpm](function.imagecreatefromxpm.md) - Cria uma nova imagem a partir de um arquivo ou URL
+  - [imagecreatetruecolor](function.imagecreatetruecolor.md) - Cria uma nova imagem em cores verdadeiras
+  - [imagecrop](function.imagecrop.md) - Recorta uma imagem no retângulo informado
+  - [imagecropauto](function.imagecropauto.md) - Recorta uma imagem automaticamente usando um dos modos disponíveis
+  - [imagedashedline](function.imagedashedline.md) - Desenha uma linha tracejada
+  - [imagedestroy](function.imagedestroy.md) - Destrói uma imagem
+  - [imageellipse](function.imageellipse.md) - Desenha uma elipse
+  - [imagefill](function.imagefill.md) - Preenchimento
+  - [imagefilledarc](function.imagefilledarc.md) - Desenha um arco parcial preenchido
+  - [imagefilledellipse](function.imagefilledellipse.md) - Desenha uma elipse preenchida
+  - [imagefilledpolygon](function.imagefilledpolygon.md) - Desenha um polígono preenchido
+  - [imagefilledrectangle](function.imagefilledrectangle.md) - Desenha um retângulo preenchido
+  - [imagefilltoborder](function.imagefilltoborder.md) - Preenche até encontrar uma cor especificada
+  - [imagefilter](function.imagefilter.md) - Aplica um filtro a uma imagem
+  - [imageflip](function.imageflip.md) - Vira uma imagem usando um modo especificado
+  - [imagefontheight](function.imagefontheight.md) - Obtém a altura da fonte
+  - [imagefontwidth](function.imagefontwidth.md) - Obtém a largura da fonte
+  - [imageftbbox](function.imageftbbox.md) - Fornece a caixa limite de um texto usando fontes via freetype2
+  - [imagefttext](function.imagefttext.md) - Escreve texto em uma imagem usando fontes FreeType 2
+  - [imagegammacorrect](function.imagegammacorrect.md) - Aplica uma correção de gama a uma imagem GD
+  - [imagegd](function.imagegd.md) - Envia uma imagem GD para o navegador ou para um arquivo
+  - [imagegd2](function.imagegd2.md) - Envia uma imagem GD2 ao navegador ou a um arquivo
+  - [imagegetclip](function.imagegetclip.md) - Obtém o retângulo de recorte
+  - [imagegetinterpolation](function.imagegetinterpolation.md) - Obtém o método de interpolação
+  - [imagegif](function.imagegif.md) - Envia a imagem para o navegador ou para um arquivo
+  - [imagegrabscreen](function.imagegrabscreen.md) - Captura toda a tela
+  - [imagegrabwindow](function.imagegrabwindow.md) - Captura uma janela
+  - [imageinterlace](function.imageinterlace.md) - Habilita ou desabilita entrelace
+  - [imageistruecolor](function.imageistruecolor.md) - Descobre se uma imagem está em cores verdadeiras
+  - [imagejpeg](function.imagejpeg.md) - Envia a imagem para o navegador ou para um arquivo
+  - [imagelayereffect](function.imagelayereffect.md) - Define a opção de mesclagem alfa para usar efeitos de camada
+  - [imageline](function.imageline.md) - Desenha uma linha
+  - [imageloadfont](function.imageloadfont.md) - Carrega uma nova fonte
+  - [imageopenpolygon](function.imageopenpolygon.md) - Desenha um polígono aberto
+  - [imagepalettecopy](function.imagepalettecopy.md) - Copia a paleta de uma imagem para outra
+  - [imagepalettetotruecolor](function.imagepalettetotruecolor.md) - Converte uma imagem baseada em paleta para cores verdadeiras
+  - [imagepng](function.imagepng.md) - Envia uma imagem PNG para o navegador ou arquivo
+  - [imagepolygon](function.imagepolygon.md) - Desenha um polígono
+  - [imagerectangle](function.imagerectangle.md) - Desenha um retângulo
+  - [imageresolution](function.imageresolution.md) - Obtém ou define a resolução da imagem
+  - [imagerotate](function.imagerotate.md) - Rotaciona uma imagem em um ângulo informado
+  - [imagesavealpha](function.imagesavealpha.md) - Informa se a informação de canal alfa deve ser retida ao gravar imagens
+  - [imagescale](function.imagescale.md) - Muda a escala de uma imagem usando largura e altura informadas
+  - [imagesetbrush](function.imagesetbrush.md) - Define o tipo de pincel para desenho de linhas
+  - [imagesetclip](function.imagesetclip.md) - Define o retângulo de recorte
+  - [imagesetinterpolation](function.imagesetinterpolation.md) - Define o método de interpolação
+  - [imagesetpixel](function.imagesetpixel.md) - Desenha um pixel
+  - [imagesetstyle](function.imagesetstyle.md) - Define o estilo para desenho de linhas
+  - [imagesetthickness](function.imagesetthickness.md) - Define a espessura para desenho de linhas
+  - [imagesettile](function.imagesettile.md) - Define a imagem de ladrilho para preenchimento
+  - [imagestring](function.imagestring.md) - Desenha uma string na horizontal
+  - [imagestringup](function.imagestringup.md) - Desenha uma string na vertical
+  - [imagesx](function.imagesx.md) - Obtém a largura da imagem
+  - [imagesy](function.imagesy.md) - Obtém a altura da imagem
+  - [imagetruecolortopalette](function.imagetruecolortopalette.md) - Converte uma imagem em cores verdadeiras em uma imagem de paleta
+  - [imagettfbbox](function.imagettfbbox.md) - Fornece a os limites retangulares de um texto usando fontes TrueType
+  - [imagettftext](function.imagettftext.md) - Escreve texto na imagem usando fontes TrueType
+  - [imagetypes](function.imagetypes.md) - Retorna os tipos de imagens suportados pela instalação do PHP
+  - [imagewbmp](function.imagewbmp.md) - Envia a imagem para o navegador ou para um arquivo
+  - [imagewebp](function.imagewebp.md) - Mostra uma imagem WebP no navegador ou grava em arquivo
+  - [imagexbm](function.imagexbm.md) - Mostra uma imagem XBM em um navegador ou grava em arquivo
+  - [image\_type\_to\_extension](function.image-type-to-extension.md) - Obtém a extensão de arquivo para o tipo da imagem
+  - [image\_type\_to\_mime\_type](function.image-type-to-mime-type.md) - Obtém o Mime-Type para o tipo de imagem retornado por getimagesize,
+    exif\_read\_data, exif\_thumbnail e exif\_imagetype
+  - [Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.md) - Adiciona filtro de desfoque adaptável à imagem
+  - [Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.md) - Redimensiona imagem de forma adaptativa com triangulação dependente de dados
+  - [Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.md) - Aumenta a nitidez da imagem de forma adaptativa
+  - [Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.md) - Seleciona um limite para cada pixel com base em uma faixa de intensidade
+  - [Imagick::addImage](imagick.addimage.md) - Adiciona nova imagem à lista de imagens de objetos Imagick
+  - [Imagick::addNoiseImage](imagick.addnoiseimage.md) - Adiciona ruído aleatório à imagem
+  - [Imagick::affineTransformImage](imagick.affinetransformimage.md) - Transforma uma imagem
+  - [Imagick::animateImages](imagick.animateimages.md) - Anima uma imagem ou imagens
+  - [Imagick::annotateImage](imagick.annotateimage.md) - Cria anotação em uma imagem com texto
+  - [Imagick::appendImages](imagick.appendimages.md) - Anexa um conjunto de imagens
+  - [Imagick::autoLevelImage](imagick.autolevelimage.md) - Ajusta os níveis de um canal de imagem específico
+  - [Imagick::averageImages](imagick.averageimages.md) - Tira a média de um conjunto de imagens
+  - [Imagick::blackThresholdImage](imagick.blackthresholdimage.md) - Força todos os pixels abaixo do limite para preto
+  - [Imagick::blueShiftImage](imagick.blueshiftimage.md) - Silencia as cores da imagem
+  - [Imagick::blurImage](imagick.blurimage.md) - Adiciona filtro de desfoque à imagem
+  - [Imagick::borderImage](imagick.borderimage.md) - Envolve a imagem com uma borda
+  - [Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md) - Altera o brilho e/ou contraste de uma imagem
+  - [Imagick::charcoalImage](imagick.charcoalimage.md) - Simula um desenho a carvão
+  - [Imagick::chopImage](imagick.chopimage.md) - Remove uma região de uma imagem e corta
+  - [Imagick::clampImage](imagick.clampimage.md) - Restringe a faixa de cores de 0 à profundidade do Quantum
+  - [Imagick::clear](imagick.clear.md) - Limpa todos os recursos associados ao objeto Imagick
+  - [Imagick::clipImage](imagick.clipimage.md) - Recorta ao longo do primeiro caminho do perfil 8BIM
+  - [Imagick::clipImagePath](imagick.clipimagepath.md) - Recorta ao longo dos caminhos nomeados do perfil 8BIM, se presente
+  - [Imagick::clipPathImage](imagick.clippathimage.md) - Recorta ao longo dos caminhos nomeados do perfil 8BIM
+  - [Imagick::clone](imagick.clone.md) - Faz uma cópia exata do objeto Imagick
+  - [Imagick::clutImage](imagick.clutimage.md) - Substitui cores na imagem
+  - [Imagick::coalesceImages](imagick.coalesceimages.md) - Compõe um conjunto de imagens
+  - [Imagick::colorFloodfillImage](imagick.colorfloodfillimage.md) - Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::colorizeImage](imagick.colorizeimage.md) - Mescla a cor de preenchimento com a imagem
+  - [Imagick::colorMatrixImage](imagick.colormatriximage.md) - Aplica transformação de cores a uma imagem
+  - [Imagick::combineImages](imagick.combineimages.md) - Combina uma ou mais imagens em uma única imagem
+  - [Imagick::commentImage](imagick.commentimage.md) - Adiciona um comentário à sua imagem
+  - [Imagick::compareImageChannels](imagick.compareimagechannels.md) - Retorna a diferença em uma ou mais imagens
+  - [Imagick::compareImageLayers](imagick.compareimagelayers.md) - Retorna a região delimitadora máxima entre imagens
+  - [Imagick::compareImages](imagick.compareimages.md) - Compara uma imagem com uma imagem reconstruída
+  - [Imagick::compositeImage](imagick.compositeimage.md) - Compor uma imagem em outra
+  - [Imagick::contrastImage](imagick.contrastimage.md) - Altera o contraste da imagem
+  - [Imagick::contrastStretchImage](imagick.contraststretchimage.md) - Melhora o contraste de uma imagem colorida
+  - [Imagick::convolveImage](imagick.convolveimage.md) - Aplica um kernel de convolução personalizado à imagem
+  - [Imagick::count](imagick.count.md) - Obtém o número de imagens
+  - [Imagick::cropImage](imagick.cropimage.md) - Extrai uma região da imagem
+  - [Imagick::cropThumbnailImage](imagick.cropthumbnailimage.md) - Cria uma miniatura de recorte
+  - [Imagick::current](imagick.current.md) - Retorna uma referência ao objeto Imagick atual
+  - [Imagick::cycleColormapImage](imagick.cyclecolormapimage.md) - Desloca o mapa de cores de uma imagem
+  - [Imagick::decipherImage](imagick.decipherimage.md) - Decifra uma imagem
+  - [Imagick::deconstructImages](imagick.deconstructimages.md) - Retorna certas diferenças de pixels entre imagens
+  - [Imagick::deleteImageArtifact](imagick.deleteimageartifact.md) - Excluir artefato de imagem
+  - [Imagick::deleteImageProperty](imagick.deleteimageproperty.md) - Exclui uma propriedade de imagem
+  - [Imagick::deskewImage](imagick.deskewimage.md) - Remove distorção da imagem
+  - [Imagick::despeckleImage](imagick.despeckleimage.md) - Reduz o ruído pontilhado em uma imagem
+  - [Imagick::destroy](imagick.destroy.md) - Destrói o objeto Imagick
+  - [Imagick::displayImage](imagick.displayimage.md) - Exibe uma imagem
+  - [Imagick::displayImages](imagick.displayimages.md) - Exibe uma imagem ou sequência de imagens
+  - [Imagick::distortImage](imagick.distortimage.md) - Distorce uma imagem usando vários métodos de distorção
+  - [Imagick::drawImage](imagick.drawimage.md) - Renderiza o objeto ImagickDraw na imagem atual
+  - [Imagick::edgeImage](imagick.edgeimage.md) - Melhora as bordas da imagem
+  - [Imagick::embossImage](imagick.embossimage.md) - Retorna uma imagem em tons de cinza com efeito tridimensional
+  - [Imagick::encipherImage](imagick.encipherimage.md) - Cifra uma imagem
+  - [Imagick::enhanceImage](imagick.enhanceimage.md) - Melhora a qualidade de uma imagem com ruído
+  - [Imagick::equalizeImage](imagick.equalizeimage.md) - Equaliza o histograma da imagem
+  - [Imagick::evaluateImage](imagick.evaluateimage.md) - Aplica uma expressão a uma imagem
+  - [Imagick::exportImagePixels](imagick.exportimagepixels.md) - Exporta os pixels da imagem não processada
+  - [Imagick::extentImage](imagick.extentimage.md) - Define tamanho da imagem
+  - [Imagick::filter](imagick.filter.md) - Aplica um kernel de convolução personalizado à imagem
+  - [Imagick::flattenImages](imagick.flattenimages.md) - Mescla uma sequência de imagens
+  - [Imagick::flipImage](imagick.flipimage.md) - Cria uma imagem espelhada vertical
+  - [Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md) - Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::flopImage](imagick.flopimage.md) - Cria uma imagem espelhada horizontal
+  - [Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.md) - Implementa a transformada discreta de Fourier (DFT)
+  - [Imagick::frameImage](imagick.frameimage.md) - Adiciona uma borda tridimensional simulada
+  - [Imagick::functionImage](imagick.functionimage.md) - Aplica uma função na imagem
+  - [Imagick::fxImage](imagick.fximage.md) - Avalia uma expressão para cada pixel da imagem
+  - [Imagick::gammaImage](imagick.gammaimage.md) - Corrige o gama de uma imagem
+  - [Imagick::gaussianBlurImage](imagick.gaussianblurimage.md) - Desfoca uma imagem
+  - [Imagick::getColorspace](imagick.getcolorspace.md) - Obtém o espaço de cores
+  - [Imagick::getCompression](imagick.getcompression.md) - Obtém o tipo de compactação do objeto
+  - [Imagick::getCompressionQuality](imagick.getcompressionquality.md) - Obtém a qualidade de compactação do objeto
+  - [Imagick::getCopyright](imagick.getcopyright.md) - Retorna os direitos autorais da API ImageMagick como uma string
+  - [Imagick::getFilename](imagick.getfilename.md) - Obtém o nome do arquivo associado a uma sequência de imagens
+  - [Imagick::getFont](imagick.getfont.md) - Obtem a fonte
+  - [Imagick::getFormat](imagick.getformat.md) - Retorna o formato do objeto Imagick
+  - [Imagick::getGravity](imagick.getgravity.md) - Obtém a gravidade
+  - [Imagick::getHomeURL](imagick.gethomeurl.md) - Retorna o URL da página do ImageMagick
+  - [Imagick::getImage](imagick.getimage.md) - Retorna um novo objeto Imagick
+  - [Imagick::getImageAlphaChannel](imagick.getimagealphachannel.md) - Verifica se a imagem tem um canal alfa
+  - [Imagick::getImageArtifact](imagick.getimageartifact.md) - Obtém artefato da imagem
+  - [Imagick::getImageAttribute](imagick.getimageattribute.md) - Retorna um atributo nomeado
+  - [Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md) - Retorna a cor de fundo a imagem
+  - [Imagick::getImageBlob](imagick.getimageblob.md) - Retorna a sequência de imagem como um BLOB
+  - [Imagick::getImageBluePrimary](imagick.getimageblueprimary.md) - Retorna o ponto primário azul da cromaticidade
+  - [Imagick::getImageBorderColor](imagick.getimagebordercolor.md) - Retorna a cor da borda da imagem
+  - [Imagick::getImageChannelDepth](imagick.getimagechanneldepth.md) - Obtém a profundidade de um canal de imagem específico
+  - [Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.md) - Compara canais de uma imagem com uma imagem reconstruída
+  - [Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.md) - Obtém distorções de canal
+  - [Imagick::getImageChannelExtrema](imagick.getimagechannelextrema.md) - Obtém os extremos de um ou mais canais de imagem
+  - [Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md) - Obtenha a curtose e a assimetria de um canal específico
+  - [Imagick::getImageChannelMean](imagick.getimagechannelmean.md) - Obtém a média e o desvio padrão
+  - [Imagick::getImageChannelRange](imagick.getimagechannelrange.md) - Obtém o intervalo do canal
+  - [Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md) - Retorna estatísticas para cada canal na imagem
+  - [Imagick::getImageClipMask](imagick.getimageclipmask.md) - Obtém a máscara de recorte da imagem
+  - [Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md) - Retorna a cor do índice especificado do mapa de cores
+  - [Imagick::getImageColors](imagick.getimagecolors.md) - Obtém o número de cores únicas na imagem
+  - [Imagick::getImageColorspace](imagick.getimagecolorspace.md) - Obtém o espaço de cores da imagem
+  - [Imagick::getImageCompose](imagick.getimagecompose.md) - Retorna o operador de composição associado à imagem
+  - [Imagick::getImageCompression](imagick.getimagecompression.md) - Obtém o tipo de compactação da imagem atual
+  - [Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md) - Obtém a qualidade de compressão da imagem atual
+  - [Imagick::getImageDelay](imagick.getimagedelay.md) - Obtém o atraso da imagem
+  - [Imagick::getImageDepth](imagick.getimagedepth.md) - Obtém a profundidade da imagem
+  - [Imagick::getImageDispose](imagick.getimagedispose.md) - Obtém o método de descarte de imagem
+  - [Imagick::getImageDistortion](imagick.getimagedistortion.md) - Compara uma imagem com uma imagem reconstruída
+  - [Imagick::getImageExtrema](imagick.getimageextrema.md) - Obtém os extremos da imagem
+  - [Imagick::getImageFilename](imagick.getimagefilename.md) - Retorna o nome do arquivo de uma imagem específica em uma sequência
+  - [Imagick::getImageFormat](imagick.getimageformat.md) - Retorna o formato de uma imagem específica em uma sequência
+  - [Imagick::getImageGamma](imagick.getimagegamma.md) - Obtém o gama da imagem
+  - [Imagick::getImageGeometry](imagick.getimagegeometry.md) - Obtém a largura e a altura como um array associativo
+  - [Imagick::getImageGravity](imagick.getimagegravity.md) - Obtém a gravidade da imagem
+  - [Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.md) - Retorna o ponto primário verde da cromaticidade
+  - [Imagick::getImageHeight](imagick.getimageheight.md) - Retorna a altura da imagem
+  - [Imagick::getImageHistogram](imagick.getimagehistogram.md) - Obtém o histograma da imagem
+  - [Imagick::getImageIndex](imagick.getimageindex.md) - Obtém o índice da imagem ativa atual
+  - [Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md) - Obtém o esquema de entrelaçamento da imagem
+  - [Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.md) - Retorna o método de interpolação
+  - [Imagick::getImageIterations](imagick.getimageiterations.md) - Obtém as iterações da imagem
+  - [Imagick::getImageLength](imagick.getimagelength.md) - Retorna o comprimento da imagem em bytes
+  - [Imagick::getImageMatte](imagick.getimagematte.md) - Informa se a imagem tem um canal fosco
+  - [Imagick::getImageMatteColor](imagick.getimagemattecolor.md) - Retorna a cor fosca da imagem
+  - [Imagick::getImageMimeType](imagick.getimagemimetype.md) - Retorna o tipo de mídia da imagem
+  - [Imagick::getImageOrientation](imagick.getimageorientation.md) - Obtém a orientação da imagem
+  - [Imagick::getImagePage](imagick.getimagepage.md) - Retorna a geometria da página
+  - [Imagick::getImagePixelColor](imagick.getimagepixelcolor.md) - Retorna a cor do pixel especificado
+  - [Imagick::getImageProfile](imagick.getimageprofile.md) - Retorna o perfil nomeado de imagem
+  - [Imagick::getImageProfiles](imagick.getimageprofiles.md) - Retorna os perfis de imagem
+  - [Imagick::getImageProperties](imagick.getimageproperties.md) - Retorna as propriedades da imagem
+  - [Imagick::getImageProperty](imagick.getimageproperty.md) - Retorna a propriedade nomeada da imagem
+  - [Imagick::getImageRedPrimary](imagick.getimageredprimary.md) - Retorna o ponto primário vermelho da cromaticidade
+  - [Imagick::getImageRegion](imagick.getimageregion.md) - Extrai uma região da imagem
+  - [Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md) - Obtém a intenção de renderização da imagem
+  - [Imagick::getImageResolution](imagick.getimageresolution.md) - Obtém a resolução X e Y da imagem
+  - [Imagick::getImagesBlob](imagick.getimagesblob.md) - Retorna todas as sequências de imagens como um BLOB
+  - [Imagick::getImageScene](imagick.getimagescene.md) - Obtém a cena da imagem
+  - [Imagick::getImageSignature](imagick.getimagesignature.md) - Gera um resumo da mensagem SHA-256
+  - [Imagick::getImageSize](imagick.getimagesize.md) - Retorna o comprimento da imagem em bytes
+  - [Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md) - Obtém os tiques por segundo da imagem
+  - [Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md) - Obtém a densidade total de tinta da imagem
+  - [Imagick::getImageType](imagick.getimagetype.md) - Obtém o tipo potencial da imagem
+  - [Imagick::getImageUnits](imagick.getimageunits.md) - Obtém as unidades de resolução da imagem
+  - [Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md) - Retorna o método do pixel virtual
+  - [Imagick::getImageWhitePoint](imagick.getimagewhitepoint.md) - Retorna o ponto branco da cromaticidade
+  - [Imagick::getImageWidth](imagick.getimagewidth.md) - Retorna a largura da imagem
+  - [Imagick::getInterlaceScheme](imagick.getinterlacescheme.md) - Obtém o esquema de entrelaçamento do objeto
+  - [Imagick::getIteratorIndex](imagick.getiteratorindex.md) - Obtém o índice da imagem ativa atual
+  - [Imagick::getNumberImages](imagick.getnumberimages.md) - Retorna o número de imagens no objeto
+  - [Imagick::getOption](imagick.getoption.md) - Retorna um valor associado à chave especificada
+  - [Imagick::getPackageName](imagick.getpackagename.md) - Retorna o nome do pacote ImageMagick
+  - [Imagick::getPage](imagick.getpage.md) - Retorna a geometria da página
+  - [Imagick::getPixelIterator](imagick.getpixeliterator.md) - Retorna um MagickPixelIterator
+  - [Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md) - Obtém um ImagickPixelIterator para uma seção de imagem
+  - [Imagick::getPointSize](imagick.getpointsize.md) - Obtém o tamanho do ponto
+  - [Imagick::getQuantum](imagick.getquantum.md) - Retorna o intervalo Quantum do Imagick
+  - [Imagick::getQuantumDepth](imagick.getquantumdepth.md) - Obtém a profundidade Quantum
+  - [Imagick::getQuantumRange](imagick.getquantumrange.md) - Retorna o intervalo Quantum do Imagick
+  - [Imagick::getRegistry](imagick.getregistry.md) - Obtém uma entrada StringRegistry
+  - [Imagick::getReleaseDate](imagick.getreleasedate.md) - Retorna a data da versão do ImageMagick
+  - [Imagick::getResource](imagick.getresource.md) - Retorna o uso de memória do recurso especificado
+  - [Imagick::getResourceLimit](imagick.getresourcelimit.md) - Retorna o limite de recursos especificado
+  - [Imagick::getSamplingFactors](imagick.getsamplingfactors.md) - Obtém o fator de amostragem horizontal e vertical
+  - [Imagick::getSize](imagick.getsize.md) - Retorna o tamanho associado ao objeto Imagick
+  - [Imagick::getSizeOffset](imagick.getsizeoffset.md) - Retorna o deslocamento de tamanho
+  - [Imagick::getVersion](imagick.getversion.md) - Retorna a versão da API ImageMagick
+  - [Imagick::haldClutImage](imagick.haldclutimage.md) - Substitui cores na imagem
+  - [Imagick::hasNextImage](imagick.hasnextimage.md) - Verifica se o objeto possui mais imagens
+  - [Imagick::hasPreviousImage](imagick.haspreviousimage.md) - Verifica se o objeto possui uma imagem anterior
+  - [Imagick::identifyFormat](imagick.identifyformat.md) - Formata uma string com detalhes da imagem
+  - [Imagick::identifyImage](imagick.identifyimage.md) - Identifica uma imagem e busca atributos
+  - [Imagick::implodeImage](imagick.implodeimage.md) - Cria uma nova imagem como cópia
+  - [Imagick::importImagePixels](imagick.importimagepixels.md) - Importa pixels de imagem
+  - [Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md) - Implementa a transformada discreta inversa de Fourier (DFT)
+  - [Imagick::labelImage](imagick.labelimage.md) - Adiciona um rótulo a uma imagem
+  - [Imagick::levelImage](imagick.levelimage.md) - Ajusta os níveis de uma imagem
+  - [Imagick::linearStretchImage](imagick.linearstretchimage.md) - Estica com saturação a intensidade da imagem
+  - [Imagick::liquidRescaleImage](imagick.liquidrescaleimage.md) - Anima uma imagem ou imagens
+  - [Imagick::listRegistry](imagick.listregistry.md) - Lista todas as configurações do registro
+  - [Imagick::magnifyImage](imagick.magnifyimage.md) - Dimensiona uma imagem proporcionalmente 2x
+  - [Imagick::mapImage](imagick.mapimage.md) - Substitui as cores de uma imagem pela cor mais próxima de uma imagem de referência
+  - [Imagick::matteFloodfillImage](imagick.mattefloodfillimage.md) - Altera o valor de transparência de uma cor
+  - [Imagick::medianFilterImage](imagick.medianfilterimage.md) - Aplica um filtro digital
+  - [Imagick::mergeImageLayers](imagick.mergeimagelayers.md) - Mescla camadas de imagem
+  - [Imagick::minifyImage](imagick.minifyimage.md) - Dimensiona uma imagem proporcionalmente à metade do seu tamanho
+  - [Imagick::modulateImage](imagick.modulateimage.md) - Controle brilho, saturação e matiz
+  - [Imagick::montageImage](imagick.montageimage.md) - Cria uma imagem composta
+  - [Imagick::morphImages](imagick.morphimages.md) - Transforma um conjunto de imagens
+  - [Imagick::morphology](imagick.morphology.md) - Aplica um kernel fornecido pelo usuário à imagem de acordo com o método de morfologia fornecido
+  - [Imagick::mosaicImages](imagick.mosaicimages.md) - Forma um mosaico a partir de imagens
+  - [Imagick::motionBlurImage](imagick.motionblurimage.md) - Simula desfoque de movimento
+  - [Imagick::negateImage](imagick.negateimage.md) - Negativa as cores na imagem de referência
+  - [Imagick::newImage](imagick.newimage.md) - Cria uma nova imagem
+  - [Imagick::newPseudoImage](imagick.newpseudoimage.md) - Cria uma nova imagem
+  - [Imagick::nextImage](imagick.nextimage.md) - Passa para a próxima imagem
+  - [Imagick::normalizeImage](imagick.normalizeimage.md) - Melhora o contraste de uma imagem colorida
+  - [Imagick::oilPaintImage](imagick.oilpaintimage.md) - Simula uma pintura a óleo
+  - [Imagick::opaquePaintImage](imagick.opaquepaintimage.md) - Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md) - Remove partes repetidas de imagens para otimizar
+  - [Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.md) - Executa um pontilhamento ordenado
+  - [Imagick::paintFloodfillImage](imagick.paintfloodfillimage.md) - Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::paintOpaqueImage](imagick.paintopaqueimage.md) - Altera qualquer pixel que corresponda à cor
+  - [Imagick::paintTransparentImage](imagick.painttransparentimage.md) - Altera qualquer pixel que corresponda à cor definida pelo preenchimento
+  - [Imagick::pingImage](imagick.pingimage.md) - Busca atributos básicos sobre a imagem
+  - [Imagick::pingImageBlob](imagick.pingimageblob.md) - Busca atributos rapidamente
+  - [Imagick::pingImageFile](imagick.pingimagefile.md) - Obtém atributos básicos de imagem de maneira leve
+  - [Imagick::polaroidImage](imagick.polaroidimage.md) - Simula uma imagem Polaroid
+  - [Imagick::posterizeImage](imagick.posterizeimage.md) - Reduz a imagem a um número limitado de níveis de cor
+  - [Imagick::previewImages](imagick.previewimages.md) - Identifica rapidamente os parâmetros apropriados para processamento de imagem
+  - [Imagick::previousImage](imagick.previousimage.md) - Passa para a imagem anterior no objeto
+  - [Imagick::profileImage](imagick.profileimage.md) - Adiciona ou remove um perfil de uma imagem
+  - [Imagick::quantizeImage](imagick.quantizeimage.md) - Analisa as cores dentro de uma imagem de referência
+  - [Imagick::quantizeImages](imagick.quantizeimages.md) - Analisa as cores dentro de uma sequência de imagens
+  - [Imagick::queryFontMetrics](imagick.queryfontmetrics.md) - Retorna um array representando as métricas da fonte
+  - [Imagick::queryFonts](imagick.queryfonts.md) - Retorna as fontes configuradas
+  - [Imagick::queryFormats](imagick.queryformats.md) - Retorna formatos suportados pelo Imagick
+  - [Imagick::radialBlurImage](imagick.radialblurimage.md) - Desfoca uma imagem de forma radial
+  - [Imagick::raiseImage](imagick.raiseimage.md) - Cria um efeito simulado de botão 3D
+  - [Imagick::randomThresholdImage](imagick.randomthresholdimage.md) - Cria uma imagem de alto contraste e duas cores
+  - [Imagick::readImage](imagick.readimage.md) - Lê imagem de um arquivo
+  - [Imagick::readImageBlob](imagick.readimageblob.md) - Lê imagem de uma string binária
+  - [Imagick::readImageFile](imagick.readimagefile.md) - Lê imagem a partir de um descritor de arquivo
+  - [Imagick::readimages](imagick.readimages.md) - Lê imagens de um array de arquivos
+  - [Imagick::recolorImage](imagick.recolorimage.md) - Recolore imagem
+  - [Imagick::reduceNoiseImage](imagick.reducenoiseimage.md) - Suaviza os contornos de uma imagem
+  - [Imagick::remapImage](imagick.remapimage.md) - Remapeia as cores da imagem
+  - [Imagick::removeImage](imagick.removeimage.md) - Remove uma imagem da lista de imagens
+  - [Imagick::removeImageProfile](imagick.removeimageprofile.md) - Remove o perfil de imagem nomeado e o retorna
+  - [Imagick::render](imagick.render.md) - Renderiza todos os comandos de desenho anteriores
+  - [Imagick::resampleImage](imagick.resampleimage.md) - Reamostra imagem para a resolução desejada
+  - [Imagick::resetImagePage](imagick.resetimagepage.md) - Redefine página de imagem
+  - [Imagick::resizeImage](imagick.resizeimage.md) - Dimensiona uma imagem
+  - [Imagick::rollImage](imagick.rollimage.md) - Desloca uma imagem
+  - [Imagick::rotateImage](imagick.rotateimage.md) - Rotaciona uma imagem
+  - [Imagick::rotationalBlurImage](imagick.rotationalblurimage.md) - Desfoca uma imagem de forma rotacional
+  - [Imagick::roundCorners](imagick.roundcorners.md) - Arredonda os cantos da imagem
+  - [Imagick::sampleImage](imagick.sampleimage.md) - Dimensiona uma imagem com amostragem de pixels
+  - [Imagick::scaleImage](imagick.scaleimage.md) - Dimensiona o tamanho de uma imagem
+  - [Imagick::segmentImage](imagick.segmentimage.md) - Segmenta uma imagem
+  - [Imagick::selectiveBlurImage](imagick.selectiveblurimage.md) - Desfocar seletivamente uma imagem dentro de um limite de contraste
+  - [Imagick::separateImageChannel](imagick.separateimagechannel.md) - Separa um canal da imagem
+  - [Imagick::sepiaToneImage](imagick.sepiatoneimage.md) - Aplica tons de sépia em uma imagem
+  - [Imagick::setBackgroundColor](imagick.setbackgroundcolor.md) - Define a cor de fundo padrão do objeto
+  - [Imagick::setColorspace](imagick.setcolorspace.md) - Define espaço de cores
+  - [Imagick::setCompression](imagick.setcompression.md) - Define o tipo de compactação padrão do objeto
+  - [Imagick::setCompressionQuality](imagick.setcompressionquality.md) - Define a qualidade de compactação padrão do objeto
+  - [Imagick::setFilename](imagick.setfilename.md) - Define o nome do arquivo antes de ler ou gravar a imagem
+  - [Imagick::setFirstIterator](imagick.setfirstiterator.md) - Define o iterador Imagick para a primeira imagem
+  - [Imagick::setFont](imagick.setfont.md) - Define a fonte
+  - [Imagick::setFormat](imagick.setformat.md) - Define o formato do objeto Imagick
+  - [Imagick::setGravity](imagick.setgravity.md) - Define a gravidade
+  - [Imagick::setImage](imagick.setimage.md) - Substitui imagem no objeto
+  - [Imagick::setImageAlphaChannel](imagick.setimagealphachannel.md) - Define o canal alfa da imagem
+  - [Imagick::setImageArtifact](imagick.setimageartifact.md) - Definir artefato de imagem
+  - [Imagick::setImageAttribute](imagick.setimageattribute.md) - Define um atributo de imagem
+  - [Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md) - Define a cor de fundo da imagem
+  - [Imagick::setImageBias](imagick.setimagebias.md) - Define o ajuste (bias) da imagem para qualquer método que faça convolução em uma imagem
+  - [Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.md) - Define o ajuste (bias) da imagem
+  - [Imagick::setImageBluePrimary](imagick.setimageblueprimary.md) - Define o ponto primário azul da cromaticidade da imagem
+  - [Imagick::setImageBorderColor](imagick.setimagebordercolor.md) - Define a cor da borda da imagem
+  - [Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md) - Define a profundidade de um canal de imagem específico
+  - [Imagick::setImageClipMask](imagick.setimageclipmask.md) - Define a máscara de recorte da imagem
+  - [Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md) - Define a cor do índice do mapa de cores especificado
+  - [Imagick::setImageColorspace](imagick.setimagecolorspace.md) - Define o espaço de cores da imagem
+  - [Imagick::setImageCompose](imagick.setimagecompose.md) - Define o operador de composição de imagem
+  - [Imagick::setImageCompression](imagick.setimagecompression.md) - Define a compactação da imagem
+  - [Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.md) - Define a qualidade de compactação da imagem
+  - [Imagick::setImageDelay](imagick.setimagedelay.md) - Define o atraso da imagem
+  - [Imagick::setImageDepth](imagick.setimagedepth.md) - Define a profundidade da imagem
+  - [Imagick::setImageDispose](imagick.setimagedispose.md) - Define o método de descarte de imagem
+  - [Imagick::setImageExtent](imagick.setimageextent.md) - Define o tamanho da imagem
+  - [Imagick::setImageFilename](imagick.setimagefilename.md) - Define o nome do arquivo de uma imagem específica
+  - [Imagick::setImageFormat](imagick.setimageformat.md) - Define o formato de uma imagem específica
+  - [Imagick::setImageGamma](imagick.setimagegamma.md) - Define o gama da imagem
+  - [Imagick::setImageGravity](imagick.setimagegravity.md) - Define a gravidade da imagem
+  - [Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.md) - Define o ponto primário verde da cromaticidade da imagem
+  - [Imagick::setImageIndex](imagick.setimageindex.md) - Define a posição do iterador
+  - [Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md) - Define a compactação da imagem
+  - [Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md) - Define o método de interpolação de pixel da imagem.
+  - [Imagick::setImageIterations](imagick.setimageiterations.md) - Define as iterações da imagem
+  - [Imagick::setImageMatte](imagick.setimagematte.md) - Define o canal fosco da imagem
+  - [Imagick::setImageMatteColor](imagick.setimagemattecolor.md) - Define a cor fosca da imagem
+  - [Imagick::setImageOpacity](imagick.setimageopacity.md) - Define o nível de opacidade da imagem
+  - [Imagick::setImageOrientation](imagick.setimageorientation.md) - Define a orientação da imagem
+  - [Imagick::setImagePage](imagick.setimagepage.md) - Define a geometria da página da imagem
+  - [Imagick::setImageProfile](imagick.setimageprofile.md) - Adiciona um perfil nomeado ao objeto Imagick
+  - [Imagick::setImageProperty](imagick.setimageproperty.md) - Define uma propriedade de imagem
+  - [Imagick::setImageRedPrimary](imagick.setimageredprimary.md) - Define o ponto primário vermelho da cromaticidade da imagem
+  - [Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md) - Define a intenção de renderização da imagem
+  - [Imagick::setImageResolution](imagick.setimageresolution.md) - Define a resolução da imagem
+  - [Imagick::setImageScene](imagick.setimagescene.md) - Define a cena da imagem
+  - [Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.md) - Define os tiques por segundo da imagem
+  - [Imagick::setImageType](imagick.setimagetype.md) - Define o tipo de imagem
+  - [Imagick::setImageUnits](imagick.setimageunits.md) - Define as unidades de resolução da imagem
+  - [Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md) - Define o método de pixel virtual da imagem
+  - [Imagick::setImageWhitePoint](imagick.setimagewhitepoint.md) - Define o ponto branco da cromaticidade da imagem
+  - [Imagick::setInterlaceScheme](imagick.setinterlacescheme.md) - Define o esquema de entrelaçamento da imagem
+  - [Imagick::setIteratorIndex](imagick.setiteratorindex.md) - Define a posição do iterador
+  - [Imagick::setLastIterator](imagick.setlastiterator.md) - Define o iterador Imagick para a última imagem
+  - [Imagick::setOption](imagick.setoption.md) - Define uma opção
+  - [Imagick::setPage](imagick.setpage.md) - Define a geometria da página do objeto Imagick
+  - [Imagick::setPointSize](imagick.setpointsize.md) - Define o tamanho em pontos
+  - [Imagick::setProgressMonitor](imagick.setprogressmonitor.md) - Define uma função de retorno a ser chamada durante o processamento
+  - [Imagick::setRegistry](imagick.setregistry.md) - Define a chave nomeada do registro do ImageMagick para um valor
+  - [Imagick::setResolution](imagick.setresolution.md) - Define a resolução da imagem
+  - [Imagick::setResourceLimit](imagick.setresourcelimit.md) - Define o limite para um recurso específico
+  - [Imagick::setSamplingFactors](imagick.setsamplingfactors.md) - Define os fatores de amostragem da imagem
+  - [Imagick::setSize](imagick.setsize.md) - Define o tamanho do objeto Imagick
+  - [Imagick::setSizeOffset](imagick.setsizeoffset.md) - Define o tamanho e o deslocamento do objeto Imagick
+  - [Imagick::setType](imagick.settype.md) - Define o atributo de tipo de imagem
+  - [Imagick::shadeImage](imagick.shadeimage.md) - Cria um efeito 3D
+  - [Imagick::shadowImage](imagick.shadowimage.md) - Simula uma sombra de imagem
+  - [Imagick::sharpenImage](imagick.sharpenimage.md) - Torna uma imagem mais nítida
+  - [Imagick::shaveImage](imagick.shaveimage.md) - Raspa pixels das bordas da imagem
+  - [Imagick::shearImage](imagick.shearimage.md) - Cria um paralelogramo
+  - [Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md) - Ajusta o contraste de uma imagem
+  - [Imagick::sketchImage](imagick.sketchimage.md) - Simula um esboço a lápis
+  - [Imagick::smushImages](imagick.smushimages.md) - Agrupa todas as imagens do ponteiro da imagem atual até o final da lista de imagens
+  - [Imagick::solarizeImage](imagick.solarizeimage.md) - Aplica um efeito solarizante à imagem
+  - [Imagick::sparseColorImage](imagick.sparsecolorimage.md) - Interpola cores
+  - [Imagick::spliceImage](imagick.spliceimage.md) - Une uma cor sólida na imagem
+  - [Imagick::spreadImage](imagick.spreadimage.md) - Desloca aleatoriamente cada pixel em um bloco
+  - [Imagick::statisticImage](imagick.statisticimage.md) - Modifica a imagem usando uma função estatística
+  - [Imagick::steganoImage](imagick.steganoimage.md) - Oculta uma marca d'água digital na imagem
+  - [Imagick::stereoImage](imagick.stereoimage.md) - Compõe duas imagens
+  - [Imagick::stripImage](imagick.stripimage.md) - Remove todos os perfis e comentários de uma imagem
+  - [Imagick::subImageMatch](imagick.subimagematch.md) - Procura uma subimagem na imagem atual e retorna uma imagem semelhante
+  - [Imagick::swirlImage](imagick.swirlimage.md) - Gira os pixels em torno do centro da imagem
+  - [Imagick::textureImage](imagick.textureimage.md) - Ladrilha repetidamente a imagem da textura
+  - [Imagick::thresholdImage](imagick.thresholdimage.md) - Altera o valor de pixels individuais com base em um limite
+  - [Imagick::thumbnailImage](imagick.thumbnailimage.md) - Altera o tamanho de uma imagem
+  - [Imagick::tintImage](imagick.tintimage.md) - Aplica um vetor de cores a cada pixel da imagem
+  - [Imagick::transformImage](imagick.transformimage.md) - Método conveniente para definir o tamanho do corte e a geometria da imagem
+  - [Imagick::transformImageColorspace](imagick.transformimagecolorspace.md) - Transforma uma imagem em um novo espaço de cores
+  - [Imagick::transparentPaintImage](imagick.transparentpaintimage.md) - Pinta pixels com a cor transparente
+  - [Imagick::transposeImage](imagick.transposeimage.md) - Cria uma imagem espelhada vertical
+  - [Imagick::transverseImage](imagick.transverseimage.md) - Cria uma imagem espelhada horizontal
+  - [Imagick::trimImage](imagick.trimimage.md) - Apara as bordas da imagem
+  - [Imagick::uniqueImageColors](imagick.uniqueimagecolors.md) - Descarta todas, exceto uma, de qualquer cor de pixel
+  - [Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md) - Torna uma imagem mais nítida
+  - [Imagick::valid](imagick.valid.md) - Verifica se o item atual é válido
+  - [Imagick::vignetteImage](imagick.vignetteimage.md) - Adiciona filtro de vinheta à imagem
+  - [Imagick::waveImage](imagick.waveimage.md) - Aplica filtro de onda à imagem
+  - [Imagick::whiteThresholdImage](imagick.whitethresholdimage.md) - Força todos os pixels acima de um limite para branco
+  - [Imagick::writeImage](imagick.writeimage.md) - Grava uma imagem no nome de arquivo especificado
+  - [Imagick::writeImageFile](imagick.writeimagefile.md) - Grava uma imagem em um descritor de arquivo
+  - [Imagick::writeImages](imagick.writeimages.md) - Grava uma imagem ou sequência de imagens
+  - [Imagick::writeImagesFile](imagick.writeimagesfile.md) - Grava quadros em um descritor de arquivo
+  - [Imagick::\_\_construct](imagick.construct.md) - O construtor Imagick
+  - [Imagick::\_\_toString](imagick.tostring.md) - Retorna a imagem como uma string
+  - [ImagickDraw::affine](imagickdraw.affine.md) - Ajusta a matriz de transformação afim atual
+  - [ImagickDraw::annotation](imagickdraw.annotation.md) - Desenha texto na imagem
+  - [ImagickDraw::arc](imagickdraw.arc.md) - Desenha um arco
+  - [ImagickDraw::bezier](imagickdraw.bezier.md) - Desenha uma curva de Bézier
+  - [ImagickDraw::circle](imagickdraw.circle.md) - Desenha um círculo
+  - [ImagickDraw::clear](imagickdraw.clear.md) - Limpa o ImagickDraw
+  - [ImagickDraw::clone](imagickdraw.clone.md) - Faz uma cópia exata do objeto ImagickDraw especificado
+  - [ImagickDraw::color](imagickdraw.color.md) - Desenha cores na imagem
+  - [ImagickDraw::comment](imagickdraw.comment.md) - Adiciona um comentário
+  - [ImagickDraw::composite](imagickdraw.composite.md) - Compõe uma imagem sobre a imagem atual
+  - [ImagickDraw::destroy](imagickdraw.destroy.md) - Libera todos os recursos associados
+  - [ImagickDraw::ellipse](imagickdraw.ellipse.md) - Desenha uma elipse na imagem
+  - [ImagickDraw::getClipPath](imagickdraw.getclippath.md) - Obtém o ID do caminho de recorte atual
+  - [ImagickDraw::getClipRule](imagickdraw.getcliprule.md) - Retorna a regra atual de preenchimento do polígono
+  - [ImagickDraw::getClipUnits](imagickdraw.getclipunits.md) - Retorna a interpretação das unidades de caminho de recorte
+  - [ImagickDraw::getFillColor](imagickdraw.getfillcolor.md) - Retorna a cor de preenchimento
+  - [ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.md) - Retorna a opacidade usada ao desenhar
+  - [ImagickDraw::getFillRule](imagickdraw.getfillrule.md) - Retorna a regra de preenchimento
+  - [ImagickDraw::getFont](imagickdraw.getfont.md) - Retorna a fonte
+  - [ImagickDraw::getFontFamily](imagickdraw.getfontfamily.md) - Retorna a família de fontes
+  - [ImagickDraw::getFontSize](imagickdraw.getfontsize.md) - Retorna o tamanho da fonte em pontos
+  - [ImagickDraw::getFontStretch](imagickdraw.getfontstretch.md) - Obtém o esticamento de fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::getFontStyle](imagickdraw.getfontstyle.md) - Retorna o estilo da fonte
+  - [ImagickDraw::getFontWeight](imagickdraw.getfontweight.md) - Retorna a espessura da fonte
+  - [ImagickDraw::getGravity](imagickdraw.getgravity.md) - Retorna o alinhamento de posicionamento do texto
+  - [ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md) - Retorna a configuração atual de suavização do traço
+  - [ImagickDraw::getStrokeColor](imagickdraw.getstrokecolor.md) - Retorna a cor usada para traçar os contornos dos objetos
+  - [ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md) - Retorna um array que representa o padrão de traços e espaços usados ​​para traçar caminhos
+  - [ImagickDraw::getStrokeDashOffset](imagickdraw.getstrokedashoffset.md) - Retorna o deslocamento no padrão de traço para iniciar o traço
+  - [ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.md) - Retorna a forma a ser usada no final dos subcaminhos abertos quando eles são traçados
+  - [ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md) - Retorna a forma a ser usada nos cantos dos caminhos quando eles são traçados
+  - [ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md) - Retorna o limite de esquadria do traçado
+  - [ImagickDraw::getStrokeOpacity](imagickdraw.getstrokeopacity.md) - Retorna a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md) - Retorna a largura do traço usado para desenhar contornos de objetos
+  - [ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md) - Retorna o alinhamento do texto
+  - [ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.md) - Retorna a configuração atual de antialias do texto
+  - [ImagickDraw::getTextDecoration](imagickdraw.gettextdecoration.md) - Retorna a decoração do texto
+  - [ImagickDraw::getTextEncoding](imagickdraw.gettextencoding.md) - Retorna o conjunto de caracteres usado para anotações de texto
+  - [ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md) - Obtém o espaçamento entre linhas do texto
+  - [ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md) - Obtém o espaçamento entre palavras do texto
+  - [ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md) - Obtém o espaçamento entre letras do texto
+  - [ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md) - Retorna a cor sob o texto
+  - [ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md) - Retorna uma string contendo gráficos vetoriais
+  - [ImagickDraw::line](imagickdraw.line.md) - Desenha uma linha
+  - [ImagickDraw::matte](imagickdraw.matte.md) - Pinta no canal de opacidade da imagem
+  - [ImagickDraw::pathClose](imagickdraw.pathclose.md) - Adiciona um elemento de caminho ao caminho atual
+  - [ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md) - Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierAbsolute](imagickdraw.pathcurvetoquadraticbezierabsolute.md) - Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.md) - Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute](imagickdraw.pathcurvetoquadraticbeziersmoothabsolute.md) - Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md) - Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md) - Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md) - Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToSmoothRelative](imagickdraw.pathcurvetosmoothrelative.md) - Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md) - Desenha um arco elíptico
+  - [ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md) - Desenha um arco elíptico
+  - [ImagickDraw::pathFinish](imagickdraw.pathfinish.md) - Termina o caminho atual
+  - [ImagickDraw::pathLineToAbsolute](imagickdraw.pathlinetoabsolute.md) - Desenha um caminho de linha
+  - [ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.md) - Desenha um caminho de linha horizontal
+  - [ImagickDraw::pathLineToHorizontalRelative](imagickdraw.pathlinetohorizontalrelative.md) - Desenha um caminho de linha horizontal
+  - [ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.md) - Desenha um caminho de linha
+  - [ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md) - Desenha um caminho de linha vertical
+  - [ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.md) - Desenha um caminho de linha vertical
+  - [ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.md) - Inicia um novo subcaminho
+  - [ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.md) - Inicia um novo subcaminho
+  - [ImagickDraw::pathStart](imagickdraw.pathstart.md) - Declara o início de uma lista de desenho de caminho
+  - [ImagickDraw::point](imagickdraw.point.md) - Desenha um ponto
+  - [ImagickDraw::polygon](imagickdraw.polygon.md) - Desenha um polígono
+  - [ImagickDraw::polyline](imagickdraw.polyline.md) - Desenha uma polilinha
+  - [ImagickDraw::pop](imagickdraw.pop.md) - Destrói o ImagickDraw atual na pilha e retorna ao ImagickDraw enviado anteriormente
+  - [ImagickDraw::popClipPath](imagickdraw.popclippath.md) - Encerra uma definição de caminho de recorte
+  - [ImagickDraw::popDefs](imagickdraw.popdefs.md) - Encerra uma lista de definições
+  - [ImagickDraw::popPattern](imagickdraw.poppattern.md) - Encerra uma definição de padrão
+  - [ImagickDraw::push](imagickdraw.push.md) - Clona o ImagickDraw atual e o coloca na pilha
+  - [ImagickDraw::pushClipPath](imagickdraw.pushclippath.md) - Inicia uma definição de caminho de recorte
+  - [ImagickDraw::pushDefs](imagickdraw.pushdefs.md) - Indica que os comandos a seguir criam elementos nomeados para processamento antecipado
+  - [ImagickDraw::pushPattern](imagickdraw.pushpattern.md) - Indica que os comandos subsequentes até um comando ImagickDraw::opPattern() compreendem a definição de um padrão nomeado
+  - [ImagickDraw::rectangle](imagickdraw.rectangle.md) - Desenha um retângulo
+  - [ImagickDraw::render](imagickdraw.render.md) - Renderiza todos os comandos de desenho anteriores na imagem
+  - [ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md) - Redefine os gráficos vetoriais
+  - [ImagickDraw::rotate](imagickdraw.rotate.md) - Aplica a rotação especificada ao espaço de coordenadas atual
+  - [ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md) - Desenha um retângulo arredondado
+  - [ImagickDraw::scale](imagickdraw.scale.md) - Ajusta o fator de escala
+  - [ImagickDraw::setClipPath](imagickdraw.setclippath.md) - Associa um caminho de recorte nomeado à imagem
+  - [ImagickDraw::setClipRule](imagickdraw.setcliprule.md) - Define a regra de preenchimento do polígono a ser usada pelo traçado de recorte
+  - [ImagickDraw::setClipUnits](imagickdraw.setclipunits.md) - Define a interpretação das unidades do caminho de recorte
+  - [ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.md) - Define a opacidade a ser usada ao desenhar usando a cor ou textura de preenchimento
+  - [ImagickDraw::setFillColor](imagickdraw.setfillcolor.md) - Define a cor de preenchimento a ser usada para desenhar objetos preenchidos
+  - [ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.md) - Define a opacidade a ser usada ao desenhar usando a cor ou textura de preenchimento
+  - [ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md) - Define a URL a ser usada como padrão de preenchimento para preencher objetos
+  - [ImagickDraw::setFillRule](imagickdraw.setfillrule.md) - Define a regra de preenchimento a ser usada ao desenhar polígonos
+  - [ImagickDraw::setFont](imagickdraw.setfont.md) - Define a fonte totalmente especificada a ser usada ao fazer anotações com texto
+  - [ImagickDraw::setFontFamily](imagickdraw.setfontfamily.md) - Define a família de fontes a ser usada ao fazer anotações com texto
+  - [ImagickDraw::setFontSize](imagickdraw.setfontsize.md) - Define o tamanho da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md) - Define o esticamento da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontStyle](imagickdraw.setfontstyle.md) - Define o estilo da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontWeight](imagickdraw.setfontweight.md) - Define a espessura da fonte
+  - [ImagickDraw::setGravity](imagickdraw.setgravity.md) - Define a gravidade do posicionamento do texto
+  - [ImagickDraw::setResolution](imagickdraw.setresolution.md) - Define a resolução
+  - [ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.md) - Especifica a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md) - Controla se os contornos traçados são suavizados
+  - [ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.md) - Define a cor usada para traçar os contornos dos objetos
+  - [ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md) - Especifica o padrão de traços e espaços usados ​​para traçar caminhos
+  - [ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.md) - Especifica o deslocamento no padrão de traço para iniciar o traço
+  - [ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.md) - Especifica a forma a ser usada no final dos subcaminhos abertos quando eles são traçados
+  - [ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.md) - Especifica a forma a ser usada nos cantos dos caminhos quando eles são traçados
+  - [ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md) - Especifica o limite de esquadria
+  - [ImagickDraw::setStrokeOpacity](imagickdraw.setstrokeopacity.md) - Especifica a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.md) - Define o padrão usado para traçar contornos de objetos
+  - [ImagickDraw::setStrokeWidth](imagickdraw.setstrokewidth.md) - Define a largura do traço usado para desenhar contornos de objetos
+  - [ImagickDraw::setTextAlignment](imagickdraw.settextalignment.md) - Especifica um alinhamento de texto
+  - [ImagickDraw::setTextAntialias](imagickdraw.settextantialias.md) - Controla se o texto é suavizado
+  - [ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.md) - Especifica uma decoração
+  - [ImagickDraw::setTextEncoding](imagickdraw.settextencoding.md) - Especifica o conjunto de caracteres do texto
+  - [ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md) - Define o espaçamento entre linhas do texto
+  - [ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.md) - Define o espaçamento entre palavras do texto
+  - [ImagickDraw::setTextKerning](imagickdraw.settextkerning.md) - Define o espaçamento entre letras do texto
+  - [ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.md) - Especifica a cor de um retângulo de fundo
+  - [ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md) - Define os gráficos vetoriais
+  - [ImagickDraw::setViewbox](imagickdraw.setviewbox.md) - Define o tamanho geral da tela
+  - [ImagickDraw::skewX](imagickdraw.skewx.md) - Inclina o sistema de coordenadas atual na direção horizontal
+  - [ImagickDraw::skewY](imagickdraw.skewy.md) - Inclina o sistema de coordenadas atual na direção vertical
+  - [ImagickDraw::translate](imagickdraw.translate.md) - Aplica uma translação no sistema de coordenadas atual
+  - [ImagickDraw::\_\_construct](imagickdraw.construct.md) - O construtor ImagickDraw
+  - [ImagickKernel::addKernel](imagickkernel.addkernel.md) - Anexa outro kernel a uma lista de kernels
+  - [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md) - Adiciona um Kernel Unity à lista de kernels
+  - [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md) - Cria um kernel a partir de um kernel integrado
+  - [ImagickKernel::fromMatrix](imagickkernel.frommatrix.md) - Crie um kernel a partir de uma matriz 2D de valores
+  - [ImagickKernel::getMatrix](imagickkernel.getmatrix.md) - Obtém a matriz 2D de valores usada neste kernel
+  - [ImagickKernel::scale](imagickkernel.scale.md) - Dimensiona uma lista de kernel pela quantidade especificada
+  - [ImagickKernel::separate](imagickkernel.separate.md) - Separa um conjunto vinculado de kernels e retorna um array de ImagickKernels
+  - [ImagickPixel::clear](imagickpixel.clear.md) - Limpa recursos associados a este objeto
+  - [ImagickPixel::destroy](imagickpixel.destroy.md) - Desaloca recursos associados a este objeto
+  - [ImagickPixel::getColor](imagickpixel.getcolor.md) - Retorna a cor
+  - [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.md) - Retorna a cor como uma string
+  - [ImagickPixel::getColorCount](imagickpixel.getcolorcount.md) - Retorna a contagem de cores associada a esta cor
+  - [ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.md) - Retorna a cor do pixel em um array como valores Quantum
+  - [ImagickPixel::getColorValue](imagickpixel.getcolorvalue.md) - Obtém o valor normalizado do canal de cores fornecido
+  - [ImagickPixel::getColorValueQuantum](imagickpixel.getcolorvaluequantum.md) - Obtém o valor Quantum de uma cor no ImagickPixel
+  - [ImagickPixel::getHSL](imagickpixel.gethsl.md) - Retorna a cor HSL normalizada do objeto ImagickPixel
+  - [ImagickPixel::getIndex](imagickpixel.getindex.md) - Obtém o índice do mapa de cores da varinha de pixel
+  - [ImagickPixel::isPixelSimilar](imagickpixel.ispixelsimilar.md) - Verifica a distância entre esta cor e uma outra
+  - [ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md) - Retorna se duas cores diferem em menos que a distância especificada
+  - [ImagickPixel::isSimilar](imagickpixel.issimilar.md) - Verifica a distância entre esta cor e uma outra
+  - [ImagickPixel::setColor](imagickpixel.setcolor.md) - Define a cor
+  - [ImagickPixel::setColorCount](imagickpixel.setcolorcount.md) - Define a contagem de cores associada a esta cor
+  - [ImagickPixel::setColorValue](imagickpixel.setcolorvalue.md) - Define o valor normalizado de um dos canais
+  - [ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.md) - Define o valor Quantum de um elemento de cor do ImagickPixel
+  - [ImagickPixel::setHSL](imagickpixel.sethsl.md) - Define a cor HSL normalizada
+  - [ImagickPixel::setIndex](imagickpixel.setindex.md) - Define o índice do mapa de cores da varinha de pixel
+  - [ImagickPixel::\_\_construct](imagickpixel.construct.md) - O construtor de ImagickPixel
+  - [ImagickPixelIterator::clear](imagickpixeliterator.clear.md) - Limpa recursos associados a um PixelIterator
+  - [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.md) - Desaloca recursos associados a um PixelIterator
+  - [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.md) - Retorna a linha atual de objetos ImagickPixel
+  - [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.md) - Retorna a linha atual do iterador de pixel
+  - [ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.md) - Retorna a próxima linha do iterador de pixel
+  - [ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md) - Retorna a linha anterior
+  - [ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.md) - Retorna um novo iterador de pixel
+  - [ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.md) - Retorna um novo iterador de pixel
+  - [ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md) - Redefine o iterador de pixel
+  - [ImagickPixelIterator::setIteratorFirstRow](imagickpixeliterator.setiteratorfirstrow.md) - Define o iterador de pixels para a primeira linha de pixels
+  - [ImagickPixelIterator::setIteratorLastRow](imagickpixeliterator.setiteratorlastrow.md) - Define o iterador de pixels para a última linha de pixels
+  - [ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md) - Define a linha do iterador de pixel
+  - [ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md) - Sincroniza o iterador de pixel
+  - [ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.md) - O construtor de ImagickPixelIterator
+  - [imap\_8bit](function.imap-8bit.md) - Converte uma string de 8 bits em uma string imprimível escapada
+  - [imap\_alerts](function.imap-alerts.md) - Retorna todas as mensagens de alerta IMAP que ocorreram
+  - [imap\_append](function.imap-append.md) - Acrescenta uma mensagem de string a uma caixa de correio especificada
+  - [imap\_base64](function.imap-base64.md) - Decodifica texto codificado em BASE64
+  - [imap\_binary](function.imap-binary.md) - Converte uma string de 8 bits em uma string base64
+  - [imap\_body](function.imap-body.md) - Lê o corpo da mensagem
+  - [imap\_bodystruct](function.imap-bodystruct.md) - Lê a estrutura de uma seção específica do corpo de uma mensagem específica
+  - [imap\_check](function.imap-check.md) - Verifica a caixa de correio atual
+  - [imap\_clearflag\_full](function.imap-clearflag-full.md) - Limpa sinalizadores em mensagens
+  - [imap\_close](function.imap-close.md) - Fecha um fluxo IMAP
+  - [imap\_create](function.imap-create.md) - Sinônimo de imap\_createmailbox
+  - [imap\_createmailbox](function.imap-createmailbox.md) - Cria uma nova caixa de correio
+  - [imap\_delete](function.imap-delete.md) - Marca uma mensagem para exclusão da caixa de correio atual
+  - [imap\_deletemailbox](function.imap-deletemailbox.md) - Exclui uma caixa de correio
+  - [imap\_errors](function.imap-errors.md) - Retorna todos os erros IMAP que ocorreram
+  - [imap\_expunge](function.imap-expunge.md) - Exclui todas as mensagens marcadas para exclusão
+  - [imap\_fetchbody](function.imap-fetchbody.md) - Busca uma seção específica do corpo da mensagem
+  - [imap\_fetchheader](function.imap-fetchheader.md) - Retorna o cabeçalho de uma mensagem
+  - [imap\_fetchmime](function.imap-fetchmime.md) - Busca cabeçalhos MIME para uma seção específica da mensagem
+  - [imap\_fetchstructure](function.imap-fetchstructure.md) - Lê a estrutura de uma mensagem específica
+  - [imap\_fetchtext](function.imap-fetchtext.md) - Sinônimo de imap\_body
+  - [imap\_fetch\_overview](function.imap-fetch-overview.md) - Lê uma visão geral das informações nos cabeçalhos da mensagem fornecida
+  - [imap\_gc](function.imap-gc.md) - Limpa o cache IMAP
+  - [imap\_getacl](function.imap-getacl.md) - Obtém a ACL para uma determinada caixa de correio
+  - [imap\_getmailboxes](function.imap-getmailboxes.md) - Lê a lista de caixas de correio, retornando informações detalhadas sobre cada uma delas
+  - [imap\_getsubscribed](function.imap-getsubscribed.md) - Lista todas as caixas de correio assinadas
+  - [imap\_get\_quota](function.imap-get-quota.md) - Recupera as configurações de nível de cota e estatísticas de uso por caixa de correio
+  - [imap\_get\_quotaroot](function.imap-get-quotaroot.md) - Recupera as configurações de cota por usuário
+  - [imap\_header](function.imap-header.md) - Sinônimo de imap\_headerinfo
+  - [imap\_headerinfo](function.imap-headerinfo.md) - Lê o cabeçalho da mensagem
+  - [imap\_headers](function.imap-headers.md) - Retorna cabeçalhos para todas as mensagens em uma caixa de correio
+  - [imap\_is\_open](function.imap-is-open.md) - Verifica se o fluxo IMAP ainda é válido
+  - [imap\_last\_error](function.imap-last-error.md) - Obtém o último erro IMAP que ocorreu durante esta solicitação de página
+  - [imap\_list](function.imap-list.md) - Lê a lista de caixas de correio
+  - [imap\_listmailbox](function.imap-listmailbox.md) - Sinônimo de imap\_list
+  - [imap\_listscan](function.imap-listscan.md) - Retorna a lista de caixas de correio que correspondem ao texto fornecido
+  - [imap\_listsubscribed](function.imap-listsubscribed.md) - Sinônimo de imap\_lsub
+  - [imap\_lsub](function.imap-lsub.md) - Lista todas as caixas de correio assinadas
+  - [imap\_mail](function.imap-mail.md) - Envia uma mensagem de e-mail
+  - [imap\_mailboxmsginfo](function.imap-mailboxmsginfo.md) - Obtém informações sobre a caixa de correio atual
+  - [imap\_mail\_compose](function.imap-mail-compose.md) - Cria uma mensagem MIME com base nas seções de envelope e corpo fornecidas
+  - [imap\_mail\_copy](function.imap-mail-copy.md) - Copia mensagens especificadas para uma caixa de correio
+  - [imap\_mail\_move](function.imap-mail-move.md) - Move mensagens especificadas para uma caixa de correio
+  - [imap\_mime\_header\_decode](function.imap-mime-header-decode.md) - Decodifica elementos do cabeçalho MIME
+  - [imap\_msgno](function.imap-msgno.md) - Obtém o número da sequência da mensagem para o UID fornecido
+  - [imap\_mutf7\_to\_utf8](function.imap-mutf7-to-utf8.md) - Decodifica uma string UTF-7 modificada para UTF-8
+  - [imap\_num\_msg](function.imap-num-msg.md) - Obtém o número de mensagens na caixa de correio atual
+  - [imap\_num\_recent](function.imap-num-recent.md) - Obtém o número de mensagens recentes na caixa de correio atual
+  - [imap\_open](function.imap-open.md) - Abre um fluxo IMAP para uma caixa de correio
+  - [imap\_ping](function.imap-ping.md) - Verifica se o fluxo IMAP ainda está ativo
+  - [imap\_qprint](function.imap-qprint.md) - Converte uma string imprimível escapada em uma string de 8 bits
+  - [imap\_rename](function.imap-rename.md) - Sinônimo de imap\_renamemailbox
+  - [imap\_renamemailbox](function.imap-renamemailbox.md) - Renomeia uma caixa de correio antiga para uma nova caixa de correio
+  - [imap\_reopen](function.imap-reopen.md) - Reabre o fluxo IMAP para uma nova caixa de correio
+  - [imap\_rfc822\_parse\_adrlist](function.imap-rfc822-parse-adrlist.md) - Analisa uma string de endereços
+  - [imap\_rfc822\_parse\_headers](function.imap-rfc822-parse-headers.md) - Analisa cabeçalhos de e-mail de uma string
+  - [imap\_rfc822\_write\_address](function.imap-rfc822-write-address.md) - Retorna um endereço de e-mail formatado corretamente, considerando a caixa de correio, o host e as informações pessoais
+  - [imap\_savebody](function.imap-savebody.md) - Salva uma seção específica do corpo em um arquivo
+  - [imap\_scan](function.imap-scan.md) - Sinônimo de imap\_listscan
+  - [imap\_scanmailbox](function.imap-scanmailbox.md) - Sinônimo de imap\_listscan
+  - [imap\_search](function.imap-search.md) - Esta função retorna um array de mensagens que correspondem aos critérios de pesquisa fornecidos
+  - [imap\_setacl](function.imap-setacl.md) - Define a ACL para uma determinada caixa de correio
+  - [imap\_setflag\_full](function.imap-setflag-full.md) - Define sinalizadores em mensagens
+  - [imap\_set\_quota](function.imap-set-quota.md) - Define uma cota para uma determinada caixa de correio
+  - [imap\_sort](function.imap-sort.md) - Obtém e classifica mensagens
+  - [imap\_status](function.imap-status.md) - Retorna informações de status sobre uma caixa de correio
+  - [imap\_subscribe](function.imap-subscribe.md) - Faz inscrição em uma caixa de correio
+  - [imap\_thread](function.imap-thread.md) - Retorna uma árvore de mensagens encadeadas
+  - [imap\_timeout](function.imap-timeout.md) - Define ou busca o tempo limite do imap
+  - [imap\_uid](function.imap-uid.md) - Retorna o UID para o número de sequência da mensagem fornecida
+  - [imap\_undelete](function.imap-undelete.md) - Desmarca a mensagem que está marcada como excluída
+  - [imap\_unsubscribe](function.imap-unsubscribe.md) - Cancela a inscrição em uma caixa de correio
+  - [imap\_utf7\_decode](function.imap-utf7-decode.md) - Decodifica uma string codificada em UTF-7 modificada
+  - [imap\_utf7\_encode](function.imap-utf7-encode.md) - Converte string ISO-8859-1 em texto UTF-7 modificado
+  - [imap\_utf8](function.imap-utf8.md) - Converte texto codificado em MIME para UTF-8
+  - [imap\_utf8\_to\_mutf7](function.imap-utf8-to-mutf7.md) - Codifica uma string UTF-8 para UTF-7 modificado
+  - [implode](function.implode.md) - Aglutina elementos de um array com uma string
+  - [inet\_ntop](function.inet-ntop.md) - Converte um endereço de Internet compactado em uma representação legível
+  - [inet\_pton](function.inet-pton.md) - Converte um endereço IP legível em sua representação de endereço de Internet compactado
+  - [InfiniteIterator::next](infiniteiterator.next.md) - Movimenta o Iterador Interno para frente ou rebobina
+  - [InfiniteIterator::\_\_construct](infiniteiterator.construct.md) - Constrói um InfiniteIterator
+  - [inflate\_add](function.inflate-add.md) - Descomprime incrementalmente dados codificados
+  - [inflate\_get\_read\_len](function.inflate-get-read-len.md) - Obtém o número de bytes lidos até o momento
+  - [inflate\_get\_status](function.inflate-get-status.md) - Obtém o status da descompressão
+  - [inflate\_init](function.inflate-init.md) - Inicializa um contexto de descompressão incremental
+  - [ini\_alter](function.ini-alter.md) - Sinônimo de ini\_set
+  - [ini\_get](function.ini-get.md) - Obtém o valor de uma opção de configuração
+  - [ini\_get\_all](function.ini-get-all.md) - Obtém todas as opções de configuração
+  - [ini\_parse\_quantity](function.ini-parse-quantity.md) - Obtém o tamanho interpretado da sintaxe abreviada do ini
+  - [ini\_restore](function.ini-restore.md) - Restaura o valor de uma opção de configuração
+  - [ini\_set](function.ini-set.md) - Define o valor de uma opção de configuração
+  - [inotify\_add\_watch](function.inotify-add-watch.md) - Adiciona um monitoramento a uma instância Inotify inicializada
+  - [inotify\_init](function.inotify-init.md) - Inicializa uma instância do Inotify
+  - [inotify\_queue\_len](function.inotify-queue-len.md) - Retorna um número maior que zero se houver eventos pendentes
+  - [inotify\_read](function.inotify-read.md) - Lê eventos de uma instância do Inotify
+  - [inotify\_rm\_watch](function.inotify-rm-watch.md) - Remove um monitoramento existente de uma instância do Inotify
+  - [intdiv](function.intdiv.md) - Divisão de inteiros
+  - [interface\_exists](function.interface-exists.md) - Verifica se a interface foi definida
+  - [InternalIterator::current](internaliterator.current.md) - Retorna o elemento atual
+  - [InternalIterator::key](internaliterator.key.md) - Retorna a chave do elemento atual
+  - [InternalIterator::next](internaliterator.next.md) - Move para o próximo elemento
+  - [InternalIterator::rewind](internaliterator.rewind.md) - Retrocede o Iterator para o primeiro elemento
+  - [InternalIterator::valid](internaliterator.valid.md) - Verifica se a posição atual é válida
+  - [InternalIterator::\_\_construct](internaliterator.construct.md) - Construtor privado para não permitir instanciação direta
+  - [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md) - Cria um iterador de quebra para limites de sequências de combinação de caracteres
+  - [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md) - Cria um iterador de quebra para limites de pontos de código
+  - [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.md) - Cria um iterador de quebra para quebras de linha logicamente possíveis
+  - [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md) - Cria um iterador de quebra para separação de sentenças
+  - [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md) - Cria um iterador para quebras de letras de título
+  - [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md) - Cria um iterador de quebra para separação de palavras
+  - [IntlBreakIterator::current](intlbreakiterator.current.md) - Obtém o índice da posição atual
+  - [IntlBreakIterator::first](intlbreakiterator.first.md) - Define a posição para o primeiro caractere no texto
+  - [IntlBreakIterator::following](intlbreakiterator.following.md) - Avança o iterador para o primeiro limite após o deslocamento especificado
+  - [IntlBreakIterator::getErrorCode](intlbreakiterator.geterrorcode.md) - Obtém o último código de erro no objeto
+  - [IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md) - Obtém a última mensagem de erro no objeto
+  - [IntlBreakIterator::getLocale](intlbreakiterator.getlocale.md) - Obtém a localidade associada com o objeto
+  - [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md) - Cria um iterador para navegar por fragmentos entre limites
+  - [IntlBreakIterator::getText](intlbreakiterator.gettext.md) - Obtém o texto sendo percorrido
+  - [IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.md) - Indica se uma posição é um posição de limite
+  - [IntlBreakIterator::last](intlbreakiterator.last.md) - Define a posição do iterador para um índice além do último caractere
+  - [IntlBreakIterator::next](intlbreakiterator.next.md) - Avança o iterador para o próximo limite
+  - [IntlBreakIterator::preceding](intlbreakiterator.preceding.md) - Define a posição do iterador para o primeiro limite depois de um deslocamento
+  - [IntlBreakIterator::previous](intlbreakiterator.previous.md) - Define a posição do iterador para o limite imediatamente anterior ao atual
+  - [IntlBreakIterator::setText](intlbreakiterator.settext.md) - Define o texto a ser percorrido
+  - [IntlBreakIterator::\_\_construct](intlbreakiterator.construct.md) - Construtor privado para não permitir instanciação
+  - [IntlCalendar::add](intlcalendar.add.md) - Adiciona uma quantidade de tempo (com sinal) a um campo
+  - [IntlCalendar::after](intlcalendar.after.md) - Informa se o instante de tempo deste objeto é posterior ao instante do objeto passado
+  - [IntlCalendar::before](intlcalendar.before.md) - Informa se o instante de tempo deste objeto é anterior ao instante do objeto passado
+  - [IntlCalendar::clear](intlcalendar.clear.md) - Limpa um campo ou todos os campos
+  - [IntlCalendar::createInstance](intlcalendar.createinstance.md) - Cria um novo IntlCalendar
+  - [IntlCalendar::equals](intlcalendar.equals.md) - Compara horários de dois objetos IntlCalendar para igualidade
+  - [IntlCalendar::fieldDifference](intlcalendar.fielddifference.md) - Calcula a diferença entre o horário fornecido e o horário deste objeto
+  - [IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md) - Cria um IntlCalendar a partir de um objeto DateTime ou uma string
+  - [IntlCalendar::get](intlcalendar.get.md) - Obtém o valor de um campo
+  - [IntlCalendar::getActualMaximum](intlcalendar.getactualmaximum.md) - O valor máximo para um campo, considerando o horário atual do objeto
+  - [IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md) - O valor mínimo para um campo, considerando o horário atual do objeto
+  - [IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md) - Obtém um array de localidades para as quais existem dados
+  - [IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.md) - Informa se o dia é dia de semana, de final de semana ou de transição entre os dois
+  - [IntlCalendar::getErrorCode](intlcalendar.geterrorcode.md) - Obtém o último código de erro no objeto
+  - [IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.md) - Obtém a última mensagem de erro no objeto
+  - [IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md) - Obtém o primeiro dia da semana para a localidade do calendário
+  - [IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.md) - Obtém o maior valor mínimo local para um campo
+  - [IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.md) - Obtém um conjunto de valores de palavras-chaves de localidade
+  - [IntlCalendar::getLeastMaximum](intlcalendar.getleastmaximum.md) - Obtém o menor máximo local para um campo
+  - [IntlCalendar::getLocale](intlcalendar.getlocale.md) - Obtém a localidade associada com o objeto
+  - [IntlCalendar::getMaximum](intlcalendar.getmaximum.md) - Obtém o valor máximo global para um campo
+  - [IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.md) - Obtém o número mínimo de dias que a primeira semana do ano ou do mês pode ter
+  - [IntlCalendar::getMinimum](intlcalendar.getminimum.md) - Obtém o mínimo global para um campo
+  - [IntlCalendar::getNow](intlcalendar.getnow.md) - Obtém um número representando o horário atual
+  - [IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.md) - Obtém o comportamento ao lidar com o horário de relógio repetido
+  - [IntlCalendar::getSkippedWallTimeOption](intlcalendar.getskippedwalltimeoption.md) - Obtém o comportamento para o horário de relógio saltado
+  - [IntlCalendar::getTime](intlcalendar.gettime.md) - Obtém o horário atualmente representado pelo objeto
+  - [IntlCalendar::getTimeZone](intlcalendar.gettimezone.md) - Obtém o fuso horário do objeto
+  - [IntlCalendar::getType](intlcalendar.gettype.md) - Obtém o tipo de calendário
+  - [IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md) - Obtém o horário do dia no qual o final de semana inicia ou termina
+  - [IntlCalendar::inDaylightTime](intlcalendar.indaylighttime.md) - Informa se o horário do objeto está no horário de verão
+  - [IntlCalendar::isEquivalentTo](intlcalendar.isequivalentto.md) - Verifica se outro calendário é igual exceto pelo horário
+  - [IntlCalendar::isLenient](intlcalendar.islenient.md) - Verifica se a interpretação de data/horário está no modo leniente
+  - [IntlCalendar::isSet](intlcalendar.isset.md) - Verifica se um campo está definido
+  - [IntlCalendar::isWeekend](intlcalendar.isweekend.md) - Verifica se uma data e um horário estão no final de semana
+  - [IntlCalendar::roll](intlcalendar.roll.md) - Adiciona valor ao campo sem transferir para campos mais significativos
+  - [IntlCalendar::set](intlcalendar.set.md) - Define um campo de horário ou vários campos comuns de uma vez
+  - [IntlCalendar::setDate](intlcalendar.setdate.md) - Define campos de data
+  - [IntlCalendar::setDateTime](intlcalendar.setdatetime.md) - Define campos de data e horário
+  - [IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md) - Define o dia da semana no qual a semana inicia
+  - [IntlCalendar::setLenient](intlcalendar.setlenient.md) - Define se a interpretação de data/horário deve ser leniente
+  - [IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md) - Define o número mínimo de dias que a primeira semana do ano ou do mês pode ter
+  - [IntlCalendar::setRepeatedWallTimeOption](intlcalendar.setrepeatedwalltimeoption.md) - Define o comportamento ao lidar com horário de relógio repetido ao sair do horário de verão
+  - [IntlCalendar::setSkippedWallTimeOption](intlcalendar.setskippedwalltimeoption.md) - Define o comportamento ao lidar com horário de relógio saltado ao entrar no horário de verão
+  - [IntlCalendar::setTime](intlcalendar.settime.md) - Define o horário do calendário em milissegundos desde a época de referência
+  - [IntlCalendar::setTimeZone](intlcalendar.settimezone.md) - Define o fuso horário usado por este calendário
+  - [IntlCalendar::toDateTime](intlcalendar.todatetime.md) - Converte um objeto IntlCalendar para um DateTime
+  - [IntlCalendar::\_\_construct](intlcalendar.construct.md) - Construtor privado para não permitir instanciação
+  - [IntlChar::charAge](intlchar.charage.md) - Obtém a "idade" do ponto de código
+  - [IntlChar::charDigitValue](intlchar.chardigitvalue.md) - Obtém o valor do dígito decimal de um caractere de dígito decimal
+  - [IntlChar::charDirection](intlchar.chardirection.md) - Obtém o valor de categoria bidirecional para um ponto de código
+  - [IntlChar::charFromName](intlchar.charfromname.md) - Encontra um caractere Unicode pelo nome e retorna seu valor de ponto de código
+  - [IntlChar::charMirror](intlchar.charmirror.md) - Obtém o caractere "espelho" para um ponto de código
+  - [IntlChar::charName](intlchar.charname.md) - Obtém o nome de um caractere Unicode
+  - [IntlChar::charType](intlchar.chartype.md) - Obtém o valor da categoria geral para um ponto de código
+  - [IntlChar::chr](intlchar.chr.md) - Retorna um caractere Unicode por valor de ponto de código
+  - [IntlChar::digit](intlchar.digit.md) - Obtém o valor de dígito decimal de um ponto de código para uma base fornecida
+  - [IntlChar::enumCharNames](intlchar.enumcharnames.md) - Enumera todos os caracteres Unicode atribuídos dentro de um intervalo
+  - [IntlChar::enumCharTypes](intlchar.enumchartypes.md) - Enumera todos os pontos de código com suas categorias gerais Unicode
+  - [IntlChar::foldCase](intlchar.foldcase.md) - Converte maiúscula/minúscula em um ponto de código
+  - [IntlChar::forDigit](intlchar.fordigit.md) - Obtém a representação em caractere para um dígito e uma base fornecidos
+  - [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md) - Obtém o caractere de par de abertura/fechamento para um ponto de código
+  - [IntlChar::getBlockCode](intlchar.getblockcode.md) - Obtém o bloco de alocação Unicode contendo um ponto de código
+  - [IntlChar::getCombiningClass](intlchar.getcombiningclass.md) - Obtém a classe de combinação de um ponto de código
+  - [IntlChar::getFC\_NFKC\_Closure](intlchar.getfc-nfkc-closure.md) - Obtém a propriedade FC\_NFKC\_Closure para um ponto de código
+  - [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md) - Obtém o valor máximo para uma propriedade Unicode
+  - [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md) - Obtém o valor mínimo para uma propriedade Unicode
+  - [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md) - Obtém o valor de uma propriedade Unicode de um ponto de código
+  - [IntlChar::getNumericValue](intlchar.getnumericvalue.md) - Obtém o valor numérico para um ponto de código Unicode
+  - [IntlChar::getPropertyEnum](intlchar.getpropertyenum.md) - Obtém o valor da constante da propriedade para uma propriedade informada
+  - [IntlChar::getPropertyName](intlchar.getpropertyname.md) - Obtém o nome Unicode de uma propriedade
+  - [IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.md) - Obtém o valor da propriedade para um nome de valor fornecido
+  - [IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md) - Obtém o nome Unicode para um valor de propriedade
+  - [IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md) - Obtém a versão do Unicode
+  - [IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md) - Verifica uma propriedade binária Unicode para um ponto de código
+  - [IntlChar::isalnum](intlchar.isalnum.md) - Verifica se um ponto de código é um caractere alfanumérico
+  - [IntlChar::isalpha](intlchar.isalpha.md) - Verifica se um ponto de código é uma letra
+  - [IntlChar::isbase](intlchar.isbase.md) - Verifica se um ponto de código é um caractere base
+  - [IntlChar::isblank](intlchar.isblank.md) - Verifica se um ponto de código é um caractere "vazio" ou um "espaço horizontal"
+  - [IntlChar::iscntrl](intlchar.iscntrl.md) - Verifica se um ponto de código é um caractere de controle
+  - [IntlChar::isdefined](intlchar.isdefined.md) - Verifica se o ponto de código está definido
+  - [IntlChar::isdigit](intlchar.isdigit.md) - Verifica se um ponto de código é um caractere de dígito
+  - [IntlChar::isgraph](intlchar.isgraph.md) - Verifica se um ponto de código é um caractere gráfico
+  - [IntlChar::isIDIgnorable](intlchar.isidignorable.md) - Verifica se um ponto de código é um caractere ignorável
+  - [IntlChar::isIDPart](intlchar.isidpart.md) - Verifica se um ponto de código é permissível em um identificador
+  - [IntlChar::isIDStart](intlchar.isidstart.md) - Verifica se um ponto de código é permissível como o primeiro caractere em um identificador
+  - [IntlChar::isISOControl](intlchar.isisocontrol.md) - Verifica se o ponto de código é um código de controle ISO
+  - [IntlChar::isJavaIDPart](intlchar.isjavaidpart.md) - Verifica se um ponto de código é permissível em um identificador Java
+  - [IntlChar::isJavaIDStart](intlchar.isjavaidstart.md) - Verifica se um ponto de código é permissível como o primeiro caractere em um identificador Java
+  - [IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md) - Verifica se um ponto de código é um caractere de espaçamento de acordo com o Java
+  - [IntlChar::islower](intlchar.islower.md) - Verifica se um ponto de código é uma letra minúscula
+  - [IntlChar::isMirrored](intlchar.ismirrored.md) - Verifica se um ponto de código tem a propriedade Bidi\_Mirrored
+  - [IntlChar::isprint](intlchar.isprint.md) - Verifica se um ponto de código é um caractere imprimível
+  - [IntlChar::ispunct](intlchar.ispunct.md) - Verifica se um ponto de código é um caractere de pontuação
+  - [IntlChar::isspace](intlchar.isspace.md) - Verifica se um ponto de código é um caractere de espaçamento
+  - [IntlChar::istitle](intlchar.istitle.md) - Verifica se um ponto de código é uma letra com grafia mista
+  - [IntlChar::isUAlphabetic](intlchar.isualphabetic.md) - Verifica se um ponto de código tem a propriedade Alphabetic do Unicode
+  - [IntlChar::isULowercase](intlchar.isulowercase.md) - Verifica se um ponto de código tem a propriedade Lowercase do Unicode
+  - [IntlChar::isupper](intlchar.isupper.md) - Verifica se um ponto de código tem a categoria geral "Lu" (letra maiúscula)
+  - [IntlChar::isUUppercase](intlchar.isuuppercase.md) - Verifica se um ponto de código tem a propriedade Uppercase do Unicode
+  - [IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md) - Verifica se um ponto de código tem a propriedade White\_Space do Unicode
+  - [IntlChar::isWhitespace](intlchar.iswhitespace.md) - Verifica se um ponto de código é um caractere de espaço em branco de acordo com a ICU
+  - [IntlChar::isxdigit](intlchar.isxdigit.md) - Verifica se um ponto de código é um dígito hexadecimal
+  - [IntlChar::ord](intlchar.ord.md) - Retorna o valor do ponto de código Unicode do caractere
+  - [IntlChar::tolower](intlchar.tolower.md) - Transforma o caractere Unicode em minúscula
+  - [IntlChar::totitle](intlchar.totitle.md) - Transforma o caractere Unicode em letra de título
+  - [IntlChar::toupper](intlchar.toupper.md) - Transforma um caractere Unicode em maiúscula
+  - [IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.md) - Obtém o último code point passado após avançar ou retroceder o iterador
+  - [IntlDateFormatter::create](intldateformatter.create.md) - Cria um formatador de data
+  - [IntlDateFormatter::format](intldateformatter.format.md) - Formata data/horário como uma string
+  - [IntlDateFormatter::formatObject](intldateformatter.formatobject.md) - Formata um objeto
+  - [IntlDateFormatter::getCalendar](intldateformatter.getcalendar.md) - Obtém o tipo de calendário usado para o IntlDateFormatter
+  - [IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.md) - Obtém uma cópia do objeto de calendário do formatador
+  - [IntlDateFormatter::getDateType](intldateformatter.getdatetype.md) - Obtém o tipo de data usado para o IntlDateFormatter
+  - [IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md) - Obtém o código de erro da última operação
+  - [IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.md) - Obtém a mensagem de erro da última operação
+  - [IntlDateFormatter::getLocale](intldateformatter.getlocale.md) - Obtém a localidade usada pelo formatador
+  - [IntlDateFormatter::getPattern](intldateformatter.getpattern.md) - Obtém o modelo usado para o IntlDateFormatter
+  - [IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md) - Obtém o tipo de horário usado para o IntlDateFormatter
+  - [IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.md) - Obtem o fuso horário do formatador
+  - [IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.md) - Obtém o identificador de fuso horário usado para o IntlDateFormatter
+  - [IntlDateFormatter::isLenient](intldateformatter.islenient.md) - Obtém a leniência usada para o IntlDateFormatter
+  - [IntlDateFormatter::localtime](intldateformatter.localtime.md) - Interpreta uma string para um valor de horário baseado em campos
+  - [IntlDateFormatter::parse](intldateformatter.parse.md) - Interpreta uma string para uma valor de timestamp
+  - [IntlDateFormatter::parseToCalendar](intldateformatter.parsetocalendar.md) - Analisa uma string e a converte em um timestamp, atualizando um calendário aberto
+  - [IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md) - Define o tipo de calendário usado pelo formatador
+  - [IntlDateFormatter::setLenient](intldateformatter.setlenient.md) - Define a leniência do interpretador
+  - [IntlDateFormatter::setPattern](intldateformatter.setpattern.md) - Define o modelo usado para o IntlDateFormatter
+  - [IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md) - Define o fuso horário do formatador
+  - [IntlDatePatternGenerator::create](intldatepatterngenerator.create.md) - Cria uma nova instância de IntlDatePatternGenerator
+  - [IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md) - Determina o formato de data/horário mais adequado
+  - [IntlGregorianCalendar::createFromDate](intlgregoriancalendar.createfromdate.md) - Cria uma nova instância de IntlGregorianCalendar a partir de uma data
+  - [IntlGregorianCalendar::createFromDateTime](intlgregoriancalendar.createfromdatetime.md) - Cria uma instância de IntlGregorianCalendar a partir de data e horário
+  - [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md) - Obtém a data de mudança do calendário gregoriano
+  - [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md) - Determina se o ano é bissexto
+  - [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md) - Define a data de mudança do calendário gregoriano
+  - [IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.md) - Cria um objeto de calendário gregoriano
+  - [IntlIterator::current](intliterator.current.md) - Retorna o elemento atual
+  - [IntlIterator::key](intliterator.key.md) - Retorna a chave do elemento atual
+  - [IntlIterator::next](intliterator.next.md) - Avança para o próximo elemento
+  - [IntlIterator::rewind](intliterator.rewind.md) - Rebobina o iterador para o primeiro elemento
+  - [IntlIterator::valid](intliterator.valid.md) - Verifica se a posição atual é válida
+  - [IntlListFormatter::format](intllistformatter.format.md) - Formata uma lista de itens
+  - [IntlListFormatter::\_\_construct](intllistformatter.construct.md) - Cria uma instância de IntlListFormatter
+  - [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md) - Obtém o IntlBreakIterator que é utilizado pelo iterador
+  - [IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md) - Obtém a forma binária de regras compiladas
+  - [IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.md) - Obtém o conjunto de regras usado para criar este objeto
+  - [IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md) - Obtém o maior valor de status a partir de regras de quebras que determinaram a posição de quebra atual
+  - [IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.md) - Obtém os valores de status das regras de quebra que determinaram a posição de quebra atual
+  - [IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.md) - Cria um iterador a partir de um conjunto de regras
+  - [IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md) - Obtém o número de IDs no grupo de equivalÇencia que inclui o ID informado
+  - [IntlTimeZone::createDefault](intltimezone.createdefault.md) - Cria uma nova cópia do fuso horário padrão para este host
+  - [IntlTimeZone::createEnumeration](intltimezone.createenumeration.md) - Obtém uma enumeração a partir de IDs de fuso horário associados com o
+    país informado ou com o deslocamento UTC
+  - [IntlTimeZone::createTimeZone](intltimezone.createtimezone.md) - Cria um objeto IntlTimeZone para o ID informado
+  - [IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md) - Obtém uma enumeração a partir de IDs de fuso horário do sistema com as condições de filtro informadas
+  - [IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.md) - Cria um objeto IntlTimeZone a partir de um DateTimeZone
+  - [IntlTimeZone::getCanonicalID](intltimezone.getcanonicalid.md) - Obtém o ID do fuso horário de sistema canônico ou o cutomizado normalizado para o ID de fuso horário informado
+  - [IntlTimeZone::getDisplayName](intltimezone.getdisplayname.md) - Obtém o nome do fuso horário adequado para apresentação ao usuário
+  - [IntlTimeZone::getDSTSavings](intltimezone.getdstsavings.md) - Obtém a quantidade de tempo a ser adicionado ao horário local padrão para obter o horário local real de relógio
+  - [IntlTimeZone::getEquivalentID](intltimezone.getequivalentid.md) - Obtém um ID no grupo de equivalência que inclui o ID informado
+  - [IntlTimeZone::getErrorCode](intltimezone.geterrorcode.md) - Obtém o último código de erro no objeto
+  - [IntlTimeZone::getErrorMessage](intltimezone.geterrormessage.md) - Obtém a última mensagem de erro no objeto
+  - [IntlTimeZone::getGMT](intltimezone.getgmt.md) - Cria um fuso horário GMT (UTC)
+  - [IntlTimeZone::getIanaID](intltimezone.getianaid.md) - Traduz um identificador de fuso horário para seu equivalente IANA
+  - [IntlTimeZone::getID](intltimezone.getid.md) - Obtém o ID do fuso horário
+  - [IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.md) - Traduz um fuso horário do Windows para um fuso horário de sistema
+  - [IntlTimeZone::getOffset](intltimezone.getoffset.md) - Obtém o deslocamento UTC padrão e o deslocamento com horário de verão para um determinado timestamp Unix
+  - [IntlTimeZone::getRawOffset](intltimezone.getrawoffset.md) - Obtém o deslocamento UTC puro (antes de considerar horário de verão)
+  - [IntlTimeZone::getRegion](intltimezone.getregion.md) - Obtém o código da região associada com o ID de fuso horário de sistema informado
+  - [IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.md) - Obtém a versão de dados de fuso horário atualmente usados pela ICU
+  - [IntlTimeZone::getUnknown](intltimezone.getunknown.md) - Obtém o fuso horário "desconhecido"
+  - [IntlTimeZone::getWindowsID](intltimezone.getwindowsid.md) - Traduz um fuso horário de sistema em um fuso horário do Windows
+  - [IntlTimeZone::hasSameRules](intltimezone.hassamerules.md) - Verifica se um fuso horário tem as mesmas regras e deslocamentos de um outro
+  - [IntlTimeZone::toDateTimeZone](intltimezone.todatetimezone.md) - Converte em um objeto DateTimeZone
+  - [IntlTimeZone::useDaylightTime](intltimezone.usedaylighttime.md) - Verifica se o fuso horário usa horário de verão
+  - [IntlTimeZone::\_\_construct](intltimezone.construct.md) - Construtor privado para não permitir instanciação direta
+  - [intl\_error\_name](function.intl-error-name.md) - Obtém nome simbólico para um código de erro informado
+  - [intl\_get\_error\_code](function.intl-get-error-code.md) - Obtém o último código de erro
+  - [intl\_get\_error\_message](function.intl-get-error-message.md) - Obtém a descrição do último erro
+  - [intl\_is\_failure](function.intl-is-failure.md) - Verifica se o código de erro fornecido indica falha
+  - [intval](function.intval.md) - Obtém o valor em número inteiro de uma variável
+  - [in\_array](function.in-array.md) - Verifica se um valor existe em um array
+  - [ip2long](function.ip2long.md) - Converte uma string contendo um endereço com pontos do protocolo da Internet (IPv4) em um número inteiro longo
+  - [iptcembed](function.iptcembed.md) - Incorpora dados binários IPTC em uma imagem JPEG
+  - [iptcparse](function.iptcparse.md) - Interpreta um bloco IPTC binário em etiquetas simples
+  - [isset](function.isset.md) - Determina se uma variável está declarada e é diferente de null
+  - [is\_a](function.is-a.md) - Verifica se um objeto é ou herda de uma classe
+  - [is\_array](function.is-array.md) - Verifica se a variável é um array
+  - [is\_bool](function.is-bool.md) - Verifica se a variável é um booleano
+  - [is\_callable](function.is-callable.md) - Verifica se um valor pode ser chamado como uma função a partir do escopo atual
+  - [is\_countable](function.is-countable.md) - Verifica se o conteúdo de uma variável é um valor contável
+  - [is\_dir](function.is-dir.md) - Diz se o caminho é um diretório
+  - [is\_double](function.is-double.md) - Sinônimo de is\_float
+  - [is\_executable](function.is-executable.md) - Diz se um arquivo é executável
+  - [is\_file](function.is-file.md) - Informa se o arquivo é um arquivo comum
+  - [is\_finite](function.is-finite.md) - Verifica se um float é finito
+  - [is\_float](function.is-float.md) - Verifica se a variável é do tipo float
+  - [is\_infinite](function.is-infinite.md) - Verifica se um float é infinito
+  - [is\_int](function.is-int.md) - Informa se o tipo de uma variável é um inteiro
+  - [is\_integer](function.is-integer.md) - Sinônimo de is\_int
+  - [is\_iterable](function.is-iterable.md) - Verifica se o conteúdo de uma variável é um valor iterável
+  - [is\_link](function.is-link.md) - Informa se o arquivo é uma ligação simbólica
+  - [is\_long](function.is-long.md) - Sinônimo de is\_int
+  - [is\_nan](function.is-nan.md) - Verifica se um float é NAN
+  - [is\_null](function.is-null.md) - Verifica se uma variável é null
+  - [is\_numeric](function.is-numeric.md) - Verifica se uma variável é um número ou uma string numérica
+  - [is\_object](function.is-object.md) - Verifica se uma variável é um objeto
+  - [is\_readable](function.is-readable.md) - Informa se um arquivo existe e se pode ser lido
+  - [is\_real](function.is-real.md) - Sinônimo de is\_float
+  - [is\_resource](function.is-resource.md) - Verifica se uma variável é um recurso
+  - [is\_scalar](function.is-scalar.md) - Verifica se é uma variável é escalar
+  - [is\_soap\_fault](function.is-soap-fault.md) - Verifica se uma chamada SOAP falhou
+  - [is\_string](function.is-string.md) - Verifica se o tipo de uma variável é string
+  - [is\_subclass\_of](function.is-subclass-of.md) - Verifica se o objeto tem esta classe como uma de suas classes pai
+  - [is\_tainted](function.is-tainted.md) - Verifica se uma string está contaminada
+  - [is\_uploaded\_file](function.is-uploaded-file.md) - Informa se o arquivo foi enviado por POST HTTP
+  - [is\_writable](function.is-writable.md) - Informa se o arquivo pode ser escrito
+  - [is\_writeable](function.is-writeable.md) - Sinônimo de is\_writable
+  - [Iterator::current](iterator.current.md) - Retorna o elemento atual
+  - [Iterator::key](iterator.key.md) - Retorna a chave do elemento atual
+  - [Iterator::next](iterator.next.md) - Move para o próximo elemento
+  - [Iterator::rewind](iterator.rewind.md) - Retrocede o Iterator para o primeiro elemento
+  - [Iterator::valid](iterator.valid.md) - Verifica se a posição atual é válida
+  - [IteratorAggregate::getIterator](iteratoraggregate.getiterator.md) - Recupera um iterador ou Traversable externo
+  - [IteratorIterator::current](iteratoriterator.current.md) - Obtém o valor atual
+  - [IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md) - Obtém o iterador interno
+  - [IteratorIterator::key](iteratoriterator.key.md) - Obtém a chave do elemento atual
+  - [IteratorIterator::next](iteratoriterator.next.md) - Avança para o próximo elemento
+  - [IteratorIterator::rewind](iteratoriterator.rewind.md) - Rebobina para o primeiro elemento
+  - [IteratorIterator::valid](iteratoriterator.valid.md) - Verifica se o elemento atual é válido
+  - [IteratorIterator::\_\_construct](iteratoriterator.construct.md) - Cria um iterador de qualquer coisa que seja percorrível
+  - [iterator\_apply](function.iterator-apply.md) - Chama uma função para cada elemento em um iterador
+  - [iterator\_count](function.iterator-count.md) - Conta os elementos em um iterador
+  - [iterator\_to\_array](function.iterator-to-array.md) - Copia o iterador em um array
+- j
+  - [jddayofweek](function.jddayofweek.md) - Retorna o dia da semana de um dia Juliano
+  - [jdmonthname](function.jdmonthname.md) - Retorna o nome de um mês
+  - [jdtofrench](function.jdtofrench.md) - Converte do calendário "Julian Day Count" para o calendário Republicano Francês
+  - [jdtogregorian](function.jdtogregorian.md) - Converte uma data no formato "Julian Day Count" para o formato Gregoriano
+  - [jdtojewish](function.jdtojewish.md) - Converte uma contagem de dias Julianos para uma data do calendário Judeu
+  - [jdtojulian](function.jdtojulian.md) - Converte uma Contagem de Dias Julianos para uma data do calendário juliano
+  - [jdtounix](function.jdtounix.md) - Converte Dia Juliano para timestamp Unix
+  - [jewishtojd](function.jewishtojd.md) - Converte uma data do calendário Judaico para o calendário de Contagem de Dias Julianos
+  - [join](function.join.md) - Sinônimo de implode
+  - [jpeg2wbmp](function.jpeg2wbmp.md) - Converte arquivo de imagem JPEG para WBMP
+  - [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md) - Especifica os dados que devem ser serializados para JSON
+  - [json\_decode](function.json-decode.md) - Decodifica uma string JSON
+  - [json\_encode](function.json-encode.md) - Retorna a representação JSON de um valor
+  - [json\_last\_error](function.json-last-error.md) - Retorna o último erro ocorrido
+  - [json\_last\_error\_msg](function.json-last-error-msg.md) - Retorna a string de erro da última chamada a json\_validate(), json\_encode() ou json\_decode()
+  - [json\_validate](function.json-validate.md) - Verifica se uma string contém JSON válido
+  - [juliantojd](function.juliantojd.md) - Converte uma data do calendário juliano para uma contagem de dias julianos
+- k
+  - [key](function.key.md) - Retorna uma chave de um array
+  - [key\_exists](function.key-exists.md) - Sinônimo de array\_key\_exists
+  - [krsort](function.krsort.md) - Ordena um array pelas chaves em ordem descrescente
+  - [ksort](function.ksort.md) - Ordena um array pelas chaves em ordem crescente
+- l
+  - [lcfirst](function.lcfirst.md) - Torna minúsculo o primeiro caractere de uma string
+  - [lcg\_value](function.lcg-value.md) - Gerador congruente linear combinado
+  - [lchgrp](function.lchgrp.md) - Modifica o grupo de proprietário da ligação simbólica
+  - [lchown](function.lchown.md) - Modifica o proprietário da ligação simbólica
+  - [ldap\_8859\_to\_t61](function.ldap-8859-to-t61.md) - Converte caracteres 8859 para caracteres t61
+  - [ldap\_add](function.ldap-add.md) - Adiciona entradas ao diretório LDAP
+  - [ldap\_add\_ext](function.ldap-add-ext.md) - Adiciona entradas ao diretório LDAP
+  - [ldap\_bind](function.ldap-bind.md) - Faz ligação ao diretório LDAP
+  - [ldap\_bind\_ext](function.ldap-bind-ext.md) - Faz ligação ao diretório LDAP
+  - [ldap\_close](function.ldap-close.md) - Sinônimo de ldap\_unbind
+  - [ldap\_compare](function.ldap-compare.md) - Compara valor de atributo encontrado em entrada especificada com DN
+  - [ldap\_connect](function.ldap-connect.md) - Conecta a um servidor LDAP
+  - [ldap\_connect\_wallet](function.ldap-connect-wallet.md) - Conecta a um servidor LDAP
+  - [ldap\_control\_paged\_result](function.ldap-control-paged-result.md) - Envia controle de paginação LDAP
+  - [ldap\_control\_paged\_result\_response](function.ldap-control-paged-result-response.md) - Obtém o cookie de paginação LDAP
+  - [ldap\_count\_entries](function.ldap-count-entries.md) - Conta o número de entradas em uma pesquisa
+  - [ldap\_count\_references](function.ldap-count-references.md) - Conta o número de referências em um resultado de pesquisa
+  - [ldap\_delete](function.ldap-delete.md) - Remove uma entrada de um diretório
+  - [ldap\_delete\_ext](function.ldap-delete-ext.md) - Remove uma entrada de um diretório
+  - [ldap\_dn2ufn](function.ldap-dn2ufn.md) - Converte DN para um formato mais legível
+  - [ldap\_err2str](function.ldap-err2str.md) - Converte um número de erro LDAP em uma mensagem de erro string
+  - [ldap\_errno](function.ldap-errno.md) - Retorna o número de erro LDAP do último comando
+  - [ldap\_error](function.ldap-error.md) - Retorna a mensagem de erro do último comando LDAP
+  - [ldap\_escape](function.ldap-escape.md) - Escapa uma string para uso em um filtro LDAP ou DN
+  - [ldap\_exop](function.ldap-exop.md) - Realiza uma operação estendida
+  - [ldap\_exop\_passwd](function.ldap-exop-passwd.md) - Facilitador para operação estendida PASSWD
+  - [ldap\_exop\_refresh](function.ldap-exop-refresh.md) - Facilitador para operação estendida REFRESH
+  - [ldap\_exop\_sync](function.ldap-exop-sync.md) - Realiza uma operação estendida
+  - [ldap\_exop\_whoami](function.ldap-exop-whoami.md) - Facilitador para operação estendida WHOAMI
+  - [ldap\_explode\_dn](function.ldap-explode-dn.md) - Separa o DN em seus componentes
+  - [ldap\_first\_attribute](function.ldap-first-attribute.md) - Retorna o primeiro atributo
+  - [ldap\_first\_entry](function.ldap-first-entry.md) - Retorna o ID do primeiro resultado
+  - [ldap\_first\_reference](function.ldap-first-reference.md) - Retorna a primeira referência
+  - [ldap\_free\_result](function.ldap-free-result.md) - Libera memória do resultado
+  - [ldap\_get\_attributes](function.ldap-get-attributes.md) - Obtém atributos de uma entrada de resultado de pesquisa
+  - [ldap\_get\_dn](function.ldap-get-dn.md) - Obtém o DN de uma entrada de resultado
+  - [ldap\_get\_entries](function.ldap-get-entries.md) - Obtém todas as entradas do resultado
+  - [ldap\_get\_option](function.ldap-get-option.md) - Obtém o valor atual para a opção informada
+  - [ldap\_get\_values](function.ldap-get-values.md) - Obtém todos os valores de uma entrada de resultado
+  - [ldap\_get\_values\_len](function.ldap-get-values-len.md) - Obtém todos os valores binários de uma entrada de resultado
+  - [ldap\_list](function.ldap-list.md) - Pesquisa de nível único
+  - [ldap\_modify](function.ldap-modify.md) - Sinônimo de ldap\_mod\_replace
+  - [ldap\_modify\_batch](function.ldap-modify-batch.md) - Executa modificações em lote em uma entrada LDAP
+  - [ldap\_mod\_add](function.ldap-mod-add.md) - Adiciona valores aos atributos atuais
+  - [ldap\_mod\_add\_ext](function.ldap-mod_add-ext.md) - Adiciona valores aos atributos atuais
+  - [ldap\_mod\_del](function.ldap-mod-del.md) - Deleta valores dos atributos atuais
+  - [ldap\_mod\_del\_ext](function.ldap-mod_del-ext.md) - Deleta valores dos atributos atuais
+  - [ldap\_mod\_replace](function.ldap-mod-replace.md) - Substitui valores de atributos por novos valores
+  - [ldap\_mod\_replace\_ext](function.ldap-mod_replace-ext.md) - Substitui valores de atributos com novos valores
+  - [ldap\_next\_attribute](function.ldap-next-attribute.md) - Obtém o próximo atributo no resultado
+  - [ldap\_next\_entry](function.ldap-next-entry.md) - Obtém a próxima entrada do resultado
+  - [ldap\_next\_reference](function.ldap-next-reference.md) - Obtém a próxima referência
+  - [ldap\_parse\_exop](function.ldap-parse-exop.md) - Interpreta o objeto de resultado de uma operação estendida LDAP
+  - [ldap\_parse\_reference](function.ldap-parse-reference.md) - Extrai informação de entrada de referência
+  - [ldap\_parse\_result](function.ldap-parse-result.md) - Extrai informação de resultado
+  - [ldap\_read](function.ldap-read.md) - Lê uma entrada
+  - [ldap\_rename](function.ldap-rename.md) - Modifica o nome de uma entrada
+  - [ldap\_rename\_ext](function.ldap-rename-ext.md) - Modifica o nome de uma entrada
+  - [ldap\_sasl\_bind](function.ldap-sasl-bind.md) - Faz ligação ao diretório LDAP usando SASL
+  - [ldap\_search](function.ldap-search.md) - Pesquisa árvore LDAP
+  - [ldap\_set\_option](function.ldap-set-option.md) - Define o valor para a opção informada
+  - [ldap\_set\_rebind\_proc](function.ldap-set-rebind-proc.md) - Define uma função de retorno para fazer religações na busca de referências
+  - [ldap\_sort](function.ldap-sort.md) - Ordena entradas de resultado LDAP no lado do cliente
+  - [ldap\_start\_tls](function.ldap-start-tls.md) - Inicia TLS
+  - [ldap\_t61\_to\_8859](function.ldap-t61-to-8859.md) - Traduz caracteres t61 para caracteres 8859
+  - [ldap\_unbind](function.ldap-unbind.md) - Desliga-se do diretório LDAP
+  - [levenshtein](function.levenshtein.md) - Calcula a distância Levenshtein entre duas strings
+  - [libxml\_clear\_errors](function.libxml-clear-errors.md) - Limpa o buffer de erro da libxml
+  - [libxml\_disable\_entity\_loader](function.libxml-disable-entity-loader.md) - Desabilita a capacidade de carregar entidades externas
+  - [libxml\_get\_errors](function.libxml-get-errors.md) - Obtém um array de erros
+  - [libxml\_get\_external\_entity\_loader](function.libxml-get-external-entity-loader.md) - Obtém o carregador atual de entidade externa
+  - [libxml\_get\_last\_error](function.libxml-get-last-error.md) - Obtém o último erro da libxml
+  - [libxml\_set\_external\_entity\_loader](function.libxml-set-external-entity-loader.md) - Altera o carregador padrão de entidades externas
+  - [libxml\_set\_streams\_context](function.libxml-set-streams-context.md) - Define o contexto de fluxos para o próximo carregamento ou escrita de documento libxml
+  - [libxml\_use\_internal\_errors](function.libxml-use-internal-errors.md) - Desabilita erros da libxml e permite que o usuário obtenha informações de erro conforme necessário
+  - [LimitIterator::current](limititerator.current.md) - Obtém o elemento atual
+  - [LimitIterator::getPosition](limititerator.getposition.md) - Retorna a posição atual
+  - [LimitIterator::key](limititerator.key.md) - Obtém a chave atual
+  - [LimitIterator::next](limititerator.next.md) - Avança o iterador
+  - [LimitIterator::rewind](limititerator.rewind.md) - Retorna o iterador para o começo especificado no construtor
+  - [LimitIterator::seek](limititerator.seek.md) - Aponta para a posição especificada
+  - [LimitIterator::valid](limititerator.valid.md) - Verifica se o elemento atual é válido ou não
+  - [LimitIterator::\_\_construct](limititerator.construct.md) - Constrói um LimitIterator
+  - [link](function.link.md) - Criando uma ligação rígida
+  - [linkinfo](function.linkinfo.md) - Obtém informação sobre uma ligação
+  - [list](function.list.md) - Cria variáveis como se fossem arrays
+  - [litespeed\_finish\_request](function.litespeed-finish-request.md) - Envia todos os dados de resposta ao cliente
+  - [litespeed\_request\_headers](function.litespeed-request-headers.md) - Sinônimo de
+    apache\_request\_headers
+  - [litespeed\_response\_headers](function.litespeed-response-headers.md) - Sinônimo de
+    apache\_response\_headers
+  - [Locale::acceptFromHttp](locale.acceptfromhttp.md) - Tenta descobrir a melhor localidade disponível baseado no cabeçalho HTTP "Accept-Language"
+  - [Locale::addLikelySubtags](locale.addlikelysubtags.md) - Add likely subtags to a locale
+  - [Locale::canonicalize](locale.canonicalize.md) - Canoniza a string de localidade
+  - [Locale::composeLocale](locale.composelocale.md) - Retorna ID de localidade corretamente ordenado e delimitado
+  - [Locale::filterMatches](locale.filtermatches.md) - Verifica se um filtro de etiqueta de língua corresponde à localidade
+  - [Locale::getAllVariants](locale.getallvariants.md) - Obtém as variantes para a localidade
+  - [Locale::getDefault](locale.getdefault.md) - Obtém o valor de localidade padrão da variável global de INTL 'default\_locale'
+  - [Locale::getDisplayLanguage](locale.getdisplaylanguage.md) - Retorna um nome apropriadamente localizado para a língua da localidade
+  - [Locale::getDisplayName](locale.getdisplayname.md) - Retorna um nome apropriadamente localizado para a localidade
+  - [Locale::getDisplayRegion](locale.getdisplayregion.md) - Retorna um nome apropriadamente localizado para a região da localidade
+  - [Locale::getDisplayScript](locale.getdisplayscript.md) - Retorna um nome apropriadamente localizado para o tipo de escrita da localidade
+  - [Locale::getDisplayVariant](locale.getdisplayvariant.md) - Retorna um nome apropriadamente localizado para as variantes da localidade
+  - [Locale::getKeywords](locale.getkeywords.md) - Obtém as palavras-chave para a localidade
+  - [Locale::getPrimaryLanguage](locale.getprimarylanguage.md) - Obtém a língua primária para a localidade
+  - [Locale::getRegion](locale.getregion.md) - Obtém a região para a localidade
+  - [Locale::getScript](locale.getscript.md) - Obtém o tipo de escrita para a localidade
+  - [Locale::isRightToLeft](locale.isrighttoleft.md) - Verifica se uma localidade usa um sistema de escrita da direita para a esquerda
+  - [Locale::lookup](locale.lookup.md) - Pesquisa a lista de etiquetas de língua pela melhor correspondência à língua
+  - [Locale::minimizeSubtags](locale.minimizesubtags.md) - Remove likely subtags from a locale
+  - [Locale::parseLocale](locale.parselocale.md) - Retorna um array de chaves-valores de elementos de sub-etiquetas de ID de localidade
+  - [Locale::setDefault](locale.setdefault.md) - Define a localidade padrão em tempo de execução
+  - [localeconv](function.localeconv.md) - Obtém informação de formatação numérica
+  - [localtime](function.localtime.md) - Obtém o horário local
+  - [log](function.log.md) - Logaritmo natural
+  - [log1p](function.log1p.md) - Retorna log(1 + número), calculado de forma que seja preciso mesmo quando
+    o valor do número seja próximo de zero.
+  - [log10](function.log10.md) - Logaritmo na base 10
+  - [long2ip](function.long2ip.md) - Converte um endereço inteiro longo em uma string no formato padrão com pontos da Internet (IPv4)
+  - [lstat](function.lstat.md) - Obtém informações sobre um arquivo ou ligação simbólica
+  - [ltrim](function.ltrim.md) - Retira espaços em branco (ou outros caracteres) do início de uma string
+  - [Lua::assign](lua.assign.md) - Atribui uma variável PHP para o script Lua
+  - [Lua::call](lua.call.md) - Executa funções Lua
+  - [Lua::eval](lua.eval.md) - Avalia uma string como código Lua
+  - [Lua::getVersion](lua.getversion.md) - Obtém a versão do interpretador Lua
+  - [Lua::include](lua.include.md) - Inclui e interpreta um arquivo de script Lua
+  - [Lua::registerCallback](lua.registercallback.md) - Registra uma função PHP no interpretador Lua
+  - [Lua::\_\_construct](lua.construct.md) - Construtor Lua
+  - [LuaClosure::\_\_invoke](luaclosure.invoke.md) - Invoca uma closure lua
+  - [LuaSandbox::callFunction](luasandbox.callfunction.md) - Chama uma função em uma variável global Lua
+  - [LuaSandbox::disableProfiler](luasandbox.disableprofiler.md) - Desabilita o profiler
+  - [LuaSandbox::enableProfiler](luasandbox.enableprofiler.md) - Habilita o profiler
+  - [LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md) - Obtém o uso atual do tempo de CPU do ambiente Lua
+  - [LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md) - Obtém o uso atual da memória do ambiente Lua
+  - [LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md) - Busca o pico de uso de memória do ambiente Lua
+  - [LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md) - Obtém dados do profiler
+  - [LuaSandbox::getVersionInfo](luasandbox.getversioninfo.md) - Retorna as versões de LuaSandbox e Lua
+  - [LuaSandbox::loadBinary](luasandbox.loadbinary.md) - Carrega um bloco binário pré-compilado no ambiente Lua
+  - [LuaSandbox::loadString](luasandbox.loadstring.md) - Carrega código Lua no ambiente Lua
+  - [LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.md) - Pausa o cronômetro de uso da CPU
+  - [LuaSandbox::registerLibrary](luasandbox.registerlibrary.md) - Registra um conjunto de funções PHP como uma biblioteca Lua
+  - [LuaSandbox::setCPULimit](luasandbox.setcpulimit.md) - Define o limite de tempo da CPU para o ambiente Lua
+  - [LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.md) - Define o limite de memória para o ambiente Lua
+  - [LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.md) - Despausa o cronômetro pausado por LuaSandbox::pauseUsageTimer
+  - [LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.md) - Encapsula um chamável PHP em uma LuaSandboxFunction
+  - [LuaSandboxFunction::call](luasandboxfunction.call.md) - Chama uma função Lua
+  - [LuaSandboxFunction::dump](luasandboxfunction.dump.md) - Despeja a função como um blob binário
+  - [LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.md) - Não utilizado
+  - [lzf\_compress](function.lzf-compress.md) - Compressão LZF
+  - [lzf\_decompress](function.lzf-decompress.md) - Descompressão LZF
+  - [lzf\_optimized\_for](function.lzf-optimized-for.md) - Determina para quê a extensão LZF foi otimizada
+- m
+  - [mail](function.mail.md) - Envia e-mail
+  - [mailparse\_determine\_best\_xfer\_encoding](function.mailparse-determine-best-xfer-encoding.md) - Obtém a melhor forma de codificação
+  - [mailparse\_msg\_create](function.mailparse-msg-create.md) - Cria um recurso de email MIME
+  - [mailparse\_msg\_extract\_part](function.mailparse-msg-extract-part.md) - Extrai/decodifica uma seção da mensagem
+  - [mailparse\_msg\_extract\_part\_file](function.mailparse-msg-extract-part-file.md) - Extrai/decodifica uma seção da mensagem
+  - [mailparse\_msg\_extract\_whole\_part\_file](function.mailparse-msg-extract-whole-part-file.md) - Extrai uma seção da mensagem incluindo cabeçalhos sem decodificar a codificação de transferência
+  - [mailparse\_msg\_free](function.mailparse-msg-free.md) - Libera um recurso MIME
+  - [mailparse\_msg\_get\_part](function.mailparse-msg-get-part.md) - Retorna um identificador para uma seção específica em uma mensagem MIME
+  - [mailparse\_msg\_get\_part\_data](function.mailparse-msg-get-part-data.md) - Retorna um array associativo com informações sobre a mensagem
+  - [mailparse\_msg\_get\_structure](function.mailparse-msg-get-structure.md) - Retorna um array de nomes de seções MIME na mensagem fornecida
+  - [mailparse\_msg\_parse](function.mailparse-msg-parse.md) - Faz o parse incremental de dados no buffer
+  - [mailparse\_msg\_parse\_file](function.mailparse-msg-parse-file.md) - Faz o parsing de um arquivo
+  - [mailparse\_rfc822\_parse\_addresses](function.mailparse-rfc822-parse-addresses.md) - Faz o parse de endereços compatíveis com o RFC 822
+  - [mailparse\_stream\_encode](function.mailparse-stream-encode.md) - Transmite dados do ponteiro do arquivo de origem, aplica a codificação e escreve no destfp
+  - [mailparse\_uudecode\_all](function.mailparse-uudecode-all.md) - Analisa os dados de fp e extrai cada arquivo uuencoded incorporado.
+  - [max](function.max.md) - Localiza o maior valor
+  - [mb\_check\_encoding](function.mb-check-encoding.md) - Verifica se as strings são válidas para a codificação especificada
+  - [mb\_chr](function.mb-chr.md) - Retorna um caractere pelo valor do ponto de código Unicode
+  - [mb\_convert\_case](function.mb-convert-case.md) - Realiza a conversão de caixa em uma string
+  - [mb\_convert\_encoding](function.mb-convert-encoding.md) - Converte uma string de uma codificação de caracteres para outra
+  - [mb\_convert\_kana](function.mb-convert-kana.md) - Converte "kana" de um tipo para outro ("zen-kaku", "han-kaku" e mais)
+  - [mb\_convert\_variables](function.mb-convert-variables.md) - Converte o código de caracteres em variável(is)
+  - [mb\_decode\_mimeheader](function.mb-decode-mimeheader.md) - Decodifica string no campo de cabeçalho MIME
+  - [mb\_decode\_numericentity](function.mb-decode-numericentity.md) - Decodifica referência de string numérica HTML para caractere
+  - [mb\_detect\_encoding](function.mb-detect-encoding.md) - Detectar a codificação de caracteres
+  - [mb\_detect\_order](function.mb-detect-order.md) - Define ou obtém a ordem de detecção de codificação de caracteres
+  - [mb\_encode\_mimeheader](function.mb-encode-mimeheader.md) - Codificar string para cabeçalho MIME
+  - [mb\_encode\_numericentity](function.mb-encode-numericentity.md) - Codificar caractere para referência numérica HTML
+  - [mb\_encoding\_aliases](function.mb-encoding-aliases.md) - Obtém aliases de um tipo de codificação conhecido
+  - [mb\_ereg](function.mb-ereg.md) - Correspondência de expressão regular com suporte multibyte
+  - [mb\_eregi](function.mb-eregi.md) - Correspondência de expressão regular sem diferenciar maiúsculas e minúsculas com suporte multibyte
+  - [mb\_eregi\_replace](function.mb-eregi-replace.md) - Substituir expressão regular com suporte multibyte, ignorando maiúsculas e minúsculas
+  - [mb\_ereg\_match](function.mb-ereg-match.md) - Coincidência de expressão regular para string multibyte
+  - [mb\_ereg\_replace](function.mb-ereg-replace.md) - Substituir expressão regular com suporte a multibyte
+  - [mb\_ereg\_replace\_callback](function.mb-ereg-replace-callback.md) - Realiza uma busca e substituição de expressão regular com suporte a string multibyte usando um callback
+  - [mb\_ereg\_search](function.mb-ereg-search.md) - Correspondência de expressão regular multibyte para uma string multibyte predefinida
+  - [mb\_ereg\_search\_getpos](function.mb-ereg-search-getpos.md) - Retorna o ponto de início para a próxima correspondência de expressão regular
+  - [mb\_ereg\_search\_getregs](function.mb-ereg-search-getregs.md) - Recupera o resultado da última correspondência de expressão regular multibyte
+  - [mb\_ereg\_search\_init](function.mb-ereg-search-init.md) - Configura a string e a expressão regular para uma correspondência de expressão regular multibyte
+  - [mb\_ereg\_search\_pos](function.mb-ereg-search-pos.md) - Retorna a posição e o comprimento de uma parte correspondida da expressão regular multibyte para uma string multibyte predefinida
+  - [mb\_ereg\_search\_regs](function.mb-ereg-search-regs.md) - Retorna a parte correspondida de uma expressão regular multibyte
+  - [mb\_ereg\_search\_setpos](function.mb-ereg-search-setpos.md) - Define o ponto de início para a próxima correspondência de expressão regular
+  - [mb\_get\_info](function.mb-get-info.md) - Obtém configurações internas do mbstring
+  - [mb\_http\_input](function.mb-http-input.md) - Detecta a codificação de caracteres de entrada HTTP
+  - [mb\_http\_output](function.mb-http-output.md) - Define/Obtém a codificação de caracteres de saída HTTP
+  - [mb\_internal\_encoding](function.mb-internal-encoding.md) - Define/Obtém a codificação de caracteres interna
+  - [mb\_language](function.mb-language.md) - Define/Obtém o idioma atual
+  - [mb\_lcfirst](function.mb-lcfirst.md) - Converte parap minúscula o primeiro caractere de uma string
+  - [mb\_list\_encodings](function.mb-list-encodings.md) - Retorna um array de todas as codificações suportadas
+  - [mb\_ltrim](function.mb-ltrim.md) - Remove espaços em branco (ou outros caracteres) do início de uma string
+  - [mb\_ord](function.mb-ord.md) - Obtém o ponto de código Unicode do caractere
+  - [mb\_output\_handler](function.mb-output-handler.md) - Callback converte a codificação de caracteres no buffer de saída
+  - [mb\_parse\_str](function.mb-parse-str.md) - Analisa dados GET/POST/COOKIE e define variável global
+  - [mb\_preferred\_mime\_name](function.mb-preferred-mime-name.md) - Obter uma string MIME charset
+  - [mb\_regex\_encoding](function.mb-regex-encoding.md) - Define/Obtém codificação de caracteres para regex multibyte
+  - [mb\_regex\_set\_options](function.mb-regex-set-options.md) - Define/Obtém as opções padrão para funções mbregex
+  - [mb\_rtrim](function.mb-rtrim.md) - Remove espaços em branco (ou outros caracteres) do final de uma string
+  - [mb\_scrub](function.mb-scrub.md) - Substitui sequências de bytes malformadas pelo caractere substituto
+  - [mb\_send\_mail](function.mb-send-mail.md) - Envia email codificado
+  - [mb\_split](function.mb-split.md) - Divide uma string multibyte usando expressão regular
+  - [mb\_strcut](function.mb-strcut.md) - Obtém parte da string
+  - [mb\_strimwidth](function.mb-strimwidth.md) - Obtém string truncada com largura especificada
+  - [mb\_stripos](function.mb-stripos.md) - Encontra a posição da primeira ocorrência de uma string dentro de outra, sem diferenciar maiúsculas de minúsculas
+  - [mb\_stristr](function.mb-stristr.md) - Encontra a primeira ocorrência de uma string dentro de outra, sem diferenciar maiúsculas de minúsculas
+  - [mb\_strlen](function.mb-strlen.md) - Obtém o comprimento da string
+  - [mb\_strpos](function.mb-strpos.md) - Encontra a posição da primeira ocorrência de uma string em outra
+  - [mb\_strrchr](function.mb-strrchr.md) - Encontra a última ocorrência de um caractere em uma string dentro de outra
+  - [mb\_strrichr](function.mb-strrichr.md) - Encontra a última ocorrência de um caractere em uma string dentro de outra, sem diferenciar maiúsculas de minúsculas
+  - [mb\_strripos](function.mb-strripos.md) - Encontra a posição da última ocorrência de uma string em outra, sem diferenciar maiúsculas de minúsculas
+  - [mb\_strrpos](function.mb-strrpos.md) - Encontra a posição da última ocorrência de uma string em outra string
+  - [mb\_strstr](function.mb-strstr.md) - Encontra a primeira ocorrência de uma string em outra
+  - [mb\_strtolower](function.mb-strtolower.md) - Torna uma string minúscula
+  - [mb\_strtoupper](function.mb-strtoupper.md) - Faz uma string ficar em maiúsculas
+  - [mb\_strwidth](function.mb-strwidth.md) - Retorna a largura da string
+  - [mb\_str\_pad](function.mb-str-pad.md) - Preenche uma string multibyte para um comprimento específico com outra string multibyte
+  - [mb\_str\_split](function.mb-str-split.md) - Dada uma string multibyte, retorna um array de seus caracteres
+  - [mb\_substitute\_character](function.mb-substitute-character.md) - Define/Obtém caractere de substituição
+  - [mb\_substr](function.mb-substr.md) - Obtém parte da string
+  - [mb\_substr\_count](function.mb-substr-count.md) - Conta o número de ocorrências de substring
+  - [mb\_trim](function.mb-trim.md) - Remove espaços em branco (ou outros caracteres) do início e do final de uma string
+  - [mb\_ucfirst](function.mb-ucfirst.md) - Converte para maiúscula o primeiro caractere de uma string
+  - [mcrypt\_create\_iv](function.mcrypt-create-iv.md) - Cria um vetor de inicialização (IV) a partir de uma fonte aleatória
+  - [mcrypt\_decrypt](function.mcrypt-decrypt.md) - Descriptografa texto criptografado com parâmetros fornecidos
+  - [mcrypt\_encrypt](function.mcrypt-encrypt.md) - Criptografa texto simples com parâmetros fornecidos
+  - [mcrypt\_enc\_get\_algorithms\_name](function.mcrypt-enc-get-algorithms-name.md) - Retorna o nome do algoritmo aberto
+  - [mcrypt\_enc\_get\_block\_size](function.mcrypt-enc-get-block-size.md) - Retorna o tamanho do bloco do algoritmo aberto
+  - [mcrypt\_enc\_get\_iv\_size](function.mcrypt-enc-get-iv-size.md) - Retorna o tamanho do IV do algoritmo aberto
+  - [mcrypt\_enc\_get\_key\_size](function.mcrypt-enc-get-key-size.md) - Retorna o tamanho máximo de chave suportado do modo aberto
+  - [mcrypt\_enc\_get\_modes\_name](function.mcrypt-enc-get-modes-name.md) - Retorna o nome do modo aberto
+  - [mcrypt\_enc\_get\_supported\_key\_sizes](function.mcrypt-enc-get-supported-key-sizes.md) - Retorna um array com os tamanhos de chaves suportados do algoritmo aberto
+  - [mcrypt\_enc\_is\_block\_algorithm](function.mcrypt-enc-is-block-algorithm.md) - Verifica se o algoritmo do modo aberto é um algoritmo de bloco
+  - [mcrypt\_enc\_is\_block\_algorithm\_mode](function.mcrypt-enc-is-block-algorithm-mode.md) - Verifica se a criptografia do modo aberto funciona em blocos
+  - [mcrypt\_enc\_is\_block\_mode](function.mcrypt-enc-is-block-mode.md) - Verifica se o modo aberto produz blocos
+  - [mcrypt\_enc\_self\_test](function.mcrypt-enc-self-test.md) - Executa um autoteste no módulo aberto
+  - [mcrypt\_generic](function.mcrypt-generic.md) - Esta função criptografa dados
+  - [mcrypt\_generic\_deinit](function.mcrypt-generic-deinit.md) - Esta função desinicializa um módulo de criptografia
+  - [mcrypt\_generic\_init](function.mcrypt-generic-init.md) - Esta função inicializa todos os buffers necessários para criptografia
+  - [mcrypt\_get\_block\_size](function.mcrypt-get-block-size.md) - Obtém o tamanho do bloco da cifra especificada
+  - [mcrypt\_get\_cipher\_name](function.mcrypt-get-cipher-name.md) - Obtém o nome da cifra especificada
+  - [mcrypt\_get\_iv\_size](function.mcrypt-get-iv-size.md) - Retorna o tamanho do IV pertencente a uma combinação específica de cifra/modo
+  - [mcrypt\_get\_key\_size](function.mcrypt-get-key-size.md) - Obtém o tamanho da chave da cifra especificada
+  - [mcrypt\_list\_algorithms](function.mcrypt-list-algorithms.md) - Obtém um array de todas as cifras suportadas
+  - [mcrypt\_list\_modes](function.mcrypt-list-modes.md) - Obtém um array de todos os modos suportados
+  - [mcrypt\_module\_close](function.mcrypt-module-close.md) - Fecha o módulo mcrypt
+  - [mcrypt\_module\_get\_algo\_block\_size](function.mcrypt-module-get-algo-block-size.md) - Retorna o tamanho do bloco do algoritmo especificado
+  - [mcrypt\_module\_get\_algo\_key\_size](function.mcrypt-module-get-algo-key-size.md) - Retorna o tamanho máximo de chave suportado do modo aberto
+  - [mcrypt\_module\_get\_supported\_key\_sizes](function.mcrypt-module-get-supported-key-sizes.md) - Retorna um array com os tamanhos de chaves suportados do algoritmo aberto
+  - [mcrypt\_module\_is\_block\_algorithm](function.mcrypt-module-is-block-algorithm.md) - Esta função verifica se o algoritmo especificado é um algoritmo de bloco
+  - [mcrypt\_module\_is\_block\_algorithm\_mode](function.mcrypt-module-is-block-algorithm-mode.md) - Retorna se o módulo especificado é um algoritmo de bloco ou não
+  - [mcrypt\_module\_is\_block\_mode](function.mcrypt-module-is-block-mode.md) - Retorna se o modo especificado produz blocos ou não
+  - [mcrypt\_module\_open](function.mcrypt-module-open.md) - Abre o módulo do algoritmo e o modo a ser utilizado
+  - [mcrypt\_module\_self\_test](function.mcrypt-module-self-test.md) - Executa um autoteste no módulo especificado
+  - [md5](function.md5.md) - Calcula o hash md5 de uma string
+  - [md5\_file](function.md5-file.md) - Calcula o hash md5 de um arquivo
+  - [mdecrypt\_generic](function.mdecrypt-generic.md) - Descriptografa dados
+  - [Memcache::add](memcache.add.md) - Adiciona um item ao servidor
+  - [Memcache::addServer](memcache.addserver.md) - Adiciona um servidor memcached ao pool de conexão
+  - [Memcache::close](memcache.close.md) - Fecha a conexão do servidor memcached
+  - [Memcache::connect](memcache.connect.md) - Abre a conexão do servidor memcached
+  - [Memcache::decrement](memcache.decrement.md) - Decrementa o valor do item
+  - [Memcache::delete](memcache.delete.md) - Exclui item do servidor
+  - [Memcache::flush](memcache.flush.md) - Limpa todos os itens existentes no servidor
+  - [Memcache::get](memcache.get.md) - Recupera item do servidor
+  - [Memcache::getExtendedStats](memcache.getextendedstats.md) - Obtém estatísticas de todos os servidores no pool
+  - [Memcache::getServerStatus](memcache.getserverstatus.md) - Retorna o status do servidor
+  - [Memcache::getStats](memcache.getstats.md) - Obtém estatísticas do servidor
+  - [Memcache::getVersion](memcache.getversion.md) - Retorna a versão do servidor
+  - [Memcache::increment](memcache.increment.md) - Incrementa o valor do item
+  - [Memcache::pconnect](memcache.pconnect.md) - Abre conexão persistente do servidor memcached
+  - [Memcache::replace](memcache.replace.md) - Substitui o valor do item existente
+  - [Memcache::set](memcache.set.md) - Armazena dados no servidor
+  - [Memcache::setCompressThreshold](memcache.setcompressthreshold.md) - Habilita a compactação automática de valores grandes
+  - [Memcache::setServerParams](memcache.setserverparams.md) - Altera os parâmetros e o status do servidor em tempo de execução
+  - [Memcached::add](memcached.add.md) - Adiciona um item em uma nova key
+  - [Memcached::addByKey](memcached.addbykey.md) - Adiciona um item sob uma nova chave em um servidor específico
+  - [Memcached::addServer](memcached.addserver.md) - Adiciona um servidor ao pool de servidores
+  - [Memcached::addServers](memcached.addservers.md) - Adiciona múltiplos servidores ao pool de servidores
+  - [Memcached::append](memcached.append.md) - Anexa dados a um item existente
+  - [Memcached::appendByKey](memcached.appendbykey.md) - Anexa dados a um item existente em um servidor específico
+  - [Memcached::cas](memcached.cas.md) - Compara e troca um item
+  - [Memcached::casByKey](memcached.casbykey.md) - Compara e troca um item em um servidor específico
+  - [Memcached::decrement](memcached.decrement.md) - Decrementa o valor do item numérico
+  - [Memcached::decrementByKey](memcached.decrementbykey.md) - Decrementa o valor do item numérico, armazenado em um servidor específico
+  - [Memcached::delete](memcached.delete.md) - Remover um item
+  - [Memcached::deleteByKey](memcached.deletebykey.md) - Remover um item de um servidor específico
+  - [Memcached::deleteMulti](memcached.deletemulti.md) - Remover vários itens
+  - [Memcached::deleteMultiByKey](memcached.deletemultibykey.md) - Remover vários itens de um servidor específico
+  - [Memcached::fetch](memcached.fetch.md) - Busca o próximo resultado
+  - [Memcached::fetchAll](memcached.fetchall.md) - Busca todos os resultados restantes
+  - [Memcached::flush](memcached.flush.md) - Invalida todos os itens no cache
+  - [Memcached::get](memcached.get.md) - Recupera um item
+  - [Memcached::getAllKeys](memcached.getallkeys.md) - Obtém as chaves armazenadas em todos os servidores
+  - [Memcached::getByKey](memcached.getbykey.md) - Recupera item de um servidor específico
+  - [Memcached::getDelayed](memcached.getdelayed.md) - Solicita vários itens
+  - [Memcached::getDelayedByKey](memcached.getdelayedbykey.md) - Solicita vários itens de um servidor específico
+  - [Memcached::getMulti](memcached.getmulti.md) - Recupera vários itens
+  - [Memcached::getMultiByKey](memcached.getmultibykey.md) - Recupere vários itens de um servidor específico
+  - [Memcached::getOption](memcached.getoption.md) - Recupera um valor de opção do Memcached
+  - [Memcached::getResultCode](memcached.getresultcode.md) - Retorna o código de resultado da última operação
+  - [Memcached::getResultMessage](memcached.getresultmessage.md) - Retorna a mensagem descrevendo o resultado da última operação
+  - [Memcached::getServerByKey](memcached.getserverbykey.md) - Mapear uma chave para um servidor
+  - [Memcached::getServerList](memcached.getserverlist.md) - Obtenha a lista dos servidores no pool
+  - [Memcached::getStats](memcached.getstats.md) - Obtem estatísticas do pool de servidores
+  - [Memcached::getVersion](memcached.getversion.md) - Obtem informações da versão do pool de servidores
+  - [Memcached::increment](memcached.increment.md) - Incrementa o valor do item numérico
+  - [Memcached::incrementByKey](memcached.incrementbykey.md) - Incrementa o valor do item numérico, armazenado em um servidor específico
+  - [Memcached::isPersistent](memcached.ispersistent.md) - Verifica se uma conexão persistente com o memcache está sendo usada
+  - [Memcached::isPristine](memcached.ispristine.md) - Verifica se a instância foi criada recentemente
+  - [Memcached::prepend](memcached.prepend.md) - Anexa dados a um item existente
+  - [Memcached::prependByKey](memcached.prependbykey.md) - Anexa dados a um item existente em um servidor específico
+  - [Memcached::quit](memcached.quit.md) - Fecha todas as conexões abertas
+  - [Memcached::replace](memcached.replace.md) - Substitui o item em uma chave existente
+  - [Memcached::replaceByKey](memcached.replacebykey.md) - Substitua o item em uma chave existente em um servidor específico
+  - [Memcached::resetServerList](memcached.resetserverlist.md) - Limpa todos os servidores da lista de servidores
+  - [Memcached::set](memcached.set.md) - Armazena um item
+  - [Memcached::setByKey](memcached.setbykey.md) - Armazena um item em um servidor específico
+  - [Memcached::setEncodingKey](memcached.setencodingkey.md) - Define a chave de criptografia AES para dados no Memcached
+  - [Memcached::setMulti](memcached.setmulti.md) - Armazena vários itens
+  - [Memcached::setMultiByKey](memcached.setmultibykey.md) - Armazena vários itens em um servidor específico
+  - [Memcached::setOption](memcached.setoption.md) - Define uma opção Memcached
+  - [Memcached::setOptions](memcached.setoptions.md) - Define opções do Memcached
+  - [Memcached::setSaslAuthData](memcached.setsaslauthdata.md) - Define as credenciais a serem usadas para autenticação
+  - [Memcached::touch](memcached.touch.md) - Define uma nova expiração para um item
+  - [Memcached::touchByKey](memcached.touchbykey.md) - Define uma nova expiração para um item em um servidor específico
+  - [Memcached::\_\_construct](memcached.construct.md) - Cria uma instância do Memcached
+  - [memcache\_debug](function.memcache-debug.md) - Liga/desliga a saída de depuração
+  - [memory\_get\_peak\_usage](function.memory-get-peak-usage.md) - Retorna o pico de memória alocada pelo PHP
+  - [memory\_get\_usage](function.memory-get-usage.md) - Retorna a quantidade de memória alocada para o PHP
+  - [memory\_reset\_peak\_usage](function.memory-reset-peak-usage.md) - Redefine o pico de uso de memória
+  - [MessageFormatter::create](messageformatter.create.md) - Constrói um novo formatador de mensagem
+  - [MessageFormatter::format](messageformatter.format.md) - Formata a mensagem
+  - [MessageFormatter::formatMessage](messageformatter.formatmessage.md) - Formata uma mensagem rapidamente
+  - [MessageFormatter::getErrorCode](messageformatter.geterrorcode.md) - Obtém o código de erro da última operação
+  - [MessageFormatter::getErrorMessage](messageformatter.geterrormessage.md) - Obtém o texto do erro da última operação
+  - [MessageFormatter::getLocale](messageformatter.getlocale.md) - Obtém a localidade para a qual o formatador foi criado
+  - [MessageFormatter::getPattern](messageformatter.getpattern.md) - Obtém o modelo usado pelo formatador
+  - [MessageFormatter::parse](messageformatter.parse.md) - Interpreta a string de entrada de acordo com o modelo
+  - [MessageFormatter::parseMessage](messageformatter.parsemessage.md) - Interpreta rapidamente a string de entrada
+  - [MessageFormatter::setPattern](messageformatter.setpattern.md) - Define o modelo usado pelo formatador
+  - [metaphone](function.metaphone.md) - Calcula a chave de Metaphone de uma string
+  - [method\_exists](function.method-exists.md) - Verifica se o método da classe existe
+  - [mhash](function.mhash.md) - Computa a hash
+  - [mhash\_count](function.mhash-count.md) - Obtém o ID de hash mais alto disponível
+  - [mhash\_get\_block\_size](function.mhash-get-block-size.md) - Obtém o tamanho de bloco da hash especificada
+  - [mhash\_get\_hash\_name](function.mhash-get-hash-name.md) - Obtém o nome da hash especificada
+  - [mhash\_keygen\_s2k](function.mhash-keygen-s2k.md) - Gera uma chave
+  - [microtime](function.microtime.md) - Retorna o timestamp Unix atual com microssegundos
+  - [mime\_content\_type](function.mime-content-type.md) - Detecta o tipo de conteúdo MIME de um arquivo
+  - [min](function.min.md) - Encontra o menor valor
+  - [mkdir](function.mkdir.md) - Cria um diretório
+  - [mktime](function.mktime.md) - Obtém um timestamp Unix de uma data
+  - [money\_format](function.money-format.md) - Formata um número como uma string de moeda
+  - [MongoDB\BSON\Binary::fromVector](mongodb-bson-binary.fromvector.md) - Cria um novo binário com subtipo MongoDB\BSON\Binary::SUBTYPE\_VECTOR a partir de um array e do tipo de vetor
+  - [MongoDB\BSON\Binary::getData](mongodb-bson-binary.getdata.md) - Retorna os dados de Binary
+  - [MongoDB\BSON\Binary::getType](mongodb-bson-binary.gettype.md) - Retorna o tipo de Binary
+  - [MongoDB\BSON\Binary::getVectorType](mongodb-bson-binary.getvectortype.md) - Retorna o tipo de dados de um binário com o subtipo do vetor
+  - [MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Binary::toArray](mongodb-bson-binary.toarray.md) - Retorna o vetor como um array para um binário com subtipo MongoDB\BSON\Binary::SUBTYPE\_VECTOR
+  - [MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md) - Constrói um novo Binary
+  - [MongoDB\BSON\Binary::\_\_toString](mongodb-bson-binary.tostring.md) - Retorna string representando os dados de Binary
+  - [MongoDB\BSON\BinaryInterface::getData](mongodb-bson-binaryinterface.getdata.md) - Retorna os dados da BinaryInterface
+  - [MongoDB\BSON\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.md) - Retorna o tipo da BinaryInterface
+  - [MongoDB\BSON\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.md) - Retorna os dados da BinaryInterface
+  - [MongoDB\BSON\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\DBPointer::\_\_construct](mongodb-bson-dbpointer.construct.md) - Constrói um novo DBPointer (não utilizado)
+  - [MongoDB\BSON\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.md) - Retorna uma string vazia
+  - [MongoDB\BSON\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Decimal128::\_\_construct](mongodb-bson-decimal128.construct.md) - Constrói um novo Decimal128
+  - [MongoDB\BSON\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.md) - Retorna a representação em string deste Decimal128
+  - [MongoDB\BSON\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.md) - Retorna a representação em string deste Decimal128Interface
+  - [MongoDB\BSON\Document::fromBSON](mongodb-bson-document.frombson.md) - Constrói uma nova instância de documento a partir de uma string BSON
+  - [MongoDB\BSON\Document::fromJSON](mongodb-bson-document.fromjson.md) - Constrói uma nova instância de documento a partir de uma string JSON
+  - [MongoDB\BSON\Document::fromPHP](mongodb-bson-document.fromphp.md) - Constrói uma nova instância de documento a partir de dados PHP
+  - [MongoDB\BSON\Document::get](mongodb-bson-document.get.md) - Retorna o valor de uma chave no documento
+  - [MongoDB\BSON\Document::getIterator](mongodb-bson-document.getiterator.md) - Retorna um iterador para o documento BSON
+  - [MongoDB\BSON\Document::has](mongodb-bson-document.has.md) - Informa se uma chave está presente no documento
+  - [MongoDB\BSON\Document::offsetExists](mongodb-bson-document.offsetexists.md) - Informa se uma chave está presente no documento
+  - [MongoDB\BSON\Document::offsetGet](mongodb-bson-document.offsetget.md) - Retorna o valor de uma chave no documento
+  - [MongoDB\BSON\Document::offsetSet](mongodb-bson-document.offsetset.md) - Implementação de ArrayAccess
+  - [MongoDB\BSON\Document::offsetUnset](mongodb-bson-document.offsetunset.md) - Implementação de ArrayAccess
+  - [MongoDB\BSON\Document::toCanonicalExtendedJSON](mongodb-bson-document.tocanonicalextendedjson.md) - Retorna a representação JSON estendida canônica do documento BSON
+  - [MongoDB\BSON\Document::toPHP](mongodb-bson-document.tophp.md) - Retorna a representação PHP do documento BSON
+  - [MongoDB\BSON\Document::toRelaxedExtendedJSON](mongodb-bson-document.torelaxedextendedjson.md) - Retorna a representação JSON Estentida Relaxada do documento BSON
+  - [MongoDB\BSON\Document::\_\_construct](mongodb-bson-document.construct.md) - Constrói um novo documento BSON (não utilizado)
+  - [MongoDB\BSON\Document::\_\_toString](mongodb-bson-document.tostring.md) - Retorna a representação em string deste documento BSON
+  - [MongoDB\BSON\fromJSON](function.mongodb.bson-fromjson.md) - Retorna a representação BSON de um valor JSON
+  - [MongoDB\BSON\fromPHP](function.mongodb.bson-fromphp.md) - Retorna a representação BSON de um valor PHP
+  - [MongoDB\BSON\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Int64::\_\_construct](mongodb-bson-int64.construct.md) - Constrói um novo Int64
+  - [MongoDB\BSON\Int64::\_\_toString](mongodb-bson-int64.tostring.md) - Retorna a representação em string deste Int64
+  - [MongoDB\BSON\Iterator::current](mongodb-bson-iterator.current.md) - Retorna o elemento atual
+  - [MongoDB\BSON\Iterator::key](mongodb-bson-iterator.key.md) - Retorna a chave do elemento atual
+  - [MongoDB\BSON\Iterator::next](mongodb-bson-iterator.next.md) - Avança o iterador para o próximo elemento
+  - [MongoDB\BSON\Iterator::rewind](mongodb-bson-iterator.rewind.md) - Retrocede o iterador para o primeiro elemento
+  - [MongoDB\BSON\Iterator::valid](mongodb-bson-iterator.valid.md) - Verifica se a posição atual é válida
+  - [MongoDB\BSON\Iterator::\_\_construct](mongodb-bson-iterator.construct.md) - Constrói um novo iterador BSON (não utilizado)
+  - [MongoDB\BSON\Javascript::getCode](mongodb-bson-javascript.getcode.md) - Retorna o código do Javascript
+  - [MongoDB\BSON\Javascript::getScope](mongodb-bson-javascript.getscope.md) - Retorna o documento de escopo do Javascript
+  - [MongoDB\BSON\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Javascript::\_\_construct](mongodb-bson-javascript.construct.md) - Constrói um novo Javascript
+  - [MongoDB\BSON\Javascript::\_\_toString](mongodb-bson-javascript.tostring.md) - Retorna o código do Javascript
+  - [MongoDB\BSON\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md) - Retorna o código da JavascriptInterface
+  - [MongoDB\BSON\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md) - Retorna o documento de escopo da JavascriptInterface
+  - [MongoDB\BSON\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.md) - Retorna o código da JavascriptInterface
+  - [MongoDB\BSON\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\MaxKey::\_\_construct](mongodb-bson-maxkey.construct.md) - Constrói um novo MaxKey
+  - [MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\MinKey::\_\_construct](mongodb-bson-minkey.construct.md) - Constrói um novo MinKey
+  - [MongoDB\BSON\ObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.md) - Retorna o componente timestamp deste ObjectId
+  - [MongoDB\BSON\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md) - Constrói um novo ObjectId
+  - [MongoDB\BSON\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.md) - Retorna a representação hexadecimal deste ObjectId
+  - [MongoDB\BSON\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.md) - etorna o componente timestamp deste ObjectIdInterface
+  - [MongoDB\BSON\ObjectIdInterface::\_\_toString](mongodb-bson-objectidinterface.tostring.md) - Retorna a representação hexadecimal deste ObjectIdInterface
+  - [MongoDB\BSON\PackedArray::fromJSON](mongodb-bson-packedarray.fromjson.md) - Constrói uma nova instância de array BSON a partir de uma string JSON
+  - [MongoDB\BSON\PackedArray::fromPHP](mongodb-bson-packedarray.fromphp.md) - Constrói uma nova instância de array BSON a partir de dados PHP
+  - [MongoDB\BSON\PackedArray::get](mongodb-bson-packedarray.get.md) - Retorna o valor de um índice do array
+  - [MongoDB\BSON\PackedArray::getIterator](mongodb-bson-packedarray.getiterator.md) - Retorna um iterador para o array BSON
+  - [MongoDB\BSON\PackedArray::has](mongodb-bson-packedarray.has.md) - Informa se um índice está presente no array
+  - [MongoDB\BSON\PackedArray::offsetExists](mongodb-bson-packedarray.offsetexists.md) - Informa se um índice está presente no array
+  - [MongoDB\BSON\PackedArray::offsetGet](mongodb-bson-packedarray.offsetget.md) - Retorna o valor de um índice do array
+  - [MongoDB\BSON\PackedArray::offsetSet](mongodb-bson-packedarray.offsetset.md) - Implementação de ArrayAccess
+  - [MongoDB\BSON\PackedArray::offsetUnset](mongodb-bson-packedarray.offsetunset.md) - Implementação de ArrayAccess
+  - [MongoDB\BSON\PackedArray::toCanonicalExtendedJSON](mongodb-bson-packedarray.tocanonicalextendedjson.md) - Retorna a representação JSON Estendida Canônica do array BSON
+  - [MongoDB\BSON\PackedArray::toPHP](mongodb-bson-packedarray.tophp.md) - Retorna a representação PHP do array BSON
+  - [MongoDB\BSON\PackedArray::toRelaxedExtendedJSON](mongodb-bson-packedarray.torelaxedextendedjson.md) - Retorna a representação JSON estendida relaxada do array BSON
+  - [MongoDB\BSON\PackedArray::\_\_construct](mongodb-bson-packedarray.construct.md) - Constrói um novo array BSON (não utilizado)
+  - [MongoDB\BSON\PackedArray::\_\_toString](mongodb-bson-packedarray.tostring.md) - Retorna a representação em string deste array BSON
+  - [MongoDB\BSON\Persistable::bsonSerialize](mongodb-bson-persistable.bsonserialize.md) - Fornece um array ou documento para serializar como BSON
+  - [MongoDB\BSON\Regex::getFlags](mongodb-bson-regex.getflags.md) - Retorna as opções de Regex
+  - [MongoDB\BSON\Regex::getPattern](mongodb-bson-regex.getpattern.md) - Retorna a expressão regular de Regex
+  - [MongoDB\BSON\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Regex::\_\_construct](mongodb-bson-regex.construct.md) - Constrói um novo Regex
+  - [MongoDB\BSON\Regex::\_\_toString](mongodb-bson-regex.tostring.md) - Retorna a representação em string deste Regex
+  - [MongoDB\BSON\RegexInterface::getFlags](mongodb-bson-regexinterface.getflags.md) - Retorna as opções de RegexInterface
+  - [MongoDB\BSON\RegexInterface::getPattern](mongodb-bson-regexinterface.getpattern.md) - Retorna a expressão regular de RegexInterface
+  - [MongoDB\BSON\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.md) - Retorna a representação em string deste RegexInterface
+  - [MongoDB\BSON\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md) - Fornece um array ou documento para serializar como BSON
+  - [MongoDB\BSON\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Symbol::\_\_construct](mongodb-bson-symbol.construct.md) - Constrói um novo Symbol (não utilizado)
+  - [MongoDB\BSON\Symbol::\_\_toString](mongodb-bson-symbol.tostring.md) - Retorna o Symbol como uma string
+  - [MongoDB\BSON\Timestamp::getIncrement](mongodb-bson-timestamp.getincrement.md) - Retorna o componente de incremento deste Timestamp
+  - [MongoDB\BSON\Timestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.md) - Retorna o componente de timestamp deste Timestamp
+  - [MongoDB\BSON\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Timestamp::\_\_construct](mongodb-bson-timestamp.construct.md) - Constrói um novo Timestamp
+  - [MongoDB\BSON\Timestamp::\_\_toString](mongodb-bson-timestamp.tostring.md) - Retorna a representação em string deste Timestamp
+  - [MongoDB\BSON\TimestampInterface::getIncrement](mongodb-bson-timestampinterface.getincrement.md) - Retorna o componente de incremento deste TimestampInterface
+  - [MongoDB\BSON\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md) - Retorna o componente de timestamp deste TimestampInterface
+  - [MongoDB\BSON\TimestampInterface::\_\_toString](mongodb-bson-timestampinterface.tostring.md) - Retorna a representação em string deste TimestampInterface
+  - [MongoDB\BSON\toCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.md) - Retorna a representação JSON Estendida Canônica de um valor BSON
+  - [MongoDB\BSON\toJSON](function.mongodb.bson-tojson.md) - Retorna a representação JSON Estendida Legada de um valor BSON
+  - [MongoDB\BSON\toPHP](function.mongodb.bson-tophp.md) - Retorna a representação PHP de um valor BSON
+  - [MongoDB\BSON\toRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.md) - Retorna a representação JSON Estendida Relaxada de um valor BSON
+  - [MongoDB\BSON\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\Undefined::\_\_construct](mongodb-bson-undefined.construct.md) - Constrói um novo Undefined (não utilizado)
+  - [MongoDB\BSON\Undefined::\_\_toString](mongodb-bson-undefined.tostring.md) - Retorna uma string vazia
+  - [MongoDB\BSON\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.md) - Constrói o objeto a partir de um array ou documento BSON
+  - [MongoDB\BSON\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md) - Retorna uma representação que pode ser convertida para JSON
+  - [MongoDB\BSON\UTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.md) - Retorna a representação em DateTime deste UTCDateTime
+  - [MongoDB\BSON\UTCDateTime::toDateTimeImmutable](mongodb-bson-utcdatetime.todatetimeimmutable.md) - Retorna a representação em DateTimeImmutable deste UTCDateTime
+  - [MongoDB\BSON\UTCDateTime::\_\_construct](mongodb-bson-utcdatetime.construct.md) - Constrói um novo UTCDateTime
+  - [MongoDB\BSON\UTCDateTime::\_\_toString](mongodb-bson-utcdatetime.tostring.md) - Retorna a representação em string deste UTCDateTime
+  - [MongoDB\BSON\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md) - Retorna a representação em DateTime deste UTCDateTimeInterface
+  - [MongoDB\BSON\UTCDateTimeInterface::toDateTimeImmutable](mongodb-bson-utcdatetimeinterface.todatetimeimmutable.md) - Retorna a representação DateTimeImmutable desta UTCDateTimeInterface
+  - [MongoDB\BSON\UTCDateTimeInterface::\_\_toString](mongodb-bson-utcdatetimeinterface.tostring.md) - Retorna a representação em string deste UTCDateTimeInterface
+  - [MongoDB\Driver\BulkWrite::count](mongodb-driver-bulkwrite.count.md) - Conta o número de operações de escrita em massa
+  - [MongoDB\Driver\BulkWrite::delete](mongodb-driver-bulkwrite.delete.md) - Adiciona uma operação de remoção ao objeto de escrita em massa
+  - [MongoDB\Driver\BulkWrite::insert](mongodb-driver-bulkwrite.insert.md) - Adiciona uma operação de inserção ao objeto de escrita em massa
+  - [MongoDB\Driver\BulkWrite::update](mongodb-driver-bulkwrite.update.md) - Adiciona uma operação de atualização ao objeto de escrita em massa
+  - [MongoDB\Driver\BulkWrite::\_\_construct](mongodb-driver-bulkwrite.construct.md) - Cria um novo BulkWrite
+  - [MongoDB\Driver\BulkWriteCommand::count](mongodb-driver-bulkwritecommand.count.md) - Conta o número de operações de gravação no BulkWriteCommand
+  - [MongoDB\Driver\BulkWriteCommand::deleteMany](mongodb-driver-bulkwritecommand.deletemany.md) - Adiciona uma operação deleteMany
+  - [MongoDB\Driver\BulkWriteCommand::deleteOne](mongodb-driver-bulkwritecommand.deleteone.md) - Adiciona uma operação deleteOne
+  - [MongoDB\Driver\BulkWriteCommand::insertOne](mongodb-driver-bulkwritecommand.insertone.md) - Adiciona uma operação insertOne
+  - [MongoDB\Driver\BulkWriteCommand::replaceOne](mongodb-driver-bulkwritecommand.replaceone.md) - Adiciona uma operação replaceOne
+  - [MongoDB\Driver\BulkWriteCommand::updateMany](mongodb-driver-bulkwritecommand.updatemany.md) - Adiciona uma operação updateMany
+  - [MongoDB\Driver\BulkWriteCommand::updateOne](mongodb-driver-bulkwritecommand.updateone.md) - Adiciona uma operação updateOne
+  - [MongoDB\Driver\BulkWriteCommand::\_\_construct](mongodb-driver-bulkwritecommand.construct.md) - Cria um novo BulkWriteCommand
+  - [MongoDB\Driver\BulkWriteCommandResult::getDeletedCount](mongodb-driver-bulkwritecommandresult.getdeletedcount.md) - Retorna o número de documentos excluídos
+  - [MongoDB\Driver\BulkWriteCommandResult::getDeleteResults](mongodb-driver-bulkwritecommandresult.getdeleteresults.md) - Retorna resultados detalhados para exclusões bem-sucedidas
+  - [MongoDB\Driver\BulkWriteCommandResult::getInsertedCount](mongodb-driver-bulkwritecommandresult.getinsertedcount.md) - Retorna o número de documentos inseridos
+  - [MongoDB\Driver\BulkWriteCommandResult::getInsertResults](mongodb-driver-bulkwritecommandresult.getinsertresults.md) - Retorna resultados detalhados para inserções bem-sucedidas
+  - [MongoDB\Driver\BulkWriteCommandResult::getMatchedCount](mongodb-driver-bulkwritecommandresult.getmatchedcount.md) - Retorna o número de documentos selecionados para atualização
+  - [MongoDB\Driver\BulkWriteCommandResult::getModifiedCount](mongodb-driver-bulkwritecommandresult.getmodifiedcount.md) - Retorna o número de documentos existentes atualizados
+  - [MongoDB\Driver\BulkWriteCommandResult::getUpdateResults](mongodb-driver-bulkwritecommandresult.getupdateresults.md) - Retorna resultados detalhados para atualizações bem-sucedidas
+  - [MongoDB\Driver\BulkWriteCommandResult::getUpsertedCount](mongodb-driver-bulkwritecommandresult.getupsertedcount.md) - Retorna o número de documentos inseridos ou atualizados
+  - [MongoDB\Driver\BulkWriteCommandResult::isAcknowledged](mongodb-driver-bulkwritecommandresult.isacknowledged.md) - Retorna se a gravação foi reconhecida
+  - [MongoDB\Driver\ClientEncryption::addKeyAltName](mongodb-driver-clientencryption.addkeyaltname.md) - Adiciona um nome alternativo a um documento de chave
+  - [MongoDB\Driver\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.md) - Cria um documento de chave
+  - [MongoDB\Driver\ClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.md) - Descriptografa um valor
+  - [MongoDB\Driver\ClientEncryption::deleteKey](mongodb-driver-clientencryption.deletekey.md) - Exclui um documento de chave
+  - [MongoDB\Driver\ClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.md) - Criptografa um valor
+  - [MongoDB\Driver\ClientEncryption::encryptExpression](mongodb-driver-clientencryption.encryptexpression.md) - Criptografa uma expressão de correspondência ou de agregação
+  - [MongoDB\Driver\ClientEncryption::getKey](mongodb-driver-clientencryption.getkey.md) - Obtém um documento de chave
+  - [MongoDB\Driver\ClientEncryption::getKeyByAltName](mongodb-driver-clientencryption.getkeybyaltname.md) - Obtém um de documento chave com um nome alternativo
+  - [MongoDB\Driver\ClientEncryption::getKeys](mongodb-driver-clientencryption.getkeys.md) - Obtém todos os documentos de chave
+  - [MongoDB\Driver\ClientEncryption::removeKeyAltName](mongodb-driver-clientencryption.removekeyaltname.md) - Remove um nome alternativo de um documento de chave
+  - [MongoDB\Driver\ClientEncryption::rewrapManyDataKey](mongodb-driver-clientencryption.rewrapmanydatakey.md) - Reencapsula chaves de dados
+  - [MongoDB\Driver\ClientEncryption::\_\_construct](mongodb-driver-clientencryption.construct.md) - Cria um novo objeto ClientEncryption
+  - [MongoDB\Driver\Command::\_\_construct](mongodb-driver-command.construct.md) - Cria um novo comando
+  - [MongoDB\Driver\Cursor::current](mongodb-driver-cursor.current.md) - Retorna o elemento atual
+  - [MongoDB\Driver\Cursor::getId](mongodb-driver-cursor.getid.md) - Retorna o ID para este cursor
+  - [MongoDB\Driver\Cursor::getServer](mongodb-driver-cursor.getserver.md) - Retorna o servidor associado a este cursor
+  - [MongoDB\Driver\Cursor::isDead](mongodb-driver-cursor.isdead.md) - Verifica se o cursor está esgotado ou pode ter resultados adicionais
+  - [MongoDB\Driver\Cursor::key](mongodb-driver-cursor.key.md) - Retorna o índice do resultado atual dentro do cursor
+  - [MongoDB\Driver\Cursor::next](mongodb-driver-cursor.next.md) - Avança o cursor para o próximo resultado
+  - [MongoDB\Driver\Cursor::rewind](mongodb-driver-cursor.rewind.md) - Retrocede o cursor para o primeiro resultado
+  - [MongoDB\Driver\Cursor::setTypeMap](mongodb-driver-cursor.settypemap.md) - Define um mapa de tipos a ser usado para desserialização BSON
+  - [MongoDB\Driver\Cursor::toArray](mongodb-driver-cursor.toarray.md) - Retorna um array contendo todos os resultados deste cursor
+  - [MongoDB\Driver\Cursor::valid](mongodb-driver-cursor.valid.md) - Verifica se a posição atual no cursor é válida
+  - [MongoDB\Driver\Cursor::\_\_construct](mongodb-driver-cursor.construct.md) - Cria um novo cursor (não utilizado)
+  - [MongoDB\Driver\CursorId::\_\_construct](mongodb-driver-cursorid.construct.md) - Constrói um novo ID de cursor (não utilizado)
+  - [MongoDB\Driver\CursorId::\_\_toString](mongodb-driver-cursorid.tostring.md) - Representação string do ID de cursor
+  - [MongoDB\Driver\CursorInterface::getId](mongodb-driver-cursorinterface.getid.md) - Retorna o ID deste cursor
+  - [MongoDB\Driver\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md) - Retorna o servidor associado a este cursor
+  - [MongoDB\Driver\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md) - Verifica se o cursor pode ter resultados adicionais
+  - [MongoDB\Driver\CursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md) - Define um mapa de tipos a ser usado para desserialização BSON
+  - [MongoDB\Driver\CursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md) - Retorna um array contendo todos os resultados deste cursor
+  - [MongoDB\Driver\Exception\BulkWriteCommandException::getErrorReply](mongodb-driver-bulkwritecommandexception.geterrorreply.md) - Retorna qualquer erro de comando de nível superior
+  - [MongoDB\Driver\Exception\BulkWriteCommandException::getPartialResult](mongodb-driver-bulkwritecommandexception.getpartialresult.md) - Retorna o resultado de qualquer operação de gravação bem-sucedida
+  - [MongoDB\Driver\Exception\BulkWriteCommandException::getWriteConcernErrors](mongodb-driver-bulkwritecommandexception.getwriteconcernerrors.md) - Retorna quaisquer erros de preocupação de gravação
+  - [MongoDB\Driver\Exception\BulkWriteCommandException::getWriteErrors](mongodb-driver-bulkwritecommandexception.getwriteerrors.md) - Retorna quaisquer erros de gravação
+  - [MongoDB\Driver\Exception\BulkWriteException::getWriteResult](mongodb-driver-bulkwriteexception.getwriteresult.md) - Retorna o WriteResult para a operação de escrita com falha
+  - [MongoDB\Driver\Exception\CommandException::getResultDocument](mongodb-driver-commandexception.getresultdocument.md) - Retorna o documento de resultado do comando com falha
+  - [MongoDB\Driver\Exception\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md) - Retorna se um rótulo de erro está associado a uma exceção
+  - [MongoDB\Driver\Exception\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md) - Retorna o WriteResult da operação de gravação com falha
+  - [MongoDB\Driver\Manager::addSubscriber](mongodb-driver-manager.addsubscriber.md) - Inscreve um assinante de evento de monitoramento com este gerenciador
+  - [MongoDB\Driver\Manager::createClientEncryption](mongodb-driver-manager.createclientencryption.md) - Cria um novo objeto ClientEncryption
+  - [MongoDB\Driver\Manager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.md) - Executa uma ou mais operações de escrita
+  - [MongoDB\Driver\Manager::executeBulkWriteCommand](mongodb-driver-manager.executebulkwritecommand.md) - Executa operações de gravação usando o comando bulkWrite
+  - [MongoDB\Driver\Manager::executeCommand](mongodb-driver-manager.executecommand.md) - Executa um comando de banco de dados
+  - [MongoDB\Driver\Manager::executeQuery](mongodb-driver-manager.executequery.md) - Executa uma consulta ao banco de dados
+  - [MongoDB\Driver\Manager::executeReadCommand](mongodb-driver-manager.executereadcommand.md) - Executa um comando de banco de dados que faz leitura
+  - [MongoDB\Driver\Manager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md) - Executa um comando de banco de dados que lê e grava
+  - [MongoDB\Driver\Manager::executeWriteCommand](mongodb-driver-manager.executewritecommand.md) - Executa um comando de banco de dados que escreve
+  - [MongoDB\Driver\Manager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.md) - Retorna a opção de mapa de campos critografados da criptografia automática para o gerenciador
+  - [MongoDB\Driver\Manager::getReadConcern](mongodb-driver-manager.getreadconcern.md) - Retorna a preocupação de leitura para o gerenciador
+  - [MongoDB\Driver\Manager::getReadPreference](mongodb-driver-manager.getreadpreference.md) - Retorna a preferência de leitura para o gerenciador
+  - [MongoDB\Driver\Manager::getServers](mongodb-driver-manager.getservers.md) - Retorna os servidores aos quais este gerenciador está conectado
+  - [MongoDB\Driver\Manager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md) - Retorna a procupação de gravação para o gerenciador
+  - [MongoDB\Driver\Manager::removeSubscriber](mongodb-driver-manager.removesubscriber.md) - Cancela o registro de um assinante de evento de monitoramento com este gerenciador
+  - [MongoDB\Driver\Manager::selectServer](mongodb-driver-manager.selectserver.md) - Seleciona um servidor que corresponde a uma preferência de leitura
+  - [MongoDB\Driver\Manager::startSession](mongodb-driver-manager.startsession.md) - Inicia uma nova sessão de cliente para uso com este cliente
+  - [MongoDB\Driver\Manager::\_\_construct](mongodb-driver-manager.construct.md) - Cria um novo gerenciador MongoDB
+  - [MongoDB\Driver\Monitoring\addSubscriber](function.mongodb.driver.monitoring.addsubscriber.md) - Registra um assinante de evento de monitoramento globalmente
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName](mongodb-driver-monitoring-commandfailedevent.getcommandname.md) - Retorna o nome do comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getDatabaseName](mongodb-driver-monitoring-commandfailedevent.getdatabasename.md) - Retorna o banco de dados no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md) - Retorna a duração do comando em microssegundos
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getError](mongodb-driver-monitoring-commandfailedevent.geterror.md) - Retorna a exceção associada ao comando com falha
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getHost](mongodb-driver-monitoring-commandfailedevent.gethost.md) - Retorna o nome do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId](mongodb-driver-monitoring-commandfailedevent.getoperationid.md) - Retorna o ID da operação do comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getPort](mongodb-driver-monitoring-commandfailedevent.getport.md) - Retorna a porta do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getReply](mongodb-driver-monitoring-commandfailedevent.getreply.md) - Retorna o documento de resposta do comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId](mongodb-driver-monitoring-commandfailedevent.getrequestid.md) - Retorna o ID da solicitação do comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getServer](mongodb-driver-monitoring-commandfailedevent.getserver.md) - Retorna o servidor no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md) - Retorna o ID de conexão do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandFailedEvent::getServiceId](mongodb-driver-monitoring-commandfailedevent.getserviceid.md) - Retorna o ID de serviço do balanceador de carga para o comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand](mongodb-driver-monitoring-commandstartedevent.getcommand.md) - Retorna o documento de comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getCommandName](mongodb-driver-monitoring-commandstartedevent.getcommandname.md) - Retorna o nome do comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName](mongodb-driver-monitoring-commandstartedevent.getdatabasename.md) - Retorna o banco de dados no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getHost](mongodb-driver-monitoring-commandstartedevent.gethost.md) - Retorna o nome do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.md) - Retorna o ID da operação do comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getPort](mongodb-driver-monitoring-commandstartedevent.getport.md) - Retorna a porta do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) - Retorna o ID da solicitação do comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getServer](mongodb-driver-monitoring-commandstartedevent.getserver.md) - Retorna o servidor no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getServerConnectionId](mongodb-driver-monitoring-commandstartedevent.getserverconnectionid.md) - Retorna o ID de conexão do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandStartedEvent::getServiceId](mongodb-driver-monitoring-commandstartedevent.getserviceid.md) - Retorna o ID de serviço do balanceador de carga para o comando
+  - [MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.md) - Método de notificação para um comando falhado
+  - [MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted](mongodb-driver-monitoring-commandsubscriber.commandstarted.md) - Método de notificação para um comando iniciado
+  - [MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md) - Método de notificação para um comando bem-sucedido
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getCommandName](mongodb-driver-monitoring-commandsucceededevent.getcommandname.md) - Retorna o nome do comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getDatabaseName](mongodb-driver-monitoring-commandsucceededevent.getdatabasename.md) - Retorna o banco de dados no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros](mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md) - Retorna a duração do comando em microssegundos
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getHost](mongodb-driver-monitoring-commandsucceededevent.gethost.md) - Retorna o nome do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getOperationId](mongodb-driver-monitoring-commandsucceededevent.getoperationid.md) - Retorna o ID da operação do comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getPort](mongodb-driver-monitoring-commandsucceededevent.getport.md) - Retorna a porta do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.md) - Retorna o documento de resposta do comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId](mongodb-driver-monitoring-commandsucceededevent.getrequestid.md) - Retorna o ID da solicitação do comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer](mongodb-driver-monitoring-commandsucceededevent.getserver.md) - Retorna o servidor no qual o comando foi executado
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId](mongodb-driver-monitoring-commandsucceededevent.getserverconnectionid.md) - Retorna o ID de conexão do servidor para o comando
+  - [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.md) - Retorna o ID de serviço do balanceador de carga para o comando
+  - [MongoDB\Driver\Monitoring\LogSubscriber::log](mongodb-driver-monitoring-logsubscriber.log.md) - Método de notificação para uma mensagem de registro
+  - [MongoDB\Driver\Monitoring\removeSubscriber](function.mongodb.driver.monitoring.removesubscriber.md) - Cancela o registro de um assinante de evento de monitoramento globalmente
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md) - Método de notificação para uma alteração na descrição do servidor
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md) - Método de notificação para fechamendo de um servidor
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md) - Método de notificação para uma pulsação do servidor com falha
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md) - Método de notificação para uma pulsação de servidor iniciada
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md) - Método de notificação para uma pulsação do servidor bem-sucedida
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md) - Método de notificação para abertura de um servidor
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged](mongodb-driver-monitoring-sdamsubscriber.topologychanged.md) - Método de notificação para uma alteração na descrição da topologia
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md) - Método de notificação para fechamento de topologia
+  - [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md) - Método de notificação para abrertura de topologia
+  - [MongoDB\Driver\Monitoring\ServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.md) - Retorna a nova descrição do servidor
+  - [MongoDB\Driver\Monitoring\ServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescription](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md) - Retorna a descrição anterior do servidor
+  - [MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId](mongodb-driver-monitoring-serverchangedevent.gettopologyid.md) - Retorna o ID da topologia associada a este servidor
+  - [MongoDB\Driver\Monitoring\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md) - Retorna o ID da topologia associada a este servidor
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md) - Retorna a duração da pulsação cardíaco em microssegundos
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md) - Retorna a exceção associada à pulsação com falha
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getHost](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md) - Retorna se a pulsação usou um protocolo de fluxo
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md) - Retorna se a pulsação usou um protocolo de fluxo
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.md) - Retorna a duração da pulsação cardíaco em microssegundos
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md) - Retorna o documento de resposta da pulsação
+  - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md) - Retorna se a pulsação usou um protocolo de fluxo
+  - [MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost](mongodb-driver-monitoring-serveropeningevent.gethost.md) - Retorna o nome do host do servidor
+  - [MongoDB\Driver\Monitoring\ServerOpeningEvent::getPort](mongodb-driver-monitoring-serveropeningevent.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md) - Retorna o ID da topologia associada a este servidor
+  - [MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription](mongodb-driver-monitoring-topologychangedevent.getnewdescription.md) - Retorna a nova descrição da topologia
+  - [MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescription](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md) - Retorna a descrição anterior da topologia
+  - [MongoDB\Driver\Monitoring\TopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md) - Retorna o ID da topologia
+  - [MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId](mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md) - Retorna o ID da topologia
+  - [MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md) - Retorna o ID da topologia
+  - [MongoDB\Driver\Query::\_\_construct](mongodb-driver-query.construct.md) - Constrói uma nova consulta
+  - [MongoDB\Driver\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md) - Retorna um objeto para serialização BSON
+  - [MongoDB\Driver\ReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md) - Retorna o nível da preocupação de leitura
+  - [MongoDB\Driver\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md) - Verifica se esta é a preocupação de leitura padrão
+  - [MongoDB\Driver\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.md) - Cria uma nova preocupação de leitura
+  - [MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md) - Retorna um objeto para serialização BSON
+  - [MongoDB\Driver\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md) - Retorna a opção "hedge" do ReadPreference
+  - [MongoDB\Driver\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md) - Retorna a opção "maxStalenessSeconds" do ReadPreference
+  - [MongoDB\Driver\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md) - Retorna a opção "mode" do ReadPreference
+  - [MongoDB\Driver\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md) - Retorna a opção "mode" do ReadPreference
+  - [MongoDB\Driver\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md) - Retorna a opção "tagSets" do ReadPreference
+  - [MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md) - Cria uma nova preferência de leitura
+  - [MongoDB\Driver\Server::executeBulkWrite](mongodb-driver-server.executebulkwrite.md) - Executa uma ou mais operações de gravação neste servidor
+  - [MongoDB\Driver\Server::executeBulkWriteCommand](mongodb-driver-server.executebulkwritecommand.md) - Executa operações de gravação neste servidor usando o comando bulkWrite
+  - [MongoDB\Driver\Server::executeCommand](mongodb-driver-server.executecommand.md) - Executa um comando de banco de dados neste servidor
+  - [MongoDB\Driver\Server::executeQuery](mongodb-driver-server.executequery.md) - Executa uma consulta de banco de dados neste servidor
+  - [MongoDB\Driver\Server::executeReadCommand](mongodb-driver-server.executereadcommand.md) - Executa um comando de banco de dados que lê neste servidor
+  - [MongoDB\Driver\Server::executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.md) - Executa um comando de banco de dados que lê e grava neste servidor
+  - [MongoDB\Driver\Server::executeWriteCommand](mongodb-driver-server.executewritecommand.md) - Executa um comando de banco de dados que grava neste servidor
+  - [MongoDB\Driver\Server::getHost](mongodb-driver-server.gethost.md) - Retorna o nome do host deste servidor
+  - [MongoDB\Driver\Server::getInfo](mongodb-driver-server.getinfo.md) - Retorna um array de informações que descrevem este servidor
+  - [MongoDB\Driver\Server::getLatency](mongodb-driver-server.getlatency.md) - Retorna a latência deste servidor em milissegundos
+  - [MongoDB\Driver\Server::getPort](mongodb-driver-server.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\Server::getServerDescription](mongodb-driver-server.getserverdescription.md) - Retorna uma descrição para este servidor
+  - [MongoDB\Driver\Server::getTags](mongodb-driver-server.gettags.md) - Retorna um array de tags que descrevem este servidor em um conjunto de réplicas
+  - [MongoDB\Driver\Server::getType](mongodb-driver-server.gettype.md) - Retorna um número inteiro denotando o tipo deste servidor
+  - [MongoDB\Driver\Server::isArbiter](mongodb-driver-server.isarbiter.md) - Verifica se este servidor é um membro árbitro de um conjunto de réplicas
+  - [MongoDB\Driver\Server::isHidden](mongodb-driver-server.ishidden.md) - Verifica se este servidor é um membro oculto de um conjunto de réplicas
+  - [MongoDB\Driver\Server::isPassive](mongodb-driver-server.ispassive.md) - Verifica se este servidor é um membro passivo de um conjunto de réplicas
+  - [MongoDB\Driver\Server::isPrimary](mongodb-driver-server.isprimary.md) - Verifica se este servidor é um membro primário de um conjunto de réplicas
+  - [MongoDB\Driver\Server::isSecondary](mongodb-driver-server.issecondary.md) - Verifica se este servidor é um membro secundário de um conjunto de réplicas
+  - [MongoDB\Driver\Server::\_\_construct](mongodb-driver-server.construct.md) - Cria um novo servidor (não utilizado)
+  - [MongoDB\Driver\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md) - Retorna um objeto para serialização BSON
+  - [MongoDB\Driver\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.md) - Cria uma nova instância de ServerApi
+  - [MongoDB\Driver\ServerDescription::getHelloResponse](mongodb-driver-serverdescription.gethelloresponse.md) - Retorna a resposta "hello" mais recente do servidor
+  - [MongoDB\Driver\ServerDescription::getHost](mongodb-driver-serverdescription.gethost.md) - Retorna o nome do host deste servidor
+  - [MongoDB\Driver\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md) - Retorna o horário da última atualização do servidor em microssegundos
+  - [MongoDB\Driver\ServerDescription::getPort](mongodb-driver-serverdescription.getport.md) - Retorna a porta na qual este servidor está escutando
+  - [MongoDB\Driver\ServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.md) - Retorna o tempo de ida e volta do servidor em milissegundos
+  - [MongoDB\Driver\ServerDescription::getType](mongodb-driver-serverdescription.gettype.md) - Retorna uma string denotando o tipo deste servidor
+  - [MongoDB\Driver\Session::abortTransaction](mongodb-driver-session.aborttransaction.md) - Aborta uma transação
+  - [MongoDB\Driver\Session::advanceClusterTime](mongodb-driver-session.advanceclustertime.md) - Avança o tempo do cluster para esta sessão
+  - [MongoDB\Driver\Session::advanceOperationTime](mongodb-driver-session.advanceoperationtime.md) - Avança o tempo de operação desta sessão
+  - [MongoDB\Driver\Session::commitTransaction](mongodb-driver-session.committransaction.md) - Confirma uma transação
+  - [MongoDB\Driver\Session::endSession](mongodb-driver-session.endsession.md) - Termina uma sessão
+  - [MongoDB\Driver\Session::getClusterTime](mongodb-driver-session.getclustertime.md) - Retorna o tempo do cluster para esta sessão
+  - [MongoDB\Driver\Session::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.md) - Retorna o ID da sessão lógica desta sessão
+  - [MongoDB\Driver\Session::getOperationTime](mongodb-driver-session.getoperationtime.md) - Retorna o tempo de operação desta sessão
+  - [MongoDB\Driver\Session::getServer](mongodb-driver-session.getserver.md) - Retorna o servidor ao qual esta sessão está fixada
+  - [MongoDB\Driver\Session::getTransactionOptions](mongodb-driver-session.gettransactionoptions.md) - Retorna opções para a transação atualmente em execução
+  - [MongoDB\Driver\Session::getTransactionState](mongodb-driver-session.gettransactionstate.md) - Retorna o estado atual da transação para esta sessão
+  - [MongoDB\Driver\Session::isDirty](mongodb-driver-session.isdirty.md) - Retorna se a sessão foi marcada como suja
+  - [MongoDB\Driver\Session::isInTransaction](mongodb-driver-session.isintransaction.md) - Retorna se uma transação com vários documentos está em andamento
+  - [MongoDB\Driver\Session::startTransaction](mongodb-driver-session.starttransaction.md) - Inicia uma transação
+  - [MongoDB\Driver\Session::\_\_construct](mongodb-driver-session.construct.md) - Cria uma nova sessão (não utilizada)
+  - [MongoDB\Driver\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md) - Retorna os servidores na topologia
+  - [MongoDB\Driver\TopologyDescription::getType](mongodb-driver-topologydescription.gettype.md) - Retorna uma string denotando o tipo desta topologia
+  - [MongoDB\Driver\TopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md) - Retorna se a topologia possui um servidor para leitura
+  - [MongoDB\Driver\TopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md) - Retorna se a topologia possui um servidor para gravação
+  - [MongoDB\Driver\WriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md) - Retorna um objeto para serialização BSON
+  - [MongoDB\Driver\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md) - Retorna a opção "journal" do WriteConcern
+  - [MongoDB\Driver\WriteConcern::getW](mongodb-driver-writeconcern.getw.md) - Retorna a opção "w" do WriteConcern
+  - [MongoDB\Driver\WriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md) - Retorna a opção "wtimeout" do WriteConcern
+  - [MongoDB\Driver\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md) - Verifica se esta é a preocupação de gravação padrão
+  - [MongoDB\Driver\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.md) - Cria uma nova preocupação de gravação
+  - [MongoDB\Driver\WriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md) - Retorna o código de erro do WriteConcernError
+  - [MongoDB\Driver\WriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md) - Retorna documento de metadados para WriteConcernError
+  - [MongoDB\Driver\WriteConcernError::getMessage](mongodb-driver-writeconcernerror.getmessage.md) - Retorna a mensagem de erro do WriteConcernError
+  - [MongoDB\Driver\WriteError::getCode](mongodb-driver-writeerror.getcode.md) - Retorna o código de erro do WriteError
+  - [MongoDB\Driver\WriteError::getIndex](mongodb-driver-writeerror.getindex.md) - Retorna o índice da operação de gravação correspondente a este WriteError
+  - [MongoDB\Driver\WriteError::getInfo](mongodb-driver-writeerror.getinfo.md) - Retorna documento de metadados para WriteError
+  - [MongoDB\Driver\WriteError::getMessage](mongodb-driver-writeerror.getmessage.md) - Retorna a mensagem de erro do WriteError
+  - [MongoDB\Driver\WriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.md) - Retorna o número de documentos excluídos
+  - [MongoDB\Driver\WriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.md) - Retorna o número de documentos inseridos (excluindo inserções de atualização)
+  - [MongoDB\Driver\WriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.md) - Retorna o número de documentos selecionados para atualização
+  - [MongoDB\Driver\WriteResult::getModifiedCount](mongodb-driver-writeresult.getmodifiedcount.md) - Retorna o número de documentos existentes atualizados
+  - [MongoDB\Driver\WriteResult::getServer](mongodb-driver-writeresult.getserver.md) - Retorna o servidor associado a este resultado de gravação
+  - [MongoDB\Driver\WriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.md) - Retorna o número de documentos inseridos por uma inserção de atualização
+  - [MongoDB\Driver\WriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.md) - Retorna um array de identificadores para documentos inseridos por atualização
+  - [MongoDB\Driver\WriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.md) - Retorna qualquer erro de gravação ocorrido
+  - [MongoDB\Driver\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.md) - Retorna quaisquer erros de gravação ocorridos
+  - [MongoDB\Driver\WriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.md) - Retorna se a gravação foi reconhecida
+  - [move\_uploaded\_file](function.move-uploaded-file.md) - Move um arquivo enviado para uma nova localização
+  - [mqseries\_back](function.mqseries-back.md) - MQBACK de MQSeries
+  - [mqseries\_begin](function.mqseries-begin.md) - MQBEGIN de MQseries
+  - [mqseries\_close](function.mqseries-close.md) - MQCLOSE de MQSeries
+  - [mqseries\_cmit](function.mqseries-cmit.md) - MQCMIT de MQSeries
+  - [mqseries\_conn](function.mqseries-conn.md) - MQCONN MQSeries
+  - [mqseries\_connx](function.mqseries-connx.md) - MQCONNX MQSeries
+  - [mqseries\_disc](function.mqseries-disc.md) - MQDISC MQSeries
+  - [mqseries\_get](function.mqseries-get.md) - MQGET MQSeries
+  - [mqseries\_inq](function.mqseries-inq.md) - MQINQ MQSeries
+  - [mqseries\_open](function.mqseries-open.md) - MQOPEN MQSeries
+  - [mqseries\_put](function.mqseries-put.md) - MQPUT MQSeries
+  - [mqseries\_put1](function.mqseries-put1.md) - MQPUT1 MQSeries
+  - [mqseries\_set](function.mqseries-set.md) - MQSET MQSeries
+  - [mqseries\_strerror](function.mqseries-strerror.md) - Retorna a mensagem de erro correspondente a um código de resultado (MQRC)
+  - [msg\_get\_queue](function.msg-get-queue.md) - Cria ou anexa a uma fila de mensagens
+  - [msg\_queue\_exists](function.msg-queue-exists.md) - Verifica se existe uma fila de mensagens
+  - [msg\_receive](function.msg-receive.md) - Recebe uma mensagem de uma fila de mensagens
+  - [msg\_remove\_queue](function.msg-remove-queue.md) - Destrói uma fila de mensagens
+  - [msg\_send](function.msg-send.md) - Envia uma mensagem para uma fila de mensagens
+  - [msg\_set\_queue](function.msg-set-queue.md) - Define informações na estrutura de dados da fila de mensagens
+  - [msg\_stat\_queue](function.msg-stat-queue.md) - Retorna informações da estrutura de dados da fila de mensagens
+  - [mt\_getrandmax](function.mt-getrandmax.md) - Mostra o maior valor aleatório possível
+  - [mt\_rand](function.mt-rand.md) - Gera um valor aleatório através do Gerador de Números Aleatórios Mersenne Twister
+  - [mt\_srand](function.mt-srand.md) - Semeia o Gerador de Números Aleatórios Mersenne Twister
+  - [MultipleIterator::attachIterator](multipleiterator.attachiterator.md) - Anexa informações do iterador
+  - [MultipleIterator::containsIterator](multipleiterator.containsiterator.md) - Verifica se um iterador está anexado
+  - [MultipleIterator::countIterators](multipleiterator.countiterators.md) - Obtém o número de instâncias de iteradores anexadas
+  - [MultipleIterator::current](multipleiterator.current.md) - Obtém as instâncias do iterador registradas
+  - [MultipleIterator::detachIterator](multipleiterator.detachiterator.md) - Desanexa um iterador
+  - [MultipleIterator::getFlags](multipleiterator.getflags.md) - Obtém informações sobre as opções
+  - [MultipleIterator::key](multipleiterator.key.md) - Obtém as instâncias do iterador registradas
+  - [MultipleIterator::next](multipleiterator.next.md) - Movimenta todos os subiteradores anexados para frente
+  - [MultipleIterator::rewind](multipleiterator.rewind.md) - Rebobina todas as instâncias do iterador anexado
+  - [MultipleIterator::setFlags](multipleiterator.setflags.md) - Define opções
+  - [MultipleIterator::valid](multipleiterator.valid.md) - Verifica a validade dos subiteradores
+  - [MultipleIterator::\_\_construct](multipleiterator.construct.md) - Constrói um novo MultipleIterator
+  - [mysqli->errno](mysqli.errno.md) - Retorna o código de erro para a chamada de função mais recente
+  - [mysqli->error](mysqli.error.md) - Retorna uma string descrevendo o último erro
+  - [mysqli::$affected\_rows](mysqli.affected-rows.md) - Retorna o número de linhas afetadas pela operação MySQL anterior
+  - [mysqli::$client\_info](mysqli.get-client-info.md) - Obtém informação do cliente MySQL
+  - [mysqli::$client\_version](mysqli.get-client-version.md) - Retorna a versão do cliente MySQL como um inteiro
+  - [mysqli::$connect\_errno](mysqli.connect-errno.md) - Retorna o código de erro da última chamada de conexão
+  - [mysqli::$connect\_error](mysqli.connect-error.md) - Retorna uma descrição do último erro de conexão
+  - [mysqli::$error\_list](mysqli.error-list.md) - Retorna uma lista de erros do último comando executado
+  - [mysqli::$field\_count](mysqli.field-count.md) - Retorna o número de campos para a consulta mais recente
+  - [mysqli::$host\_info](mysqli.get-host-info.md) - Retorna uma string representando o tipo de conexão utilizada
+  - [mysqli::$info](mysqli.info.md) - Recupera informação sobre a recente consulta executada
+  - [mysqli::$insert\_id](mysqli.insert-id.md) - Retorna o valor gerado para uma coluna AUTO\_INCREMENT pela última consulta
+  - [mysqli::$protocol\_version](mysqli.get-proto-info.md) - Retorna a versão do protocolo MySQL usada
+  - [mysqli::$server\_info](mysqli.get-server-info.md) - Retorna a versão do servidor MySQL
+  - [mysqli::$server\_version](mysqli.get-server-version.md) - Retorna a versão do servidor MySQL como um inteiro
+  - [mysqli::$sqlstate](mysqli.sqlstate.md) - Retorna o erro SQLSTATE da operação MySQL anterior
+  - [mysqli::$thread\_id](mysqli.thread-id.md) - Retorna o ID da thread para a conexão atual
+  - [mysqli::$warning\_count](mysqli.warning-count.md) - Retorna o número de alertas gerados pela consulta mais recente
+  - [mysqli::autocommit](mysqli.autocommit.md) - Ativa ou desativa a gravação automática das modificações no banco de dados
+  - [mysqli::begin\_transaction](mysqli.begin-transaction.md) - Inicia uma transação
+  - [mysqli::change\_user](mysqli.change-user.md) - Altera o usuário da conexão com o banco de dados
+  - [mysqli::character\_set\_name](mysqli.character-set-name.md) - Retorna o conjunto de caracteres atual da conexão com o banco de dados
+  - [mysqli::close](mysqli.close.md) - Fecha uma conexão ao banco de dados previamente aberta
+  - [mysqli::commit](mysqli.commit.md) - Grava a transação atual
+  - [mysqli::debug](mysqli.debug.md) - Realiza operações de depuração
+  - [mysqli::dump\_debug\_info](mysqli.dump-debug-info.md) - Descarrega informação de debug no log
+  - [mysqli::escape\_string](function.mysqli-escape-string.md) - Sinônimo de mysqli\_real\_escape\_string
+  - [mysqli::execute\_query](mysqli.execute-query.md) - Prepara, vincula parâmetros e executa a instrução SQL
+  - [mysqli::get\_charset](mysqli.get-charset.md) - Retorna um objeto de conjunto de caracteres
+  - [mysqli::get\_connection\_stats](mysqli.get-connection-stats.md) - Retorna estatísticas sobre a conexão do cliente
+  - [mysqli::get\_warnings](mysqli.get-warnings.md) - Obtém o resultado de SHOW WARNINGS
+  - [mysqli::init](mysqli.init.md) - Inicializa o MySQLi e retorna um objeto a ser utilizado com mysqli\_real\_connect()
+  - [mysqli::kill](mysqli.kill.md) - Solicita ao servidor o encerramento de um thread do MySQL
+  - [mysqli::more\_results](mysqli.more-results.md) - Verifica se há mais algum resultado de uma consulta múltipla
+  - [mysqli::multi\_query](mysqli.multi-query.md) - Executa uma ou mais consultas no banco de dados
+  - [mysqli::next\_result](mysqli.next-result.md) - Prepara o próximo resultado de multi\_query
+  - [mysqli::options](mysqli.options.md) - Define opções
+  - [mysqli::ping](mysqli.ping.md) - Faz ping em uma conexão de servidor ou tenta reconectar se a conexão cair
+  - [mysqli::poll](mysqli.poll.md) - Sondagem de conexões
+  - [mysqli::prepare](mysqli.prepare.md) - Prepara uma instrução SQL para execução
+  - [mysqli::query](mysqli.query.md) - Executa uma consulta no banco de dados
+  - [mysqli::quote\_string](mysqli.quote-string.md) - Quotes and escapes a string for use in an SQL statement
+  - [mysqli::real\_connect](mysqli.real-connect.md) - Abre uma conexão a um servidor MySQL
+  - [mysqli::real\_escape\_string](mysqli.real-escape-string.md) - Escape caracteres especiais em uma string para uso em uma instrução SQL, levando em consideração o conjunto de caracteres atual da conexão
+  - [mysqli::real\_query](mysqli.real-query.md) - Executa uma consulta SQL
+  - [mysqli::reap\_async\_query](mysqli.reap-async-query.md) - Obtenha o resultado da consulta assíncrona
+  - [mysqli::refresh](mysqli.refresh.md) - Atualiza
+  - [mysqli::release\_savepoint](mysqli.release-savepoint.md) - Remove o ponto de salvamento nomeado do conjunto de pontos de salvamento da transação atual
+  - [mysqli::rollback](mysqli.rollback.md) - Reverte a transação atual
+  - [mysqli::savepoint](mysqli.savepoint.md) - Define um ponto de salvamento de transação nomeado
+  - [mysqli::select\_db](mysqli.select-db.md) - Seleciona o banco de dados padrão para consultas de banco de dados
+  - [mysqli::set\_charset](mysqli.set-charset.md) - Define o conjunto de caracteres do cliente
+  - [mysqli::set\_opt](function.mysqli-set-opt.md) - Sinônimo de mysqli\_options
+  - [mysqli::ssl\_set](mysqli.ssl-set.md) - Usado para estabelecer conexões seguras usando SSL
+  - [mysqli::stat](mysqli.stat.md) - Obtém o status atual do sistema
+  - [mysqli::stmt\_init](mysqli.stmt-init.md) - Inicializa uma instrução e retorna um objeto para uso com mysqli\_stmt\_prepare
+  - [mysqli::store\_result](mysqli.store-result.md) - Transfere um conjunto de resultados da última consulta
+  - [mysqli::thread\_safe](mysqli.thread-safe.md) - Retorna se a segurança de thread é dada ou não
+  - [mysqli::use\_result](mysqli.use-result.md) - Inicia uma recuperação de conjunto de resultados
+  - [mysqli::\_\_construct](mysqli.construct.md) - Abre uma nova conexão com o servidor MySQL
+  - [mysqli\_connect](function.mysqli-connect.md) - Sinônimo de mysqli::\_\_construct
+  - [mysqli\_driver::$report\_mode](mysqli-driver.report-mode.md) - Define o modo de relatório de erros do mysqli
+  - [mysqli\_driver::embedded\_server\_end](mysqli-driver.embedded-server-end.md) - Para o servidor incorporado
+  - [mysqli\_driver::embedded\_server\_start](mysqli-driver.embedded-server-start.md) - Inicializa e dispara o servidor incorporado
+  - [mysqli\_execute](function.mysqli-execute.md) - Sinônimo de mysqli\_stmt\_execute
+  - [mysqli\_get\_client\_stats](function.mysqli-get-client-stats.md) - Retorna as estatísticas do cliente por processo
+  - [mysqli\_get\_links\_stats](function.mysqli-get-links-stats.md) - Retorna informações sobre links abertos e em cache
+  - [mysqli\_report](function.mysqli-report.md) - Sinônimo de mysqli\_driver->report\_mode
+  - [mysqli\_result::$current\_field](mysqli-result.current-field.md) - Obtém o deslocamento atual de campo de um ponteiro de resultado
+  - [mysqli\_result::$field\_count](mysqli-result.field-count.md) - Obtém o número de campos no conjunto de resultados
+  - [mysqli\_result::$lengths](mysqli-result.lengths.md) - Retorna os comprimentos das colunas da linha atual do resultado
+  - [mysqli\_result::$num\_rows](mysqli-result.num-rows.md) - Obtém o número de linhas no resultado
+  - [mysqli\_result::data\_seek](mysqli-result.data-seek.md) - Ajusta o ponteiro do resultado para uma linha arbitrária no resultado
+  - [mysqli\_result::fetch\_all](mysqli-result.fetch-all.md) - Recebe todas as linhas de resultado como array associativo, numérico, ou ambos
+  - [mysqli\_result::fetch\_array](mysqli-result.fetch-array.md) - Recebe a próxima linha de resultado como array associativo, numérico, ou ambos
+  - [mysqli\_result::fetch\_assoc](mysqli-result.fetch-assoc.md) - Obtém a próxima linha do conjunto de resultados como um array associativo
+  - [mysqli\_result::fetch\_column](mysqli-result.fetch-column.md) - Recebe uma única coluna da próxima linha de um resultado
+  - [mysqli\_result::fetch\_field](mysqli-result.fetch-field.md) - Retorna o próximo campo no conjunto de resultados
+  - [mysqli\_result::fetch\_fields](mysqli-result.fetch-fields.md) - Retorna um array de objetos representando os campos em um conjunto de resultados
+  - [mysqli\_result::fetch\_field\_direct](mysqli-result.fetch-field-direct.md) - Recebe metadados para um único campo
+  - [mysqli\_result::fetch\_object](mysqli-result.fetch-object.md) - Recebe a próxima linha de um resultado como um objeto
+  - [mysqli\_result::fetch\_row](mysqli-result.fetch-row.md) - Obtém a próxima linha de um resultado como um array enumerado
+  - [mysqli\_result::field\_seek](mysqli-result.field-seek.md) - Move o ponteiro do resultado para um campo especificado
+  - [mysqli\_result::free](mysqli-result.free.md) - Libera memória associada a um resultado
+  - [mysqli\_result::getIterator](mysqli-result.getiterator.md) - Obtém um iterador externo
+  - [mysqli\_result::\_\_construct](mysqli-result.construct.md) - Constrói um objeto mysqli\_result
+  - [mysqli\_sql\_exception::getSqlState](mysqli-sql-exception.getsqlstate.md) - Retorna o código de erro SQLSTATE
+  - [mysqli\_stmt::$affected\_rows](mysqli-stmt.affected-rows.md) - Retorna o número total de linhas modificadas, apagadas, inseridas ou
+    correspondidas pela última instrução executada
+  - [mysqli\_stmt::$errno](mysqli-stmt.errno.md) - Retorna o código de erro para a chamada de instrução mais recente
+  - [mysqli\_stmt::$error](mysqli-stmt.error.md) - Retorna uma descrição em string para o último erro de instrução
+  - [mysqli\_stmt::$error\_list](mysqli-stmt.error-list.md) - Retorna uma lista de erros da última instrução executada
+  - [mysqli\_stmt::$field\_count](mysqli-stmt.field-count.md) - Retorna o número de colunas na instrução informada
+  - [mysqli\_stmt::$insert\_id](mysqli-stmt.insert-id.md) - Obtém o ID gerado pela operação INSERT anterior
+  - [mysqli\_stmt::$num\_rows](mysqli-stmt.num-rows.md) - Retorna o número de linhas recebidas pelo servidor
+  - [mysqli\_stmt::$param\_count](mysqli-stmt.param-count.md) - Retorna o número de parâmetros para uma instrução fornecida
+  - [mysqli\_stmt::$sqlstate](mysqli-stmt.sqlstate.md) - Retorna o erro SQLSTATE da operação da instrução anterior
+  - [mysqli\_stmt::attr\_get](mysqli-stmt.attr-get.md) - Usado para obter o valor atual de um atributo de instrução
+  - [mysqli\_stmt::attr\_set](mysqli-stmt.attr-set.md) - Usado para modificar o comportamento de uma instrução preparada
+  - [mysqli\_stmt::bind\_param](mysqli-stmt.bind-param.md) - Liga variáveis a uma declaração preparada como parâmetros
+  - [mysqli\_stmt::bind\_result](mysqli-stmt.bind-result.md) - Liga variáveis a uma declaração preparada para armazenamento de resultado
+  - [mysqli\_stmt::close](mysqli-stmt.close.md) - Fecha uma instrução preparada
+  - [mysqli\_stmt::data\_seek](mysqli-stmt.data-seek.md) - Ajusta o ponteiro de resultado para uma linha arbitrária no resultado com buffer
+  - [mysqli\_stmt::execute](mysqli-stmt.execute.md) - Executa uma instrução preparada
+  - [mysqli\_stmt::fetch](mysqli-stmt.fetch.md) - Recebe resultados de uma instrução preparada nas variáveis vinculadas
+  - [mysqli\_stmt::free\_result](mysqli-stmt.free-result.md) - Libera memória do resultado armazenado para o manipulador de instrução informado
+  - [mysqli\_stmt::get\_result](mysqli-stmt.get-result.md) - Obtém um resultado de uma instrução preparada como um objeto mysqli\_result
+  - [mysqli\_stmt::get\_warnings](mysqli-stmt.get-warnings.md) - Obtém o resultado de SHOW WARNINGS
+  - [mysqli\_stmt::more\_results](mysqli-stmt.more-results.md) - Verifica se há mais resultados de uma consulta múltipla
+  - [mysqli\_stmt::next\_result](mysqli-stmt.next-result.md) - Lê o próximo resultado de uma consulta múltipla
+  - [mysqli\_stmt::prepare](mysqli-stmt.prepare.md) - Prepara uma declaração SQL para execução
+  - [mysqli\_stmt::reset](mysqli-stmt.reset.md) - Redefine uma instrução preparada
+  - [mysqli\_stmt::result\_metadata](mysqli-stmt.result-metadata.md) - Retorna os metadados de resultado de uma instrução preparada
+  - [mysqli\_stmt::send\_long\_data](mysqli-stmt.send-long-data.md) - Envia dados em blocos
+  - [mysqli\_stmt::store\_result](mysqli-stmt.store-result.md) - Armazena um conjunto de resultados em um buffer interno
+  - [mysqli\_stmt::\_\_construct](mysqli-stmt.construct.md) - Constrói um novo objeto mysqli\_stmt
+  - [mysqli\_warning::next](mysqli-warning.next.md) - Busca o próximo aviso
+  - [mysqli\_warning::\_\_construct](mysqli-warning.construct.md) - Construtor privado para proibir instanciação direta
+  - [mysql\_affected\_rows](function.mysql-affected-rows.md) - Obtém o número de linhas afetadas na operação anterior do MySQL
+  - [mysql\_client\_encoding](function.mysql-client-encoding.md) - Retorna o nome do conjunto de caracteres
+  - [mysql\_close](function.mysql-close.md) - Fecha a conexão MySQL
+  - [mysql\_connect](function.mysql-connect.md) - Abre uma conexão a um servidor MySQL
+  - [mysql\_create\_db](function.mysql-create-db.md) - Cria um banco de dados MySQL
+  - [mysql\_data\_seek](function.mysql-data-seek.md) - Move o ponteiro interno do resultado
+  - [mysql\_db\_name](function.mysql-db-name.md) - Obtém o nome do banco de dados a partir da chamada à mysql\_list\_dbs
+  - [mysql\_db\_query](function.mysql-db-query.md) - Seleciona um banco de dados e executa uma consulta nele
+  - [mysql\_drop\_db](function.mysql-drop-db.md) - Drop (exclui) um banco de dados MySQL
+  - [mysql\_errno](function.mysql-errno.md) - Retorna o valor numérico da mensagem de erro da operação MySQL anterior
+  - [mysql\_error](function.mysql-error.md) - Retorna o texto da mensagem de erro da operação MySQL anterior
+  - [mysql\_escape\_string](function.mysql-escape-string.md) - Escapa uma string para usá-la em uma função mysql\_query
+  - [mysql\_fetch\_array](function.mysql-fetch-array.md) - Obtém uma linha de resultado como um array associativo, numérico, ou ambos
+  - [mysql\_fetch\_assoc](function.mysql-fetch-assoc.md) - Obtém uma linha do resultado como um array associativo
+  - [mysql\_fetch\_field](function.mysql-fetch-field.md) - Obtém informações de coluna de um resultado e retorna como um objeto
+  - [mysql\_fetch\_lengths](function.mysql-fetch-lengths.md) - Obtém o tamanho de cada saída de um resultado
+  - [mysql\_fetch\_object](function.mysql-fetch-object.md) - Obtém o resultado de uma linha como um objeto
+  - [mysql\_fetch\_row](function.mysql-fetch-row.md) - Obtém uma linha como um array numérico
+  - [mysql\_field\_flags](function.mysql-field-flags.md) - Obtém as opções associadas ao campo especificado em um resultado
+  - [mysql\_field\_len](function.mysql-field-len.md) - Retorna o tamanho do campo especificado
+  - [mysql\_field\_name](function.mysql-field-name.md) - Obtém o nome do campo especificado em um resultado
+  - [mysql\_field\_seek](function.mysql-field-seek.md) - Define o ponteiro do resultado para o índice de campo especificado
+  - [mysql\_field\_table](function.mysql-field-table.md) - Obtém o nome da tabela na qual o campo especificado esta
+  - [mysql\_field\_type](function.mysql-field-type.md) - Obtém o tipo do campo especificado em um resultado
+  - [mysql\_free\_result](function.mysql-free-result.md) - Libera memória usada pelo resultado
+  - [mysql\_get\_client\_info](function.mysql-get-client-info.md) - Obtém informações do cliente MySQL
+  - [mysql\_get\_host\_info](function.mysql-get-host-info.md) - Obtém informações do servidor MySQL
+  - [mysql\_get\_proto\_info](function.mysql-get-proto-info.md) - Obtém informações do protocolo MySQL
+  - [mysql\_get\_server\_info](function.mysql-get-server-info.md) - Obtém informações do servidor MySQL
+  - [mysql\_info](function.mysql-info.md) - Obtém informação sobre a consulta mais recente
+  - [mysql\_insert\_id](function.mysql-insert-id.md) - Obtém o ID gerado pela operação INSERT anterior
+  - [mysql\_list\_dbs](function.mysql-list-dbs.md) - Lista os bancos de dados disponíveis em um servidor MySQL
+  - [mysql\_list\_fields](function.mysql-list-fields.md) - Lista os campos de uma tabela MySQL
+  - [mysql\_list\_processes](function.mysql-list-processes.md) - Lista os processos MySQL
+  - [mysql\_list\_tables](function.mysql-list-tables.md) - Lista as tabelas em um banco de dados MySQL
+  - [mysql\_num\_fields](function.mysql-num-fields.md) - Obtém o numero de campos em um resultado
+  - [mysql\_num\_rows](function.mysql-num-rows.md) - Obtém o número de linhas em um resultado
+  - [mysql\_pconnect](function.mysql-pconnect.md) - Abre uma conexão persistente a um servidor MySQL
+  - [mysql\_ping](function.mysql-ping.md) - Pinga uma conexão com o servidor ou reconecta se não houver conexão
+  - [mysql\_query](function.mysql-query.md) - Envia uma consulta MySQL
+  - [mysql\_real\_escape\_string](function.mysql-real-escape-string.md) - Escapa os caracteres especiais em uma string para uso em uma instrução SQL
+  - [mysql\_result](function.mysql-result.md) - Retorna dados do resultado
+  - [mysql\_select\_db](function.mysql-select-db.md) - Seleciona um banco de dados MySQL
+  - [mysql\_set\_charset](function.mysql-set-charset.md) - Define o conjunto de caracteres do cliente
+  - [mysql\_stat](function.mysql-stat.md) - Obtém o status atual do sistema
+  - [mysql\_tablename](function.mysql-tablename.md) - Obtém o nome da tabela do campo
+  - [mysql\_thread\_id](function.mysql-thread-id.md) - Retorna o ID da thread atual
+  - [mysql\_unbuffered\_query](function.mysql-unbuffered-query.md) - Envia uma consulta SQL ao MySQL sem buscar e armazenar em buffer as linhas de resultados
+  - [mysql\_xdevapi\Client::close](mysql-xdevapi-client.close.md) - Fecha o cliente
+- n
+  - [natcasesort](function.natcasesort.md) - Ordena um array utilizando o algoritmo de "ordem natural" sem diferenciar maiúsculas e minúsculas
+  - [natsort](function.natsort.md) - Ordena um array utilizando o algoritmo de "ordem natural"
+  - [net\_get\_interfaces](function.net-get-interfaces.md) - Obtém interfaces de rede
+  - [next](function.next.md) - Avança o ponteiro interno de um array
+  - [ngettext](function.ngettext.md) - Versão plural de gettext
+  - [nl2br](function.nl2br.md) - Insere quebras de linha HTML antes de todos os caracteres de nova linha em um string
+  - [nl\_langinfo](function.nl-langinfo.md) - Consulta informação de língua e localidade
+  - [NoDiscard::\_\_construct](nodiscard.construct.md) - Constrói uma nova instância do atributo NoDiscard.
+  - [NoRewindIterator::current](norewinditerator.current.md) - Obtém o valor atual
+  - [NoRewindIterator::key](norewinditerator.key.md) - Obtém a chave atual
+  - [NoRewindIterator::next](norewinditerator.next.md) - Avança para o próximo elemento
+  - [NoRewindIterator::rewind](norewinditerator.rewind.md) - Impede a operação de rebobinar no iterador interno
+  - [NoRewindIterator::valid](norewinditerator.valid.md) - Valida o iterador
+  - [NoRewindIterator::\_\_construct](norewinditerator.construct.md) - Constrói um NoRewindIterator
+  - [Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md) - Obtém a propriedade Decomposition\_Mapping para o ponto de código UTF-8 fornecido
+  - [Normalizer::isNormalized](normalizer.isnormalized.md) - Verifica se a string fornecida já está normalizada
+    na forma especificada.
+  - [Normalizer::normalize](normalizer.normalize.md) - Normaliza a entrada fornecida e retorna a string normalizada
+  - [NumberFormatter::create](numberformatter.create.md) - Cria um formatador de número
+  - [NumberFormatter::format](numberformatter.format.md) - Formata um número
+  - [NumberFormatter::formatCurrency](numberformatter.formatcurrency.md) - Formata um valor de moeda
+  - [NumberFormatter::getAttribute](numberformatter.getattribute.md) - Obtém um atributo
+  - [NumberFormatter::getErrorCode](numberformatter.geterrorcode.md) - Obtém o último código de erro do formatador
+  - [NumberFormatter::getErrorMessage](numberformatter.geterrormessage.md) - Obtém a última mensagem de erro do formatador
+  - [NumberFormatter::getLocale](numberformatter.getlocale.md) - Obtém a localidade do formatador
+  - [NumberFormatter::getPattern](numberformatter.getpattern.md) - Obtém padrão do formatador
+  - [NumberFormatter::getSymbol](numberformatter.getsymbol.md) - Obtém um valor de símbolo
+  - [NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md) - Obtém um atributo de texto
+  - [NumberFormatter::parse](numberformatter.parse.md) - Interpreta um número
+  - [NumberFormatter::parseCurrency](numberformatter.parsecurrency.md) - Interpreta um valor monetário
+  - [NumberFormatter::setAttribute](numberformatter.setattribute.md) - Define um atributo
+  - [NumberFormatter::setPattern](numberformatter.setpattern.md) - Define o padrão do formatador
+  - [NumberFormatter::setSymbol](numberformatter.setsymbol.md) - Define um valor de símbolo
+  - [NumberFormatter::setTextAttribute](numberformatter.settextattribute.md) - Define um atributo de texto
+  - [number\_format](function.number-format.md) - Formata um número com milhares agrupados
+- o
+  - [OAuth::disableDebug](oauth.disabledebug.md) - Desativa a depuração detalhada
+  - [OAuth::disableRedirects](oauth.disableredirects.md) - Desativa o redirecionamento
+  - [OAuth::disableSSLChecks](oauth.disablesslchecks.md) - Desativa verificações SSL
+  - [OAuth::enableDebug](oauth.enabledebug.md) - Ativa a depuração detalhada
+  - [OAuth::enableRedirects](oauth.enableredirects.md) - Habilita redirecionamentos
+  - [OAuth::enableSSLChecks](oauth.enablesslchecks.md) - Ativa verificações SSL
+  - [OAuth::fetch](oauth.fetch.md) - Busca um recurso protegido OAuth
+  - [OAuth::generateSignature](oauth.generatesignature.md) - Gera uma assinatura
+  - [OAuth::getAccessToken](oauth.getaccesstoken.md) - Busca um token de acesso
+  - [OAuth::getCAPath](oauth.getcapath.md) - Obtém informação de CA
+  - [OAuth::getLastResponse](oauth.getlastresponse.md) - Obtém a última resposta
+  - [OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.md) - Obtém cabeçalhos para a última resposta
+  - [OAuth::getLastResponseInfo](oauth.getlastresponseinfo.md) - Obtém informação HTTP sobre a última resposta
+  - [OAuth::getRequestHeader](oauth.getrequestheader.md) - Gera assinatura string de cabeçalho OAuth
+  - [OAuth::getRequestToken](oauth.getrequesttoken.md) - Busca um token de requisição
+  - [OAuth::setAuthType](oauth.setauthtype.md) - Define o tipo de autorização
+  - [OAuth::setCAPath](oauth.setcapath.md) - Define caminho e informação da CA
+  - [OAuth::setNonce](oauth.setnonce.md) - Define o nonce para requisições subsequentes
+  - [OAuth::setRequestEngine](oauth.setrequestengine.md) - Define o mecanismo da requisição
+  - [OAuth::setRSACertificate](oauth.setrsacertificate.md) - Define o certificado RSA
+  - [OAuth::setSSLChecks](oauth.setsslchecks.md) - Ajusta verficações SSL específicas para requisições
+  - [OAuth::setTimestamp](oauth.settimestamp.md) - Define o timestamp
+  - [OAuth::setToken](oauth.settoken.md) - Define o token e o segredo
+  - [OAuth::setVersion](oauth.setversion.md) - Define a versão OAuth
+  - [OAuth::\_\_construct](oauth.construct.md) - Cria um objeto OAuth
+  - [OAuth::\_\_destruct](oauth.destruct.md) - O destruidor
+  - [OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md) - Adiciona parâmetros requeridos
+  - [OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md) - Chama a função de retorno consumerHandler
+  - [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md) - Chama a função de retorno timestampNonceHandler
+  - [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md) - Chama a função de retorno tokenHandler
+  - [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md) - Verifica uma requisição OAuth
+  - [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md) - Define a função de retorno de gerenciamento de consumidor
+  - [OAuthProvider::generateToken](oauthprovider.generatetoken.md) - Gera um token aleatório
+  - [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md) - is2LeggedEndpoint
+  - [OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md) - Define isRequestTokenEndpoint
+  - [OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md) - Remove um parâmetro requerido
+  - [OAuthProvider::reportProblem](oauthprovider.reportproblem.md) - Reporta um problema
+  - [OAuthProvider::setParam](oauthprovider.setparam.md) - Define um parâmetro
+  - [OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md) - Define o caminho para o token de requisição
+  - [OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md) - Define a função de retorno de gerenciamento de timestamp nonce
+  - [OAuthProvider::tokenHandler](oauthprovider.tokenhandler.md) - Define a função de retorno de gerenciamento de token
+  - [OAuthProvider::\_\_construct](oauthprovider.construct.md) - Constrói um novo objeto OAuthProvider
+  - [oauth\_get\_sbs](function.oauth-get-sbs.md) - Gera uma String Base de Assinatura
+  - [oauth\_urlencode](function.oauth-urlencode.md) - Codifica uma URI conforme RFC 3986
+  - [ob\_clean](function.ob-clean.md) - Limpa (apaga) o conteúdo do buffer de saída ativo
+  - [ob\_end\_clean](function.ob-end-clean.md) - Limpa (apaga) o conteúdo do buffer de saída ativo e desliga-o
+  - [ob\_end\_flush](function.ob-end-flush.md) - Descarrega (envia) o valor de retorno do manipulador de saída ativo
+    e desliga o buffer de saída ativo
+  - [ob\_flush](function.ob-flush.md) - Descarrega (envia) o valor de retorno do manipulador de saída ativo
+  - [ob\_get\_clean](function.ob-get-clean.md) - Obtém o conteúdo do buffer de saída ativo e desliga-o
+  - [ob\_get\_contents](function.ob-get-contents.md) - Retorna o conteúdo do buffer de saída
+  - [ob\_get\_flush](function.ob-get-flush.md) - Descarrega (envia) o valor de retorno do manipulador de saída ativo,
+    retorna o conteúdo do buffer de saída ativo e desliga-o
+  - [ob\_get\_length](function.ob-get-length.md) - Retorna o comprimento do buffer de saída
+  - [ob\_get\_level](function.ob-get-level.md) - Retorna o nível de aninhamento do mecanismo de buffer de saída
+  - [ob\_get\_status](function.ob-get-status.md) - Obtém status dos buffers de saída
+  - [ob\_gzhandler](function.ob-gzhandler.md) - Função de chamada de retorno de ob\_start para comprimir o buffer de saída com gzip
+  - [ob\_iconv\_handler](function.ob-iconv-handler.md) - Converte codificação de caracteres como manipulador de buffer de saída
+  - [ob\_implicit\_flush](function.ob-implicit-flush.md) - Liga ou desliga o descarregamento implícito
+  - [ob\_list\_handlers](function.ob-list-handlers.md) - Lista todos os manipuladores de saída em uso
+  - [ob\_start](function.ob-start.md) - Ativa o buffer de saída
+  - [ob\_tidyhandler](function.ob-tidyhandler.md) - Função de retorno ob\_start para reparar o buffer
+  - [ocibindbyname](function.ocibindbyname.md) - Sinônimo de oci\_bind\_by\_name
+  - [ocicancel](function.ocicancel.md) - Sinônimo de oci\_cancel
+  - [ocicloselob](function.ocicloselob.md) - Sinônimo de OCILob::close
+  - [ocicollappend](function.ocicollappend.md) - Sinônimo de OCICollection::append
+  - [ocicollassign](function.ocicollassign.md) - Sinônimo de OCICollection::assign
+  - [ocicollassignelem](function.ocicollassignelem.md) - Sinônimo de OCICollection::assignElem
+  - [OCICollection::append](ocicollection.append.md) - Adiciona elemento à coleção
+  - [OCICollection::assign](ocicollection.assign.md) - Atribui um valor de outra coleção existente a esta coleção
+  - [OCICollection::assignElem](ocicollection.assignelem.md) - Atribui um valor ao elemento da coleção
+  - [OCICollection::free](ocicollection.free.md) - Libera os recursos associados ao objeto de coleção
+  - [OCICollection::getElem](ocicollection.getelem.md) - Retorna o valor do elemento
+  - [OCICollection::max](ocicollection.max.md) - Retorna o número máximo de elementos na coleção
+  - [OCICollection::size](ocicollection.size.md) - Retorna o tamanho da coleção
+  - [OCICollection::trim](ocicollection.trim.md) - Corta elementos do final da coleção
+  - [ocicollgetelem](function.ocicollgetelem.md) - Sinônimo de OCICollection::getElem
+  - [ocicollmax](function.ocicollmax.md) - Sinônimo de OCICollection::max
+  - [ocicollsize](function.ocicollsize.md) - Sinônimo de OCICollection::size
+  - [ocicolltrim](function.ocicolltrim.md) - Sinônimo de OCICollection::trim
+  - [ocicolumnisnull](function.ocicolumnisnull.md) - Sinônimo de oci\_field\_is\_null
+  - [ocicolumnname](function.ocicolumnname.md) - Sinônimo de oci\_field\_name
+  - [ocicolumnprecision](function.ocicolumnprecision.md) - Sinônimo de oci\_field\_precision
+  - [ocicolumnscale](function.ocicolumnscale.md) - Sinônimo de oci\_field\_scale
+  - [ocicolumnsize](function.ocicolumnsize.md) - Sinônimo de oci\_field\_size
+  - [ocicolumntype](function.ocicolumntype.md) - Sinônimo de oci\_field\_type
+  - [ocicolumntyperaw](function.ocicolumntyperaw.md) - Sinônimo de oci\_field\_type\_raw
+  - [ocicommit](function.ocicommit.md) - Sinônimo de oci\_commit
+  - [ocidefinebyname](function.ocidefinebyname.md) - Sinônimo de oci\_define\_by\_name
+  - [ocierror](function.ocierror.md) - Sinônimo de oci\_error
+  - [ociexecute](function.ociexecute.md) - Sinônimo de oci\_execute
+  - [ocifetch](function.ocifetch.md) - Sinônimo de oci\_fetch
+  - [ocifetchinto](function.ocifetchinto.md) - Variante obsoleta de oci\_fetch\_array, oci\_fetch\_object,
+    oci\_fetch\_assoc e
+    oci\_fetch\_row
+  - [ocifetchstatement](function.ocifetchstatement.md) - Sinônimo de oci\_fetch\_all
+  - [ocifreecollection](function.ocifreecollection.md) - Sinônimo de OCICollection::free
+  - [ocifreecursor](function.ocifreecursor.md) - Sinônimo de oci\_free\_statement
+  - [ocifreedesc](function.ocifreedesc.md) - Sinônimo de OCILob::free
+  - [ocifreestatement](function.ocifreestatement.md) - Sinônimo de oci\_free\_statement
+  - [ociinternaldebug](function.ociinternaldebug.md) - Sinônimo de oci\_internal\_debug
+  - [ociloadlob](function.ociloadlob.md) - Sinônimo de OCILob::load
+  - [OCILob::append](ocilob.append.md) - Acrescenta dados do objeto grande a outro objeto grande
+  - [OCILob::close](ocilob.close.md) - Fecha o descritor LOB
+  - [OCILob::eof](ocilob.eof.md) - Testa o fim de arquivo no descritor de um objeto grande
+  - [OCILob::erase](ocilob.erase.md) - Apaga uma parte especificada dos dados internos do LOB
+  - [OCILob::export](ocilob.export.md) - Exporta o conteúdo do LOB para um arquivo
+  - [OCILob::flush](ocilob.flush.md) - Libera/grava o buffer do LOB no servidor
+  - [OCILob::free](ocilob.free.md) - Libera recursos associados ao descritor do LOB
+  - [OCILob::getBuffering](ocilob.getbuffering.md) - Retorna o estado atual de buffer para o objeto grande
+  - [OCILob::import](ocilob.import.md) - Importa dados de arquivo para o LOB
+  - [OCILob::load](ocilob.load.md) - Retorna o conteúdo de um objeto grande
+  - [OCILob::read](ocilob.read.md) - Lê parte do objeto grande
+  - [OCILob::rewind](ocilob.rewind.md) - Move o ponteiro interno para o início do objeto grande
+  - [OCILob::save](ocilob.save.md) - Salva dados no objeto grande
+  - [OCILob::saveFile](ocilob.savefile.md) - Sinônimo de OCILob::import
+  - [OCILob::seek](ocilob.seek.md) - Define o ponteiro interno do objeto grande
+  - [OCILob::setBuffering](ocilob.setbuffering.md) - Altera o estado atual do buffer para o objeto grande
+  - [OCILob::size](ocilob.size.md) - Retorna o tamanho do objeto grande
+  - [OCILob::tell](ocilob.tell.md) - Retorna a posição atual do ponteiro interno do objeto grande
+  - [OCILob::truncate](ocilob.truncate.md) - Trunca objeto grande
+  - [OCILob::write](ocilob.write.md) - Grava dados no objeto grande
+  - [OCILob::writeTemporary](ocilob.writetemporary.md) - Grava um objeto grande temporário
+  - [OCILob::writeToFile](ocilob.writetofile.md) - Sinônimo de OCILob::export
+  - [ocilogoff](function.ocilogoff.md) - Sinônimo de oci\_close
+  - [ocilogon](function.ocilogon.md) - Sinônimo de oci\_connect
+  - [ocinewcollection](function.ocinewcollection.md) - Sinônimo de oci\_new\_collection
+  - [ocinewcursor](function.ocinewcursor.md) - Sinônimo de oci\_new\_cursor
+  - [ocinewdescriptor](function.ocinewdescriptor.md) - Sinônimo de oci\_new\_descriptor
+  - [ocinlogon](function.ocinlogon.md) - Sinônimo de oci\_new\_connect
+  - [ocinumcols](function.ocinumcols.md) - Sinônimo de oci\_num\_fields
+  - [ociparse](function.ociparse.md) - Sinônimo de oci\_parse
+  - [ociplogon](function.ociplogon.md) - Sinônimo de oci\_pconnect
+  - [ociresult](function.ociresult.md) - Sinônimo de oci\_result
+  - [ocirollback](function.ocirollback.md) - Sinônimo de oci\_rollback
+  - [ocirowcount](function.ocirowcount.md) - Sinônimo de oci\_num\_rows
+  - [ocisavelob](function.ocisavelob.md) - Sinônimo de OCILob::save
+  - [ocisavelobfile](function.ocisavelobfile.md) - Sinônimo de OCILob::import
+  - [ociserverversion](function.ociserverversion.md) - Sinônimo de oci\_server\_version
+  - [ocisetprefetch](function.ocisetprefetch.md) - Sinônimo de oci\_set\_prefetch
+  - [ocistatementtype](function.ocistatementtype.md) - Sinônimo de oci\_statement\_type
+  - [ociwritelobtofile](function.ociwritelobtofile.md) - Sinônimo de OCILob::export
+  - [ociwritetemporarylob](function.ociwritetemporarylob.md) - Sinônimo de OCILob::writeTemporary
+  - [oci\_bind\_array\_by\_name](function.oci-bind-array-by-name.md) - Vincula um array PHP a um parâmetro de array Oracle PL/SQL
+  - [oci\_bind\_by\_name](function.oci-bind-by-name.md) - Vincula uma variável PHP a um marcador Oracle
+  - [oci\_cancel](function.oci-cancel.md) - Cancela a leitura do cursor
+  - [oci\_client\_version](function.oci-client-version.md) - Retorna a versão da biblioteca do cliente Oracle
+  - [oci\_close](function.oci-close.md) - Fecha uma conexão Oracle
+  - [oci\_commit](function.oci-commit.md) - Confirma a transação de banco de dados pendente
+  - [oci\_connect](function.oci-connect.md) - Conecta-se a um banco de dados Oracle
+  - [oci\_define\_by\_name](function.oci-define-by-name.md) - Associa uma variável PHP a uma coluna para buscas de consulta
+  - [oci\_error](function.oci-error.md) - Retorna o último erro encontrado
+  - [oci\_execute](function.oci-execute.md) - Executa uma instrução
+  - [oci\_fetch](function.oci-fetch.md) - Busca a próxima linha de uma consulta em buffers internos
+  - [oci\_fetch\_all](function.oci-fetch-all.md) - Busca várias linhas de uma consulta em um array bidimensional
+  - [oci\_fetch\_array](function.oci-fetch-array.md) - Retorna a próxima linha de uma consulta como um array associativo ou numérico
+  - [oci\_fetch\_assoc](function.oci-fetch-assoc.md) - Retorna a próxima linha de uma consulta como um array associativo
+  - [oci\_fetch\_object](function.oci-fetch-object.md) - Retorna a próxima linha de uma consulta como um objeto
+  - [oci\_fetch\_row](function.oci-fetch-row.md) - Retorna a próxima linha de uma consulta como um array numérico
+  - [oci\_field\_is\_null](function.oci-field-is-null.md) - Verifica se um campo na linha atualmente buscada é null
+  - [oci\_field\_name](function.oci-field-name.md) - Retorna o nome de um campo da instrução
+  - [oci\_field\_precision](function.oci-field-precision.md) - Informa a precisão de um campo
+  - [oci\_field\_scale](function.oci-field-scale.md) - Informa a escala do campo
+  - [oci\_field\_size](function.oci-field-size.md) - Retorna o tamanho do campo
+  - [oci\_field\_type](function.oci-field-type.md) - Retorna o nome do tipo de dados de um campo
+  - [oci\_field\_type\_raw](function.oci-field-type-raw.md) - Informa o tipo bruto de dados do Oracle de um campo
+  - [oci\_free\_descriptor](function.oci-free-descriptor.md) - Libera um descritor
+  - [oci\_free\_statement](function.oci-free-statement.md) - Libera todos os recursos associados à instrução ou cursor
+  - [oci\_get\_implicit\_resultset](function.oci-get-implicit-resultset.md) - Retorna o próximo recurso de instrução filho de um recurso de instrução pai que possui conjuntos de resultados implícitos do Oracle Database
+  - [oci\_internal\_debug](function.oci-internal-debug.md) - Habilita ou desabilita a saíde interna de depuração
+  - [oci\_lob\_copy](function.oci-lob-copy.md) - Copia objeto grande
+  - [oci\_lob\_is\_equal](function.oci-lob-is-equal.md) - Compara dois localizadores LOB/FILE para igualdade
+  - [oci\_new\_collection](function.oci-new-collection.md) - Aloca novo objeto de coleção
+  - [oci\_new\_connect](function.oci-new-connect.md) - Conecta-se ao servidor Oracle usando uma conexão exclusiva
+  - [oci\_new\_cursor](function.oci-new-cursor.md) - Aloca e retorna um novo cursor (identificador de instrução)
+  - [oci\_new\_descriptor](function.oci-new-descriptor.md) - Inicializa um novo descritor LOB ou FILE vazio
+  - [oci\_num\_fields](function.oci-num-fields.md) - Retorna o número de colunas de resultados em uma instrução
+  - [oci\_num\_rows](function.oci-num-rows.md) - Retorna o número de linhas afetadas durante a execução da instrução
+  - [oci\_parse](function.oci-parse.md) - Prepara uma instrução Oracle para execução
+  - [oci\_password\_change](function.oci-password-change.md) - Altera a senha do usuário do Oracle
+  - [oci\_pconnect](function.oci-pconnect.md) - Conecta-se a um banco de dados Oracle usando uma conexão persistente
+  - [oci\_register\_taf\_callback](function.oci-register-taf-callback.md) - Registra uma função de retorno definida pelo usuário para o TAF do Oracle Database
+  - [oci\_result](function.oci-result.md) - Retorna o valor do campo da linha recuperada
+  - [oci\_rollback](function.oci-rollback.md) - Reverte a transação pendente do banco de dados
+  - [oci\_server\_version](function.oci-server-version.md) - Retorna a versão do banco de dados Oracle
+  - [oci\_set\_action](function.oci-set-action.md) - Define o nome da ação
+  - [oci\_set\_call\_timeout](function.oci-set-call-timout.md) - Sets a millisecond timeout for database calls
+  - [oci\_set\_client\_identifier](function.oci-set-client-identifier.md) - Define o identificador do cliente
+  - [oci\_set\_client\_info](function.oci-set-client-info.md) - Define as informações do cliente
+  - [oci\_set\_db\_operation](function.oci-set-db-operation.md) - Define a operação do banco de dados
+  - [oci\_set\_edition](function.oci-set-edition.md) - Define a edição do banco de dados
+  - [oci\_set\_module\_name](function.oci-set-module-name.md) - Define o nome do módulo
+  - [oci\_set\_prefetch](function.oci-set-prefetch.md) - Define o número de linhas a serem pré-buscadas pelas consultas
+  - [oci\_set\_prefetch\_lob](function.oci-set-prefetch-lob.md) - Define a quantidade de dados pré-buscados para cada CLOB ou BLOB
+  - [oci\_statement\_type](function.oci-statement-type.md) - Retorna o tipo de uma instrução
+  - [oci\_unregister\_taf\_callback](function.oci-unregister-taf-callback.md) - Cancelar o registro de uma função de retorno definida pelo usuário para o TAF do Oracle Database
+  - [octdec](function.octdec.md) - Octal para decimal
+  - [odbc\_autocommit](function.odbc-autocommit.md) - Alterna o comportamento da autoconfirmação
+  - [odbc\_binmode](function.odbc-binmode.md) - Manipulação de dados de colunas binárias
+  - [odbc\_close](function.odbc-close.md) - Fecha uma conexão ODBC
+  - [odbc\_close\_all](function.odbc-close-all.md) - Fecha todas as conexões ODBC
+  - [odbc\_columnprivileges](function.odbc-columnprivileges.md) - Lista colunas e privilégios associados para a tabela fornecida
+  - [odbc\_columns](function.odbc-columns.md) - Lista os nomes das colunas nas tabelas especificadas
+  - [odbc\_commit](function.odbc-commit.md) - Confirma uma transação ODBC
+  - [odbc\_connect](function.odbc-connect.md) - Conecta a uma fonte de dados
+  - [odbc\_connection\_string\_is\_quoted](function.odbc-connection-string-is-quoted.md) - Determina se uma string de conexão ODBC está entre chaves
+  - [odbc\_connection\_string\_quote](function.odbc-connection-string-quote.md) - Envolve entre chaves um valor string de conexão ODBC
+  - [odbc\_connection\_string\_should\_quote](function.odbc-connection-string-should-quote.md) - Determina se um valor na string de conexão ODBC deveria ser envolvido por chaves
+  - [odbc\_cursor](function.odbc-cursor.md) - Obtém o nome do cursor
+  - [odbc\_data\_source](function.odbc-data-source.md) - Retorna informações sobre DSNs disponíveis
+  - [odbc\_do](function.odbc-do.md) - Sinônimo de odbc\_exec
+  - [odbc\_error](function.odbc-error.md) - Obtém o último código de erro
+  - [odbc\_errormsg](function.odbc-errormsg.md) - Obtém a última mensagem de erro
+  - [odbc\_exec](function.odbc-exec.md) - Executa diretamente uma instrução SQL
+  - [odbc\_execute](function.odbc-execute.md) - Executa uma instrução preparada
+  - [odbc\_fetch\_array](function.odbc-fetch-array.md) - Obtém uma linha do resultado como um array associativo
+  - [odbc\_fetch\_into](function.odbc-fetch-into.md) - Busca uma linha de resultado no array
+  - [odbc\_fetch\_object](function.odbc-fetch-object.md) - Obtém um conjunto de resultados como um objeto
+  - [odbc\_fetch\_row](function.odbc-fetch-row.md) - Obtém uma linha
+  - [odbc\_field\_len](function.odbc-field-len.md) - Obtém o tamanho (precisão) de um campo
+  - [odbc\_field\_name](function.odbc-field-name.md) - Obtém o nome da coluna
+  - [odbc\_field\_num](function.odbc-field-num.md) - Retorna o número da coluna
+  - [odbc\_field\_precision](function.odbc-field-precision.md) - Sinônimo de odbc\_field\_len
+  - [odbc\_field\_scale](function.odbc-field-scale.md) - Obtém a precisão de um campo
+  - [odbc\_field\_type](function.odbc-field-type.md) - Tipo de dados de um campo
+  - [odbc\_foreignkeys](function.odbc-foreignkeys.md) - Recupera uma lista de chaves estrangeiras
+  - [odbc\_free\_result](function.odbc-free-result.md) - Libera objetos associados a um resultado
+  - [odbc\_gettypeinfo](function.odbc-gettypeinfo.md) - Recupera informações sobre tipos de dados suportados pela fonte de dados
+  - [odbc\_longreadlen](function.odbc-longreadlen.md) - Manipulação de colunas LONG
+  - [odbc\_next\_result](function.odbc-next-result.md) - Verifica se múltiplos resultados estão disponíveis
+  - [odbc\_num\_fields](function.odbc-num-fields.md) - Número de colunas em um resultado
+  - [odbc\_num\_rows](function.odbc-num-rows.md) - Número de linhas em um resultado
+  - [odbc\_pconnect](function.odbc-pconnect.md) - Abre uma conexão persistente com o banco de dados
+  - [odbc\_prepare](function.odbc-prepare.md) - Prepara uma instrução para execução
+  - [odbc\_primarykeys](function.odbc-primarykeys.md) - Obtém as chaves primárias de uma tabela
+  - [odbc\_procedurecolumns](function.odbc-procedurecolumns.md) - Recupera informações sobre parâmetros para procedimentos
+  - [odbc\_procedures](function.odbc-procedures.md) - Obtém a lista de procedimentos armazenados em uma fonte de dados específica
+  - [odbc\_result](function.odbc-result.md) - Obtém dados de resultados
+  - [odbc\_result\_all](function.odbc-result-all.md) - Exibe o resultado como uma tabela HTML
+  - [odbc\_rollback](function.odbc-rollback.md) - Reverte uma transação
+  - [odbc\_setoption](function.odbc-setoption.md) - Ajusta configurações do ODBC
+  - [odbc\_specialcolumns](function.odbc-specialcolumns.md) - Recupera colunas especiais
+  - [odbc\_statistics](function.odbc-statistics.md) - Recupera estatísticas sobre uma tabela
+  - [odbc\_tableprivileges](function.odbc-tableprivileges.md) - Lista tabelas e os privilégios associados a cada tabela
+  - [odbc\_tables](function.odbc-tables.md) - Obtém a lista de nomes de tabelas armazenadas em uma fonte de dados específica
+  - [opcache\_compile\_file](function.opcache-compile-file.md) - Compila e armazena em cache um script PHP sem executá-lo
+  - [opcache\_get\_configuration](function.opcache-get-configuration.md) - Obtém informações de configuração sobre o cache
+  - [opcache\_get\_status](function.opcache-get-status.md) - Obtém informações de status sobre o cache
+  - [opcache\_invalidate](function.opcache-invalidate.md) - Invalida um script em cache
+  - [opcache\_is\_script\_cached](function.opcache-is-script-cached.md) - Informa se um script é armazenado em cache no OPCache
+  - [opcache\_is\_script\_cached\_in\_file\_cache](function.opcache-is-script-cached-in-file-cache.md) - Informa se um script está armazenado no cache de arquivo do OPCache
+  - [opcache\_jit\_blacklist](function.opcache-jit-blacklist.md) - Impede que uma função seja compilada pelo JIT
+  - [opcache\_reset](function.opcache-reset.md) - Redefine o conteúdo do cache opcode
+  - [openal\_buffer\_create](function.openal-buffer-create.md) - Gera buffer OpenAL
+  - [openal\_buffer\_data](function.openal-buffer-data.md) - Carrega um buffer com dados
+  - [openal\_buffer\_destroy](function.openal-buffer-destroy.md) - Destrói um buffer OpenAL
+  - [openal\_buffer\_get](function.openal-buffer-get.md) - Recupera uma propriedade de buffer OpenAL
+  - [openal\_buffer\_loadwav](function.openal-buffer-loadwav.md) - Carrega um arquivo .wav em um buffer
+  - [openal\_context\_create](function.openal-context-create.md) - Cria um contexto de processamento de áudio
+  - [openal\_context\_current](function.openal-context-current.md) - Torna o contexto especificado atual
+  - [openal\_context\_destroy](function.openal-context-destroy.md) - Destrói um contexto
+  - [openal\_context\_process](function.openal-context-process.md) - Processa o contexto especificado
+  - [openal\_context\_suspend](function.openal-context-suspend.md) - Suspende o contexto especificado
+  - [openal\_device\_close](function.openal-device-close.md) - Fecha um dispositivo OpenAL
+  - [openal\_device\_open](function.openal-device-open.md) - Inicializa a camada de áudio OpenAL
+  - [openal\_listener\_get](function.openal-listener-get.md) - Recupera uma propriedade do ouvinte
+  - [openal\_listener\_set](function.openal-listener-set.md) - Define uma propriedade de ouvinte
+  - [openal\_source\_create](function.openal-source-create.md) - Gera um recurso de origem
+  - [openal\_source\_destroy](function.openal-source-destroy.md) - Destrói um recurso de origem
+  - [openal\_source\_get](function.openal-source-get.md) - Recupera uma propriedade de origem OpenAL
+  - [openal\_source\_pause](function.openal-source-pause.md) - Pausa a origem
+  - [openal\_source\_play](function.openal-source-play.md) - Começa a reproduzir a origem
+  - [openal\_source\_rewind](function.openal-source-rewind.md) - Retrocede a origem
+  - [openal\_source\_set](function.openal-source-set.md) - Define propriedade da origem
+  - [openal\_source\_stop](function.openal-source-stop.md) - Para de reproduzir a origem
+  - [openal\_stream](function.openal-stream.md) - Inicia a transmissão de uma origem
+  - [opendir](function.opendir.md) - Abre um manipulador de diretório
+  - [openlog](function.openlog.md) - Abre conexão com o registrador do sistema
+  - [openssl\_cipher\_iv\_length](function.openssl-cipher-iv-length.md) - Obtém o comprimento do vetor de inicialização da cifra
+  - [openssl\_cipher\_key\_length](function.openssl-cipher-key-length.md) - Obtém o comprimento da chave da cifra
+  - [openssl\_cms\_decrypt](function.openssl-cms-decrypt.md) - Descriptografa uma mensagem CMS
+  - [openssl\_cms\_encrypt](function.openssl-cms-encrypt.md) - Criptografa uma mensagem CMS
+  - [openssl\_cms\_read](function.openssl-cms-read.md) - Exporta o arquivo CMS para um array de certificados PEM
+  - [openssl\_cms\_sign](function.openssl-cms-sign.md) - Assina um arquivo
+  - [openssl\_cms\_verify](function.openssl-cms-verify.md) - Verifica uma assinatura CMS
+  - [openssl\_csr\_export](function.openssl-csr-export.md) - Exporta um CSR como uma string
+  - [openssl\_csr\_export\_to\_file](function.openssl-csr-export-to-file.md) - Exporta um CSR para um arquivo
+  - [openssl\_csr\_get\_public\_key](function.openssl-csr-get-public-key.md) - Retorna a chave pública de um CSR
+  - [openssl\_csr\_get\_subject](function.openssl-csr-get-subject.md) - Retorna o assunto de um CSR
+  - [openssl\_csr\_new](function.openssl-csr-new.md) - Gera um CSR
+  - [openssl\_csr\_sign](function.openssl-csr-sign.md) - Assina um CSR com outro certificado (ou ele mesmo) e gera um certificado
+  - [openssl\_decrypt](function.openssl-decrypt.md) - Descritografa dados
+  - [openssl\_dh\_compute\_key](function.openssl-dh-compute-key.md) - Calcula o segredo compartilhado para o valor público da chave pública DH remota e da chave DH local
+  - [openssl\_digest](function.openssl-digest.md) - Computa um resumo
+  - [openssl\_encrypt](function.openssl-encrypt.md) - Criptografa dados
+  - [openssl\_error\_string](function.openssl-error-string.md) - Retorna mensagem de erro do openSSL
+  - [openssl\_free\_key](function.openssl-free-key.md) - Libera recurso de chave
+  - [openssl\_get\_cert\_locations](function.openssl-get-cert-locations.md) - Recupera os locais de certificados disponíveis
+  - [openssl\_get\_cipher\_methods](function.openssl-get-cipher-methods.md) - Obtém métodos de criptografia disponíveis
+  - [openssl\_get\_curve\_names](function.openssl-get-curve-names.md) - Obtém lista de nomes de curvas disponíveis para ECC
+  - [openssl\_get\_md\_methods](function.openssl-get-md-methods.md) - Obtém métodos de resumo disponíveis
+  - [openssl\_get\_privatekey](function.openssl-get-privatekey.md) - Sinônimo de openssl\_pkey\_get\_private
+  - [openssl\_get\_publickey](function.openssl-get-publickey.md) - Sinônimo de openssl\_pkey\_get\_public
+  - [openssl\_open](function.openssl-open.md) - Abre dados lacrados
+  - [openssl\_password\_hash](function.openssl-password-hash.md) - Cria um hash de senha usando a implementação Argon2 do OpenSSL
+  - [openssl\_password\_verify](function.openssl-password-verify.md) - Verifica uma senha em relação a um hash usando a implementação Argon2 do OpenSSL
+  - [openssl\_pbkdf2](function.openssl-pbkdf2.md) - Gera uma string PKCS5 v2 PBKDF2
+  - [openssl\_pkcs7\_decrypt](function.openssl-pkcs7-decrypt.md) - Descriptografa uma mensagem criptografada S/MIME
+  - [openssl\_pkcs7\_encrypt](function.openssl-pkcs7-encrypt.md) - Criptografa uma mensagem S/MIME
+  - [openssl\_pkcs7\_read](function.openssl-pkcs7-read.md) - Exporta o arquivo PKCS7 para um array de certificados PEM
+  - [openssl\_pkcs7\_sign](function.openssl-pkcs7-sign.md) - Assina uma mensagem S/MIME
+  - [openssl\_pkcs7\_verify](function.openssl-pkcs7-verify.md) - Verifica a assinatura de uma mensagem assinada por S/MIME
+  - [openssl\_pkcs12\_export](function.openssl-pkcs12-export.md) - Exporta um arquivo de armazenamento de certificados compatível com PKCS#12 para uma variável
+  - [openssl\_pkcs12\_export\_to\_file](function.openssl-pkcs12-export-to-file.md) - Exporta um arquivo de armazenamento de certificados compatível com PKCS#12
+  - [openssl\_pkcs12\_read](function.openssl-pkcs12-read.md) - Analisa um armazenamento de certificados PKCS#12 em um array
+  - [openssl\_pkey\_derive](function.openssl-pkey-derive.md) - Calcula o segredo compartilhado para o valor público da chave DH ou ECDH remota e local
+  - [openssl\_pkey\_export](function.openssl-pkey-export.md) - Obtém uma representação exportável de uma chave em uma string
+  - [openssl\_pkey\_export\_to\_file](function.openssl-pkey-export-to-file.md) - Obtém uma representação exportável de uma chave em um arquivo
+  - [openssl\_pkey\_free](function.openssl-pkey-free.md) - Libera uma chave privada
+  - [openssl\_pkey\_get\_details](function.openssl-pkey-get-details.md) - Retorna um array com os detalhes da chave
+  - [openssl\_pkey\_get\_private](function.openssl-pkey-get-private.md) - Obtém uma chave privada
+  - [openssl\_pkey\_get\_public](function.openssl-pkey-get-public.md) - Extrai a chave pública do certificado e prepara-a para uso
+  - [openssl\_pkey\_new](function.openssl-pkey-new.md) - Gera uma nova chave privada
+  - [openssl\_private\_decrypt](function.openssl-private-decrypt.md) - Descriptografa dados com chave privada
+  - [openssl\_private\_encrypt](function.openssl-private-encrypt.md) - Criptografa dados com chave privada
+  - [openssl\_public\_decrypt](function.openssl-public-decrypt.md) - Descriptografa dados com chave pública
+  - [openssl\_public\_encrypt](function.openssl-public-encrypt.md) - Criptografa dados com chave pública
+  - [openssl\_random\_pseudo\_bytes](function.openssl-random-pseudo-bytes.md) - Gera uma sequência pseudo-aleatória de bytes
+  - [openssl\_seal](function.openssl-seal.md) - Sela (criptografa) dados
+  - [openssl\_sign](function.openssl-sign.md) - Gera assinatura
+  - [openssl\_spki\_export](function.openssl-spki-export.md) - Exporta uma chave pública assinada válida e formatada em PEM e um desafio
+  - [openssl\_spki\_export\_challenge](function.openssl-spki-export-challenge.md) - Exporta o desafio associado a uma chave pública assinada e a um desafio
+  - [openssl\_spki\_new](function.openssl-spki-new.md) - Gera uma nova chave pública assinada e um desafio
+  - [openssl\_spki\_verify](function.openssl-spki-verify.md) - Verifica uma chave pública assinada e um desafio
+  - [openssl\_verify](function.openssl-verify.md) - Verifica assinatura
+  - [openssl\_x509\_checkpurpose](function.openssl-x509-checkpurpose.md) - Verifica se um certificado pode ser usado para uma finalidade específica
+  - [openssl\_x509\_check\_private\_key](function.openssl-x509-check-private-key.md) - Verifica se uma chave privada corresponde a um certificado
+  - [openssl\_x509\_export](function.openssl-x509-export.md) - Exporta um certificado como uma string
+  - [openssl\_x509\_export\_to\_file](function.openssl-x509-export-to-file.md) - Exporta um certificado para arquivo
+  - [openssl\_x509\_fingerprint](function.openssl-x509-fingerprint.md) - Calcula a impressão digital, ou resumo, de um determinado certificado X.509
+  - [openssl\_x509\_free](function.openssl-x509-free.md) - Libera recurso de certificado
+  - [openssl\_x509\_parse](function.openssl-x509-parse.md) - Analisa um certificado X509 e retorna as informações como um array
+  - [openssl\_x509\_read](function.openssl-x509-read.md) - Analisa um certificado X.509 e retorna um objeto para
+    ele
+  - [openssl\_x509\_verify](function.openssl-x509-verify.md) - Verifica a assinatura digital do certificado x509 em relação a uma chave pública
+  - [ord](function.ord.md) - Converte o primeiro byte de uma string para um valor entre 0 e 255
+  - [OuterIterator::getInnerIterator](outeriterator.getinneriterator.md) - Retorna o iterador interno para a entrada atual
+  - [output\_add\_rewrite\_var](function.output-add-rewrite-var.md) - Adiciona valores de reescritor de URL
+  - [output\_reset\_rewrite\_vars](function.output-reset-rewrite-vars.md) - Redefine valores de reescritor de URL
+  - [Override::\_\_construct](override.construct.md) - Constrói uma nova instância de atributo Override
+- p
+  - [pack](function.pack.md) - Empacota dados em uma string binária
+  - [parallel\bootstrap](parallel.bootstrap.md) - Inicialização
+  - [parallel\Channel::close](parallel-channel.close.md) - Fechamento
+  - [parallel\Channel::make](parallel-channel.make.md) - Construção de canal
+  - [parallel\Channel::open](parallel-channel.open.md) - Acesso
+  - [parallel\Channel::recv](parallel-channel.recv.md) - Compartilhamento
+  - [parallel\Channel::send](parallel-channel.send.md) - Compartilhamento
+  - [parallel\Channel::\_\_construct](parallel-channel.construct.md) - Construção de canal
+  - [parallel\Events::addChannel](parallel-events.addchannel.md) - Alvos
+  - [parallel\Events::addFuture](parallel-events.addfuture.md) - Alvos
+  - [parallel\Events::poll](parallel-events.poll.md) - Pesquisa
+  - [parallel\Events::remove](parallel-events.remove.md) - Alvos
+  - [parallel\Events::setBlocking](parallel-events.setblocking.md) - Comportamento
+  - [parallel\Events::setInput](parallel-events.setinput.md) - Entrada
+  - [parallel\Events::setTimeout](parallel-events.settimeout.md) - Comportamento
+  - [parallel\Events\Input::add](parallel-events-input.add.md) - Entradas
+  - [parallel\Events\Input::clear](parallel-events-input.clear.md) - Entradas
+  - [parallel\Events\Input::remove](parallel-events-input.remove.md) - Entradas
+  - [parallel\Future::cancel](parallel-future.cancel.md) - Cancelamento
+  - [parallel\Future::cancelled](parallel-future.cancelled.md) - Detecção de estado
+  - [parallel\Future::done](parallel-future.done.md) - Detecção de estado
+  - [parallel\Future::value](parallel-future.value.md) - Resolução
+  - [parallel\run](parallel.run.md) - Execução
+  - [parallel\Runtime::close](parallel-runtime.close.md) - Encerramento elegante de Runtime
+  - [parallel\Runtime::kill](parallel-runtime.kill.md) - Encerramento de Runtime
+  - [parallel\Runtime::run](parallel-runtime.run.md) - Execução
+  - [parallel\Runtime::\_\_construct](parallel-runtime.construct.md) - Construção de Runtime
+  - [parallel\Sync::get](parallel-sync.get.md) - Acesso
+  - [parallel\Sync::notify](parallel-sync.notify.md) - Sincronização
+  - [parallel\Sync::set](parallel-sync.set.md) - Acesso
+  - [parallel\Sync::wait](parallel-sync.wait.md) - Sincronização
+  - [parallel\Sync::\_\_construct](parallel-sync.construct.md) - Construção
+  - [parallel\Sync::\_\_invoke](parallel-sync.invoke.md) - Sincronização
+  - [ParentIterator::accept](parentiterator.accept.md) - Determina a aceitabilidade
+  - [ParentIterator::getChildren](parentiterator.getchildren.md) - Retorna os filhos do iterador interno de um ParentIterator
+  - [ParentIterator::hasChildren](parentiterator.haschildren.md) - Verifica se o elemento atual do iterador interno tem ou não filhos
+  - [ParentIterator::next](parentiterator.next.md) - Avança o iterador
+  - [ParentIterator::rewind](parentiterator.rewind.md) - Recomeça o iterador
+  - [ParentIterator::\_\_construct](parentiterator.construct.md) - Constrói um ParentIterator
+  - [Parle\Lexer::advance](parle-lexer.advance.md) - Processa a próxima regra do analisador léxico
+  - [Parle\Lexer::build](parle-lexer.build.md) - Finaliza o conjunto de regras do analisador léxico
+  - [Parle\Lexer::callout](parle-lexer.callout.md) - Define função de retorno para token
+  - [Parle\Lexer::consume](parle-lexer.consume.md) - Passa os dados para processamento
+  - [Parle\Lexer::dump](parle-lexer.dump.md) - Despeja a máquina de estados
+  - [Parle\Lexer::getToken](parle-lexer.gettoken.md) - Obtém o token atual
+  - [Parle\Lexer::insertMacro](parle-lexer.insertmacro.md) - Insere macro de expressão regular
+  - [Parle\Lexer::push](parle-lexer.push.md) - Adiciona uma regra de análise léxica
+  - [Parle\Lexer::reset](parle-lexer.reset.md) - Redefine o analisador léxico
+  - [Parle\Parser::advance](parle-parser.advance.md) - Processa a próxima regra do analisador
+  - [Parle\Parser::build](parle-parser.build.md) - Finaliza as regras gramaticais
+  - [Parle\Parser::consume](parle-parser.consume.md) - Consome os dados para processamento
+  - [Parle\Parser::dump](parle-parser.dump.md) - Despeja a gramática
+  - [Parle\Parser::errorInfo](parle-parser.errorinfo.md) - Obtém informação do erro
+  - [Parle\Parser::left](parle-parser.left.md) - Declara um token com associatividade à esquerda
+  - [Parle\Parser::nonassoc](parle-parser.nonassoc.md) - Declara um token sem associatividade
+  - [Parle\Parser::precedence](parle-parser.precedence.md) - Declara uma regra de precedência
+  - [Parle\Parser::push](parle-parser.push.md) - Adiciona uma regra gramatical
+  - [Parle\Parser::reset](parle-parser.reset.md) - Redefine estado do analisador
+  - [Parle\Parser::right](parle-parser.right.md) - Declara um token com associatividade à direita
+  - [Parle\Parser::sigil](parle-parser.sigil.md) - Recupera uma parte correspondente de uma regra
+  - [Parle\Parser::sigilCount](parle-parser.sigilcount.md) - Número de elementos na regra correspondente
+  - [Parle\Parser::sigilName](parle-parser.sigilname.md) - Recupera um nome de regra ou de token
+  - [Parle\Parser::token](parle-parser.token.md) - Declara um token
+  - [Parle\Parser::tokenId](parle-parser.tokenid.md) - Obtém o ID do token
+  - [Parle\Parser::trace](parle-parser.trace.md) - Rastreia a operação do analisador
+  - [Parle\Parser::validate](parle-parser.validate.md) - Valida entrada
+  - [Parle\RLexer::advance](parle-rlexer.advance.md) - Processa a próxima regra do analisador léxico
+  - [Parle\RLexer::build](parle-rlexer.build.md) - Finaliza o conjunto de regras do analisador léxico
+  - [Parle\RLexer::callout](parle-rlexer.callout.md) - Define função de retorno para token
+  - [Parle\RLexer::consume](parle-rlexer.consume.md) - Passa os dados para processamento
+  - [Parle\RLexer::dump](parle-rlexer.dump.md) - Despeja a máquina de estados
+  - [Parle\RLexer::getToken](parle-rlexer.gettoken.md) - Obtém o token atual
+  - [Parle\RLexer::insertMacro](parle-rlexer.insertmacro.md) - Insere macro de expressão regular
+  - [Parle\RLexer::push](parle-rlexer.push.md) - Adiciona uma regra de análise léxica
+  - [Parle\RLexer::pushState](parle-rlexer.pushstate.md) - Insere na pilha um novo estado inicial
+  - [Parle\RLexer::reset](parle-rlexer.reset.md) - Redefine o analisador léxico
+  - [Parle\RParser::advance](parle-rparser.advance.md) - Processa a próxima regra do analisador
+  - [Parle\RParser::build](parle-rparser.build.md) - Finaliza as regras gramaticais
+  - [Parle\RParser::consume](parle-rparser.consume.md) - Consome os dados para processamento
+  - [Parle\RParser::dump](parle-rparser.dump.md) - Despeja a gramática
+  - [Parle\RParser::errorInfo](parle-rparser.errorinfo.md) - Obtém informação do erro
+  - [Parle\RParser::left](parle-rparser.left.md) - Declara um token com associatividade à esquerda
+  - [Parle\RParser::nonassoc](parle-rparser.nonassoc.md) - Declara um token sem associatividade
+  - [Parle\RParser::precedence](parle-rparser.precedence.md) - Declarar uma regra de precedência
+  - [Parle\RParser::push](parle-rparser.push.md) - Adiciona uma regra gramatical
+  - [Parle\RParser::reset](parle-rparser.reset.md) - Redefine estado do analisador
+  - [Parle\RParser::right](parle-rparser.right.md) - Declara um token com associatividade à direita
+  - [Parle\RParser::sigil](parle-rparser.sigil.md) - Recupera uma parte correspondente de uma regra
+  - [Parle\RParser::sigilCount](parle-rparser.sigilcount.md) - Número de elementos na regra correspondente
+  - [Parle\RParser::sigilName](parle-rparser.sigilname.md) - Recupera um nome de regra ou de token
+  - [Parle\RParser::token](parle-rparser.token.md) - Declara um token
+  - [Parle\RParser::tokenId](parle-rparser.tokenid.md) - Obtém o ID do token
+  - [Parle\RParser::trace](parle-rparser.trace.md) - Rastreia a operação do analisador
+  - [Parle\RParser::validate](parle-rparser.validate.md) - Valida entrada
+  - [Parle\Stack::pop](parle-stack.pop.md) - Remove um item da pilha
+  - [Parle\Stack::push](parle-stack.push.md) - Insere um item na pilha
+  - [parse\_ini\_file](function.parse-ini-file.md) - Interpreta um arquivo de configuração
+  - [parse\_ini\_string](function.parse-ini-string.md) - Interpreta uma string de configuração
+  - [parse\_str](function.parse-str.md) - Interpreta uma string como uma requisição URL
+  - [parse\_url](function.parse-url.md) - Analisa uma URL e retorna seus componentes
+  - [passthru](function.passthru.md) - Executa um programa externo e mostra a saída bruta
+  - [password\_algos](function.password-algos.md) - Obtém IDs de algoritmos disponíveis de hash de senhas
+  - [password\_get\_info](function.password-get-info.md) - Retorna a informações sobre o hash fornecido
+  - [password\_hash](function.password-hash.md) - Cria um hash de senha
+  - [password\_needs\_rehash](function.password-needs-rehash.md) - Verifica se o hash informado corresponde às opções especificadas
+  - [password\_verify](function.password-verify.md) - Verifica se uma senha corresponde a um hash
+  - [pathinfo](function.pathinfo.md) - Retorna informações sobre um caminho de arquivo
+  - [pclose](function.pclose.md) - Fecha o ponteiro de arquivo de processo
+  - [pcntl\_alarm](function.pcntl-alarm.md) - Define um alarme para entrega de um sinal
+  - [pcntl\_async\_signals](function.pcntl-async-signals.md) - Habilita/desabilita o tratamento de sinal assíncrono ou retorna a configuração antiga
+  - [pcntl\_errno](function.pcntl-errno.md) - Sinônimo de pcntl\_get\_last\_error
+  - [pcntl\_exec](function.pcntl-exec.md) - Executa o programa especificado no espaço do processo atual
+  - [pcntl\_fork](function.pcntl-fork.md) - Bifurca o processo em execução no momento
+  - [pcntl\_forkx](function.pcntl-forkx.md) - Cria um processo filho usando forkx(2)
+  - [pcntl\_getcpu](function.pcntl-getcpu.md) - Obtém o número da CPU na qual o processo que fez a chamada foi executado pela última vez
+  - [pcntl\_getcpuaffinity](function.pcntl-getcpuaffinity.md) - Obtém a afinidade de CPU de um processo
+  - [pcntl\_getpriority](function.pcntl-getpriority.md) - Obtém a prioridade de um processo
+  - [pcntl\_getqos\_class](function.pcntl-getqos-class.md) - Obtém a classe QoS do thread atual
+  - [pcntl\_get\_last\_error](function.pcntl-get-last-error.md) - Recupera o número de erro definido pela última função pcntl que falhou
+  - [pcntl\_rfork](function.pcntl-rfork.md) - Manipula recursos do processo
+  - [pcntl\_setcpuaffinity](function.pcntl-setcpuaffinity.md) - Define a afinidade de CPU de um processo
+  - [pcntl\_setns](function.pcntl-setns.md) - Reassocia o processo de chamada ao espaço de nomes de outro processo
+  - [pcntl\_setpriority](function.pcntl-setpriority.md) - Altera a prioridade de qualquer processo
+  - [pcntl\_setqos\_class](function.pcntl-setqos-class.md) - Define a classe QoS do thread atual
+  - [pcntl\_signal](function.pcntl-signal.md) - Instala um manipulador de sinal
+  - [pcntl\_signal\_dispatch](function.pcntl-signal-dispatch.md) - Chama manipuladores de sinais para sinais pendentes
+  - [pcntl\_signal\_get\_handler](function.pcntl-signal-get-handler.md) - Obtém o manipulador atual para o sinal especificado
+  - [pcntl\_sigprocmask](function.pcntl-sigprocmask.md) - Define e recupera sinais bloqueados
+  - [pcntl\_sigtimedwait](function.pcntl-sigtimedwait.md) - Aguarda sinais, com tempo limite
+  - [pcntl\_sigwaitinfo](function.pcntl-sigwaitinfo.md) - Espera por sinais
+  - [pcntl\_strerror](function.pcntl-strerror.md) - Recupera a mensagem de erro do sistema associada ao número de erro fornecido
+  - [pcntl\_unshare](function.pcntl-unshare.md) - Dissociar partes do contexto de execução do processo
+  - [pcntl\_wait](function.pcntl-wait.md) - Aguarda ou retorna o status de um filho bifurcado
+  - [pcntl\_waitid](function.pcntl-waitid.md) - Aguarda que um processo filho mude de estado
+  - [pcntl\_waitpid](function.pcntl-waitpid.md) - Aguarda ou retorna o status de um filho bifurcado
+  - [pcntl\_wexitstatus](function.pcntl-wexitstatus.md) - Retorna o código de retorno de um filho encerrado
+  - [pcntl\_wifcontinued](function.pcntl-wifcontinued.md) - Verifica se o processo de acompanhamento da criança prosseguiu a partir de uma interrupção no controle do trabalho
+  - [pcntl\_wifexited](function.pcntl-wifexited.md) - Verifica se o código de status representa uma saída normal
+  - [pcntl\_wifsignaled](function.pcntl-wifsignaled.md) - Verifica se o código de status representa uma terminação devido a um sinal
+  - [pcntl\_wifstopped](function.pcntl-wifstopped.md) - Verifica se o processo filho está parado no momento
+  - [pcntl\_wstopsig](function.pcntl-wstopsig.md) - Retorna o sinal que fez o processo filho parar
+  - [pcntl\_wtermsig](function.pcntl-wtermsig.md) - Retorna o sinal que causou o término do processo filho
+  - [PDO::beginTransaction](pdo.begintransaction.md) - Inicia uma transação
+  - [PDO::commit](pdo.commit.md) - Envia uma transação
+  - [PDO::connect](pdo.connect.md) - Conecta a um banco de dados e retorna uma subclasse PDO para drivers que o suportam
+  - [PDO::cubrid\_schema](pdo.cubrid-schema.md) - Obtém as informações do esquema solicitadas
+  - [PDO::errorCode](pdo.errorcode.md) - Busca o SQLSTATE associado com a última operação no identificador do banco de dados
+  - [PDO::errorInfo](pdo.errorinfo.md) - Busca informação de erro estendida associada com a última operação no identificador do banco de dados
+  - [PDO::exec](pdo.exec.md) - Executa uma instrução SQL e retorna o número de linhas afetadas
+  - [PDO::getAttribute](pdo.getattribute.md) - Recuperar um atributo da conexão com o banco de dados
+  - [PDO::getAvailableDrivers](pdo.getavailabledrivers.md) - Retorna um array com os drivers PDO disponíveis
+  - [PDO::inTransaction](pdo.intransaction.md) - Verifica se está dentro de uma transação
+  - [PDO::lastInsertId](pdo.lastinsertid.md) - Retorna o ID da última linha ou valor de sequência inserido
+  - [PDO::pgsqlCopyFromArray](pdo.pgsqlcopyfromarray.md) - Sinônimo de Pdo\Pgsql::copyFromArray
+  - [PDO::pgsqlCopyFromFile](pdo.pgsqlcopyfromfile.md) - Sinônimo de Pdo\Pgsql::copyFromFile
+  - [PDO::pgsqlCopyToArray](pdo.pgsqlcopytoarray.md) - Sinônimo de Pdo\Pgsql::copyToArray
+  - [PDO::pgsqlCopyToFile](pdo.pgsqlcopytofile.md) - Sinônimo de Pdo\Pgsql::copyToFile
+  - [PDO::pgsqlGetNotify](pdo.pgsqlgetnotify.md) - Sinônimo de Pdo\Pgsql::getNotify
+  - [PDO::pgsqlGetPid](pdo.pgsqlgetpid.md) - Sinônimo de Pdo\Pgsql::getPid
+  - [PDO::pgsqlLOBCreate](pdo.pgsqllobcreate.md) - Sinônimo de Pdo\Pgsql::lobCreate
+  - [PDO::pgsqlLOBOpen](pdo.pgsqllobopen.md) - Sinônimo de Pdo\Pgsql::lobOpen
+  - [PDO::pgsqlLOBUnlink](pdo.pgsqllobunlink.md) - Sinônimo de Pdo\Pgsql::lobUnlink
+  - [PDO::prepare](pdo.prepare.md) - Prepara uma instrução para execução e retorna um objeto de instrução
+  - [PDO::query](pdo.query.md) - Prepara e executa uma instrução SQL sem marcadores
+  - [PDO::quote](pdo.quote.md) - Inclui aspas em uma string para uso em uma consulta
+  - [PDO::rollBack](pdo.rollback.md) - Reverte uma transação
+  - [PDO::setAttribute](pdo.setattribute.md) - Define um atributo
+  - [PDO::sqliteCreateAggregate](pdo.sqlitecreateaggregate.md) - Sinônimo de Pdo\Sqlite::createAggregate
+  - [PDO::sqliteCreateCollation](pdo.sqlitecreatecollation.md) - Sinônimo de Pdo\Sqlite::createCollation
+  - [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md) - Sinônimo de Pdo\Sqlite::createFunction
+  - [PDO::\_\_construct](pdo.construct.md) - Cria uma instância PDO representando uma conexão a um banco de dados
+  - [PDOStatement::bindColumn](pdostatement.bindcolumn.md) - Vincula uma coluna a uma variável PHP
+  - [PDOStatement::bindParam](pdostatement.bindparam.md) - Vincula um parâmetro ao nome de variável especificado
+  - [PDOStatement::bindValue](pdostatement.bindvalue.md) - Vincula um valor a um parâmetro
+  - [PDOStatement::closeCursor](pdostatement.closecursor.md) - Fecha o cursor, permitindo que a instrução seja executada novamente
+  - [PDOStatement::columnCount](pdostatement.columncount.md) - Retorna o número de colunas no conjunto de resultados
+  - [PDOStatement::debugDumpParams](pdostatement.debugdumpparams.md) - Despeja uma instrução preparada SQL
+  - [PDOStatement::errorCode](pdostatement.errorcode.md) - Busca o SQLSTATE associado com a última operação no objeto da instrução
+  - [PDOStatement::errorInfo](pdostatement.errorinfo.md) - Busca informação de erro estendida associada com a última operação no identificador da instrução
+  - [PDOStatement::execute](pdostatement.execute.md) - Executa ums instrução preparada
+  - [PDOStatement::fetch](pdostatement.fetch.md) - Busca a próxima linha de um resultado
+  - [PDOStatement::fetchAll](pdostatement.fetchall.md) - Busca as linhas remanescentes de um conjunto de resultados
+  - [PDOStatement::fetchColumn](pdostatement.fetchcolumn.md) - Retorna uma única coluna do próximo registro de um resultado
+  - [PDOStatement::fetchObject](pdostatement.fetchobject.md) - Busca o próximo registro e retorna-o como um objeto
+  - [PDOStatement::getAttribute](pdostatement.getattribute.md) - Recupera um atributo da instrução
+  - [PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.md) - Retorna metadados para uma coluna no resultado
+  - [PDOStatement::getIterator](pdostatement.getiterator.md) - Obtém o iterador do conjunto de resultados
+  - [PDOStatement::nextRowset](pdostatement.nextrowset.md) - Avança para o próximo conjunto de registros em um identificados de instrução com múltiplos conjuntos de registros
+  - [PDOStatement::rowCount](pdostatement.rowcount.md) - Retorna o número de registros afetados pela última instrução SQL
+  - [PDOStatement::setAttribute](pdostatement.setattribute.md) - Define um atributo na instrução
+  - [PDOStatement::setFetchMode](pdostatement.setfetchmode.md) - Define o modo de carga de dados para esta instrução
+  - [Pdo\Firebird::getApiVersion](pdo-firebird.getapiversion.md) - Obtém a versão da API
+  - [Pdo\Mysql::getWarningCount](pdo-mysql.getwarningcount.md) - Retorna o número de alertas da última consulta executada
+  - [Pdo\Pgsql::copyFromArray](pdo-pgsql.copyfromarray.md) - Copia dados de um array PHP para uma tabela
+  - [Pdo\Pgsql::copyFromFile](pdo-pgsql.copyfromfile.md) - Copia dados do arquivo para a tabela
+  - [Pdo\Pgsql::copyToArray](pdo-pgsql.copytoarray.md) - Copia dados da tabela do banco de dados para o array PHP
+  - [Pdo\Pgsql::copyToFile](pdo-pgsql.copytofile.md) - Copia dados da tabela para arquivo
+  - [Pdo\Pgsql::escapeIdentifier](pdo-pgsql.escapeidentifier.md) - Escapa uma string para uso como identificador SQL
+  - [Pdo\Pgsql::getNotify](pdo-pgsql.getnotify.md) - Recebe notificação assíncrona
+  - [Pdo\Pgsql::getPid](pdo-pgsql.getpid.md) - Obtém o PID do processo subjacente que trata esta conexão
+  - [Pdo\Pgsql::lobCreate](pdo-pgsql.lobcreate.md) - Cria um novo objeto grande
+  - [Pdo\Pgsql::lobOpen](pdo-pgsql.lobopen.md) - Abre um fluxo de objetos grandes existente
+  - [Pdo\Pgsql::lobUnlink](pdo-pgsql.lobunlink.md) - Exclui o objeto grande
+  - [Pdo\Pgsql::setNoticeCallback](pdo-pgsql.setnoticecallback.md) - Define um retorno de chamada para lidar com mensagens de alerta e de aviso geradas pelo back-end
+  - [Pdo\Sqlite::createAggregate](pdo-sqlite.createaggregate.md) - Registra uma função de agregação definida pelo usuário para uso em instruções SQL
+  - [Pdo\Sqlite::createCollation](pdo-sqlite.createcollation.md) - Registra uma função definida pelo usuário para uso como função de agrupamento em instruções SQL
+  - [Pdo\Sqlite::createFunction](pdo-sqlite.createfunction.md) - Registra uma função definida pelo usuário para uso em instruções SQL
+  - [Pdo\Sqlite::loadExtension](pdo-sqlite.loadextension.md) - Carrega extensão
+  - [Pdo\Sqlite::openBlob](pdo-sqlite.openblob.md) - Abre Blob
+  - [Pdo\Sqlite::setAuthorizer](pdo-sqlite.setauthorizer.md) - Configures a callback to be used as an authorizer to limit what a statement can do
+  - [PDO\_CUBRID DSN](ref.pdo-cubrid.connection.md) - Conectando-se a bancos de dados CUBRID
+  - [PDO\_DBLIB DSN](ref.pdo-dblib.connection.md) - Conectando-se aos bancos de dados Microsoft SQL Server e Sybase
+  - [PDO\_FIREBIRD DSN](ref.pdo-firebird.connection.md) - Conectando ao banco de dados Firebird
+  - [PDO\_IBM DSN](ref.pdo-ibm.connection.md) - Conectando-se a bancos de dados IBM
+  - [PDO\_INFORMIX DSN](ref.pdo-informix.connection.md) - Conectando-se a bancos de dados Informix
+  - [PDO\_MYSQL DSN](ref.pdo-mysql.connection.md) - Conectando a bancos de dados MySQL
+  - [PDO\_OCI DSN](ref.pdo-oci.connection.md) - Conectando-se a bancos de dados Oracle
+  - [PDO\_ODBC DSN](ref.pdo-odbc.connection.md) - Conectando-se a bancos de dados ODBC ou DB2
+  - [PDO\_PGSQL DSN](ref.pdo-pgsql.connection.md) - Conectando-se a bancos de dados PostgreSQL
+  - [PDO\_SQLSRV DSN](ref.pdo-sqlsrv.connection.md) - Conectando-se aos bancos de dados MS SQL Server e SQL Azure
+  - [pfsockopen](function.pfsockopen.md) - Abra uma conexão persistente de soquete de domínio Unix ou de Internet
+  - [pg\_affected\_rows](function.pg-affected-rows.md) - Retorna o número de registros afetados (tuplas)
+  - [pg\_cancel\_query](function.pg-cancel-query.md) - Cancela uma consulta assíncrona
+  - [pg\_change\_password](function.pg-change-password.md) - Altera a senha de um usuário do PostgreSQL
+  - [pg\_client\_encoding](function.pg-client-encoding.md) - Obtém a codificação do cliente
+  - [pg\_close](function.pg-close.md) - Fecha uma conexão PostgreSQL
+  - [pg\_close\_stmt](function.pg-close-stmt.md) - Closes a prepared statement
+  - [pg\_connect](function.pg-connect.md) - Abre uma conexão PostgreSQL
+  - [pg\_connection\_busy](function.pg-connection-busy.md) - Obtém se conexão está ocupada ou não
+  - [pg\_connection\_reset](function.pg-connection-reset.md) - Redefine conexão (reconecta)
+  - [pg\_connection\_status](function.pg-connection-status.md) - Obtém o status da conexão
+  - [pg\_connect\_poll](function.pg-connect-poll.md) - Pesquisa o status de uma tentativa de conexão PostgreSQL assíncrona em
+    andamento
+  - [pg\_consume\_input](function.pg-consume-input.md) - Lê a entrada na conexão
+  - [pg\_convert](function.pg-convert.md) - Converte valores de array associativo em formas adequadas para instruções SQL
+  - [pg\_copy\_from](function.pg-copy-from.md) - Insere registros em uma tabela a partir de um array
+  - [pg\_copy\_to](function.pg-copy-to.md) - Copia uma tabela para um array
+  - [pg\_dbname](function.pg-dbname.md) - Obtém o nome do banco de dados
+  - [pg\_delete](function.pg-delete.md) - Exclui registros
+  - [pg\_end\_copy](function.pg-end-copy.md) - Sincroniza com back-end do PostgreSQL
+  - [pg\_escape\_bytea](function.pg-escape-bytea.md) - Escapa uma string para inserção em um campo bytea
+  - [pg\_escape\_identifier](function.pg-escape-identifier.md) - Escapa um identificador para inserção em um campo de texto
+  - [pg\_escape\_literal](function.pg-escape-literal.md) - Escapa um literal para inserção em um campo de texto
+  - [pg\_escape\_string](function.pg-escape-string.md) - Escapa uma string para consulta
+  - [pg\_execute](function.pg-execute.md) - Envia uma solicitação para executar uma instrução preparada com determinados parâmetros e aguarda o resultado
+  - [pg\_fetch\_all](function.pg-fetch-all.md) - Busca todas as linhas de um resultado como um array
+  - [pg\_fetch\_all\_columns](function.pg-fetch-all-columns.md) - Busca todas as linhas em uma determinada coluna de resultado como um array
+  - [pg\_fetch\_array](function.pg-fetch-array.md) - Busca uma linha como um array
+  - [pg\_fetch\_assoc](function.pg-fetch-assoc.md) - Busca uma linha como um array associativo
+  - [pg\_fetch\_object](function.pg-fetch-object.md) - Busca uma linha como um objeto
+  - [pg\_fetch\_result](function.pg-fetch-result.md) - Retorna valores de uma instância de resultado
+  - [pg\_fetch\_row](function.pg-fetch-row.md) - Obtém uma linha como um array enumerado
+  - [pg\_field\_is\_null](function.pg-field-is-null.md) - Testa se um campo é SQL NULL
+  - [pg\_field\_name](function.pg-field-name.md) - Retorna o nome de um campo
+  - [pg\_field\_num](function.pg-field-num.md) - Retorna o número do campo para o campo nomeado
+  - [pg\_field\_prtlen](function.pg-field-prtlen.md) - Retorna o comprimento impresso
+  - [pg\_field\_size](function.pg-field-size.md) - Retorna o tamanho de armazenamento interno do campo nomeado
+  - [pg\_field\_table](function.pg-field-table.md) - Retorna o nome ou oid do campo da tabela
+  - [pg\_field\_type](function.pg-field-type.md) - Retorna o nome do tipo para o número do campo correspondente
+  - [pg\_field\_type\_oid](function.pg-field-type-oid.md) - Retorna o ID do tipo (OID) para o número do campo correspondente
+  - [pg\_flush](function.pg-flush.md) - Libera dados de consulta de saída na conexão
+  - [pg\_free\_result](function.pg-free-result.md) - Libera memória de resultados
+  - [pg\_get\_notify](function.pg-get-notify.md) - Obtém mensagem SQL NOTIFY
+  - [pg\_get\_pid](function.pg-get-pid.md) - Obtém o ID do processo do backend
+  - [pg\_get\_result](function.pg-get-result.md) - Obtém o resultado da consulta assíncrona
+  - [pg\_host](function.pg-host.md) - Retorna o nome do host associado à conexão
+  - [pg\_insert](function.pg-insert.md) - Insere array na tabela
+  - [pg\_jit](function.pg-jit.md) - Retorna as informações JIT do servidor
+  - [pg\_last\_error](function.pg-last-error.md) - Obtém a última string da mensagem de erro de uma conexão
+  - [pg\_last\_notice](function.pg-last-notice.md) - Retorna a última mensagem de aviso do servidor PostgreSQL
+  - [pg\_last\_oid](function.pg-last-oid.md) - Retorna o OID da última linha
+  - [pg\_lo\_close](function.pg-lo-close.md) - Fecha um objeto grande
+  - [pg\_lo\_create](function.pg-lo-create.md) - Cria um objeto grande
+  - [pg\_lo\_export](function.pg-lo-export.md) - Exporta um objeto grande para arquivo
+  - [pg\_lo\_import](function.pg-lo-import.md) - Importa um objeto grande do arquivo
+  - [pg\_lo\_open](function.pg-lo-open.md) - Abra um objeto grande
+  - [pg\_lo\_read](function.pg-lo-read.md) - Lê um objeto grande
+  - [pg\_lo\_read\_all](function.pg-lo-read-all.md) - Lê um objeto grande inteiro e envia direto para o navegador
+  - [pg\_lo\_seek](function.pg-lo-seek.md) - Aponta para posição dentro de um objeto grande
+  - [pg\_lo\_tell](function.pg-lo-tell.md) - Retorna a posição de busca atual a de um objeto grande
+  - [pg\_lo\_truncate](function.pg-lo-truncate.md) - Trunca um objeto grande
+  - [pg\_lo\_unlink](function.pg-lo-unlink.md) - Exclui um objeto grande
+  - [pg\_lo\_write](function.pg-lo-write.md) - Escreve em um objeto grande
+  - [pg\_meta\_data](function.pg-meta-data.md) - Obtém metadados para tabela
+  - [pg\_num\_fields](function.pg-num-fields.md) - Retorna o número de campos em um resultado
+  - [pg\_num\_rows](function.pg-num-rows.md) - Retorna o número de linhas em um resultado
+  - [pg\_options](function.pg-options.md) - Obtém as opções associadas à conexão
+  - [pg\_parameter\_status](function.pg-parameter-status.md) - Procura uma configuração de parâmetro atual do servidor
+  - [pg\_pconnect](function.pg-pconnect.md) - Abre uma conexão PostgreSQL persistente
+  - [pg\_ping](function.pg-ping.md) - Ping em conexão com banco de dados
+  - [pg\_port](function.pg-port.md) - Retorne o número da porta associada à conexão
+  - [pg\_prepare](function.pg-prepare.md) - Envia uma solicitação ao servidor para criar uma instrução preparada com os
+    parâmetros fornecidos e aguarda a conclusão
+  - [pg\_put\_copy\_data](function.pg-put-copy-data.md) - Envia dados para o servidor durante uma operação COPY
+  - [pg\_put\_copy\_end](function.pg-put-copy-end.md) - Sinaliza a conclusão de uma operação COPY para o servidor
+  - [pg\_put\_line](function.pg-put-line.md) - Envia uma string terminada em NULL para o backend do PostgreSQL
+  - [pg\_query](function.pg-query.md) - Executa uma consulta
+  - [pg\_query\_params](function.pg-query-params.md) - Envia um comando ao servidor e aguarda o resultado, com a capacidade de passar parâmetros separadamente do texto do comando SQL
+  - [pg\_result\_error](function.pg-result-error.md) - Obtém mensagem de erro associada ao resultado
+  - [pg\_result\_error\_field](function.pg-result-error-field.md) - Retorna um campo individual de um relatório de erros
+  - [pg\_result\_memory\_size](function.pg-result-memory-size.md) - Retorna a quantidade de memória alocada para um resultado de consulta
+  - [pg\_result\_seek](function.pg-result-seek.md) - Define deslocamento interno de linha na instância de resultado
+  - [pg\_result\_status](function.pg-result-status.md) - Obtém o status do resultado da consulta
+  - [pg\_select](function.pg-select.md) - Seleciona registros
+  - [pg\_send\_execute](function.pg-send-execute.md) - Envia uma solicitação para executar uma instrução preparada com determinados parâmetros, sem esperar pelo(s) resultado(s)
+  - [pg\_send\_prepare](function.pg-send-prepare.md) - Envia uma solicitação para criar uma instrução preparada com os parâmetros fornecidos, sem esperar pela conclusão
+  - [pg\_send\_query](function.pg-send-query.md) - Envia consulta assíncrona
+  - [pg\_send\_query\_params](function.pg-send-query-params.md) - Envia um comando e parâmetros separados para o servidor sem esperar pelo(s) resultado(s)
+  - [pg\_set\_chunked\_rows\_size](function.pg-set-chunked-rows-size.md) - Define que os resultados da consulta sejam retornados em partes
+  - [pg\_set\_client\_encoding](function.pg-set-client-encoding.md) - Define a codificação do cliente
+  - [pg\_set\_error\_context\_visibility](function.pg-set-error-context-visibility.md) - Determina a visibilidade das mensagens de erro do contexto retornadas por pg\_last\_error
+    e pg\_result\_error
+  - [pg\_set\_error\_verbosity](function.pg-set-error-verbosity.md) - Determina o detalhamento das mensagens retornadas por pg\_last\_error
+    e pg\_result\_error
+  - [pg\_socket](function.pg-socket.md) - Obtém um identificador somente leitura para o socket subjacente a uma conexão PostgreSQL
+  - [pg\_socket\_poll](function.pg-socket-poll.md) - Verifica se um socket de conexão PostgreSQL está pronto para leitura/gravação
+  - [pg\_trace](function.pg-trace.md) - Ativa o rastreamento de uma conexão PostgreSQL
+  - [pg\_transaction\_status](function.pg-transaction-status.md) - Retorna o status atual da transação do servidor
+  - [pg\_tty](function.pg-tty.md) - Retorna o nome TTY associado à conexão
+  - [pg\_unescape\_bytea](function.pg-unescape-bytea.md) - Desfaz escape binário para tipo bytea
+  - [pg\_untrace](function.pg-untrace.md) - Desabilita o rastreamento de uma conexão PostgreSQL
+  - [pg\_update](function.pg-update.md) - Atualiza tabela
+  - [pg\_version](function.pg-version.md) - Retorna um array com versão do cliente, protocolo e servidor (quando disponível)
+  - [Phar::addEmptyDir](phar.addemptydir.md) - Adiciona um diretório vazio ao arquivo phar
+  - [Phar::addFile](phar.addfile.md) - Adiciona um arquivo do sistema de arquivos ao arquivo phar
+  - [Phar::addFromString](phar.addfromstring.md) - Adiciona um arquivo a partir de uma string ao arquivo phar
+  - [Phar::apiVersion](phar.apiversion.md) - Retorna a versão da API
+  - [Phar::buildFromDirectory](phar.buildfromdirectory.md) - Constrói um arquivo phar a partir dos arquivos dentro de um diretório
+  - [Phar::buildFromIterator](phar.buildfromiterator.md) - Constrói um arquivo phar a partir de um iterador
+  - [Phar::canCompress](phar.cancompress.md) - Retorna se a extensão phar suporta compactação usando zlib ou bzip2
+  - [Phar::canWrite](phar.canwrite.md) - Retorna se a extensão phar suporta a escrita e criação de phars
+  - [Phar::compress](phar.compress.md) - Compacta todo o arquivo Phar usando compactação Gzip ou Bzip2
+  - [Phar::compressFiles](phar.compressfiles.md) - Compacta todos os arquivos no arquivo Phar atual
+  - [Phar::convertToData](phar.converttodata.md) - Converte um arquivo phar em um arquivo tar ou zip não executável
+  - [Phar::convertToExecutable](phar.converttoexecutable.md) - Converte um arquivo phar em outro formato de arquivo executável phar
+  - [Phar::copy](phar.copy.md) - Copia um arquivo interno do arquivo phar para outro novo arquivo dentro do phar
+  - [Phar::count](phar.count.md) - Retorna o número de entradas (arquivos) no arquivo Phar
+  - [Phar::createDefaultStub](phar.createdefaultstub.md) - Cria um stup de formato específico de arquivo phar
+  - [Phar::decompress](phar.decompress.md) - Descompacta todo o arquivo Phar
+  - [Phar::decompressFiles](phar.decompressfiles.md) - Descompacta todos os arquivos no arquivo Phar atual
+  - [Phar::delete](phar.delete.md) - Exclui um arquivo dentro de um arquivo phar
+  - [Phar::delMetadata](phar.delmetadata.md) - Exclui os metadados globais do phar
+  - [Phar::extractTo](phar.extractto.md) - Extrai o conteúdo de um arquivo phar para um diretório
+  - [Phar::getAlias](phar.getalias.md) - Obtém o apelido para o Phar
+  - [Phar::getMetadata](phar.getmetadata.md) - Retorna metadados do arquivo phar
+  - [Phar::getModified](phar.getmodified.md) - Informa se o phar foi modificado
+  - [Phar::getPath](phar.getpath.md) - Obtém o caminho real para o arquivo Phar no disco
+  - [Phar::getSignature](phar.getsignature.md) - Retorna a assinatura MD5/SHA1/SHA256/SHA512/OpenSSL de um arquivo Phar
+  - [Phar::getStub](phar.getstub.md) - Retorna o carregador PHP ou o stub de inicialização de um arquivo Phar
+  - [Phar::getSupportedCompression](phar.getsupportedcompression.md) - Retorna um array de algoritmos de compactação suportados
+  - [Phar::getSupportedSignatures](phar.getsupportedsignatures.md) - Retorna um array de tipos de assinatura suportados
+  - [Phar::getVersion](phar.getversion.md) - Retorna informações da versão do arquivo Phar
+  - [Phar::hasMetadata](phar.hasmetadata.md) - Informa se o phar tem metadados globais
+  - [Phar::interceptFileFuncs](phar.interceptfilefuncs.md) - Instrui phar a interceptar fopen, file\_get\_contents, opendir e todas as funções relacionadas a stat
+  - [Phar::isBuffering](phar.isbuffering.md) - Usado para determinar se as operações de gravação Phar estão sendo armazenadas em buffer ou estão sendo liberadas diretamente no disco
+  - [Phar::isCompressed](phar.iscompressed.md) - Retorna Phar::GZ ou PHAR::BZ2 se todo o arquivo phar estiver compactado (.tar.gz/tar.bz e assim por diante)
+  - [Phar::isFileFormat](phar.isfileformat.md) - Informa se o arquivo phar é baseado no formato de arquivo tar/phar/zip dependendo do parâmetro
+  - [Phar::isValidPharFilename](phar.isvalidpharfilename.md) - Informa se o nome de arquivo fornecido é um nome de arquivo phar válido
+  - [Phar::isWritable](phar.iswritable.md) - Informa se o arquivo phar pode ser modificado
+  - [Phar::loadPhar](phar.loadphar.md) - Carrega qualquer arquivo phar com um apelido
+  - [Phar::mapPhar](phar.mapphar.md) - Lê o arquivo atualmente em execução (um phar) e registra seu manifesto
+  - [Phar::mount](phar.mount.md) - Monta um caminho externo ou arquivo em um local virtual dentro do arquivo phar
+  - [Phar::mungServer](phar.mungserver.md) - Define uma lista de até 4 variáveis ​​$\_SERVER que devem ser modificadas para execução
+  - [Phar::offsetExists](phar.offsetexists.md) - Determina se um arquivo existe no phar
+  - [Phar::offsetGet](phar.offsetget.md) - Obtém um objeto PharFileInfo para um arquivo específico
+  - [Phar::offsetSet](phar.offsetset.md) - Define o conteúdo de um arquivo interno para o de um arquivo externo
+  - [Phar::offsetUnset](phar.offsetunset.md) - Remove um arquivo de um phar
+  - [Phar::running](phar.running.md) - Retorna o caminho completo no disco ou a URL completa do arquivo Phar em execução no momento
+  - [Phar::setAlias](phar.setalias.md) - Define o apelido para o arquivo Phar
+  - [Phar::setDefaultStub](phar.setdefaultstub.md) - Usado para definir o carregador PHP ou o stub de bootstrap de um arquivo Phar para o carregador padrão
+  - [Phar::setMetadata](phar.setmetadata.md) - Define metadados do arquivo phar
+  - [Phar::setSignatureAlgorithm](phar.setsignaturealgorithm.md) - Define o algoritmo de assinatura para um phar e o aplica
+  - [Phar::setStub](phar.setstub.md) - Usado para definir o carregador PHP ou o stub de inicialização de um arquivo Phar
+  - [Phar::startBuffering](phar.startbuffering.md) - Inicia o buffer das operações de gravação Phar, não modifica o objeto Phar no disco
+  - [Phar::stopBuffering](phar.stopbuffering.md) - Interrompe o buffer de solicitações de gravação no arquivo Phar e salva as alterações no disco
+  - [Phar::unlinkArchive](phar.unlinkarchive.md) - Remove completamente um arquivo phar do disco e da memória
+  - [Phar::webPhar](phar.webphar.md) - Encaminha uma solicitação de um navegador da web para um arquivo interno dentro do arquivo phar
+  - [Phar::\_\_construct](phar.construct.md) - Constrói um objeto de arquivo Phar
+  - [Phar::\_\_destruct](phar.destruct.md) - Destrói um objeto de arquivo Phar
+  - [PharData::addEmptyDir](phardata.addemptydir.md) - Adiciona um diretório vazio ao arquivo tar/zip
+  - [PharData::addFile](phardata.addfile.md) - Adiciona um arquivo do sistema de arquivos ao arquivo tar/zip
+  - [PharData::addFromString](phardata.addfromstring.md) - Adiciona um arquivo de uma string ao arquivo tar/zip
+  - [PharData::buildFromDirectory](phardata.buildfromdirectory.md) - Constrói um arquivo tar/zip a partir dos arquivos dentro de um diretório
+  - [PharData::buildFromIterator](phardata.buildfromiterator.md) - Constrói um arquivo tar ou zip a partir de um iterador
+  - [PharData::compress](phardata.compress.md) - Compacta todo o arquivo tar/zip usando Gzip ou Bzip2
+  - [PharData::compressFiles](phardata.compressfiles.md) - Compacta todos os arquivos no arquivo tar/zip atual
+  - [PharData::convertToData](phardata.converttodata.md) - Converte um arquivo phar em um arquivo tar ou zip não executável
+  - [PharData::convertToExecutable](phardata.converttoexecutable.md) - Converte um arquivo tar/zip não executável em um arquivo phar executável
+  - [PharData::copy](phardata.copy.md) - Copia um arquivo interno do arquivo tar/zip para outro arquivo novo dentro do mesmo arquivo
+  - [PharData::decompress](phardata.decompress.md) - Descompacta todo o arquivo Phar
+  - [PharData::decompressFiles](phardata.decompressfiles.md) - Descompacta todos os arquivos no arquivo zip atual
+  - [PharData::delete](phardata.delete.md) - Exclui um arquivo dentro de um arquivo tar/zip
+  - [PharData::delMetadata](phardata.delmetadata.md) - Exclui os metadados globais de um arquivo zip
+  - [PharData::extractTo](phardata.extractto.md) - Extrai o conteúdo de um arquivo tar/zip para um diretório
+  - [PharData::isWritable](phardata.iswritable.md) - Informa se o arquivo tar/zip pode ser modificado
+  - [PharData::offsetSet](phardata.offsetset.md) - Define o conteúdo de um arquivo dentro do tar/zip para o de um arquivo externo ou string
+  - [PharData::offsetUnset](phardata.offsetunset.md) - Remove um arquivo de um arquivo tar/zip
+  - [PharData::setAlias](phardata.setalias.md) - Função fictícia (Phar::setAlias ​​não é válido para PharData)
+  - [PharData::setDefaultStub](phardata.setdefaultstub.md) - Função fictícia (Phar::setDefaultStub não é válido para PharData)
+  - [PharData::setMetadata](phardata.setmetadata.md) - Define metadados do arquivo phar
+  - [PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md) - Define o algoritmo de assinatura para um phar e o aplica
+  - [PharData::setStub](phardata.setstub.md) - Função fictícia (Phar::setStub não é válido para PharData)
+  - [PharData::\_\_construct](phardata.construct.md) - Constrói um objeto de arquivo tar ou zip não executável
+  - [PharData::\_\_destruct](phardata.destruct.md) - Destrói um objeto de arquivo tar ou zip não executável
+  - [PharFileInfo::chmod](pharfileinfo.chmod.md) - Define bits de permissão específicos do arquivo
+  - [PharFileInfo::compress](pharfileinfo.compress.md) - Compacta a entrada Phar atual com zlib ou bzip2
+  - [PharFileInfo::decompress](pharfileinfo.decompress.md) - Descompacta a entrada Phar atual dentro do phar
+  - [PharFileInfo::delMetadata](pharfileinfo.delmetadata.md) - Exclui os metadados da entrada
+  - [PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md) - Retorna o tamanho real do arquivo (com compactação) dentro do arquivo Phar
+  - [PharFileInfo::getContent](pharfileinfo.getcontent.md) - Obtém o conteúdo completo do arquivo de entrada
+  - [PharFileInfo::getCRC32](pharfileinfo.getcrc32.md) - Retorna o código CRC32 ou lança uma exceção se o CRC não tiver sido verificado
+  - [PharFileInfo::getMetadata](pharfileinfo.getmetadata.md) - Retorna metadados específicos do arquivo salvos com um arquivo
+  - [PharFileInfo::getPharFlags](pharfileinfo.getpharflags.md) - Retorna os sinalizadores de entrada do arquivo Phar
+  - [PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.md) - Retorna os metadados da entrada
+  - [PharFileInfo::isCompressed](pharfileinfo.iscompressed.md) - Informa se a entrada está compactada
+  - [PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.md) - Informa se a entrada do arquivo teve seu CRC verificado
+  - [PharFileInfo::setMetadata](pharfileinfo.setmetadata.md) - Define metadados específicos de arquivo salvos com um arquivo
+  - [PharFileInfo::\_\_construct](pharfileinfo.construct.md) - Constrói um objeto de entrada Phar
+  - [PharFileInfo::\_\_destruct](pharfileinfo.destruct.md) - Destrói um objeto de entrada Phar
+  - [phpcredits](function.phpcredits.md) - Mostra os créditos para o PHP
+  - [phpdbg\_break\_file](function.phpdbg-break-file.md) - Insere um ponto de interrupção em uma linha de um arquivo
+  - [phpdbg\_break\_function](function.phpdbg-break-function.md) - Insere um ponto de interrupção na entrada de uma função
+  - [phpdbg\_break\_method](function.phpdbg-break-method.md) - Insere um ponto de interrupção na entrada de um método
+  - [phpdbg\_break\_next](function.phpdbg-break-next.md) - Insere um ponto de interrupção no próximo opcode
+  - [phpdbg\_clear](function.phpdbg-clear.md) - Limpa todos os pontos de interrupção
+  - [phpdbg\_color](function.phpdbg-color.md) - Define a cor de certos elementos
+  - [phpdbg\_end\_oplog](function.phpdbg-end-oplog.md) - Termina um oplog
+  - [phpdbg\_exec](function.phpdbg-exec.md) - Tenta definir o contexto de execução
+  - [phpdbg\_get\_executable](function.phpdbg-get-executable.md) - Obtém um executável
+  - [phpdbg\_prompt](function.phpdbg-prompt.md) - Define o prompt de comando
+  - [phpdbg\_start\_oplog](function.phpdbg-start-oplog.md) - Inicia um oplog
+  - [phpinfo](function.phpinfo.md) - Mostra informações sobre a configuração do PHP
+  - [PhpToken::getTokenName](phptoken.gettokenname.md) - Retorna o nome do token
+  - [PhpToken::is](phptoken.is.md) - Informa se o token é de determinado tipo
+  - [PhpToken::isIgnorable](phptoken.isignorable.md) - Informa se o token seria ignorado pelo analisador PHP
+  - [PhpToken::tokenize](phptoken.tokenize.md) - Divide a fonte fornecida em tokens PHP, representados por objetos PhpToken
+  - [PhpToken::\_\_construct](phptoken.construct.md) - Retorna um novo objeto PhpToken
+  - [PhpToken::\_\_toString](phptoken.tostring.md) - Retorna o conteúdo textual do token
+  - [phpversion](function.phpversion.md) - Obtém a versão atual do PHP
+  - [php\_ini\_loaded\_file](function.php-ini-loaded-file.md) - Obtém o caminho para o arquivo php.ini carregado
+  - [php\_ini\_scanned\_files](function.php-ini-scanned-files.md) - Retorna uma lista de arquivos .ini analisados ​​do diretório ini adicional
+  - [php\_sapi\_name](function.php-sapi-name.md) - Retorna o tipo de interface entre o servidor web e o PHP
+  - [php\_strip\_whitespace](function.php-strip-whitespace.md) - Retorna o código com comentários e espaços em branco removidos
+  - [php\_uname](function.php-uname.md) - Retorna informações sobre o sistema operacional em que o PHP está sendo executado
+  - [php\_user\_filter::filter](php-user-filter.filter.md) - Chamada na aplicação do filtro
+  - [php\_user\_filter::onClose](php-user-filter.onclose.md) - Chamado no fechamento do filtro
+  - [php\_user\_filter::onCreate](php-user-filter.oncreate.md) - Chamado na criação do filtro
+  - [pi](function.pi.md) - Obtém o valor de pi
+  - [png2wbmp](function.png2wbmp.md) - Converte arquivo de imagem PNG em WBMP
+  - [Pool::collect](pool.collect.md) - Coleta referências a tarefas concluídas
+  - [Pool::resize](pool.resize.md) - Redimensiona o Pool
+  - [Pool::shutdown](pool.shutdown.md) - Desliga todos os trabalhadores
+  - [Pool::submit](pool.submit.md) - Envia um objeto para execução
+  - [Pool::submitTo](pool.submitTo.md) - Envia uma tarefa a um trabalhador específico para execução
+  - [Pool::\_\_construct](pool.construct.md) - Cria um novo pool de trabalhadores
+  - [popen](function.popen.md) - Abre um processo como ponteiro de arquivo
+  - [pos](function.pos.md) - Sinônimo de current
+  - [posix\_access](function.posix-access.md) - Determina a acessibilidade de um arquivo
+  - [posix\_ctermid](function.posix-ctermid.md) - Obtém o caminho do terminal em controle
+  - [posix\_eaccess](function.posix-eaccess.md) - Determina a acessibilidade de um arquivo
+  - [posix\_errno](function.posix-errno.md) - Sinônimo de posix\_get\_last\_error
+  - [posix\_fpathconf](function.posix-fpathconf.md) - Retorna o valor de um limite configurável
+  - [posix\_getcwd](function.posix-getcwd.md) - Caminho do diretório atual
+  - [posix\_getegid](function.posix-getegid.md) - Retorna o ID do grupo efetivo do processo atual
+  - [posix\_geteuid](function.posix-geteuid.md) - Retorna o ID do usuário efetivo do processo atual
+  - [posix\_getgid](function.posix-getgid.md) - Retorna o ID do grupo real do processo atual
+  - [posix\_getgrgid](function.posix-getgrgid.md) - Retorna informação sobre um grupo a partir de um ID de grupo
+  - [posix\_getgrnam](function.posix-getgrnam.md) - Retorna informação sobre um grupo a partir do nome
+  - [posix\_getgroups](function.posix-getgroups.md) - Retorna o conjunto de grupos do processo atual
+  - [posix\_getlogin](function.posix-getlogin.md) - Retorna o login
+  - [posix\_getpgid](function.posix-getpgid.md) - Obtém o ID de grupo de processo para controle de tarefa
+  - [posix\_getpgrp](function.posix-getpgrp.md) - Retorna o identificador do grupo do processo atual
+  - [posix\_getpid](function.posix-getpid.md) - Retorna o identificador do processo atual
+  - [posix\_getppid](function.posix-getppid.md) - Retorna o identificador do processo pai
+  - [posix\_getpwnam](function.posix-getpwnam.md) - Retorna informações sobre um usuário por nome de usuário
+  - [posix\_getpwuid](function.posix-getpwuid.md) - Retorna informações sobre um usuário por ID de usuário
+  - [posix\_getrlimit](function.posix-getrlimit.md) - Retorna informações sobre limites de recursos do sistema
+  - [posix\_getsid](function.posix-getsid.md) - Obtém o ID da sessão atual do processo
+  - [posix\_getuid](function.posix-getuid.md) - Retorna o ID do usuário real do processo atual
+  - [posix\_get\_last\_error](function.posix-get-last-error.md) - Recupera o número do erro definido pela última função posix que falhou
+  - [posix\_initgroups](function.posix-initgroups.md) - Calcula a lista de acesso do grupo
+  - [posix\_isatty](function.posix-isatty.md) - Determina se um descritor de arquivo é um terminal interativo
+  - [posix\_kill](function.posix-kill.md) - Envia um sinal para um processo
+  - [posix\_mkfifo](function.posix-mkfifo.md) - Cria um arquivo especial FIFO (um pipe nomeado)
+  - [posix\_mknod](function.posix-mknod.md) - Cria um arquivo especial ou comum (POSIX.1)
+  - [posix\_pathconf](function.posix-pathconf.md) - Retorna o valor de um limite configurável
+  - [posix\_setegid](function.posix-setegid.md) - Define o GID efetivo do processo atual
+  - [posix\_seteuid](function.posix-seteuid.md) - Define o UID efetivo do processo atual
+  - [posix\_setgid](function.posix-setgid.md) - Define o GID do processo atual
+  - [posix\_setpgid](function.posix-setpgid.md) - Define o ID do grupo de processos para o controle de tarefas
+  - [posix\_setrlimit](function.posix-setrlimit.md) - Define limites de recursos do sistema
+  - [posix\_setsid](function.posix-setsid.md) - Torna o processo atual um líder de sessão
+  - [posix\_setuid](function.posix-setuid.md) - Define o UID do processo atual
+  - [posix\_strerror](function.posix-strerror.md) - Recupera a mensagem de erro do sistema associada ao número de erro fornecido
+  - [posix\_sysconf](function.posix-sysconf.md) - Retorna informações de tempo de execução do sistema
+  - [posix\_times](function.posix-times.md) - Obtém tempos de processo
+  - [posix\_ttyname](function.posix-ttyname.md) - Determina o nome do dispositivo de terminal
+  - [posix\_uname](function.posix-uname.md) - Obtém o nome do sistema
+  - [pow](function.pow.md) - Expressão exponencial
+  - [preg\_filter](function.preg-filter.md) - Executa pesquisa e substituição usando expressões regulares
+  - [preg\_grep](function.preg-grep.md) - Retorna entradas de array que correspondem à expressão regular
+  - [preg\_last\_error](function.preg-last-error.md) - Retorna o código de erro da última expressão regular PCRE executada
+  - [preg\_last\_error\_msg](function.preg-last-error-msg.md) - Retorna a mensagem de erro da última execução de expressão regular PCRE
+  - [preg\_match](function.preg-match.md) - Realiza uma correspondência com expressão regular
+  - [preg\_match\_all](function.preg-match-all.md) - Realiza uma correspondência global de expressão regular
+  - [preg\_quote](function.preg-quote.md) - Escapa caracteres de expressão regular
+  - [preg\_replace](function.preg-replace.md) - Realiza uma pesquisa por uma expressão regular e substitui
+  - [preg\_replace\_callback](function.preg-replace-callback.md) - Executa uma busca por expressão regular e substitui usando uma chamada de retorno
+  - [preg\_replace\_callback\_array](function.preg-replace-callback-array.md) - Realiza pesquisa e substituição em expressão regular usando chamadas de retorno
+  - [preg\_split](function.preg-split.md) - Divide uma string com base em expressão regular
+  - [prev](function.prev.md) - Retrocede o ponteiro interno de um array
+  - [print](function.print.md) - Exibe uma string
+  - [printf](function.printf.md) - Envia uma string formatada para a saída
+  - [print\_r](function.print-r.md) - Exibe informação legível sobre uma variável
+  - [proc\_close](function.proc-close.md) - Fecha pipes a um processo aberto por proc\_open, aguarda seu encerramento e retorna seu código de saída
+  - [proc\_get\_status](function.proc-get-status.md) - Obtem informação sobre um processo aberto por proc\_open
+  - [proc\_nice](function.proc-nice.md) - Muda a prioridade do processo atual
+  - [proc\_open](function.proc-open.md) - Executa um comando e abre ponteiros de arquivo para entrada/saída
+  - [proc\_terminate](function.proc-terminate.md) - Termina um processo aberto por proc\_open
+  - [property\_exists](function.property-exists.md) - Verifica se o objeto ou a classe tem uma propriedade
+  - [pspell\_add\_to\_personal](function.pspell-add-to-personal.md) - Adiciona a palavra a uma lista de palavras pessoal
+  - [pspell\_add\_to\_session](function.pspell-add-to-session.md) - Adiciona a palavra à lista de palavras na sessão atual
+  - [pspell\_check](function.pspell-check.md) - Verifica uma palavra
+  - [pspell\_clear\_session](function.pspell-clear-session.md) - Limpa a sessão atual
+  - [pspell\_config\_create](function.pspell-config-create.md) - Cria uma configuração usada para abrir um dicionário
+  - [pspell\_config\_data\_dir](function.pspell-config-data-dir.md) - Localização dos arquivos de dados de idioma
+  - [pspell\_config\_dict\_dir](function.pspell-config-dict-dir.md) - Localização da lista principal de palavras
+  - [pspell\_config\_ignore](function.pspell-config-ignore.md) - Ignora palavras com menos de N caracteres
+  - [pspell\_config\_mode](function.pspell-config-mode.md) - Altera o número do modo de sugestões retornadas
+  - [pspell\_config\_personal](function.pspell-config-personal.md) - Define um arquivo que contém uma lista de palavras pessoais
+  - [pspell\_config\_repl](function.pspell-config-repl.md) - Define um arquivo que contém pares de substituição
+  - [pspell\_config\_runtogether](function.pspell-config-runtogether.md) - Considera palavras que se juntam como compostos válidos
+  - [pspell\_config\_save\_repl](function.pspell-config-save-repl.md) - Determina se uma lista de pares de substituição deve ser salva
+    junto com a lista de palavras
+  - [pspell\_new](function.pspell-new.md) - Carrega um novo dicionário
+  - [pspell\_new\_config](function.pspell-new-config.md) - Carrega um novo dicionário com configurações baseadas em uma configuração fornecida
+  - [pspell\_new\_personal](function.pspell-new-personal.md) - Carrega um novo dicionário com lista de palavras pessoal
+  - [pspell\_save\_wordlist](function.pspell-save-wordlist.md) - Salva a lista de palavras pessoal em um arquivo
+  - [pspell\_store\_replacement](function.pspell-store-replacement.md) - Armazena um par de substituição para uma palavra
+  - [pspell\_suggest](function.pspell-suggest.md) - Sugere grafias de uma palavra
+  - [ps\_add\_bookmark](function.ps-add-bookmark.md) - Adiciona marcador à página atual
+  - [ps\_add\_launchlink](function.ps-add-launchlink.md) - Adiciona hiperlink que inicia o arquivo
+  - [ps\_add\_locallink](function.ps-add-locallink.md) - Adiciona link para uma página no mesmo documento
+  - [ps\_add\_note](function.ps-add-note.md) - Adiciona nota à página atual
+  - [ps\_add\_pdflink](function.ps-add-pdflink.md) - Adiciona link para uma página em um segundo documento PDF
+  - [ps\_add\_weblink](function.ps-add-weblink.md) - Adiciona link para um local da web
+  - [ps\_arc](function.ps-arc.md) - Desenha um arco no sentido anti-horário
+  - [ps\_arcn](function.ps-arcn.md) - Desenha um arco no sentido horário
+  - [ps\_begin\_page](function.ps-begin-page.md) - Inicia uma nova página
+  - [ps\_begin\_pattern](function.ps-begin-pattern.md) - Inicia um novo padrão
+  - [ps\_begin\_template](function.ps-begin-template.md) - Inicia um novo modelo
+  - [ps\_circle](function.ps-circle.md) - Desenha um círculo
+  - [ps\_clip](function.ps-clip.md) - Recorta o desenho no caminho atual
+  - [ps\_close](function.ps-close.md) - Fecha um documento PostScript
+  - [ps\_closepath](function.ps-closepath.md) - Fecha caminho
+  - [ps\_closepath\_stroke](function.ps-closepath-stroke.md) - Fecha e traça o caminho
+  - [ps\_close\_image](function.ps-close-image.md) - Fecha a imagem e libera memória
+  - [ps\_continue\_text](function.ps-continue-text.md) - Continua o texto na próxima linha
+  - [ps\_curveto](function.ps-curveto.md) - Desenha uma curva
+  - [ps\_delete](function.ps-delete.md) - Exclui todos os recursos de um documento PostScript
+  - [ps\_end\_page](function.ps-end-page.md) - Termina uma página
+  - [ps\_end\_pattern](function.ps-end-pattern.md) - Termina um padrão
+  - [ps\_end\_template](function.ps-end-template.md) - Termina um modelo
+  - [ps\_fill](function.ps-fill.md) - Preenche o caminho atual
+  - [ps\_fill\_stroke](function.ps-fill-stroke.md) - Preenche e traça o caminho atual
+  - [ps\_findfont](function.ps-findfont.md) - Carrega uma fonte
+  - [ps\_get\_buffer](function.ps-get-buffer.md) - Busca o buffer completo contendo os dados PS gerados
+  - [ps\_get\_parameter](function.ps-get-parameter.md) - Obtém certos parâmetros
+  - [ps\_get\_value](function.ps-get-value.md) - Obtém determinados valores
+  - [ps\_hyphenate](function.ps-hyphenate.md) - Hifeniza uma palavra
+  - [ps\_include\_file](function.ps-include-file.md) - Lê um arquivo externo com código PostScript bruto
+  - [ps\_lineto](function.ps-lineto.md) - Desenha uma linha
+  - [ps\_makespotcolor](function.ps-makespotcolor.md) - Cria cor especial
+  - [ps\_moveto](function.ps-moveto.md) - Define o ponto atual
+  - [ps\_new](function.ps-new.md) - Cria um novo objeto de documento PostScript
+  - [ps\_open\_file](function.ps-open-file.md) - Abre um arquivo para saída
+  - [ps\_open\_image](function.ps-open-image.md) - Lê uma imagem para posicionamento posterior
+  - [ps\_open\_image\_file](function.ps-open-image-file.md) - Abre a imagem do arquivo
+  - [ps\_open\_memory\_image](function.ps-open-memory-image.md) - Pega uma imagem GD e retorna uma imagem para posicionamento em um documento PS
+  - [ps\_place\_image](function.ps-place-image.md) - Coloca a imagem na página
+  - [ps\_rect](function.ps-rect.md) - Desenha um retângulo
+  - [ps\_restore](function.ps-restore.md) - Restaura o contexto salvo anteriormente
+  - [ps\_rotate](function.ps-rotate.md) - Define o fator de rotação
+  - [ps\_save](function.ps-save.md) - Salva o contexto atual
+  - [ps\_scale](function.ps-scale.md) - Define o fator de escala
+  - [ps\_setcolor](function.ps-setcolor.md) - Define a cor atual
+  - [ps\_setdash](function.ps-setdash.md) - Define a aparência de uma linha tracejada
+  - [ps\_setflat](function.ps-setflat.md) - Define planicidade
+  - [ps\_setfont](function.ps-setfont.md) - Define a fonte a ser usada na saída seguinte
+  - [ps\_setgray](function.ps-setgray.md) - Define o valor de cinza
+  - [ps\_setlinecap](function.ps-setlinecap.md) - Define a aparência das extremidades da linha
+  - [ps\_setlinejoin](function.ps-setlinejoin.md) - Define como as linhas conectadas são unidas
+  - [ps\_setlinewidth](function.ps-setlinewidth.md) - Define a largura de uma linha
+  - [ps\_setmiterlimit](function.ps-setmiterlimit.md) - Define o limite de esquadria
+  - [ps\_setoverprintmode](function.ps-setoverprintmode.md) - Define o modo de sobreimpressão
+  - [ps\_setpolydash](function.ps-setpolydash.md) - Define a aparência de uma linha tracejada
+  - [ps\_set\_border\_color](function.ps-set-border-color.md) - Define a cor da borda para anotações
+  - [ps\_set\_border\_dash](function.ps-set-border-dash.md) - Define o comprimento dos traços para a borda das anotações
+  - [ps\_set\_border\_style](function.ps-set-border-style.md) - Define o estilo de borda das anotações
+  - [ps\_set\_info](function.ps-set-info.md) - Define campos de informação do documento
+  - [ps\_set\_parameter](function.ps-set-parameter.md) - Define certos parâmetros
+  - [ps\_set\_text\_pos](function.ps-set-text-pos.md) - Define a posição para saída de texto
+  - [ps\_set\_value](function.ps-set-value.md) - Define certos valores
+  - [ps\_shading](function.ps-shading.md) - Cria um sombreamento para uso posterior
+  - [ps\_shading\_pattern](function.ps-shading-pattern.md) - Cria um padrão com base em um sombreamento
+  - [ps\_shfill](function.ps-shfill.md) - Preenche uma área com um sombreamento
+  - [ps\_show](function.ps-show.md) - Exibe texto
+  - [ps\_show2](function.ps-show2.md) - Gera um texto na posição atual
+  - [ps\_show\_boxed](function.ps-show-boxed.md) - Gera texto em uma caixa
+  - [ps\_show\_xy](function.ps-show-xy.md) - Exibe texto na posição fornecida
+  - [ps\_show\_xy2](function.ps-show-xy2.md) - Exibe texto na posição
+  - [ps\_stringwidth](function.ps-stringwidth.md) - Obtém a largura de uma string
+  - [ps\_string\_geometry](function.ps-string-geometry.md) - Obtém a geometria de uma string
+  - [ps\_stroke](function.ps-stroke.md) - Desenha o caminho atual
+  - [ps\_symbol](function.ps-symbol.md) - Gera um glifo
+  - [ps\_symbol\_name](function.ps-symbol-name.md) - Obtém o nome de um glifo
+  - [ps\_symbol\_width](function.ps-symbol-width.md) - Obtém a largura de um glifo
+  - [ps\_translate](function.ps-translate.md) - Defina o ponto de translação
+  - [putenv](function.putenv.md) - Define o valor de uma variável de ambiente
+- q
+  - [QuickHashIntHash::add](quickhashinthash.add.md) - Este método adiciona uma nova entrada ao hash
+  - [QuickHashIntHash::delete](quickhashinthash.delete.md) - Este método exclui uma entrada do hash
+  - [QuickHashIntHash::exists](quickhashinthash.exists.md) - Este método verifica se uma chave faz parte do hash
+  - [QuickHashIntHash::get](quickhashinthash.get.md) - Este método recupera um valor do hash por sua chave
+  - [QuickHashIntHash::getSize](quickhashinthash.getsize.md) - Retorna o número de elementos no hash
+  - [QuickHashIntHash::loadFromFile](quickhashinthash.loadfromfile.md) - Este método de fábrica cria um hash de um arquivo
+  - [QuickHashIntHash::loadFromString](quickhashinthash.loadfromstring.md) - Este método de fábrica cria um hash a partir de uma string
+  - [QuickHashIntHash::saveToFile](quickhashinthash.savetofile.md) - Este método armazena um hash na memória no disco
+  - [QuickHashIntHash::saveToString](quickhashinthash.savetostring.md) - Este método retorna uma versão serializada do hash
+  - [QuickHashIntHash::set](quickhashinthash.set.md) - Este método atualiza uma entrada no hash com um novo valor, ou
+    adiciona um novo se a entrada não existir
+  - [QuickHashIntHash::update](quickhashinthash.update.md) - Este método atualiza uma entrada no hash com um novo valor
+  - [QuickHashIntHash::\_\_construct](quickhashinthash.construct.md) - Cria um novo objeto QuickHashIntHash
+  - [QuickHashIntSet::add](quickhashintset.add.md) - Este método adiciona uma nova entrada ao conjunto
+  - [QuickHashIntSet::delete](quickhashintset.delete.md) - Este método exclui uma entrada do conjunto
+  - [QuickHashIntSet::exists](quickhashintset.exists.md) - Este método verifica se uma chave faz parte do conjunto
+  - [QuickHashIntSet::getSize](quickhashintset.getsize.md) - Retorna o número de elementos no conjunto
+  - [QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md) - Este método de fábrica cria um conjunto a partir de um arquivo
+  - [QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.md) - Este método de fábrica cria um conjunto a partir de uma string
+  - [QuickHashIntSet::saveToFile](quickhashintset.savetofile.md) - Este método armazena um conjunto na memória do disco
+  - [QuickHashIntSet::saveToString](quickhashintset.savetostring.md) - Este método retorna uma versão serializada do conjunto
+  - [QuickHashIntSet::\_\_construct](quickhashintset.construct.md) - Cria um novo objeto QuickHashIntSet
+  - [QuickHashIntStringHash::add](quickhashintstringhash.add.md) - Este método adiciona uma nova entrada ao hash
+  - [QuickHashIntStringHash::delete](quickhashintstringhash.delete.md) - Este método exclui uma entrada do hash
+  - [QuickHashIntStringHash::exists](quickhashintstringhash.exists.md) - Este método verifica se uma chave faz parte do hash
+  - [QuickHashIntStringHash::get](quickhashintstringhash.get.md) - Este método recupera um valor do hash por sua chave
+  - [QuickHashIntStringHash::getSize](quickhashintstringhash.getsize.md) - Retorna o número de elementos no hash
+  - [QuickHashIntStringHash::loadFromFile](quickhashintstringhash.loadfromfile.md) - Este método de fábrica cria um hash de um arquivo
+  - [QuickHashIntStringHash::loadFromString](quickhashintstringhash.loadfromstring.md) - Este método de fábrica cria um hash a partir de uma string
+  - [QuickHashIntStringHash::saveToFile](quickhashintstringhash.savetofile.md) - Este método armazena um hash na memória no disco
+  - [QuickHashIntStringHash::saveToString](quickhashintstringhash.savetostring.md) - Este método retorna uma versão serializada do hash
+  - [QuickHashIntStringHash::set](quickhashintstringhash.set.md) - Este método atualiza uma entrada no hash com um novo valor, ou
+    adiciona um novo se a entrada não existir
+  - [QuickHashIntStringHash::update](quickhashintstringhash.update.md) - Este método atualiza uma entrada no hash com um novo valor
+  - [QuickHashIntStringHash::\_\_construct](quickhashintstringhash.construct.md) - Cria um novo objeto QuickHashIntStringHash
+  - [QuickHashStringIntHash::add](quickhashstringinthash.add.md) - Este método adiciona uma nova entrada ao hash
+  - [QuickHashStringIntHash::delete](quickhashstringinthash.delete.md) - Este método exclui uma entrada do hash
+  - [QuickHashStringIntHash::exists](quickhashstringinthash.exists.md) - Este método verifica se uma chave faz parte do hash
+  - [QuickHashStringIntHash::get](quickhashstringinthash.get.md) - Este método recupera um valor do hash por sua chave
+  - [QuickHashStringIntHash::getSize](quickhashstringinthash.getsize.md) - Retorna o número de elementos no hash
+  - [QuickHashStringIntHash::loadFromFile](quickhashstringinthash.loadfromfile.md) - Este método de fábrica cria um hash de um arquivo
+  - [QuickHashStringIntHash::loadFromString](quickhashstringinthash.loadfromstring.md) - Este método de fábrica cria um hash a partir de uma string
+  - [QuickHashStringIntHash::saveToFile](quickhashstringinthash.savetofile.md) - Este método armazena um hash na memória no disco
+  - [QuickHashStringIntHash::saveToString](quickhashstringinthash.savetostring.md) - Este método retorna uma versão serializada do hash
+  - [QuickHashStringIntHash::set](quickhashstringinthash.set.md) - Este método atualiza uma entrada no hash com um novo valor, ou
+    adiciona um novo se a entrada não existir
+  - [QuickHashStringIntHash::update](quickhashstringinthash.update.md) - Este método atualiza uma entrada no hash com um novo valor
+  - [QuickHashStringIntHash::\_\_construct](quickhashstringinthash.construct.md) - Cria um novo objeto QuickHashStringIntHash
+  - [quoted\_printable\_decode](function.quoted-printable-decode.md) - Converte uma string Quoted-Printable para uma string de 8 bits
+  - [quoted\_printable\_encode](function.quoted-printable-encode.md) - Converte uma string de 8 bits para uma string Quoted-Printable
+  - [quotemeta](function.quotemeta.md) - Escapa meta caracteres
+- r
+  - [rad2deg](function.rad2deg.md) - Converte o número em radianos para o equivalente em graus
+  - [radius\_acct\_open](function.radius-acct-open.md) - Cria um identificador Radius para contabilidade
+  - [radius\_add\_server](function.radius-add-server.md) - Adiciona um servidor
+  - [radius\_auth\_open](function.radius-auth-open.md) - Cria um identificador Radius para autenticação
+  - [radius\_close](function.radius-close.md) - Libera todos os recursos
+  - [radius\_config](function.radius-config.md) - Faz com que a biblioteca leia o arquivo de configuração fornecido
+  - [radius\_create\_request](function.radius-create-request.md) - Cria solicitação de contabilidade ou de autenticação
+  - [radius\_cvt\_addr](function.radius-cvt-addr.md) - Converte dados brutos em endereço IP
+  - [radius\_cvt\_int](function.radius-cvt-int.md) - Converte dados brutos em número inteiro
+  - [radius\_cvt\_string](function.radius-cvt-string.md) - Converte dados brutos em string
+  - [radius\_demangle](function.radius-demangle.md) - Descriptografa dados
+  - [radius\_demangle\_mppe\_key](function.radius-demangle-mppe-key.md) - Deriva chaves mppe de dados criptografados
+  - [radius\_get\_attr](function.radius-get-attr.md) - Extrai um atributo
+  - [radius\_get\_tagged\_attr\_data](function.radius-get-tagged-attr-data.md) - Extrai os dados de um atributo marcado
+  - [radius\_get\_tagged\_attr\_tag](function.radius-get-tagged-attr-tag.md) - Extrai a marcação de um atributo marcado
+  - [radius\_get\_vendor\_attr](function.radius-get-vendor-attr.md) - Extrai um atributo específico de fornecedor
+  - [radius\_put\_addr](function.radius-put-addr.md) - Anexa um atributo de endereço IP
+  - [radius\_put\_attr](function.radius-put-attr.md) - Anexa um atributo binário
+  - [radius\_put\_int](function.radius-put-int.md) - Anexa um atributo de número inteiro
+  - [radius\_put\_string](function.radius-put-string.md) - Anexa um atributo de string
+  - [radius\_put\_vendor\_addr](function.radius-put-vendor-addr.md) - Anexa um atributo de endereço IP específico de fornecedor
+  - [radius\_put\_vendor\_attr](function.radius-put-vendor-attr.md) - Anexa um atributo binário específico de fornecedor
+  - [radius\_put\_vendor\_int](function.radius-put-vendor-int.md) - Anexa um atributo de número inteiro específico de fornecedor
+  - [radius\_put\_vendor\_string](function.radius-put-vendor-string.md) - Anexa um atributo de string específico de fornecedor
+  - [radius\_request\_authenticator](function.radius-request-authenticator.md) - Retorna o autenticador de solicitação
+  - [radius\_salt\_encrypt\_attr](function.radius-salt-encrypt-attr.md) - Criptografa um valor com salt
+  - [radius\_send\_request](function.radius-send-request.md) - Envia a solicitação e aguarda uma resposta
+  - [radius\_server\_secret](function.radius-server-secret.md) - Retorna o segredo compartilhado
+  - [radius\_strerror](function.radius-strerror.md) - Retorna uma mensagem de erro
+  - [rand](function.rand.md) - Gera um número inteiro aleatório
+  - [Random\Engine::generate](random-engine.generate.md) - Gera aleatoriedade
+  - [Random\Engine\Mt19937::generate](random-engine-mt19937.generate.md) - Gerar 32 bits de aleatoriedade
+  - [Random\Engine\Mt19937::\_\_construct](random-engine-mt19937.construct.md) - Constrói um novo mecanismo Mt19937
+  - [Random\Engine\Mt19937::\_\_debugInfo](random-engine-mt19937.debuginfo.md) - Retorna o estado interno do mecanismo
+  - [Random\Engine\Mt19937::\_\_serialize](random-engine-mt19937.serialize.md) - Serializa o objeto Mt19937
+  - [Random\Engine\Mt19937::\_\_unserialize](random-engine-mt19937.unserialize.md) - Desserializa o parâmetro data em um objeto Mt19937
+  - [Random\Engine\PcgOneseq128XslRr64::generate](random-engine-pcgoneseq128xslrr64.generate.md) - Gera 64 bits de aleatoriedade
+  - [Random\Engine\PcgOneseq128XslRr64::jump](random-engine-pcgoneseq128xslrr64.jump.md) - Move o mecanismo com eficiência para frente em várias etapas
+  - [Random\Engine\PcgOneseq128XslRr64::\_\_construct](random-engine-pcgoneseq128xslrr64.construct.md) - Constrói um novo mecanismo PCG Oneseq 128 XSL RR 64
+  - [Random\Engine\PcgOneseq128XslRr64::\_\_debugInfo](random-engine-pcgoneseq128xslrr64.debuginfo.md) - Retorna o estado interno do mecanismo
+  - [Random\Engine\PcgOneseq128XslRr64::\_\_serialize](random-engine-pcgoneseq128xslrr64.serialize.md) - Serializa o objeto PcgOneseq128XslRr64
+  - [Random\Engine\PcgOneseq128XslRr64::\_\_unserialize](random-engine-pcgoneseq128xslrr64.unserialize.md) - Desserializa o parâmetro data em um objeto PcgOneseq128XslRr64
+  - [Random\Engine\Secure::generate](random-engine-secure.generate.md) - Gera aleatoriedade criptograficamente segura
+  - [Random\Engine\Xoshiro256StarStar::generate](random-engine-xoshiro256starstar.generate.md) - Gera 64 bits de aleatoriedade
+  - [Random\Engine\Xoshiro256StarStar::jump](random-engine-xoshiro256starstar.jump.md) - Move o mecanismo com eficiência para frente em passos de 2^128
+  - [Random\Engine\Xoshiro256StarStar::jumpLong](random-engine-xoshiro256starstar.jumplong.md) - Avança eficientemente o mecanismo em 2^192 passos
+  - [Random\Engine\Xoshiro256StarStar::\_\_construct](random-engine-xoshiro256starstar.construct.md) - Constrói um novo mecanismo xoshiro256\*\*
+  - [Random\Engine\Xoshiro256StarStar::\_\_debugInfo](random-engine-xoshiro256starstar.debuginfo.md) - Retorna o estado interno do mecanismo
+  - [Random\Engine\Xoshiro256StarStar::\_\_serialize](random-engine-xoshiro256starstar.serialize.md) - Serializa o objeto Xoshiro256StarStar
+  - [Random\Engine\Xoshiro256StarStar::\_\_unserialize](random-engine-xoshiro256starstar.unserialize.md) - Desserializa o parâmetro data em um objeto Xoshiro256StarStar
+  - [Random\Randomizer::getBytes](random-randomizer.getbytes.md) - Obtém bytes aleatórios
+  - [Random\Randomizer::getBytesFromString](random-randomizer.getbytesfromstring.md) - Obtém bytes aleatórios de uma string de origem
+  - [Random\Randomizer::getFloat](random-randomizer.getfloat.md) - Obtém um float selecionado uniformemente
+  - [Random\Randomizer::getInt](random-randomizer.getint.md) - Obtém um inteiro selecionado uniformemente
+  - [Random\Randomizer::nextFloat](random-randomizer.nextfloat.md) - Obtém um float do intervalo aberto à direita [0,0, 1,0)
+  - [Random\Randomizer::nextInt](random-randomizer.nextint.md) - Obtém um inteiro positivo
+  - [Random\Randomizer::pickArrayKeys](random-randomizer.pickarraykeys.md) - Seleciona chaves aleatórias de um array
+  - [Random\Randomizer::shuffleArray](random-randomizer.shufflearray.md) - Obtém uma permutação de um array
+  - [Random\Randomizer::shuffleBytes](random-randomizer.shufflebytes.md) - Obtém uma permutação byte a byte de uma string
+  - [Random\Randomizer::\_\_construct](random-randomizer.construct.md) - Constrói um novo Randomizer
+  - [Random\Randomizer::\_\_serialize](random-randomizer.serialize.md) - Serializa o objeto Randomizer
+  - [Random\Randomizer::\_\_unserialize](random-randomizer.unserialize.md) - Desserializa o parâmetro data em um objeto Randomizer
+  - [random\_bytes](function.random-bytes.md) - Obtém bytes aleatórios criptograficamente seguros
+  - [random\_int](function.random-int.md) - Obtém um número inteiro selecionado uniformemente e criptograficamente seguro
+  - [range](function.range.md) - Cria um array contendo uma faixa de elementos
+  - [RarArchive::close](rararchive.close.md) - Fecha o arquivo RAR e libera todos os recursos
+  - [RarArchive::getComment](rararchive.getcomment.md) - Obtém o texto de comentário do arquivo RAR
+  - [RarArchive::getEntries](rararchive.getentries.md) - Obtém a lista completa de entradas do arquivo RAR
+  - [RarArchive::getEntry](rararchive.getentry.md) - Obtém o objeto de entrada do arquivo RAR
+  - [RarArchive::isBroken](rararchive.isbroken.md) - Testa se um arquivo está quebrado (incompleto)
+  - [RarArchive::isSolid](rararchive.issolid.md) - Verifica se o arquivo RAR é sólido
+  - [RarArchive::open](rararchive.open.md) - Abre arquivo RAR
+  - [RarArchive::setAllowBroken](rararchive.setallowbroken.md) - Se é permitido abrir arquivos quebrados
+  - [RarArchive::\_\_toString](rararchive.tostring.md) - Obtém representação de texto
+  - [RarEntry::extract](rarentry.extract.md) - Extrai entrada do arquivo
+  - [RarEntry::getAttr](rarentry.getattr.md) - Obtém atributos da entrada
+  - [RarEntry::getCrc](rarentry.getcrc.md) - Obtém CRC da entrada
+  - [RarEntry::getFileTime](rarentry.getfiletime.md) - Obtém hora da última modificação da entrada
+  - [RarEntry::getHostOs](rarentry.gethostos.md) - Obtém sistema operacional host de entrada
+  - [RarEntry::getMethod](rarentry.getmethod.md) - Obtém método pack da entrada
+  - [RarEntry::getName](rarentry.getname.md) - Obtém o nome da entrada
+  - [RarEntry::getPackedSize](rarentry.getpackedsize.md) - Obtém o tamanho compactado da entrada
+  - [RarEntry::getStream](rarentry.getstream.md) - Obtém manipulador de arquivo para entrada
+  - [RarEntry::getUnpackedSize](rarentry.getunpackedsize.md) - Obtém o tamanho descompactado da entrada
+  - [RarEntry::getVersion](rarentry.getversion.md) - Obtém a versão mínima do programa RAR necessária para descompactar a entrada
+  - [RarEntry::isDirectory](rarentry.isdirectory.md) - Testa se uma entrada representa um diretório
+  - [RarEntry::isEncrypted](rarentry.isencrypted.md) - Testa se uma entrada está criptografada
+  - [RarEntry::\_\_toString](rarentry.tostring.md) - Obtém representação em texto da entrada
+  - [RarException::isUsingExceptions](rarexception.isusingexceptions.md) - Verifica se o tratamento de erros com exceções está em uso
+  - [RarException::setUsingExceptions](rarexception.setusingexceptions.md) - Ativa e desativa o tratamento de erros com exceções
+  - [rar\_wrapper\_cache\_stats](function.rar-wrapper-cache-stats.md) - Acertos e erros de cache para o empacotador de URL
+  - [rawurldecode](function.rawurldecode.md) - Decodifica uma URL
+  - [rawurlencode](function.rawurlencode.md) - Codifica uma URL de acordo com RFC 3986
+  - [readdir](function.readdir.md) - Lê entrada do manipulador do diretório
+  - [readfile](function.readfile.md) - Exibe o conteúdo de um arquivo
+  - [readgzfile](function.readgzfile.md) - Exibe um arquivo gz
+  - [readline](function.readline.md) - Lê uma linha
+  - [readline\_add\_history](function.readline-add-history.md) - Adiciona uma linha ao histórico
+  - [readline\_callback\_handler\_install](function.readline-callback-handler-install.md) - Inicializa a interface de chamada de retorno e o terminal de readline, mostra o prompt e retorna imediatamente
+  - [readline\_callback\_handler\_remove](function.readline-callback-handler-remove.md) - Remove um manipulador de chamada de retorno previamente instalado e restaura a configuração do terminal
+  - [readline\_callback\_read\_char](function.readline-callback-read-char.md) - Lê um caractere e informa a interface de chamada de retorno de readline quando uma linha é recebida
+  - [readline\_clear\_history](function.readline-clear-history.md) - Limpa o histórico
+  - [readline\_completion\_function](function.readline-completion-function.md) - Registra uma função de completamento
+  - [readline\_info](function.readline-info.md) - Obtém/Define várias variáveis internas de readline
+  - [readline\_list\_history](function.readline-list-history.md) - Lista o histórico
+  - [readline\_on\_new\_line](function.readline-on-new-line.md) - Informa à readline que o cursor se moveu para uma nova linha
+  - [readline\_read\_history](function.readline-read-history.md) - Lê o histórico
+  - [readline\_redisplay](function.readline-redisplay.md) - Redesenha a tela
+  - [readline\_write\_history](function.readline-write-history.md) - Grava o histórico
+  - [readlink](function.readlink.md) - Retornar o alvo de uma ligação simbólica
+  - [read\_exif\_data](function.read-exif-data.md) - Sinônimo de exif\_read\_data
+  - [realpath](function.realpath.md) - Retorna o path absoluto canonizado
+  - [realpath\_cache\_get](function.realpath-cache-get.md) - Obter entradas de cache do caminho absoluto
+  - [realpath\_cache\_size](function.realpath-cache-size.md) - Obter o tamanho do cache do caminho absoluto
+  - [recode](function.recode.md) - Sinônimo de recode\_string
+  - [recode\_file](function.recode-file.md) - Recodifica de arquivo para arquivo de acordo com a solicitação de recodificação
+  - [recode\_string](function.recode-string.md) - Recodifica uma string de acordo com uma solicitação de recodificação
+  - [RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md) - Retorna um iterador para a entrada atual se ela for um array ou um object
+  - [RecursiveArrayIterator::hasChildren](recursivearrayiterator.haschildren.md) - Retorna se a entrada atual é um array ou um objeto
+  - [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md) - Retorna os filhos do iterador interno como um RecursiveCachingIterator
+  - [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md) - Verifica se o elemento atual do iterador interno possui filhos
+  - [RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.md) - Construtor
+  - [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md) - Retorna os filhos do iterador interno contidos em um RecursiveCallbackFilterIterator
+  - [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md) - Verifica se o elemento atual do iterador interno possui filhos
+  - [RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.md) - Cria um RecursiveCallbackFilterIterator a partir de um RecursiveIterator
+  - [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md) - Retorna um iterador para o elemento atual se ele for um diretório
+  - [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.md) - Obtém o subcaminho
+  - [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.md) - Obtém o subcaminho e o nome
+  - [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md) - Retorna se o elemento atual é ou não um diretório que não seja '.' nem '..'
+  - [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md) - Retorna o caminho e o nome do arquivo do elemento atual do diretório
+  - [RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md) - Avança para o próximo elemento
+  - [RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md) - Recomeça a iteração do diretório
+  - [RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md) - Constrói um RecursiveDirectoryIterator
+  - [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md) - Retorna os filhos do iterador interno contidos em um RecursiveFilterIterator
+  - [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md) - Verifica se o elemento atual do iterador interno tem filhos
+  - [RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.md) - Cria um RecursiveFilterIterator a partir de um RecursiveIterator
+  - [RecursiveIterator::getChildren](recursiveiterator.getchildren.md) - Retorna um iterador para a entrada atual
+  - [RecursiveIterator::hasChildren](recursiveiterator.haschildren.md) - Retorna se um iterador pode ser criado para a entrada atual
+  - [RecursiveIteratorIterator::beginChildren](recursiveiteratoriterator.beginchildren.md) - Inicia filhos
+  - [RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md) - Inicia Iteração
+  - [RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md) - Obtém filhos
+  - [RecursiveIteratorIterator::callHasChildren](recursiveiteratoriterator.callhaschildren.md) - Tem filhos
+  - [RecursiveIteratorIterator::current](recursiveiteratoriterator.current.md) - Retorna o valor do elemento atual
+  - [RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md) - Encerra filhos
+  - [RecursiveIteratorIterator::endIteration](recursiveiteratoriterator.enditeration.md) - Finaliza Iteração
+  - [RecursiveIteratorIterator::getDepth](recursiveiteratoriterator.getdepth.md) - Retorna a profundidade atual da iteração recursiva
+  - [RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md) - Obtém iterador interno
+  - [RecursiveIteratorIterator::getMaxDepth](recursiveiteratoriterator.getmaxdepth.md) - Obtém a profundidade máxima
+  - [RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md) - Retorna o sub-iterador ativo atual
+  - [RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md) - Retorna a chave atual
+  - [RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md) - Avança para o próximo elemento
+  - [RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md) - Próximo elemento
+  - [RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md) - Recomeça o iterador no primeiro elemento do primeiro iterador interno
+  - [RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md) - Define profundidade máxima
+  - [RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md) - Verifica se a posição atual é válida
+  - [RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.md) - Constrói um RecursiveIteratorIterator
+  - [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md) - Retorna um iterador para a entrada atual
+  - [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md) - Retorna se um iterador pode ser obtido para a entrada atual
+  - [RecursiveRegexIterator::\_\_construct](recursiveregexiterator.construct.md) - Cria um novo RecursiveRegexIterator
+  - [RecursiveTreeIterator::beginChildren](recursivetreeiterator.beginchildren.md) - Iniciar filhos
+  - [RecursiveTreeIterator::beginIteration](recursivetreeiterator.beginiteration.md) - Inicia iteração
+  - [RecursiveTreeIterator::callGetChildren](recursivetreeiterator.callgetchildren.md) - Obtém filhos
+  - [RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.md) - Tem filhos
+  - [RecursiveTreeIterator::current](recursivetreeiterator.current.md) - Obtém o elemento atual
+  - [RecursiveTreeIterator::endChildren](recursivetreeiterator.endchildren.md) - Termina os filhos
+  - [RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md) - Termina iteração
+  - [RecursiveTreeIterator::getEntry](recursivetreeiterator.getentry.md) - Obtém entrada atual
+  - [RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md) - Obtém o sufixo
+  - [RecursiveTreeIterator::getPrefix](recursivetreeiterator.getprefix.md) - Obtém o prefixo
+  - [RecursiveTreeIterator::key](recursivetreeiterator.key.md) - Obtém a chave do elemento atual
+  - [RecursiveTreeIterator::next](recursivetreeiterator.next.md) - Move para o próximo elemento
+  - [RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md) - Próximo elemento
+  - [RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md) - Rebobina o iterador
+  - [RecursiveTreeIterator::setPostfix](recursivetreeiterator.setpostfix.md) - Define sufixo
+  - [RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md) - Define uma parte do prefixo
+  - [RecursiveTreeIterator::valid](recursivetreeiterator.valid.md) - Verifica validade
+  - [RecursiveTreeIterator::\_\_construct](recursivetreeiterator.construct.md) - Constrói um RecursiveTreeIterator
+  - [Reflection::export](reflection.export.md) - Exports
+  - [Reflection::getModifierNames](reflection.getmodifiernames.md) - Obtém os nomes dos modificadores
+  - [ReflectionAttribute::getArguments](reflectionattribute.getarguments.md) - Obtém os argumentos passados para o atributo
+  - [ReflectionAttribute::getName](reflectionattribute.getname.md) - Obtém o nome do atributo
+  - [ReflectionAttribute::getTarget](reflectionattribute.gettarget.md) - Retorna o alvo do atributo como uma máscara de bits
+  - [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md) - Retorna se o atributo deste nome foi repetido em um elemento de código
+  - [ReflectionAttribute::newInstance](reflectionattribute.newinstance.md) - Instancia a classe de atributo representada por esta classe ReflectionAttribute e argumentos
+  - [ReflectionAttribute::\_\_construct](reflectionattribute.construct.md) - Construtor privado para evitar a instanciação direta
+  - [ReflectionClass::export](reflectionclass.export.md) - Exporta uma classe
+  - [ReflectionClass::getAttributes](reflectionclass.getattributes.md) - Obtém atributos
+  - [ReflectionClass::getConstant](reflectionclass.getconstant.md) - Obtém uma constante definida
+  - [ReflectionClass::getConstants](reflectionclass.getconstants.md) - Obtém constantes
+  - [ReflectionClass::getConstructor](reflectionclass.getconstructor.md) - Obtém o construtor da classe
+  - [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md) - Obtém propriedades padrão
+  - [ReflectionClass::getDocComment](reflectionclass.getdoccomment.md) - Obtém comentários doc
+  - [ReflectionClass::getEndLine](reflectionclass.getendline.md) - Obtém a linha final
+  - [ReflectionClass::getExtension](reflectionclass.getextension.md) - Obtém um objeto ReflectionExtension para a extensão que definiu a classe
+  - [ReflectionClass::getExtensionName](reflectionclass.getextensionname.md) - Obtém o nome da extensão que definiu a classe
+  - [ReflectionClass::getFileName](reflectionclass.getfilename.md) - Obtém o nome do arquivo no qual a classe foi definida
+  - [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md) - Obtém os nomes das interfaces
+  - [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md) - Obtém as interfaces
+  - [ReflectionClass::getLazyInitializer](reflectionclass.getlazyinitializer.md) - Obtém o inicializador lento
+  - [ReflectionClass::getMethod](reflectionclass.getmethod.md) - Obtém um ReflectionMethod para um método de classe
+  - [ReflectionClass::getMethods](reflectionclass.getmethods.md) - Obtém um array de métodos
+  - [ReflectionClass::getModifiers](reflectionclass.getmodifiers.md) - Obtém os modificadores de classe
+  - [ReflectionClass::getName](reflectionclass.getname.md) - Obtém o nome da classe
+  - [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md) - Obtém o nome do namespace
+  - [ReflectionClass::getParentClass](reflectionclass.getparentclass.md) - Obtém a classe pai
+  - [ReflectionClass::getProperties](reflectionclass.getproperties.md) - Obtém propriedades
+  - [ReflectionClass::getProperty](reflectionclass.getproperty.md) - Obtém um ReflectionProperty para a propriedade de uma classe
+  - [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md) - Obtém um ReflectionClassConstant para a constante de uma classe
+  - [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md) - Obtém constantes de classe
+  - [ReflectionClass::getShortName](reflectionclass.getshortname.md) - Obtém o nome curto
+  - [ReflectionClass::getStartLine](reflectionclass.getstartline.md) - Obtém o número da linha inicial
+  - [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md) - Obtém propriedades estáticas
+  - [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md) - Obtém o valor da propriedade estática
+  - [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md) - RRetorna um array de aliases de trait
+  - [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md) - Retorna um array de nomes de traits usadas por esta classe
+  - [ReflectionClass::getTraits](reflectionclass.gettraits.md) - Retorna um array de traits usadas por esta classe
+  - [ReflectionClass::hasConstant](reflectionclass.hasconstant.md) - Verifica se a constante está definida
+  - [ReflectionClass::hasMethod](reflectionclass.hasmethod.md) - Verifica se o método está definido
+  - [ReflectionClass::hasProperty](reflectionclass.hasproperty.md) - Verifica se a propriedade está definida
+  - [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md) - Implementa interface
+  - [ReflectionClass::initializeLazyObject](reflectionclass.initializelazyobject.md) - Força a inicialização de um objeto lento
+  - [ReflectionClass::inNamespace](reflectionclass.innamespace.md) - Verifica se está no namespace
+  - [ReflectionClass::isAbstract](reflectionclass.isabstract.md) - Verifica se a classe é abstrata
+  - [ReflectionClass::isAnonymous](reflectionclass.isanonymous.md) - Verifica se uma classe é anônima
+  - [ReflectionClass::isCloneable](reflectionclass.iscloneable.md) - Retorna se esta classe é clonável
+  - [ReflectionClass::isEnum](reflectionclass.isenum.md) - Retorna se esta é um enum
+  - [ReflectionClass::isFinal](reflectionclass.isfinal.md) - Verifica se a classe é final
+  - [ReflectionClass::isInstance](reflectionclass.isinstance.md) - Verifica a classe por instância
+  - [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md) - Verifica se a classe é instanciável
+  - [ReflectionClass::isInterface](reflectionclass.isinterface.md) - Verifica se a classe é uma interface
+  - [ReflectionClass::isInternal](reflectionclass.isinternal.md) - Verifica se a classe está definida internamente por uma extensão ou pelo núcleo
+  - [ReflectionClass::isIterable](reflectionclass.isiterable.md) - Verifica se esta classe é iterável
+  - [ReflectionClass::isIterateable](reflectionclass.isiterateable.md) - Sinônimo de ReflectionClass::isIterable
+  - [ReflectionClass::isReadOnly](reflectionclass.isreadonly.md) - Verifica se a classe é somente leitura
+  - [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md) - Verifica se é uma subclasse
+  - [ReflectionClass::isTrait](reflectionclass.istrait.md) - Retorna se esta é uma trait
+  - [ReflectionClass::isUninitializedLazyObject](reflectionclass.isuninitializedlazyobject.md) - Verifica se um objeto é lento e não inicializado
+  - [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md) - Verifica se foi definida pelo usuário
+  - [ReflectionClass::markLazyObjectAsInitialized](reflectionclass.marklazyobjectasinitialized.md) - Marca um objeto lento como inicializado sem chamar o inicializador ou a fábrica
+  - [ReflectionClass::newInstance](reflectionclass.newinstance.md) - Cria uma nova instância de classe a partir de determinados argumentos
+  - [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md) - Cria uma nova instância de classe a partir de determinados argumentos
+  - [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md) - Cria uma nova instância de classe sem invocar o construtor
+  - [ReflectionClass::newLazyGhost](reflectionclass.newlazyghost.md) - Cria uma nova instância de fantasma lento
+  - [ReflectionClass::newLazyProxy](reflectionclass.newlazyproxy.md) - Cria uma nova instância de proxy lento
+  - [ReflectionClass::resetAsLazyGhost](reflectionclass.resetaslazyghost.md) - Redefine um objeto e o marca como lento
+  - [ReflectionClass::resetAsLazyProxy](reflectionclass.resetaslazyproxy.md) - Redefine um objeto e o marca como lento
+  - [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md) - Define o valor da propriedade estática pública
+  - [ReflectionClass::\_\_construct](reflectionclass.construct.md) - Constrói uma ReflectionClass
+  - [ReflectionClass::\_\_toString](reflectionclass.tostring.md) - Retorna a representação em string do objeto ReflectionClass
+  - [ReflectionClassConstant::export](reflectionclassconstant.export.md) - Exportação
+  - [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md) - Obtém atributos
+  - [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.md) - Obtém a classe declarada
+  - [ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md) - Obtém comentários doc
+  - [ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md) - Obtém os modificadores constantes da classe
+  - [ReflectionClassConstant::getName](reflectionclassconstant.getname.md) - Obtém o nome da constante
+  - [ReflectionClassConstant::getType](reflectionclassconstant.gettype.md) - Obtém o tipo de uma constante de classe
+  - [ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md) - Obtém valor
+  - [ReflectionClassConstant::hasType](reflectionclassconstant.hastype.md) - Verifica se uma constante de classe tem um tipo
+  - [ReflectionClassConstant::isDeprecated](reflectionclassconstant.isdeprecated.md) - Verifica se está descontinuada
+  - [ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.md) - Verifica se a constante de classe é um caso de enumeração
+  - [ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md) - Verifica se a constante da classe é final
+  - [ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md) - Verifica se a constante da classe é privada
+  - [ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md) - Verifica se a constante de classe é protegida
+  - [ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md) - Verifica se a constante da classe é pública
+  - [ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.md) - Constrói uma ReflectionClassConstant
+  - [ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md) - Retorna a representação em string do objeto ReflectionClassConstant
+  - [ReflectionConstant::getAttributes](reflectionconstant.getattributes.md) - Obtém atributos
+  - [ReflectionConstant::getExtension](reflectionconstant.getextension.md) - Obtém ReflectionExtension da extensão de definição
+  - [ReflectionConstant::getExtensionName](reflectionconstant.getextensionname.md) - Obtém o nome da extensão definidora
+  - [ReflectionConstant::getFileName](reflectionconstant.getfilename.md) - Obtém o nome do arquivo de definição
+  - [ReflectionConstant::getName](reflectionconstant.getname.md) - Obtém o nome
+  - [ReflectionConstant::getNamespaceName](reflectionconstant.getnamespacename.md) - Obtém o nome do namespace
+  - [ReflectionConstant::getShortName](reflectionconstant.getshortname.md) - Obtém o nome abreviado
+  - [ReflectionConstant::getValue](reflectionconstant.getvalue.md) - Obtém o valor
+  - [ReflectionConstant::isDeprecated](reflectionconstant.isdeprecated.md) - Verifica se foi descontinuada
+  - [ReflectionConstant::\_\_construct](reflectionconstant.construct.md) - Constrói um objeto ReflectionConstant
+  - [ReflectionConstant::\_\_toString](reflectionconstant.tostring.md) - Retorna representação em string
+  - [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md) - Obtém o tipo de apoio de um Enum, se houver
+  - [ReflectionEnum::getCase](reflectionenum.getcase.md) - Retorna um caso específico de um Enum
+  - [ReflectionEnum::getCases](reflectionenum.getcases.md) - Retorna uma lista de todos os casos em um Enum
+  - [ReflectionEnum::hasCase](reflectionenum.hascase.md) - Verifica um caso em um Enum
+  - [ReflectionEnum::isBacked](reflectionenum.isbacked.md) - Determina se um Enum é um Backed Enum
+  - [ReflectionEnum::\_\_construct](reflectionenum.construct.md) - Instancia um objeto ReflectionEnum
+  - [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md) - Obtém o valor escalar que apoia este caso Enum
+  - [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md) - Instancia um objeto ReflectionEnumBackedCase
+  - [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md) - Obtém o reflexo do enum deste caso
+  - [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md) - Obtém o objeto enum case descrito por este objeto de reflexão
+  - [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md) - Instancia um objeto ReflectionEnumUnitCase
+  - [ReflectionExtension::export](reflectionextension.export.md) - Exportação
+  - [ReflectionExtension::getClasses](reflectionextension.getclasses.md) - Obtém classes
+  - [ReflectionExtension::getClassNames](reflectionextension.getclassnames.md) - Obtém nomes de classes
+  - [ReflectionExtension::getConstants](reflectionextension.getconstants.md) - Obtém constantes
+  - [ReflectionExtension::getDependencies](reflectionextension.getdependencies.md) - Obtém dependências
+  - [ReflectionExtension::getFunctions](reflectionextension.getfunctions.md) - Obtém funções de extensão
+  - [ReflectionExtension::getINIEntries](reflectionextension.getinientries.md) - Obtém entradas de extensão ini
+  - [ReflectionExtension::getName](reflectionextension.getname.md) - Obtém o nome da extensão
+  - [ReflectionExtension::getVersion](reflectionextension.getversion.md) - Obtém a versão da extensão
+  - [ReflectionExtension::info](reflectionextension.info.md) - Imprime informações da extensão
+  - [ReflectionExtension::isPersistent](reflectionextension.ispersistent.md) - Retorna se esta extensão é persistente
+  - [ReflectionExtension::isTemporary](reflectionextension.istemporary.md) - Retorna se esta extensão é temporária
+  - [ReflectionExtension::\_\_clone](reflectionextension.clone.md) - Clone
+  - [ReflectionExtension::\_\_construct](reflectionextension.construct.md) - Constrói um ReflectionExtension
+  - [ReflectionExtension::\_\_toString](reflectionextension.tostring.md) - Para string
+  - [ReflectionFiber::getCallable](reflectionfiber.getcallable.md) - Obtém o callable usado para criar o Fiber
+  - [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md) - Obtém o nome do arquivo do ponto de execução atual
+  - [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md) - Obtém o número da linha do ponto de execução atual
+  - [ReflectionFiber::getFiber](reflectionfiber.getfiber.md) - Obtém a instância do Fiber refletida
+  - [ReflectionFiber::getTrace](reflectionfiber.gettrace.md) - Obtém o rastreamento do ponto de execução atual
+  - [ReflectionFiber::\_\_construct](reflectionfiber.construct.md) - Constrói um objeto ReflectionFiber
+  - [ReflectionFunction::export](reflectionfunction.export.md) - Função de exportação
+  - [ReflectionFunction::getClosure](reflectionfunction.getclosure.md) - Retorna um closure criado dinamicamente para a função
+  - [ReflectionFunction::invoke](reflectionfunction.invoke.md) - Invoca função
+  - [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md) - Invoca argumentos de função
+  - [ReflectionFunction::isAnonymous](reflectionfunction.isanonymous.md) - Verifica se uma função é anônima
+  - [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md) - Verifica se a função está desativada
+  - [ReflectionFunction::\_\_construct](reflectionfunction.construct.md) - Constrói um objeto ReflectionFunction
+  - [ReflectionFunction::\_\_toString](reflectionfunction.tostring.md) - Retorna a representação em string do objeto ReflectionFunction
+  - [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md) - Obtém atributos
+  - [ReflectionFunctionAbstract::getClosureCalledClass](reflectionfunctionabstract.getclosurecalledclass.md) - Retorna a classe correspondente a static:: dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md) - Retorna a classe correspondente ao escopo dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md) - Retorna o objeto que corresponde a $this dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md) - Retorna um array das variáveis ​​usadas no Closure
+  - [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md) - Obtém comentário doc
+  - [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md) - Obtém o número da linha final
+  - [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md) - Obtém informações da extensão
+  - [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md) - Obtém o nome da extensão
+  - [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md) - Obtém o nome do arquivo
+  - [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md) - Obtém o nome da função
+  - [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md) - Obtém o nome do namespace
+  - [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md) - Obtém o número de parâmetros
+  - [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md) - Obtém o número de parâmetros necessários
+  - [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md) - Obtém parâmetros
+  - [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md) - Obtém o tipo de retorno especificado de uma função
+  - [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md) - Obtém o nome curto da função
+  - [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md) - Obtém o número da linha inicial
+  - [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md) - Obtém variáveis estáticas
+  - [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md) - Retorna o tipo de retorno provisório associado à função
+  - [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md) - Verifica se a função possui um tipo de retorno especificado
+  - [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md) - Retorna se a função tem um tipo de retorno provisório
+  - [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md) - Verifica se a função está no namespace
+  - [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md) - Verifica se é um closure
+  - [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md) - Verifica se está descontinuada
+  - [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md) - Retorna se esta função é um gerador
+  - [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md) - Verifica se é interno
+  - [ReflectionFunctionAbstract::isStatic](reflectiofunctionabstract.isstatic.md) - Verifica se a função é estática
+  - [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md) - Verifica se foi definido pelo usuário
+  - [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md) - Verifica se a função é variável
+  - [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md) - Verifica se retorna referência
+  - [ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md) - Função de clone
+  - [ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md) - Retorna a representação em string do objeto ReflectionFunctionAbstract
+  - [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md) - Obtém o nome do arquivo do gerador atualmente em execução
+  - [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md) - Obtém o objeto Generator em execução
+  - [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md) - Obtém a linha do gerador atualmente em execução
+  - [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md) - Obtém o nome da função do gerador
+  - [ReflectionGenerator::getThis](reflectiongenerator.getthis.md) - Obtém o valor $this do gerador
+  - [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md) - Obtém o rastreamento do gerador em execução
+  - [ReflectionGenerator::isClosed](reflectiongenerator.isclosed.md) - Verifica se a execução terminou
+  - [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md) - Constrói um objeto ReflectionGenerator
+  - [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md) - Retorna os tipos incluídos no tipo de interseção
+  - [ReflectionMethod::createFromMethodName](reflectionmethod.createfrommethodname.md) - Cria um novo ReflectionMethod
+  - [ReflectionMethod::export](reflectionmethod.export.md) - Exporta um método de reflexão
+  - [ReflectionMethod::getClosure](reflectionmethod.getclosure.md) - Retorna um closure criado dinamicamente para o método
+  - [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md) - Obtém a classe declarada para o método refletido
+  - [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md) - Obtém os modificadores do método
+  - [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md) - Obtém o protótipo do método (se houver)
+  - [ReflectionMethod::hasPrototype](reflectionmethod.hasprototype.md) - Retorna se um método tem um protótipo
+  - [ReflectionMethod::invoke](reflectionmethod.invoke.md) - Invoca
+  - [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md) - Invoca argumentos
+  - [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md) - Verifica se o método é abstrato
+  - [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md) - Verifica se o método é um construtor
+  - [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md) - Verifica se o método é um destrutor
+  - [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) - Verifica se o método é final
+  - [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) - Verifica se o método é privado
+  - [ReflectionMethod::isProtected](reflectionmethod.isprotected.md) - Verifica se o método é protegido
+  - [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) - Verifica se o método é público
+  - [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md) - Define acessibilidade do método
+  - [ReflectionMethod::\_\_construct](reflectionmethod.construct.md) - Constrói um ReflectionMethod
+  - [ReflectionMethod::\_\_toString](reflectionmethod.tostring.md) - Retorna a representação em string do objeto do método Reflection
+  - [ReflectionNamedType::getName](reflectionnamedtype.getname.md) - Obtém o nome do tipo como uma string
+  - [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md) - Verifica se é um tipo interno
+  - [ReflectionObject::export](reflectionobject.export.md) - Exporta
+  - [ReflectionObject::\_\_construct](reflectionobject.construct.md) - Constrói um ReflectionObject
+  - [ReflectionParameter::allowsNull](reflectionparameter.allowsnull.md) - Verifica se nulo é permitido
+  - [ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.md) - Retorna se este parâmetro pode ser passado por valor
+  - [ReflectionParameter::export](reflectionparameter.export.md) - Exporta
+  - [ReflectionParameter::getAttributes](reflectionparameter.getattributes.md) - Obtém Atributos
+  - [ReflectionParameter::getClass](reflectionparameter.getclass.md) - Obtém um objeto ReflectionClass para o parâmetro que está sendo refletido ou null
+  - [ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md) - Obtém a classe declarada
+  - [ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md) - Obtém a função de declaração
+  - [ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.md) - Obtém o valor padrão do parâmetro
+  - [ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md) - Retorna o nome da constante do valor padrão se o valor padrão for constante ou nulo
+  - [ReflectionParameter::getName](reflectionparameter.getname.md) - Obtém o nome do parâmetro
+  - [ReflectionParameter::getPosition](reflectionparameter.getposition.md) - Obtém a posição do parâmetro
+  - [ReflectionParameter::getType](reflectionparameter.gettype.md) - Obtém o tipo de um parâmetro
+  - [ReflectionParameter::hasType](reflectionparameter.hastype.md) - Verifica se o parâmetro tem um tipo
+  - [ReflectionParameter::isArray](reflectionparameter.isarray.md) - Verifica se o parâmetro espera um array
+  - [ReflectionParameter::isCallable](reflectionparameter.iscallable.md) - Retorna se o parâmetro DEVE ser um callable
+  - [ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.md) - Verifica se um valor padrão está disponível
+  - [ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md) - Retorna se o valor padrão deste parâmetro é uma constante
+  - [ReflectionParameter::isOptional](reflectionparameter.isoptional.md) - Verifica se opcional
+  - [ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md) - Verifica se foi passado por referência
+  - [ReflectionParameter::isPromoted](reflectionparameter.ispromoted.md) - Verifica se um parâmetro está promovido a uma propriedade
+  - [ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md) - Verifica se o parâmetro é variado
+  - [ReflectionParameter::\_\_clone](reflectionparameter.clone.md) - Clone
+  - [ReflectionParameter::\_\_construct](reflectionparameter.construct.md) - Constrói
+  - [ReflectionParameter::\_\_toString](reflectionparameter.tostring.md) - Para string
+  - [ReflectionProperty::export](reflectionproperty.export.md) - Exporta
+  - [ReflectionProperty::getAttributes](reflectionproperty.getattributes.md) - Obtém atributos
+  - [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md) - Obtém a classe declarada
+  - [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md) - Retorna o valor padrão declarado para uma propriedade
+  - [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md) - Obtém o comentário doc da propriedade
+  - [ReflectionProperty::getHook](reflectionproperty.gethook.md) - Retorna um objeto de reflexão para um gancho especificado
+  - [ReflectionProperty::getHooks](reflectionproperty.gethooks.md) - Retorna um array de todos os ganchos nesta propriedade
+  - [ReflectionProperty::getMangledName](reflectionproperty.getmangledname.md) - Obtém o nome codificado da propriedade
+  - [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md) - Obtém os modificadores de propriedade
+  - [ReflectionProperty::getName](reflectionproperty.getname.md) - Obtém o nome da propriedade
+  - [ReflectionProperty::getRawValue](reflectionproperty.getrawvalue.md) - Retorna o valor de uma propriedade, ignorando um gancho get se definido
+  - [ReflectionProperty::getSettableType](reflectionproperty.getsettabletype.md) - Retorna o tipo de parâmetro de um gancho set
+  - [ReflectionProperty::getType](reflectionproperty.gettype.md) - Obtém o tipo de uma propriedade
+  - [ReflectionProperty::getValue](reflectionproperty.getvalue.md) - Obtém o valor
+  - [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.md) - Verifica se a propriedade tem um valor padrão declarado
+  - [ReflectionProperty::hasHook](reflectionproperty.hashook.md) - Retorna se a propriedade tem um determinado gancho definido
+  - [ReflectionProperty::hasHooks](reflectionproperty.hashooks.md) - Retorna se a propriedade tem algum gancho definido
+  - [ReflectionProperty::hasType](reflectionproperty.hastype.md) - Verifica se a propriedade tem um tipo
+  - [ReflectionProperty::isAbstract](reflectionproperty.isabstract.md) - Determina se uma propriedade é abstrata
+  - [ReflectionProperty::isDefault](reflectionproperty.isdefault.md) - Verifica se a propriedade é uma propriedade padrão
+  - [ReflectionProperty::isDynamic](reflectionproperty.isdynamic.md) - Verifica se a propriedade é dinâmica
+  - [ReflectionProperty::isFinal](reflectionproperty.isfinal.md) - Determina se esta propriedade é final ou não
+  - [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md) - Verifica se uma propriedade foi inicializada
+  - [ReflectionProperty::isLazy](reflectionproperty.islazy.md) - Verifica se uma propriedade é lenta
+  - [ReflectionProperty::isPrivate](reflectionproperty.isprivate.md) - Verifica se a propriedade é privada
+  - [ReflectionProperty::isPrivateSet](reflectionproperty.isprivateset.md) - Verifica se a propriedade é privada para escrita
+  - [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md) - Verifica se a propriedade é promovida
+  - [ReflectionProperty::isProtected](reflectionproperty.isprotected.md) - Verifica se a propriedade é protegida
+  - [ReflectionProperty::isProtectedSet](reflectionproperty.isprotectedset.md) - Verifica se a propriedade está protegida para escrita
+  - [ReflectionProperty::isPublic](reflectionproperty.ispublic.md) - Verifica se a propriedade é pública
+  - [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md) - Verifica se a propriedade é somente leitura
+  - [ReflectionProperty::isStatic](reflectionproperty.isstatic.md) - Verifica se a propriedade é estática
+  - [ReflectionProperty::isVirtual](reflectionproperty.isvirtual.md) - Determina se uma propriedade é virtual
+  - [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md) - Define acessibilidade da propriedade
+  - [ReflectionProperty::setRawValue](reflectionproperty.setrawvalue.md) - Define o valor de uma propriedade, ignorando um gancho de configuração se definido
+  - [ReflectionProperty::setRawValueWithoutLazyInitialization](reflectionproperty.setrawvaluewithoutlazyinitialization.md) - Define o valor bruto da propriedade sem acionar a inicialização lenta
+  - [ReflectionProperty::setValue](reflectionproperty.setvalue.md) - Define valor da propriedade
+  - [ReflectionProperty::skipLazyInitialization](reflectionproperty.skiplazyinitialization.md) - Marca a propriedade como não lenta
+  - [ReflectionProperty::\_\_clone](reflectionproperty.clone.md) - Clone
+  - [ReflectionProperty::\_\_construct](reflectionproperty.construct.md) - Constrói um objeto ReflectionProperty
+  - [ReflectionProperty::\_\_toString](reflectionproperty.tostring.md) - Para string
+  - [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md) - Cria um ReflectionReference a partir de um elemento de array
+  - [ReflectionReference::getId](reflectionreference.getid.md) - Obtém ID exclusivo de uma referência
+  - [ReflectionReference::\_\_construct](reflectionreference.construct.md) - Construtor privado para proibir instanciação direta
+  - [ReflectionType::allowsNull](reflectiontype.allowsnull.md) - Verifica se nulo é permitido
+  - [ReflectionType::\_\_toString](reflectiontype.tostring.md) - Para string
+  - [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md) - Retorna os tipos incluídos no tipo de união
+  - [ReflectionZendExtension::export](reflectionzendextension.export.md) - Exporta
+  - [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md) - Obtém o autor
+  - [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md) - Obtém os direitos autorais
+  - [ReflectionZendExtension::getName](reflectionzendextension.getname.md) - Obtém o nome
+  - [ReflectionZendExtension::getURL](reflectionzendextension.geturl.md) - Obtém a URL
+  - [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md) - Obtém a versão
+  - [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md) - Clone
+  - [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.md) - Constrói um objeto ReflectionZendExtension
+  - [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md) - Para string
+  - [Reflector::export](reflector.export.md) - Exporta
+  - [RegexIterator::accept](regexiterator.accept.md) - Obtém o status de aceitação
+  - [RegexIterator::getFlags](regexiterator.getflags.md) - Obtém opções
+  - [RegexIterator::getMode](regexiterator.getmode.md) - Retorna o modo de operação
+  - [RegexIterator::getPregFlags](regexiterator.getpregflags.md) - Retorna as opções da expressão regular
+  - [RegexIterator::getRegex](regexiterator.getregex.md) - Retorna a expressão regular atual
+  - [RegexIterator::setFlags](regexiterator.setflags.md) - Define as opções
+  - [RegexIterator::setMode](regexiterator.setmode.md) - Define o modo de operação
+  - [RegexIterator::setPregFlags](regexiterator.setpregflags.md) - Define as opções da expressão regular
+  - [RegexIterator::\_\_construct](regexiterator.construct.md) - Cria um novo RegexIterator
+  - [register\_shutdown\_function](function.register-shutdown-function.md) - Registra uma função para ser executada no final da execução do script
+  - [register\_tick\_function](function.register-tick-function.md) - Registra uma função para execução em cada tique
+  - [rename](function.rename.md) - Renomeia um arquivo ou diretório
+  - [request\_parse\_body](function.request-parse-body.md) - Lê e analisa o corpor da requisição e retorna o resultado
+  - [reset](function.reset.md) - Faz o ponteiro interno de um array apontar para o seu primeiro elemento
+  - [ResourceBundle::count](resourcebundle.count.md) - Obtém o número de elementos no pacote
+  - [ResourceBundle::create](resourcebundle.create.md) - Cria um pacote de recursos
+  - [ResourceBundle::get](resourcebundle.get.md) - Obtém os dados do pacote
+  - [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md) - Obtém o código do último erro gerado pelo pacote.
+  - [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md) - Obtém a última mensagem de erro gerada pelo pacote
+  - [ResourceBundle::getLocales](resourcebundle.locales.md) - Obtém as localidades suportadas
+  - [restore\_error\_handler](function.restore-error-handler.md) - Restaura a função anterior de gerenciamento de erro
+  - [restore\_exception\_handler](function.restore-exception-handler.md) - Restaura a função de manipulação de exceção anteriormente definida
+  - [restore\_include\_path](function.restore-include-path.md) - Restaura o valor da opção de configuração include\_path
+  - [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md) - Obtém contagem de linhas afetadas
+  - [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.md) - Obtém valor de incremento automático
+  - [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.md) - Obtém os IDs gerados
+  - [Result::getWarnings](mysql-xdevapi-result.getwarnings.md) - Obtém alertas da última operação
+  - [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.md) - Obtém contagem de alertas da última operação
+  - [Result::\_\_construct](mysql-xdevapi-result.construct.md) - Construtor de Result
+  - [ReturnTypeWillChange::\_\_construct](returntypewillchange.construct.md) - Constrói uma nova instância do atributo ReturnTypeWillChange
+  - [rewind](function.rewind.md) - Retrocede a posição de um ponteiro de arquivos
+  - [rewinddir](function.rewinddir.md) - Retroceder o manipulador de diretório
+  - [rmdir](function.rmdir.md) - Remove um diretório
+  - [rnp\_backend\_string](function.rnp-backend-string.md) - Retorna o nome da biblioteca de back-end criptográfico
+  - [rnp\_backend\_version](function.rnp-backend-version.md) - Retorna a versão da biblioteca de back-end criptográfico
+  - [rnp\_decrypt](function.rnp-decrypt.md) - Descriptografa mensagem PGP
+  - [rnp\_dump\_packets](function.rnp-dump-packets.md) - Despeja informação de fluxo de pacotes OpenPGP em formato legível
+  - [rnp\_dump\_packets\_to\_json](function.rnp-dump-packets-to-json.md) - Despejar informações de fluxo de pacotes OpenPGP para a string JSON
+  - [rnp\_ffi\_create](function.rnp-ffi-create.md) - Cria o objeto de nível superior usado para interagir com a biblioteca
+  - [rnp\_ffi\_destroy](function.rnp-ffi-destroy.md) - Destrói o objeto de nível superior usado para interagir com a biblioteca
+  - [rnp\_ffi\_set\_pass\_provider](function.rnp-ffi-set-pass-provider.md) - Definir função de retorno do provedor de senha
+  - [rnp\_import\_keys](function.rnp-import-keys.md) - Importa chaves da string PHP para o chaveiro e recebe JSON descrevendo chaves novas/atualizadas
+  - [rnp\_import\_signatures](function.rnp-import-signatures.md) - Importa assinaturas independentes para o chaveiro e recebe JSON descrevendo chaves atualizadas
+  - [rnp\_key\_export](function.rnp-key-export.md) - Exporta uma chave
+  - [rnp\_key\_export\_autocrypt](function.rnp-key-export-autocrypt.md) - Exporte o mínimo de chaves para o recurso de criptografia automática (apenas 5 pacotes: chave, uid, assinatura,
+    subchave de criptografia, assinatura)
+  - [rnp\_key\_export\_revocation](function.rnp-key-export-revocation.md) - Gera e exporta assinatura de revogação de chave primária
+  - [rnp\_key\_get\_info](function.rnp-key-get-info.md) - Obtém informação sobre a chave
+  - [rnp\_key\_remove](function.rnp-key-remove.md) - Remover uma chave de chaveiro(s)
+  - [rnp\_key\_revoke](function.rnp-key-revoke.md) - Revogar uma chave ou subchave gerando e adicionando assinatura de revogação
+  - [rnp\_list\_keys](function.rnp-list-keys.md) - Enumera todas as chaves presentes em um chaveiro por tipo de identificador especificado
+  - [rnp\_load\_keys](function.rnp-load-keys.md) - Carrega chaves da string PHP
+  - [rnp\_load\_keys\_from\_path](function.rnp-load-keys-from-path.md) - Carrega chaves do caminho especificado
+  - [rnp\_locate\_key](function.rnp-locate-key.md) - Procura a chave
+  - [rnp\_op\_encrypt](function.rnp-op-encrypt.md) - Criptografa mensagem
+  - [rnp\_op\_generate\_key](function.rnp-op-generate-key.md) - Gera chave
+  - [rnp\_op\_sign](function.rnp-op-sign.md) - Executa operação de assinatura em dados binários, retornar assinatura(s) incorporada(s)
+  - [rnp\_op\_sign\_cleartext](function.rnp-op-sign-cleartext.md) - Executa operação de assinatura em dados textuais, retornar mensagem assinada em texto não criptografado
+  - [rnp\_op\_sign\_detached](function.rnp-op-sign-detached.md) - Executa operação de assinatura, retorna assinatura(s) separada(s)
+  - [rnp\_op\_verify](function.rnp-op-verify.md) - Verifica assinaturas incorporadas ou em texto não criptografado
+  - [rnp\_op\_verify\_detached](function.rnp-op-verify-detached.md) - Verifica assinaturas separadas
+  - [rnp\_save\_keys](function.rnp-save-keys.md) - Salva chaves em string PHP
+  - [rnp\_save\_keys\_to\_path](function.rnp-save-keys-to-path.md) - Salva chaves no caminho especificado
+  - [rnp\_supported\_features](function.rnp-supported-features.md) - Obtém recursos suportados no formato JSON
+  - [rnp\_version\_string](function.rnp-version-string.md) - Versão da biblioteca RNP
+  - [rnp\_version\_string\_full](function.rnp-version-string-full.md) - String da versão completa da biblioteca RNP
+  - [round](function.round.md) - Arredonda um float
+  - [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.md) - Obtém todas as linhas do resultado
+  - [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.md) - Obtém linha do resultado
+  - [RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md) - Obtém o nome de todas as colunas
+  - [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.md) - Obtém metadados de coluna
+  - [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md) - Obtém a contagem de colunas
+  - [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.md) - Obtém os alertas da última operação
+  - [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md) - Obtém a contagem de alertas da última operação
+  - [RowResult::\_\_construct](mysql-xdevapi-rowresult.construct.md) - Construtor de RowResult
+  - [rpmaddtag](function.rpmaddtag.md) - Adiciona a tag recuperada na consulta
+  - [rpmdbinfo](function.rpmdbinfo.md) - Obtém informações do RPM instalado
+  - [rpmdbsearch](function.rpmdbsearch.md) - Pesquisa pacotes RPM
+  - [rpmdefine](function.rpmdefine.md) - Define ou altera um valor de macro RPM
+  - [rpmexpand](function.rpmexpand.md) - Recupera o valor expandido de uma macro RPM
+  - [rpmexpandnumeric](function.rpmexpandnumeric.md) - Recupera o valor numérico de uma macro RPM
+  - [rpmgetsymlink](function.rpmgetsymlink.md) - Obtém o alvo de uma ligação simbólica
+  - [rpminfo](function.rpminfo.md) - Obtém informações de um arquivo RPM
+  - [rpmvercmp](function.rpmvercmp.md) - Comparação de versões RPM
+  - [RRDCreator::addArchive](rrdcreator.addarchive.md) - Adiciona RRA - arquivo de valores de dados para cada fonte de dados
+  - [RRDCreator::addDataSource](rrdcreator.adddatasource.md) - Adiciona definição de fonte de dados para banco de dados RRD
+  - [RRDCreator::save](rrdcreator.save.md) - Salva o banco de dados RRD em um arquivo
+  - [RRDCreator::\_\_construct](rrdcreator.construct.md) - Cria uma nova instância de RRDCreator
+  - [rrdc\_disconnect](function.rrdc-disconnect.md) - Fecha qualquer conexão pendente com o daemon de cache rrd
+  - [RRDGraph::save](rrdgraph.save.md) - Salva o resultado da consulta na imagem
+  - [RRDGraph::saveVerbose](rrdgraph.saveverbose.md) - Salva a consulta ao banco de dados RRD na imagem e retorna as informações detalhadas
+    sobre o gráfico gerado
+  - [RRDGraph::setOptions](rrdgraph.setoptions.md) - Define as opções para exportação do gráfico rrd
+  - [RRDGraph::\_\_construct](rrdgraph.construct.md) - Cria uma nova instância de RRDGraph
+  - [RRDUpdater::update](rrdupdater.update.md) - Atualiza o arquivo de banco de dados RRD
+  - [RRDUpdater::\_\_construct](rrdupdater.construct.md) - Cria uma nova instância de RRDUpdater
+  - [rrd\_create](function.rrd-create.md) - Cria arquivo de banco de dados rrd
+  - [rrd\_error](function.rrd-error.md) - Obtém a última mensagem de erro
+  - [rrd\_fetch](function.rrd-fetch.md) - Busca os dados para o gráfico como um array
+  - [rrd\_first](function.rrd-first.md) - Obtém o registro de data e horário da primeira amostra do arquivo rrd
+  - [rrd\_graph](function.rrd-graph.md) - Cria uma imagem a partir de dados
+  - [rrd\_info](function.rrd-info.md) - Obtém informações sobre o arquivo rrd
+  - [rrd\_last](function.rrd-last.md) - Obtém o registro de data e horário Unix da última amostra
+  - [rrd\_lastupdate](function.rrd-lastupdate.md) - Obtém informações sobre os últimos dados atualizados
+  - [rrd\_restore](function.rrd-restore.md) - Restaura o arquivo RRD a partir de um XML
+  - [rrd\_tune](function.rrd-tune.md) - Ajusta algumas opções de cabeçalho de arquivo de banco de dados RRD
+  - [rrd\_update](function.rrd-update.md) - Atualiza o banco de dados RRD
+  - [rrd\_version](function.rrd-version.md) - Obtém informações sobre a biblioteca rrdtool subjacente
+  - [rrd\_xport](function.rrd-xport.md) - Exporta as informações sobre o banco de dados RRD
+  - [rsort](function.rsort.md) - Ordena um array em ordem descrescente
+  - [rtrim](function.rtrim.md) - Retira espaços em branco (ou outros caracteres) do final de uma string
+  - [runkit7\_constant\_add](function.runkit7-constant-add.md) - Semelhante a define(), mas permite definir também em definições de classe
+  - [runkit7\_constant\_redefine](function.runkit7-constant-redefine.md) - Redefine uma constante já definida
+  - [runkit7\_constant\_remove](function.runkit7-constant-remove.md) - Remove/exclui uma constante já definida
+  - [runkit7\_function\_add](function.runkit7-function-add.md) - Adiciona uma nova função, semelhante a create\_function
+  - [runkit7\_function\_copy](function.runkit7-function-copy.md) - Copia uma função para um novo nome de função
+  - [runkit7\_function\_redefine](function.runkit7-function-redefine.md) - Substitui uma definição de função por uma nova implementação
+  - [runkit7\_function\_remove](function.runkit7-function-remove.md) - Remove uma definição de função
+  - [runkit7\_function\_rename](function.runkit7-function-rename.md) - Altera o nome de uma função
+  - [runkit7\_import](function.runkit7-import.md) - Processa um arquivo PHP importando definições de função e classe, substituindo quando apropriado
+  - [runkit7\_method\_add](function.runkit7-method-add.md) - Adiciona dinamicamente um novo método a uma determinada classe
+  - [runkit7\_method\_copy](function.runkit7-method-copy.md) - Copia um método de uma classe para outra
+  - [runkit7\_method\_redefine](function.runkit7-method-redefine.md) - Altera dinamicamente o código do método fornecido
+  - [runkit7\_method\_remove](function.runkit7-method-remove.md) - Remove dinamicamente o método fornecido
+  - [runkit7\_method\_rename](function.runkit7-method-rename.md) - Altera dinamicamente o nome do método fornecido
+  - [runkit7\_object\_id](function.runkit7-object-id.md) - Retorna o identificador inteiro do objeto fornecido
+  - [runkit7\_superglobals](function.runkit7-superglobals.md) - Retorna um array indexado numericamente de superglobais registradas
+  - [runkit7\_zval\_inspect](function.runkit7-zval-inspect.md) - Retorna informações sobre o valor passado com tipos de dados, contagens de referência, etc.
+- s
+  - [sapi\_windows\_cp\_conv](function.sapi-windows-cp-conv.md) - Converte string de um código de página para outro
+  - [sapi\_windows\_cp\_get](function.sapi-windows-cp-get.md) - Obtém o código de página atual
+  - [sapi\_windows\_cp\_is\_utf8](function.sapi-windows-cp-is-utf8.md) - Indica se o código de página é compatível com UTF-8
+  - [sapi\_windows\_cp\_set](function.sapi-windows-cp-set.md) - Define o código de página do processo
+  - [sapi\_windows\_generate\_ctrl\_event](function.sapi-windows-generate-ctrl-event.md) - Envia um evento CTRL a outro processo
+  - [sapi\_windows\_set\_ctrl\_handler](function.sapi-windows-set-ctrl-handler.md) - Define ou remove um manipulador de evento CTRL
+  - [sapi\_windows\_vt100\_support](function.sapi-windows-vt100-support.md) - Obtém ou define suporte VT100 para o fluxo especificado associado a um buffer de saída de um console Windows.
+  - [scandir](function.scandir.md) - Lista arquivos e diretórios dentro do caminho especificado
+  - [Schema::createCollection](mysql-xdevapi-schema.createcollection.md) - Adiciona coleção ao esquema
+  - [Schema::dropCollection](mysql-xdevapi-schema.dropcollection.md) - Remove coleção do esquema
+  - [Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.md) - Verifica se existe no banco de dados
+  - [Schema::getCollection](mysql-xdevapi-schema.getcollection.md) - Obtém coleção do esquema
+  - [Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.md) - Obtém uma coleção como um objeto Table
+  - [Schema::getCollections](mysql-xdevapi-schema.getcollections.md) - Obtém todas as coleções do esquema
+  - [Schema::getName](mysql-xdevapi-schema.getname.md) - Obtém o nome do esquema
+  - [Schema::getSession](mysql-xdevapi-schema.getsession.md) - Obtém a sessão do esquema
+  - [Schema::getTable](mysql-xdevapi-schema.gettable.md) - Obtém tabela do esquema
+  - [Schema::getTables](mysql-xdevapi-schema.gettables.md) - Obtém tabelas do esquema
+  - [Schema::\_\_construct](mysql-xdevapi-schema.construct.md) - Construtor de Schema
+  - [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md) - Obtém o objeto do esquema
+  - [scoutapm\_get\_calls](function.scoutapm-get-calls.md) - Retorna uma lista de chamadas instrumentadas que ocorreram
+  - [scoutapm\_list\_instrumented\_functions](function.scoutapm-list-instrumented-functions.md) - Lista funções que o scoutapm irá instrumentar
+  - [SeasLog::alert](seaslog.alert.md) - Registra informação de alerta
+  - [SeasLog::analyzerCount](seaslog.analyzercount.md) - Obtém a contagem de registros por nível, caminho e palavra-chave
+  - [SeasLog::analyzerDetail](seaslog.analyzerdetail.md) - Obtém detalhe de registro por nível, caminho, palavra-chave, início, limite e ordem
+  - [SeasLog::closeLoggerStream](seaslog.closeloggerstream.md) - Libera manualmente o fluxo do registrador
+  - [SeasLog::critical](seaslog.critical.md) - Registra informação crítica
+  - [SeasLog::debug](seaslog.debug.md) - Registra informação de depuração
+  - [SeasLog::emergency](seaslog.emergency.md) - Registra informação de emergência
+  - [SeasLog::error](seaslog.error.md) - Registra informação de erro
+  - [SeasLog::flushBuffer](seaslog.flushbuffer.md) - Limpa o buffer de registros, despeja no arquivo ou envia para API remota com tcp/udp
+  - [SeasLog::getBasePath](seaslog.getbasepath.md) - Obtém o caminho base do SeasLog
+  - [SeasLog::getBuffer](seaslog.getbuffer.md) - Obter o buffer de registros na memória como um array
+  - [SeasLog::getBufferEnabled](seaslog.getbufferenabled.md) - Informa se o buffer está habilitado
+  - [SeasLog::getDatetimeFormat](seaslog.getdatetimeformat.md) - Obtém o formato de data/horário do SeasLog
+  - [SeasLog::getLastLogger](seaslog.getlastlogger.md) - Obtém o último caminho do registrador SeasLog
+  - [SeasLog::getRequestID](seaslog.getrequestid.md) - Obtém o ID da requisição do SeasLog
+  - [SeasLog::getRequestVariable](seaslog.getrequestvariable.md) - Obtém a variável requisitada do SeasLog
+  - [SeasLog::info](seaslog.info.md) - Registra informação geral
+  - [SeasLog::log](seaslog.log.md) - Função comum para registro
+  - [SeasLog::notice](seaslog.notice.md) - Registra informação de nota
+  - [SeasLog::setBasePath](seaslog.setbasepath.md) - Define o caminho base do SeasLog
+  - [SeasLog::setDatetimeFormat](seaslog.setdatetimeformat.md) - Define o formato de data/horário do SeasLog
+  - [SeasLog::setLogger](seaslog.setlogger.md) - Define o nome do registrador SeasLog
+  - [SeasLog::setRequestID](seaslog.setrequestid.md) - Define o ID exlusivo de requisição do SeasLog
+  - [SeasLog::setRequestVariable](seaslog.setrequestvariable.md) - Define manualmente uma variável de requisição SeasLog
+  - [SeasLog::warning](seaslog.warning.md) - Registra informação de alerta
+  - [SeasLog::\_\_construct](seaslog.construct.md) - Constrói objeto SeasLog
+  - [SeasLog::\_\_destruct](seaslog.destruct.md) - Destrói o objeto SeasLog
+  - [seaslog\_get\_author](function.seaslog-get-author.md) - Obtém o autor do SeasLog.
+  - [seaslog\_get\_version](function.seaslog-get-version.md) - Obtém a versão do SeasLog.
+  - [SeekableIterator::seek](seekableiterator.seek.md) - Aponta para uma posição
+  - [sem\_acquire](function.sem-acquire.md) - Adquire um semáforo
+  - [sem\_get](function.sem-get.md) - Obtém um ID de semáforo
+  - [sem\_release](function.sem-release.md) - Libera um semáforo
+  - [sem\_remove](function.sem-remove.md) - Remove um semáforo
+  - [SensitiveParameter::\_\_construct](sensitiveparameter.construct.md) - Constrói uma nova instância do atributo SensitiveParameter
+  - [SensitiveParameterValue::getValue](sensitiveparametervalue.getvalue.md) - Retorna o valor sensível
+  - [SensitiveParameterValue::\_\_construct](sensitiveparametervalue.construct.md) - Constrói um novo objeto SensitiveParameterValue
+  - [SensitiveParameterValue::\_\_debugInfo](sensitiveparametervalue.debuginfo.md) - Protege os valores sensíveis de exposição acidental
+  - [Serializable::serialize](serializable.serialize.md) - Representação em string de um objeto
+  - [Serializable::unserialize](serializable.unserialize.md) - Constrói o objeto
+  - [serialize](function.serialize.md) - Gera uma representação armazenável de um valor
+  - [Session::close](mysql-xdevapi-session.close.md) - Fecha sessão
+  - [Session::commit](mysql-xdevapi-session.commit.md) - Confirma a transação
+  - [Session::createSchema](mysql-xdevapi-session.createschema.md) - Cria novo esquema
+  - [Session::dropSchema](mysql-xdevapi-session.dropschema.md) - Remove um esquema
+  - [Session::generateUUID](mysql-xdevapi-session.generateuuid.md) - Obtém novo UUID
+  - [Session::getDefaultSchema](mysql-xdevapi-session.getdefaultschema.md) - Obtém o nome de esquema padrão
+  - [Session::getSchema](mysql-xdevapi-session.getschema.md) - Obtém um novo objeto de esquema
+  - [Session::getSchemas](mysql-xdevapi-session.getschemas.md) - Obtém os esquemas
+  - [Session::getServerVersion](mysql-xdevapi-session.getserverversion.md) - Obtém a versão do servidor
+  - [Session::listClients](mysql-xdevapi-session.listclients.md) - Obtém a lista de clientes
+  - [Session::quoteName](mysql-xdevapi-session.quotename.md) - Adiciona escape
+  - [Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.md) - Libera o ponto de gravação definido
+  - [Session::rollback](mysql-xdevapi-session.rollback.md) - Reverte a transação
+  - [Session::rollbackTo](mysql-xdevapi-session.rollbackto.md) - Reverte a transação para um ponto de gravação
+  - [Session::setSavepoint](mysql-xdevapi-session.setsavepoint.md) - Cria ponto de gravação
+  - [Session::sql](mysql-xdevapi-session.sql.md) - Cria consulta SQL
+  - [Session::startTransaction](mysql-xdevapi-session.starttransaction.md) - Inicia transação
+  - [Session::\_\_construct](mysql-xdevapi-session.construct.md) - Construtor de Description
+  - [SessionHandler::close](sessionhandler.close.md) - Fecha a sessão
+  - [SessionHandler::create\_sid](sessionhandler.create-sid.md) - Retorna um novo ID de sessão
+  - [SessionHandler::destroy](sessionhandler.destroy.md) - Destrói uma sessão
+  - [SessionHandler::gc](sessionhandler.gc.md) - Apaga sessões antigas
+  - [SessionHandler::open](sessionhandler.open.md) - Inicia uma sessão
+  - [SessionHandler::read](sessionhandler.read.md) - Lê os dados de sessão
+  - [SessionHandler::write](sessionhandler.write.md) - Escreve os dados de sessão
+  - [SessionHandlerInterface::close](sessionhandlerinterface.close.md) - Fecha a sessão
+  - [SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.md) - Destrói uma sessão
+  - [SessionHandlerInterface::gc](sessionhandlerinterface.gc.md) - Remove sessões antigas
+  - [SessionHandlerInterface::open](sessionhandlerinterface.open.md) - Inicializa uma sessão
+  - [SessionHandlerInterface::read](sessionhandlerinterface.read.md) - Lê os dados de sessão
+  - [SessionHandlerInterface::write](sessionhandlerinterface.write.md) - Escreve os dados de sessão
+  - [SessionIdInterface::create\_sid](sessionidinterface.create-sid.md) - Cria um ID de sessão.
+  - [SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md) - Atualiza o timestamp
+  - [SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md) - Valida o ID
+  - [session\_abort](function.session-abort.md) - Descarta as alterações no array da sessão e encerra a sessão
+  - [session\_cache\_expire](function.session-cache-expire.md) - Obter e/ou definir a expiração do cache atual
+  - [session\_cache\_limiter](function.session-cache-limiter.md) - Obtém e/ou define o limitador do cache atual
+  - [session\_commit](function.session-commit.md) - Sinônimo de session\_write\_close
+  - [session\_create\_id](function.session-create-id.md) - Cria novo ID de sessão
+  - [session\_decode](function.session-decode.md) - Decodifica dados de sessão de uma sessão codificada em formato string
+  - [session\_destroy](function.session-destroy.md) - Destrói todos os dados registrados em uma sessão
+  - [session\_encode](function.session-encode.md) - Codifica os dados atuais da sessão como uma sessão codificada em formato string
+  - [session\_gc](function.session-gc.md) - Executa a coleta de lixo de dados da sessão
+  - [session\_get\_cookie\_params](function.session-get-cookie-params.md) - Obtém os parâmetros do cookie da sessão
+  - [session\_id](function.session-id.md) - Obtém e/ou define o id de sessão atual
+  - [session\_module\_name](function.session-module-name.md) - Obtém e/ou define o módulo da sessão atual
+  - [session\_name](function.session-name.md) - Obtém e/ou define o nome da sessão atual
+  - [session\_regenerate\_id](function.session-regenerate-id.md) - Atualiza o id da sessão atual com um novo id gerado
+  - [session\_register\_shutdown](function.session-register-shutdown.md) - Função de finalização da sessão
+  - [session\_reset](function.session-reset.md) - Reinicializa um array de sessão com os valores originais
+  - [session\_save\_path](function.session-save-path.md) - Obtém e/ou define o caminho para armazenamento da sessão atual
+  - [session\_set\_cookie\_params](function.session-set-cookie-params.md) - Define os parâmetros do cookie de sessão
+  - [session\_set\_save\_handler](function.session-set-save-handler.md) - Define funções de armazenamento de sessão à nível de usuário
+  - [session\_start](function.session-start.md) - Inicia uma nova sessão ou continua uma sessão existente
+  - [session\_status](function.session-status.md) - Retorna o status atual da sessão
+  - [session\_unset](function.session-unset.md) - Libera todas as variáveis de sessão
+  - [session\_write\_close](function.session-write-close.md) - Guarda os dados de sessão e fecha a sessão
+  - [setcookie](function.setcookie.md) - Envia um cookie
+  - [setlocale](function.setlocale.md) - Define informação de localidade
+  - [setrawcookie](function.setrawcookie.md) - Envie um cookie sem codificar em URL o valor do cookie
+  - [settype](function.settype.md) - Define o tipo de uma variável
+  - [set\_error\_handler](function.set-error-handler.md) - Define uma função de usuário para manipulação de erro
+  - [set\_exception\_handler](function.set-exception-handler.md) - Define uma função de manipulação de exceção definida pelo usuário
+  - [set\_file\_buffer](function.set-file-buffer.md) - Sinônimo de stream\_set\_write\_buffer
+  - [set\_include\_path](function.set-include-path.md) - Define a opção de configuração include\_path
+  - [set\_time\_limit](function.set-time-limit.md) - Limita o máximo tempo de execução
+  - [sha1](function.sha1.md) - Calcula o hash SHA1 de uma string
+  - [sha1\_file](function.sha1-file.md) - Calcula a hash sha1 de um arquivo
+  - [shell\_exec](function.shell-exec.md) - Executa um comando via shell e retorna a saída inteira como uma string
+  - [shmop\_close](function.shmop-close.md) - Fecha um bloco de memória compartilhada
+  - [shmop\_delete](function.shmop-delete.md) - Deleta um bloco de memória compartilhada
+  - [shmop\_open](function.shmop-open.md) - Cria ou abre um bloco de memória compartilhada
+  - [shmop\_read](function.shmop-read.md) - Lê dados do bloco de memória compartilhada
+  - [shmop\_size](function.shmop-size.md) - Obtém o tamanho do bloco de memória compartilhada
+  - [shmop\_write](function.shmop-write.md) - Escreve dados em um bloco de memória compartilhada
+  - [shm\_attach](function.shm-attach.md) - Cria ou abre um segmento de memória compartilhada
+  - [shm\_detach](function.shm-detach.md) - Desconecta do segmento de memória compartilhada
+  - [shm\_get\_var](function.shm-get-var.md) - Retorna uma variável da memória compartilhada
+  - [shm\_has\_var](function.shm-has-var.md) - Verifica se uma entrada específica existe
+  - [shm\_put\_var](function.shm-put-var.md) - Insere ou atualiza uma variável na memória compartilhada
+  - [shm\_remove](function.shm-remove.md) - Remove memória compartilhada de sistemas Unix
+  - [shm\_remove\_var](function.shm-remove-var.md) - Remove uma variável da memória compartilhada
+  - [show\_source](function.show-source.md) - Sinônimo de highlight\_file
+  - [shuffle](function.shuffle.md) - Embaralha um array
+  - [simdjson\_decode](function.simdjson-decode.md) - Decodifica uma string JSON
+  - [simdjson\_is\_valid](function.simdjson-is-valid.md) - Verifica se uma string JSON é válida
+  - [simdjson\_key\_count](function.simdjson-key-count.md) - Retorna o valor em um ponteiro JSON
+  - [simdjson\_key\_exists](function.simdjson-key-exists.md) - Verifica se o JSON contém o valor referenciado por um ponteiro JSON
+  - [simdjson\_key\_value](function.simdjson-key-value.md) - Decodifica o valor de uma string JSON localizada no ponteiro JSON solicitado
+  - [similar\_text](function.similar-text.md) - Calcula a similaridade entre duas strings
+  - [SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md) - Adiciona um atributo a elemento SimpleXML
+  - [SimpleXMLElement::addChild](simplexmlelement.addchild.md) - Adiciona um elemento filho à um nó XML
+  - [SimpleXMLElement::asXML](simplexmlelement.asxml.md) - Retorna uma string XML bem formada (well-formed) baseada em um elemento SimpleXML
+  - [SimpleXMLElement::attributes](simplexmlelement.attributes.md) - Identifica um atributo de um elemento
+  - [SimpleXMLElement::children](simplexmlelement.children.md) - Encontra os nós filhos de um dado nó
+  - [SimpleXMLElement::count](simplexmlelement.count.md) - Conta os filhos de um elemento
+  - [SimpleXMLElement::current](simplexmlelement.current.md) - Retorna o elemento atual
+  - [SimpleXMLElement::getChildren](simplexmlelement.getchildren.md) - Retorna os sub-elementos do elemento atual
+  - [SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md) - Retorna um namespace declarado no documento
+  - [SimpleXMLElement::getName](simplexmlelement.getname.md) - Obtém o nome de um elemento XML
+  - [SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md) - Retorna os namespaces utilizados no documento
+  - [SimpleXMLElement::hasChildren](simplexmlelement.haschildren.md) - Verifica se o elemento atual tem sub-elementos
+  - [SimpleXMLElement::key](simplexmlelement.key.md) - Retorna a chave atual
+  - [SimpleXMLElement::next](simplexmlelement.next.md) - Passa para o próximo elemento
+  - [SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md) - Cria um prefixo/namespace de contexto para a próxima consulta XPath
+  - [SimpleXMLElement::rewind](simplexmlelement.rewind.md) - Retrocede ao primeiro elemento
+  - [SimpleXMLElement::saveXML](simplexmlelement.savexml.md) - Sinônimo de SimpleXMLElement::asXML
+  - [SimpleXMLElement::valid](simplexmlelement.valid.md) - Verifica se o elemento atual é válido
+  - [SimpleXMLElement::xpath](simplexmlelement.xpath.md) - Executa uma consulta XPath em dados XML
+  - [SimpleXMLElement::\_\_construct](simplexmlelement.construct.md) - Cria um novo objeto SimpleXMLElement
+  - [SimpleXMLElement::\_\_toString](simplexmlelement.tostring.md) - Retorna o conteúdo como uma string
+  - [simplexml\_import\_dom](function.simplexml-import-dom.md) - Obtém um objeto SimpleXMLElement a partir de um nó XML ou HTML
+  - [simplexml\_load\_file](function.simplexml-load-file.md) - Interpreta um arquivo XML e o transforma em um objeto
+  - [simplexml\_load\_string](function.simplexml-load-string.md) - Interpreta uma string XML e a transforma em um objeto
+  - [sin](function.sin.md) - Seno
+  - [sinh](function.sinh.md) - Seno hiperbólico
+  - [sizeof](function.sizeof.md) - Sinônimo de count
+  - [sleep](function.sleep.md) - Atrasa a execução
+  - [snmp2\_get](function.snmp2-get.md) - Busca um objeto SNMP
+  - [snmp2\_getnext](function.snmp2-getnext.md) - Busca o objeto SNMP que segue o ID do objeto fornecido
+  - [snmp2\_real\_walk](function.snmp2-real-walk.md) - Retorna todos os objetos, incluindo seus respectivos IDs de objeto dentro do especificado
+  - [snmp2\_set](function.snmp2-set.md) - Define o valor de um objeto SNMP
+  - [snmp2\_walk](function.snmp2-walk.md) - Busca todos os objetos SNMP de um agente
+  - [snmp3\_get](function.snmp3-get.md) - Busca um objeto SNMP
+  - [snmp3\_getnext](function.snmp3-getnext.md) - Busca o objeto SNMP que segue o ID do objeto fornecido
+  - [snmp3\_real\_walk](function.snmp3-real-walk.md) - Retorna todos os objetos, incluindo seus respectivos IDs de objeto dentro do especificado
+  - [snmp3\_set](function.snmp3-set.md) - Define o valor de um objeto SNMP
+  - [snmp3\_walk](function.snmp3-walk.md) - Busca todos os objetos SNMP de um agente
+  - [SNMP::close](snmp.close.md) - Fecha a sessão SNMP
+  - [SNMP::get](snmp.get.md) - Busca um objeto SNMP
+  - [SNMP::getErrno](snmp.geterrno.md) - Obtém o último código de erro
+  - [SNMP::getError](snmp.geterror.md) - Obtém a última mensagem de erro
+  - [SNMP::getnext](snmp.getnext.md) - Busca um objeto SNMP que
+    segue o ID do objeto fornecido
+  - [SNMP::set](snmp.set.md) - Define o valor de um objeto SNMP
+  - [SNMP::setSecurity](snmp.setsecurity.md) - Configura parâmetros de sessão SNMPv3 relacionados à segurança
+  - [SNMP::walk](snmp.walk.md) - Busca subárvore de objetos SNMP
+  - [SNMP::\_\_construct](snmp.construct.md) - Cria uma instância SNMP representando a sessão para o agente SNMP remoto
+  - [snmpget](function.snmpget.md) - Busca um objeto SNMP
+  - [snmpgetnext](function.snmpgetnext.md) - Busca o objeto SNMP que segue o ID do objeto fornecido
+  - [snmprealwalk](function.snmprealwalk.md) - Retorna todos os objetos, incluindo seus respectivos IDs de objeto dentro do especificado
+  - [snmpset](function.snmpset.md) - Define o valor de um objeto SNMP
+  - [snmpwalk](function.snmpwalk.md) - Busca todos os objetos SNMP de um agente
+  - [snmpwalkoid](function.snmpwalkoid.md) - Consulta uma árvore de informações sobre uma entidade de rede
+  - [snmp\_get\_quick\_print](function.snmp-get-quick-print.md) - Busca o valor atual da configuração quick\_print da biblioteca NET-SNMP
+  - [snmp\_get\_valueretrieval](function.snmp-get-valueretrieval.md) - Retorna o método como os valores SNMP serão retornados
+  - [snmp\_read\_mib](function.snmp-read-mib.md) - Lê e analisa um arquivo MIB na árvore MIB ativa
+  - [snmp\_set\_enum\_print](function.snmp-set-enum-print.md) - Retorna todos os valores que são enumerações com seus valores de enumeração em vez do inteiro bruto
+  - [snmp\_set\_oid\_numeric\_print](function.snmp-set-oid-numeric-print.md) - Sinônimo de snmp\_set\_oid\_output\_format
+  - [snmp\_set\_oid\_output\_format](function.snmp-set-oid-output-format.md) - Define o formato de saída do OID
+  - [snmp\_set\_quick\_print](function.snmp-set-quick-print.md) - Define o valor de enable dentro da biblioteca NET-SNMP
+  - [snmp\_set\_valueretrieval](function.snmp-set-valueretrieval.md) - Especifica o método como os valores SNMP serão retornados
+  - [SoapClient::\_\_call](soapclient.call.md) - Chama uma função SOAP (descontinuada)
+  - [SoapClient::\_\_construct](soapclient.construct.md) - Construtor de SoapClient
+  - [SoapClient::\_\_doRequest](soapclient.dorequest.md) - Executa uma solicitação SOAP
+  - [SoapClient::\_\_getCookies](soapclient.getcookies.md) - Obtém uma lista de cookies
+  - [SoapClient::\_\_getFunctions](soapclient.getfunctions.md) - Retorna uma lista de funções SOAP disponíveis
+  - [SoapClient::\_\_getLastRequest](soapclient.getlastrequest.md) - Retorna a última solicitação SOAP
+  - [SoapClient::\_\_getLastRequestHeaders](soapclient.getlastrequestheaders.md) - Retorna os cabeçalhos SOAP da última solicitação
+  - [SoapClient::\_\_getLastResponse](soapclient.getlastresponse.md) - Retorna a última resposta SOAP
+  - [SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md) - Retorna os cabeçalhos SOAP da última resposta
+  - [SoapClient::\_\_getTypes](soapclient.gettypes.md) - Retorna uma lista de tipos SOAP
+  - [SoapClient::\_\_setCookie](soapclient.setcookie.md) - Define um cookie para solicitações SOAP
+  - [SoapClient::\_\_setLocation](soapclient.setlocation.md) - Define a localização do serviço Web a ser usado
+  - [SoapClient::\_\_setSoapHeaders](soapclient.setsoapheaders.md) - Define cabeçalhos SOAP para chamadas subsequentes
+  - [SoapClient::\_\_soapCall](soapclient.soapcall.md) - Chama uma função SOAP
+  - [SoapFault::\_\_construct](soapfault.construct.md) - Construtor SoapFault
+  - [SoapFault::\_\_toString](soapfault.tostring.md) - Obtém uma representação de string de um SoapFault
+  - [SoapHeader::\_\_construct](soapheader.construct.md) - Construtor SoapHeader
+  - [SoapParam::\_\_construct](soapparam.construct.md) - Construtor SoapParam
+  - [SoapServer::addFunction](soapserver.addfunction.md) - Adiciona uma ou mais funções para lidar com solicitações SOAP
+  - [SoapServer::addSoapHeader](soapserver.addsoapheader.md) - Adiciona um cabeçalho SOAP à resposta
+  - [SoapServer::fault](soapserver.fault.md) - Emite falha no SoapServer indicando um erro
+  - [SoapServer::getFunctions](soapserver.getfunctions.md) - Retorna uma lista de funções definidas
+  - [SoapServer::handle](soapserver.handle.md) - Lida com uma solicitação SOAP
+  - [SoapServer::setClass](soapserver.setclass.md) - Define a classe que trata as solicitações SOAP
+  - [SoapServer::setObject](soapserver.setobject.md) - Define o objeto que será usado para tratar solicitações SOAP
+  - [SoapServer::setPersistence](soapserver.setpersistence.md) - Define o modo de persistência do SoapServer
+  - [SoapServer::\_\_construct](soapserver.construct.md) - Construtor SoapServer
+  - [SoapServer::\_\_getLastResponse](soapserver.getlastresponse.md) - Retorna a última resposta SOAP
+  - [SoapVar::\_\_construct](soapvar.construct.md) - Construtor SoapVar
+  - [socket\_accept](function.socket-accept.md) - Aceita uma conexão em um soquete
+  - [socket\_addrinfo\_bind](function.socket-addrinfo-bind.md) - Cria e vincula a um soquete a partir de uma informação de endereço
+  - [socket\_addrinfo\_connect](function.socket-addrinfo-connect.md) - Cria e conecta a um soquete a partir de uma informação de endereço
+  - [socket\_addrinfo\_explain](function.socket-addrinfo-explain.md) - Obtem explicação sobre informação de endereço
+  - [socket\_addrinfo\_lookup](function.socket-addrinfo-lookup.md) - Obtém array com conteúdo de getaddrinfo() sobre o servidor informado
+  - [socket\_atmark](function.socket-atmark.md) - Determina se o soquete está na marca fora-de-banda
+  - [socket\_bind](function.socket-bind.md) - Vincula um nome a um soquete
+  - [socket\_clear\_error](function.socket-clear-error.md) - Limpa o erro no soquete ou o último código de erro
+  - [socket\_close](function.socket-close.md) - Fecha uma instância de Socket
+  - [socket\_cmsg\_space](function.socket-cmsg-space.md) - Calcula o tamanho do buffer de mensagem
+  - [socket\_connect](function.socket-connect.md) - Inicia uma conexão em um soquete
+  - [socket\_create](function.socket-create.md) - Cria um soquete (ponto de extremidade para comunição)
+  - [socket\_create\_listen](function.socket-create-listen.md) - Abre um soquete em uma porta para aceitar conexões
+  - [socket\_create\_pair](function.socket-create-pair.md) - Cria um par de soquetes indistinguíveis e os armazena em um array
+  - [socket\_export\_stream](function.socket-export-stream.md) - Exporta um soquete para um fluxo que encapsula um soquete
+  - [socket\_getopt](function.socket-getopt.md) - Sinônimo de socket\_get\_option
+  - [socket\_getpeername](function.socket-getpeername.md) - Consulta o lado remoto do soquete fornecido
+  - [socket\_getsockname](function.socket-getsockname.md) - Consulta o lado local do soquete fornecido, o que pode resultar em servidor/porta ou em um caminho do sistema de arquivos Unix, dependendo do seu tipo
+  - [socket\_get\_option](function.socket-get-option.md) - Obtém opções para o soquete
+  - [socket\_get\_status](function.socket-get-status.md) - Sinônimo de stream\_get\_meta\_data
+  - [socket\_import\_stream](function.socket-import-stream.md) - Importa um fluxo
+  - [socket\_last\_error](function.socket-last-error.md) - Retorna o último erro no soquete
+  - [socket\_listen](function.socket-listen.md) - Escuta uma conexão em um soquete
+  - [socket\_read](function.socket-read.md) - Lê um máximo de bytes de um soquete
+  - [socket\_recv](function.socket-recv.md) - Recebe dados de um soquete conectado
+  - [socket\_recvfrom](function.socket-recvfrom.md) - Recebe dados de um soquete, seja ele orientado a conexão ou não
+  - [socket\_recvmsg](function.socket-recvmsg.md) - Lê uma mensagem
+  - [socket\_select](function.socket-select.md) - Executa a chamada de sistema select() nos arrays de soquetes fornecidos com um tempo limite especificado
+  - [socket\_send](function.socket-send.md) - Envia dados para um soquete conectado
+  - [socket\_sendmsg](function.socket-sendmsg.md) - Envia uma mensagem
+  - [socket\_sendto](function.socket-sendto.md) - Envia uma mensagem para um soquete, esteja ele conectado ou não
+  - [socket\_setopt](function.socket-setopt.md) - Sinônimo de socket\_set\_option
+  - [socket\_set\_block](function.socket-set-block.md) - Define o modo de bloqueio em um soquete
+  - [socket\_set\_blocking](function.socket-set-blocking.md) - Sinônimo de stream\_set\_blocking
+  - [socket\_set\_nonblock](function.socket-set-nonblock.md) - Define o modo sem bloqueio para o descritor de arquivo fd
+  - [socket\_set\_option](function.socket-set-option.md) - Define opções para o soquete
+  - [socket\_set\_timeout](function.socket-set-timeout.md) - Sinônimo de stream\_set\_timeout
+  - [socket\_shutdown](function.socket-shutdown.md) - Desliga um soquete para recebimento, envio ou ambos
+  - [socket\_strerror](function.socket-strerror.md) - Retorna uma string descrevendo um erro no soquete
+  - [socket\_write](function.socket-write.md) - Escreve em um soquete
+  - [socket\_wsaprotocol\_info\_export](function.socket-wsaprotocol-info-export.md) - Exporta a estrutura WSAPROTOCOL\_INFO
+  - [socket\_wsaprotocol\_info\_import](function.socket-wsaprotocol-info-import.md) - Importa um soquete de outro processo
+  - [socket\_wsaprotocol\_info\_release](function.socket-wsaprotocol-info-release.md) - Libera uma estrutura WSAPROTOCOL\_INFO exportada
+  - [sodium\_add](function.sodium-add.md) - Soma números grandes
+  - [sodium\_base642bin](function.sodium-base642bin.md) - Decodifica uma string codificada em base64 para binário bruto.
+  - [sodium\_bin2base64](function.sodium-bin2base64.md) - Codifica uma string binária bruta com base64.
+  - [sodium\_bin2hex](function.sodium-bin2hex.md) - Codifica para hexadecimal
+  - [sodium\_compare](function.sodium-compare.md) - Compara números grandes
+  - [sodium\_crypto\_aead\_aegis128l\_decrypt](function.sodium-crypto-aead-aegis128l-decrypt.md) - Verifica e descriptografa uma mensagem com AEGIS-128L
+  - [sodium\_crypto\_aead\_aegis128l\_encrypt](function.sodium-crypto-aead-aegis128l-encrypt.md) - Criptografa e autentica uma mensagem com AEGIS-128L
+  - [sodium\_crypto\_aead\_aegis128l\_keygen](function.sodium-crypto-aead-aegis128l-keygen.md) - Gera uma chave AEGIS-128L aleatória
+  - [sodium\_crypto\_aead\_aegis256\_decrypt](function.sodium-crypto-aead-aegis256-decrypt.md) - Verifica e descriptografa uma mensagem com AEGIS-256
+  - [sodium\_crypto\_aead\_aegis256\_encrypt](function.sodium-crypto-aead-aegis256-encrypt.md) - Criptografa e autentica uma mensagem com AEGIS-256
+  - [sodium\_crypto\_aead\_aegis256\_keygen](function.sodium-crypto-aead-aegis256-keygen.md) - Gera uma chave AEGIS-256 aleatória
+  - [sodium\_crypto\_aead\_aes256gcm\_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.md) - Verifica e descriptografa uma mensagem com AES-256-GCM
+  - [sodium\_crypto\_aead\_aes256gcm\_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.md) - Criptografa e autentica com AES-256-GCM
+  - [sodium\_crypto\_aead\_aes256gcm\_is\_available](function.sodium-crypto-aead-aes256gcm-is-available.md) - Verifica se o equipamento suporta AES256-GCM
+  - [sodium\_crypto\_aead\_aes256gcm\_keygen](function.sodium-crypto-aead-aes256gcm-keygen.md) - Gera uma chave AES-256-GCM aleatória
+  - [sodium\_crypto\_aead\_chacha20poly1305\_decrypt](function.sodium-crypto-aead-chacha20poly1305-decrypt.md) - Verifica e descriptografa com ChaCha20-Poly1305
+  - [sodium\_crypto\_aead\_chacha20poly1305\_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.md) - Criptografa e autentica com ChaCha20-Poly1305
+  - [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md) - Verifica se o texto cifrado inclui uma tag válida
+  - [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md) - Criptografa uma mensagem
+  - [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen](function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.md) - Gera uma chave ChaCha20-Poly1305 (IETF) aleatória
+  - [sodium\_crypto\_aead\_chacha20poly1305\_keygen](function.sodium-crypto-aead-chacha20poly1305-keygen.md) - Gera uma chave ChaCha20-Poly1305 aleatória
+  - [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.md) - (Preferido) Verifica e descriptografa com XChaCha20-Poly1305
+  - [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md) - (Preferido) Criptografa e autentica com XChaCha20-Poly1305
+  - [sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_keygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md) - Gera uma chave XChaCha20-Poly1305 aleatória
+  - [sodium\_crypto\_auth](function.sodium-crypto-auth.md) - Calcula uma tag para a mensagem
+  - [sodium\_crypto\_auth\_keygen](function.sodium-crypto-auth-keygen.md) - Gera uma chave aleatória para sodium\_crypto\_auth
+  - [sodium\_crypto\_auth\_verify](function.sodium-crypto-auth-verify.md) - Verifica se a tag é válida para a mensagem
+  - [sodium\_crypto\_box](function.sodium-crypto-box.md) - Criptografia de chave pública autenticada
+  - [sodium\_crypto\_box\_keypair](function.sodium-crypto-box-keypair.md) - Gera aleatoriamente uma chave secreta e uma chave pública correspondente
+  - [sodium\_crypto\_box\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md) - Cria uma sequência de pares de chaves unificada a partir de uma chave secreta e uma chave pública
+  - [sodium\_crypto\_box\_open](function.sodium-crypto-box-open.md) - Descriptografia de chave pública autenticada
+  - [sodium\_crypto\_box\_publickey](function.sodium-crypto-box-publickey.md) - Extrai a chave pública de um par de chaves crypto\_box
+  - [sodium\_crypto\_box\_publickey\_from\_secretkey](function.sodium-crypto-box-publickey-from-secretkey.md) - Calcula a chave pública a partir de uma chave secreta
+  - [sodium\_crypto\_box\_seal](function.sodium-crypto-box-seal.md) - Criptografia de chave pública anônima
+  - [sodium\_crypto\_box\_seal\_open](function.sodium-crypto-box-seal-open.md) - Descriptografia de chave pública anônima
+  - [sodium\_crypto\_box\_secretkey](function.sodium-crypto-box-secretkey.md) - Extrai a chave secreta de um par de chaves crypto\_box
+  - [sodium\_crypto\_box\_seed\_keypair](function.sodium-crypto-box-seed-keypair.md) - Deriva deterministicamente o par de chaves de uma única chave
+  - [sodium\_crypto\_core\_ristretto255\_add](function.sodium-crypto-core-ristretto255-add.md) - Adiciona um elemento
+  - [sodium\_crypto\_core\_ristretto255\_from\_hash](function.sodium-crypto-core-ristretto255-from-hash.md) - Mapeia um vetor
+  - [sodium\_crypto\_core\_ristretto255\_is\_valid\_point](function.sodium-crypto-core-ristretto255-is-valid-point.md) - Determina se um ponto está na curva ristretto255
+  - [sodium\_crypto\_core\_ristretto255\_random](function.sodium-crypto-core-ristretto255-random.md) - Gera uma chave aleatória
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_add](function.sodium-crypto-core-ristretto255-scalar-add.md) - Adiciona um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_complement](function.sodium-crypto-core-ristretto255-scalar-complement.md) - O propósito de sodium\_crypto\_core\_ristretto255\_scalar\_complement
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_invert](function.sodium-crypto-core-ristretto255-scalar-invert.md) - Inverte um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_mul](function.sodium-crypto-core-ristretto255-scalar-mul.md) - Multiplica um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_negate](function.sodium-crypto-core-ristretto255-scalar-negate.md) - Negativa um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_random](function.sodium-crypto-core-ristretto255-scalar-random.md) - Gera uma chave aleatória
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_reduce](function.sodium-crypto-core-ristretto255-scalar-reduce.md) - Reduz um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_scalar\_sub](function.sodium-crypto-core-ristretto255-scalar-sub.md) - Subtrai um valor escalar
+  - [sodium\_crypto\_core\_ristretto255\_sub](function.sodium-crypto-core-ristretto255-sub.md) - Subtrai um elemento
+  - [sodium\_crypto\_generichash](function.sodium-crypto-generichash.md) - Obtém um hash da mensagem
+  - [sodium\_crypto\_generichash\_final](function.sodium-crypto-generichash-final.md) - Completa o hash
+  - [sodium\_crypto\_generichash\_init](function.sodium-crypto-generichash-init.md) - Inicializa um hash para fluxo
+  - [sodium\_crypto\_generichash\_keygen](function.sodium-crypto-generichash-keygen.md) - Gera uma chave generichash aleatória
+  - [sodium\_crypto\_generichash\_update](function.sodium-crypto-generichash-update.md) - Adiciona mensagem a um hash
+  - [sodium\_crypto\_kdf\_derive\_from\_key](function.sodium-crypto-kdf-derive-from-key.md) - Deriva uma subchave
+  - [sodium\_crypto\_kdf\_keygen](function.sodium-crypto-kdf-keygen.md) - Gera uma chave raiz aleatória para a interface KDF
+  - [sodium\_crypto\_kx\_client\_session\_keys](function.sodium-crypto-kx-client-session-keys.md) - Calcula as chaves de sessão do lado do cliente
+  - [sodium\_crypto\_kx\_keypair](function.sodium-crypto-kx-keypair.md) - Cria um novo par de chaves sodium
+  - [sodium\_crypto\_kx\_publickey](function.sodium-crypto-kx-publickey.md) - Extrai a chave pública de um par de chaves crypto\_kx
+  - [sodium\_crypto\_kx\_secretkey](function.sodium-crypto-kx-secretkey.md) - Extrai a chave secreta de um par de chaves crypto\_kx
+  - [sodium\_crypto\_kx\_seed\_keypair](function.sodium-crypto-kx-seed-keypair.md) - Descrição
+  - [sodium\_crypto\_kx\_server\_session\_keys](function.sodium-crypto-kx-server-session-keys.md) - Calcula as chaves de sessão do lado do servidor
+  - [sodium\_crypto\_pwhash](function.sodium-crypto-pwhash.md) - Deriva uma chave de uma senha, usando Argon2
+  - [sodium\_crypto\_pwhash\_scryptsalsa208sha256](function.sodium-crypto-pwhash-scryptsalsa208sha256.md) - Deriva uma chave de uma senha, usando scrypt
+  - [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md) - Obtém um hash codificado em ASCII
+  - [sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md) - Verifica se a senha é uma string de verificação de senha válida
+  - [sodium\_crypto\_pwhash\_str](function.sodium-crypto-pwhash-str.md) - Obtém um hash codificado em ASCII
+  - [sodium\_crypto\_pwhash\_str\_needs\_rehash](function.sodium-crypto-pwhash-str-needs-rehash.md) - Determina se uma senha deve ou não ter o hash refeito
+  - [sodium\_crypto\_pwhash\_str\_verify](function.sodium-crypto-pwhash-str-verify.md) - Verifica se uma senha corresponde a um hash
+  - [sodium\_crypto\_scalarmult](function.sodium-crypto-scalarmult.md) - Calcula um segredo compartilhado, dada a chave secreta de um usuário e a chave pública de outro usuário.
+  - [sodium\_crypto\_scalarmult\_base](function.sodium-crypto-scalarmult-base.md) - Sinônimo de sodium\_crypto\_box\_publickey\_from\_secretkey
+  - [sodium\_crypto\_scalarmult\_ristretto255](function.sodium-crypto-scalarmult-ristretto255.md) - Calcula um segredo compartilhado
+  - [sodium\_crypto\_scalarmult\_ristretto255\_base](function.sodium-crypto-scalarmult-ristretto255-base.md) - Calcula a chave pública a partir de uma chave secreta
+  - [sodium\_crypto\_secretbox](function.sodium-crypto-secretbox.md) - Criptografia de chave compartilhada autenticada
+  - [sodium\_crypto\_secretbox\_keygen](function.sodium-crypto-secretbox-keygen.md) - Gera chave aleatória para sodium\_crypto\_secretbox
+  - [sodium\_crypto\_secretbox\_open](function.sodium-crypto-secretbox-open.md) - Descriptografia de chave compartilhada autenticada
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md) - Inicializa um contexto secretstream para descriptografia
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md) - Inicializa um contexto secretstream para criptografia
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md) - Gera uma chave secretstream aleatória.
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_pull](function.sodium-crypto-secretstream-xchacha20poly1305-pull.md) - Descriptografa um pedaço de dados de um fluxo criptografado
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_push](function.sodium-crypto-secretstream-xchacha20poly1305-push.md) - Criptografa um bloco de dados para que ele possa ser descriptografado com segurança em uma API de fluxo
+  - [sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey](function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md) - Rotaciona explicitamente a chave no estado secretstream
+  - [sodium\_crypto\_shorthash](function.sodium-crypto-shorthash.md) - Calcula um hash curto de uma mensagem e chave
+  - [sodium\_crypto\_shorthash\_keygen](function.sodium-crypto-shorthash-keygen.md) - Obtém bytes aleatórios para uma chave
+  - [sodium\_crypto\_sign](function.sodium-crypto-sign.md) - Assina uma mensagem
+  - [sodium\_crypto\_sign\_detached](function.sodium-crypto-sign-detached.md) - Assina a mensagem
+  - [sodium\_crypto\_sign\_ed25519\_pk\_to\_curve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md) - Converte uma chave pública Ed25519 em uma chave pública Curve25519
+  - [sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519](function.sodium-crypto-sign-ed25519-sk-to-curve25519.md) - Converte uma chave secreta Ed25519 em uma chave secreta Curve25519
+  - [sodium\_crypto\_sign\_keypair](function.sodium-crypto-sign-keypair.md) - Gera aleatoriamente uma chave secreta e uma chave pública correspondente
+  - [sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md) - Une uma chave secreta e uma chave pública
+  - [sodium\_crypto\_sign\_open](function.sodium-crypto-sign-open.md) - Verifica se a mensagem assinada tem uma assinatura válida
+  - [sodium\_crypto\_sign\_publickey](function.sodium-crypto-sign-publickey.md) - Extrai a chave pública Ed25519 de um par de chaves
+  - [sodium\_crypto\_sign\_publickey\_from\_secretkey](function.sodium-crypto-sign-publickey-from-secretkey.md) - Extrai a chave pública Ed25519 da chave secreta
+  - [sodium\_crypto\_sign\_secretkey](function.sodium-crypto-sign-secretkey.md) - Extrai a chave secreta Ed25519 de um par de chaves
+  - [sodium\_crypto\_sign\_seed\_keypair](function.sodium-crypto-sign-seed-keypair.md) - Deriva deterministicamente o par de chaves de uma única chave
+  - [sodium\_crypto\_sign\_verify\_detached](function.sodium-crypto-sign-verify-detached.md) - Verifica a assinatura da mensagem
+  - [sodium\_crypto\_stream](function.sodium-crypto-stream.md) - Gera uma sequência determinística de bytes a partir de uma semente
+  - [sodium\_crypto\_stream\_keygen](function.sodium-crypto-stream-keygen.md) - Gera uma chave sodium\_crypto\_stream aleatória.
+  - [sodium\_crypto\_stream\_xchacha20](function.sodium-crypto-stream-xchacha20.md) - Expande a chave e o nonce em um fluxo de chaves de bytes pseudoaleatórios
+  - [sodium\_crypto\_stream\_xchacha20\_keygen](function.sodium-crypto-stream-xchacha20-keygen.md) - Retorna uma chave segura aleatória
+  - [sodium\_crypto\_stream\_xchacha20\_xor](function.sodium-crypto-stream-xchacha20-xor.md) - Criptografa uma mensagem usando um nonce e uma chave secreta (sem autenticação)
+  - [sodium\_crypto\_stream\_xchacha20\_xor\_ic](function.sodium-crypto-stream-xchacha20-xor-ic.md) - Criptografa uma mensagem usando um nonce e uma chave secreta (sem autenticação)
+  - [sodium\_crypto\_stream\_xor](function.sodium-crypto-stream-xor.md) - Criptografa uma mensagem sem autenticação
+  - [sodium\_hex2bin](function.sodium-hex2bin.md) - Decodifica uma string binária codificada em hexadecimal
+  - [sodium\_increment](function.sodium-increment.md) - Incrementa um número grande
+  - [sodium\_memcmp](function.sodium-memcmp.md) - Testa para igualdade em tempo constante
+  - [sodium\_memzero](function.sodium-memzero.md) - Sobrescreve uma string com caracteres NUL
+  - [sodium\_pad](function.sodium-pad.md) - Adiciona dados de preenchimento
+  - [sodium\_unpad](function.sodium-unpad.md) - Remove dados de preenchimento
+  - [SolrClient::addDocument](solrclient.adddocument.md) - Adiciona um documento ao índice
+  - [SolrClient::addDocuments](solrclient.adddocuments.md) - Adiciona uma coleção de instâncias SolrInputDocument ao índice
+  - [SolrClient::commit](solrclient.commit.md) - Finaliza todas as adições/exclusões feitas no índice
+  - [SolrClient::deleteById](solrclient.deletebyid.md) - Exclui por ID
+  - [SolrClient::deleteByIds](solrclient.deletebyids.md) - Exclui por IDs
+  - [SolrClient::deleteByQueries](solrclient.deletebyqueries.md) - Remove todos os documentos que correspondem a qualquer uma das consultas
+  - [SolrClient::deleteByQuery](solrclient.deletebyquery.md) - Exclui todos os documentos que correspondem à consulta fornecida
+  - [SolrClient::getById](solrclient.getbyid.md) - Obtém documento por ID usando Realtime Get (RTG) do Solr
+  - [SolrClient::getByIds](solrclient.getbyids.md) - Obtém documentos por seus IDs usando Realtime Get (RTG) do Solr
+  - [SolrClient::getDebug](solrclient.getdebug.md) - Retorna os dados de depuração da última tentativa de conexão
+  - [SolrClient::getOptions](solrclient.getoptions.md) - Retorna as opções do cliente definidas internamente
+  - [SolrClient::optimize](solrclient.optimize.md) - Desfragmenta o índice
+  - [SolrClient::ping](solrclient.ping.md) - Verifica se o servidor Solr ainda está ativo
+  - [SolrClient::query](solrclient.query.md) - Envia uma consulta ao servidor
+  - [SolrClient::request](solrclient.request.md) - Envia uma solicitação de atualização bruta
+  - [SolrClient::rollback](solrclient.rollback.md) - Reverte todas as adições/exclusões feitas no índice desde a última confirmação
+  - [SolrClient::setResponseWriter](solrclient.setresponsewriter.md) - Define o gravador de resposta usado para preparar a resposta do Solr
+  - [SolrClient::setServlet](solrclient.setservlet.md) - Altera o tipo de servlet especificado para um novo valor
+  - [SolrClient::system](solrclient.system.md) - Recupera informações do servidor Solr
+  - [SolrClient::threads](solrclient.threads.md) - Verifica o status dos threads
+  - [SolrClient::\_\_construct](solrclient.construct.md) - Construtor para o objeto SolrClient
+  - [SolrClient::\_\_destruct](solrclient.destruct.md) - Destrutor para SolrClient
+  - [SolrClientException::getInternalInfo](solrclientexception.getinternalinfo.md) - Retorna informações internas de onde a exceção foi lançada
+  - [SolrCollapseFunction::getField](solrcollapsefunction.getfield.md) - Retorna o campo que está sendo colapsado
+  - [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.md) - Retorna dica de colapso
+  - [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.md) - Retorna o parâmetro "max"
+  - [SolrCollapseFunction::getMin](solrcollapsefunction.getmin.md) - Retorna o parâmetro "min"
+  - [SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md) - Retorna política para NULL
+  - [SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md) - Retorna o parâmetro de tamanho
+  - [SolrCollapseFunction::setField](solrcollapsefunction.setfield.md) - Define o campo para ser colapsado
+  - [SolrCollapseFunction::setHint](solrcollapsefunction.sethint.md) - Define dica de colapso
+  - [SolrCollapseFunction::setMax](solrcollapsefunction.setmax.md) - Seleciona os cabeçalhos dos grupos pelo valor máximo de um campo numérico ou consulta de função
+  - [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.md) - Define o tamanho inicial das estruturas de dados colapsadas ao recolher apenas em um campo numérico
+  - [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md) - Define a política para NULL
+  - [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.md) - Define o tamanho inicial das estruturas de dados colapsadas ao colapsar apenas em um campo numérico
+  - [SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.md) - Construtor
+  - [SolrCollapseFunction::\_\_toString](solrcollapsefunction.tostring.md) - Retorna uma string representando a função de colapso construída
+  - [SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md) - Adiciona um campo de frase bigrama (parâmetro pf2)
+  - [SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.md) - Adiciona um campo de consulta de impulso com valor e impulso (parâmetro bq)
+  - [SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.md) - Adiciona um campo de frase (parâmetro pf)
+  - [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md) - Adiciona um campo de consulta com impulso opcional (parâmetro qf)
+  - [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md) - Adiciona um campo de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md) - Adiciona um campo ao parâmetro campos do usuário (uf)
+  - [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.md) - Remove o campo de frase bigrama (parâmetro pf2)
+  - [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md) - Remove uma consulta de impulso parcial por nome de campo (bq)
+  - [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md) - Remover um campo de frase (parâmetro pf)
+  - [SolrDisMaxQuery::removeQueryField](solrdismaxquery.removequeryfield.md) - Remove um campo de consulta (parâmetro qf)
+  - [SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.md) - Remove um campo de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md) - Remove um campo do parâmetro de campos de usuário (uf)
+  - [SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.md) - Define campos de frase bigrama e seus impulsos (e slops) usando o parâmetro pf2
+  - [SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.md) - Define o slop da frase bigrama (parâmetro ps2)
+  - [SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.md) - Define uma função de impulso (parâmetro bf)
+  - [SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md) - Define diretamente o parâmetro de consulta de impulso (bq)
+  - [SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.md) - Define a correspondência mínima "Deveria" (mm)
+  - [SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md) - Define campos de frase e seus impulsos (e slops) usando o parâmetro pf2
+  - [SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md) - Define o slop padrão em consultas de frase (parâmetro ps)
+  - [SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.md) - Define a consulta alternativa (parâmetro q.alt)
+  - [SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md) - Especifica a quantidade de slop permitida em consultas de frase explicitamente incluídas na string de consulta do usuário (parâmetro qf)
+  - [SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.md) - Define o parâmetro de desempate (parâmetro tie)
+  - [SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.md) - Define diretamente campos de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.md) - Define slop de frase trigrama (parâmetro ps3)
+  - [SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md) - Define parâmetro de campos de usuário (uf)
+  - [SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md) - Troca o analisador de consulta para o DisMax
+  - [SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.md) - Troca o analisador de consulta para o EDisMax
+  - [SolrDisMaxQuery::\_\_construct](solrdismaxquery.construct.md) - Construtor da classe
+  - [SolrDocument::addField](solrdocument.addfield.md) - Adiciona um campo ao documento
+  - [SolrDocument::clear](solrdocument.clear.md) - Elimina todos os campos do documento
+  - [SolrDocument::current](solrdocument.current.md) - Recupera o campo atual
+  - [SolrDocument::deleteField](solrdocument.deletefield.md) - Remove um campo do documento
+  - [SolrDocument::fieldExists](solrdocument.fieldexists.md) - Verifica se um campo existe no documento
+  - [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.md) - Retorna um array de documentos filhos (SolrDocument)
+  - [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md) - Retorna o número de documentos filhos
+  - [SolrDocument::getField](solrdocument.getfield.md) - Recupera um campo por nome
+  - [SolrDocument::getFieldCount](solrdocument.getfieldcount.md) - Retorna o número de campos neste documento
+  - [SolrDocument::getFieldNames](solrdocument.getfieldnames.md) - Retorna um array de nomes de campos no documento
+  - [SolrDocument::getInputDocument](solrdocument.getinputdocument.md) - Retorna um SolrInputDocument equivalente ao objeto
+  - [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md) - Verifica se o documento possui algum documento filho
+  - [SolrDocument::key](solrdocument.key.md) - Recupera a chave atual
+  - [SolrDocument::merge](solrdocument.merge.md) - Mescla o documento de origem com o SolrDocument atual
+  - [SolrDocument::next](solrdocument.next.md) - Move o ponteiro interno para o próximo campo
+  - [SolrDocument::offsetExists](solrdocument.offsetexists.md) - Verifica se existe um campo específico
+  - [SolrDocument::offsetGet](solrdocument.offsetget.md) - Recupera um campo
+  - [SolrDocument::offsetSet](solrdocument.offsetset.md) - Adiciona um campo ao documento
+  - [SolrDocument::offsetUnset](solrdocument.offsetunset.md) - Remove um campo
+  - [SolrDocument::reset](solrdocument.reset.md) - Sinônimo de SolrDocument::clear
+  - [SolrDocument::rewind](solrdocument.rewind.md) - Redefine o ponteiro interno para o início
+  - [SolrDocument::serialize](solrdocument.serialize.md) - Usado para serialização personalizada
+  - [SolrDocument::sort](solrdocument.sort.md) - Classifica os campos do documento
+  - [SolrDocument::toArray](solrdocument.toarray.md) - Retorna uma representação de array do documento
+  - [SolrDocument::unserialize](solrdocument.unserialize.md) - Serialização personalizada de objetos SolrDocument
+  - [SolrDocument::valid](solrdocument.valid.md) - Verifica se a posição atual internamente ainda é válida
+  - [SolrDocument::\_\_clone](solrdocument.clone.md) - Cria uma cópia de um objeto SolrDocument
+  - [SolrDocument::\_\_construct](solrdocument.construct.md) - Construtor
+  - [SolrDocument::\_\_destruct](solrdocument.destruct.md) - Destrutor
+  - [SolrDocument::\_\_get](solrdocument.get.md) - Acessa o campo como uma propriedade
+  - [SolrDocument::\_\_isset](solrdocument.isset.md) - Verifica se um campo existe
+  - [SolrDocument::\_\_set](solrdocument.set.md) - Adiciona outro campo ao documento
+  - [SolrDocument::\_\_unset](solrdocument.unset.md) - Remove um campo do documento
+  - [SolrDocumentField::\_\_construct](solrdocumentfield.construct.md) - Construtor
+  - [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.md) - Destrutor
+  - [SolrException::getInternalInfo](solrexception.getinternalinfo.md) - Retorna informações internas de onde a exceção foi lançada
+  - [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md) - Construtor
+  - [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md) - Destrutor
+  - [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md) - Retorna informações internas de onde a exceção foi lançada
+  - [SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md) - Retorna informações internas de onde a exceção foi lançada
+  - [SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.md) - Adiciona um documento filho para indexação de bloco
+  - [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.md) - Adiciona um array de documentos filhos
+  - [SolrInputDocument::addField](solrinputdocument.addfield.md) - Adiciona um campo ao documento
+  - [SolrInputDocument::clear](solrinputdocument.clear.md) - Redefine o documento de entrada
+  - [SolrInputDocument::deleteField](solrinputdocument.deletefield.md) - Remove um campo do documento
+  - [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md) - Verifica se um campo existe
+  - [SolrInputDocument::getBoost](solrinputdocument.getboost.md) - Recupera o valor de impulso atual do documento
+  - [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md) - Retorna um array de documentos filhos (SolrInputDocument)
+  - [SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.md) - Retorna o número de documentos filhos
+  - [SolrInputDocument::getField](solrinputdocument.getfield.md) - Recupera um campo por nome
+  - [SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md) - Recupera o valor de impulso para um campo específico
+  - [SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md) - Retorna o número de campos do documento
+  - [SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md) - Retorna um array contendo todos os campos do documento
+  - [SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md) - Verifica se o documento possui algum documento filho
+  - [SolrInputDocument::merge](solrinputdocument.merge.md) - Mescla um documento de entrada em outro
+  - [SolrInputDocument::reset](solrinputdocument.reset.md) - Sinônimo de SolrInputDocument::clear
+  - [SolrInputDocument::setBoost](solrinputdocument.setboost.md) - Define o valor de impulso para este documento
+  - [SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md) - Define o valor de impulso no momento da indexação para um campo
+  - [SolrInputDocument::sort](solrinputdocument.sort.md) - Classifica os campos dentro do documento
+  - [SolrInputDocument::toArray](solrinputdocument.toarray.md) - Retorna uma representação de array do documento de entrada
+  - [SolrInputDocument::\_\_clone](solrinputdocument.clone.md) - Cria uma cópia de um SolrDocument
+  - [SolrInputDocument::\_\_construct](solrinputdocument.construct.md) - Construtor
+  - [SolrInputDocument::\_\_destruct](solrinputdocument.destruct.md) - Destrutor
+  - [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md) - Construtor
+  - [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md) - Destrutor
+  - [SolrObject::getPropertyNames](solrobject.getpropertynames.md) - Retorna um array com todos os nomes das propriedades
+  - [SolrObject::offsetExists](solrobject.offsetexists.md) - Verifica se a propriedade existe
+  - [SolrObject::offsetGet](solrobject.offsetget.md) - Recupera o valor de uma propriedade
+  - [SolrObject::offsetSet](solrobject.offsetset.md) - Define o valor de uma propriedade
+  - [SolrObject::offsetUnset](solrobject.offsetunset.md) - Desativa o valor da propriedade
+  - [SolrObject::\_\_construct](solrobject.construct.md) - Cria um objeto Solr
+  - [SolrObject::\_\_destruct](solrobject.destruct.md) - Destrutor
+  - [SolrParams::add](solrparams.add.md) - Sinônimo de SolrParams::addParam
+  - [SolrParams::addParam](solrparams.addparam.md) - Adiciona um parâmetro ao objeto
+  - [SolrParams::get](solrparams.get.md) - Sinônimo de SolrParams::getParam
+  - [SolrParams::getParam](solrparams.getparam.md) - Retorna um valor de parâmetro
+  - [SolrParams::getParams](solrparams.getparams.md) - Retorna um array de parâmetros não codificados em URL
+  - [SolrParams::getPreparedParams](solrparams.getpreparedparams.md) - Retorna um array de parâmetros codificados em URL
+  - [SolrParams::serialize](solrparams.serialize.md) - Usado para serialização personalizada
+  - [SolrParams::set](solrparams.set.md) - Sinônimo de SolrParams::setParam
+  - [SolrParams::setParam](solrparams.setparam.md) - Define o parâmetro para o valor especificado
+  - [SolrParams::toString](solrparams.tostring.md) - Retorna todos os parâmetros do par nome-valor no objeto
+  - [SolrParams::unserialize](solrparams.unserialize.md) - Usado para desserialização personalizada
+  - [SolrPingResponse::getResponse](solrpingresponse.getresponse.md) - Retorna a resposta do servidor
+  - [SolrPingResponse::\_\_construct](solrpingresponse.construct.md) - Construtor
+  - [SolrPingResponse::\_\_destruct](solrpingresponse.destruct.md) - Destrutor
+  - [SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.md) - Substitui a consulta do filtro principal e determina quais documentos incluir no grupo principal
+  - [SolrQuery::addExpandSortField](solrquery.addexpandsortfield.md) - Ordena os documentos dentro dos grupos expandidos (parâmetro expand.sort)
+  - [SolrQuery::addFacetDateField](solrquery.addfacetdatefield.md) - Mapeia para facet.date
+  - [SolrQuery::addFacetDateOther](solrquery.addfacetdateother.md) - Adiciona outro parâmetro facet.date.other
+  - [SolrQuery::addFacetField](solrquery.addfacetfield.md) - Adiciona outro campo à faceta
+  - [SolrQuery::addFacetQuery](solrquery.addfacetquery.md) - Adiciona uma consulta de faceta
+  - [SolrQuery::addField](solrquery.addfield.md) - Especifica quais campos retornar no resultado
+  - [SolrQuery::addFilterQuery](solrquery.addfilterquery.md) - Especifica uma consulta de filtro
+  - [SolrQuery::addGroupField](solrquery.addgroupfield.md) - Adiciona um campo para ser usado para agrupar resultados
+  - [SolrQuery::addGroupFunction](solrquery.addgroupfunction.md) - Permite agrupar resultados com base nos valores exclusivos de uma consulta de função (parâmetro group.func)
+  - [SolrQuery::addGroupQuery](solrquery.addgroupquery.md) - Permite agrupar documentos que correspondem à consulta fornecida
+  - [SolrQuery::addGroupSortField](solrquery.addgroupsortfield.md) - Adiciona um campo de classificação de grupo (parâmetro group.sort)
+  - [SolrQuery::addHighlightField](solrquery.addhighlightfield.md) - Mapeia para hl.fl
+  - [SolrQuery::addMltField](solrquery.addmltfield.md) - Define um campo a ser usado para similaridade
+  - [SolrQuery::addMltQueryField](solrquery.addmltqueryfield.md) - Mapeia para mlt.qf
+  - [SolrQuery::addSortField](solrquery.addsortfield.md) - Usado para controlar como os resultados devem ser classificados
+  - [SolrQuery::addStatsFacet](solrquery.addstatsfacet.md) - Solicita um retorno de subresultados para valores dentro de uma determinada faceta
+  - [SolrQuery::addStatsField](solrquery.addstatsfield.md) - Mapeia para o parâmetro stats.field
+  - [SolrQuery::collapse](solrquery.collapse.md) - Colapsa o conjunto de resultados para um único documento por grupo
+  - [SolrQuery::getExpand](solrquery.getexpand.md) - Informa se a expansão do grupo está habilitada
+  - [SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.md) - Retorna as consultas de filtro de expansão
+  - [SolrQuery::getExpandQuery](solrquery.getexpandquery.md) - Retorna o parâmetro expand.q da consulta de expansão
+  - [SolrQuery::getExpandRows](solrquery.getexpandrows.md) - Retorna o número de linhas a serem exibidas em cada grupo (expand.rows)
+  - [SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md) - Retorna um array de campos
+  - [SolrQuery::getFacet](solrquery.getfacet.md) - Retorna o valor do parâmetro de faceta
+  - [SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.md) - Retorna o valor do parâmetro facet.date.end
+  - [SolrQuery::getFacetDateFields](solrquery.getfacetdatefields.md) - Retorna todos os campos facet.date
+  - [SolrQuery::getFacetDateGap](solrquery.getfacetdategap.md) - Retorna o valor do parâmetro facet.date.gap
+  - [SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md) - Retorna o valor do parâmetro facet.date.hardend
+  - [SolrQuery::getFacetDateOther](solrquery.getfacetdateother.md) - Retorna o valor do parâmetro facet.date.other
+  - [SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.md) - Retorna o limite inferior do primeiro intervalo de datas para todas as facetas de data neste campo
+  - [SolrQuery::getFacetFields](solrquery.getfacetfields.md) - Retorna todos os campos de faceta
+  - [SolrQuery::getFacetLimit](solrquery.getfacetlimit.md) - Retorna o número máximo de contagens de restrições que devem ser retornadas para os campos de faceta
+  - [SolrQuery::getFacetMethod](solrquery.getfacetmethod.md) - Retorna o valor do parâmetro facet.method
+  - [SolrQuery::getFacetMinCount](solrquery.getfacetmincount.md) - Retorna as contagens mínimas para campos de facetas que devem ser incluídas na resposta
+  - [SolrQuery::getFacetMissing](solrquery.getfacetmissing.md) - Retorna o estado atual do parâmetro facet.missing
+  - [SolrQuery::getFacetOffset](solrquery.getfacetoffset.md) - Retorna um deslocamento na lista de restrições a serem usadas para paginação
+  - [SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md) - Retorna o prefixo da faceta
+  - [SolrQuery::getFacetQueries](solrquery.getfacetqueries.md) - Retorna todas as consultas de faceta
+  - [SolrQuery::getFacetSort](solrquery.getfacetsort.md) - Retorna o tipo de classificação de faceta
+  - [SolrQuery::getFields](solrquery.getfields.md) - Retorna a lista de campos que serão retornados na resposta
+  - [SolrQuery::getFilterQueries](solrquery.getfilterqueries.md) - Retorna uma série de consultas de filtro
+  - [SolrQuery::getGroup](solrquery.getgroup.md) - Informa se o agrupamento está habilitado
+  - [SolrQuery::getGroupCachePercent](solrquery.getgroupcachepercent.md) - Retorna o valor percentual do cache do grupo
+  - [SolrQuery::getGroupFacet](solrquery.getgroupfacet.md) - Retorna o valor do parâmetro group.facet
+  - [SolrQuery::getGroupFields](solrquery.getgroupfields.md) - Retorna campos de grupo (valores de parâmetro group.field)
+  - [SolrQuery::getGroupFormat](solrquery.getgroupformat.md) - Retorna o valor group.format
+  - [SolrQuery::getGroupFunctions](solrquery.getgroupfunctions.md) - Retorna funções de grupo (valores de parâmetro group.func)
+  - [SolrQuery::getGroupLimit](solrquery.getgrouplimit.md) - Retorna o valor group.limit
+  - [SolrQuery::getGroupMain](solrquery.getgroupmain.md) - Retorna o valor group.main
+  - [SolrQuery::getGroupNGroups](solrquery.getgroupngroups.md) - Retorna o valor group.ngroups
+  - [SolrQuery::getGroupOffset](solrquery.getgroupoffset.md) - Retorna o valor group.offset
+  - [SolrQuery::getGroupQueries](solrquery.getgroupqueries.md) - Retorna todos os valores dos parâmetros group.query
+  - [SolrQuery::getGroupSortFields](solrquery.getgroupsortfields.md) - Retorna o valor group.sort
+  - [SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md) - Retorna o valor group.truncate
+  - [SolrQuery::getHighlight](solrquery.gethighlight.md) - Retorna o estado do parâmetro hl
+  - [SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md) - Retorna o campo de destaque para usar como reserva ou padrão
+  - [SolrQuery::getHighlightFields](solrquery.gethighlightfields.md) - Retorna todos os campos para os quais o Solr deve gerar trechos destacados
+  - [SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md) - Retorna o formatador da saída destacada
+  - [SolrQuery::getHighlightFragmenter](solrquery.gethighlightfragmenter.md) - Retorna o gerador de trecho de texto para texto destacado
+  - [SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.md) - Retorna o número de caracteres dos fragmentos a serem considerados para destaque
+  - [SolrQuery::getHighlightHighlightMultiTerm](solrquery.gethighlighthighlightmultiterm.md) - Retorna se o destaque deve ou não ser ativado para consultas de intervalo/coringa/difusa/prefixo
+  - [SolrQuery::getHighlightMaxAlternateFieldLength](solrquery.gethighlightmaxalternatefieldlength.md) - Retorna o número máximo de caracteres do campo a ser retornado
+  - [SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.md) - Retorna o número máximo de caracteres em um documento para procurar trechos adequados
+  - [SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md) - Retorna se os fragmentos contíguos serão ou não colapsados em um único fragmento
+  - [SolrQuery::getHighlightQuery](solrquery.gethighlightquery.md) - Retorna a consulta de destaque (hl.q)
+  - [SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md) - Retorna o número máximo de caracteres de um campo ao usar o fragmentador de expressão regular
+  - [SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md) - Retorna a expressão regular para fragmentação
+  - [SolrQuery::getHighlightRegexSlop](solrquery.gethighlightregexslop.md) - Retorna o fator de desvio do tamanho ideal do fragmento
+  - [SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.md) - Retorna se um campo só será destacado se a consulta corresponder a esse campo específico
+  - [SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md) - Retorna o texto que aparece após um termo destacado
+  - [SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md) - Retorna o texto que aparece antes de um termo destacado
+  - [SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.md) - Retorna o número máximo de trechos destacados a serem gerados por campo
+  - [SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md) - Retorna o estado do parâmetro hl.usePhraseHighlighter
+  - [SolrQuery::getMlt](solrquery.getmlt.md) - Retorna se os resultados MoreLikeThis devem ou não ser habilitados
+  - [SolrQuery::getMltBoost](solrquery.getmltboost.md) - Retorna se a consulta será ou não impulsionada pela relevância de termo de interesse
+  - [SolrQuery::getMltCount](solrquery.getmltcount.md) - Retorna o número de documentos semelhantes a serem retornados para cada resultado
+  - [SolrQuery::getMltFields](solrquery.getmltfields.md) - Retorna todos os campos a serem usados ​​para similaridade
+  - [SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.md) - Retorna o número máximo de termos de consulta que serão incluídos em qualquer consulta gerada
+  - [SolrQuery::getMltMaxNumTokens](solrquery.getmltmaxnumtokens.md) - Retorna o número máximo de tokens a analisar em cada campo de documento que não é armazenado com suporte a TermVector
+  - [SolrQuery::getMltMaxWordLength](solrquery.getmltmaxwordlength.md) - Retorna o comprimento máximo de palavra acima do qual as palavras serão ignoradas
+  - [SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md) - Retorna a frequência limite na qual as palavras serão ignoradas e que não ocorrem em pelo menos esta quantidade de documentos
+  - [SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.md) - Retorna a frequência abaixo da qual os termos serão ignorados no documento de origem
+  - [SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md) - Retorna o comprimento mínimo da palavra abaixo do qual as palavras serão ignoradas
+  - [SolrQuery::getMltQueryFields](solrquery.getmltqueryfields.md) - Retorna os campos de consulta e seus impulsos
+  - [SolrQuery::getQuery](solrquery.getquery.md) - Retorna a consulta principal
+  - [SolrQuery::getRows](solrquery.getrows.md) - Retorna o número máximo de documentos
+  - [SolrQuery::getSortFields](solrquery.getsortfields.md) - Retorna todos os campos de classificação
+  - [SolrQuery::getStart](solrquery.getstart.md) - Retorna a posição no conjunto completo de resultados
+  - [SolrQuery::getStats](solrquery.getstats.md) - Retorna se as estatísticas estão habilitadas ou não
+  - [SolrQuery::getStatsFacets](solrquery.getstatsfacets.md) - Retorna todas as facetas de estatísticas que foram definidas
+  - [SolrQuery::getStatsFields](solrquery.getstatsfields.md) - Retorna todos os campos de estatísticas
+  - [SolrQuery::getTerms](solrquery.getterms.md) - Retorna se o TermsComponent está habilitado ou não
+  - [SolrQuery::getTermsField](solrquery.gettermsfield.md) - Retorna o campo do qual os termos são recuperados
+  - [SolrQuery::getTermsIncludeLowerBound](solrquery.gettermsincludelowerbound.md) - Retorna se o limite inferior no conjunto de resultados deve ou não ser incluído
+  - [SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.md) - Retorna se o limite superior no conjunto de resultados deve ou não ser incluído
+  - [SolrQuery::getTermsLimit](solrquery.gettermslimit.md) - Retorna o número máximo de termos que o Solr deve retornar
+  - [SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.md) - Retorna o termo de início
+  - [SolrQuery::getTermsMaxCount](solrquery.gettermsmaxcount.md) - Retorna a frequência máxima do documento
+  - [SolrQuery::getTermsMinCount](solrquery.gettermsmincount.md) - Retorna a frequência mínima do documento a ser retornada para que seja incluído
+  - [SolrQuery::getTermsPrefix](solrquery.gettermsprefix.md) - Retorna o prefixo do termo
+  - [SolrQuery::getTermsReturnRaw](solrquery.gettermsreturnraw.md) - Informa se os caracteres devem ser retornados de forma bruta ou não
+  - [SolrQuery::getTermsSort](solrquery.gettermssort.md) - Retorna um número inteiro indicando como os termos são classificados
+  - [SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md) - Retorna o termo de parada
+  - [SolrQuery::getTimeAllowed](solrquery.gettimeallowed.md) - Retorna o tempo em milissegundos permitido para a consulta terminar
+  - [SolrQuery::removeExpandFilterQuery](solrquery.removeexpandfilterquery.md) - Remove uma consulta de filtro expandido
+  - [SolrQuery::removeExpandSortField](solrquery.removeexpandsortfield.md) - Remove um campo de classificação expandida do parâmetro expand.sort
+  - [SolrQuery::removeFacetDateField](solrquery.removefacetdatefield.md) - Remove um dos campos de data de faceta
+  - [SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.md) - Remove um dos parâmetros facet.date.other
+  - [SolrQuery::removeFacetField](solrquery.removefacetfield.md) - Remove um dos parâmetros facet.date
+  - [SolrQuery::removeFacetQuery](solrquery.removefacetquery.md) - Remove um dos parâmetros facet.query
+  - [SolrQuery::removeField](solrquery.removefield.md) - Remove um campo da lista de campos
+  - [SolrQuery::removeFilterQuery](solrquery.removefilterquery.md) - Remove uma consulta de filtro
+  - [SolrQuery::removeHighlightField](solrquery.removehighlightfield.md) - Remove um dos campos usados ​​para destaque
+  - [SolrQuery::removeMltField](solrquery.removemltfield.md) - Remove um dos campos moreLikeThis
+  - [SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md) - Remove um dos campos de consulta moreLikeThis
+  - [SolrQuery::removeSortField](solrquery.removesortfield.md) - Remove um dos campos de classificação
+  - [SolrQuery::removeStatsFacet](solrquery.removestatsfacet.md) - Remove um dos parâmetros stats.facet
+  - [SolrQuery::removeStatsField](solrquery.removestatsfield.md) - Remove um dos parâmetros stats.field
+  - [SolrQuery::setEchoHandler](solrquery.setechohandler.md) - Alterna o parâmetro echoHandler
+  - [SolrQuery::setEchoParams](solrquery.setechoparams.md) - Determina que tipo de parâmetros são incluídos na resposta
+  - [SolrQuery::setExpand](solrquery.setexpand.md) - Ativa/desativa o componente de expansão
+  - [SolrQuery::setExpandQuery](solrquery.setexpandquery.md) - Define o parâmetro expand.q
+  - [SolrQuery::setExpandRows](solrquery.setexpandrows.md) - Define o número de linhas a serem exibidas em cada grupo (expand.rows)
+  - [SolrQuery::setExplainOther](solrquery.setexplainother.md) - Define o parâmetro de consulta comum explainOther
+  - [SolrQuery::setFacet](solrquery.setfacet.md) - Ativa ou desativa a facetação
+  - [SolrQuery::setFacetDateEnd](solrquery.setfacetdateend.md) - Mapeia para facet.date.end
+  - [SolrQuery::setFacetDateGap](solrquery.setfacetdategap.md) - Mapeia para facet.date.gap
+  - [SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md) - Mapeia para facet.date.hardend
+  - [SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.md) - Mapeia para facet.date.start
+  - [SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.md) - Define a frequência mínima do documento usada para determinar a contagem de prazos
+  - [SolrQuery::setFacetLimit](solrquery.setfacetlimit.md) - Mapeia para facet.limit
+  - [SolrQuery::setFacetMethod](solrquery.setfacetmethod.md) - Especifica o tipo de algoritmo a ser usado ao facetar um campo
+  - [SolrQuery::setFacetMinCount](solrquery.setfacetmincount.md) - Mapeia para facet.mincount
+  - [SolrQuery::setFacetMissing](solrquery.setfacetmissing.md) - Mapeia para facet.missing
+  - [SolrQuery::setFacetOffset](solrquery.setfacetoffset.md) - Define a posição na lista de restrições para permitir a paginação
+  - [SolrQuery::setFacetPrefix](solrquery.setfacetprefix.md) - Especifica uma string de prefixo com a qual serão limitados os termos facetados
+  - [SolrQuery::setFacetSort](solrquery.setfacetsort.md) - Determina a ordem das restrições do campo de faceta
+  - [SolrQuery::setGroup](solrquery.setgroup.md) - Ativa/desativa agrupamento de resultados (parâmetro 'group')
+  - [SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.md) - Ativa o cache para agrupamento de resultados
+  - [SolrQuery::setGroupFacet](solrquery.setgroupfacet.md) - Define o parâmetro group.facet
+  - [SolrQuery::setGroupFormat](solrquery.setgroupformat.md) - Define o formato do grupo, estrutura de resultado (parâmetro group.format)
+  - [SolrQuery::setGroupLimit](solrquery.setgrouplimit.md) - Especifica o número de resultados a serem retornados para cada grupo
+  - [SolrQuery::setGroupMain](solrquery.setgroupmain.md) - Define se será usado o resultado do primeiro comando de agrupamento de campos como a lista de resultados principal na resposta
+  - [SolrQuery::setGroupNGroups](solrquery.setgroupngroups.md) - Define a inclusão do número de grupos que corresponderam à consulta nos resultados
+  - [SolrQuery::setGroupOffset](solrquery.setgroupoffset.md) - Define o parâmetro group.offset
+  - [SolrQuery::setGroupTruncate](solrquery.setgrouptruncate.md) - Define se as contagens de facetas são baseadas no documento mais relevante de cada grupo que corresponde à consulta
+  - [SolrQuery::setHighlight](solrquery.sethighlight.md) - Ativa ou desativa o destaque
+  - [SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md) - Especifica o campo reserva a ser usado
+  - [SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.md) - Especifica um formatador para a saída de destaque
+  - [SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md) - Define um gerador de trecho de texto para texto destacado
+  - [SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md) - O tamanho dos fragmentos a serem considerados para destaque
+  - [SolrQuery::setHighlightHighlightMultiTerm](solrquery.sethighlighthighlightmultiterm.md) - Usa o SpanScorer para destacar termos de frases
+  - [SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.md) - Define o número máximo de caracteres do campo a retornar
+  - [SolrQuery::setHighlightMaxAnalyzedChars](solrquery.sethighlightmaxanalyzedchars.md) - Especifica o número de caracteres em um documento para procurar trechos adequados
+  - [SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md) - Informa se fragmentos contíguos devem ou não ser colapsados em um único fragmento
+  - [SolrQuery::setHighlightQuery](solrquery.sethighlightquery.md) - Designa uma consulta para destaque (hl.q)
+  - [SolrQuery::setHighlightRegexMaxAnalyzedChars](solrquery.sethighlightregexmaxanalyzedchars.md) - Especifica o número máximo de caracteres a serem analisados
+  - [SolrQuery::setHighlightRegexPattern](solrquery.sethighlightregexpattern.md) - Especifica a expressão regular para fragmentação
+  - [SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.md) - Define o fator pelo qual o fragmentador de expressão regular pode se desviar do tamanho ideal do fragmento
+  - [SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.md) - Requer correspondência de campo durante o destaque
+  - [SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md) - Define o texto que aparece após um termo destacado
+  - [SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.md) - Define o texto que aparece antes de um termo destacado
+  - [SolrQuery::setHighlightSnippets](solrquery.sethighlightsnippets.md) - Define o número máximo de trechos destacados a serem gerados por campo
+  - [SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md) - Define se os termos da frase devem ser destacados apenas quando eles aparecem na frase de consulta
+  - [SolrQuery::setMlt](solrquery.setmlt.md) - Ativa ou desativa moreLikeThis
+  - [SolrQuery::setMltBoost](solrquery.setmltboost.md) - Define se a consulta será impulsionada pela relevância de termos de interesse
+  - [SolrQuery::setMltCount](solrquery.setmltcount.md) - Define o número de documentos semelhantes a serem retornados para cada resultado
+  - [SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.md) - Define o número máximo de termos de consulta incluídos
+  - [SolrQuery::setMltMaxNumTokens](solrquery.setmltmaxnumtokens.md) - Especifica o número máximo de tokens a serem analisados
+  - [SolrQuery::setMltMaxWordLength](solrquery.setmltmaxwordlength.md) - Define o comprimento máximo da palavra
+  - [SolrQuery::setMltMinDocFrequency](solrquery.setmltmindocfrequency.md) - Define a frequência mltMinDoc
+  - [SolrQuery::setMltMinTermFrequency](solrquery.setmltmintermfrequency.md) - Define a frequência abaixo da qual os termos serão ignorados nos documentos de origem
+  - [SolrQuery::setMltMinWordLength](solrquery.setmltminwordlength.md) - Define o comprimento mínimo da palavra
+  - [SolrQuery::setOmitHeader](solrquery.setomitheader.md) - Exclui o cabeçalho dos resultados retornados
+  - [SolrQuery::setQuery](solrquery.setquery.md) - Define a consulta de pesquisa
+  - [SolrQuery::setRows](solrquery.setrows.md) - Especifica o número máximo de linhas a serem retornadas no resultado
+  - [SolrQuery::setShowDebugInfo](solrquery.setshowdebuginfo.md) - Define sinalizador para mostrar informações de depuração
+  - [SolrQuery::setStart](solrquery.setstart.md) - Especifica o número de linhas a serem ignoradas
+  - [SolrQuery::setStats](solrquery.setstats.md) - Ativa ou desativa o componente de estatísticas
+  - [SolrQuery::setTerms](solrquery.setterms.md) - Habilita ou desabilita o TermsComponent
+  - [SolrQuery::setTermsField](solrquery.settermsfield.md) - Define o nome do campo do qual os termos serão obtidos
+  - [SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md) - Inclui o termo do limite inferior no conjunto de resultados
+  - [SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md) - Inclui o termo do limite superior no conjunto de resultados
+  - [SolrQuery::setTermsLimit](solrquery.settermslimit.md) - Define o número máximo de termos a serem retornados
+  - [SolrQuery::setTermsLowerBound](solrquery.settermslowerbound.md) - Especifica o termo de início
+  - [SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.md) - Define a frequência máxima do documento
+  - [SolrQuery::setTermsMinCount](solrquery.settermsmincount.md) - Define a frequência mínima do documento
+  - [SolrQuery::setTermsPrefix](solrquery.settermsprefix.md) - Restringe correspondências a termos que começam com o prefixo
+  - [SolrQuery::setTermsReturnRaw](solrquery.settermsreturnraw.md) - Retorna os caracteres brutos do termo indexado
+  - [SolrQuery::setTermsSort](solrquery.settermssort.md) - Especifica como classificar os termos retornados
+  - [SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.md) - Define o termo de parada
+  - [SolrQuery::setTimeAllowed](solrquery.settimeallowed.md) - Define o tempo permitido para a pesquisa terminar
+  - [SolrQuery::\_\_construct](solrquery.construct.md) - Construtor
+  - [SolrQuery::\_\_destruct](solrquery.destruct.md) - Destrutor
+  - [SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md) - Construtor
+  - [SolrQueryResponse::\_\_destruct](solrqueryresponse.destruct.md) - Destrutor
+  - [SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md) - Retorna a resposta XML como dados PHP serializados
+  - [SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md) - Retorna o status HTTP da resposta
+  - [SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md) - Retorna mais detalhes sobre o status HTTP
+  - [SolrResponse::getRawRequest](solrresponse.getrawrequest.md) - Retorna a solicitação bruta enviada ao servidor Solr
+  - [SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md) - Retorna os cabeçalhos de solicitação brutos enviados ao servidor Solr
+  - [SolrResponse::getRawResponse](solrresponse.getrawresponse.md) - Retorna a resposta bruta do servidor
+  - [SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md) - Retorna os cabeçalhos de resposta brutos do servidor
+  - [SolrResponse::getRequestUrl](solrresponse.getrequesturl.md) - Retorna o URL completo para o qual a solicitação foi enviada
+  - [SolrResponse::getResponse](solrresponse.getresponse.md) - Retorna um SolrObject representando a resposta XML do servidor
+  - [SolrResponse::setParseMode](solrresponse.setparsemode.md) - Define o modo de análise
+  - [SolrResponse::success](solrresponse.success.md) - Informa se a requisição foi bem-sucedida
+  - [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md) - Retorna informações internas de onde a exceção foi lançada
+  - [SolrUpdateResponse::\_\_construct](solrupdateresponse.construct.md) - Construtor
+  - [SolrUpdateResponse::\_\_destruct](solrupdateresponse.destruct.md) - Destrutor
+  - [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) - Analisa uma string XML de resposta em um SolrObject
+  - [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) - Escapa uma string de consulta Lucene
+  - [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) - Retorna a versão atual da extensão Solr
+  - [SolrUtils::queryPhrase](solrutils.queryphrase.md) - Prepara uma frase a partir de uma string Lucene sem escape
+  - [solr\_get\_version](function.solr-get-version.md) - Retorna a versão atual da extensão Apache Solr
+  - [sort](function.sort.md) - Ordena um array em ordem ascendente
+  - [soundex](function.soundex.md) - Calcula a chave soundex de uma string
+  - [SplDoublyLinkedList::add](spldoublylinkedlist.add.md) - Adiciona/insere um novo valor no índice especificado
+  - [SplDoublyLinkedList::bottom](spldoublylinkedlist.bottom.md) - Espreita o nó desde o início da lista duplamente encadeada
+  - [SplDoublyLinkedList::count](spldoublylinkedlist.count.md) - Conta o número de elementos na lista duplamente encadeada
+  - [SplDoublyLinkedList::current](spldoublylinkedlist.current.md) - Retorna a entrada de array atual
+  - [SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md) - Retorna o modo de iteração
+  - [SplDoublyLinkedList::isEmpty](spldoublylinkedlist.isempty.md) - Verifica se a lista duplamente encadeada está vazia
+  - [SplDoublyLinkedList::key](spldoublylinkedlist.key.md) - Retorna o índice do nó atual
+  - [SplDoublyLinkedList::next](spldoublylinkedlist.next.md) - Move para a próxima entrada
+  - [SplDoublyLinkedList::offsetExists](spldoublylinkedlist.offsetexists.md) - Retorna se o $index solicitado existe
+  - [SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md) - Retorna o valor no $index especificado
+  - [SplDoublyLinkedList::offsetSet](spldoublylinkedlist.offsetset.md) - Define o valor no $index especificado como $value
+  - [SplDoublyLinkedList::offsetUnset](spldoublylinkedlist.offsetunset.md) - Remove o valor no $index especificado
+  - [SplDoublyLinkedList::pop](spldoublylinkedlist.pop.md) - Remove um nó do final da lista duplamente encadeada
+  - [SplDoublyLinkedList::prev](spldoublylinkedlist.prev.md) - Move para a entrada anterior
+  - [SplDoublyLinkedList::push](spldoublylinkedlist.push.md) - Adiciona um elemento no final da lista duplamente encadeada
+  - [SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md) - Rebobina o iterador de volta ao início
+  - [SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md) - Serializa o armazenamento
+  - [SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md) - Define o modo de iteração
+  - [SplDoublyLinkedList::shift](spldoublylinkedlist.shift.md) - Remove um nó do início da lista duplamente encadeada
+  - [SplDoublyLinkedList::top](spldoublylinkedlist.top.md) - Observa o nó do final da lista duplamente encadeada
+  - [SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md) - Deserializa o armazenamento
+  - [SplDoublyLinkedList::unshift](spldoublylinkedlist.unshift.md) - Acrescenta um elemento ao início da lista duplamente encadeada
+  - [SplDoublyLinkedList::valid](spldoublylinkedlist.valid.md) - Verifica se a lista duplamente encadeada contém mais nós
+  - [SplFileInfo::getATime](splfileinfo.getatime.md) - Obtém o último horário de acesso do arquivo
+  - [SplFileInfo::getBasename](splfileinfo.getbasename.md) - Obtém o nome base do arquivo
+  - [SplFileInfo::getCTime](splfileinfo.getctime.md) - Obtém o tempo de mudança do inode
+  - [SplFileInfo::getExtension](splfileinfo.getextension.md) - Obtém a extensão do arquivo
+  - [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md) - Obtém um objeto SplFileInfo para o arquivo
+  - [SplFileInfo::getFilename](splfileinfo.getfilename.md) - Obtém o nome do arquivo
+  - [SplFileInfo::getGroup](splfileinfo.getgroup.md) - Obtém o grupo do arquivo
+  - [SplFileInfo::getInode](splfileinfo.getinode.md) - Obtém o inode para o arquivo
+  - [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md) - Obtém o alvo de um link
+  - [SplFileInfo::getMTime](splfileinfo.getmtime.md) - Obtém o tempo da última modificação
+  - [SplFileInfo::getOwner](splfileinfo.getowner.md) - Obtém o proprietário do arquivo
+  - [SplFileInfo::getPath](splfileinfo.getpath.md) - Obtém o caminho sem o nome do arquivo
+  - [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md) - Obtém um objeto SplFileInfo para o caminho
+  - [SplFileInfo::getPathname](splfileinfo.getpathname.md) - Obtém o caminho para o arquivo
+  - [SplFileInfo::getPerms](splfileinfo.getperms.md) - Obtém as permissões do arquivo
+  - [SplFileInfo::getRealPath](splfileinfo.getrealpath.md) - Obtém o caminho absoluto para o arquivo
+  - [SplFileInfo::getSize](splfileinfo.getsize.md) - Obtém o tamanho do arquivo
+  - [SplFileInfo::getType](splfileinfo.gettype.md) - Obtém o tipo de arquivo
+  - [SplFileInfo::isDir](splfileinfo.isdir.md) - Indica se o arquivo é um diretório
+  - [SplFileInfo::isExecutable](splfileinfo.isexecutable.md) - Indica se o arquivo é executável
+  - [SplFileInfo::isFile](splfileinfo.isfile.md) - Indica se o objeto faz referência a um arquivo regular
+  - [SplFileInfo::isLink](splfileinfo.islink.md) - Indica se um arquivo é um link
+  - [SplFileInfo::isReadable](splfileinfo.isreadable.md) - Indica se o arquivo é legível
+  - [SplFileInfo::isWritable](splfileinfo.iswritable.md) - Indica se a entrada é gravável
+  - [SplFileInfo::openFile](splfileinfo.openfile.md) - Obtém um objeto SplFileObject para o arquivo
+  - [SplFileInfo::setFileClass](splfileinfo.setfileclass.md) - Define a classe usada com SplFileInfo::openFile
+  - [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md) - Define a classe usada com SplFileInfo::getFileInfo e SplFileInfo::getPathInfo
+  - [SplFileInfo::\_\_construct](splfileinfo.construct.md) - Constrói um novo objeto SplFileInfo
+  - [SplFileInfo::\_\_toString](splfileinfo.tostring.md) - Retorna o caminho para o arquivo como uma string
+  - [SplFileObject::current](splfileobject.current.md) - Recupera linha atual do arquivo
+  - [SplFileObject::eof](splfileobject.eof.md) - Chegou ao final do arquivo
+  - [SplFileObject::fflush](splfileobject.fflush.md) - Escreve o buffer de saída para o arquivo
+  - [SplFileObject::fgetc](splfileobject.fgetc.md) - Obtém caractere do arquivo
+  - [SplFileObject::fgetcsv](splfileobject.fgetcsv.md) - Obtém linha do arquivo e interpreta como campos CSV
+  - [SplFileObject::fgets](splfileobject.fgets.md) - Obtém linha do arquivo
+  - [SplFileObject::fgetss](splfileobject.fgetss.md) - Obtém linha do arquivo e remove tags HTML
+  - [SplFileObject::flock](splfileobject.flock.md) - Bloqueio de arquivo portável
+  - [SplFileObject::fpassthru](splfileobject.fpassthru.md) - Produz todos os dados restantes em um ponteiro de arquivo
+  - [SplFileObject::fputcsv](splfileobject.fputcsv.md) - Escreve um array de campos como uma linha CSV
+  - [SplFileObject::fread](splfileobject.fread.md) - Lê do arquivo
+  - [SplFileObject::fscanf](splfileobject.fscanf.md) - Analisa a entrada do arquivo de acordo com um formato
+  - [SplFileObject::fseek](splfileobject.fseek.md) - Aponta para uma posição
+  - [SplFileObject::fstat](splfileobject.fstat.md) - Obtém informações sobre o arquivo
+  - [SplFileObject::ftell](splfileobject.ftell.md) - Retorna a posição atual do arquivo
+  - [SplFileObject::ftruncate](splfileobject.ftruncate.md) - Trunca o arquivo para um determinado comprimento
+  - [SplFileObject::fwrite](splfileobject.fwrite.md) - Escreve no arquivo
+  - [SplFileObject::getChildren](splfileobject.getchildren.md) - Sem objetivo
+  - [SplFileObject::getCsvControl](splfileobject.getcsvcontrol.md) - Obtém o delimitador, o caractere de fechamento e o caractere de escape para CSV
+  - [SplFileObject::getCurrentLine](splfileobject.getcurrentline.md) - Sinônimo de SplFileObject::fgets
+  - [SplFileObject::getFlags](splfileobject.getflags.md) - Obtém as opções para o SplFileObject
+  - [SplFileObject::getMaxLineLen](splfileobject.getmaxlinelen.md) - Obtém o comprimento máximo da linha
+  - [SplFileObject::hasChildren](splfileobject.haschildren.md) - SplFileObject não tem filhos
+  - [SplFileObject::key](splfileobject.key.md) - Obtém o número da linha
+  - [SplFileObject::next](splfileobject.next.md) - Lê próxima linha
+  - [SplFileObject::rewind](splfileobject.rewind.md) - Rebobina o arquivo para a primeira linha
+  - [SplFileObject::seek](splfileobject.seek.md) - Aponta para uma linha especificada
+  - [SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md) - Definir o delimitador, o encapsulador e o caractere de escape para CSV
+  - [SplFileObject::setFlags](splfileobject.setflags.md) - Define as opções para o SplFileObject
+  - [SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.md) - Define o comprimento máximo da linha
+  - [SplFileObject::valid](splfileobject.valid.md) - Não está no final do arquivo (EOF)
+  - [SplFileObject::\_\_construct](splfileobject.construct.md) - Constrói um novo objeto de arquivo
+  - [SplFileObject::\_\_toString](splfileobject.tostring.md) - Retorna a linha atual como uma string
+  - [SplFixedArray::count](splfixedarray.count.md) - Retorna o tamanho do array
+  - [SplFixedArray::current](splfixedarray.current.md) - Retorna a entrada atual do array
+  - [SplFixedArray::fromArray](splfixedarray.fromarray.md) - Importa um array PHP em uma instância SplFixedArray
+  - [SplFixedArray::getIterator](splfixedarray.getiterator.md) - Recupera o iterador para percorrer o array
+  - [SplFixedArray::getSize](splfixedarray.getsize.md) - Obtém o tamanho do array
+  - [SplFixedArray::jsonSerialize](splfixedarray.jsonserialize.md) - Retorna uma representação que pode ser convertida em JSON
+  - [SplFixedArray::key](splfixedarray.key.md) - Retorna o índice atual do array
+  - [SplFixedArray::next](splfixedarray.next.md) - Move para a próxima entrada
+  - [SplFixedArray::offsetExists](splfixedarray.offsetexists.md) - Retorna se o índice solicitado existe
+  - [SplFixedArray::offsetGet](splfixedarray.offsetget.md) - Retorna o valor no índice especificado
+  - [SplFixedArray::offsetSet](splfixedarray.offsetset.md) - Define um novo valor em um índice especificado
+  - [SplFixedArray::offsetUnset](splfixedarray.offsetunset.md) - Remove o valor no $index especificado
+  - [SplFixedArray::rewind](splfixedarray.rewind.md) - Rebobina o iterador de volta ao início
+  - [SplFixedArray::setSize](splfixedarray.setsize.md) - Altera o tamanho de um array
+  - [SplFixedArray::toArray](splfixedarray.toarray.md) - Retorna um array PHP do array fixo
+  - [SplFixedArray::valid](splfixedarray.valid.md) - Verifica se o array contém mais elementos
+  - [SplFixedArray::\_\_construct](splfixedarray.construct.md) - Constrói um novo array fixo
+  - [SplFixedArray::\_\_serialize](splfixedarray.serialize.md) - Serializa o objeto SplFixedArray
+  - [SplFixedArray::\_\_unserialize](splfixedarray.unserialize.md) - Desserializa o parâmetro data em um objeto SplFixedArray
+  - [SplFixedArray::\_\_wakeup](splfixedarray.wakeup.md) - Reinicializa o array após ser desserializado
+  - [SplHeap::compare](splheap.compare.md) - Compara elementos para colocá-los corretamente no heap enquanto faz o ajuste ascendente
+  - [SplHeap::count](splheap.count.md) - Conta o número de elementos no heap
+  - [SplHeap::current](splheap.current.md) - Retorna o nó atual apontado pelo iterador
+  - [SplHeap::extract](splheap.extract.md) - Extrai um nó do topo do heap e ajusta para cima
+  - [SplHeap::insert](splheap.insert.md) - Insere um elemento no heap, ajustando-o para cima
+  - [SplHeap::isCorrupted](splheap.iscorrupted.md) - Indica se o heap está em um estado corrompido
+  - [SplHeap::isEmpty](splheap.isempty.md) - Verifica se o heap está vazio
+  - [SplHeap::key](splheap.key.md) - Retorna o índice do nó atual
+  - [SplHeap::next](splheap.next.md) - Move para o próximo nó
+  - [SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md) - Recupera do estado corrompido e permite outras ações no heap
+  - [SplHeap::rewind](splheap.rewind.md) - Rebobina o iterador de volta ao início (sem ação)
+  - [SplHeap::top](splheap.top.md) - Espreita o nó do topo da heap
+  - [SplHeap::valid](splheap.valid.md) - Verifica se a heap contém mais nós
+  - [SplMaxHeap::compare](splmaxheap.compare.md) - Compara elementos para colocá-los corretamente na heap enquanto faz o ajuste ascendente
+  - [SplMinHeap::compare](splminheap.compare.md) - Comparar elementos para colocá-los corretamente na heap enquanto faz o ajuste ascendente
+  - [SplObjectStorage::addAll](splobjectstorage.addall.md) - Adiciona todos os objetos de outro armazenamento
+  - [SplObjectStorage::attach](splobjectstorage.attach.md) - Adiciona um objeto no armazenamento
+  - [SplObjectStorage::contains](splobjectstorage.contains.md) - Verifica se no armazenamento contém um objeto específico
+  - [SplObjectStorage::count](splobjectstorage.count.md) - Retorna o número de objetos no armazenamento
+  - [SplObjectStorage::current](splobjectstorage.current.md) - Retorna a entrada atual do armazenamento
+  - [SplObjectStorage::detach](splobjectstorage.detach.md) - Remove um object do armazenamento
+  - [SplObjectStorage::getHash](splobjectstorage.gethash.md) - Calcula um identificador único para os objetos contidos
+  - [SplObjectStorage::getInfo](splobjectstorage.getinfo.md) - Retorna os dados associados à entrada atual do iterador
+  - [SplObjectStorage::key](splobjectstorage.key.md) - Retorna o índice em que o iterador está atualmente
+  - [SplObjectStorage::next](splobjectstorage.next.md) - Move para a próxima entrada
+  - [SplObjectStorage::offsetExists](splobjectstorage.offsetexists.md) - Verifica se um objeto existe no armazenamento
+  - [SplObjectStorage::offsetGet](splobjectstorage.offsetget.md) - Retorna os dados associados a um object
+  - [SplObjectStorage::offsetSet](splobjectstorage.offsetset.md) - Associa dados a um objeto no armazenamento
+  - [SplObjectStorage::offsetUnset](splobjectstorage.offsetunset.md) - Remove um objeto do armazenamento
+  - [SplObjectStorage::removeAll](splobjectstorage.removeall.md) - Remove objetos contidos em outro armazenamento do armazenamento atual
+  - [SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.md) - Remove todos os objetos, exceto aqueles contidos em outro armazenamento, do armazenamento atual
+  - [SplObjectStorage::rewind](splobjectstorage.rewind.md) - Retrocede o iterador para o primeiro elemento do armazenamento
+  - [SplObjectStorage::seek](splobjectstorage.seek.md) - Aponta o iterador para uma posição
+  - [SplObjectStorage::serialize](splobjectstorage.serialize.md) - Serializa o armazenamento
+  - [SplObjectStorage::setInfo](splobjectstorage.setinfo.md) - Define os dados associados à entrada atual do iterador
+  - [SplObjectStorage::unserialize](splobjectstorage.unserialize.md) - Desserializa um armazenamento a partir de sua representação de string
+  - [SplObjectStorage::valid](splobjectstorage.valid.md) - Retorna se a entrada atual do iterador é válida
+  - [SplObserver::update](splobserver.update.md) - Recebe atualização do sujeito
+  - [SplPriorityQueue::compare](splpriorityqueue.compare.md) - Comparar prioridades para colocar elementos corretamente no heap ao subir
+  - [SplPriorityQueue::count](splpriorityqueue.count.md) - Conta o número de elementos na fila
+  - [SplPriorityQueue::current](splpriorityqueue.current.md) - Retorna o nó atual apontado pelo iterador
+  - [SplPriorityQueue::extract](splpriorityqueue.extract.md) - Extrai um nó do topo do heap e desloca para cima
+  - [SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.md) - Obtém as opções de extração
+  - [SplPriorityQueue::insert](splpriorityqueue.insert.md) - Insere um elemento na fila deslocando-o para cima
+  - [SplPriorityQueue::isCorrupted](splpriorityqueue.iscorrupted.md) - Indica se a fila de prioridade está em um estado corrompido
+  - [SplPriorityQueue::isEmpty](splpriorityqueue.isempty.md) - Verifica se a fila está vazia
+  - [SplPriorityQueue::key](splpriorityqueue.key.md) - Retorna o índice do nó atual
+  - [SplPriorityQueue::next](splpriorityqueue.next.md) - Move para o próximo nó
+  - [SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.md) - Recupera do estado corrompido e permite outras ações na fila
+  - [SplPriorityQueue::rewind](splpriorityqueue.rewind.md) - Rebobina o iterador de volta ao início (sem operação)
+  - [SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.md) - Define o modo de extração
+  - [SplPriorityQueue::top](splpriorityqueue.top.md) - Observa o nó do topo da fila
+  - [SplPriorityQueue::valid](splpriorityqueue.valid.md) - Verifica se a fila contém mais nós
+  - [SplQueue::dequeue](splqueue.dequeue.md) - Remove um nó da fila
+  - [SplQueue::enqueue](splqueue.enqueue.md) - Adiciona um elemento à fila
+  - [SplSubject::attach](splsubject.attach.md) - Anexa um SplObserver
+  - [SplSubject::detach](splsubject.detach.md) - Desanexa um observador
+  - [SplSubject::notify](splsubject.notify.md) - Notifica um observador
+  - [SplTempFileObject::\_\_construct](spltempfileobject.construct.md) - Constrói um novo objeto de arquivo temporário
+  - [spl\_autoload](function.spl-autoload.md) - Implementação padrão para \_\_autoload()
+  - [spl\_autoload\_call](function.spl-autoload-call.md) - Tenta todas as funções \_\_autoload() registradas para carregar a classe solicitada
+  - [spl\_autoload\_extensions](function.spl-autoload-extensions.md) - Registra e retorna as extensões de arquivo padrão para spl\_autoload
+  - [spl\_autoload\_functions](function.spl-autoload-functions.md) - Retorna todas as funções \_\_autoload() registradas
+  - [spl\_autoload\_register](function.spl-autoload-register.md) - Registra a função dada como implementação \_\_autoload()
+  - [spl\_autoload\_unregister](function.spl-autoload-unregister.md) - Desregistra uma função dada como implementação de \_\_autoload()
+  - [spl\_classes](function.spl-classes.md) - Retorna as classes SPL disponíveis
+  - [spl\_object\_hash](function.spl-object-hash.md) - Retorna o ID de hash para o objeto fornecido
+  - [spl\_object\_id](function.spl-object-id.md) - Retorna o identificador inteiro do objeto fornecido
+  - [Spoofchecker::areConfusable](spoofchecker.areconfusable.md) - Verifica se as strings fornecidas podem ser confundidas
+  - [Spoofchecker::isSuspicious](spoofchecker.issuspicious.md) - Verifica se um texto fornecido contém algum caractere suspeito
+  - [Spoofchecker::setAllowedChars](spoofchecker.setallowedchars.md) - Define o conjunto de caracteres permitidos ao executar verificações
+  - [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md) - Localidades a usar nas verificações executadas
+  - [Spoofchecker::setChecks](spoofchecker.setchecks.md) - Define as verificações que serão executadas
+  - [Spoofchecker::setRestrictionLevel](spoofchecker.setrestrictionlevel.md) - Define o nível de restrição
+  - [Spoofchecker::\_\_construct](spoofchecker.construct.md) - Construtor
+  - [sprintf](function.sprintf.md) - Retona uma string formatada
+  - [SQLite3::backup](sqlite3.backup.md) - Copia um banco de dados para outro banco de dados
+  - [SQLite3::busyTimeout](sqlite3.busytimeout.md) - Define o manipulador de conexão ocupada
+  - [SQLite3::changes](sqlite3.changes.md) - Retorna o número de linhas do banco de dados que foram alteradas (ou inseridas ou
+    excluídas) pela instrução SQL mais recente
+  - [SQLite3::close](sqlite3.close.md) - Fecha a conexão com o banco de dados
+  - [SQLite3::createAggregate](sqlite3.createaggregate.md) - Registra uma função PHP para uso como uma função de agregação SQL
+  - [SQLite3::createCollation](sqlite3.createcollation.md) - Registra uma função PHP para uso como uma função de comparação de SQL
+  - [SQLite3::createFunction](sqlite3.createfunction.md) - Registra uma função PHP para uso como uma função escalar SQL
+  - [SQLite3::enableExceptions](sqlite3.enableexceptions.md) - Habilita o lançamento de exceções
+  - [SQLite3::enableExtendedResultCodes](sqlite3.enableextendedresultcodes.md) - Enables or disables the use of extended result codes
+  - [SQLite3::escapeString](sqlite3.escapestring.md) - Retorna uma string que foi devidamente escapada
+  - [SQLite3::exec](sqlite3.exec.md) - Executa uma consulta sem resultado em um determinado banco de dados
+  - [SQLite3::lastErrorCode](sqlite3.lasterrorcode.md) - Retorna o código de resultado numérico da última solicitação SQLite que falhou
+  - [SQLite3::lastErrorMsg](sqlite3.lasterrormsg.md) - Retorna o texto em inglês descrevendo a requisição SQLite mais recente que falhou
+  - [SQLite3::lastExtendedErrorCode](sqlite3.lastextendederrorcode.md) - Returns the numeric extended result code of the most recent failed
+    SQLite request
+  - [SQLite3::lastInsertRowID](sqlite3.lastinsertrowid.md) - Retorna o ID da linha mais recentemente INSERIDA no banco de dados
+  - [SQLite3::loadExtension](sqlite3.loadextension.md) - Tenta carregar uma biblioteca de extensão do SQLite
+  - [SQLite3::open](sqlite3.open.md) - Abre um banco de dados SQLite
+  - [SQLite3::openBlob](sqlite3.openblob.md) - Abre um recurso de fluxo para ler um BLOB
+  - [SQLite3::prepare](sqlite3.prepare.md) - Prepara uma declaração SQL para execução
+  - [SQLite3::query](sqlite3.query.md) - Executa uma consulta SQL
+  - [SQLite3::querySingle](sqlite3.querysingle.md) - Executa uma consulta e retorna um único resultado
+  - [SQLite3::setAuthorizer](sqlite3.setauthorizer.md) - Configura um retorno de chamada a ser usado como um autorizador para limitar o que uma declaração pode fazer
+  - [SQLite3::version](sqlite3.version.md) - Retorna a versão da biblioteca SQLite3 como uma constante de string e como um número
+  - [SQLite3::\_\_construct](sqlite3.construct.md) - Instancia um objeto SQLite3 e abre um banco de dados SQLite 3
+  - [SQLite3Result::columnName](sqlite3result.columnname.md) - Retorna o nome da enésima coluna
+  - [SQLite3Result::columnType](sqlite3result.columntype.md) - Retorna o tipo da enésima coluna
+  - [SQLite3Result::fetchArray](sqlite3result.fetcharray.md) - Obtém uma linha de resultado como um array associativo, numericamente indexado ou ambos
+  - [SQLite3Result::finalize](sqlite3result.finalize.md) - Fecha o conjunto de resultados
+  - [SQLite3Result::numColumns](sqlite3result.numcolumns.md) - Retorna o número de colunas no conjunto de resultados
+  - [SQLite3Result::reset](sqlite3result.reset.md) - Reinicia o conjunto de resultados de volta para a primeira linha
+  - [SQLite3Result::\_\_construct](sqlite3result.construct.md) - Constrói um SQLite3Result
+  - [SQLite3Stmt::bindParam](sqlite3stmt.bindparam.md) - Vincula um parâmetro a uma variável de instrução
+  - [SQLite3Stmt::bindValue](sqlite3stmt.bindvalue.md) - Vincula o valor de um parâmetro a uma variável de instrução
+  - [SQLite3Stmt::busy](sqlite3stmt.busy.md) - Returns whether the statement has been fetched but not yet completed
+  - [SQLite3Stmt::clear](sqlite3stmt.clear.md) - Limpa todos os parâmetros vinculados atuais
+  - [SQLite3Stmt::close](sqlite3stmt.close.md) - Fecha a declaração preparada
+  - [SQLite3Stmt::execute](sqlite3stmt.execute.md) - Executa uma declaração preparada e retorna um objeto de conjunto de resultados
+  - [SQLite3Stmt::explain](sqlite3stmt.explain.md) - Returns the explain mode of the statement
+  - [SQLite3Stmt::getSQL](sqlite3stmt.getsql.md) - Obtém o SQL da instrução
+  - [SQLite3Stmt::paramCount](sqlite3stmt.paramcount.md) - Retorna o número de parâmetros dentro da declaração preparada
+  - [SQLite3Stmt::readOnly](sqlite3stmt.readonly.md) - Retorna se uma declaração é definitivamente somente leitura
+  - [SQLite3Stmt::reset](sqlite3stmt.reset.md) - Reseta a declaração preparada
+  - [SQLite3Stmt::setExplain](sqlite3stmt.setexplain.md) - Changes the explain mode of the statement
+  - [SQLite3Stmt::\_\_construct](sqlite3stmt.construct.md) - Constrói um objeto SQLite3Stmt
+  - [sqlsrv\_begin\_transaction](function.sqlsrv-begin-transaction.md) - Inicia uma transação de banco de dados
+  - [sqlsrv\_cancel](function.sqlsrv-cancel.md) - Cancela uma declaração
+  - [sqlsrv\_client\_info](function.sqlsrv-client-info.md) - Retorna informações sobre o cliente e a conexão especificada
+  - [sqlsrv\_close](function.sqlsrv-close.md) - Fecha uma conexão aberta e libera os recursos associados à conexão
+  - [sqlsrv\_commit](function.sqlsrv-commit.md) - Confirma uma transação que foi iniciada com sqlsrv\_begin\_transaction
+  - [sqlsrv\_configure](function.sqlsrv-configure.md) - Altera as configurações de tratamento de erros e registro do driver
+  - [sqlsrv\_connect](function.sqlsrv-connect.md) - Abre uma conexão com um banco de dados Microsoft SQL Server
+  - [sqlsrv\_errors](function.sqlsrv-errors.md) - Retorna informações de erro e aviso sobre a última operação SQLSRV executada
+  - [sqlsrv\_execute](function.sqlsrv-execute.md) - Executa uma declaração preparada com sqlsrv\_prepare
+  - [sqlsrv\_fetch](function.sqlsrv-fetch.md) - Torna a próxima linha em um conjunto de resultados disponível para leitura
+  - [sqlsrv\_fetch\_array](function.sqlsrv-fetch-array.md) - Retorna uma linha como um array
+  - [sqlsrv\_fetch\_object](function.sqlsrv-fetch-object.md) - Recupera a próxima linha de dados em um conjunto de resultados como um objeto
+  - [sqlsrv\_field\_metadata](function.sqlsrv-field-metadata.md) - Recupera metadados para os campos de uma declaração preparada por
+    sqlsrv\_prepare ou sqlsrv\_query
+  - [sqlsrv\_free\_stmt](function.sqlsrv-free-stmt.md) - Libera todos os recursos para a declaração especificada
+  - [sqlsrv\_get\_config](function.sqlsrv-get-config.md) - Retorna o valor da configuração especificada
+  - [sqlsrv\_get\_field](function.sqlsrv-get-field.md) - Obtém dados do campo da linha atualmente selecionada
+  - [sqlsrv\_has\_rows](function.sqlsrv-has-rows.md) - Indica se a declaração especificada possui linhas
+  - [sqlsrv\_next\_result](function.sqlsrv-next-result.md) - Torna o próximo resultado da declaração especificada ativo
+  - [sqlsrv\_num\_fields](function.sqlsrv-num-fields.md) - Recupera o número de campos (colunas) em uma declaração
+  - [sqlsrv\_num\_rows](function.sqlsrv-num-rows.md) - Recupera o número de linhas em um conjunto de resultados
+  - [sqlsrv\_prepare](function.sqlsrv-prepare.md) - Prepara uma consulta para execução
+  - [sqlsrv\_query](function.sqlsrv-query.md) - Prepara e executa uma consulta
+  - [sqlsrv\_rollback](function.sqlsrv-rollback.md) - Reverte uma transação que foi iniciada com
+    sqlsrv\_begin\_transaction
+  - [sqlsrv\_rows\_affected](function.sqlsrv-rows-affected.md) - Retorna o número de linhas modificadas pela última consulta INSERT, UPDATE ou
+    DELETE executada
+  - [sqlsrv\_send\_stream\_data](function.sqlsrv-send-stream-data.md) - Envia dados de fluxos de parâmetros para o servidor
+  - [sqlsrv\_server\_info](function.sqlsrv-server-info.md) - Retorna informações sobre o servidor
+  - [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.md) - Vincula parâmetros da instrução
+  - [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.md) - Executa a operação
+  - [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.md) - Obtém o próximo resultado
+  - [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md) - Obtém resultado
+  - [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.md) - Verifica por mais resultados
+  - [SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.md) - Construtor de Description
+  - [SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.md) - Obtém todas as linhas do resultado
+  - [SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.md) - Obtém uma única linha
+  - [SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md) - Obtém a contagem de linhas afetadas
+  - [SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.md) - Obtém nomes de colunas
+  - [SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.md) - Obtém colunas
+  - [SqlStatementResult::getColumnsCount](mysql-xdevapi-sqlstatementresult.getcolumncount.md) - Obtém a contagem de colunas
+  - [SqlStatementResult::getGeneratedIds](mysql-xdevapi-sqlstatementresult.getgeneratedids.md) - Obtém IDs gerados
+  - [SqlStatementResult::getLastInsertId](mysql-xdevapi-sqlstatementresult.getlastinsertid.md) - Obtém o ID da última inserção
+  - [SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.md) - Obtém alertas da última operação
+  - [SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.md) - Obtém contagem de alertas da última operação
+  - [SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.md) - Verifica se o resultado tem dados
+  - [SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.md) - Obtém o próximo resultado
+  - [SqlStatementResult::\_\_construct](mysql-xdevapi-sqlstatementresult.construct.md) - Construtor de SqlStatementResult
+  - [sqrt](function.sqrt.md) - Raiz quadrada
+  - [srand](function.srand.md) - Semeia o gerador de números aleatórios
+  - [sscanf](function.sscanf.md) - Interpreta a entrada de uma string de acordo com um formato
+  - [ssdeep\_fuzzy\_compare](function.ssdeep-fuzzy-compare.md) - Calcula a pontuação de correspondência entre duas assinaturas de hash difusas
+  - [ssdeep\_fuzzy\_hash](function.ssdeep-fuzzy-hash.md) - Crie um hash difuso a partir de uma string
+  - [ssdeep\_fuzzy\_hash\_filename](function.ssdeep-fuzzy-hash-filename.md) - Cria um hash difuso a partir de um arquivo
+  - [ssh2\_auth\_agent](function.ssh2-auth-agent.md) - Autentica via SSH usando o agente ssh
+  - [ssh2\_auth\_hostbased\_file](function.ssh2-auth-hostbased-file.md) - Autentica usando uma chave de host pública
+  - [ssh2\_auth\_none](function.ssh2-auth-none.md) - Autentica como "nenhum"
+  - [ssh2\_auth\_password](function.ssh2-auth-password.md) - Autentica via SSH usando uma senha simples
+  - [ssh2\_auth\_pubkey](function.ssh2-auth-pubkey.md) - Autentica usando uma chave pública em uma variável
+  - [ssh2\_auth\_pubkey\_file](function.ssh2-auth-pubkey-file.md) - Autentica usando uma chave pública lida de um arquivo
+  - [ssh2\_connect](function.ssh2-connect.md) - Conecta-se a um servidor SSH
+  - [ssh2\_disconnect](function.ssh2-disconnect.md) - Fecha uma conexão com um servidor SSH remoto
+  - [ssh2\_exec](function.ssh2-exec.md) - Executa um comando em um servidor remoto
+  - [ssh2\_fetch\_stream](function.ssh2-fetch-stream.md) - Busca um fluxo de dados estendido
+  - [ssh2\_fingerprint](function.ssh2-fingerprint.md) - Recupera a impressão digital do servidor remoto
+  - [ssh2\_forward\_accept](function.ssh2-forward-accept.md) - Aceita uma conexão criada por um ouvinte
+  - [ssh2\_forward\_listen](function.ssh2-forward-listen.md) - Vincula uma porta no servidor remoto e escuta as conexões
+  - [ssh2\_keepalive\_config](function.ssh2-keepalive-config.md) - Configure how often keepalive messages should be sent
+  - [ssh2\_keepalive\_send](function.ssh2-keepalive-send.md) - Send a keepalive message
+  - [ssh2\_methods\_negotiated](function.ssh2-methods-negotiated.md) - Retorna a lista de métodos negociados
+  - [ssh2\_poll](function.ssh2-poll.md) - Pesquisa os canais/ouvintes/transmissões para eventos
+  - [ssh2\_publickey\_add](function.ssh2-publickey-add.md) - Adiciona uma chave pública autorizada
+  - [ssh2\_publickey\_init](function.ssh2-publickey-init.md) - Inicializa o subsistema de chave pública
+  - [ssh2\_publickey\_list](function.ssh2-publickey-list.md) - Lista as chaves públicas atualmente autorizadas
+  - [ssh2\_publickey\_remove](function.ssh2-publickey-remove.md) - Remove uma chave pública autorizada
+  - [ssh2\_scp\_recv](function.ssh2-scp-recv.md) - Solicita um arquivo via SCP
+  - [ssh2\_scp\_send](function.ssh2-scp-send.md) - Envia um arquivo via SCP
+  - [ssh2\_send\_eof](function.ssh2-send-eof.md) - Envia EOF para o fluxo
+  - [ssh2\_send\_signal](function.ssh2-send-signal.md) - Send a signal to a remote process
+  - [ssh2\_set\_timeout](function.ssh2-set-timeout.md) - Set the timeout for blocking operations on a session
+  - [ssh2\_sftp](function.ssh2-sftp.md) - Inicializa o subsistema SFTP
+  - [ssh2\_sftp\_chmod](function.ssh2-sftp-chmod.md) - Altera o modo de arquivo
+  - [ssh2\_sftp\_lstat](function.ssh2-sftp-lstat.md) - Estatísticas de uma ligação simbólica
+  - [ssh2\_sftp\_mkdir](function.ssh2-sftp-mkdir.md) - Cria um diretório
+  - [ssh2\_sftp\_readlink](function.ssh2-sftp-readlink.md) - Retorna o alvo de uma ligação simbólica
+  - [ssh2\_sftp\_realpath](function.ssh2-sftp-realpath.md) - Resolve o caminho real de uma string de caminho fornecida
+  - [ssh2\_sftp\_rename](function.ssh2-sftp-rename.md) - Renomeia um arquivo remoto
+  - [ssh2\_sftp\_rmdir](function.ssh2-sftp-rmdir.md) - Remove um diretório
+  - [ssh2\_sftp\_stat](function.ssh2-sftp-stat.md) - Obtém estatísticas de um arquivo em um sistema de arquivos remoto
+  - [ssh2\_sftp\_symlink](function.ssh2-sftp-symlink.md) - Cria uma ligação simbólica
+  - [ssh2\_sftp\_unlink](function.ssh2-sftp-unlink.md) - Exclui um arquivo
+  - [ssh2\_shell](function.ssh2-shell.md) - Solicita um shell interativo
+  - [ssh2\_shell\_resize](function.ssh2-shell-resize.md) - Change the dimensions of a channel's pseudo-terminal
+  - [ssh2\_tunnel](function.ssh2-tunnel.md) - Abre um túnel através de um servidor remoto
+  - [stat](function.stat.md) - Obtém informações sobre um arquivo
+  - [Statement::getNextResult](mysql-xdevapi-statement.getnextresult.md) - Obtém o próximo resultado
+  - [Statement::getResult](mysql-xdevapi-statement.getresult.md) - Obtém resultado
+  - [Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md) - Verifica se há mais resultados
+  - [Statement::\_\_construct](mysql-xdevapi-statement.construct.md) - Construtor de Statement
+  - [stats\_absolute\_deviation](function.stats-absolute-deviation.md) - Retorna o desvio absoluto de um array de valores
+  - [stats\_cdf\_beta](function.stats-cdf-beta.md) - Calcula qualquer parâmetro da distribuição beta, dados os valores dos outros
+  - [stats\_cdf\_binomial](function.stats-cdf-binomial.md) - Calcula qualquer parâmetro da distribuição binomial, dados os valores dos outros
+  - [stats\_cdf\_cauchy](function.stats-cdf-cauchy.md) - Calcula qualquer parâmetro da distribuição de Cauchy, dados os valores dos outros
+  - [stats\_cdf\_chisquare](function.stats-cdf-chisquare.md) - Calcula qualquer parâmetro da distribuição qui-quadrado, dados os valores dos outros
+  - [stats\_cdf\_exponential](function.stats-cdf-exponential.md) - Calcula qualquer parâmetro da distribuição exponencial, dados os valores dos outros
+  - [stats\_cdf\_f](function.stats-cdf-f.md) - Calcula qualquer parâmetro da distribuição F, dados os valores dos outros
+  - [stats\_cdf\_gamma](function.stats-cdf-gamma.md) - Calcula qualquer parâmetro da distribuição gama, dados os valores dos outros
+  - [stats\_cdf\_laplace](function.stats-cdf-laplace.md) - Calcula qualquer parâmetro da distribuição de Laplace, dados os valores dos outros
+  - [stats\_cdf\_logistic](function.stats-cdf-logistic.md) - Calcula qualquer parâmetro da distribuição logística, dados os valores dos outros
+  - [stats\_cdf\_negative\_binomial](function.stats-cdf-negative-binomial.md) - Calcula qualquer parâmetro da distribuição binomial negativa, dados os valores dos outros
+  - [stats\_cdf\_noncentral\_chisquare](function.stats-cdf-noncentral-chisquare.md) - Calcula qualquer parâmetro da distribuição qui-quadrado não centralizada, dados os valores dos outros
+  - [stats\_cdf\_noncentral\_f](function.stats-cdf-noncentral-f.md) - Calcula qualquer parâmetro da distribuição F não centralizada, dados os valores dos outros
+  - [stats\_cdf\_noncentral\_t](function.stats-cdf-noncentral-t.md) - Calcula qualquer parâmetro da distribuição t não centralizada e fornece valores para os outros
+  - [stats\_cdf\_normal](function.stats-cdf-normal.md) - Calcula qualquer parâmetro da distribuição normal, dados os valores dos outros
+  - [stats\_cdf\_poisson](function.stats-cdf-poisson.md) - Calcula qualquer parâmetro da distribuição de Poisson, dados os valores dos outros
+  - [stats\_cdf\_t](function.stats-cdf-t.md) - Calcula qualquer parâmetro da distribuição t, dados os valores dos outros
+  - [stats\_cdf\_uniform](function.stats-cdf-uniform.md) - Calcula qualquer parâmetro da distribuição uniforme, dados os valores dos outros
+  - [stats\_cdf\_weibull](function.stats-cdf-weibull.md) - Calcula qualquer parâmetro da distribuição de Weibull, dados os valores dos outros
+  - [stats\_covariance](function.stats-covariance.md) - Calcula a covariância de dois conjuntos de dados
+  - [stats\_dens\_beta](function.stats-dens-beta.md) - Função de densidade de probabilidade da distribuição beta
+  - [stats\_dens\_cauchy](function.stats-dens-cauchy.md) - Função de densidade de probabilidade da distribuição de Cauchy
+  - [stats\_dens\_chisquare](function.stats-dens-chisquare.md) - Função de densidade de probabilidade da distribuição qui-quadrado
+  - [stats\_dens\_exponential](function.stats-dens-exponential.md) - Função de densidade de probabilidade da distribuição exponencial
+  - [stats\_dens\_f](function.stats-dens-f.md) - Função de densidade de probabilidade da distribuição F
+  - [stats\_dens\_gamma](function.stats-dens-gamma.md) - Função de densidade de probabilidade da distribuição gama
+  - [stats\_dens\_laplace](function.stats-dens-laplace.md) - Função de densidade de probabilidade da distribuição de Laplace
+  - [stats\_dens\_logistic](function.stats-dens-logistic.md) - Função de densidade de probabilidade da distribuição logística
+  - [stats\_dens\_normal](function.stats-dens-normal.md) - Função de densidade de probabilidade da distribuição normal
+  - [stats\_dens\_pmf\_binomial](function.stats-dens-pmf-binomial.md) - Função de massa de probabilidade da distribuição binomial
+  - [stats\_dens\_pmf\_hypergeometric](function.stats-dens-pmf-hypergeometric.md) - Função de massa de probabilidade da distribuição hipergeométrica
+  - [stats\_dens\_pmf\_negative\_binomial](function.stats-dens-pmf-negative-binomial.md) - Função de massa de probabilidade da distribuição binomial negativa
+  - [stats\_dens\_pmf\_poisson](function.stats-dens-pmf-poisson.md) - Função de massa de probabilidade da distribuição de Poisson
+  - [stats\_dens\_t](function.stats-dens-t.md) - Função de densidade de probabilidade da distribuição t
+  - [stats\_dens\_uniform](function.stats-dens-uniform.md) - Função de densidade de probabilidade da distribuição uniforme
+  - [stats\_dens\_weibull](function.stats-dens-weibull.md) - Função de densidade de probabilidade da distribuição Weibull
+  - [stats\_harmonic\_mean](function.stats-harmonic-mean.md) - Retorna a média harmônica de um array de valores
+  - [stats\_kurtosis](function.stats-kurtosis.md) - Calcula a curtose dos dados no array
+  - [stats\_rand\_gen\_beta](function.stats-rand-gen-beta.md) - Gera um desvio aleatório da distribuição beta
+  - [stats\_rand\_gen\_chisquare](function.stats-rand-gen-chisquare.md) - Gera um desvio aleatório da distribuição qui-quadrado
+  - [stats\_rand\_gen\_exponential](function.stats-rand-gen-exponential.md) - Gera um desvio aleatório da distribuição exponencial
+  - [stats\_rand\_gen\_f](function.stats-rand-gen-f.md) - Gera um desvio aleatório da distribuição F
+  - [stats\_rand\_gen\_funiform](function.stats-rand-gen-funiform.md) - Gera um float uniforme entre o limite inferior (exclusive) e superior (exclusive)
+  - [stats\_rand\_gen\_gamma](function.stats-rand-gen-gamma.md) - Gera um desvio aleatório da distribuição gama
+  - [stats\_rand\_gen\_ibinomial](function.stats-rand-gen-ibinomial.md) - Gera um desvio aleatório da distribuição binomial
+  - [stats\_rand\_gen\_ibinomial\_negative](function.stats-rand-gen-ibinomial-negative.md) - Gera um desvio aleatório da distribuição binomial negativa
+  - [stats\_rand\_gen\_int](function.stats-rand-gen-int.md) - Gera um inteiro aleatório entre 1 e 2147483562
+  - [stats\_rand\_gen\_ipoisson](function.stats-rand-gen-ipoisson.md) - Gera um único desvio aleatório de uma distribuição de Poisson
+  - [stats\_rand\_gen\_iuniform](function.stats-rand-gen-iuniform.md) - Gera inteiros distribuídos uniformemente entre um número inferior (inclusive) e um superior (inclusive)
+  - [stats\_rand\_gen\_noncentral\_chisquare](function.stats-rand-gen-noncentral-chisquare.md) - Gera um desvio aleatório da distribuição qui-quadrado não centralizada
+  - [stats\_rand\_gen\_noncentral\_f](function.stats-rand-gen-noncentral-f.md) - Gera um desvio aleatório da distribuição F não centralizada
+  - [stats\_rand\_gen\_noncentral\_t](function.stats-rand-gen-noncentral-t.md) - Gera um único desvio aleatório de uma distribuição t não centralizada
+  - [stats\_rand\_gen\_normal](function.stats-rand-gen-normal.md) - Gera um único desvio aleatório de uma distribuição normal
+  - [stats\_rand\_gen\_t](function.stats-rand-gen-t.md) - Gera um único desvio aleatório de uma distribuição t
+  - [stats\_rand\_get\_seeds](function.stats-rand-get-seeds.md) - Obtém os valores iniciais do gerador de números aleatórios
+  - [stats\_rand\_phrase\_to\_seeds](function.stats-rand-phrase-to-seeds.md) - Gera duas sementes para o gerador de números aleatórios RGN
+  - [stats\_rand\_ranf](function.stats-rand-ranf.md) - Gera um número de ponto flutuante aleatório entre 0 e 1
+  - [stats\_rand\_setall](function.stats-rand-setall.md) - Define valores de semente para o gerador aleatório
+  - [stats\_skew](function.stats-skew.md) - Calcula a assimetria dos dados no array
+  - [stats\_standard\_deviation](function.stats-standard-deviation.md) - Retorna o desvio padrão
+  - [stats\_stat\_binomial\_coef](function.stats-stat-binomial-coef.md) - Retorna um coeficiente binomial
+  - [stats\_stat\_correlation](function.stats-stat-correlation.md) - Retorna o coeficiente de correlação de Pearson de dois conjuntos de dados
+  - [stats\_stat\_factorial](function.stats-stat-factorial.md) - Retorna o fatorial de um inteiro
+  - [stats\_stat\_independent\_t](function.stats-stat-independent-t.md) - Retorna o valor t do teste t independente de duas amostras
+  - [stats\_stat\_innerproduct](function.stats-stat-innerproduct.md) - Retorna o produto interno de dois vetores
+  - [stats\_stat\_paired\_t](function.stats-stat-paired-t.md) - Retorna o valor t do teste t dependente para amostras pareadas
+  - [stats\_stat\_percentile](function.stats-stat-percentile.md) - Retorna o valor do percentil
+  - [stats\_stat\_powersum](function.stats-stat-powersum.md) - Retorna a soma de potências de um vetor
+  - [stats\_variance](function.stats-variance.md) - Retorna a variância
+  - [Stomp::abort](stomp.abort.md) - Reverte uma transação em andamento
+  - [Stomp::ack](stomp.ack.md) - Reconhece o consumo de uma mensagem
+  - [Stomp::begin](stomp.begin.md) - Inicia uma transação
+  - [Stomp::commit](stomp.commit.md) - Confirma uma transação em andamento
+  - [Stomp::error](stomp.error.md) - Obtém o último erro stomp
+  - [Stomp::getReadTimeout](stomp.getreadtimeout.md) - Obtém tempo limite de leitura
+  - [Stomp::getSessionId](stomp.getsessionid.md) - Obtém o ID da sessão stomp atual
+  - [Stomp::hasFrame](stomp.hasframe.md) - Indica se há ou não um quadro pronto para leitura
+  - [Stomp::readFrame](stomp.readframe.md) - Lê o próximo quadro
+  - [Stomp::send](stomp.send.md) - Envia uma mensagem
+  - [Stomp::setReadTimeout](stomp.setreadtimeout.md) - Define o tempo limite de leitura
+  - [Stomp::subscribe](stomp.subscribe.md) - Registre-se para ouvir um determinado destino
+  - [Stomp::unsubscribe](stomp.unsubscribe.md) - Remove uma inscrição existente
+  - [Stomp::\_\_construct](stomp.construct.md) - Abre uma conexão
+  - [Stomp::\_\_destruct](stomp.destruct.md) - Fecha a conexão stomp
+  - [StompException::getDetails](stomp.getdetails.md) - Obtém detalhes da exceção
+  - [StompFrame::\_\_construct](stompframe.construct.md) - Construtor
+  - [stomp\_connect\_error](function.stomp-connect-error.md) - Retorna uma descrição de string do último erro de conexão
+  - [stomp\_version](function.stomp-version.md) - Obtém a versão atual da extensão stomp
+  - [strcasecmp](function.strcasecmp.md) - Comparação binária segura de strings insensível a maiúsculas/minúsculas
+  - [strchr](function.strchr.md) - Sinônimo de strstr
+  - [strcmp](function.strcmp.md) - Comparação binária segura de strings
+  - [strcoll](function.strcoll.md) - Comparação de strings baseada em localidade
+  - [strcspn](function.strcspn.md) - Encontra o tamanho do segmento inicial que não corresponde à máscara
+  - [streamWrapper::dir\_closedir](streamwrapper.dir-closedir.md) - Fecha o manipulador de diretório
+  - [streamWrapper::dir\_opendir](streamwrapper.dir-opendir.md) - Abre um manipulador de diretório
+  - [streamWrapper::dir\_readdir](streamwrapper.dir-readdir.md) - Lê entrada do manipulador de diretório
+  - [streamWrapper::dir\_rewinddir](streamwrapper.dir-rewinddir.md) - Retrocede um manipulador de diretório
+  - [streamWrapper::mkdir](streamwrapper.mkdir.md) - Cria um diretório
+  - [streamWrapper::rename](streamwrapper.rename.md) - Renomeia um arquivo ou diretório
+  - [streamWrapper::rmdir](streamwrapper.rmdir.md) - Remove um diretório
+  - [streamWrapper::stream\_cast](streamwrapper.stream-cast.md) - Obtém o recurso subjacente
+  - [streamWrapper::stream\_close](streamwrapper.stream-close.md) - Fecha um recurso
+  - [streamWrapper::stream\_eof](streamwrapper.stream-eof.md) - Teste para fim de arquivo em ponteiros
+  - [streamWrapper::stream\_flush](streamwrapper.stream-flush.md) - Descarrega a saída
+  - [streamWrapper::stream\_lock](streamwrapper.stream-lock.md) - Travamento de aviso para arquivos
+  - [streamWrapper::stream\_metadata](streamwrapper.stream-metadata.md) - Alterar metadados de fluxo
+  - [streamWrapper::stream\_open](streamwrapper.stream-open.md) - Abre arquivo ou URL
+  - [streamWrapper::stream\_read](streamwrapper.stream-read.md) - Lê dados do fluxo
+  - [streamWrapper::stream\_seek](streamwrapper.stream-seek.md) - Pesquisa uma localização específica em um fluxo
+  - [streamWrapper::stream\_set\_option](streamwrapper.stream-set-option.md) - Altera as opções do fluxo
+  - [streamWrapper::stream\_stat](streamwrapper.stream-stat.md) - Obtém informação sobre um recurso de arquivo
+  - [streamWrapper::stream\_tell](streamwrapper.stream-tell.md) - Obtém a posição atual de um fluxo
+  - [streamWrapper::stream\_truncate](streamwrapper.stream-truncate.md) - Trunca o fluxo
+  - [streamWrapper::stream\_write](streamwrapper.stream-write.md) - Escreve no fluxo
+  - [streamWrapper::unlink](streamwrapper.unlink.md) - Remove um arquivo
+  - [streamWrapper::url\_stat](streamwrapper.url-stat.md) - Obtém informação sobre um arquivo
+  - [streamWrapper::\_\_construct](streamwrapper.construct.md) - Constrói um novo empacotador de fluxo
+  - [streamWrapper::\_\_destruct](streamwrapper.destruct.md) - Destrói um empacotador de fluxo existente
+  - [stream\_bucket\_append](function.stream-bucket-append.md) - Anexa o bucket à brigada
+  - [stream\_bucket\_make\_writeable](function.stream-bucket-make-writeable.md) - Retorna um objeto bucket da brigada para se operar sobre ele
+  - [stream\_bucket\_new](function.stream-bucket-new.md) - Cria um novo bucket para uso no fluxo atual
+  - [stream\_bucket\_prepend](function.stream-bucket-prepend.md) - Adiciona um bucket ao início da brigada
+  - [stream\_context\_create](function.stream-context-create.md) - Cria um contexto de fluxo
+  - [stream\_context\_get\_default](function.stream-context-get-default.md) - Obtém o contexto padrão de fluxo
+  - [stream\_context\_get\_options](function.stream-context-get-options.md) - Obtém opções para um fluxo/empacotador/contexto
+  - [stream\_context\_get\_params](function.stream-context-get-params.md) - Obtém parâmetros de um contexto
+  - [stream\_context\_set\_default](function.stream-context-set-default.md) - Define o contexto padrão do fluxo
+  - [stream\_context\_set\_option](function.stream-context-set-option.md) - Define uma opção para um fluxo/empacotador/contexto
+  - [stream\_context\_set\_options](function.stream-context-set-options.md) - Define opções no contexto especificado
+  - [stream\_context\_set\_params](function.stream-context-set-params.md) - Define parâmetros para um fluxo/empacotador/contexto
+  - [stream\_copy\_to\_stream](function.stream-copy-to-stream.md) - Copia dados de um fluxo para outro
+  - [stream\_filter\_append](function.stream-filter-append.md) - Anexa um filtro a um fluxo
+  - [stream\_filter\_prepend](function.stream-filter-prepend.md) - Anexa um filtro a um fluxo
+  - [stream\_filter\_register](function.stream-filter-register.md) - Registra um filtro de fluxo definido pelo usuário
+  - [stream\_filter\_remove](function.stream-filter-remove.md) - Remove um filtro de um fluxo
+  - [stream\_get\_contents](function.stream-get-contents.md) - Lê o restante de um fluxo em uma string
+  - [stream\_get\_filters](function.stream-get-filters.md) - Obtém lista de filtros registrados
+  - [stream\_get\_line](function.stream-get-line.md) - Obtém uma linha do recurso do fluxo até um delimitador informado
+  - [stream\_get\_meta\_data](function.stream-get-meta-data.md) - Obtém cabeçalhos/metadados de ponteiros de arquivos/fluxos
+  - [stream\_get\_transports](function.stream-get-transports.md) - Obtém lista de transportes socket registrados
+  - [stream\_get\_wrappers](function.stream-get-wrappers.md) - Obtém lista de fluxos registrados
+  - [stream\_isatty](function.stream-isatty.md) - Verifica se um fluxo é um TTY
+  - [stream\_is\_local](function.stream-is-local.md) - Verifica se o fluxo é local
+  - [stream\_notification\_callback](function.stream-notification-callback.md) - Uma função de chamada de retorno para o parâmetro de contexto de notification
+  - [stream\_register\_wrapper](function.stream-register-wrapper.md) - Sinônimo de stream\_wrapper\_register
+  - [stream\_resolve\_include\_path](function.stream-resolve-include-path.md) - Resolve o nome do arquivo em relação ao caminho de include
+  - [stream\_select](function.stream-select.md) - Executa o equivalente à chamada de sistema select() nos arrays de fluxos
+    informados com um limite de tempo especificado por segundos e microssegundos
+  - [stream\_set\_blocking](function.stream-set-blocking.md) - Definir modo de bloqueio/não-bloqueio em um fluxo
+  - [stream\_set\_chunk\_size](function.stream-set-chunk-size.md) - Define o tamanho do pacote do fluxo
+  - [stream\_set\_read\_buffer](function.stream-set-read-buffer.md) - Define o tamanho de buffer de leitura do fluxo
+  - [stream\_set\_timeout](function.stream-set-timeout.md) - Define o limite de tempo em um fluxo
+  - [stream\_set\_write\_buffer](function.stream-set-write-buffer.md) - Define o tamanho do buffer de escrita do fluxo
+  - [stream\_socket\_accept](function.stream-socket-accept.md) - Aceita uma conexão em um socket criado por stream\_socket\_server
+  - [stream\_socket\_client](function.stream-socket-client.md) - Abre conexão de socket de domínio Internet ou Unix
+  - [stream\_socket\_enable\_crypto](function.stream-socket-enable-crypto.md) - Liga ou desliga criptografia em socket já conectado
+  - [stream\_socket\_get\_name](function.stream-socket-get-name.md) - Obtém o nome do socket local ou remoto
+  - [stream\_socket\_pair](function.stream-socket-pair.md) - Cria um par de fluxos de socket conectados e indistinguíveis
+  - [stream\_socket\_recvfrom](function.stream-socket-recvfrom.md) - Recebe dados de um socket, conectado ou não
+  - [stream\_socket\_sendto](function.stream-socket-sendto.md) - Envia uma mensagem a um socket, conectado ou não
+  - [stream\_socket\_server](function.stream-socket-server.md) - Cria socket de servidor de domínio Internet ou Unix
+  - [stream\_socket\_shutdown](function.stream-socket-shutdown.md) - Fecha uma conexão full-duplex
+  - [stream\_supports\_lock](function.stream-supports-lock.md) - Informa se o fluxo suporta travamento
+  - [stream\_wrapper\_register](function.stream-wrapper-register.md) - Registra um empacotador URL implementado como uma classe PHP
+  - [stream\_wrapper\_restore](function.stream-wrapper-restore.md) - Restaura um empacotador interno anteriormente desregistrado
+  - [stream\_wrapper\_unregister](function.stream-wrapper-unregister.md) - Desregistra um empacotador URL
+  - [strftime](function.strftime.md) - Formata uma data/horário de acordo com as configurações locais
+  - [Stringable::\_\_toString](stringable.tostring.md) - Obtém a representação em string do objeto
+  - [stripcslashes](function.stripcslashes.md) - Remove o escape de strings escapadas com addcslashes
+  - [stripos](function.stripos.md) - Encontra a posição da primeira ocorrência de uma substring em uma string, de forma insensível a maiúsculas/minúsculas
+  - [stripslashes](function.stripslashes.md) - Desfaz os escapes de uma string escapada
+  - [strip\_tags](function.strip-tags.md) - Retira as tags HTML e PHP de uma string
+  - [stristr](function.stristr.md) - strstr insensível a maiúsculas/minúsculas
+  - [strlen](function.strlen.md) - Retorna o tamanho de uma string
+  - [strnatcasecmp](function.strnatcasecmp.md) - Comparação de strings insensível a maiúsculas/minúsculas usando o algoritmo de "ordem natural"
+  - [strnatcmp](function.strnatcmp.md) - Comparações de strings usando um algoritmo de "ordem natural"
+  - [strncasecmp](function.strncasecmp.md) - Comparação binária de strings, insensível a maiúsculas/minúsculas, dos primeiros n caracteres
+  - [strncmp](function.strncmp.md) - Comparação de strings segura para binários dos primeiros n caracteres
+  - [strpbrk](function.strpbrk.md) - Procura na string por um dos caracteres de um conjunto
+  - [strpos](function.strpos.md) - Encontra a posição da primeira ocorrência de uma substring em uma string
+  - [strptime](function.strptime.md) - Interpreta uma data/horário gerada pela função strftime
+  - [strrchr](function.strrchr.md) - Encontra a última ocorrência de um caractere em uma string
+  - [strrev](function.strrev.md) - Reverte uma string
+  - [strripos](function.strripos.md) - Encontra a posição da última ocorrência de uma substring em uma string, insensível a maiúsculas/minúsculas
+  - [strrpos](function.strrpos.md) - Encontra a posição da última ocorrência de uma substring em uma string
+  - [strspn](function.strspn.md) - Encontra o comprimento do segmento inicial de uma string composta
+    totalmente de caracteres contidos em uma máscara informada
+  - [strstr](function.strstr.md) - Encontra a primeira ocorrência de uma string
+  - [strtok](function.strtok.md) - Divide uma string em tokens
+  - [strtolower](function.strtolower.md) - Converte uma string para minúsculas
+  - [strtotime](function.strtotime.md) - Interpreta qualquer descrição textual de data/horário em inglês para timestamp Unix
+  - [strtoupper](function.strtoupper.md) - Converte uma string em maiúsculas
+  - [strtr](function.strtr.md) - Traduz caracteres ou substitui substrings
+  - [strval](function.strval.md) - Retorna o valor string de uma variável
+  - [str\_contains](function.str-contains.md) - Determina se uma string contém uma substring fornecida
+  - [str\_decrement](function.str-decrement.md) - Decrementa uma string alfanumérica
+  - [str\_ends\_with](function.str-ends-with.md) - Verifica se uma string termina com uma substring fornecida
+  - [str\_getcsv](function.str-getcsv.md) - Analisa uma string CSV e retorna os dados em um array
+  - [str\_increment](function.str-increment.md) - Incrementa uma string alfanumérica
+  - [str\_ireplace](function.str-ireplace.md) - Versão insensível a maiúsculas/minúsculas de str\_replace
+  - [str\_pad](function.str-pad.md) - Preenche uma string até um determinado comprimento com outra string
+  - [str\_repeat](function.str-repeat.md) - Repete uma string
+  - [str\_replace](function.str-replace.md) - Substitui todas as ocorrências da string de pesquisa com a string de substituição
+  - [str\_rot13](function.str-rot13.md) - Executa a transformação rot13 em uma string
+  - [str\_shuffle](function.str-shuffle.md) - Embaralha uma string aleatoriamente
+  - [str\_split](function.str-split.md) - Converte uma string em um array
+  - [str\_starts\_with](function.str-starts-with.md) - Verifica se uma string começa com uma substring fornecida
+  - [str\_word\_count](function.str-word-count.md) - Retorna informação sobre palavras usadas em uma string
+  - [substr](function.substr.md) - Retorna parte de uma string
+  - [substr\_compare](function.substr-compare.md) - Comparação binária de duas strings a partir de uma posição até n caracteres
+  - [substr\_count](function.substr-count.md) - Conta o número de ocorrências de uma substring
+  - [substr\_replace](function.substr-replace.md) - Substitui o texto dentro de uma parte de uma string
+  - [SVM::crossvalidate](svm.crossvalidate.md) - Testa parâmetros de treinamento em subconjuntos de dados de treinamento
+  - [SVM::getOptions](svm.getoptions.md) - Retorna os parâmetros de treinamento atuais
+  - [SVM::setOptions](svm.setoptions.md) - Define parâmetros de treinamento
+  - [SVM::train](svm.train.md) - Cria um SVMModel com base em dados de treinamento
+  - [SVM::\_\_construct](svm.construct.md) - Constrói um novo objeto SVM
+  - [SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md) - Retorna verdadeiro se o modelo tiver informações de probabilidade
+  - [SVMModel::getLabels](svmmodel.getlabels.md) - Obtém os rótulos nos quais o modelo foi treinado
+  - [SVMModel::getNrClass](svmmodel.getnrclass.md) - Retorna o número de classes com as quais o modelo foi treinado
+  - [SVMModel::getSvmType](svmmodel.getsvmtype.md) - Obtém o tipo de SVM com o qual o modelo foi treinado
+  - [SVMModel::getSvrProbability](svmmodel.getsvrprobability.md) - Obtém o valor sigma para tipos de regressão
+  - [SVMModel::load](svmmodel.load.md) - Carrega um modelo SVM salvo
+  - [SVMModel::predict](svmmodel.predict.md) - Prevê um valor para dados nunca antes vistos
+  - [SVMModel::predict\_probability](svmmodel.predict-probability.md) - Retorna probabilidades de classe para dados não vistos anteriormente
+  - [SVMModel::save](svmmodel.save.md) - Grava um modelo em um arquivo
+  - [SVMModel::\_\_construct](svmmodel.construct.md) - Constrói um novo SVMModel
+  - [svn\_add](function.svn-add.md) - Agenda a adição de um item em um diretório de trabalho
+  - [svn\_auth\_get\_parameter](function.svn-auth-get-parameter.md) - Recupera o parâmetro de autenticação
+  - [svn\_auth\_set\_parameter](function.svn-auth-set-parameter.md) - Define um parâmetro de autenticação
+  - [svn\_blame](function.svn-blame.md) - Obtém os responsáveis pelas alterações SVN de um arquivo
+  - [svn\_cat](function.svn-cat.md) - Retorna o conteúdo de um arquivo em um repositório
+  - [svn\_checkout](function.svn-checkout.md) - Obtém uma cópia de trabalho do repositório
+  - [svn\_cleanup](function.svn-cleanup.md) - Limpa recursivamente um diretório de cópia de trabalho, concluindo operações incompletas e removendo bloqueios
+  - [svn\_client\_version](function.svn-client-version.md) - Retorna a versão das bibliotecas do cliente SVN
+  - [svn\_commit](function.svn-commit.md) - Envia alterações da cópia de trabalho local para o repositório
+  - [svn\_delete](function.svn-delete.md) - Exclui itens de uma cópia de trabalho ou repositório
+  - [svn\_diff](function.svn-diff.md) - Diferencia recursivamente dois caminhos
+  - [svn\_export](function.svn-export.md) - Exporta o conteúdo de um diretório SVN
+  - [svn\_fs\_abort\_txn](function.svn-fs-abort-txn.md) - Aborta uma transação
+  - [svn\_fs\_apply\_text](function.svn-fs-apply-text.md) - Cria e retorna um fluxo que será usado para substituir o conteúdo de um arquivo
+  - [svn\_fs\_begin\_txn2](function.svn-fs-begin-txn2.md) - Cria uma nova transação
+  - [svn\_fs\_change\_node\_prop](function.svn-fs-change-node-prop.md) - Retorna verdadeiro se tudo estiver ok, falso caso contrário
+  - [svn\_fs\_check\_path](function.svn-fs-check-path.md) - Determina que tipo de item reside no caminho em um determinado repositório fsroot
+  - [svn\_fs\_contents\_changed](function.svn-fs-contents-changed.md) - Retorna verdadeiro se o conteúdo for diferente, falso caso contrário
+  - [svn\_fs\_copy](function.svn-fs-copy.md) - Copia um arquivo ou diretório
+  - [svn\_fs\_delete](function.svn-fs-delete.md) - Exclui um arquivo ou diretório
+  - [svn\_fs\_dir\_entries](function.svn-fs-dir-entries.md) - Enumera as entradas de diretório em caminho; retorna um hash de nomes de diretório para o tipo de arquivo
+  - [svn\_fs\_file\_contents](function.svn-fs-file-contents.md) - Retorna um fluxo para acessar o conteúdo de um arquivo de uma determinada versão do fs
+  - [svn\_fs\_file\_length](function.svn-fs-file-length.md) - Retorna o comprimento de um arquivo de uma determinada versão do fs
+  - [svn\_fs\_is\_dir](function.svn-fs-is-dir.md) - Determina se um caminho aponta para um diretório
+  - [svn\_fs\_is\_file](function.svn-fs-is-file.md) - Determina se um caminho aponta para um arquivo
+  - [svn\_fs\_make\_dir](function.svn-fs-make-dir.md) - Cria um novo diretório vazio
+  - [svn\_fs\_make\_file](function.svn-fs-make-file.md) - Cria um novo arquivo vazio
+  - [svn\_fs\_node\_created\_rev](function.svn-fs-node-created-rev.md) - Retorna a revisão na qual o caminho sob fsroot foi criado
+  - [svn\_fs\_node\_prop](function.svn-fs-node-prop.md) - Retorna o valor de uma propriedade para um nó
+  - [svn\_fs\_props\_changed](function.svn-fs-props-changed.md) - Retorna verdadeiro se as propriedades forem diferentes, falso caso contrário
+  - [svn\_fs\_revision\_prop](function.svn-fs-revision-prop.md) - Obtém o valor de uma propriedade nomeada
+  - [svn\_fs\_revision\_root](function.svn-fs-revision-root.md) - Obtém um identificador para uma versão específica da raiz do repositório
+  - [svn\_fs\_txn\_root](function.svn-fs-txn-root.md) - Cria e retorna uma raiz de transação
+  - [svn\_fs\_youngest\_rev](function.svn-fs-youngest-rev.md) - Retorna o número da revisão mais recente no sistema de arquivos
+  - [svn\_import](function.svn-import.md) - Importa um caminho não versionado para um repositório
+  - [svn\_log](function.svn-log.md) - Retorna as mensagens de registro de envios de uma URL de repositório
+  - [svn\_ls](function.svn-ls.md) - Retorna a lista de conteúdo do diretório na URL do repositório, opcionalmente no número de revisão
+  - [svn\_mkdir](function.svn-mkdir.md) - Cria um diretório em uma cópia de trabalho ou repositório
+  - [svn\_repos\_create](function.svn-repos-create.md) - Cria um novo repositório Subversion no caminho
+  - [svn\_repos\_fs](function.svn-repos-fs.md) - Obtém um identificador sobre o sistema de arquivos de um repositório
+  - [svn\_repos\_fs\_begin\_txn\_for\_commit](function.svn-repos-fs-begin-txn-for-commit.md) - Cria uma nova transação
+  - [svn\_repos\_fs\_commit\_txn](function.svn-repos-fs-commit-txn.md) - Confirma uma transação e retorna a nova revisão
+  - [svn\_repos\_hotcopy](function.svn-repos-hotcopy.md) - Faz uma cópia ativa dos repositórios em repospath; copia-a para destpath
+  - [svn\_repos\_open](function.svn-repos-open.md) - Abre um bloqueio compartilhado em um repositório
+  - [svn\_repos\_recover](function.svn-repos-recover.md) - Executa procedimentos de recuperação no repositório localizado no caminho
+  - [svn\_revert](function.svn-revert.md) - Reverte as alterações na cópia de trabalho
+  - [svn\_status](function.svn-status.md) - Retorna o status dos arquivos e diretórios da cópia de trabalho
+  - [svn\_update](function.svn-update.md) - Atualiza a cópia de trabalho
+  - [Swoole\Async::dnsLookup](swoole-async.dnslookup.md) - Pesquisa de host assíncrona e não bloqueante para IP.
+  - [Swoole\Async::read](swoole-async.read.md) - Lê fluxo de arquivo de forma assíncrona.
+  - [Swoole\Async::readFile](swoole-async.readfile.md) - Lê um arquivo de forma assíncrona.
+  - [Swoole\Async::set](swoole-async.set.md) - Atualiza as opções de E/S assíncronas.
+  - [Swoole\Async::write](swoole-async.write.md) - Escreve dados em um fluxo de arquivo de forma assíncrona.
+  - [Swoole\Async::writeFile](swoole-async.writefile.md) - Escreve dados em um arquivo de forma assíncrona.
+  - [Swoole\Atomic::add](swoole-atomic.add.md) - Adiciona um número ao valor do objeto atômico.
+  - [Swoole\Atomic::cmpset](swoole-atomic.cmpset.md) - Compara e define o valor do objeto atômico.
+  - [Swoole\Atomic::get](swoole-atomic.get.md) - Obtém o valor atual do objeto atômico.
+  - [Swoole\Atomic::set](swoole-atomic.set.md) - Define um novo valor para o objeto atômico.
+  - [Swoole\Atomic::sub](swoole-atomic.sub.md) - Subtrai um número ao valor do objeto atômico.
+  - [Swoole\Atomic::\_\_construct](swoole-atomic.construct.md) - Constrói um objeto atômico do Swoole
+  - [Swoole\Buffer::append](swoole-buffer.append.md) - Anexa a string ou dados binários ao final do buffer de memória e retorna o novo tamanho da memória alocada.
+  - [Swoole\Buffer::clear](swoole-buffer.clear.md) - Limpa o buffer de memória.
+  - [Swoole\Buffer::expand](swoole-buffer.expand.md) - Expande o tamanho do buffer de memória.
+  - [Swoole\Buffer::read](swoole-buffer.read.md) - Lê dados do buffer de memória com base no deslocamento e no comprimento.
+  - [Swoole\Buffer::recycle](swoole-buffer.recycle.md) - Libera a memória para o sistema operacional que não está sendo usada pelo buffer de memória.
+  - [Swoole\Buffer::substr](swoole-buffer.substr.md) - Lê dados do buffer de memória com base no deslocamento e no comprimento. Ou remove dados do buffer de memória.
+  - [Swoole\Buffer::write](swoole-buffer.write.md) - Escreve dados no buffer de memória. A memória alocada para o buffer não será alterada.
+  - [Swoole\Buffer::\_\_construct](swoole-buffer.construct.md) - Alocação de blocos de memória de tamanho fixo.
+  - [Swoole\Buffer::\_\_destruct](swoole-buffer.destruct.md) - Destrói o buffer de memória do Swoole.
+  - [Swoole\Buffer::\_\_toString](swoole-buffer.tostring.md) - Obtém o valor da string do buffer de memória.
+  - [Swoole\Channel::pop](swoole-channel.pop.md) - Lê e retira dados do canal Swoole.
+  - [Swoole\Channel::push](swoole-channel.push.md) - Escreve e envia dados para o canal Swoole
+  - [Swoole\Channel::stats](swoole-channel.stats.md) - Obtém estatísticas do canal Swoole.
+  - [Swoole\Channel::\_\_construct](swoole-channel.construct.md) - Constrói um canal Swoole
+  - [Swoole\Channel::\_\_destruct](swoole-channel.destruct.md) - Destrói um canal Swoole.
+  - [Swoole\Client::close](swoole-client.close.md) - Fecha a conexão estabelecida.
+  - [Swoole\Client::connect](swoole-client.connect.md) - Conecta à porta TCP ou UDP remota
+  - [Swoole\Client::getpeername](swoole-client.getpeername.md) - Obtém o nome do socket remoto da conexão.
+  - [Swoole\Client::getsockname](swoole-client.getsockname.md) - Obtém o nome do socket local da conexão.
+  - [Swoole\Client::isConnected](swoole-client.isconnected.md) - Verifica se a conexão está estabelecida.
+  - [Swoole\Client::on](swoole-client.on.md) - Adiciona funções de retorno de chamada acionadas por eventos.
+  - [Swoole\Client::pause](swoole-client.pause.md) - Pausa a recepção de dados.
+  - [Swoole\Client::pipe](swoole-client.pipe.md) - Redireciona os dados para outro descritor de arquivo.
+  - [Swoole\Client::recv](swoole-client.recv.md) - Recebe dados do socket remoto.
+  - [Swoole\Client::resume](swoole-client.resume.md) - Retoma a recepção de dados.
+  - [Swoole\Client::send](swoole-client.send.md) - Envia dados para o socket TCP remoto.
+  - [Swoole\Client::sendfile](swoole-client.sendfile.md) - Envia arquivo para o socket TCP remoto.
+  - [Swoole\Client::sendto](swoole-client.sendto.md) - Envia dados para o endereço remoto UDP.
+  - [Swoole\Client::set](swoole-client.set.md) - Define os parâmetros do cliente Swoole antes que a conexão seja estabelecida.
+  - [Swoole\Client::sleep](swoole-client.sleep.md) - Remove o cliente TCP do loop de eventos do sistema.
+  - [Swoole\Client::wakeup](swoole-client.wakeup.md) - Adiciona o cliente TCP de volta ao loop de eventos do sistema.
+  - [Swoole\Client::\_\_construct](swoole-client.construct.md) - Criar um cliente TCP/UDP síncrono ou assíncrono do Swoole, com ou sem SSL.
+  - [Swoole\Client::\_\_destruct](swoole-client.destruct.md) - Destrói o cliente Swoole.
+  - [Swoole\Connection\Iterator::count](swoole-connection-iterator.count.md) - Conta conexões.
+  - [Swoole\Connection\Iterator::current](swoole-connection-iterator.current.md) - Retorna a entrada de conexão atual.
+  - [Swoole\Connection\Iterator::key](swoole-connection-iterator.key.md) - Retorna a chave da conexão atual.
+  - [Swoole\Connection\Iterator::next](swoole-connection-iterator.next.md) - Move para a próxima conexão.
+  - [Swoole\Connection\Iterator::offsetExists](swoole-connection-iterator.offsetexists.md) - Verifica se o deslocamento existe.
+  - [Swoole\Connection\Iterator::offsetGet](swoole-connection-iterator.offsetget.md) - Deslocamento para recuperar.
+  - [Swoole\Connection\Iterator::offsetSet](swoole-connection-iterator.offsetset.md) - tribui uma conexão ao deslocamento especificado.
+  - [Swoole\Connection\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.md) - Desfaz um deslocamento.
+  - [Swoole\Connection\Iterator::rewind](swoole-connection-iterator.rewind.md) - Rebobina o iterador
+  - [Swoole\Connection\Iterator::valid](swoole-connection-iterator.valid.md) - Verifica se a posição atual é válida.
+  - [Swoole\Coroutine::call\_user\_func](swoole-coroutine.call-user-func.md) - Chama um retorno de chamada fornecido pelo primeiro parâmetro
+  - [Swoole\Coroutine::call\_user\_func\_array](swoole-coroutine.call-user-func-array.md) - Chama um retorno de chamada com um array de parâmetros
+  - [Swoole\Coroutine::cli\_wait](swoole-coroutine.cli-wait.md) - Descrição
+  - [Swoole\Coroutine::create](swoole-coroutine.create.md) - Descrição
+  - [Swoole\Coroutine::getuid](swoole-coroutine.getuid.md) - Descrição
+  - [Swoole\Coroutine::resume](swoole-coroutine.resume.md) - Descrição
+  - [Swoole\Coroutine::suspend](swoole-coroutine.suspend.md) - Descrição
+  - [Swoole\Coroutine\Lock::lock](swoole-coroutine-lock.lock.md) - Adquire o bloqueio, bloqueando se necessário
+  - [Swoole\Coroutine\Lock::trylock](swoole-coroutine-lock.trylock.md) - Tenta adquirir o bloqueio sem bloquear
+  - [Swoole\Coroutine\Lock::unlock](swoole-coroutine-lock.unlock.md) - Libera o bloqueio
+  - [Swoole\Coroutine\Lock::\_\_construct](swoole-coroutine-lock.construct.md) - Constrói um novo bloqueio de corrotina
+  - [Swoole\Event::add](swoole-event.add.md) - Adiciona um socket ao monitor de eventos subjacente
+  - [Swoole\Event::cycle](swoole-event.cycle.md) - Define uma função a ser executada ao final de cada iteração do loop de eventos
+  - [Swoole\Event::defer](swoole-event.defer.md) - Executa uma função no início do próximo ciclo de eventos
+  - [Swoole\Event::del](swoole-event.del.md) - Remove um socket do monitor de eventos
+  - [Swoole\Event::dispatch](swoole-event.dispatch.md) - Executa uma única iteração do loop de eventos
+  - [Swoole\Event::isset](swoole-event.isset.md) - Verifica se um socket está sendo monitorado no loop de eventos
+  - [Swoole\Event::set](swoole-event.set.md) - Modifica os callbacks e a máscara do listener de eventos
+  - [Swoole\Event::wait](swoole-event.wait.md) - Inicia o loop de eventos
+  - [Swoole\Event::write](swoole-event.write.md) - Escreve dados no socket de forma assíncrona
+  - [Swoole\Http\Client::addFile](swoole-http-client.addfile.md) - Adiciona um arquivo ao formulário de postagem.
+  - [Swoole\Http\Client::close](swoole-http-client.close.md) - Fecha a conexão HTTP.
+  - [Swoole\Http\Client::download](swoole-http-client.download.md) - Baixa um arquivo do servidor remoto.
+  - [Swoole\Http\Client::execute](swoole-http-client.execute.md) - Envia a solicitação HTTP após definir os parâmetros.
+  - [Swoole\Http\Client::get](swoole-http-client.get.md) - Envia solicitação HTTP GET para o servidor remoto.
+  - [Swoole\Http\Client::isConnected](swoole-http-client.isconnected.md) - Verifica se a conexão HTTP está conectada.
+  - [Swoole\Http\Client::on](swoole-http-client.on.md) - Registra função de retorno de chamada pelo nome do evento.
+  - [Swoole\Http\Client::post](swoole-http-client.post.md) - Enviar uma solicitação http POST para o servidor remoto.
+  - [Swoole\Http\Client::push](swoole-http-client.push.md) - Envia dados para o cliente WebSocket.
+  - [Swoole\Http\Client::set](swoole-http-client.set.md) - Atualiza os parâmetros do cliente HTTP.
+  - [Swoole\Http\Client::setCookies](swoole-http-client.setcookies.md) - Define os cookies da requisição HTTP.
+  - [Swoole\Http\Client::setData](swoole-http-client.setdata.md) - Define os dados do corpo da requisição HTTP.
+  - [Swoole\Http\Client::setHeaders](swoole-http-client.setheaders.md) - Define os cabeçalhos da requisição HTTP.
+  - [Swoole\Http\Client::setMethod](swoole-http-client.setmethod.md) - Define o método da requisição HTTP.
+  - [Swoole\Http\Client::upgrade](swoole-http-client.upgrade.md) - Faz um upgrade para o protocolo websocket.
+  - [Swoole\Http\Client::\_\_construct](swoole-http-client.construct.md) - Constrói o cliente HTTP assíncrono.
+  - [Swoole\Http\Client::\_\_destruct](swoole-http-client.destruct.md) - Destrói o cliente HTTP.
+  - [Swoole\Http\Request::rawcontent](swoole-http-request.rawcontent.md) - Obtém o corpo HTTP POST bruto.
+  - [Swoole\Http\Request::\_\_destruct](swoole-http-request.destruct.md) - Destrói a solicitação HTTP.
+  - [Swoole\Http\Response::cookie](swoole-http-response.cookie.md) - Define os cookies da resposta HTTP.
+  - [Swoole\Http\Response::end](swoole-http-response.end.md) - Envia dados para a solicitação HTTP e finaliza a resposta.
+  - [Swoole\Http\Response::gzip](swoole-http-response.gzip.md) - Habilita a compressão gzip do conteúdo da resposta.
+  - [Swoole\Http\Response::header](swoole-http-response.header.md) - Define os cabeçalhos da resposta HTTP.
+  - [Swoole\Http\Response::initHeader](swoole-http-response.initheader.md) - Inicializa o cabeçalho da resposta HTTP.
+  - [Swoole\Http\Response::rawcookie](swoole-http-response.rawcookie.md) - Define cookies brutos na resposta HTTP.
+  - [Swoole\Http\Response::sendfile](swoole-http-response.sendfile.md) - Envia um arquivo através da resposta HTTP.
+  - [Swoole\Http\Response::status](swoole-http-response.status.md) - Define o código de status da resposta HTTP.
+  - [Swoole\Http\Response::write](swoole-http-response.write.md) - Acrescenta conteúdo ao corpo da resposta HTTP.
+  - [Swoole\Http\Response::\_\_destruct](swoole-http-response.destruct.md) - Destrói a resposta HTTP.
+  - [Swoole\Http\Server::on](swoole-http-server.on.md) - Vincula a função de retorno ao servidor HTTP pelo nome do evento
+  - [Swoole\Http\Server::start](swoole-http-server.start.md) - Inicia o servidor HTTP Swoole
+  - [Swoole\Lock::lock](swoole-lock.lock.md) - Tenta adquirir o bloqueio. Ele vai bloquear se o bloqueio não estiver disponível.
+  - [Swoole\Lock::lock\_read](swoole-lock.lock-read.md) - Bloqueia um bloqueio de leitura-escrita para leitura.
+  - [Swoole\Lock::trylock](swoole-lock.trylock.md) - Tenta adquirir o bloqueio e retorna imediatamente mesmo que o bloqueio não esteja disponível.
+  - [Swoole\Lock::trylock\_read](swoole-lock.trylock-read.md) - Tenta bloquear um bloqueio de leitura-escrita para leitura e retorna imediatamente mesmo que o bloqueio não esteja disponível.
+  - [Swoole\Lock::unlock](swoole-lock.unlock.md) - Libera o bloqueio.
+  - [Swoole\Lock::\_\_construct](swoole-lock.construct.md) - Constrói uma trava de memória
+  - [Swoole\Lock::\_\_destruct](swoole-lock.destruct.md) - Destrói um bloqueio de memória do Swoole.
+  - [Swoole\Mmap::open](swoole-mmap.open.md) - Mapeia um arquivo na memória e retorna o recurso de fluxo que pode ser usado pelas operações de fluxo do PHP.
+  - [Swoole\MySQL::close](swoole-mysql.close.md) - Fecha a conexão assíncrona do MySQL.
+  - [Swoole\MySQL::connect](swoole-mysql.connect.md) - Conecta-se ao servidor MySQL remoto.
+  - [Swoole\MySQL::getBuffer](swoole-mysql.getbuffer.md) - Descrição
+  - [Swoole\MySQL::on](swoole-mysql.on.md) - Registra uma função de retorno de chamada com base no nome do evento.
+  - [Swoole\MySQL::query](swoole-mysql.query.md) - Executa a consulta SQL.
+  - [Swoole\MySQL::\_\_construct](swoole-mysql.construct.md) - Constrói um cliente assíncrono do MySQL.
+  - [Swoole\MySQL::\_\_destruct](swoole-mysql.destruct.md) - Destrói o cliente assíncrono do MySQL.
+  - [Swoole\Process::alarm](swoole-process.alarm.md) - Temporizador de alta precisão que dispara um sinal em intervalos fixos.
+  - [Swoole\Process::close](swoole-process.close.md) - Fecha a conexão (pipe) para o processo filho.
+  - [Swoole\Process::daemon](swoole-process.daemon.md) - Transforma o processo em um processo daemon.
+  - [Swoole\Process::exec](swoole-process.exec.md) - Executa comandos do sistema.
+  - [Swoole\Process::exit](swoole-process.exit.md) - Para os processos filhos.
+  - [Swoole\Process::freeQueue](swoole-process.freequeue.md) - Destrói a fila de mensagens criada por swoole\_process::useQueue.
+  - [Swoole\Process::kill](swoole-process.kill.md) - Envia sinal para o processo filho.
+  - [Swoole\Process::name](swoole-process.name.md) - Define o nome do processo.
+  - [Swoole\Process::pop](swoole-process.pop.md) - Lê e remove dados da fila de mensagens.
+  - [Swoole\Process::push](swoole-process.push.md) - Escreve e insere dados na fila de mensagens.
+  - [Swoole\Process::read](swoole-process.read.md) - Lê os dados enviados para o processo.
+  - [Swoole\Process::signal](swoole-process.signal.md) - Envia sinal para os processos filhos.
+  - [Swoole\Process::start](swoole-process.start.md) - Inicia o processo.
+  - [Swoole\Process::statQueue](swoole-process.statqueue.md) - Obtém as estatísticas da fila de mensagens usada como método de comunicação entre processos.
+  - [Swoole\Process::useQueue](swoole-process.usequeue.md) - Cria uma fila de mensagens como método de comunicação entre o processo pai e os processos filhos.
+  - [Swoole\Process::wait](swoole-process.wait.md) - Aguarda os eventos dos processos filhos.
+  - [Swoole\Process::write](swoole-process.write.md) - Escreve dados na conexão (pipe) e comunica com o processo pai ou processos filhos.
+  - [Swoole\Process::\_\_construct](swoole-process.construct.md) - Constrói um processo.
+  - [Swoole\Process::\_\_destruct](swoole-process.destruct.md) - Destrói o processo.
+  - [Swoole\Redis\Server::format](swoole-redis-server.format.md) - Descrição
+  - [Swoole\Redis\Server::setHandler](swoole-redis-server.sethandler.md) - Descrição
+  - [Swoole\Redis\Server::start](swoole-redis-server.start.md) - Descrição
+  - [Swoole\Runtime::enableCoroutine](swoole-runtime.enable-coroutine.md) - Habilita corrotina para funções especificadas
+  - [Swoole\Runtime::getHookFlags](swoole-runtime.get-hook-flags.md) - Obtém os sinalizadores de gancho atuais
+  - [Swoole\Runtime::setHookFlags](swoole-runtime.set-hook-flags.md) - Define sinalizadores de gancho para corrotina
+  - [Swoole\Serialize::pack](swoole-serialize.pack.md) - Serializa os dados.
+  - [Swoole\Serialize::unpack](swoole-serialize.unpack.md) - Desserializa os dados.
+  - [Swoole\Server::addlistener](swoole-server.addlistener.md) - Adiciona um novo ouvinte (listener) ao servidor.
+  - [Swoole\Server::addProcess](swoole-server.addprocess.md) - Adiciona um processo definido pelo usuário (swoole\_process) ao servidor.
+  - [Swoole\Server::after](swoole-server.after.md) - Aciona uma função de retorno de chamada após um período de tempo.
+  - [Swoole\Server::bind](swoole-server.bind.md) - Vincula a conexão a um ID de usuário definido pelo usuário
+  - [Swoole\Server::clearTimer](swoole-server.cleartimer.md) - Para e destrói um temporizador.
+  - [Swoole\Server::close](swoole-server.close.md) - Fecha uma conexão com o cliente.
+  - [Swoole\Server::confirm](swoole-server.confirm.md) - Verifica o status da conexão.
+  - [Swoole\Server::connection\_info](swoole-server.connection-info.md) - Obtém informações da conexão pelo descritor de arquivo.
+  - [Swoole\Server::connection\_list](swoole-server.connection-list.md) - Obtém todas as conexões estabelecidas.
+  - [Swoole\Server::defer](swoole-server.defer.md) - Atrasa a execução da função de retorno de chamada até o final do EventLoop atual.
+  - [Swoole\Server::exist](swoole-server.exist.md) - Verifica se a conexão existe.
+  - [Swoole\Server::finish](swoole-server.finish.md) - Usado no processo de tarefa para enviar o resultado para o processo trabalhador quando a tarefa é concluída.
+  - [Swoole\Server::getClientInfo](swoole-server.getclientinfo.md) - Obtém as informações da conexão pelo descritor de arquivo.
+  - [Swoole\Server::getClientList](swoole-server.getclientlist.md) - Obtém todas as conexões estabelecidas.
+  - [Swoole\Server::getLastError](swoole-server.getlasterror.md) - Obtém o código de erro do erro mais recente.
+  - [Swoole\Server::heartbeat](swoole-server.heartbeat.md) - Verifica todas as conexões no servidor.
+  - [Swoole\Server::listen](swoole-server.listen.md) - Ouve no IP, porta e tipo de socket fornecidos.
+  - [Swoole\Server::on](swoole-server.on.md) - Registra uma função de retorno de chamada pelo nome do evento.
+  - [Swoole\Server::pause](swoole-server.pause.md) - Para de receber dados da conexão.
+  - [Swoole\Server::protect](swoole-server.protect.md) - Define a conexão para o modo protegido.
+  - [Swoole\Server::reload](swoole-server.reload.md) - Reinicia todos os processos do trabalhador (worker).
+  - [Swoole\Server::resume](swoole-server.resume.md) - Inicia a recepção de dados da conexão.
+  - [Swoole\Server::send](swoole-server.send.md) - Envia dados para o cliente.
+  - [Swoole\Server::sendfile](swoole-server.sendfile.md) - Envia arquivo para a conexão.
+  - [Swoole\Server::sendMessage](swoole-server.sendmessage.md) - Envia mensagem para processos de trabalhador por ID.
+  - [Swoole\Server::sendto](swoole-server.sendto.md) - Envia dados para o endereço UDP remoto.
+  - [Swoole\Server::sendwait](swoole-server.sendwait.md) - Envia dados para o socket remoto de forma bloqueada.
+  - [Swoole\Server::set](swoole-server.set.md) - Define as configurações em tempo de execução do servidor Swoole.
+  - [Swoole\Server::shutdown](swoole-server.shutdown.md) - Desliga o processo mestre do servidor, esta função pode ser chamada nos processos de trabalho.
+  - [Swoole\Server::start](swoole-server.start.md) - Inicia o servidor Swoole
+  - [Swoole\Server::stats](swoole-server.stats.md) - Obtém as estatísticas do servidor Swoole.
+  - [Swoole\Server::stop](swoole-server.stop.md) - Para o servidor Swoole.
+  - [Swoole\Server::task](swoole-server.task.md) - Envia dados para os processos de trabalho de tarefa.
+  - [Swoole\Server::taskwait](swoole-server.taskwait.md) - Envia dados para os processos de trabalho de tarefa de forma bloqueante.
+  - [Swoole\Server::taskWaitMulti](swoole-server.taskwaitmulti.md) - Executa várias tarefas concorrentemente.
+  - [Swoole\Server::tick](swoole-server.tick.md) - Repete uma função fornecida em cada intervalo de tempo especificado.
+  - [Swoole\Server::\_\_construct](swoole-server.construct.md) - Constrói um servidor Swoole.
+  - [Swoole\Table::column](swoole-table.column.md) - Define o tipo de dados e o tamanho das colunas.
+  - [Swoole\Table::count](swoole-table.count.md) - Conta as linhas na tabela, ou conta todos os elementos na tabela se $mode = 1
+  - [Swoole\Table::create](swoole-table.create.md) - Cria a tabela de memória Swoole
+  - [Swoole\Table::current](swoole-table.current.md) - Obtém a linha atual
+  - [Swoole\Table::decr](swoole-table.decr.md) - Decrementa o valor na tabela Swoole pela chave e pela coluna
+  - [Swoole\Table::del](swoole-table.del.md) - Exclui uma linha na tabela Swoole pela chave
+  - [Swoole\Table::destroy](swoole-table.destroy.md) - Destrói a tabela Swoole
+  - [Swoole\Table::exist](swoole-table.exist.md) - Verifica se uma linha informando a chave
+  - [Swoole\Table::get](swoole-table.get.md) - Obtém o valor na tabela Swoole pela chave e pelo campo
+  - [Swoole\Table::incr](swoole-table.incr.md) - Incrementa o valor pela chave e pela coluna
+  - [Swoole\Table::key](swoole-table.key.md) - Obtém a chave da linha atual.
+  - [Swoole\Table::next](swoole-table.next.md) - Avança o iterador para a próxima linha
+  - [Swoole\Table::rewind](swoole-table.rewind.md) - Retrocede o iterador
+  - [Swoole\Table::set](swoole-table.set.md) - Atualiza uma linha da tabela pela chave
+  - [Swoole\Table::valid](swoole-table.valid.md) - Verifica se a linha atual é válida
+  - [Swoole\Table::\_\_construct](swoole-table.construct.md) - Constrói uma tabela de memória Swoole com tamanho fixo
+  - [Swoole\Timer::after](swoole-timer.after.md) - Aciona uma função de retorno de chamada após um período de tempo.
+  - [Swoole\Timer::clear](swoole-timer.clear.md) - Exclui um temporizador pelo ID do temporizador.
+  - [Swoole\Timer::clearAll](swoole-timer.clearall.md) - Clear all timers in the current process.
+  - [Swoole\Timer::exists](swoole-timer.exists.md) - Verifica se um temporizador existe.
+  - [Swoole\Timer::info](swoole-timer.info.md) - Get information about a timer.
+  - [Swoole\Timer::list](swoole-timer.list.md) - Get an iterator over the timers of the current process
+  - [Swoole\Timer::set](swoole-timer.set.md) - Set timer-related parameters
+  - [Swoole\Timer::stats](swoole-timer.stats.md) - Get timer statistics.
+  - [Swoole\Timer::tick](swoole-timer.tick.md) - Repete uma função fornecida em cada intervalo de tempo especificado.
+  - [Swoole\WebSocket\Server::exist](swoole-websocket-server.exist.md) - Verifica se o descritor de arquivo existe.
+  - [Swoole\WebSocket\Server::on](swoole-websocket-server.on.md) - Registra função de retorno de chamada de evento
+  - [Swoole\WebSocket\Server::pack](swoole-websocket-server.pack.md) - Obtém um pacote de dados binários para enviar em um único quadro.
+  - [Swoole\WebSocket\Server::push](swoole-websocket-server.push.md) - Envia dados para o cliente remoto.
+  - [Swoole\WebSocket\Server::unpack](swoole-websocket-server.unpack.md) - Desempacota os dados binários recebidos do cliente.
+  - [swoole\_async\_dns\_lookup](function.swoole-async-dns-lookup.md) - Pesquisa de nome de host para IP assíncrona e não bloqueante
+  - [swoole\_async\_read](function.swoole-async-read.md) - Lê o fluxo de arquivo de forma assíncrona
+  - [swoole\_async\_readfile](function.swoole-async-readfile.md) - Lê um arquivo de forma assíncrona
+  - [swoole\_async\_set](function.swoole-async-set.md) - Atualiza as opções de E/S assíncronas
+  - [swoole\_async\_write](function.swoole-async-write.md) - Escreve dados em um fluxo de arquivo de forma assíncrona
+  - [swoole\_async\_writefile](function.swoole-async-writefile.md) - Escreve dados em um arquivo de forma assíncrona
+  - [swoole\_clear\_error](function.swoole-clear-error.md) - Limpa os erros no socket ou no último código de erro
+  - [swoole\_client\_select](function.swoole-client-select.md) - Obtém a descrição do arquivo que está pronto para leitura/gravação ou erro
+  - [swoole\_cpu\_num](function.swoole-cpu-num.md) - Obtém o número de CPUs
+  - [swoole\_errno](function.swoole-errno.md) - Obtém o código de erro da última chamada de sistema
+  - [swoole\_error\_log](function.swoole-error-log.md) - Retorna mensagens de erro para o log
+  - [swoole\_event\_add](function.swoole-event-add.md) - Adiciona novas funções de retorno de chamada de um socket no EventLoop
+  - [swoole\_event\_defer](function.swoole-event-defer.md) - Adiciona função de retorno de chamada para o próximo loop de eventos
+  - [swoole\_event\_del](function.swoole-event-del.md) - Remove todas as funções de retorno de chamada de evento de um socket
+  - [swoole\_event\_exit](function.swoole-event-exit.md) - Sai do eventloop, disponível apenas no lado do cliente
+  - [swoole\_event\_set](function.swoole-event-set.md) - Atualiza as funções de retorno de chamada de evento de um socket
+  - [swoole\_event\_wait](function.swoole-event-wait.md) - Inicia o loop de eventos
+  - [swoole\_event\_write](function.swoole-event-write.md) - Escreve dados em um socket
+  - [swoole\_get\_local\_ip](function.swoole-get-local-ip.md) - Obtém os endereços IP IPv4 de cada NIC na máquina
+  - [swoole\_last\_error](function.swoole-last-error.md) - Obtém a mensagem de erro mais recente
+  - [swoole\_load\_module](function.swoole-load-module.md) - Carrega uma extensão do Swoole
+  - [swoole\_select](function.swoole-select.md) - Seleciona as descrições de arquivo que estão prontas para leitura/escrita ou erro no loop de eventos
+  - [swoole\_set\_process\_name](function.swoole-set-process-name.md) - Define o nome do processo
+  - [swoole\_strerror](function.swoole-strerror.md) - Converte o Errno em mensagens de erro
+  - [swoole\_timer\_after](function.swoole-timer-after.md) - Aciona uma função de retorno de chamada única no futuro
+  - [swoole\_timer\_exists](function.swoole-timer-exists.md) - Verifica se uma função de retorno de chamada de temporizador existe
+  - [swoole\_timer\_tick](function.swoole-timer-tick.md) - Aciona uma função de retorno de chamada de temporizador por intervalo de tempo
+  - [swoole\_version](function.swoole-version.md) - Obtém a versão do Swoole
+  - [symlink](function.symlink.md) - Cria uma ligação simbólica
+  - [SyncEvent::fire](syncevent.fire.md) - Ativa/configura o evento
+  - [SyncEvent::reset](syncevent.reset.md) - Redefine um evento manual
+  - [SyncEvent::wait](syncevent.wait.md) - Espera o evento ser ativado/configurado
+  - [SyncEvent::\_\_construct](syncevent.construct.md) - Constrói um novo objeto SyncEvent
+  - [SyncMutex::lock](syncmutex.lock.md) - Aguarda um bloqueio exclusivo
+  - [SyncMutex::unlock](syncmutex.unlock.md) - Destrava o mutex
+  - [SyncMutex::\_\_construct](syncmutex.construct.md) - Constrói um novo objeto SyncMutex
+  - [SyncReaderWriter::readlock](syncreaderwriter.readlock.md) - Aguarda um bloqueio de leitura
+  - [SyncReaderWriter::readunlock](syncreaderwriter.readunlock.md) - Libera um bloqueio de leitura
+  - [SyncReaderWriter::writelock](syncreaderwriter.writelock.md) - Aguarda um bloqueio de gravação exclusivo
+  - [SyncReaderWriter::writeunlock](syncreaderwriter.writeunlock.md) - Libera um bloqueio de gravação
+  - [SyncReaderWriter::\_\_construct](syncreaderwriter.construct.md) - Constrói um novo objeto SyncReaderWriter
+  - [SyncSemaphore::lock](syncsemaphore.lock.md) - Diminui a contagem do semáforo ou espera
+  - [SyncSemaphore::unlock](syncsemaphore.unlock.md) - Aumenta a contagem do semáforo
+  - [SyncSemaphore::\_\_construct](syncsemaphore.construct.md) - Constrói um novo objeto SyncSemaphore
+  - [SyncSharedMemory::first](syncsharedmemory.first.md) - Verifica se o objeto é a primeira instância de todo o sistema de memória compartilhada nomeada
+  - [SyncSharedMemory::read](syncsharedmemory.read.md) - Copia dados da memória compartilhada nomeada
+  - [SyncSharedMemory::size](syncsharedmemory.size.md) - Retorna o tamanho da memória compartilhada nomeada
+  - [SyncSharedMemory::write](syncsharedmemory.write.md) - Copia dados para memória compartilhada nomeada
+  - [SyncSharedMemory::\_\_construct](syncsharedmemory.construct.md) - Constrói um novo objeto SyncSharedMemory
+  - [syslog](function.syslog.md) - Gera uma mensagem de registro do sistema
+  - [system](function.system.md) - Executa um programa externo e mostra a saída
+  - [sys\_getloadavg](function.sys-getloadavg.md) - Obtém a média de carga do sistema
+  - [sys\_get\_temp\_dir](function.sys-get-temp-dir.md) - Retorna o caminho do diretório usado para arquivos temporários
+- t
+  - [Table::count](mysql-xdevapi-table.count.md) - Obtém contagem de linhas
+  - [Table::delete](mysql-xdevapi-table.delete.md) - Deleta linhas da tabela
+  - [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md) - Verifica se uma tabela existe no banco de dados
+  - [Table::getName](mysql-xdevapi-table.getname.md) - Obtém nome da tabela
+  - [Table::getSchema](mysql-xdevapi-table.getschema.md) - Obtém esquema da tabela
+  - [Table::getSession](mysql-xdevapi-table.getsession.md) - Obtém a sessão da tabela
+  - [Table::insert](mysql-xdevapi-table.insert.md) - Insere linhas na tabela
+  - [Table::isView](mysql-xdevapi-table.isview.md) - Verifica se a tabela é uma visualização
+  - [Table::select](mysql-xdevapi-table.select.md) - Seleciona linhas da tabela
+  - [Table::update](mysql-xdevapi-table.update.md) - Atualiza linhas na tabela
+  - [Table::\_\_construct](mysql-xdevapi-table.construct.md) - Construtor de Table
+  - [TableDelete::bind](mysql-xdevapi-tabledelete.bind.md) - Vincula parâmetros na instrução de deleção
+  - [TableDelete::execute](mysql-xdevapi-tabledelete.execute.md) - Executa a instrução de deleção
+  - [TableDelete::limit](mysql-xdevapi-tabledelete.limit.md) - Limita as linhas deletadas
+  - [TableDelete::orderby](mysql-xdevapi-tabledelete.orderby.md) - Define os critérios de ordenação na deleção
+  - [TableDelete::where](mysql-xdevapi-tabledelete.where.md) - Define condição de pesquisa na deleção
+  - [TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.md) - Construtor de TableDelete
+  - [TableInsert::execute](mysql-xdevapi-tableinsert.execute.md) - Executa instrução de inserção
+  - [TableInsert::values](mysql-xdevapi-tableinsert.values.md) - Adiciona valores para inserção
+  - [TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.md) - Construtor de TableInsert
+  - [TableSelect::bind](mysql-xdevapi-tableselect.bind.md) - Vincula parâmetros de consulta de seleção
+  - [TableSelect::execute](mysql-xdevapi-tableselect.execute.md) - Executa instrução de seleção
+  - [TableSelect::groupBy](mysql-xdevapi-tableselect.groupby.md) - Define critérios de agrupamento de seleção
+  - [TableSelect::having](mysql-xdevapi-tableselect.having.md) - Definir condição para função de agregação na seleção
+  - [TableSelect::limit](mysql-xdevapi-tableselect.limit.md) - Limita as linhas selecionadas
+  - [TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.md) - Executa EXCLUSIVE LOCK
+  - [TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md) - Executa SHARED LOCK
+  - [TableSelect::offset](mysql-xdevapi-tableselect.offset.md) - Define o deslocamento limite
+  - [TableSelect::orderby](mysql-xdevapi-tableselect.orderby.md) - Define critérios de ordenamento na seleção
+  - [TableSelect::where](mysql-xdevapi-tableselect.where.md) - Define condição de pesquisa na seleção
+  - [TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.md) - Construtor TableSelect
+  - [TableUpdate::bind](mysql-xdevapi-tableupdate.bind.md) - Vincula parâmetros de consulta de atualização
+  - [TableUpdate::execute](mysql-xdevapi-tableupdate.execute.md) - Executa instrução de atualização
+  - [TableUpdate::limit](mysql-xdevapi-tableupdate.limit.md) - Limita contagem de atualização de linhas
+  - [TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.md) - Define critérios de ordenação
+  - [TableUpdate::set](mysql-xdevapi-tableupdate.set.md) - Adiciona campo a ser atualizado
+  - [TableUpdate::where](mysql-xdevapi-tableupdate.where.md) - Define filtro de pesquisa
+  - [TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.md) - Construtor de TableUpdate
+  - [taint](function.taint.md) - Contamina uma string
+  - [tan](function.tan.md) - Tangente
+  - [tanh](function.tanh.md) - Tangente hiperbólica
+  - [tcpwrap\_check](function.tcpwrap-check.md) - Realiza uma verificação tcpwrap
+  - [tempnam](function.tempnam.md) - Cria arquivo com nome único
+  - [textdomain](function.textdomain.md) - Define o domínio padrão
+  - [Thread::getCreatorId](thread.getcreatorid.md) - Identificação
+  - [Thread::getCurrentThread](thread.getcurrentthread.md) - Identificação
+  - [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) - Identificação
+  - [Thread::getThreadId](thread.getthreadid.md) - Identificação
+  - [Thread::isJoined](thread.isjoined.md) - Detecção de estado
+  - [Thread::isStarted](thread.isstarted.md) - Detecção de estado
+  - [Thread::join](thread.join.md) - Sincronização
+  - [Thread::start](thread.start.md) - Execução
+  - [Threaded::chunk](threaded.chunk.md) - Manipulação
+  - [Threaded::count](threaded.count.md) - Manipulação
+  - [Threaded::extend](threaded.extend.md) - Manipulação em tempo de execução
+  - [Threaded::isRunning](thread.isrunning.md) - Detecção de estado
+  - [Threaded::isTerminated](threaded.isterminated.md) - Detecção de estado
+  - [Threaded::merge](threaded.merge.md) - Manipulação
+  - [Threaded::notify](threaded.notify.md) - Sincronização
+  - [Threaded::notifyOne](threaded.notifyone.md) - Sincronização
+  - [Threaded::pop](threaded.pop.md) - Manipulação
+  - [Threaded::run](threaded.run.md) - Execução
+  - [Threaded::shift](threaded.shift.md) - Manipulação
+  - [Threaded::synchronized](threaded.synchronized.md) - Sincronização
+  - [Threaded::wait](threaded.wait.md) - Sincronização
+  - [Throwable::getCode](throwable.getcode.md) - Obtém o código da exceção
+  - [Throwable::getFile](throwable.getfile.md) - Obtém o arquivo no qual o objeto foi criado
+  - [Throwable::getLine](throwable.getline.md) - Obtém a linha na qual o objeto foi instanciado
+  - [Throwable::getMessage](throwable.getmessage.md) - Obtém a mensagem
+  - [Throwable::getPrevious](throwable.getprevious.md) - Retorna o Throwable anterior
+  - [Throwable::getTrace](throwable.gettrace.md) - Obtém o rastreamento de pilha
+  - [Throwable::getTraceAsString](throwable.gettraceasstring.md) - Obtém o rastreamento de pilha como uma string
+  - [Throwable::\_\_toString](throwable.tostring.md) - Obtém uma representação em string do objeto disparado
+  - [tidy::$errorBuffer](tidy.props.errorbuffer.md) - Retorna avisos e erros que ocorreram ao analisar o documento especificado
+  - [tidy::body](tidy.body.md) - Retorna um objeto tidyNode começando pela tag <body> da árvore de análise tidy
+  - [tidy::cleanRepair](tidy.cleanrepair.md) - Executa operações de limpeza e reparo configuradas na marcação analisada
+  - [tidy::diagnose](tidy.diagnose.md) - Executa diagnósticos configurados em marcações analisadas e reparadas
+  - [tidy::getConfig](tidy.getconfig.md) - Obtém a configuração atual do Tidy
+  - [tidy::getHtmlVer](tidy.gethtmlver.md) - Obtém a versão HTML detectada para o documento especificado
+  - [tidy::getOpt](tidy.getopt.md) - Retorna o valor da opção de configuração especificada para o documento tidy
+  - [tidy::getOptDoc](tidy.getoptdoc.md) - Retorna a documentação para o nome da opção fornecida
+  - [tidy::getRelease](tidy.getrelease.md) - Obtém a data de lançamento (versão) para a biblioteca Tidy
+  - [tidy::getStatus](tidy.getstatus.md) - Obtém o status do documento especificado
+  - [tidy::head](tidy.head.md) - Retorna um objeto tidyNode começando pela tag <head> da árvore de análise tidy
+  - [tidy::html](tidy.html.md) - Retorna um objeto tidyNode começando pela tag <html> da árvore de análise tidy
+  - [tidy::isXhtml](tidy.isxhtml.md) - Indica se o documento é um documento XHTML
+  - [tidy::isXml](tidy.isxml.md) - Indica se o documento é um documento XML genérico (não HTML/XHTML)
+  - [tidy::parseFile](tidy.parsefile.md) - Analisar marcação em arquivo ou URI
+  - [tidy::parseString](tidy.parsestring.md) - Analisa um documento armazenado em uma string
+  - [tidy::repairFile](tidy.repairfile.md) - Repara um arquivo e o retorna como uma string
+  - [tidy::repairString](tidy.repairstring.md) - Repara uma string usando um arquivo de configuração fornecido opcionalmente
+  - [tidy::root](tidy.root.md) - Retorna um objeto tidyNode que representa a raiz da árvore de análise do Tidy
+  - [tidy::\_\_construct](tidy.construct.md) - Constrói um novo objeto tidy
+  - [tidyNode::getNextSibling](tidynode.getnextsibling.md) - Retorna o próximo nó irmão do nó atual
+  - [tidyNode::getParent](tidynode.getparent.md) - Retorna o nó pai do nó atual
+  - [tidyNode::getPreviousSibling](tidynode.getprevioussibling.md) - Retorna o nó irmão anterior do nó atual
+  - [tidyNode::hasChildren](tidynode.haschildren.md) - Verifica se um nó tem filhos
+  - [tidyNode::hasSiblings](tidynode.hassiblings.md) - Verifica se um nó tem irmãos
+  - [tidyNode::isAsp](tidynode.isasp.md) - Verifica se este nó é ASP
+  - [tidyNode::isComment](tidynode.iscomment.md) - Verifica se um nó representa um comentário
+  - [tidyNode::isHtml](tidynode.ishtml.md) - Verifica se um nó é um nó de elemento
+  - [tidyNode::isJste](tidynode.isjste.md) - Verifica se este nó é JSTE
+  - [tidyNode::isPhp](tidynode.isphp.md) - Verifica se um nó é PHP
+  - [tidyNode::isText](tidynode.istext.md) - Verifica se um nó representa texto (sem marcação)
+  - [tidyNode::\_\_construct](tidynode.construct.md) - Construtor privado para proibir instanciação direta
+  - [tidy\_access\_count](function.tidy-access-count.md) - Retorna o número de avisos de acessibilidade do Tidy encontrados para o documento especificado
+  - [tidy\_config\_count](function.tidy-config-count.md) - Retorna o número de erros de configuração do Tidy encontrados para o documento especificado
+  - [tidy\_error\_count](function.tidy-error-count.md) - Retorna o número de erros de Tidy encontrados para o documento especificado
+  - [tidy\_get\_output](function.tidy-get-output.md) - Retorna uma string representando a marcação Tidy analisada
+  - [tidy\_warning\_count](function.tidy-warning-count.md) - Retorna o número de avisos do Tidy encontrados para o documento especificado
+  - [time](function.time.md) - Retorna o timestamp Unix atual
+  - [timezone\_abbreviations\_list](function.timezone-abbreviations-list.md) - Sinônimo de DateTimeZone::listAbbreviations
+  - [timezone\_identifiers\_list](function.timezone-identifiers-list.md) - Sinônimo de DateTimeZone::listIdentifiers
+  - [timezone\_location\_get](function.timezone-location-get.md) - Sinônimo de DateTimeZone::getLocation
+  - [timezone\_name\_from\_abbr](function.timezone-name-from-abbr.md) - Retorna um nome de fuso horário através da abreviação e do deslocamento UTC
+  - [timezone\_name\_get](function.timezone-name-get.md) - Sinônimo de DateTimeZone::getName
+  - [timezone\_offset\_get](function.timezone-offset-get.md) - Sinônimo de DateTimeZone::getOffset
+  - [timezone\_open](function.timezone-open.md) - Sinônimo de DateTimeZone::\_\_construct
+  - [timezone\_transitions\_get](function.timezone-transitions-get.md) - Sinônimo de DateTimeZone::getTransitions
+  - [timezone\_version\_get](function.timezone-version-get.md) - Obtém a versão do banco de dados de fuso horário.
+  - [time\_nanosleep](function.time-nanosleep.md) - Atrasa por um número de segundos e nanossegundos
+  - [time\_sleep\_until](function.time-sleep-until.md) - Faz o script pausar até o horário especificado
+  - [tmpfile](function.tmpfile.md) - Cria um arquivo temporário
+  - [token\_get\_all](function.token-get-all.md) - Divide um dado fonte em tokens do PHP
+  - [token\_name](function.token-name.md) - Pega o nome simbólico de um dado token do PHP
+  - [touch](function.touch.md) - Define horário de acesso e de modificação de arquivo
+  - [trader\_acos](function.trader-acos.md) - Arco cosseno trigonométrico vetorial
+  - [trader\_ad](function.trader-ad.md) - Linha Chaikin A/D
+  - [trader\_add](function.trader-add.md) - Adição Aritmética Vetorial
+  - [trader\_adosc](function.trader-adosc.md) - Oscilador A/D Chaikin
+  - [trader\_adx](function.trader-adx.md) - Índice de Movimento Direcional Médio
+  - [trader\_adxr](function.trader-adxr.md) - Taxa do Índice de Movimento Direcional Médio
+  - [trader\_apo](function.trader-apo.md) - Oscilador de Preço Absoluto
+  - [trader\_aroon](function.trader-aroon.md) - Aroon
+  - [trader\_aroonosc](function.trader-aroonosc.md) - Oscilador Aroon
+  - [trader\_asin](function.trader-asin.md) - Arco seno trigonométrico vetorial
+  - [trader\_atan](function.trader-atan.md) - Arco Tangente Trigonométrico Vetorial
+  - [trader\_atr](function.trader-atr.md) - Intervalo Verdadeiro Média
+  - [trader\_avgprice](function.trader-avgprice.md) - Preço médio
+  - [trader\_bbands](function.trader-bbands.md) - Bandas de Bollinger
+  - [trader\_beta](function.trader-beta.md) - Beta
+  - [trader\_bop](function.trader-bop.md) - Equilíbrio de poder
+  - [trader\_cci](function.trader-cci.md) - Índice de Canal de Commodities
+  - [trader\_cdl2crows](function.trader-cdl2crows.md) - Dois corvos
+  - [trader\_cdl3blackcrows](function.trader-cdl3blackcrows.md) - Três Corvos Negros
+  - [trader\_cdl3inside](function.trader-cdl3inside.md) - Três velas internas para cima/baixo
+  - [trader\_cdl3linestrike](function.trader-cdl3linestrike.md) - Strike de três linhas
+  - [trader\_cdl3outside](function.trader-cdl3outside.md) - Três exteriores para cima/baixo
+  - [trader\_cdl3starsinsouth](function.trader-cdl3starsinsouth.md) - Três Estrelas no Sul
+  - [trader\_cdl3whitesoldiers](function.trader-cdl3whitesoldiers.md) - Três Soldados Brancos Avançando
+  - [trader\_cdlabandonedbaby](function.trader-cdlabandonedbaby.md) - Bebê Abandonado
+  - [trader\_cdladvanceblock](function.trader-cdladvanceblock.md) - Bloco Avançado
+  - [trader\_cdlbelthold](function.trader-cdlbelthold.md) - Cinturão de Espera
+  - [trader\_cdlbreakaway](function.trader-cdlbreakaway.md) - Lacuna de Ruptura
+  - [trader\_cdlclosingmarubozu](function.trader-cdlclosingmarubozu.md) - Marubozu de Fechamento
+  - [trader\_cdlconcealbabyswall](function.trader-cdlconcealbabyswall.md) - Engolimento de Bebê Escondido
+  - [trader\_cdlcounterattack](function.trader-cdlcounterattack.md) - Contra-ataque
+  - [trader\_cdldarkcloudcover](function.trader-cdldarkcloudcover.md) - Nuvem Negra
+  - [trader\_cdldoji](function.trader-cdldoji.md) - Doji
+  - [trader\_cdldojistar](function.trader-cdldojistar.md) - Doji Estrela
+  - [trader\_cdldragonflydoji](function.trader-cdldragonflydoji.md) - Doji Libélula
+  - [trader\_cdlengulfing](function.trader-cdlengulfing.md) - Padrão de Engolimento
+  - [trader\_cdleveningdojistar](function.trader-cdleveningdojistar.md) - Doji Estrela da Noite
+  - [trader\_cdleveningstar](function.trader-cdleveningstar.md) - Estrela da Noite
+  - [trader\_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.md) - Linhas brancas lado a lado com gap de alta/baixa
+  - [trader\_cdlgravestonedoji](function.trader-cdlgravestonedoji.md) - Doji Lápide
+  - [trader\_cdlhammer](function.trader-cdlhammer.md) - Martelo
+  - [trader\_cdlhangingman](function.trader-cdlhangingman.md) - Homem enforcado
+  - [trader\_cdlharami](function.trader-cdlharami.md) - Harami
+  - [trader\_cdlharamicross](function.trader-cdlharamicross.md) - Cruz Harami
+  - [trader\_cdlhighwave](function.trader-cdlhighwave.md) - Vela de onda alta
+  - [trader\_cdlhikkake](function.trader-cdlhikkake.md) - Hikkake
+  - [trader\_cdlhikkakemod](function.trader-cdlhikkakemod.md) - Hikkake Modificado
+  - [trader\_cdlhomingpigeon](function.trader-cdlhomingpigeon.md) - Ave Migratória
+  - [trader\_cdlidentical3crows](function.trader-cdlidentical3crows.md) - Três Corvos Idênticos
+  - [trader\_cdlinneck](function.trader-cdlinneck.md) - In-Neck
+  - [trader\_cdlinvertedhammer](function.trader-cdlinvertedhammer.md) - Martelo Invertido
+  - [trader\_cdlkicking](function.trader-cdlkicking.md) - Chute nos pneus
+  - [trader\_cdlkickingbylength](function.trader-cdlkickingbylength.md) - Chute - touro/urso determinado pelo Marubozu mais longo
+  - [trader\_cdlladderbottom](function.trader-cdlladderbottom.md) - Escada de Baixo
+  - [trader\_cdllongleggeddoji](function.trader-cdllongleggeddoji.md) - Doji de Pernas Compridas
+  - [trader\_cdllongline](function.trader-cdllongline.md) - Vela de Linha Longa
+  - [trader\_cdlmarubozu](function.trader-cdlmarubozu.md) - Marubozu
+  - [trader\_cdlmatchinglow](function.trader-cdlmatchinglow.md) - Matching Low
+  - [trader\_cdlmathold](function.trader-cdlmathold.md) - Aperto do Mat
+  - [trader\_cdlmorningdojistar](function.trader-cdlmorningdojistar.md) - Estrela da Manhã Doji
+  - [trader\_cdlmorningstar](function.trader-cdlmorningstar.md) - Estrela da Manhã
+  - [trader\_cdlonneck](function.trader-cdlonneck.md) - On-Neck
+  - [trader\_cdlpiercing](function.trader-cdlpiercing.md) - Piercing
+  - [trader\_cdlrickshawman](function.trader-cdlrickshawman.md) - Homem da Carruagem
+  - [trader\_cdlrisefall3methods](function.trader-cdlrisefall3methods.md) - Três Métodos de Subida/Descida
+  - [trader\_cdlseparatinglines](function.trader-cdlseparatinglines.md) - Linhas de Separação
+  - [trader\_cdlshootingstar](function.trader-cdlshootingstar.md) - Estrela Cadente
+  - [trader\_cdlshortline](function.trader-cdlshortline.md) - Vela de Linha Curta
+  - [trader\_cdlspinningtop](function.trader-cdlspinningtop.md) - Pião Giratório
+  - [trader\_cdlstalledpattern](function.trader-cdlstalledpattern.md) - Padrão de Deliberação
+  - [trader\_cdlsticksandwich](function.trader-cdlsticksandwich.md) - Vela Prensada
+  - [trader\_cdltakuri](function.trader-cdltakuri.md) - Takuri (Doji Libélula com sombra inferior muito longa)
+  - [trader\_cdltasukigap](function.trader-cdltasukigap.md) - Lacuna Tasuki
+  - [trader\_cdlthrusting](function.trader-cdlthrusting.md) - Thrusting
+  - [trader\_cdltristar](function.trader-cdltristar.md) - Tri-Star
+  - [trader\_cdlunique3river](function.trader-cdlunique3river.md) - Unique 3 River
+  - [trader\_cdlupsidegap2crows](function.trader-cdlupsidegap2crows.md) - Dois Corvos de Alta com Gap
+  - [trader\_cdlxsidegap3methods](function.trader-cdlxsidegap3methods.md) - Três Métodos de Lacunas Positivas/Negativas
+  - [trader\_ceil](function.trader-ceil.md) - Teto vetorial
+  - [trader\_cmo](function.trader-cmo.md) - Oscilador de Momentum Chande
+  - [trader\_correl](function.trader-correl.md) - Coeficiente de correlação de Pearson (r)
+  - [trader\_cos](function.trader-cos.md) - Cosseno Trigonométrico Vetorial
+  - [trader\_cosh](function.trader-cosh.md) - Cosseno Hiperbólico Trigonométrico Vetorial
+  - [trader\_dema](function.trader-dema.md) - Média Móvel Exponencial Dupla
+  - [trader\_div](function.trader-div.md) - Divisão Aritmética Vetorial
+  - [trader\_dx](function.trader-dx.md) - Índice de movimento direcional
+  - [trader\_ema](function.trader-ema.md) - Média Móvel Exponencial
+  - [trader\_errno](function.trader-errno.md) - Obtém código de erro
+  - [trader\_exp](function.trader-exp.md) - Exponenciação Aritmética Vetorial
+  - [trader\_floor](function.trader-floor.md) - Piso Vetorial
+  - [trader\_get\_compat](function.trader-get-compat.md) - Obtém modo de compatibilidade
+  - [trader\_get\_unstable\_period](function.trader-get-unstable-period.md) - Obtém o período instável
+  - [trader\_ht\_dcperiod](function.trader-ht-dcperiod.md) - Transformada de Hilbert - Período do Ciclo Dominante
+  - [trader\_ht\_dcphase](function.trader-ht-dcphase.md) - Transformada de Hilbert - Fase do Ciclo Dominante
+  - [trader\_ht\_phasor](function.trader-ht-phasor.md) - Transformada de Hilbert - Componentes Fasoriais
+  - [trader\_ht\_sine](function.trader-ht-sine.md) - Transformada de Hilbert - Onda Senoidal
+  - [trader\_ht\_trendline](function.trader-ht-trendline.md) - Transformada de Hilbert - Linha de Tendência Instantânea
+  - [trader\_ht\_trendmode](function.trader-ht-trendmode.md) - Transformada de Hilbert - Modo de Tendência vs. Modo de Ciclo
+  - [trader\_kama](function.trader-kama.md) - Média Móvel Adaptativa de Kaufman
+  - [trader\_linearreg](function.trader-linearreg.md) - Regressão Linear
+  - [trader\_linearreg\_angle](function.trader-linearreg-angle.md) - Ângulo de Regressão Linear
+  - [trader\_linearreg\_intercept](function.trader-linearreg-intercept.md) - Interceptação de regressão linear
+  - [trader\_linearreg\_slope](function.trader-linearreg-slope.md) - Inclinação da regressão linear
+  - [trader\_ln](function.trader-ln.md) - Logaitmo natural vetorial
+  - [trader\_log10](function.trader-log10.md) - Log10 Vetorial
+  - [trader\_ma](function.trader-ma.md) - Média móvel
+  - [trader\_macd](function.trader-macd.md) - Convergência/Divergência da Média Móvel
+  - [trader\_macdext](function.trader-macdext.md) - Convergência/Divergência da Média Móvel com tipo MM controlável
+  - [trader\_macdfix](function.trader-macdfix.md) - Convergência/Divergência da Média Móvel Fixa 26/12
+  - [trader\_mama](function.trader-mama.md) - Média Móvel Adaptativa MESA
+  - [trader\_mavp](function.trader-mavp.md) - Média móvel com período variável
+  - [trader\_max](function.trader-max.md) - Maior valor em um período especificado
+  - [trader\_maxindex](function.trader-maxindex.md) - Índice de maior valor em um período especificado
+  - [trader\_medprice](function.trader-medprice.md) - Preço mediano
+  - [trader\_mfi](function.trader-mfi.md) - Índice de Fluxo de Dinheiro
+  - [trader\_midpoint](function.trader-midpoint.md) - Ponto médio ao longo do período
+  - [trader\_midprice](function.trader-midprice.md) - Preço do ponto médio ao longo do período
+  - [trader\_min](function.trader-min.md) - Menor valor em um período especificado
+  - [trader\_minindex](function.trader-minindex.md) - Índice de menor valor em um período especificado
+  - [trader\_minmax](function.trader-minmax.md) - Valores mais baixos e mais altos durante um período especificado
+  - [trader\_minmaxindex](function.trader-minmaxindex.md) - Índices de valores mais baixos e mais altos durante um período especificado
+  - [trader\_minus\_di](function.trader-minus-di.md) - Indicador direcional negativo
+  - [trader\_minus\_dm](function.trader-minus-dm.md) - Movimento Direcional Negativo
+  - [trader\_mom](function.trader-mom.md) - Momento
+  - [trader\_mult](function.trader-mult.md) - Multiplicação Aritmética Vetorial
+  - [trader\_natr](function.trader-natr.md) - Intervalo médio verdadeiro normalizado
+  - [trader\_obv](function.trader-obv.md) - Volume em Equilíbrio
+  - [trader\_plus\_di](function.trader-plus-di.md) - Indicador Direcional Positivo
+  - [trader\_plus\_dm](function.trader-plus-dm.md) - Movimento Direcional Positivo
+  - [trader\_ppo](function.trader-ppo.md) - Oscilador de Preço Percentual
+  - [trader\_roc](function.trader-roc.md) - Taxa de variação: ((preço/preçoAnterior)-1)\*100
+  - [trader\_rocp](function.trader-rocp.md) - Taxa de variação Percentual: (preço-preçoAnterior)/preçoAnterior
+  - [trader\_rocr](function.trader-rocr.md) - Taxa de variação: (preço/preçoAnterior)
+  - [trader\_rocr100](function.trader-rocr100.md) - Taxa de variação na escala 100: (preço/preçoAnterior)\*100
+  - [trader\_rsi](function.trader-rsi.md) - Índice de Força Relativa
+  - [trader\_sar](function.trader-sar.md) - SAR parabólico
+  - [trader\_sarext](function.trader-sarext.md) - SAR Parabólico - Estendido
+  - [trader\_set\_compat](function.trader-set-compat.md) - Define o modo de compatibilidade
+  - [trader\_set\_unstable\_period](function.trader-set-unstable-period.md) - Define período instável
+  - [trader\_sin](function.trader-sin.md) - Seno trigonométrico vetorial
+  - [trader\_sinh](function.trader-sinh.md) - Seno hiperbólico trigonométrico vetorial
+  - [trader\_sma](function.trader-sma.md) - Média Móvel Simples
+  - [trader\_sqrt](function.trader-sqrt.md) - Raiz quadrada vetorial
+  - [trader\_stddev](function.trader-stddev.md) - Desvio Padrão
+  - [trader\_stoch](function.trader-stoch.md) - Estocástico
+  - [trader\_stochf](function.trader-stochf.md) - Estocástico Rápido
+  - [trader\_stochrsi](function.trader-stochrsi.md) - Índice de Força Relativa Estocástica
+  - [trader\_sub](function.trader-sub.md) - Subtração Aritmética Vetorial
+  - [trader\_sum](function.trader-sum.md) - Somatória
+  - [trader\_t3](function.trader-t3.md) - Média Móvel Exponencial Tripla (T3)
+  - [trader\_tan](function.trader-tan.md) - Tangente trigonométrica vetorial
+  - [trader\_tanh](function.trader-tanh.md) - Tangente Hiperbólica Trigonométrica Vetorial
+  - [trader\_tema](function.trader-tema.md) - Média Móvel Exponencial Tripla
+  - [trader\_trange](function.trader-trange.md) - Intervalo Verdadeiro
+  - [trader\_trima](function.trader-trima.md) - Média Móvel Triangular
+  - [trader\_trix](function.trader-trix.md) - Taxa de variação (ROC) de 1 dia de uma EMA triplamente suave
+  - [trader\_tsf](function.trader-tsf.md) - Previsão de série temporal
+  - [trader\_typprice](function.trader-typprice.md) - Preço típico
+  - [trader\_ultosc](function.trader-ultosc.md) - Oscilador Final
+  - [trader\_var](function.trader-var.md) - Variância
+  - [trader\_wclprice](function.trader-wclprice.md) - Preço de fechamento ponderado
+  - [trader\_willr](function.trader-willr.md) - %R de Williams
+  - [trader\_wma](function.trader-wma.md) - Média Móvel Ponderada
+  - [trait\_exists](function.trait-exists.md) - Verifica se a trait existe
+  - [Transliterator::create](transliterator.create.md) - Cria um transliterador
+  - [Transliterator::createFromRules](transliterator.createfromrules.md) - Cria um transliterador a partir de regras
+  - [Transliterator::createInverse](transliterator.createinverse.md) - Cria um transliterador inverso
+  - [Transliterator::getErrorCode](transliterator.geterrorcode.md) - Obtém o último código de erro
+  - [Transliterator::getErrorMessage](transliterator.geterrormessage.md) - Obtém a última mensagem de erro
+  - [Transliterator::listIDs](transliterator.listids.md) - Obtém IDs de transliteradores
+  - [Transliterator::transliterate](transliterator.transliterate.md) - Translitera uma string
+  - [Transliterator::\_\_construct](transliterator.construct.md) - Construtor privado para proibir instanciação
+  - [trigger\_error](function.trigger-error.md) - Gera uma mensagem a nível de usuário de erro/alerta/nota
+  - [trim](function.trim.md) - Retira espaços (ou outros caracteres) do início e do final de uma string
+- u
+  - [uasort](function.uasort.md) - Ordena um array com uma função de comparação definida pelo usuário e mantém associações de índices
+  - [ucfirst](function.ucfirst.md) - Transforma o primeiro caractere de uma string em maiúsculo
+  - [UConverter::convert](uconverter.convert.md) - Converte uma string de um conjunto de caracteres (charset) para outro
+  - [UConverter::fromUCallback](uconverter.fromucallback.md) - Função de retorno de origem padrão
+  - [UConverter::getAliases](uconverter.getaliases.md) - Obtém o pseudônimo de um nome
+  - [UConverter::getAvailable](uconverter.getavailable.md) - Obtém os nomes canônicos dos conversores disponíveis
+  - [UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md) - Obtém a codificação de destino
+  - [UConverter::getDestinationType](uconverter.getdestinationtype.md) - Obtém o tipo do conversor de destino
+  - [UConverter::getErrorCode](uconverter.geterrorcode.md) - Obtém o código do último erro gerado pelo objeto
+  - [UConverter::getErrorMessage](uconverter.geterrormessage.md) - Obtém a mensagem do último erro gerado pelo objeto
+  - [UConverter::getSourceEncoding](uconverter.getsourceencoding.md) - Obtém a codificação de origem
+  - [UConverter::getSourceType](uconverter.getsourcetype.md) - Obtém o tipo do conversor de origem
+  - [UConverter::getStandards](uconverter.getstandards.md) - Obtém os nomes dos conversores padrão associados
+  - [UConverter::getSubstChars](uconverter.getsubstchars.md) - Obtém os caracteres de substituição
+  - [UConverter::reasonText](uconverter.reasontext.md) - Obtém uma representação em string da razão da chamada de retorno
+  - [UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md) - Define a codificação de destino
+  - [UConverter::setSourceEncoding](uconverter.setsourceencoding.md) - Define a codificação da origem
+  - [UConverter::setSubstChars](uconverter.setsubstchars.md) - Define os caracteres de substituição
+  - [UConverter::toUCallback](uconverter.toucallback.md) - Função de retorno padrão de destino
+  - [UConverter::transcode](uconverter.transcode.md) - Converte uma string de uma codificação de caracteres para outra
+  - [UConverter::\_\_construct](uconverter.construct.md) - Cria um objeto UConverter
+  - [ucwords](function.ucwords.md) - Converte para maiúsculas o primeiro caractere de cada palavra
+  - [UI\Area::onDraw](ui-area.ondraw.md) - Função de retorno de desenho
+  - [UI\Area::onKey](ui-area.onkey.md) - Função de retorno de tecla
+  - [UI\Area::onMouse](ui-area.onmouse.md) - Função de retorno de mouse
+  - [UI\Area::redraw](ui-area.redraw.md) - Redesenha área
+  - [UI\Area::scrollTo](ui-area.scrollto.md) - Rolagem da áre
+  - [UI\Area::setSize](ui-area.setsize.md) - Define a dimensão da área
+  - [UI\Control::destroy](ui-control.destroy.md) - Destrói o controle
+  - [UI\Control::disable](ui-control.disable.md) - Desabilita o controle
+  - [UI\Control::enable](ui-control.enable.md) - Habilita o controle
+  - [UI\Control::getParent](ui-control.getparent.md) - Obtém o controle pai
+  - [UI\Control::getTopLevel](ui-control.gettoplevel.md) - Obtém o nível mais alto
+  - [UI\Control::hide](ui-control.hide.md) - Oculta o controle
+  - [UI\Control::isEnabled](ui-control.isenabled.md) - Determina se o controle está habilitado
+  - [UI\Control::isVisible](ui-control.isvisible.md) - Determina se o controle está visível
+  - [UI\Control::setParent](ui-control.setparent.md) - Define o controle pai
+  - [UI\Control::show](ui-control.show.md) - Exibe o controle
+  - [UI\Controls\Box::append](ui-controls-box.append.md) - Anexa o controle
+  - [UI\Controls\Box::delete](ui-controls-box.delete.md) - Remove o controle
+  - [UI\Controls\Box::getOrientation](ui-controls-box.getorientation.md) - Obtém orientação
+  - [UI\Controls\Box::isPadded](ui-controls-box.ispadded.md) - Detecção de preenchimento
+  - [UI\Controls\Box::setPadded](ui-controls-box.setpadded.md) - Define o preenchimento
+  - [UI\Controls\Box::\_\_construct](ui-controls-box.construct.md) - Constrói uma nova caixa
+  - [UI\Controls\Button::getText](ui-controls-button.gettext.md) - Obtém texto
+  - [UI\Controls\Button::onClick](ui-controls-button.onclick.md) - Manipulador de clique
+  - [UI\Controls\Button::setText](ui-controls-button.settext.md) - Define o texto
+  - [UI\Controls\Button::\_\_construct](ui-controls-button.construct.md) - Constrói um novo botão
+  - [UI\Controls\Check::getText](ui-controls-check.gettext.md) - Obtém texto
+  - [UI\Controls\Check::isChecked](ui-controls-check.ischecked.md) - Detecção de caixa marcada
+  - [UI\Controls\Check::onToggle](ui-controls-check.ontoggle.md) - Função de retorno de marcação de caixa de verificação
+  - [UI\Controls\Check::setChecked](ui-controls-check.setchecked.md) - Muda o status da caixa de verificação
+  - [UI\Controls\Check::setText](ui-controls-check.settext.md) - Define o texto
+  - [UI\Controls\Check::\_\_construct](ui-controls-check.construct.md) - Constrói uma nova caixa de verificação
+  - [UI\Controls\ColorButton::getColor](ui-controls-colorbutton.getcolor.md) - Obtém a cor
+  - [UI\Controls\ColorButton::onChange](ui-controls-colorbutton.onchange.md) - Manipulador de alteração
+  - [UI\Controls\ColorButton::setColor](ui-controls-colorbutton.setcolor.md) - Define a cor
+  - [UI\Controls\Combo::append](ui-controls-combo.append.md) - Anexa opção
+  - [UI\Controls\Combo::getSelected](ui-controls-combo.getselected.md) - Obtém a opção selecionada
+  - [UI\Controls\Combo::onSelected](ui-controls-combo.onselected.md) - Manipulador de seleção
+  - [UI\Controls\Combo::setSelected](ui-controls-combo.setselected.md) - Define opção selecionada
+  - [UI\Controls\EditableCombo::append](ui-controls-editablecombo.append.md) - Anexa opção
+  - [UI\Controls\EditableCombo::getText](ui-controls-editablecombo.gettext.md) - Obtém texto
+  - [UI\Controls\EditableCombo::onChange](ui-controls-editablecombo.onchange.md) - Manipulador de alteração
+  - [UI\Controls\EditableCombo::setText](ui-controls-editablecombo.settext.md) - Define texto
+  - [UI\Controls\Entry::getText](ui-controls-entry.gettext.md) - Obtém texto
+  - [UI\Controls\Entry::isReadOnly](ui-controls-entry.isreadonly.md) - Detecta somente leitura
+  - [UI\Controls\Entry::onChange](ui-controls-entry.onchange.md) - Manipulador de alteração
+  - [UI\Controls\Entry::setReadOnly](ui-controls-entry.setreadonly.md) - Define como somente leitura
+  - [UI\Controls\Entry::setText](ui-controls-entry.settext.md) - Define texto
+  - [UI\Controls\Entry::\_\_construct](ui-controls-entry.construct.md) - Constrói uma nova entrada
+  - [UI\Controls\Form::append](ui-controls-form.append.md) - Anexa controle
+  - [UI\Controls\Form::delete](ui-controls-form.delete.md) - Remove controle
+  - [UI\Controls\Form::isPadded](ui-controls-form.ispadded.md) - Detecção de preenchimento
+  - [UI\Controls\Form::setPadded](ui-controls-form.setpadded.md) - Define preenchimento
+  - [UI\Controls\Grid::append](ui-controls-grid.append.md) - Anexa controle
+  - [UI\Controls\Grid::isPadded](ui-controls-grid.ispadded.md) - Detecção de preenchimento
+  - [UI\Controls\Grid::setPadded](ui-controls-grid.setpadded.md) - Define preenchimento
+  - [UI\Controls\Group::append](ui-controls-group.append.md) - Anexa controle
+  - [UI\Controls\Group::getTitle](ui-controls-group.gettitle.md) - Obtém título
+  - [UI\Controls\Group::hasMargin](ui-controls-group.hasmargin.md) - Detecção de margem
+  - [UI\Controls\Group::setMargin](ui-controls-group.setmargin.md) - Define margem
+  - [UI\Controls\Group::setTitle](ui-controls-group.settitle.md) - Define título
+  - [UI\Controls\Group::\_\_construct](ui-controls-group.construct.md) - Constrói um novo grupo
+  - [UI\Controls\Label::getText](ui-controls-label.gettext.md) - Obtém texto
+  - [UI\Controls\Label::setText](ui-controls-label.settext.md) - Define texto
+  - [UI\Controls\Label::\_\_construct](ui-controls-label.construct.md) - Constrói um novo rótulo
+  - [UI\Controls\MultilineEntry::append](ui-controls-multilineentry.append.md) - Anexa texto
+  - [UI\Controls\MultilineEntry::getText](ui-controls-multilineentry.gettext.md) - Obtém texto
+  - [UI\Controls\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md) - Deteção de somente leitura
+  - [UI\Controls\MultilineEntry::onChange](ui-controls-multilineentry.onchange.md) - Manipulador de alteração
+  - [UI\Controls\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md) - Define como somente leitura
+  - [UI\Controls\MultilineEntry::setText](ui-controls-multilineentry.settext.md) - Define texto
+  - [UI\Controls\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.md) - Constrói uma nova entrada multilinhas
+  - [UI\Controls\Picker::\_\_construct](ui-controls-picker.construct.md) - Constrói um novo selecionador de data/horário
+  - [UI\Controls\Progress::getValue](ui-controls-progress.getvalue.md) - Obtém valor
+  - [UI\Controls\Progress::setValue](ui-controls-progress.setvalue.md) - Define valor
+  - [UI\Controls\Radio::append](ui-controls-radio.append.md) - Anexa opção
+  - [UI\Controls\Radio::getSelected](ui-controls-radio.getselected.md) - Obtém opção selecionada
+  - [UI\Controls\Radio::onSelected](ui-controls-radio.onselected.md) - Manipulador de seleção
+  - [UI\Controls\Radio::setSelected](ui-controls-radio.setselected.md) - Define opção selecionada
+  - [UI\Controls\Separator::\_\_construct](ui-controls-separator.construct.md) - Constrói um novo separador
+  - [UI\Controls\Slider::getValue](ui-controls-slider.getvalue.md) - Obtém valor
+  - [UI\Controls\Slider::onChange](ui-controls-slider.onchange.md) - Manipulador de alteração
+  - [UI\Controls\Slider::setValue](ui-controls-slider.setvalue.md) - Define valor
+  - [UI\Controls\Slider::\_\_construct](ui-controls-slider.construct.md) - Constrói um novo controle deslizante
+  - [UI\Controls\Spin::getValue](ui-controls-spin.getvalue.md) - Obtém valor
+  - [UI\Controls\Spin::onChange](ui-controls-spin.onchange.md) - Manipulador de alteração
+  - [UI\Controls\Spin::setValue](ui-controls-spin.setvalue.md) - Define valor
+  - [UI\Controls\Spin::\_\_construct](ui-controls-spin.construct.md) - Constrói uma nova caixa de giro
+  - [UI\Controls\Tab::append](ui-controls-tab.append.md) - Anexa página
+  - [UI\Controls\Tab::delete](ui-controls-tab.delete.md) - Remove página
+  - [UI\Controls\Tab::hasMargin](ui-controls-tab.hasmargin.md) - Detecção de margem
+  - [UI\Controls\Tab::insertAt](ui-controls-tab.insertat.md) - Insere página
+  - [UI\Controls\Tab::pages](ui-controls-tab.pages.md) - Contagem de páginas
+  - [UI\Controls\Tab::setMargin](ui-controls-tab.setmargin.md) - Define margem
+  - [UI\Draw\Brush::getColor](ui-draw-brush.getcolor.md) - Obtém cor
+  - [UI\Draw\Brush::setColor](ui-draw-brush.setcolor.md) - Define cor
+  - [UI\Draw\Brush::\_\_construct](ui-draw-brush.construct.md) - Constrói um novo pincel
+  - [UI\Draw\Brush\Gradient::addStop](ui-draw-brush-gradient.addstop.md) - Adiciona parada
+  - [UI\Draw\Brush\Gradient::delStop](ui-draw-brush-gradient.delstop.md) - Remove parada
+  - [UI\Draw\Brush\Gradient::setStop](ui-draw-brush-gradient.setstop.md) - Define parada
+  - [UI\Draw\Brush\LinearGradient::\_\_construct](ui-draw-brush-lineargradient.construct.md) - Constrói um gradiente linear
+  - [UI\Draw\Brush\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md) - Constrói um gradiente radial
+  - [UI\Draw\Color::getChannel](ui-draw-color.getchannel.md) - Obtém canal
+  - [UI\Draw\Color::setChannel](ui-draw-color.setchannel.md) - Define canal
+  - [UI\Draw\Color::\_\_construct](ui-draw-color.construct.md) - Constrói uma cor
+  - [UI\Draw\Matrix::invert](ui-draw-matrix.invert.md) - Inverte matriz
+  - [UI\Draw\Matrix::isInvertible](ui-draw-matrix.isinvertible.md) - Detecção de invertibilidade
+  - [UI\Draw\Matrix::multiply](ui-draw-matrix.multiply.md) - Multiplica matriz
+  - [UI\Draw\Matrix::rotate](ui-draw-matrix.rotate.md) - Rotaciona matriz
+  - [UI\Draw\Matrix::scale](ui-draw-matrix.scale.md) - Escala matriz
+  - [UI\Draw\Matrix::skew](ui-draw-matrix.skew.md) - Inclina matriz
+  - [UI\Draw\Matrix::translate](ui-draw-matrix.translate.md) - Traslada matriz
+  - [UI\Draw\Path::addRectangle](ui-draw-path.addrectangle.md) - Desenha um retângulo
+  - [UI\Draw\Path::arcTo](ui-draw-path.arcto.md) - Desenha um arco
+  - [UI\Draw\Path::bezierTo](ui-draw-path.bezierto.md) - Desenha um curva de Bézier
+  - [UI\Draw\Path::closeFigure](ui-draw-path.closefigure.md) - Fecha figura
+  - [UI\Draw\Path::end](ui-draw-path.end.md) - Finaliza caminho
+  - [UI\Draw\Path::lineTo](ui-draw-path.lineto.md) - Desenha uma linha
+  - [UI\Draw\Path::newFigure](ui-draw-path.newfigure.md) - Desenha figura
+  - [UI\Draw\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.md) - Desenha figura com arco
+  - [UI\Draw\Path::\_\_construct](ui-draw-path.construct.md) - Constrói um novo caminho
+  - [UI\Draw\Pen::clip](ui-draw-pen.clip.md) - Recorta um caminho
+  - [UI\Draw\Pen::fill](ui-draw-pen.fill.md) - Preenche um caminho
+  - [UI\Draw\Pen::restore](ui-draw-pen.restore.md) - Restaura
+  - [UI\Draw\Pen::save](ui-draw-pen.save.md) - Salva
+  - [UI\Draw\Pen::stroke](ui-draw-pen.stroke.md) - Traça um caminho
+  - [UI\Draw\Pen::transform](ui-draw-pen.transform.md) - Transforma matriz
+  - [UI\Draw\Pen::write](ui-draw-pen.write.md) - Desenha texto em um ponto
+  - [UI\Draw\Stroke::getCap](ui-draw-stroke.getcap.md) - Obtém extremidade de linha
+  - [UI\Draw\Stroke::getJoin](ui-draw-stroke.getjoin.md) - Obtém junção de linha
+  - [UI\Draw\Stroke::getMiterLimit](ui-draw-stroke.getmiterlimit.md) - Obtém limite de junção aguda
+  - [UI\Draw\Stroke::getThickness](ui-draw-stroke.getthickness.md) - Obtém espessura
+  - [UI\Draw\Stroke::setCap](ui-draw-stroke.setcap.md) - Define extremidade de linha
+  - [UI\Draw\Stroke::setJoin](ui-draw-stroke.setjoin.md) - Define junção de linha
+  - [UI\Draw\Stroke::setMiterLimit](ui-draw-stroke.setmiterlimit.md) - Define limite de junção aguda
+  - [UI\Draw\Stroke::setThickness](ui-draw-stroke.setthickness.md) - Define espessura
+  - [UI\Draw\Stroke::\_\_construct](ui-draw-stroke.construct.md) - Constrói um traço
+  - [UI\Draw\Text\Font::getAscent](ui-draw-text-font.getascent.md) - Medidas de fonte
+  - [UI\Draw\Text\Font::getDescent](ui-draw-text-font.getdescent.md) - Medidas de fonte
+  - [UI\Draw\Text\Font::getLeading](ui-draw-text-font.getleading.md) - Medidas de fonte
+  - [UI\Draw\Text\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.md) - Medidas de fonte
+  - [UI\Draw\Text\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md) - Medidas de fonte
+  - [UI\Draw\Text\Font::\_\_construct](ui-draw-text-font.construct.md) - Constrói uma nova fonte
+  - [UI\Draw\Text\Font\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.md) - Obtém família de fonte
+  - [UI\Draw\Text\Font\Descriptor::getItalic](ui-draw-text-font-descriptor.getitalic.md) - Detecção de estilo
+  - [UI\Draw\Text\Font\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.md) - Detecção de dimensão
+  - [UI\Draw\Text\Font\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md) - Detecção de estilo
+  - [UI\Draw\Text\Font\Descriptor::getWeight](ui-draw-text-font-descriptor.getweight.md) - Detecção de peso
+  - [UI\Draw\Text\Font\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.md) - Constrói um novo descritor de fonte
+  - [UI\Draw\Text\Font\fontFamilies](function.ui-draw-text-font-fontfamilies.md) - Recupera Famílias de Fontes
+  - [UI\Draw\Text\Layout::setColor](ui-draw-text-layout.setcolor.md) - Define cor
+  - [UI\Draw\Text\Layout::setWidth](ui-draw-text-layout.setwidth.md) - Define largura
+  - [UI\Draw\Text\Layout::\_\_construct](ui-draw-text-layout.construct.md) - Constrói um novo leiaute de texto
+  - [UI\Executor::kill](ui-executor.kill.md) - Interrompe o executor
+  - [UI\Executor::onExecute](ui-executor.onexecute.md) - Função de retorno de execução
+  - [UI\Executor::setInterval](ui-executor.setinterval.md) - Manipulação de intervalo
+  - [UI\Executor::\_\_construct](ui-executor.construct.md) - Constrói um novo executor
+  - [UI\Menu::append](ui-menu.append.md) - Anexa um item de menu
+  - [UI\Menu::appendAbout](ui-menu.appendabout.md) - Anexa um item de menu "About"
+  - [UI\Menu::appendCheck](ui-menu.appendcheck.md) - Anexa um item de menu marcável
+  - [UI\Menu::appendPreferences](ui-menu.appendpreferences.md) - Anexa um item de menu de preferências
+  - [UI\Menu::appendQuit](ui-menu.appendquit.md) - Anexa item de menu de saída
+  - [UI\Menu::appendSeparator](ui-menu.appendseparator.md) - Anexa um item separador no menu
+  - [UI\Menu::\_\_construct](ui-menu.construct.md) - Constrói um novo menu
+  - [UI\MenuItem::disable](ui-menuitem.disable.md) - Desabilita item de menu
+  - [UI\MenuItem::enable](ui-menuitem.enable.md) - Habilita item de menu
+  - [UI\MenuItem::isChecked](ui-menuitem.ischecked.md) - Detecta marcação
+  - [UI\MenuItem::onClick](ui-menuitem.onclick.md) - Função de retorno de clique
+  - [UI\MenuItem::setChecked](ui-menuitem.setchecked.md) - Define marcação
+  - [UI\Point::at](ui-point.at.md) - Coerção de dimensão
+  - [UI\Point::getX](ui-point.getx.md) - Recupera X
+  - [UI\Point::getY](ui-point.gety.md) - Recupera Y
+  - [UI\Point::setX](ui-point.setx.md) - Define X
+  - [UI\Point::setY](ui-point.sety.md) - Define Y
+  - [UI\Point::\_\_construct](ui-point.construct.md) - Constrói um novo ponto
+  - [UI\quit](function.ui-quit.md) - Sai de um Laço UI
+  - [UI\run](function.ui-run.md) - Entra no Laço UI
+  - [UI\Size::getHeight](ui-size.getheight.md) - Recupera altura
+  - [UI\Size::getWidth](ui-size.getwidth.md) - Recupera largura
+  - [UI\Size::of](ui-size.of.md) - Coerção de ponto
+  - [UI\Size::setHeight](ui-size.setheight.md) - Define altura
+  - [UI\Size::setWidth](ui-size.setwidth.md) - Define largura
+  - [UI\Size::\_\_construct](ui-size.construct.md) - Constrói uma nova dimensão
+  - [UI\Window::add](ui-window.add.md) - Adiciona um controle
+  - [UI\Window::error](ui-window.error.md) - Mostra caixa de erro
+  - [UI\Window::getSize](ui-window.getsize.md) - Obtém dimensão de janela
+  - [UI\Window::getTitle](ui-window.gettitle.md) - Obtém título
+  - [UI\Window::hasBorders](ui-window.hasborders.md) - Detecção de borda
+  - [UI\Window::hasMargin](ui-window.hasmargin.md) - Detecção de margem
+  - [UI\Window::isFullScreen](ui-window.isfullscreen.md) - Detecção de tela cheia
+  - [UI\Window::msg](ui-window.msg.md) - Mostra caixa de mensagem
+  - [UI\Window::onClosing](ui-window.onclosing.md) - Função de retorno de fechamento
+  - [UI\Window::open](ui-window.open.md) - Caixa de diálogo de abertura
+  - [UI\Window::save](ui-window.save.md) - Caixa de diálogo de salvamento
+  - [UI\Window::setBorders](ui-window.setborders.md) - Uso de bordas
+  - [UI\Window::setFullScreen](ui-window.setfullscreen.md) - Uso de tela cheia
+  - [UI\Window::setMargin](ui-window.setmargin.md) - Uso de margem
+  - [UI\Window::setSize](ui-window.setsize.md) - Define dimensão
+  - [UI\Window::setTitle](ui-window.settitle.md) - Título da janela
+  - [UI\Window::\_\_construct](ui-window.construct.md) - Constrói uma nova janela
+  - [uksort](function.uksort.md) - Ordena um array pelas chaves utilizando uma função de comparação definida pelo usuário.
+  - [umask](function.umask.md) - Modificar a umask atual
+  - [uniqid](function.uniqid.md) - Gera um identificador baseado em horário
+  - [UnitEnum::cases](unitenum.cases.md) - Gera uma lista de casos de uma enumeração
+  - [unixtojd](function.unixtojd.md) - Converte um timestamp Unix para um dia Juliano
+  - [unlink](function.unlink.md) - Apaga um arquivo
+  - [unpack](function.unpack.md) - Desempacota dados de uma string binária
+  - [unregister\_tick\_function](function.unregister-tick-function.md) - Desregistra uma função executada a cada tique
+  - [unserialize](function.unserialize.md) - Cria um valor PHP a partir de uma representação armazenada
+  - [unset](function.unset.md) - unset remove a definição de uma variável informada
+  - [untaint](function.untaint.md) - Descontamina strings
+  - [uopz\_add\_function](function.uopz-add-function.md) - Adiciona função ou método inexistente
+  - [uopz\_allow\_exit](function.uopz-allow-exit.md) - Permite o controle sobre o código de operação de saída desabilitado
+  - [uopz\_backup](function.uopz-backup.md) - Faz backup de uma função
+  - [uopz\_compose](function.uopz-compose.md) - Compõe uma classe
+  - [uopz\_copy](function.uopz-copy.md) - Copia uma função
+  - [uopz\_delete](function.uopz-delete.md) - Exclui uma função
+  - [uopz\_del\_function](function.uopz-del-function.md) - Exclui função ou método adicionado anteriormente
+  - [uopz\_extend](function.uopz-extend.md) - Estende uma classe em tempo de execução
+  - [uopz\_flags](function.uopz-flags.md) - Obtém ou define sinalizadores em função ou classe
+  - [uopz\_function](function.uopz-function.md) - Cria uma função em tempo de execução
+  - [uopz\_get\_exit\_status](function.uopz-get-exit-status.md) - Recupera o último status de saída definido
+  - [uopz\_get\_hook](function.uopz-get-hook.md) - Obtém o gancho previamente definido na função ou método
+  - [uopz\_get\_mock](function.uopz-get-mock.md) - Obtém o mock atual para uma classe
+  - [uopz\_get\_property](function.uopz-get-property.md) - Obtém o valor da propriedade de classe ou instância
+  - [uopz\_get\_return](function.uopz-get-return.md) - Obtém um valor de retorno definido anteriormente para uma função
+  - [uopz\_get\_static](function.uopz-get-static.md) - Obtém as variáveis ​​estáticas do escopo da função ou método
+  - [uopz\_implement](function.uopz-implement.md) - Implementa uma interface em tempo de execução
+  - [uopz\_overload](function.uopz-overload.md) - Sobrecarrega um opcode da máquina virtual
+  - [uopz\_redefine](function.uopz-redefine.md) - Redefine uma constante
+  - [uopz\_rename](function.uopz-rename.md) - Renomeia uma função em tempo de execução
+  - [uopz\_restore](function.uopz-restore.md) - Restaura uma função a partir de um backup
+  - [uopz\_set\_hook](function.uopz-set-hook.md) - Define o gancho a ser executado ao entrar em uma função ou método
+  - [uopz\_set\_mock](function.uopz-set-mock.md) - Usa mock em vez de classe para novos objetos
+  - [uopz\_set\_property](function.uopz-set-property.md) - Define o valor da classe existente ou propriedade de instância
+  - [uopz\_set\_return](function.uopz-set-return.md) - Fornece um valor de retorno para uma função existente
+  - [uopz\_set\_static](function.uopz-set-static.md) - Define as variáveis ​​estáticas no escopo da função ou método
+  - [uopz\_undefine](function.uopz-undefine.md) - Indefine uma constante
+  - [uopz\_unset\_hook](function.uopz-unset-hook.md) - Remove o gancho definido anteriormente na função ou método
+  - [uopz\_unset\_mock](function.uopz-unset-mock.md) - Remove a definição de um mock previamente definido
+  - [uopz\_unset\_return](function.uopz-unset-return.md) - Desfaz um valor de retorno previamente definido para uma função
+  - [Uri\Rfc3986\Uri::equals](uri-rfc3986-uri.equals.md) - Verifica se duas URIs são equivalentes
+  - [Uri\Rfc3986\Uri::getFragment](uri-rfc3986-uri.getfragment.md) - Obtém o componente fragment normalizado
+  - [Uri\Rfc3986\Uri::getHost](uri-rfc3986-uri.gethost.md) - Obtém o componente host normalizado
+  - [Uri\Rfc3986\Uri::getPassword](uri-rfc3986-uri.getpassword.md) - Obtém a senha normalizada
+  - [Uri\Rfc3986\Uri::getPath](uri-rfc3986-uri.getpath.md) - Obtém o componente path normalizado
+  - [Uri\Rfc3986\Uri::getPort](uri-rfc3986-uri.getport.md) - Obtém o componente port normalizado
+  - [Uri\Rfc3986\Uri::getQuery](uri-rfc3986-uri.getquery.md) - Obtém o componente query normalizado
+  - [Uri\Rfc3986\Uri::getRawFragment](uri-rfc3986-uri.getrawfragment.md) - Obtém o componente fragment bruto
+  - [Uri\Rfc3986\Uri::getRawHost](uri-rfc3986-uri.getrawhost.md) - Obtém o componente host bruto
+  - [Uri\Rfc3986\Uri::getRawPassword](uri-rfc3986-uri.getrawpassword.md) - Obtém a senha bruta
+  - [Uri\Rfc3986\Uri::getRawPath](uri-rfc3986-uri.getrawpath.md) - Obtém o componente path bruto
+  - [Uri\Rfc3986\Uri::getRawQuery](uri-rfc3986-uri.getrawquery.md) - Obtém o componente query bruto
+  - [Uri\Rfc3986\Uri::getRawScheme](uri-rfc3986-uri.getrawscheme.md) - Obtém o componente scheme bruto
+  - [Uri\Rfc3986\Uri::getRawUserInfo](uri-rfc3986-uri.getrawuserinfo.md) - Obtém o componente userinfo bruto
+  - [Uri\Rfc3986\Uri::getRawUsername](uri-rfc3986-uri.getrawusername.md) - Obtém o username bruto
+  - [Uri\Rfc3986\Uri::getScheme](uri-rfc3986-uri.getscheme.md) - Obtém o componente scheme normalizado
+  - [Uri\Rfc3986\Uri::getUserInfo](uri-rfc3986-uri.getuserinfo.md) - Obtém o componente userinfo normalizado
+  - [Uri\Rfc3986\Uri::getUsername](uri-rfc3986-uri.getusername.md) - Obtém o username normalizado
+  - [Uri\Rfc3986\Uri::parse](uri-rfc3986-uri.parse.md) - Analisa uma URI
+  - [Uri\Rfc3986\Uri::resolve](uri-rfc3986-uri.resolve.md) - Resolve uma URI com o objeto atual como URL base
+  - [Uri\Rfc3986\Uri::toRawString](uri-rfc3986-uri.torawstring.md) - Recompõe a URI bruta
+  - [Uri\Rfc3986\Uri::toString](uri-rfc3986-uri.tostring.md) - Recompõe a URI normalizada
+  - [Uri\Rfc3986\Uri::withFragment](uri-rfc3986-uri.withfragment.md) - Modifica o componente fragment
+  - [Uri\Rfc3986\Uri::withHost](uri-rfc3986-uri.withhost.md) - Modifica o componente host
+  - [Uri\Rfc3986\Uri::withPath](uri-rfc3986-uri.withpath.md) - Modifica o componente path
+  - [Uri\Rfc3986\Uri::withPort](uri-rfc3986-uri.withport.md) - Modifica o componente port
+  - [Uri\Rfc3986\Uri::withQuery](uri-rfc3986-uri.withquery.md) - Modifica o componente query
+  - [Uri\Rfc3986\Uri::withScheme](uri-rfc3986-uri.withscheme.md) - Modifica o componente scheme
+  - [Uri\Rfc3986\Uri::withUserInfo](uri-rfc3986-uri.withuserinfo.md) - Modifica o componente userinfo
+  - [Uri\Rfc3986\Uri::\_\_construct](uri-rfc3986-uri.construct.md) - Constrói o objeto Uri
+  - [Uri\Rfc3986\Uri::\_\_debugInfo](uri-rfc3986-uri.debuginfo.md) - Retorna o estado interno da URI
+  - [Uri\Rfc3986\Uri::\_\_serialize](uri-rfc3986-uri.serialize.md) - Serializa o objeto Uri
+  - [Uri\Rfc3986\Uri::\_\_unserialize](uri-rfc3986-uri.unserialize.md) - Desserializa o parâmetro 'data' em um objeto Uri
+  - [Uri\WhatWg\InvalidUrlException::\_\_construct](uri-whatwg-invalidurlexception.construct.md) - Constrói um objeto InvalidUrlException
+  - [Uri\WhatWg\Url::equals](uri-whatwg-url.equals.md) - Verifica se duas URLs são equivalentes
+  - [Uri\WhatWg\Url::getAsciiHost](uri-whatwg-url.getasciihost.md) - Obtém o componente host como uma string ASCII
+  - [Uri\WhatWg\Url::getFragment](uri-whatwg-url.getfragment.md) - Obtém o componente fragment
+  - [Uri\WhatWg\Url::getPassword](uri-whatwg-url.getpassword.md) - Obtém o componente password
+  - [Uri\WhatWg\Url::getPath](uri-whatwg-url.getpath.md) - Obtém o componente path
+  - [Uri\WhatWg\Url::getPort](uri-whatwg-url.getport.md) - Obtém o componente port
+  - [Uri\WhatWg\Url::getQuery](uri-whatwg-url.getquery.md) - Obtém o componente de consulta
+  - [Uri\WhatWg\Url::getScheme](uri-whatwg-url.getscheme.md) - Obtém o componente scheme
+  - [Uri\WhatWg\Url::getUnicodeHost](uri-whatwg-url.getunicodehost.md) - Obtém o componente host como uma string Unicode
+  - [Uri\WhatWg\Url::getUsername](uri-whatwg-url.getusername.md) - Obtém o componente username
+  - [Uri\WhatWg\Url::parse](uri-whatwg-url.parse.md) - Analisa uma URL
+  - [Uri\WhatWg\Url::resolve](uri-whatwg-url.resolve.md) - Resolve uma URL com o objeto atual como URL base
+  - [Uri\WhatWg\Url::toAsciiString](uri-whatwg-url.toasciistring.md) - Recompõe a URL como uma string ASCII
+  - [Uri\WhatWg\Url::toUnicodeString](uri-whatwg-url.tounicodestring.md) - Recompõe a URL como uma string Unicode
+  - [Uri\WhatWg\Url::withFragment](uri-whatwg-url.withfragment.md) - Modifica o componente fragment
+  - [Uri\WhatWg\Url::withHost](uri-whatwg-url.withhost.md) - Modifica o componente host
+  - [Uri\WhatWg\Url::withPassword](uri-whatwg-url.withpassword.md) - Modifica o componente password
+  - [Uri\WhatWg\Url::withPath](uri-whatwg-url.withpath.md) - Modifica o componente path
+  - [Uri\WhatWg\Url::withPort](uri-whatwg-url.withport.md) - Modifica o componente port
+  - [Uri\WhatWg\Url::withQuery](uri-whatwg-url.withquery.md) - Modifica o componente query
+  - [Uri\WhatWg\Url::withScheme](uri-whatwg-url.withscheme.md) - Modifica o componente scheme
+  - [Uri\WhatWg\Url::withUsername](uri-whatwg-url.withusername.md) - Modifica o componente username
+  - [Uri\WhatWg\Url::\_\_construct](uri-whatwg-url.construct.md) - Constrói o objeto Url
+  - [Uri\WhatWg\Url::\_\_debugInfo](uri-whatwg-url.debuginfo.md) - Retorna o estado interno da URL
+  - [Uri\WhatWg\Url::\_\_serialize](uri-whatwg-url.serialize.md) - Serializa o objeto Url
+  - [Uri\WhatWg\Url::\_\_unserialize](uri-whatwg-url.unserialize.md) - Desserializa o parâmetro 'data' em um objeto Url
+  - [Uri\WhatWg\UrlValidationError::\_\_construct](uri-whatwg-urlvalidationerror.construct.md) - Constrói um objeto UrlValidationError
+  - [urldecode](function.urldecode.md) - Decodifica uma URL codificada
+  - [urlencode](function.urlencode.md) - Codifica uma string no formato URL
+  - [user\_error](function.user-error.md) - Sinônimo de trigger\_error
+  - [use\_soap\_error\_handler](function.use-soap-error-handler.md) - Define se deseja usar o manipulador de erros SOAP
+  - [usleep](function.usleep.md) - Atrasa a execução em microssegundos
+  - [usort](function.usort.md) - Ordena um array pelos valores utilizando uma função de comparação definida pelo usuário
+  - [utf8\_decode](function.utf8-decode.md) - Converte uma string de UTF-8 para ISO-8859-1, substituindo caracteres inválidos ou não
+    representáveis
+  - [utf8\_encode](function.utf8-encode.md) - Converte uma string ISO-8859-1 em UTF-8
+- v
+  - [V8Js::executeString](v8js.executestring.md) - Executa uma string como código Javascript
+  - [V8Js::getExtensions](v8js.getextensions.md) - Retorna um array de extensões registradas
+  - [V8Js::getPendingException](v8js.getpendingexception.md) - Retorna exceção Javascript pendente não capturada
+  - [V8Js::registerExtension](v8js.registerextension.md) - Registra extensões Javascript para V8Js
+  - [V8Js::\_\_construct](v8js.construct.md) - Constrói um novo objeto V8Js
+  - [V8JsException::getJsFileName](v8jsexception.getjsfilename.md) - getJsFileName
+  - [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md) - getJsLineNumber
+  - [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md) - getJsSourceLine
+  - [V8JsException::getJsTrace](v8jsexception.getjstrace.md) - getJsTrace
+  - [variant::\_\_construct](variant.construct.md) - Construtor da classe variant
+  - [variant\_abs](function.variant-abs.md) - Retorna o valor absoluto de uma variante
+  - [variant\_add](function.variant-add.md) - "Adiciona" dois valores de variante e retorna o resultado
+  - [variant\_and](function.variant-and.md) - Executa uma operação AND binária entre duas variantes
+  - [variant\_cast](function.variant-cast.md) - Converter uma variante em um novo objeto variante de outro tipo
+  - [variant\_cat](function.variant-cat.md) - Concatena dois valores de variantes e retorna o resultado
+  - [variant\_cmp](function.variant-cmp.md) - Compara duas variantes
+  - [variant\_date\_from\_timestamp](function.variant-date-from-timestamp.md) - Retorna uma representação de data em variante de um timestamp Unix
+  - [variant\_date\_to\_timestamp](function.variant-date-to-timestamp.md) - Converte um valor de variante de data/horário em um timestamp Unix
+  - [variant\_div](function.variant-div.md) - Retorna o resultado da divisão de duas variantes
+  - [variant\_eqv](function.variant-eqv.md) - Realiza uma equivalência binária entre duas variantes
+  - [variant\_fix](function.variant-fix.md) - Retorna a porção inteira de uma variante
+  - [variant\_get\_type](function.variant-get-type.md) - Retorna o tipo de um objeto de variante
+  - [variant\_idiv](function.variant-idiv.md) - Converte variantes para inteiros e retorna o resultado da divisão deles
+  - [variant\_imp](function.variant-imp.md) - Realiza uma implicação binária entre duas variantes
+  - [variant\_int](function.variant-int.md) - Retorna a porção inteira de uma variante
+  - [variant\_mod](function.variant-mod.md) - Divide duas variantes e retorna apenas o resto
+  - [variant\_mul](function.variant-mul.md) - Multiplica os valores de duas variantes
+  - [variant\_neg](function.variant-neg.md) - Realiza uma negação lógica em uma variante
+  - [variant\_not](function.variant-not.md) - Realiza uma negação bit a bit em uma variante
+  - [variant\_or](function.variant-or.md) - Realização uma disjunção lógica de duas variantes
+  - [variant\_pow](function.variant-pow.md) - Retorna o resultado da função de potência com duas variantes
+  - [variant\_round](function.variant-round.md) - Arredonda uma variante para o número de casas decimais especificado
+  - [variant\_set](function.variant-set.md) - Atribui um novo valor para um objeto de variante
+  - [variant\_set\_type](function.variant-set-type.md) - Converte uma variante em outro tipo "in loco"
+  - [variant\_sub](function.variant-sub.md) - Subtrai o valor da variante da direita do valor da variante da esquerda
+  - [variant\_xor](function.variant-xor.md) - Realiza uma exclusão lógica em duas variantes
+  - [VarnishAdmin::auth](varnishadmin.auth.md) - Autentica em uma instância do Varnish
+  - [VarnishAdmin::ban](varnishadmin.ban.md) - Bane URLs usando uma expressão VCL
+  - [VarnishAdmin::banUrl](varnishadmin.banurl.md) - Bane uma URL usando uma expressão VCL
+  - [VarnishAdmin::clearPanic](varnishadmin.clearpanic.md) - Limpa mensagens de pânico da instância do Varnish
+  - [VarnishAdmin::connect](varnishadmin.connect.md) - Conecta-se a uma interface de administração de instância do Varnish
+  - [VarnishAdmin::disconnect](varnishadmin.disconnect.md) - Desconecta de uma interface de administração de instância do Varnish
+  - [VarnishAdmin::getPanic](varnishadmin.getpanic.md) - Obtém a última mensagem de pânico em uma instância do Varnish
+  - [VarnishAdmin::getParams](varnishadmin.getparams.md) - Busca parâmetros de configuração da instância atual do Varnish
+  - [VarnishAdmin::isRunning](varnishadmin.isrunning.md) - Verifica se o processo escravo do Varnish está em execução no momento
+  - [VarnishAdmin::setCompat](varnishadmin.setcompat.md) - Define o parâmetro de configuração de compatibilidade de classe
+  - [VarnishAdmin::setHost](varnishadmin.sethost.md) - Define o parâmetro de configuração do host da classe
+  - [VarnishAdmin::setIdent](varnishadmin.setident.md) - Define o parâmetro de configuração da identificação de conexão da classe
+  - [VarnishAdmin::setParam](varnishadmin.setparam.md) - Define os parâmetros de configuração na instância atual do Varnish
+  - [VarnishAdmin::setPort](varnishadmin.setport.md) - Define o parâmetro de configuração da porta
+  - [VarnishAdmin::setSecret](varnishadmin.setsecret.md) - Define o parâmetro de configuração do segredo
+  - [VarnishAdmin::setTimeout](varnishadmin.settimeout.md) - Define o parâmetro de configuração de tempo limite
+  - [VarnishAdmin::start](varnishadmin.start.md) - Inicia o processo do trabalhador Varnish
+  - [VarnishAdmin::stop](varnishadmin.stop.md) - Inicia o processo do trabalhador Varnish
+  - [VarnishAdmin::\_\_construct](varnishadmin.construct.md) - Construtor de VarnishAdmin
+  - [VarnishLog::getLine](varnishlog.getline.md) - Obtém a próxima linha de registro
+  - [VarnishLog::getTagName](varnishlog.gettagname.md) - Obtém a string da etiqueta de registro pelo seu índice
+  - [VarnishLog::\_\_construct](varnishlog.construct.md) - Construtor de Varnishlog
+  - [VarnishStat::getSnapshot](varnishstat.getsnapshot.md) - Obtém o instantâneo de estatísticas da instância Varnish atual
+  - [VarnishStat::\_\_construct](varnishstat.construct.md) - Construtor de VarnishStat
+  - [var\_dump](function.var-dump.md) - Despeja na saída informações sobre uma variável
+  - [var\_export](function.var-export.md) - Mostra ou retorna uma representação string analisável de uma variável
+  - [var\_representation](function.var-representation.md) - Retorna uma representação de string curta, legível e analisável de uma variável
+  - [version\_compare](function.version-compare.md) - Compara duas strings de número de versão no "padrão PHP"
+  - [vfprintf](function.vfprintf.md) - Escreve uma string formatada para um fluxo
+  - [virtual](function.virtual.md) - Realiza uma sub-requisição Apache
+  - [vprintf](function.vprintf.md) - Mostra uma string formatada
+  - [vsprintf](function.vsprintf.md) - Retorna uma string formatada
+  - [Vtiful\Kernel\Excel::addSheet](vtiful-kernel-excel.addSheet.md) - Vtiful\Kernel\Excel addSheet
+  - [Vtiful\Kernel\Excel::autoFilter](vtiful-kernel-excel.autoFilter.md) - Vtiful\Kernel\Excel autoFilter
+  - [Vtiful\Kernel\Excel::constMemory](vtiful-kernel-excel.constMemory.md) - Vtiful\Kernel\Excel constMemory
+  - [Vtiful\Kernel\Excel::data](vtiful-kernel-excel.data.md) - Vtiful\Kernel\Excel data
+  - [Vtiful\Kernel\Excel::fileName](vtiful-kernel-excel.filename.md) - Vtiful\Kernel\Excel fileName
+  - [Vtiful\Kernel\Excel::getHandle](vtiful-kernel-excel.getHandle.md) - Vtiful\Kernel\Excel getHandle
+  - [Vtiful\Kernel\Excel::header](vtiful-kernel-excel.header.md) - Vtiful\Kernel\Excel header
+  - [Vtiful\Kernel\Excel::insertFormula](vtiful-kernel-excel.insertFormula.md) - Vtiful\Kernel\Excel insertFormula
+  - [Vtiful\Kernel\Excel::insertImage](vtiful-kernel-excel.insertImage.md) - Vtiful\Kernel\Excel insertImage
+  - [Vtiful\Kernel\Excel::insertText](vtiful-kernel-excel.insertText.md) - Vtiful\Kernel\Excel insertText
+  - [Vtiful\Kernel\Excel::mergeCells](vtiful-kernel-excel.mergeCells.md) - Vtiful\Kernel\Excel mergeCells
+  - [Vtiful\Kernel\Excel::output](vtiful-kernel-excel.output.md) - Vtiful\Kernel\Excel output
+  - [Vtiful\Kernel\Excel::setColumn](vtiful-kernel-excel.setColumn.md) - Vtiful\Kernel\Excel setColumn
+  - [Vtiful\Kernel\Excel::setRow](vtiful-kernel-excel.setRow.md) - Vtiful\Kernel\Excel setRow
+  - [Vtiful\Kernel\Excel::\_\_construct](vtiful-kernel-excel.construct.md) - Construtor de Vtiful\Kernel\Excel
+  - [Vtiful\Kernel\Format::align](vtiful-kernel-format.align.md) - Alinhamento de Vtiful\Kernel\Format
+  - [Vtiful\Kernel\Format::bold](vtiful-kernel-format.bold.md) - Vtiful\Kernel\Format negrito
+  - [Vtiful\Kernel\Format::italic](vtiful-kernel-format.italic.md) - Vtiful\Kernel\Format itálico
+  - [Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md) - Vtiful\Kernel\Format sublinhado
+- w
+  - [Warning::\_\_construct](mysql-xdevapi-warning.construct.md) - Construtor de Warning
+  - [wddx\_add\_vars](function.wddx-add-vars.md) - Adiciona variáveis a um pacote WDDX com o IP especificado
+  - [wddx\_deserialize](function.wddx-deserialize.md) - Desserializa um pacote WDDX
+  - [wddx\_packet\_end](function.wddx-packet-end.md) - Finaliza um pacote WDDX com o ID especificado
+  - [wddx\_packet\_start](function.wddx-packet-start.md) - Inicializa um novo pacote WDDX com uma estrutura dentro dele
+  - [wddx\_serialize\_value](function.wddx-serialize-value.md) - Serializa um único valor em um pacote WDDX
+  - [wddx\_serialize\_vars](function.wddx-serialize-vars.md) - Serializa variáveis em um pacote WDDX
+  - [WeakMap::count](weakmap.count.md) - Conta o número de entradas ativas no mapa
+  - [WeakMap::getIterator](weakmap.getiterator.md) - Obtém um iterador externo
+  - [WeakMap::offsetExists](weakmap.offsetexists.md) - Verifica se um certo objeto está no mapa
+  - [WeakMap::offsetGet](weakmap.offsetget.md) - Retorna o valor apontado por um certo objeto
+  - [WeakMap::offsetSet](weakmap.offsetset.md) - Atualiza o mapa com um novo par chave-valor
+  - [WeakMap::offsetUnset](weakmap.offsetunset.md) - Remove uma entrada do mapa
+  - [WeakReference::create](weakreference.create.md) - Cria uma nova referência fraca
+  - [WeakReference::get](weakreference.get.md) - Obtém um objeto referenciado fracamente
+  - [WeakReference::\_\_construct](weakreference.construct.md) - Construtor que desabilita a instanciação
+  - [Win32Service\RightInfo::getDomain](win32service-rightinfo.get-domain.md) - Retorna o domínio do usuário
+  - [Win32Service\RightInfo::getFullUsername](win32service-rightinfo.get-full-username.md) - Retorna o domínio e o nome de usuário
+  - [Win32Service\RightInfo::getRights](win32service-rightinfo.get-rights.md) - Retorna a lista de direitos
+  - [Win32Service\RightInfo::getUsername](win32service-rightinfo.get-username.md) - Retorna o nome de usuário
+  - [Win32Service\RightInfo::isDenyAccess](win32service-rightinfo.is-deny-access.md) - Informa se o objeto RightInfo diz respeito a acesso negado ao recurso
+  - [Win32Service\RightInfo::isGrantAccess](win32service-rightinfo.is-grant-access.md) - Informa se o objeto RightInfo diz respeito a acesso permitido ao recurso
+  - [Win32Service\RightInfo::\_\_construct](win32service-rightinfo.construct.md) - Cria um novo objeto (não utilizado)
+  - [win32\_add\_right\_access\_service](function.win32-add-right-access-service.md) - Adiciona direitos de acesso para um nome de usuário ao serviço
+  - [win32\_add\_service\_env\_var](function.win32-add-service-env-var.md) - Adiciona variável ​​de ambiente personalizada no serviço
+  - [win32\_continue\_service](function.win32-continue-service.md) - Continua um serviço pausado
+  - [win32\_create\_service](function.win32-create-service.md) - Cria uma nova entrada de serviço no banco de dados do GCS
+  - [win32\_delete\_service](function.win32-delete-service.md) - Exclui uma entrada de serviço do banco de dados do GCS
+  - [win32\_get\_last\_control\_message](function.win32-get-last-control-message.md) - Retorna a última mensagem de controle enviada para este serviço
+  - [win32\_get\_service\_env\_vars](function.win32-get-service-env-vars.md) - Lê todas as variáveis ​​de ambiente personalizadas no serviço
+  - [win32\_pause\_service](function.win32-pause-service.md) - Pausa um serviço
+  - [win32\_query\_service\_status](function.win32-query-service-status.md) - Consulta o status de um serviço
+  - [win32\_read\_all\_rights\_access\_service](function.win32-read-all-rights-access-service.md) - Lê todos os direitos de acesso ao serviço
+  - [win32\_read\_right\_access\_service](function.win32-read-right-access-service.md) - Lê os direitos de acesso de serviço para um nome de usuário
+  - [win32\_remove\_right\_access\_service](function.win32-remove-right-access-service.md) - Remove os direitos de acesso ao serviço para um nome de usuário
+  - [win32\_remove\_service\_env\_var](function.win32-remove-service-env-var.md) - Remove uma variável de ambiente personalizada no serviço
+  - [win32\_send\_custom\_control](function.win32-send-custom-control.md) - Envia um controle personalizado para o serviço
+  - [win32\_set\_service\_exit\_code](function.win32-set-service-exit-code.md) - Define ou retorna o código de saída do serviço em execução atual
+  - [win32\_set\_service\_exit\_mode](function.win32-set-service-exit-mode.md) - Define ou retorna o modo de saída do serviço em execução atual
+  - [win32\_set\_service\_pause\_resume\_state](function.win32-set-service-pause-resume-state.md) - Define ou retorna o recurso de pausa/retomada para o serviço em execução atual
+  - [win32\_set\_service\_status](function.win32-set-service-status.md) - Atualiza o status do serviço
+  - [win32\_start\_service](function.win32-start-service.md) - Inicia um serviço
+  - [win32\_start\_service\_ctrl\_dispatcher](function.win32-start-service-ctrl-dispatcher.md) - Registra o script no GCS, para que ele possa atuar como o serviço com o nome fornecido
+  - [win32\_stop\_service](function.win32-stop-service.md) - Interrompe um serviço
+  - [wincache\_fcache\_fileinfo](function.wincache-fcache-fileinfo.md) - Recupera informações sobre arquivos armazenados em cache no cache de arquivos
+  - [wincache\_fcache\_meminfo](function.wincache-fcache-meminfo.md) - Recupera informações sobre o uso da memória cache do arquivo
+  - [wincache\_lock](function.wincache-lock.md) - Adquire um bloqueio exclusivo em uma determinada chave
+  - [wincache\_ocache\_fileinfo](function.wincache-ocache-fileinfo.md) - Recupera informações sobre arquivos armazenados em cache no cache do opcode
+  - [wincache\_ocache\_meminfo](function.wincache-ocache-meminfo.md) - Recupera informações sobre o uso da memória cache do opcode
+  - [wincache\_refresh\_if\_changed](function.wincache-refresh-if-changed.md) - Atualiza as entradas de cache para os arquivos armazenados em cache
+  - [wincache\_rplist\_fileinfo](function.wincache-rplist-fileinfo.md) - Recupera informações sobre o cache do caminho do arquivo de resolução
+  - [wincache\_rplist\_meminfo](function.wincache-rplist-meminfo.md) - Recupera informações sobre o uso de memória pelo cache do caminho do arquivo de resolução
+  - [wincache\_scache\_info](function.wincache-scache-info.md) - Recupera informações sobre arquivos armazenados em cache no cache de sessão
+  - [wincache\_scache\_meminfo](function.wincache-scache-meminfo.md) - Recupera informações sobre o uso da memória cache da sessão
+  - [wincache\_ucache\_add](function.wincache-ucache-add.md) - Adiciona uma variável no cache do usuário somente se a variável ainda não existir no cache
+  - [wincache\_ucache\_cas](function.wincache-ucache-cas.md) - Compara a variável com o valor antigo e atribui um novo valor a ela
+  - [wincache\_ucache\_clear](function.wincache-ucache-clear.md) - Exclui todo o conteúdo do cache do usuário
+  - [wincache\_ucache\_dec](function.wincache-ucache-dec.md) - Decrementa o valor associado à chave
+  - [wincache\_ucache\_delete](function.wincache-ucache-delete.md) - Exclui variáveis ​​do cache do usuário
+  - [wincache\_ucache\_exists](function.wincache-ucache-exists.md) - Verifica se uma variável existe no cache do usuário
+  - [wincache\_ucache\_get](function.wincache-ucache-get.md) - Obtém uma variável armazenada no cache do usuário
+  - [wincache\_ucache\_inc](function.wincache-ucache-inc.md) - Incrementa o valor associado à chave
+  - [wincache\_ucache\_info](function.wincache-ucache-info.md) - Recupera informações sobre dados armazenados no cache do usuário
+  - [wincache\_ucache\_meminfo](function.wincache-ucache-meminfo.md) - Recupera informações sobre o uso da memória cache do usuário
+  - [wincache\_ucache\_set](function.wincache-ucache-set.md) - Adiciona uma variável no cache do usuário e substitui uma variável se ela já existir no cache
+  - [wincache\_unlock](function.wincache-unlock.md) - Libera um bloqueio exclusivo em uma determinada chave
+  - [wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md) - Executa conversão de imagem
+  - [wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md) - Determina a versão do conversor
+  - [wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md) - Cria um novo conversor de imagem
+  - [wkhtmltox\PDF\Converter::add](wkhtmltox-pdf-converter.add.md) - Adiciona um objeto para conversão
+  - [wkhtmltox\PDF\Converter::convert](wkhtmltox-pdf-converter.convert.md) - Executa conversão de PDF
+  - [wkhtmltox\PDF\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md) - Determina a versão do conversor
+  - [wkhtmltox\PDF\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.md) - Criar um novo conversor de PDF
+  - [wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md) - Criar um novo objeto PDF
+  - [wordwrap](function.wordwrap.md) - Quebra uma string em um dado número de caracteres
+  - [Worker::collect](worker.collect.md) - Coleta referências a tarefas concluídas
+  - [Worker::getStacked](worker.getstacked.md) - Obtém o tamanho da pilha restante
+  - [Worker::isShutdown](worker.isshutdown.md) - Detecção de estado
+  - [Worker::shutdown](worker.shutdown.md) - Desliga o trabalhador
+  - [Worker::stack](worker.stack.md) - Trabalho de empilhamento
+  - [Worker::unstack](worker.unstack.md) - Trabalho de desempilhamento
+- x
+  - [xattr\_get](function.xattr-get.md) - Obtém um atributo estendido
+  - [xattr\_list](function.xattr-list.md) - Obtém uma lista de atributos estendidos
+  - [xattr\_remove](function.xattr-remove.md) - Remove um atributo estendido
+  - [xattr\_set](function.xattr-set.md) - Define um atributo estendido
+  - [xattr\_supported](function.xattr-supported.md) - Verifique se o sistema de arquivos suporta atributos estendidos
+  - [xdiff\_file\_bdiff](function.xdiff-file-bdiff.md) - Diferencia dois arquivos de forma binária
+  - [xdiff\_file\_bdiff\_size](function.xdiff-file-bdiff-size.md) - Lê um tamanho de arquivo criado pela aplicação de um diff binário
+  - [xdiff\_file\_bpatch](function.xdiff-file-bpatch.md) - Corrige um arquivo com uma diferença binária
+  - [xdiff\_file\_diff](function.xdiff-file-diff.md) - Faz uma comparação unificada de dois arquivos
+  - [xdiff\_file\_diff\_binary](function.xdiff-file-diff-binary.md) - Sinônimo de xdiff\_file\_bdiff
+  - [xdiff\_file\_merge3](function.xdiff-file-merge3.md) - Mescla 3 arquivos em um
+  - [xdiff\_file\_patch](function.xdiff-file-patch.md) - Corrige um arquivo com uma comparação unificada
+  - [xdiff\_file\_patch\_binary](function.xdiff-file-patch-binary.md) - Sinônimo de xdiff\_file\_bpatch
+  - [xdiff\_file\_rabdiff](function.xdiff-file-rabdiff.md) - Faz a comparação binária de dois arquivos usando o algoritmo de impressão digital polinomial de Rabin
+  - [xdiff\_string\_bdiff](function.xdiff-string-bdiff.md) - Faz diferença binária de duas strings
+  - [xdiff\_string\_bdiff\_size](function.xdiff-string-bdiff-size.md) - Lê um tamanho de arquivo criado pela aplicação de uma comparação binária
+  - [xdiff\_string\_bpatch](function.xdiff-string-bpatch.md) - Corrige uma string com uma diferença binária
+  - [xdiff\_string\_diff](function.xdiff-string-diff.md) - Faz uma diferença unificada entre duas strings
+  - [xdiff\_string\_diff\_binary](function.xdiff-string-diff-binary.md) - Sinônimo de xdiff\_string\_bdiff
+  - [xdiff\_string\_merge3](function.xdiff-string-merge3.md) - Mesclar 3 strings em uma
+  - [xdiff\_string\_patch](function.xdiff-string-patch.md) - Altera uma string com uma correção unificada
+  - [xdiff\_string\_patch\_binary](function.xdiff-string-patch-binary.md) - Sinônimo de xdiff\_string\_bpatch
+  - [xdiff\_string\_rabdiff](function.xdiff-string-rabdiff.md) - Gera a diferença binária de duas strings usando o algoritmo de impressão digital polinomial de Rabin
+  - [xhprof\_disable](function.xhprof-disable.md) - Interrompe o perfilador xhprof
+  - [xhprof\_enable](function.xhprof-enable.md) - Inicia o perfilador xhprof
+  - [xhprof\_sample\_disable](function.xhprof-sample-disable.md) - Interrompe o perfilador de amostra xhprof
+  - [xhprof\_sample\_enable](function.xhprof-sample-enable.md) - Inicia o perfilador do XHProf no modo de amostragem
+  - [XMLDiff\Base::diff](xmldiff-base.diff.md) - Produz diferença entre dois documentos XML
+  - [XMLDiff\Base::merge](xmldiff-base.merge.md) - Produz novo documento XML com base em diferenças
+  - [XMLDiff\Base::\_\_construct](xmldiff-base.construct.md) - Construtor
+  - [XMLDiff\DOM::diff](xmldiff-dom.diff.md) - Diferencia dois objetos DOMDocument
+  - [XMLDiff\DOM::merge](xmldiff-dom.merge.md) - Produz DOMDocument mesclado
+  - [XMLDiff\File::diff](xmldiff-file.diff.md) - Diferencia dois arquivos XML
+  - [XMLDiff\File::merge](xmldiff-file.merge.md) - Produz documento XML mesclado
+  - [XMLDiff\Memory::diff](xmldiff-memory.diff.md) - Diferencia dois documentos XML
+  - [XMLDiff\Memory::merge](xmldiff-memory.merge.md) - Produz documento XML mesclado
+  - [XMLReader::close](xmlreader.close.md) - Fecha a entrada XMLReader
+  - [XMLReader::expand](xmlreader.expand.md) - Retorna uma cópia do nó atual como um objeto DOM
+  - [XMLReader::fromStream](xmlreader.fromstream.md) - Cria um XMLReader a partir de um fluxo para leitura
+  - [XMLReader::fromString](xmlreader.fromstring.md) - Cria um XMLReader a partir de uma string XML
+  - [XMLReader::fromUri](xmlreader.fromuri.md) - Cria um XMLReader a partir de um URI para leitura
+  - [XMLReader::getAttribute](xmlreader.getattribute.md) - Obtém o valor de um atributo nomeado
+  - [XMLReader::getAttributeNo](xmlreader.getattributeno.md) - Obtém o valor de um atributo pelo índice
+  - [XMLReader::getAttributeNs](xmlreader.getattributens.md) - Obtém o valor de um atributo pelo nome local e URI do namespace
+  - [XMLReader::getParserProperty](xmlreader.getparserproperty.md) - Indica se a propriedade especificada foi definida
+  - [XMLReader::isValid](xmlreader.isvalid.md) - Indica se o documento analisado é válido
+  - [XMLReader::lookupNamespace](xmlreader.lookupnamespace.md) - Busca namespace para um prefixo
+  - [XMLReader::moveToAttribute](xmlreader.movetoattribute.md) - Move o cursor para um atributo nomeado
+  - [XMLReader::moveToAttributeNo](xmlreader.movetoattributeno.md) - Move o cursor para um atributo pelo índice
+  - [XMLReader::moveToAttributeNs](xmlreader.movetoattributens.md) - Move o cursor para um atributo nomeado
+  - [XMLReader::moveToElement](xmlreader.movetoelement.md) - Posiciona o cursor no elemento pai do atributo atual
+  - [XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.md) - Posiciona o cursor no primeiro atributo
+  - [XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md) - Posiciona o cursor no próximo atributo
+  - [XMLReader::next](xmlreader.next.md) - Move o cursor para o próximo nó pulando todas as subárvores
+  - [XMLReader::open](xmlreader.open.md) - Define o URI que contém o XML a ser analisado
+  - [XMLReader::read](xmlreader.read.md) - Move para o próximo nó no documento
+  - [XMLReader::readInnerXml](xmlreader.readinnerxml.md) - Obtém XML do nó atual
+  - [XMLReader::readOuterXml](xmlreader.readouterxml.md) - Obtém XML do nó atual, incluindo ele mesmo
+  - [XMLReader::readString](xmlreader.readstring.md) - Lê o conteúdo do nó atual como uma string
+  - [XMLReader::setParserProperty](xmlreader.setparserproperty.md) - Define opções do analisador
+  - [XMLReader::setRelaxNGSchema](xmlreader.setrelaxngschema.md) - Define o nome do arquivo ou URI para um esquema RelaxNG
+  - [XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md) - Define os dados contendo um esquema RelaxNG
+  - [XMLReader::setSchema](xmlreader.setschema.md) - Valida documento contra XSD
+  - [XMLReader::XML](xmlreader.xml.md) - Define os dados contendo o XML a ser analisado
+  - [xmlrpc\_decode](function.xmlrpc-decode.md) - Decodifica XML para tipos nativos do PHP
+  - [xmlrpc\_decode\_request](function.xmlrpc-decode-request.md) - Decodifica XML para tipos nativos do PHP
+  - [xmlrpc\_encode](function.xmlrpc-encode.md) - Gera XML para um valor do PHP
+  - [xmlrpc\_encode\_request](function.xmlrpc-encode-request.md) - Gera XML para uma requisição de método
+  - [xmlrpc\_get\_type](function.xmlrpc-get-type.md) - Obtém o tipo XML-RPC para um valor PHP
+  - [xmlrpc\_is\_fault](function.xmlrpc-is-fault.md) - Determina se um valor de array representa uma falha XML-RPC
+  - [xmlrpc\_parse\_method\_descriptions](function.xmlrpc-parse-method-descriptions.md) - Decodifica XML e gera uma lista de descrição de métodos
+  - [xmlrpc\_server\_add\_introspection\_data](function.xmlrpc-server-add-introspection-data.md) - Adiciona documentação de introspecção
+  - [xmlrpc\_server\_call\_method](function.xmlrpc-server-call-method.md) - Trata requisiçães de XML e chamadas de métodos
+  - [xmlrpc\_server\_create](function.xmlrpc-server-create.md) - Cria um servidor xmlrpc
+  - [xmlrpc\_server\_destroy](function.xmlrpc-server-destroy.md) - Destrói recursos de servidor
+  - [xmlrpc\_server\_register\_introspection\_callback](function.xmlrpc-server-register-introspection-callback.md) - Registra uma função do PHP para gerar documentação
+  - [xmlrpc\_server\_register\_method](function.xmlrpc-server-register-method.md) - Registra uma função do PHP para o método com nome method\_name
+  - [xmlrpc\_set\_type](function.xmlrpc-set-type.md) - Define o tipo xmlrpc, base64 ou datetime, para um valor string PHP
+  - [XMLWriter::endAttribute](xmlwriter.endattribute.md) - Termina o atributo
+  - [XMLWriter::endCdata](xmlwriter.endcdata.md) - Termina o CDATA atual
+  - [XMLWriter::endComment](xmlwriter.endcomment.md) - Termina o comentário
+  - [XMLWriter::endDocument](xmlwriter.enddocument.md) - Termina o documento atual
+  - [XMLWriter::endDtd](xmlwriter.enddtd.md) - Termina o DTD atual
+  - [XMLWriter::endDtdAttlist](xmlwriter.enddtdattlist.md) - Termina a a lista de atributos do DTD atual
+  - [XMLWriter::endDtdElement](xmlwriter.enddtdelement.md) - Termina o elemento DTD atual
+  - [XMLWriter::endDtdEntity](xmlwriter.enddtdentity.md) - Encerra a entidade DTD atual
+  - [XMLWriter::endElement](xmlwriter.endelement.md) - Termina o elemento atual
+  - [XMLWriter::endPi](xmlwriter.endpi.md) - Encerra a instrução de processamento atual
+  - [XMLWriter::flush](xmlwriter.flush.md) - Limpa o buffer atual
+  - [XMLWriter::fullEndElement](xmlwriter.fullendelement.md) - Termina o elemento atual
+  - [XMLWriter::openMemory](xmlwriter.openmemory.md) - Cria um novo xmlwriter usando memória para saída de string
+  - [XMLWriter::openUri](xmlwriter.openuri.md) - Cria um novo xmlwriter usando o URI de origem para saída
+  - [XMLWriter::outputMemory](xmlwriter.outputmemory.md) - Retorna o buffer atual
+  - [XMLWriter::setIndent](xmlwriter.setindent.md) - Ativa/desativa o recuo
+  - [XMLWriter::setIndentString](xmlwriter.setindentstring.md) - Define a string usada para recuo
+  - [XMLWriter::startAttribute](xmlwriter.startattribute.md) - Inicia um atributo
+  - [XMLWriter::startAttributeNs](xmlwriter.startattributens.md) - Inicia um atributo com namespace
+  - [XMLWriter::startCdata](xmlwriter.startcdata.md) - Cria tag de início de CDATA
+  - [XMLWriter::startComment](xmlwriter.startcomment.md) - Cria tag de início de comentário
+  - [XMLWriter::startDocument](xmlwriter.startdocument.md) - Cria tag de documento
+  - [XMLWriter::startDtd](xmlwriter.startdtd.md) - Cria tag DTD inicial
+  - [XMLWriter::startDtdAttlist](xmlwriter.startdtdattlist.md) - Inicia uma lista de atributos DTD
+  - [XMLWriter::startDtdElement](xmlwriter.startdtdelement.md) - Cria elemento DTD inicial
+  - [XMLWriter::startDtdEntity](xmlwriter.startdtdentity.md) - Cria entidade DTD inicial
+  - [XMLWriter::startElement](xmlwriter.startelement.md) - Cria a tag de início de elemento
+  - [XMLWriter::startElementNs](xmlwriter.startelementns.md) - Cria tag de elemento com namespace inicial
+  - [XMLWriter::startPi](xmlwriter.startpi.md) - Cria tag PI inicial
+  - [XMLWriter::text](xmlwriter.text.md) - Escreve texto
+  - [XMLWriter::toMemory](xmlwriter.tomemory.md) - Cria um novo XMLWriter usando memória para saída de string
+  - [XMLWriter::toStream](xmlwriter.tostream.md) - Cria um novo XMLWriter usando um fluxo para saída
+  - [XMLWriter::toUri](xmlwriter.touri.md) - Cria um novo XMLWriter usando um URI para saída
+  - [XMLWriter::writeAttribute](xmlwriter.writeattribute.md) - Escreve atributo completo
+  - [XMLWriter::writeAttributeNs](xmlwriter.writeattributens.md) - Escreve atributo com namespace completo
+  - [XMLWriter::writeCdata](xmlwriter.writecdata.md) - Escreve tag CDATA completa
+  - [XMLWriter::writeComment](xmlwriter.writecomment.md) - Escreve tag de comentário completa
+  - [XMLWriter::writeDtd](xmlwriter.writedtd.md) - Escreve tag DTD completa
+  - [XMLWriter::writeDtdAttlist](xmlwriter.writedtdattlist.md) - Escreve a tag de lista de atributos DTD completa
+  - [XMLWriter::writeDtdElement](xmlwriter.writedtdelement.md) - Escreve a tag completa do elemento DTD
+  - [XMLWriter::writeDtdEntity](xmlwriter.writedtdentity.md) - Escreve a tag de entidade DTD completa
+  - [XMLWriter::writeElement](xmlwriter.writeelement.md) - Escreve uma tag de elemento completa
+  - [XMLWriter::writeElementNs](xmlwriter.writeelementns.md) - Escreve tag de elemento com namespace completo
+  - [XMLWriter::writePi](xmlwriter.writepi.md) - Escreve uma instrução de processamento
+  - [XMLWriter::writeRaw](xmlwriter.writeraw.md) - Escreve um texto XML bruto
+  - [xml\_error\_string](function.xml-error-string.md) - Obtém uma string de erro do analisador XML
+  - [xml\_get\_current\_byte\_index](function.xml-get-current-byte-index.md) - Obtém índice de bytes atual para um analisador XML
+  - [xml\_get\_current\_column\_number](function.xml-get-current-column-number.md) - Obtém o número da coluna atual para um analisador XML
+  - [xml\_get\_current\_line\_number](function.xml-get-current-line-number.md) - Obtém o número da linha atual para um analisador XML
+  - [xml\_get\_error\_code](function.xml-get-error-code.md) - Obtém um código de erro do analisador XML
+  - [xml\_parse](function.xml-parse.md) - Inicia análise de um documento XML
+  - [xml\_parser\_create](function.xml-parser-create.md) - Cria um analisador XML
+  - [xml\_parser\_create\_ns](function.xml-parser-create-ns.md) - Cria um analisador XML com suporte a espaço de nomes
+  - [xml\_parser\_free](function.xml-parser-free.md) - Libera um analisador XML
+  - [xml\_parser\_get\_option](function.xml-parser-get-option.md) - Obtém as opções de um analisador XML
+  - [xml\_parser\_set\_option](function.xml-parser-set-option.md) - Define opções em um analisador XML
+  - [xml\_parse\_into\_struct](function.xml-parse-into-struct.md) - Analisa dados XML dentro de uma estrutura de array
+  - [xml\_set\_character\_data\_handler](function.xml-set-character-data-handler.md) - Configura manipulador de dados de caracteres
+  - [xml\_set\_default\_handler](function.xml-set-default-handler.md) - Configura manipulador padrão
+  - [xml\_set\_element\_handler](function.xml-set-element-handler.md) - Configura manipuladores de elementos de início e fim
+  - [xml\_set\_end\_namespace\_decl\_handler](function.xml-set-end-namespace-decl-handler.md) - Configura manipulador de declaração de namespace final
+  - [xml\_set\_external\_entity\_ref\_handler](function.xml-set-external-entity-ref-handler.md) - Configura manipulador de referência de entidade externa
+  - [xml\_set\_notation\_decl\_handler](function.xml-set-notation-decl-handler.md) - Configura manipulador de declaração de notação
+  - [xml\_set\_object](function.xml-set-object.md) - Use o analisador XML dentro de um objeto
+  - [xml\_set\_processing\_instruction\_handler](function.xml-set-processing-instruction-handler.md) - Configura manipulador de instruções de processamento (PI)
+  - [xml\_set\_start\_namespace\_decl\_handler](function.xml-set-start-namespace-decl-handler.md) - Configura manipulador de declaração de namespace inicial
+  - [xml\_set\_unparsed\_entity\_decl\_handler](function.xml-set-unparsed-entity-decl-handler.md) - Configura manipulador de declaração de entidade não analisada
+  - [XSLTProcessor::getParameter](xsltprocessor.getparameter.md) - Obtém o valor de um parâmetro
+  - [XSLTProcessor::getSecurityPrefs](xsltprocessor.getsecurityprefs.md) - Obtém as preferências de segurança
+  - [XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md) - Verifica se o PHP tem suporte a EXSLT
+  - [XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md) - Importa folha de estilos
+  - [XSLTProcessor::registerPHPFunctionNS](xsltprocessor.registerphpfunctionns.md) - Registra uma função PHP como uma função XSLT com namespace
+  - [XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.md) - Habilita o uso de funções do PHP como funções XSLT
+  - [XSLTProcessor::removeParameter](xsltprocessor.removeparameter.md) - Remove parâmetro
+  - [XSLTProcessor::setParameter](xsltprocessor.setparameter.md) - Define um valor para um parâmetro
+  - [XSLTProcessor::setProfiling](xsltprocessor.setprofiling.md) - Define o arquivo de saída de perfil
+  - [XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md) - Define preferências de segurança
+  - [XSLTProcessor::transformToDoc](xsltprocessor.transformtodoc.md) - Transforma em um documento
+  - [XSLTProcessor::transformToURI](xsltprocessor.transformtouri.md) - Transforma em URI
+  - [XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md) - Transforma em XML
+  - [XSLTProcessor::\_\_construct](xsltprocessor.construct.md) - Cria um novo objeto XSLTProcessor
+- y
+  - [Yac::add](yac.add.md) - Armazena em cache
+  - [Yac::delete](yac.delete.md) - Exclui itens do cache
+  - [Yac::dump](yac.dump.md) - Despeja o cache
+  - [Yac::flush](yac.flush.md) - Descarrega o cache
+  - [Yac::get](yac.get.md) - Obtém valores do cache
+  - [Yac::info](yac.info.md) - Obtém o status do cache
+  - [Yac::set](yac.set.md) - Armazena no cache
+  - [Yac::\_\_construct](yac.construct.md) - Construtor
+  - [Yac::\_\_get](yac.getter.md) - Obtém valores do cache
+  - [Yac::\_\_set](yac.setter.md) - Armazena no cache
+  - [Yaconf::get](yaconf.get.md) - Recupera um item
+  - [Yaconf::has](yaconf.has.md) - Determina se um item existe
+  - [Yaconf::\_\_debug\_info](yaconf.debug-info.md) - Inspect how a configuration value is stored
+  - [Yaf\_Action\_Abstract::execute](yaf-action-abstract.execute.md) - Ponto de entrada da ação
+  - [Yaf\_Action\_Abstract::getController](yaf-action-abstract.getcontroller.md) - Obtém o objeto controlador
+  - [Yaf\_Action\_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md) - Obtém o nome do controlador
+  - [Yaf\_Application::app](yaf-application.app.md) - Obtém uma instância da aplicação
+  - [Yaf\_Application::bootstrap](yaf-application.bootstrap.md) - Chama o bootstrap
+  - [Yaf\_Application::clearLastError](yaf-application.clearlasterror.md) - Limpa a última informação de erro
+  - [Yaf\_Application::environ](yaf-application.environ.md) - Obtém o ambiente
+  - [Yaf\_Application::execute](yaf-application.execute.md) - Executa uma chamada de função de retorno
+  - [Yaf\_Application::getAppDirectory](yaf-application.getappdirectory.md) - Obtém o diretório da aplicação
+  - [Yaf\_Application::getConfig](yaf-application.getconfig.md) - Obtém a instância da configuração
+  - [Yaf\_Application::getDispatcher](yaf-application.getdispatcher.md) - Obtém a instância de Yaf\_Dispatcher
+  - [Yaf\_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md) - Obtém a mensagem do último erro ocorrido
+  - [Yaf\_Application::getLastErrorNo](yaf-application.getlasterrorno.md) - Obtém o código do último erro ocorrido
+  - [Yaf\_Application::getModules](yaf-application.getmodules.md) - Obtém os nomes dos módulos definidos
+  - [Yaf\_Application::run](yaf-application.run.md) - Inicia a Yaf\_Application
+  - [Yaf\_Application::setAppDirectory](yaf-application.setappdirectory.md) - Altera o diretório da aplicação
+  - [Yaf\_Application::\_\_construct](yaf-application.construct.md) - Construtor de Yaf\_Application
+  - [Yaf\_Application::\_\_destruct](yaf-application.destruct.md) - \_\_destruct
+  - [Yaf\_Config\_Abstract::get](yaf-config-abstract.get.md) - Obtém uma configuração
+  - [Yaf\_Config\_Abstract::readonly](yaf-config-abstract.readonly.md) - Informa se a configuração é somente-leitura
+  - [Yaf\_Config\_Abstract::set](yaf-config-abstract.set.md) - Define uma configuração
+  - [Yaf\_Config\_Abstract::toArray](yaf-config-abstract.toarray.md) - Converte para um array
+  - [Yaf\_Config\_Ini::count](yaf-config-ini.count.md) - Conta todos os elementos de Yaf\_Config.ini
+  - [Yaf\_Config\_Ini::current](yaf-config-ini.current.md) - Obtém o valor atual
+  - [Yaf\_Config\_Ini::key](yaf-config-ini.key.md) - Busca a chave do elemento atual
+  - [Yaf\_Config\_Ini::next](yaf-config-ini.next.md) - Avança o ponteiro interno
+  - [Yaf\_Config\_Ini::offsetExists](yaf-config-ini.offsetexists.md) - offsetExists
+  - [Yaf\_Config\_Ini::offsetGet](yaf-config-ini.offsetget.md) - offsetGet
+  - [Yaf\_Config\_Ini::offsetSet](yaf-config-ini.offsetset.md) - offsetSet
+  - [Yaf\_Config\_Ini::offsetUnset](yaf-config-ini.offsetunset.md) - offsetUnset
+  - [Yaf\_Config\_Ini::readonly](yaf-config-ini.readonly.md) - readonly
+  - [Yaf\_Config\_Ini::rewind](yaf-config-ini.rewind.md) - rewind
+  - [Yaf\_Config\_Ini::toArray](yaf-config-ini.toarray.md) - Retorna a configuração como um array PHP
+  - [Yaf\_Config\_Ini::valid](yaf-config-ini.valid.md) - valid
+  - [Yaf\_Config\_Ini::\_\_construct](yaf-config-ini.construct.md) - Construtor de Yaf\_Config\_Ini
+  - [Yaf\_Config\_Ini::\_\_get](yaf-config-ini.get.md) - Obtém um elemento
+  - [Yaf\_Config\_Ini::\_\_isset](yaf-config-ini.isset.md) - Determina se uma chave existe
+  - [Yaf\_Config\_Ini::\_\_set](yaf-config-ini.set.md) - \_\_set
+  - [Yaf\_Config\_Simple::count](yaf-config-simple.count.md) - count
+  - [Yaf\_Config\_Simple::current](yaf-config-simple.current.md) - current
+  - [Yaf\_Config\_Simple::key](yaf-config-simple.key.md) - key
+  - [Yaf\_Config\_Simple::next](yaf-config-simple.next.md) - next
+  - [Yaf\_Config\_Simple::offsetExists](yaf-config-simple.offsetexists.md) - offsetExists
+  - [Yaf\_Config\_Simple::offsetGet](yaf-config-simple.offsetget.md) - offsetGet
+  - [Yaf\_Config\_Simple::offsetSet](yaf-config-simple.offsetset.md) - offsetSet
+  - [Yaf\_Config\_Simple::offsetUnset](yaf-config-simple.offsetunset.md) - offsetUnset
+  - [Yaf\_Config\_Simple::readonly](yaf-config-simple.readonly.md) - readonly
+  - [Yaf\_Config\_Simple::rewind](yaf-config-simple.rewind.md) - rewind
+  - [Yaf\_Config\_Simple::toArray](yaf-config-simple.toarray.md) - Converte para um array PHP
+  - [Yaf\_Config\_Simple::valid](yaf-config-simple.valid.md) - valid
+  - [Yaf\_Config\_Simple::\_\_construct](yaf-config-simple.construct.md) - \_\_construct
+  - [Yaf\_Config\_Simple::\_\_get](yaf-config-simple.get.md) - \_\_get
+  - [Yaf\_Config\_Simple::\_\_isset](yaf-config-simple.isset.md) - \_\_isset
+  - [Yaf\_Config\_Simple::\_\_set](yaf-config-simple.set.md) - \_\_set
+  - [Yaf\_Controller\_Abstract::display](yaf-controller-abstract.display.md) - display
+  - [Yaf\_Controller\_Abstract::forward](yaf-controller-abstract.forward.md) - Encaminha para outra ação
+  - [Yaf\_Controller\_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md) - getInvokeArg
+  - [Yaf\_Controller\_Abstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.md) - getInvokeArgs
+  - [Yaf\_Controller\_Abstract::getModuleName](yaf-controller-abstract.getmodulename.md) - Obtém o nome do módulo
+  - [Yaf\_Controller\_Abstract::getName](yaf-controller-abstract.getname.md) - Obtém o próprio nome
+  - [Yaf\_Controller\_Abstract::getRequest](yaf-controller-abstract.getrequest.md) - Obtém o objeto da requisição atual
+  - [Yaf\_Controller\_Abstract::getResponse](yaf-controller-abstract.getresponse.md) - Obtém o objeto da resposta atual
+  - [Yaf\_Controller\_Abstract::getView](yaf-controller-abstract.getview.md) - Obtém o mecanismo de visualização
+  - [Yaf\_Controller\_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md) - getViewpath
+  - [Yaf\_Controller\_Abstract::init](yaf-controller-abstract.init.md) - Inicializador do controlador
+  - [Yaf\_Controller\_Abstract::initView](yaf-controller-abstract.initview.md) - initView
+  - [Yaf\_Controller\_Abstract::redirect](yaf-controller-abstract.redirect.md) - Redireciona para um URL
+  - [Yaf\_Controller\_Abstract::render](yaf-controller-abstract.render.md) - Renderiza o modelo de visualização
+  - [Yaf\_Controller\_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md) - setViewpath
+  - [Yaf\_Controller\_Abstract::\_\_construct](yaf-controller-abstract.construct.md) - Construtor de Yaf\_Controller\_Abstract
+  - [Yaf\_Dispatcher::autoRender](yaf-dispatcher.autorender.md) - Ativa/desativa a renderização automática
+  - [Yaf\_Dispatcher::catchException](yaf-dispatcher.catchexception.md) - Ativa/desativa a captura de exceções
+  - [Yaf\_Dispatcher::disableView](yaf-dispatcher.disableview.md) - Desativa a renderização de visualização
+  - [Yaf\_Dispatcher::dispatch](yaf-dispatcher.dispatch.md) - Despacha uma requisição
+  - [Yaf\_Dispatcher::enableView](yaf-dispatcher.enableview.md) - Ativa a renderização de visualização
+  - [Yaf\_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.md) - Liga/desliga o descarregamento instantânea
+  - [Yaf\_Dispatcher::getApplication](yaf-dispatcher.getapplication.md) - Obtém a aplicação
+  - [Yaf\_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.md) - Obtém o nome da ação padrão
+  - [Yaf\_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md) - Obtém o nome do controlador padrão
+  - [Yaf\_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md) - Obtém o nome do módulo padrão
+  - [Yaf\_Dispatcher::getInstance](yaf-dispatcher.getinstance.md) - Obtém a instância do despachante
+  - [Yaf\_Dispatcher::getRequest](yaf-dispatcher.getrequest.md) - Obtém a instância da requisição
+  - [Yaf\_Dispatcher::getResponse](yaf-dispatcher.getresponse.md) - Get the response object
+  - [Yaf\_Dispatcher::getRouter](yaf-dispatcher.getrouter.md) - Obtém a instância do roteador
+  - [Yaf\_Dispatcher::initView](yaf-dispatcher.initview.md) - Inicializa a visualização e a retorna
+  - [Yaf\_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.md) - Registra um plugin
+  - [Yaf\_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.md) - returnResponse
+  - [Yaf\_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md) - Altera o nome da ação padrão
+  - [Yaf\_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md) - Altera o nome do controlador padrão
+  - [Yaf\_Dispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.md) - Altera o nome do módulo padrão
+  - [Yaf\_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md) - Define o manipulador de erros
+  - [Yaf\_Dispatcher::setRequest](yaf-dispatcher.setrequest.md) - setRequest
+  - [Yaf\_Dispatcher::setResponse](yaf-dispatcher.setresponse.md) - Set the response object
+  - [Yaf\_Dispatcher::setView](yaf-dispatcher.setview.md) - Define um mecanismo de visualização customizado
+  - [Yaf\_Dispatcher::throwException](yaf-dispatcher.throwexception.md) - Ativa/desativa o lançamento de exceção
+  - [Yaf\_Dispatcher::\_\_construct](yaf-dispatcher.construct.md) - Construtor de Yaf\_Dispatcher
+  - [Yaf\_Exception::getPrevious](yaf-exception.getprevious.md) - getPrevious
+  - [Yaf\_Exception::\_\_construct](yaf-exception.construct.md) - \_\_construct
+  - [Yaf\_Loader::autoload](yaf-loader.autoload.md) - autoload
+  - [Yaf\_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md) - clearLocalNamespace
+  - [Yaf\_Loader::getInstance](yaf-loader.getinstance.md) - getInstance
+  - [Yaf\_Loader::getLibraryPath](yaf-loader.getlibrarypath.md) - Obtem o caminho da biblioteca
+  - [Yaf\_Loader::getLocalNamespace](yaf-loader.getnamespaces.md) - Obtém informação de todos os namespaces registrados
+  - [Yaf\_Loader::getNamespacePath](yaf-loader.getnamespacepath.md) - Obtém o caminho do namespace registrado
+  - [Yaf\_Loader::import](yaf-loader.import.md) - import
+  - [Yaf\_Loader::isLocalName](yaf-loader.islocalname.md) - isLocalName
+  - [Yaf\_Loader::registerLocalNamespace](yaf-loader.registerlocalnamespace.md) - Registra prefixo de classe local
+  - [Yaf\_Loader::registerNamespace](yaf-loader.registernamespace.md) - Registra namespace com caminho de pesquisa
+  - [Yaf\_Loader::setLibraryPath](yaf-loader.setlibrarypath.md) - Altera o caminho da biblioteca
+  - [Yaf\_Loader::\_\_construct](yaf-loader.construct.md) - \_\_construct
+  - [Yaf\_Plugin\_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md) - dispatchLoopShutdown
+  - [Yaf\_Plugin\_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md) - Gancho antes do loop de despacho
+  - [Yaf\_Plugin\_Abstract::postDispatch](yaf-plugin-abstract.postdispatch.md) - postDispatch
+  - [Yaf\_Plugin\_Abstract::preDispatch](yaf-plugin-abstract.predispatch.md) - preDispatch
+  - [Yaf\_Plugin\_Abstract::preResponse](yaf-plugin-abstract.preresponse.md) - preResponse
+  - [Yaf\_Plugin\_Abstract::routerShutdown](yaf-plugin-abstract.routershutdown.md) - routerShutdown
+  - [Yaf\_Plugin\_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.md) - Gancho RouterStartup
+  - [Yaf\_Registry::del](yaf-registry.del.md) - Remove um item do registro
+  - [Yaf\_Registry::get](yaf-registry.get.md) - Obtém um item do registro
+  - [Yaf\_Registry::has](yaf-registry.has.md) - Verifica se um item existe
+  - [Yaf\_Registry::set](yaf-registry.set.md) - Adiciona um item ao registro
+  - [Yaf\_Registry::\_\_construct](yaf-registry.construct.md) - Yaf\_Registry implementa singleton
+  - [Yaf\_Request\_Abstract::clearParams](yaf-request-abstract.clearparams.md) - Remove todos os parâmetros
+  - [Yaf\_Request\_Abstract::get](yaf-request-abstract.get.md) - Retrieve a variable from the request
+  - [Yaf\_Request\_Abstract::getActionName](yaf-request-abstract.getactionname.md) - getActionName
+  - [Yaf\_Request\_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.md) - getBaseUri
+  - [Yaf\_Request\_Abstract::getControllerName](yaf-request-abstract.getcontrollername.md) - getControllerName
+  - [Yaf\_Request\_Abstract::getCookie](yaf-request-abstract.getcookie.md) - Fetch a COOKIE variable
+  - [Yaf\_Request\_Abstract::getEnv](yaf-request-abstract.getenv.md) - Obtém a variável ENV
+  - [Yaf\_Request\_Abstract::getException](yaf-request-abstract.getexception.md) - getException
+  - [Yaf\_Request\_Abstract::getFiles](yaf-request-abstract.getfiles.md) - Fetch uploaded files
+  - [Yaf\_Request\_Abstract::getLanguage](yaf-request-abstract.getlanguage.md) - Obtém a língua preferida do cliente
+  - [Yaf\_Request\_Abstract::getMethod](yaf-request-abstract.getmethod.md) - Obtém o método de requisição
+  - [Yaf\_Request\_Abstract::getModuleName](yaf-request-abstract.getmodulename.md) - getModuleName
+  - [Yaf\_Request\_Abstract::getParam](yaf-request-abstract.getparam.md) - Obtém o parâmetro da chamada
+  - [Yaf\_Request\_Abstract::getParams](yaf-request-abstract.getparams.md) - Obtém todos os parâmetros de chamada
+  - [Yaf\_Request\_Abstract::getPost](yaf-request-abstract.getpost.md) - Fetch a POST parameter
+  - [Yaf\_Request\_Abstract::getQuery](yaf-request-abstract.getquery.md) - Fetch a query parameter
+  - [Yaf\_Request\_Abstract::getRaw](yaf-request-abstract.getraw.md) - Retrieve the raw request body
+  - [Yaf\_Request\_Abstract::getRequest](yaf-request-abstract.getrequest.md) - Fetch a REQUEST variable
+  - [Yaf\_Request\_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.md) - getRequestUri
+  - [Yaf\_Request\_Abstract::getServer](yaf-request-abstract.getserver.md) - Obtém a variável SERVER
+  - [Yaf\_Request\_Abstract::isCli](yaf-request-abstract.iscli.md) - Informa se é uma requisição CLI
+  - [Yaf\_Request\_Abstract::isDelete](yaf-request-abstract.isdelete.md) - Determine if the request is a DELETE request
+  - [Yaf\_Request\_Abstract::isDispatched](yaf-request-abstract.isdispatched.md) - Informa se a requisição foi despachada
+  - [Yaf\_Request\_Abstract::isGet](yaf-request-abstract.isget.md) - Informa se a requisição é GET
+  - [Yaf\_Request\_Abstract::isHead](yaf-request-abstract.ishead.md) - Informa se a requisição é HEAD
+  - [Yaf\_Request\_Abstract::isOptions](yaf-request-abstract.isoptions.md) - Informa se a requisição é OPTIONS
+  - [Yaf\_Request\_Abstract::isPatch](yaf-request-abstract.ispatch.md) - Determine if the request is a PATCH request
+  - [Yaf\_Request\_Abstract::isPost](yaf-request-abstract.ispost.md) - Informa se a requisição é POST
+  - [Yaf\_Request\_Abstract::isPut](yaf-request-abstract.isput.md) - Informa se a requisição é PUT
+  - [Yaf\_Request\_Abstract::isRouted](yaf-request-abstract.isrouted.md) - Informa se a requisição foi roteada
+  - [Yaf\_Request\_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md) - Informa se a requisição é AJAX
+  - [Yaf\_Request\_Abstract::setActionName](yaf-request-abstract.setactionname.md) - Define nome de ação
+  - [Yaf\_Request\_Abstract::setBaseUri](yaf-request-abstract.setbaseuri.md) - Define o URI base
+  - [Yaf\_Request\_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md) - Define o nome do controlador
+  - [Yaf\_Request\_Abstract::setDispatched](yaf-request-abstract.setdispatched.md) - setDispatched
+  - [Yaf\_Request\_Abstract::setModuleName](yaf-request-abstract.setmodulename.md) - Define o nome do módulo
+  - [Yaf\_Request\_Abstract::setParam](yaf-request-abstract.setparam.md) - Define um parâmetro de chamada para uma solicitação
+  - [Yaf\_Request\_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md) - setRequestUri
+  - [Yaf\_Request\_Abstract::setRouted](yaf-request-abstract.setrouted.md) - setRouted
+  - [Yaf\_Request\_Http::get](yaf-request-http.get.md) - Obtém variável do cliente
+  - [Yaf\_Request\_Http::getCookie](yaf-request-http.getcookie.md) - Obtém a variável Cookie
+  - [Yaf\_Request\_Http::getFiles](yaf-request-http.getfiles.md) - getFiles
+  - [Yaf\_Request\_Http::getPost](yaf-request-http.getpost.md) - Obtém a variável POST
+  - [Yaf\_Request\_Http::getQuery](yaf-request-http.getquery.md) - Busca um parâmetro da consulta
+  - [Yaf\_Request\_Http::getRaw](yaf-request-http.getraw.md) - Obtém o corpo bruto da requisição
+  - [Yaf\_Request\_Http::getRequest](yaf-request-http.getrequest.md) - getRequest
+  - [Yaf\_Request\_Http::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md) - Informa se a requisição é Ajax
+  - [Yaf\_Request\_Http::\_\_construct](yaf-request-http.construct.md) - Construtor de Yaf\_Request\_Http
+  - [Yaf\_Request\_Simple::get](yaf-request-simple.get.md) - get
+  - [Yaf\_Request\_Simple::getCookie](yaf-request-simple.getcookie.md) - getCookie
+  - [Yaf\_Request\_Simple::getFiles](yaf-request-simple.getfiles.md) - getFiles
+  - [Yaf\_Request\_Simple::getPost](yaf-request-simple.getpost.md) - getPost
+  - [Yaf\_Request\_Simple::getQuery](yaf-request-simple.getquery.md) - getQuery
+  - [Yaf\_Request\_Simple::getRequest](yaf-request-simple.getrequest.md) - getRequest
+  - [Yaf\_Request\_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) - Informa se a requisição é Ajax
+  - [Yaf\_Request\_Simple::\_\_construct](yaf-request-simple.construct.md) - Construtor de Yaf\_Request\_Simple
+  - [Yaf\_Response\_Abstract::appendBody](yaf-response-abstract.appendbody.md) - Acrescenta ao corpo da resposta
+  - [Yaf\_Response\_Abstract::clearBody](yaf-response-abstract.clearbody.md) - Descarta todo o corpo de resposta existente
+  - [Yaf\_Response\_Abstract::clearHeaders](yaf-response-abstract.clearheaders.md) - Descarta todos os cabeçalhos definidos
+  - [Yaf\_Response\_Abstract::getBody](yaf-response-abstract.getbody.md) - Recupera um conteúdo existente
+  - [Yaf\_Response\_Abstract::getHeader](yaf-response-abstract.getheader.md) - getHeader
+  - [Yaf\_Response\_Abstract::prependBody](yaf-response-abstract.prependbody.md) - prependBody
+  - [Yaf\_Response\_Abstract::response](yaf-response-abstract.response.md) - Envia resposta
+  - [Yaf\_Response\_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md) - setAllHeaders
+  - [Yaf\_Response\_Abstract::setBody](yaf-response-abstract.setbody.md) - Define o conteúdo da resposta
+  - [Yaf\_Response\_Abstract::setHeader](yaf-response-abstract.setheader.md) - Define o cabeçalho da resposta
+  - [Yaf\_Response\_Abstract::setRedirect](yaf-response-abstract.setredirect.md) - setRedirect
+  - [Yaf\_Response\_Abstract::\_\_construct](yaf-response-abstract.construct.md) - \_\_construct
+  - [Yaf\_Response\_Abstract::\_\_destruct](yaf-response-abstract.destruct.md) - \_\_destruct
+  - [Yaf\_Response\_Abstract::\_\_toString](yaf-response-abstract.tostring.md) - Obtém todo o corpo como um string
+  - [Yaf\_Router::addConfig](yaf-router.addconfig.md) - Adiciona as rotas definidas na configuração
+  - [Yaf\_Router::addRoute](yaf-router.addroute.md) - Adiciona nova rota
+  - [Yaf\_Router::getCurrentRoute](yaf-router.getcurrentroute.md) - Obtém o nome efetivo da rota
+  - [Yaf\_Router::getRoute](yaf-router.getroute.md) - Obtém uma rota pelo nome
+  - [Yaf\_Router::getRoutes](yaf-router.getroutes.md) - Obtém rotas registradas
+  - [Yaf\_Router::route](yaf-router.route.md) - Encaminha uma requisição
+  - [Yaf\_Router::\_\_construct](yaf-router.construct.md) - Construtor de Yaf\_Router
+  - [Yaf\_Route\_Interface::assemble](yaf-route-interface.assemble.md) - Monta uma solicitação
+  - [Yaf\_Route\_Interface::route](yaf-route-interface.route.md) - Encaminha uma solicitação
+  - [Yaf\_Route\_Map::assemble](yaf-route-map.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Map::route](yaf-route-map.route.md) - route
+  - [Yaf\_Route\_Map::\_\_construct](yaf-route-map.construct.md) - \_\_construct
+  - [Yaf\_Route\_Regex::assemble](yaf-route-regex.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Regex::route](yaf-route-regex.route.md) - Encaminha uma solicitação
+  - [Yaf\_Route\_Regex::\_\_construct](yaf-route-regex.construct.md) - Construtor de Yaf\_Route\_Regex
+  - [Yaf\_Route\_Rewrite::assemble](yaf-route-rewrite.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Rewrite::route](yaf-route-rewrite.route.md) - route
+  - [Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.md) - Construtor de Yaf\_Route\_Rewrite
+  - [Yaf\_Route\_Simple::assemble](yaf-route-simple.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Simple::route](yaf-route-simple.route.md) - Encaminha uma requisição
+  - [Yaf\_Route\_Simple::\_\_construct](yaf-route-simple.construct.md) - Construtor de Yaf\_Route\_Simple
+  - [Yaf\_Route\_Static::assemble](yaf-route-static.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Static::match](yaf-route-static.match.md) - match
+  - [Yaf\_Route\_Static::route](yaf-route-static.route.md) - Encaminha uma requisição
+  - [Yaf\_Route\_Supervar::assemble](yaf-route-supervar.assemble.md) - Monta um URL
+  - [Yaf\_Route\_Supervar::route](yaf-route-supervar.route.md) - Encaminha uma requisição
+  - [Yaf\_Route\_Supervar::\_\_construct](yaf-route-supervar.construct.md) - Construtor de Yaf\_Route\_Supervar
+  - [Yaf\_Session::count](yaf-session.count.md) - count
+  - [Yaf\_Session::current](yaf-session.current.md) - current
+  - [Yaf\_Session::del](yaf-session.del.md) - del
+  - [Yaf\_Session::getInstance](yaf-session.getinstance.md) - getInstance
+  - [Yaf\_Session::has](yaf-session.has.md) - has
+  - [Yaf\_Session::key](yaf-session.key.md) - key
+  - [Yaf\_Session::next](yaf-session.next.md) - next
+  - [Yaf\_Session::offsetExists](yaf-session.offsetexists.md) - offsetExists
+  - [Yaf\_Session::offsetGet](yaf-session.offsetget.md) - offsetGet
+  - [Yaf\_Session::offsetSet](yaf-session.offsetset.md) - offsetSet
+  - [Yaf\_Session::offsetUnset](yaf-session.offsetunset.md) - offsetUnset
+  - [Yaf\_Session::rewind](yaf-session.rewind.md) - rewind
+  - [Yaf\_Session::start](yaf-session.start.md) - start
+  - [Yaf\_Session::valid](yaf-session.valid.md) - valid
+  - [Yaf\_Session::\_\_construct](yaf-session.construct.md) - Construtor de Yaf\_Session
+  - [Yaf\_Session::\_\_get](yaf-session.get.md) - \_\_get
+  - [Yaf\_Session::\_\_isset](yaf-session.isset.md) - \_\_isset
+  - [Yaf\_Session::\_\_set](yaf-session.set.md) - \_\_set
+  - [Yaf\_Session::\_\_unset](yaf-session.unset.md) - \_\_unset
+  - [Yaf\_View\_Interface::assign](yaf-view-interface.assign.md) - Atribui valor ao mecanismo de visualização
+  - [Yaf\_View\_Interface::display](yaf-view-interface.display.md) - Renderiza e exibe um modelo
+  - [Yaf\_View\_Interface::getScriptPath](yaf-view-interface.getscriptpath.md) - getScriptPath
+  - [Yaf\_View\_Interface::render](yaf-view-interface.render.md) - Renderiza um modelo
+  - [Yaf\_View\_Interface::setScriptPath](yaf-view-interface.setscriptpath.md) - Define o diretório base dos modelos
+  - [Yaf\_View\_Simple::assign](yaf-view-simple.assign.md) - Atribui valores
+  - [Yaf\_View\_Simple::assignRef](yaf-view-simple.assignref.md) - Atribui um valor de referência ao mecanismo
+  - [Yaf\_View\_Simple::clear](yaf-view-simple.clear.md) - Limpa valores atribuídos
+  - [Yaf\_View\_Simple::display](yaf-view-simple.display.md) - Renderiza e exibe
+  - [Yaf\_View\_Simple::eval](yaf-view-simple.eval.md) - Renderiza o modelo
+  - [Yaf\_View\_Simple::getScriptPath](yaf-view-simple.getscriptpath.md) - Obtém o diretório de modelos
+  - [Yaf\_View\_Simple::render](yaf-view-simple.render.md) - Renderiza o modelo
+  - [Yaf\_View\_Simple::setScriptPath](yaf-view-simple.setscriptpath.md) - Define o diretório de modelos
+  - [Yaf\_View\_Simple::\_\_construct](yaf-view-simple.construct.md) - Construtor de Yaf\_View\_Simple
+  - [Yaf\_View\_Simple::\_\_get](yaf-view-simple.get.md) - Obtém variável atribuída
+  - [Yaf\_View\_Simple::\_\_isset](yaf-view-simple.isset.md) - \_\_isset
+  - [Yaf\_View\_Simple::\_\_set](yaf-view-simple.set.md) - Define valor para o mecanismo
+  - [yaml\_emit](function.yaml-emit.md) - Retorna a representação YAML de um valor
+  - [yaml\_emit\_file](function.yaml-emit-file.md) - Envia a representação YAML de um valor para um arquivo
+  - [yaml\_parse](function.yaml-parse.md) - Analisa um fluxo YAML
+  - [yaml\_parse\_file](function.yaml-parse-file.md) - Analisa um fluxo YAML de um arquivo
+  - [yaml\_parse\_url](function.yaml-parse-url.md) - Analisa um fluxo Yaml de um URL
+  - [Yar\_Client::getOpt](yar-client.getopt.md) - Read a client option
+  - [Yar\_Client::setOpt](yar-client.setopt.md) - Define contextos de chamada
+  - [Yar\_Client::\_\_call](yar-client.call.md) - Chama o serviço
+  - [Yar\_Client::\_\_construct](yar-client.construct.md) - Cria um cliente
+  - [Yar\_Client\_Exception::getType](yar-client-exception.gettype.md) - Recupera o tipo da exceção
+  - [Yar\_Concurrent\_Client::call](yar-concurrent-client.call.md) - Registra uma chamada simultânea
+  - [Yar\_Concurrent\_Client::loop](yar-concurrent-client.loop.md) - Envia todas as chamadas
+  - [Yar\_Concurrent\_Client::reset](yar-concurrent-client.reset.md) - Limpa todas as chamadas registradas
+  - [Yar\_Server::handle](yar-server.handle.md) - Inicia o servidor RPC
+  - [Yar\_Server::\_\_construct](yar-server.construct.md) - Registra um servidor
+  - [Yar\_Server\_Exception::getType](yar-server-exception.gettype.md) - Recupera o tipo da exceção
+  - [yaz\_addinfo](function.yaz-addinfo.md) - Retorna informações de erro adicionais
+  - [yaz\_ccl\_conf](function.yaz-ccl-conf.md) - Configura o analisador CCL
+  - [yaz\_ccl\_parse](function.yaz-ccl-parse.md) - Invoca o analisador CCL
+  - [yaz\_close](function.yaz-close.md) - Fecha a conexão YAZ
+  - [yaz\_connect](function.yaz-connect.md) - Prepara para uma conexão com um servidor Z39.50
+  - [yaz\_database](function.yaz-database.md) - Especifica os bancos de dados dentro de uma sessão
+  - [yaz\_element](function.yaz-element.md) - Especifica o nome do conjunto de elementos para recuperação
+  - [yaz\_errno](function.yaz-errno.md) - Retorna o número do erro
+  - [yaz\_error](function.yaz-error.md) - Retorna a descrição do erro
+  - [yaz\_es](function.yaz-es.md) - Prepara-se para uma solicitação de Serviço Estendido
+  - [yaz\_es\_result](function.yaz-es-result.md) - Inspeciona o resultado dos serviços estendidos
+  - [yaz\_get\_option](function.yaz-get-option.md) - Retorna valor de opção para conexão
+  - [yaz\_hits](function.yaz-hits.md) - Retorna o número de resultados da última pesquisa
+  - [yaz\_itemorder](function.yaz-itemorder.md) - Prepara-se para pedido de item Z39.50 com um pacote de solicitação ILL
+  - [yaz\_present](function.yaz-present.md) - Prepara-se para recuperação (Z39,50 presente)
+  - [yaz\_range](function.yaz-range.md) - Especifica um intervalo de registros a serem recuperados
+  - [yaz\_record](function.yaz-record.md) - Retorna um registro
+  - [yaz\_scan](function.yaz-scan.md) - Prepara para uma varredura
+  - [yaz\_scan\_result](function.yaz-scan-result.md) - Retorna o resultado da resposta da Varredura
+  - [yaz\_schema](function.yaz-schema.md) - Especifica o esquema para recuperação
+  - [yaz\_search](function.yaz-search.md) - Prepara para uma busca
+  - [yaz\_set\_option](function.yaz-set-option.md) - Define uma ou mais opções de conexão
+  - [yaz\_sort](function.yaz-sort.md) - Define critérios de classificação
+  - [yaz\_syntax](function.yaz-syntax.md) - Especifica a sintaxe de registro preferida para recuperação
+  - [yaz\_wait](function.yaz-wait.md) - Aguarda a conclusão das solicitações Z39.50
+- z
+  - [zend\_thread\_id](function.zend-thread-id.md) - Retorna um identificador exclusivo para o thread atual
+  - [zend\_version](function.zend-version.md) - Obtém a versão do motor Zend atual
+  - [ZipArchive::addEmptyDir](ziparchive.addemptydir.md) - Adiciona um novo diretório
+  - [ZipArchive::addFile](ziparchive.addfile.md) - Adiciona um arquivo a um arquivo ZIP a partir do caminho fornecido
+  - [ZipArchive::addFromString](ziparchive.addfromstring.md) - Adiciona um arquivo a um arquivo ZIP usando seu conteúdo
+  - [ZipArchive::addGlob](ziparchive.addglob.md) - Adicionar arquivos de um diretório por padrão glob
+  - [ZipArchive::addPattern](ziparchive.addpattern.md) - Adiciona arquivos de um diretório por padrão PCRE
+  - [ZipArchive::clearError](ziparchive.clearerror.md) - Limpa a mensagem de erro de status, mensagens do sistema e/ou do zip
+  - [ZipArchive::close](ziparchive.close.md) - Fecha o arquivo de arquivo ativo (aberto ou recém-criado)
+  - [ZipArchive::count](ziparchive.count.md) - Conta o número de arquivos no arquivo
+  - [ZipArchive::deleteIndex](ziparchive.deleteindex.md) - Exclui uma entrada no arquivo usando seu índice
+  - [ZipArchive::deleteName](ziparchive.deletename.md) - Exclui uma entrada no arquivo usando seu nome
+  - [ZipArchive::extractTo](ziparchive.extractto.md) - Extrai o conteúdo do arquivo
+  - [ZipArchive::getArchiveComment](ziparchive.getarchivecomment.md) - Retorna o comentário do arquivo Zip
+  - [ZipArchive::getArchiveFlag](ziparchive.getarchiveflag.md) - Retorna o valor de uma opção global do arquivo Zip
+  - [ZipArchive::getCommentIndex](ziparchive.getcommentindex.md) - Retorna o comentário de uma entrada usando o índice da entrada
+  - [ZipArchive::getCommentName](ziparchive.getcommentname.md) - Retorna o comentário de uma entrada usando o nome da entrada
+  - [ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.md) - Recupera os atributos externos de uma entrada definida pelo seu índice
+  - [ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md) - Recupera os atributos externos de uma entrada definida pelo seu nome
+  - [ZipArchive::getFromIndex](ziparchive.getfromindex.md) - Retorna o conteúdo da entrada usando seu índice
+  - [ZipArchive::getFromName](ziparchive.getfromname.md) - Retorna o conteúdo da entrada usando seu nome
+  - [ZipArchive::getNameIndex](ziparchive.getnameindex.md) - Retorna o nome de uma entrada usando seu índice
+  - [ZipArchive::getStatusString](ziparchive.getstatusstring.md) - Retorna a mensagem de erro de status, mensagens do sistema e/ou zip
+  - [ZipArchive::getStream](ziparchive.getstream.md) - Obtém um manipulador de arquivo para a entrada definida pelo seu nome (somente leitura)
+  - [ZipArchive::getStreamIndex](ziparchive.getstreamindex.md) - Obtém um manipulador de arquivo para a entrada definida pelo seu índice (somente leitura)
+  - [ZipArchive::getStreamName](ziparchive.getstreamname.md) - Obtém um manipulador de arquivo para a entrada definida pelo seu nome (somente leitura)
+  - [ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md) - Verifica se um método de compressão é suportado pelo libzip
+  - [ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md) - Verifica se um método de criptografia é suportado pelo libzip
+  - [ZipArchive::locateName](ziparchive.locatename.md) - Retorna o índice da entrada no arquivo compactado
+  - [ZipArchive::open](ziparchive.open.md) - Abre um arquivo compactado ZIP
+  - [ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md) - Registra um callback para permitir o cancelamento durante o fechamento do arquivo compactado.
+  - [ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md) - Registrar um callback para fornecer atualizações durante o fechamento do arquivo compactado.
+  - [ZipArchive::renameIndex](ziparchive.renameindex.md) - Renomeia uma entrada definida pelo seu índice
+  - [ZipArchive::renameName](ziparchive.renamename.md) - Renomeia uma entrada definida pelo seu nome
+  - [ZipArchive::replaceFile](ziparchive.replacefile.md) - Substitui um arquivo no arquivo ZIP por um caminho fornecido
+  - [ZipArchive::setArchiveComment](ziparchive.setarchivecomment.md) - Define o comentário de um arquivo ZIP
+  - [ZipArchive::setArchiveFlag](ziparchive.setarchiveflag.md) - Define uma opção global de um arquivo ZIP
+  - [ZipArchive::setCommentIndex](ziparchive.setcommentindex.md) - Define o comentário de uma entrada definida pelo seu índice
+  - [ZipArchive::setCommentName](ziparchive.setcommentname.md) - Define o comentário de uma entrada definida pelo seu nome
+  - [ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md) - Define o método de compressão de uma entrada definida pelo seu índice
+  - [ZipArchive::setCompressionName](ziparchive.setcompressionname.md) - Define o método de compressão de uma entrada definida pelo seu nome
+  - [ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md) - Define o método de criptografia de uma entrada definida pelo seu índice
+  - [ZipArchive::setEncryptionName](ziparchive.setencryptionname.md) - Define o método de criptografia de uma entrada definida pelo seu nome
+  - [ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md) - Define os atributos externos de uma entrada definida pelo seu índice
+  - [ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md) - Define os atributos externos de uma entrada definida pelo seu nome
+  - [ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.md) - Define o tempo de modificação de uma entrada definida pelo seu índice
+  - [ZipArchive::setMtimeName](ziparchive.setmtimename.md) - Define o tempo de modificação de uma entrada definida pelo seu nome
+  - [ZipArchive::setPassword](ziparchive.setpassword.md) - Define a senha para o arquivo ZIP ativo
+  - [ZipArchive::statIndex](ziparchive.statindex.md) - Obtenha os detalhes de uma entrada definida pelo seu índice
+  - [ZipArchive::statName](ziparchive.statname.md) - Obtém os detalhes de uma entrada definida pelo seu nome
+  - [ZipArchive::unchangeAll](ziparchive.unchangeall.md) - Desfaz todas as alterações feitas no arquivo
+  - [ZipArchive::unchangeArchive](ziparchive.unchangearchive.md) - Reverte todas as alterações globais feitas no arquivo
+  - [ZipArchive::unchangeIndex](ziparchive.unchangeindex.md) - Reverte todas as alterações feitas a uma entrada no índice fornecido
+  - [ZipArchive::unchangeName](ziparchive.unchangename.md) - Reverte todas as alterações feitas a uma entrada com o nome fornecido
+  - [zip\_close](function.zip-close.md) - Fecha um arquivo ZIP
+  - [zip\_entry\_close](function.zip-entry-close.md) - Fecha o arquivo que está aberto
+  - [zip\_entry\_compressedsize](function.zip-entry-compressedsize.md) - Obtém o tamanho comprimido do item
+  - [zip\_entry\_compressionmethod](function.zip-entry-compressionmethod.md) - Recupera qual o método de compressão foi utilizado no arquivo
+  - [zip\_entry\_filesize](function.zip-entry-filesize.md) - Retorna o tamanho de um item de diretório
+  - [zip\_entry\_name](function.zip-entry-name.md) - Retorna o nome do arquivo
+  - [zip\_entry\_open](function.zip-entry-open.md) - Abre um arquivo para leitura
+  - [zip\_entry\_read](function.zip-entry-read.md) - Obtém dados de um arquivo
+  - [zip\_open](function.zip-open.md) - Abre um arquivo ZIP
+  - [zip\_read](function.zip-read.md) - Lê o próximo item em um arquivo ZIP
+  - [zlib\_decode](function.zlib-decode.md) - Descomprime qualquer dado codificado em raw/gzip/zlib
+  - [zlib\_encode](function.zlib-encode.md) - Comprime dados com o codificador especificado
+  - [zlib\_get\_coding\_type](function.zlib-get-coding-type.md) - Retorna o tipo de codificação para a compressão de saída
+  - [ZMQ::\_\_construct](zmq.construct.md) - Construtor da classe ZMQ
+  - [ZMQContext::getOpt](zmqcontext.getopt.md) - Obtém uma opção de contexto
+  - [ZMQContext::getSocket](zmqcontext.getsocket.md) - Cria um novo socket
+  - [ZMQContext::isPersistent](zmqcontext.ispersistent.md) - Retorna se o contexto é persistente
+  - [ZMQContext::setOpt](zmqcontext.setopt.md) - Define uma opção de socket
+  - [ZMQContext::\_\_construct](zmqcontext.construct.md) - Constrói um novo objeto ZMQContext
+  - [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.md) - Obtém o tempo limite de inatividade
+  - [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.md) - Obtém o tempo limite do temporizador
+  - [ZMQDevice::run](zmqdevice.run.md) - Executa o novo dispositivo
+  - [ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md) - Define a função de retorno de inatividade
+  - [ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md) - Define o tempo limite de inatividade
+  - [ZMQDevice::setTimerCallback](zmqdevice.settimercallback.md) - Define a função de retorno do temporizador
+  - [ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.md) - Define o tempo limite do temporizador
+  - [ZMQDevice::\_\_construct](zmqdevice.construct.md) - Constrói um novo dispositivo
+  - [ZMQPoll::add](zmqpoll.add.md) - Adiciona o item na lista de pesquisa
+  - [ZMQPoll::clear](zmqpoll.clear.md) - Limpa a lista de consulta
+  - [ZMQPoll::count](zmqpoll.count.md) - Conta os itens na lista de consulta
+  - [ZMQPoll::getLastErrors](zmqpoll.getlasterrors.md) - Obtém erros da consulta
+  - [ZMQPoll::poll](zmqpoll.poll.md) - Consulta os itens
+  - [ZMQPoll::remove](zmqpoll.remove.md) - Remove um item da lista de consulta
+  - [ZMQSocket::bind](zmqsocket.bind.md) - Associa o socket
+  - [ZMQSocket::connect](zmqsocket.connect.md) - Conecta o socket
+  - [ZMQSocket::disconnect](zmqsocket.disconnect.md) - Desconecta um socket
+  - [ZMQSocket::getEndpoints](zmqsocket.getendpoints.md) - Obtém uma lista de destinos
+  - [ZMQSocket::getPersistentId](zmqsocket.getpersistentid.md) - Obtém o id persistente
+  - [ZMQSocket::getSocketType](zmqsocket.getsockettype.md) - Retorna o tipo de socket
+  - [ZMQSocket::getSockOpt](zmqsocket.getsockopt.md) - Obtém a opção do socket
+  - [ZMQSocket::isPersistent](zmqsocket.ispersistent.md) - Informa se o soquete é persistente
+  - [ZMQSocket::recv](zmqsocket.recv.md) - Recebe uma mensagem
+  - [ZMQSocket::recvMulti](zmqsocket.recvmulti.md) - Recebe uma mensagem de múltiplas partes
+  - [ZMQSocket::send](zmqsocket.send.md) - Envia uma mensagem
+  - [ZMQSocket::sendmulti](zmqsocket.sendmulti.md) - Envia uma mensagem de múltiplas partes
+  - [ZMQSocket::setSockOpt](zmqsocket.setsockopt.md) - Define uma opção de soquete
+  - [ZMQSocket::unbind](zmqsocket.unbind.md) - Desvincula o socket
+  - [ZMQSocket::\_\_construct](zmqsocket.construct.md) - Constrói um novo ZMQSocket
+  - [Zookeeper::addAuth](zookeeper.addauth.md) - Especifica credenciais da aplicação
+  - [Zookeeper::close](zookeeper.close.md) - Fecha o identificador do zookeeper e libera todos os recursos
+  - [Zookeeper::connect](zookeeper.connect.md) - Cria um identificador usado para comunicação com o ZooKeeper
+  - [Zookeeper::create](zookeeper.create.md) - Cria um nó de forma síncrona
+  - [Zookeeper::delete](zookeeper.delete.md) - Exclui um nó no zookeeper de forma síncrona
+  - [Zookeeper::exists](zookeeper.exists.md) - Verifica a existência de um nó no zookeeper de forma síncrona
+  - [Zookeeper::get](zookeeper.get.md) - Obtém os dados associados a um nó de forma síncrona
+  - [Zookeeper::getAcl](zookeeper.getacl.md) - Obtém a ACL associada a um nó de forma síncrona
+  - [Zookeeper::getChildren](zookeeper.getchildren.md) - Lista os filhos de um nó de forma síncrona
+  - [Zookeeper::getClientId](zookeeper.getclientid.md) - Retorna o ID da sessão do cliente, válido somente se estiver conectado no momento (ou seja, o último estado do observador é ZOO\_CONNECTED\_STATE)
+  - [Zookeeper::getConfig](zookeeper.getconfig.md) - Obtém instância de ZookeeperConfig
+  - [Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.md) - Retorna o tempo limite desta sessão, válido somente se estiver conectado no momento (ou seja, o último estado do observador foi ZOO\_CONNECTED\_STATE). Este valor pode mudar após a reconexão do servidor.
+  - [Zookeeper::getState](zookeeper.getstate.md) - Obtém o estado da conexão do zookeper
+  - [Zookeeper::isRecoverable](zookeeper.isrecoverable.md) - Verifica se o estado atual da conexão do zookeeper pode ser recuperado
+  - [Zookeeper::set](zookeeper.set.md) - Define os dados associados a um nó
+  - [Zookeeper::setAcl](zookeeper.setacl.md) - Define a ACL associada a um nó de forma síncrona
+  - [Zookeeper::setDebugLevel](zookeeper.setdebuglevel.md) - Define o nível de depuração para a biblioteca
+  - [Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.md) - Habilita/desabilita a randomização da ordem da extremidade final do quorum
+  - [Zookeeper::setLogStream](zookeeper.setlogstream.md) - Define o fluxo a ser usado pela biblioteca para registro
+  - [Zookeeper::setWatcher](zookeeper.setwatcher.md) - Define uma função observadora
+  - [Zookeeper::\_\_construct](zookeeper.construct.md) - Cria um identificador para comunicação com o ZooKeeper
+  - [ZookeeperConfig::add](zookeeperconfig.add.md) - Adiciona servidores ao conjunto
+  - [ZookeeperConfig::get](zookeeperconfig.get.md) - Obtém a última configuração confirmada do cluster ZooKeeper, conforme conhecida pelo servidor ao qual o cliente está conectado, de forma síncrona
+  - [ZookeeperConfig::remove](zookeeperconfig.remove.md) - Remove servidores do conjunto
+  - [ZookeeperConfig::set](zookeeperconfig.set.md) - Altera a associação do conjunto de clusters ZK e as funções dos pares do conjunto
+  - [zookeeper\_dispatch](function.zookeeper-dispatch.md) - Chama funções de retorno para operações pendentes
+- \_
+  - [\_](function.-.md) - Sinônimo de gettext
+  - [\_\_autoload](function.autoload.md) - Tenta carregar uma classe indefinida
+  - [\_\_halt\_compiler](function.halt-compiler.md) - Para a execução do compilador
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

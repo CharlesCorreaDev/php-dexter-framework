@@ -1,0 +1,447 @@
+# Tooltips · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/components/tooltips/
+
+---
+
+# Tooltips
+
+Custom replacement for browser tooltips—themed with CSS variables and powered by [Floating UI](https://floating-ui.com/).
+
+Requires JS
+
+Layer: `components`
+
+1 dependency
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/components/tooltip)
+
+On this page…
+
+##### On this page
+
+## Overview
+
+Hover the button below to see a tooltip. By default, the tooltip will appear above their trigger element (anything with the `data-bs-toggle="tooltip"` attribute).
+
+Example tooltip
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary"
+        data-bs-toggle="tooltip"
+        data-bs-title="Tooltip on top">
+  Example tooltip
+</button>
+```
+
+Things to know when using the tooltip plugin:
+
+- Tooltips rely on the third party library [Floating UI](https://floating-ui.com/) for positioning. Use `bootstrap.bundle.min.js` which includes Floating UI, or include Floating UI separately via an [import map](getting-started__javascript.md#using-bootstrap-as-a-module).
+- Tooltips are automatically initialized when using `data-bs-toggle="tooltip"`.
+- Tooltips with zero-length titles are never displayed.
+- Specify `container: 'body'` to avoid rendering problems in more complex components (like our input groups, button groups, etc).
+- Triggering tooltips on hidden elements will not work.
+- Tooltips for `.disabled` or `disabled` elements must be triggered on a wrapper element.
+- When triggered from hyperlinks that span multiple lines, tooltips will be centered. Use `white-space: nowrap;` on your `<a>`s to avoid this behavior.
+- Tooltips must be hidden before their corresponding elements have been removed from the DOM.
+- Tooltips can be triggered thanks to an element inside a shadow DOM.
+
+Got all that? Great, let’s see how they work with some examples.
+
+By default, this component uses the built-in content sanitizer, which strips out any HTML elements that are not explicitly allowed. See the [sanitizer section in our JavaScript documentation](getting-started__javascript.md#sanitizer) for more details.
+
+The animation effect of this component is dependent on the `prefers-reduced-motion` media query. See the [reduced motion section of our accessibility documentation](getting-started__accessibility.md#reduced-motion).
+
+## Examples
+
+### Tooltips on links
+
+Hover over the links below to see tooltips:
+
+Placeholder text to demonstrate some [inline links](#) with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of [real text](#). And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you’ve now seen how [these tooltips on links](#) can work in practice, once you use them on [your own](#) site or project.
+
+HTML
+
+```
+<p class="fg-3">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you’ve now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">your own</a> site or project.</p>
+```
+
+Feel free to use either `title` or `data-bs-title` in your HTML. When `title` is used, Floating UI will replace it automatically with `data-bs-title` when the element is rendered.
+
+### Custom tooltips
+
+You can customize the appearance of tooltips using [CSS variables](#variables). We set a custom class with `data-bs-custom-class="custom-tooltip"` to scope our custom appearance and use it to override a local CSS variable.
+
+[node\_modules/@twbs/bui/src/scss/\_component-examples.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/node_modules/@twbs/bui/src/scss/_component-examples.scss)
+
+```
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+```
+
+Custom tooltip
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="This top tooltip is themed via CSS variables.">
+  Custom tooltip
+</button>
+```
+
+### Placement
+
+Set `data-bs-placement` to change the direction. Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left. Directions are mirrored when using Bootstrap in RTL.
+
+Tooltip on left
+
+Tooltip on top
+
+Tooltip on bottom
+
+Tooltip on right
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left"
+        data-bs-title="Tooltip on left">
+  Tooltip on left
+</button>
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        data-bs-title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="right"
+        data-bs-title="Tooltip on right">
+  Tooltip on right
+</button>
+```
+
+### Responsive placement
+
+Change placement at different breakpoints using responsive prefixes. The syntax is `breakpoint:placement`, where breakpoint is one of `sm`, `md`, `lg`, `xl`, or `2xl`.
+
+Top → md:right → lg:bottom
+
+Left → lg:top
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="top md:right lg:bottom"
+        data-bs-title="Responsive tooltip">
+  Top → md:right → lg:bottom
+</button>
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-placement="left lg:top"
+        data-bs-title="Responsive tooltip">
+  Left → lg:top
+</button>
+```
+
+Resize your browser to see the tooltip placement change at different breakpoints.
+
+### Custom HTML
+
+And with custom HTML added:
+
+Tooltip with HTML
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-secondary"
+        data-bs-toggle="tooltip"
+        data-bs-html="true"
+        data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with HTML
+</button>
+```
+
+With an SVG:
+
+HTML
+
+```
+<a href="#" class="d-inline-block"
+        data-bs-toggle="tooltip"
+        data-bs-title="Default tooltip"
+        aria-label="Hover or focus to see default tooltip">
+  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100" aria-hidden="true">
+    <rect width="100%" height="100%" fill="#563d7c"/>
+    <circle cx="50" cy="50" r="30" fill="#007bff"/>
+  </svg>
+</a>
+```
+
+### Interactive tooltips
+
+Move the pointer onto the tip to reach interactive content inside it, such as a link. The tooltip stays open while the pointer is over the trigger or the tip. It hides when the pointer leaves both, or when you press the `Escape` key. This helps satisfy the [WCAG 1.4.13 “Content on Hover or Focus”](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html) success criterion.
+
+Hover, then move onto the tip
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary"
+        data-bs-toggle="tooltip"
+        data-bs-html="true"
+        data-bs-title="Read the <a href='https://getbootstrap.com/'>full docs</a> for more.">
+  Hover, then move onto the tip
+</button>
+```
+
+### Disabled elements
+
+Elements with the `disabled` attribute aren’t interactive, meaning users cannot focus, hover, or click them to trigger a tooltip (or popover). As a workaround, you’ll want to trigger the tooltip from a wrapper `<div>` or `<span>`, ideally made keyboard-focusable using `tabindex="0"`.
+
+Disabled button
+
+HTML
+
+```
+<span class="d-inline-block" tabindex="0"
+        data-bs-toggle="tooltip"
+        data-bs-title="Disabled tooltip">
+  <button class="btn-solid theme-primary" type="button" disabled>Disabled button</button>
+</span>
+```
+
+## CSS
+
+### Variables
+
+Tooltips use local CSS variables on `.tooltip` for real-time customization. Values for the CSS variables are generated from Sass maps unique to each component and applied to the aforementioned class.
+
+[scss/\_tooltip.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_tooltip.scss)
+
+```
+// stylelint-disable-next-line scss/dollar-variable-default
+$tooltip-tokens: defaults(
+  (
+    --tooltip-zindex: var(--z-tooltip),
+    --tooltip-max-width: 200px,
+    --tooltip-padding-x: var(--spacer-3),
+    --tooltip-padding-y: calc(var(--spacer) * .375),
+    --tooltip-font-size: var(--font-size-sm),
+    --tooltip-color: var(--bg-body),
+    --tooltip-bg: var(--fg-body),
+    --tooltip-border-radius: var(--radius-5),
+    --tooltip-opacity: .95,
+    --tooltip-arrow-width: .8rem,
+    --tooltip-arrow-height: .4rem,
+    --tooltip-transition-property: "opacity",
+    --tooltip-transition-duration: .15s,
+    --tooltip-transition-timing: linear,
+  ),
+  $tooltip-tokens
+);
+```
+
+## Usage
+
+The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element. Trigger the tooltip via JavaScript:
+
+JavaScript
+
+```
+          const exampleEl = document.getElementById('example')
+const tooltip = new bootstrap.Tooltip(exampleEl, options)
+```
+
+Tooltips automatically attempt to change positions when a parent container has `overflow: auto` or `overflow: scroll`, but still keep the original placement’s positioning. Set the [`boundary` option](https://floating-ui.com/docs/shift#boundary) (for the shift middleware using the `floatingConfig` option) to any HTMLElement to override the default value, `'clippingParents'`, such as `document.body`:
+
+JavaScript
+
+```
+          const tooltip = new bootstrap.Tooltip('#example', {
+  boundary: document.body // or document.querySelector('#boundary')
+})
+```
+
+### Delegated tooltips
+
+To enable tooltips on many triggers at once—including elements added to the DOM later—initialize a single instance on a parent element and pass the [`selector` option](#options). Any matching descendant gets a tooltip without re-initializing:
+
+JavaScript
+
+```
+          const tooltip = new bootstrap.Tooltip(document.body, {
+  selector: '[data-bs-toggle="tooltip"]'
+})
+```
+
+### Via data attributes
+
+| Attribute | Description |
+| --- | --- |
+| `data-bs-toggle="tooltip"` | Initializes the tooltip on the trigger element. |
+| `data-bs-title` | Text (or HTML when allowed) shown in the tooltip body. |
+| `data-bs-placement` | Where to place the tooltip (`top`, `right`, `bottom`, `left`, or responsive variants). |
+| `data-bs-custom-class` | Extra class names added to the tooltip for theming. |
+| `data-bs-html` | When `true`, allows HTML in the title (use with care; prefer plain text for user content). |
+
+### Markup
+
+The required markup for a tooltip is only a `data` attribute and `title` on the HTML element you wish to have a tooltip. The generated markup of a tooltip is rather simple, though it does require a position (by default, set to `top` by the plugin).
+
+**Keep tooltips accessible to keyboard and assistive technology users** by only adding them to HTML elements that are traditionally keyboard-focusable and interactive (such as links or form controls). While other HTML elements can be made focusable by adding `tabindex="0"`, this can create annoying and confusing tab stops on non-interactive elements for keyboard users, and most assistive technologies currently do not announce tooltips in this situation. Additionally, do not rely solely on `hover` as the trigger for your tooltips as this will make them impossible to trigger for keyboard users.
+
+A shown tooltip can be dismissed by pressing the `Escape` key, helping satisfy the [WCAG 1.4.13 “Content on Hover or Focus”](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html) success criterion. The tooltip also stays open while the pointer moves onto the tip, so users can reach interactive content inside it. As with dropdown menus, a tooltip shown inside a dialog is dismissed on its own: the first `Escape` closes the tooltip and a subsequent one closes the dialog.
+
+HTML
+
+```
+          <!-- HTML to write -->
+<a href="#" data-bs-toggle="tooltip" data-bs-title="Some tooltip text!">Hover over me</a>
+
+<!-- Generated markup by the plugin -->
+<div class="tooltip bs-tooltip-auto" role="tooltip">
+  <div class="tooltip-arrow"></div>
+  <div class="tooltip-inner">
+    Some tooltip text!
+  </div>
+</div>
+```
+
+### Dependencies
+
+The tooltip plugin requires the following JavaScript files if you’re building Bootstrap’s JS from source:
+
+| File | Description |
+| --- | --- |
+| `js/src/tooltip.ts` | Main tooltip component |
+| `js/src/base-component.ts` | Base component class |
+| `js/src/dom/data.ts` | Element data store |
+| `js/src/dom/event-handler.ts` | Event handling utilities |
+| `js/src/dom/manipulator.ts` | Data attribute manipulation |
+| `js/src/dom/selector-engine.ts` | DOM selector utilities |
+| `js/src/util/config.ts` | Configuration base class |
+| `js/src/util/floating-ui.ts` | Responsive placement utilities |
+| `js/src/util/index.ts` | Core utility functions |
+| `js/src/util/sanitizer.ts` | HTML content sanitizer |
+| `js/src/util/template-factory.ts` | Template rendering utilities |
+| `@floating-ui/dom` | Third-party positioning library |
+
+### Options
+
+As options can be passed via data attributes or JavaScript, you can append an option name to `data-bs-`, as in `data-bs-animation="{value}"`. Make sure to change the case type of the option name from “*camelCase*” to “*kebab-case*” when passing the options via data attributes. For example, use `data-bs-custom-class="beautifier"` instead of `data-bs-customClass="beautifier"`.
+
+All components support a reserved data attribute `data-bs-config` that can house simple component configuration as a JSON string. When an element has `data-bs-config='{"delay":0, "title":123}'` and `data-bs-title="456"` attributes, the final `title` value will be `456` and the separate data attributes will override values given on `data-bs-config`. In addition, existing data attributes are able to house JSON values like `data-bs-delay='{"show":0,"hide":150}'`.
+
+The final configuration object is the merged result of `data-bs-config`, `data-bs-`, and `js object` where the latest given key-value overrides the others.
+
+Note that for security reasons the `sanitize`, `sanitizeFn`, and `allowList` options cannot be supplied using data attributes.
+
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| `allowList` | object | [Default value](getting-started__javascript.md#sanitizer) | An object containing allowed tags and attributes. Those not explicitly allowed will be removed by [the content sanitizer](getting-started__javascript.md#sanitizer). **Exercise caution when adding to this list.** Refer to [OWASP’s Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) for more information. |
+| `animation` | boolean | `true` | Apply a CSS fade transition to the tooltip. Set it to `false` to add `.tooltip-instant` to the tip, which switches the fade off. |
+| `boundary` | string, element | `'clippingParents'` | Overflow constraint boundary of the tooltip (applies only to Floating UI’s shift middleware). By default, it’s `'clippingParents'` and can accept an HTMLElement reference (via JavaScript only). For more information refer to Floating UI’s [shift docs](https://floating-ui.com/docs/shift#boundary). |
+| `container` | string, element, false | `false` | Appends the tooltip to a specific element. Example: `container: 'body'`. This option is particularly useful in that it allows you to position the tooltip in the flow of the document near the triggering element - which will prevent the tooltip from floating away from the triggering element during a window resize. |
+| `customClass` | string, function | `''` | Add classes to the tooltip when it is shown. Note that these classes will be added in addition to any classes specified in the template. To add multiple classes, separate them with spaces: `'class-1 class-2'`. You can also pass a function that should return a single string containing additional class names. |
+| `delay` | number, object | `0` | Delay showing and hiding the tooltip (ms)—doesn’t apply to manual trigger type. If a number is supplied, delay is applied to both hide/show. Object structure is: `delay: { "show": 500, "hide": 100 }`. |
+| `fallbackPlacements` | array | `['top', 'right', 'bottom', 'left']` | Define fallback placements by providing a list of placements in array (in order of preference). For more information refer to Floating UI’s [flip docs](https://floating-ui.com/docs/flip#fallbackplacements). |
+| `html` | boolean | `false` | Allow HTML in the tooltip. If true, HTML tags in the tooltip’s `title` will be rendered in the tooltip. If false, `innerText` property will be used to insert content into the DOM. Prefer text when dealing with user-generated input to [prevent XSS attacks](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html). |
+| `offset` | array, string, function | `[0, 6]` | Offset of the tooltip relative to its target. You can pass a string in data attributes with comma separated values like: `data-bs-offset="10,20"`. When a function is used to determine the offset, it is called with an object containing the floating placement, the reference, and floating rects as its first argument. The triggering element DOM node is passed as the second argument. The function must return an array with two numbers: [crossAxis](https://floating-ui.com/docs/offset#crossaxis), [mainAxis](https://floating-ui.com/docs/offset#mainaxis). For more information refer to Floating UI’s [offset docs](https://floating-ui.com/docs/offset). |
+| `placement` | string, function | `'top'` | How to position the tooltip: top, bottom, left, right. Supports responsive prefixes like `'top md:right lg:bottom'` to change placement at different breakpoints. When a function is used to determine the placement, it is called with the tooltip DOM node as its first argument and the triggering element DOM node as its second. |
+| `floatingConfig` | null, object, function | `null` | To change Bootstrap’s default Floating UI config, see [Floating UI’s configuration](https://floating-ui.com/docs/computePosition). When a function is used to create the Floating UI configuration, it’s called with an object that contains the Bootstrap’s default Floating UI configuration. It helps you use and merge the default with your own configuration. The function must return a configuration object for Floating UI. |
+| `sanitize` | boolean | `true` | Enable [content sanitization](getting-started__javascript.md#sanitizer). If true, the `template`, `content` and `title` options will be sanitized. **Exercise caution when disabling content sanitization.** Refer to [OWASP’s Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) for more information. Vulnerabilities caused solely by disabling content sanitization are not considered within scope for Bootstrap’s security model. |
+| `sanitizeFn` | null, function | `null` | Provide an alternative [content sanitization](getting-started__javascript.md#sanitizer) function. This can be useful if you prefer to use a dedicated library to perform sanitization. |
+| `selector` | string, false | `false` | If a selector is provided, tooltip objects will be delegated to the specified targets. In practice, this is used to also apply tooltips to dynamically added DOM elements (`jQuery.on` support). See [this issue](https://github.com/twbs/bootstrap/issues/4215) and [an informative example](https://codepen.io/Johann-S/pen/djJYPb). **Note**: `title` attribute must not be used as a selector. |
+| `template` | string | `'<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'` | Base HTML to use when creating the tooltip. The tooltip’s `title` will be injected into the `.tooltip-inner`. `.tooltip-arrow` will become the tooltip’s arrow. The outermost wrapper element should have the `.tooltip` class and `role="tooltip"`. |
+| `title` | string, element, function | `''` | The tooltip title. If a function is given, it will be called with the element it is attached to as its first argument, and with its `this` reference set to that same element. |
+| `trigger` | string | `'hover focus'` | How tooltip is triggered: click, hover, focus, manual. You may pass multiple triggers; separate them with a space. `'manual'` indicates that the tooltip will be triggered programmatically via the `.tooltip('show')`, `.tooltip('hide')` and `.tooltip('toggle')` methods; this value cannot be combined with any other trigger. `'hover'` on its own will result in tooltips that cannot be triggered via the keyboard, and should only be used if alternative methods for conveying the same information for keyboard users is present. |
+
+#### Data attributes for individual tooltips
+
+Options for individual tooltips can alternatively be specified through the use of data attributes, as explained above.
+
+#### Using function with `floatingConfig`
+
+JavaScript
+
+```
+          const tooltip = new bootstrap.Tooltip(element, {
+  floatingConfig(defaultBsFloatingConfig) {
+    // const newFloatingConfig = {...}
+    // use defaultBsFloatingConfig if needed...
+    // return newFloatingConfig
+  }
+})
+```
+
+### Methods
+
+**Methods that show or hide a component return a promise.** The promise resolves when the transition ends, so `await` continues at the same moment a `shown.bs.*` or `hidden.bs.*` listener runs. The methods still return immediately and never block the caller. A call on a component that is already transitioning does nothing and resolves right away. [Learn more in our JavaScript docs.](getting-started__javascript.md#promises-and-transitions)
+
+| Method | Description |
+| --- | --- |
+| `disable` | Removes the ability for an element’s tooltip to be shown. The tooltip will only be able to be shown if it is re-enabled. |
+| `dispose` | Hides and destroys an element’s tooltip (Removes stored data on the DOM element). Tooltips that use delegation (which are created using [the `selector` option](#options)) cannot be individually destroyed on descendant trigger elements. |
+| `enable` | Gives an element’s tooltip the ability to be shown. **Tooltips are enabled by default.** |
+| `getInstance` | *Static* method which allows you to get the tooltip instance associated with a DOM element. |
+| `getOrCreateInstance` | *Static* method which allows you to get the tooltip instance associated with a DOM element, or create a new one in case it wasn’t initialized. |
+| `hide` | Hides an element’s tooltip. **Returns a promise that resolves once the tooltip is hidden** (i.e. after the `hidden.bs.tooltip` event fires). This is considered a “manual” triggering of the tooltip. |
+| `setContent` | Gives a way to change the tooltip’s content after its initialization. |
+| `show` | Reveals an element’s tooltip. **Returns a promise that resolves once the tooltip is shown** (i.e. after the `shown.bs.tooltip` event fires). This is considered a “manual” triggering of the tooltip. Tooltips with zero-length titles are never displayed. |
+| `toggle` | Toggles an element’s tooltip. **Returns a promise that resolves once the tooltip is shown or hidden** (i.e. after the `shown.bs.tooltip` or `hidden.bs.tooltip` event fires). This is considered a “manual” triggering of the tooltip. |
+| `toggleEnabled` | Toggles the ability for an element’s tooltip to be shown or hidden. |
+| `update` | Updates the position of an element’s tooltip. |
+
+JavaScript
+
+```
+          const tooltip = bootstrap.Tooltip.getInstance('#example') // Returns a Bootstrap tooltip instance
+
+// setContent example
+tooltip.setContent({ '.tooltip-inner': 'another title' })
+```
+
+The `setContent` method accepts an `object` argument, where each property-key is a valid `string` selector within the tooltip template, and each related property-value can be `string` | `element` | `function` | `null`
+
+### Events
+
+| Event | Description |
+| --- | --- |
+| `hide.bs.tooltip` | This event is fired immediately when the `hide` instance method has been called. |
+| `hidden.bs.tooltip` | This event is fired when the tooltip has finished being hidden from the user (will wait for CSS transitions to complete). |
+| `inserted.bs.tooltip` | This event is fired after the `show.bs.tooltip` event when the tooltip template has been added to the DOM. |
+| `show.bs.tooltip` | This event fires immediately when the `show` instance method is called. |
+| `shown.bs.tooltip` | This event is fired when the tooltip has been made visible to the user (will wait for CSS transitions to complete). |
+
+JavaScript
+
+```
+          const myTooltipEl = document.getElementById('myTooltip')
+const tooltip = bootstrap.Tooltip.getOrCreateInstance(myTooltipEl)
+
+myTooltipEl.addEventListener('hidden.bs.tooltip', () => {
+  // do something...
+})
+
+tooltip.hide()
+```

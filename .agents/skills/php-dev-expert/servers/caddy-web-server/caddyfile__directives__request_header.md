@@ -1,0 +1,44 @@
+# request_header (Caddyfile directive) — Caddy Documentation
+
+> **Fonte / Source:** https://caddyserver.com/docs/caddyfile/directives/request_header
+
+---
+
+# request\_header
+
+Manipulates HTTP header fields on the request. It can set, add, and delete header values, or perform replacements using regular expressions.
+
+If you intend to manipulate headers for proxying, use the [`header_up` subdirective](caddyfile__directives__reverse_proxy.md#header_up) of `reverse_proxy` instead, as those manipulations are proxy-aware.
+
+To manipulate HTTP response headers, you may use the [`header`](caddyfile__directives__header.md) directive.
+
+## Syntax
+
+```
+request_header [<matcher>] [[+|-]<field> [<value>|<find>] [<replace>]]
+```
+
+- **<field>** is the name of the header field.
+
+  With no prefix, the field is set (overwritten).
+
+  Prefix with `+` to add the field instead of overwriting (setting) the field if it already exists; header fields can appear more than once in a request.
+
+  Prefix with `-` to delete the field. The field may use prefix or suffix `*` wildcards to delete all matching fields.
+- **<value>** is the header field value, if adding or setting a field.
+- **<find>** is the substring or regular expression to search for.
+- **<replace>** is the replacement value; required if performing a search-and-replace.
+
+## Examples
+
+Remove the Referer header from the request:
+
+```
+request_header -Referer
+```
+
+Delete all headers containing an underscore from the request:
+
+```
+request_header -*_*
+```

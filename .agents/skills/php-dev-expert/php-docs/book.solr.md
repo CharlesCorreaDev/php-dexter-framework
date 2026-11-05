@@ -1,0 +1,431 @@
+# Apache Solr
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/book.solr.php
+
+---
+
+# Apache Solr
+
+# Introdução
+
+A extensão Solr permite comunicar-se de forma eficaz com um servidor Apache Solr a partir do PHP.
+
+A extensão Solr é uma biblioteca extremamente rápida, leve, rica em recursos, que permite aos desenvolvedores PHP se comunicarem com instâncias Solr.
+
+Versões 1.x dessa extensão PECL suportam Apache Solr Server 1.3-3.x
+
+Versões 2.x dessa extensão PECL suportam Apache Solr Server 4.0+
+
+Existem funcionalidades nativas para acrescentar documentos e fazer atualizações no servidor Solr.
+
+Também contém funcionalidades que permitem consultas avançadas para localizar documentos.
+
+- [Instalação/Configuração](solr.setup.md)
+  - [Dependências](solr.requirements.md)
+  - [Instalação](solr.installation.md)
+- [Constantes predefinidas](solr.constants.md)
+- [Funções de Solr](ref.solr.md)
+  - [solr\_get\_version](function.solr-get-version.md) — Retorna a versão atual da extensão Apache Solr
+- [Examples](solr.examples.md)
+- [SolrUtils](class.solrutils.md) — A classe SolrUtils
+  - [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) — Analisa uma string XML de resposta em um SolrObject
+  - [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) — Escapa uma string de consulta Lucene
+  - [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) — Retorna a versão atual da extensão Solr
+  - [SolrUtils::queryPhrase](solrutils.queryphrase.md) — Prepara uma frase a partir de uma string Lucene sem escape
+- [SolrInputDocument](class.solrinputdocument.md) — A classe SolrInputDocument
+  - [SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.md) — Adiciona um documento filho para indexação de bloco
+  - [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.md) — Adiciona um array de documentos filhos
+  - [SolrInputDocument::addField](solrinputdocument.addfield.md) — Adiciona um campo ao documento
+  - [SolrInputDocument::clear](solrinputdocument.clear.md) — Redefine o documento de entrada
+  - [SolrInputDocument::\_\_clone](solrinputdocument.clone.md) — Cria uma cópia de um SolrDocument
+  - [SolrInputDocument::\_\_construct](solrinputdocument.construct.md) — Construtor
+  - [SolrInputDocument::deleteField](solrinputdocument.deletefield.md) — Remove um campo do documento
+  - [SolrInputDocument::\_\_destruct](solrinputdocument.destruct.md) — Destrutor
+  - [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md) — Verifica se um campo existe
+  - [SolrInputDocument::getBoost](solrinputdocument.getboost.md) — Recupera o valor de impulso atual do documento
+  - [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md) — Retorna um array de documentos filhos (SolrInputDocument)
+  - [SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.md) — Retorna o número de documentos filhos
+  - [SolrInputDocument::getField](solrinputdocument.getfield.md) — Recupera um campo por nome
+  - [SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md) — Recupera o valor de impulso para um campo específico
+  - [SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md) — Retorna o número de campos do documento
+  - [SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md) — Retorna um array contendo todos os campos do documento
+  - [SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md) — Verifica se o documento possui algum documento filho
+  - [SolrInputDocument::merge](solrinputdocument.merge.md) — Mescla um documento de entrada em outro
+  - [SolrInputDocument::reset](solrinputdocument.reset.md) — Sinônimo de SolrInputDocument::clear
+  - [SolrInputDocument::setBoost](solrinputdocument.setboost.md) — Define o valor de impulso para este documento
+  - [SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md) — Define o valor de impulso no momento da indexação para um campo
+  - [SolrInputDocument::sort](solrinputdocument.sort.md) — Classifica os campos dentro do documento
+  - [SolrInputDocument::toArray](solrinputdocument.toarray.md) — Retorna uma representação de array do documento de entrada
+- [SolrDocument](class.solrdocument.md) — A classe SolrDocument
+  - [SolrDocument::addField](solrdocument.addfield.md) — Adiciona um campo ao documento
+  - [SolrDocument::clear](solrdocument.clear.md) — Elimina todos os campos do documento
+  - [SolrDocument::\_\_clone](solrdocument.clone.md) — Cria uma cópia de um objeto SolrDocument
+  - [SolrDocument::\_\_construct](solrdocument.construct.md) — Construtor
+  - [SolrDocument::current](solrdocument.current.md) — Recupera o campo atual
+  - [SolrDocument::deleteField](solrdocument.deletefield.md) — Remove um campo do documento
+  - [SolrDocument::\_\_destruct](solrdocument.destruct.md) — Destrutor
+  - [SolrDocument::fieldExists](solrdocument.fieldexists.md) — Verifica se um campo existe no documento
+  - [SolrDocument::\_\_get](solrdocument.get.md) — Acessa o campo como uma propriedade
+  - [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.md) — Retorna um array de documentos filhos (SolrDocument)
+  - [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md) — Retorna o número de documentos filhos
+  - [SolrDocument::getField](solrdocument.getfield.md) — Recupera um campo por nome
+  - [SolrDocument::getFieldCount](solrdocument.getfieldcount.md) — Retorna o número de campos neste documento
+  - [SolrDocument::getFieldNames](solrdocument.getfieldnames.md) — Retorna um array de nomes de campos no documento
+  - [SolrDocument::getInputDocument](solrdocument.getinputdocument.md) — Retorna um SolrInputDocument equivalente ao objeto
+  - [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md) — Verifica se o documento possui algum documento filho
+  - [SolrDocument::\_\_isset](solrdocument.isset.md) — Verifica se um campo existe
+  - [SolrDocument::key](solrdocument.key.md) — Recupera a chave atual
+  - [SolrDocument::merge](solrdocument.merge.md) — Mescla o documento de origem com o SolrDocument atual
+  - [SolrDocument::next](solrdocument.next.md) — Move o ponteiro interno para o próximo campo
+  - [SolrDocument::offsetExists](solrdocument.offsetexists.md) — Verifica se existe um campo específico
+  - [SolrDocument::offsetGet](solrdocument.offsetget.md) — Recupera um campo
+  - [SolrDocument::offsetSet](solrdocument.offsetset.md) — Adiciona um campo ao documento
+  - [SolrDocument::offsetUnset](solrdocument.offsetunset.md) — Remove um campo
+  - [SolrDocument::reset](solrdocument.reset.md) — Sinônimo de SolrDocument::clear
+  - [SolrDocument::rewind](solrdocument.rewind.md) — Redefine o ponteiro interno para o início
+  - [SolrDocument::serialize](solrdocument.serialize.md) — Usado para serialização personalizada
+  - [SolrDocument::\_\_set](solrdocument.set.md) — Adiciona outro campo ao documento
+  - [SolrDocument::sort](solrdocument.sort.md) — Classifica os campos do documento
+  - [SolrDocument::toArray](solrdocument.toarray.md) — Retorna uma representação de array do documento
+  - [SolrDocument::unserialize](solrdocument.unserialize.md) — Serialização personalizada de objetos SolrDocument
+  - [SolrDocument::\_\_unset](solrdocument.unset.md) — Remove um campo do documento
+  - [SolrDocument::valid](solrdocument.valid.md) — Verifica se a posição atual internamente ainda é válida
+- [SolrDocumentField](class.solrdocumentfield.md) — A classe SolrDocumentField
+  - [SolrDocumentField::\_\_construct](solrdocumentfield.construct.md) — Construtor
+  - [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.md) — Destrutor
+- [SolrObject](class.solrobject.md) — A classe SolrObject
+  - [SolrObject::\_\_construct](solrobject.construct.md) — Cria um objeto Solr
+  - [SolrObject::\_\_destruct](solrobject.destruct.md) — Destrutor
+  - [SolrObject::getPropertyNames](solrobject.getpropertynames.md) — Retorna um array com todos os nomes das propriedades
+  - [SolrObject::offsetExists](solrobject.offsetexists.md) — Verifica se a propriedade existe
+  - [SolrObject::offsetGet](solrobject.offsetget.md) — Recupera o valor de uma propriedade
+  - [SolrObject::offsetSet](solrobject.offsetset.md) — Define o valor de uma propriedade
+  - [SolrObject::offsetUnset](solrobject.offsetunset.md) — Desativa o valor da propriedade
+- [SolrClient](class.solrclient.md) — A classe SolrClient
+  - [SolrClient::addDocument](solrclient.adddocument.md) — Adiciona um documento ao índice
+  - [SolrClient::addDocuments](solrclient.adddocuments.md) — Adiciona uma coleção de instâncias SolrInputDocument ao índice
+  - [SolrClient::commit](solrclient.commit.md) — Finaliza todas as adições/exclusões feitas no índice
+  - [SolrClient::\_\_construct](solrclient.construct.md) — Construtor para o objeto SolrClient
+  - [SolrClient::deleteById](solrclient.deletebyid.md) — Exclui por ID
+  - [SolrClient::deleteByIds](solrclient.deletebyids.md) — Exclui por IDs
+  - [SolrClient::deleteByQueries](solrclient.deletebyqueries.md) — Remove todos os documentos que correspondem a qualquer uma das consultas
+  - [SolrClient::deleteByQuery](solrclient.deletebyquery.md) — Exclui todos os documentos que correspondem à consulta fornecida
+  - [SolrClient::\_\_destruct](solrclient.destruct.md) — Destrutor para SolrClient
+  - [SolrClient::getById](solrclient.getbyid.md) — Obtém documento por ID usando Realtime Get (RTG) do Solr
+  - [SolrClient::getByIds](solrclient.getbyids.md) — Obtém documentos por seus IDs usando Realtime Get (RTG) do Solr
+  - [SolrClient::getDebug](solrclient.getdebug.md) — Retorna os dados de depuração da última tentativa de conexão
+  - [SolrClient::getOptions](solrclient.getoptions.md) — Retorna as opções do cliente definidas internamente
+  - [SolrClient::optimize](solrclient.optimize.md) — Desfragmenta o índice
+  - [SolrClient::ping](solrclient.ping.md) — Verifica se o servidor Solr ainda está ativo
+  - [SolrClient::query](solrclient.query.md) — Envia uma consulta ao servidor
+  - [SolrClient::request](solrclient.request.md) — Envia uma solicitação de atualização bruta
+  - [SolrClient::rollback](solrclient.rollback.md) — Reverte todas as adições/exclusões feitas no índice desde a última confirmação
+  - [SolrClient::setResponseWriter](solrclient.setresponsewriter.md) — Define o gravador de resposta usado para preparar a resposta do Solr
+  - [SolrClient::setServlet](solrclient.setservlet.md) — Altera o tipo de servlet especificado para um novo valor
+  - [SolrClient::system](solrclient.system.md) — Recupera informações do servidor Solr
+  - [SolrClient::threads](solrclient.threads.md) — Verifica o status dos threads
+- [SolrResponse](class.solrresponse.md) — A classe SolrResponse
+  - [SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md) — Retorna a resposta XML como dados PHP serializados
+  - [SolrResponse::getHttpStatus](solrresponse.gethttpstatus.md) — Retorna o status HTTP da resposta
+  - [SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md) — Retorna mais detalhes sobre o status HTTP
+  - [SolrResponse::getRawRequest](solrresponse.getrawrequest.md) — Retorna a solicitação bruta enviada ao servidor Solr
+  - [SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md) — Retorna os cabeçalhos de solicitação brutos enviados ao servidor Solr
+  - [SolrResponse::getRawResponse](solrresponse.getrawresponse.md) — Retorna a resposta bruta do servidor
+  - [SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md) — Retorna os cabeçalhos de resposta brutos do servidor
+  - [SolrResponse::getRequestUrl](solrresponse.getrequesturl.md) — Retorna o URL completo para o qual a solicitação foi enviada
+  - [SolrResponse::getResponse](solrresponse.getresponse.md) — Retorna um SolrObject representando a resposta XML do servidor
+  - [SolrResponse::setParseMode](solrresponse.setparsemode.md) — Define o modo de análise
+  - [SolrResponse::success](solrresponse.success.md) — Informa se a requisição foi bem-sucedida
+- [SolrQueryResponse](class.solrqueryresponse.md) — A classe SolrQueryResponse
+  - [SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md) — Construtor
+  - [SolrQueryResponse::\_\_destruct](solrqueryresponse.destruct.md) — Destrutor
+- [SolrUpdateResponse](class.solrupdateresponse.md) — A classe SolrUpdateResponse
+  - [SolrUpdateResponse::\_\_construct](solrupdateresponse.construct.md) — Construtor
+  - [SolrUpdateResponse::\_\_destruct](solrupdateresponse.destruct.md) — Destrutor
+- [SolrPingResponse](class.solrpingresponse.md) — A classe SolrPingResponse
+  - [SolrPingResponse::\_\_construct](solrpingresponse.construct.md) — Construtor
+  - [SolrPingResponse::\_\_destruct](solrpingresponse.destruct.md) — Destrutor
+  - [SolrPingResponse::getResponse](solrpingresponse.getresponse.md) — Retorna a resposta do servidor
+- [SolrGenericResponse](class.solrgenericresponse.md) — A classe SolrGenericResponse
+  - [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md) — Construtor
+  - [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md) — Destrutor
+- [SolrParams](class.solrparams.md) — A classe SolrParams
+  - [SolrParams::add](solrparams.add.md) — Sinônimo de SolrParams::addParam
+  - [SolrParams::addParam](solrparams.addparam.md) — Adiciona um parâmetro ao objeto
+  - [SolrParams::get](solrparams.get.md) — Sinônimo de SolrParams::getParam
+  - [SolrParams::getParam](solrparams.getparam.md) — Retorna um valor de parâmetro
+  - [SolrParams::getParams](solrparams.getparams.md) — Retorna um array de parâmetros não codificados em URL
+  - [SolrParams::getPreparedParams](solrparams.getpreparedparams.md) — Retorna um array de parâmetros codificados em URL
+  - [SolrParams::serialize](solrparams.serialize.md) — Usado para serialização personalizada
+  - [SolrParams::set](solrparams.set.md) — Sinônimo de SolrParams::setParam
+  - [SolrParams::setParam](solrparams.setparam.md) — Define o parâmetro para o valor especificado
+  - [SolrParams::toString](solrparams.tostring.md) — Retorna todos os parâmetros do par nome-valor no objeto
+  - [SolrParams::unserialize](solrparams.unserialize.md) — Usado para desserialização personalizada
+- [SolrModifiableParams](class.solrmodifiableparams.md) — A classe SolrModifiableParams
+  - [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md) — Construtor
+  - [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md) — Destrutor
+- [SolrQuery](class.solrquery.md) — A classe SolrQuery
+  - [SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.md) — Substitui a consulta do filtro principal e determina quais documentos incluir no grupo principal
+  - [SolrQuery::addExpandSortField](solrquery.addexpandsortfield.md) — Ordena os documentos dentro dos grupos expandidos (parâmetro expand.sort)
+  - [SolrQuery::addFacetDateField](solrquery.addfacetdatefield.md) — Mapeia para facet.date
+  - [SolrQuery::addFacetDateOther](solrquery.addfacetdateother.md) — Adiciona outro parâmetro facet.date.other
+  - [SolrQuery::addFacetField](solrquery.addfacetfield.md) — Adiciona outro campo à faceta
+  - [SolrQuery::addFacetQuery](solrquery.addfacetquery.md) — Adiciona uma consulta de faceta
+  - [SolrQuery::addField](solrquery.addfield.md) — Especifica quais campos retornar no resultado
+  - [SolrQuery::addFilterQuery](solrquery.addfilterquery.md) — Especifica uma consulta de filtro
+  - [SolrQuery::addGroupField](solrquery.addgroupfield.md) — Adiciona um campo para ser usado para agrupar resultados
+  - [SolrQuery::addGroupFunction](solrquery.addgroupfunction.md) — Permite agrupar resultados com base nos valores exclusivos de uma consulta de função (parâmetro group.func)
+  - [SolrQuery::addGroupQuery](solrquery.addgroupquery.md) — Permite agrupar documentos que correspondem à consulta fornecida
+  - [SolrQuery::addGroupSortField](solrquery.addgroupsortfield.md) — Adiciona um campo de classificação de grupo (parâmetro group.sort)
+  - [SolrQuery::addHighlightField](solrquery.addhighlightfield.md) — Mapeia para hl.fl
+  - [SolrQuery::addMltField](solrquery.addmltfield.md) — Define um campo a ser usado para similaridade
+  - [SolrQuery::addMltQueryField](solrquery.addmltqueryfield.md) — Mapeia para mlt.qf
+  - [SolrQuery::addSortField](solrquery.addsortfield.md) — Usado para controlar como os resultados devem ser classificados
+  - [SolrQuery::addStatsFacet](solrquery.addstatsfacet.md) — Solicita um retorno de subresultados para valores dentro de uma determinada faceta
+  - [SolrQuery::addStatsField](solrquery.addstatsfield.md) — Mapeia para o parâmetro stats.field
+  - [SolrQuery::collapse](solrquery.collapse.md) — Colapsa o conjunto de resultados para um único documento por grupo
+  - [SolrQuery::\_\_construct](solrquery.construct.md) — Construtor
+  - [SolrQuery::\_\_destruct](solrquery.destruct.md) — Destrutor
+  - [SolrQuery::getExpand](solrquery.getexpand.md) — Informa se a expansão do grupo está habilitada
+  - [SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.md) — Retorna as consultas de filtro de expansão
+  - [SolrQuery::getExpandQuery](solrquery.getexpandquery.md) — Retorna o parâmetro expand.q da consulta de expansão
+  - [SolrQuery::getExpandRows](solrquery.getexpandrows.md) — Retorna o número de linhas a serem exibidas em cada grupo (expand.rows)
+  - [SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md) — Retorna um array de campos
+  - [SolrQuery::getFacet](solrquery.getfacet.md) — Retorna o valor do parâmetro de faceta
+  - [SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.md) — Retorna o valor do parâmetro facet.date.end
+  - [SolrQuery::getFacetDateFields](solrquery.getfacetdatefields.md) — Retorna todos os campos facet.date
+  - [SolrQuery::getFacetDateGap](solrquery.getfacetdategap.md) — Retorna o valor do parâmetro facet.date.gap
+  - [SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md) — Retorna o valor do parâmetro facet.date.hardend
+  - [SolrQuery::getFacetDateOther](solrquery.getfacetdateother.md) — Retorna o valor do parâmetro facet.date.other
+  - [SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.md) — Retorna o limite inferior do primeiro intervalo de datas para todas as facetas de data neste campo
+  - [SolrQuery::getFacetFields](solrquery.getfacetfields.md) — Retorna todos os campos de faceta
+  - [SolrQuery::getFacetLimit](solrquery.getfacetlimit.md) — Retorna o número máximo de contagens de restrições que devem ser retornadas para os campos de faceta
+  - [SolrQuery::getFacetMethod](solrquery.getfacetmethod.md) — Retorna o valor do parâmetro facet.method
+  - [SolrQuery::getFacetMinCount](solrquery.getfacetmincount.md) — Retorna as contagens mínimas para campos de facetas que devem ser incluídas na resposta
+  - [SolrQuery::getFacetMissing](solrquery.getfacetmissing.md) — Retorna o estado atual do parâmetro facet.missing
+  - [SolrQuery::getFacetOffset](solrquery.getfacetoffset.md) — Retorna um deslocamento na lista de restrições a serem usadas para paginação
+  - [SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md) — Retorna o prefixo da faceta
+  - [SolrQuery::getFacetQueries](solrquery.getfacetqueries.md) — Retorna todas as consultas de faceta
+  - [SolrQuery::getFacetSort](solrquery.getfacetsort.md) — Retorna o tipo de classificação de faceta
+  - [SolrQuery::getFields](solrquery.getfields.md) — Retorna a lista de campos que serão retornados na resposta
+  - [SolrQuery::getFilterQueries](solrquery.getfilterqueries.md) — Retorna uma série de consultas de filtro
+  - [SolrQuery::getGroup](solrquery.getgroup.md) — Informa se o agrupamento está habilitado
+  - [SolrQuery::getGroupCachePercent](solrquery.getgroupcachepercent.md) — Retorna o valor percentual do cache do grupo
+  - [SolrQuery::getGroupFacet](solrquery.getgroupfacet.md) — Retorna o valor do parâmetro group.facet
+  - [SolrQuery::getGroupFields](solrquery.getgroupfields.md) — Retorna campos de grupo (valores de parâmetro group.field)
+  - [SolrQuery::getGroupFormat](solrquery.getgroupformat.md) — Retorna o valor group.format
+  - [SolrQuery::getGroupFunctions](solrquery.getgroupfunctions.md) — Retorna funções de grupo (valores de parâmetro group.func)
+  - [SolrQuery::getGroupLimit](solrquery.getgrouplimit.md) — Retorna o valor group.limit
+  - [SolrQuery::getGroupMain](solrquery.getgroupmain.md) — Retorna o valor group.main
+  - [SolrQuery::getGroupNGroups](solrquery.getgroupngroups.md) — Retorna o valor group.ngroups
+  - [SolrQuery::getGroupOffset](solrquery.getgroupoffset.md) — Retorna o valor group.offset
+  - [SolrQuery::getGroupQueries](solrquery.getgroupqueries.md) — Retorna todos os valores dos parâmetros group.query
+  - [SolrQuery::getGroupSortFields](solrquery.getgroupsortfields.md) — Retorna o valor group.sort
+  - [SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md) — Retorna o valor group.truncate
+  - [SolrQuery::getHighlight](solrquery.gethighlight.md) — Retorna o estado do parâmetro hl
+  - [SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md) — Retorna o campo de destaque para usar como reserva ou padrão
+  - [SolrQuery::getHighlightFields](solrquery.gethighlightfields.md) — Retorna todos os campos para os quais o Solr deve gerar trechos destacados
+  - [SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md) — Retorna o formatador da saída destacada
+  - [SolrQuery::getHighlightFragmenter](solrquery.gethighlightfragmenter.md) — Retorna o gerador de trecho de texto para texto destacado
+  - [SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.md) — Retorna o número de caracteres dos fragmentos a serem considerados para destaque
+  - [SolrQuery::getHighlightHighlightMultiTerm](solrquery.gethighlighthighlightmultiterm.md) — Retorna se o destaque deve ou não ser ativado para consultas de intervalo/coringa/difusa/prefixo
+  - [SolrQuery::getHighlightMaxAlternateFieldLength](solrquery.gethighlightmaxalternatefieldlength.md) — Retorna o número máximo de caracteres do campo a ser retornado
+  - [SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.md) — Retorna o número máximo de caracteres em um documento para procurar trechos adequados
+  - [SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md) — Retorna se os fragmentos contíguos serão ou não colapsados em um único fragmento
+  - [SolrQuery::getHighlightQuery](solrquery.gethighlightquery.md) — Retorna a consulta de destaque (hl.q)
+  - [SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md) — Retorna o número máximo de caracteres de um campo ao usar o fragmentador de expressão regular
+  - [SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md) — Retorna a expressão regular para fragmentação
+  - [SolrQuery::getHighlightRegexSlop](solrquery.gethighlightregexslop.md) — Retorna o fator de desvio do tamanho ideal do fragmento
+  - [SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.md) — Retorna se um campo só será destacado se a consulta corresponder a esse campo específico
+  - [SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md) — Retorna o texto que aparece após um termo destacado
+  - [SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md) — Retorna o texto que aparece antes de um termo destacado
+  - [SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.md) — Retorna o número máximo de trechos destacados a serem gerados por campo
+  - [SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md) — Retorna o estado do parâmetro hl.usePhraseHighlighter
+  - [SolrQuery::getMlt](solrquery.getmlt.md) — Retorna se os resultados MoreLikeThis devem ou não ser habilitados
+  - [SolrQuery::getMltBoost](solrquery.getmltboost.md) — Retorna se a consulta será ou não impulsionada pela relevância de termo de interesse
+  - [SolrQuery::getMltCount](solrquery.getmltcount.md) — Retorna o número de documentos semelhantes a serem retornados para cada resultado
+  - [SolrQuery::getMltFields](solrquery.getmltfields.md) — Retorna todos os campos a serem usados ​​para similaridade
+  - [SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.md) — Retorna o número máximo de termos de consulta que serão incluídos em qualquer consulta gerada
+  - [SolrQuery::getMltMaxNumTokens](solrquery.getmltmaxnumtokens.md) — Retorna o número máximo de tokens a analisar em cada campo de documento que não é armazenado com suporte a TermVector
+  - [SolrQuery::getMltMaxWordLength](solrquery.getmltmaxwordlength.md) — Retorna o comprimento máximo de palavra acima do qual as palavras serão ignoradas
+  - [SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md) — Retorna a frequência limite na qual as palavras serão ignoradas e que não ocorrem em pelo menos esta quantidade de documentos
+  - [SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.md) — Retorna a frequência abaixo da qual os termos serão ignorados no documento de origem
+  - [SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md) — Retorna o comprimento mínimo da palavra abaixo do qual as palavras serão ignoradas
+  - [SolrQuery::getMltQueryFields](solrquery.getmltqueryfields.md) — Retorna os campos de consulta e seus impulsos
+  - [SolrQuery::getQuery](solrquery.getquery.md) — Retorna a consulta principal
+  - [SolrQuery::getRows](solrquery.getrows.md) — Retorna o número máximo de documentos
+  - [SolrQuery::getSortFields](solrquery.getsortfields.md) — Retorna todos os campos de classificação
+  - [SolrQuery::getStart](solrquery.getstart.md) — Retorna a posição no conjunto completo de resultados
+  - [SolrQuery::getStats](solrquery.getstats.md) — Retorna se as estatísticas estão habilitadas ou não
+  - [SolrQuery::getStatsFacets](solrquery.getstatsfacets.md) — Retorna todas as facetas de estatísticas que foram definidas
+  - [SolrQuery::getStatsFields](solrquery.getstatsfields.md) — Retorna todos os campos de estatísticas
+  - [SolrQuery::getTerms](solrquery.getterms.md) — Retorna se o TermsComponent está habilitado ou não
+  - [SolrQuery::getTermsField](solrquery.gettermsfield.md) — Retorna o campo do qual os termos são recuperados
+  - [SolrQuery::getTermsIncludeLowerBound](solrquery.gettermsincludelowerbound.md) — Retorna se o limite inferior no conjunto de resultados deve ou não ser incluído
+  - [SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.md) — Retorna se o limite superior no conjunto de resultados deve ou não ser incluído
+  - [SolrQuery::getTermsLimit](solrquery.gettermslimit.md) — Retorna o número máximo de termos que o Solr deve retornar
+  - [SolrQuery::getTermsLowerBound](solrquery.gettermslowerbound.md) — Retorna o termo de início
+  - [SolrQuery::getTermsMaxCount](solrquery.gettermsmaxcount.md) — Retorna a frequência máxima do documento
+  - [SolrQuery::getTermsMinCount](solrquery.gettermsmincount.md) — Retorna a frequência mínima do documento a ser retornada para que seja incluído
+  - [SolrQuery::getTermsPrefix](solrquery.gettermsprefix.md) — Retorna o prefixo do termo
+  - [SolrQuery::getTermsReturnRaw](solrquery.gettermsreturnraw.md) — Informa se os caracteres devem ser retornados de forma bruta ou não
+  - [SolrQuery::getTermsSort](solrquery.gettermssort.md) — Retorna um número inteiro indicando como os termos são classificados
+  - [SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md) — Retorna o termo de parada
+  - [SolrQuery::getTimeAllowed](solrquery.gettimeallowed.md) — Retorna o tempo em milissegundos permitido para a consulta terminar
+  - [SolrQuery::removeExpandFilterQuery](solrquery.removeexpandfilterquery.md) — Remove uma consulta de filtro expandido
+  - [SolrQuery::removeExpandSortField](solrquery.removeexpandsortfield.md) — Remove um campo de classificação expandida do parâmetro expand.sort
+  - [SolrQuery::removeFacetDateField](solrquery.removefacetdatefield.md) — Remove um dos campos de data de faceta
+  - [SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.md) — Remove um dos parâmetros facet.date.other
+  - [SolrQuery::removeFacetField](solrquery.removefacetfield.md) — Remove um dos parâmetros facet.date
+  - [SolrQuery::removeFacetQuery](solrquery.removefacetquery.md) — Remove um dos parâmetros facet.query
+  - [SolrQuery::removeField](solrquery.removefield.md) — Remove um campo da lista de campos
+  - [SolrQuery::removeFilterQuery](solrquery.removefilterquery.md) — Remove uma consulta de filtro
+  - [SolrQuery::removeHighlightField](solrquery.removehighlightfield.md) — Remove um dos campos usados ​​para destaque
+  - [SolrQuery::removeMltField](solrquery.removemltfield.md) — Remove um dos campos moreLikeThis
+  - [SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md) — Remove um dos campos de consulta moreLikeThis
+  - [SolrQuery::removeSortField](solrquery.removesortfield.md) — Remove um dos campos de classificação
+  - [SolrQuery::removeStatsFacet](solrquery.removestatsfacet.md) — Remove um dos parâmetros stats.facet
+  - [SolrQuery::removeStatsField](solrquery.removestatsfield.md) — Remove um dos parâmetros stats.field
+  - [SolrQuery::setEchoHandler](solrquery.setechohandler.md) — Alterna o parâmetro echoHandler
+  - [SolrQuery::setEchoParams](solrquery.setechoparams.md) — Determina que tipo de parâmetros são incluídos na resposta
+  - [SolrQuery::setExpand](solrquery.setexpand.md) — Ativa/desativa o componente de expansão
+  - [SolrQuery::setExpandQuery](solrquery.setexpandquery.md) — Define o parâmetro expand.q
+  - [SolrQuery::setExpandRows](solrquery.setexpandrows.md) — Define o número de linhas a serem exibidas em cada grupo (expand.rows)
+  - [SolrQuery::setExplainOther](solrquery.setexplainother.md) — Define o parâmetro de consulta comum explainOther
+  - [SolrQuery::setFacet](solrquery.setfacet.md) — Ativa ou desativa a facetação
+  - [SolrQuery::setFacetDateEnd](solrquery.setfacetdateend.md) — Mapeia para facet.date.end
+  - [SolrQuery::setFacetDateGap](solrquery.setfacetdategap.md) — Mapeia para facet.date.gap
+  - [SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md) — Mapeia para facet.date.hardend
+  - [SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.md) — Mapeia para facet.date.start
+  - [SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.md) — Define a frequência mínima do documento usada para determinar a contagem de prazos
+  - [SolrQuery::setFacetLimit](solrquery.setfacetlimit.md) — Mapeia para facet.limit
+  - [SolrQuery::setFacetMethod](solrquery.setfacetmethod.md) — Especifica o tipo de algoritmo a ser usado ao facetar um campo
+  - [SolrQuery::setFacetMinCount](solrquery.setfacetmincount.md) — Mapeia para facet.mincount
+  - [SolrQuery::setFacetMissing](solrquery.setfacetmissing.md) — Mapeia para facet.missing
+  - [SolrQuery::setFacetOffset](solrquery.setfacetoffset.md) — Define a posição na lista de restrições para permitir a paginação
+  - [SolrQuery::setFacetPrefix](solrquery.setfacetprefix.md) — Especifica uma string de prefixo com a qual serão limitados os termos facetados
+  - [SolrQuery::setFacetSort](solrquery.setfacetsort.md) — Determina a ordem das restrições do campo de faceta
+  - [SolrQuery::setGroup](solrquery.setgroup.md) — Ativa/desativa agrupamento de resultados (parâmetro 'group')
+  - [SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.md) — Ativa o cache para agrupamento de resultados
+  - [SolrQuery::setGroupFacet](solrquery.setgroupfacet.md) — Define o parâmetro group.facet
+  - [SolrQuery::setGroupFormat](solrquery.setgroupformat.md) — Define o formato do grupo, estrutura de resultado (parâmetro group.format)
+  - [SolrQuery::setGroupLimit](solrquery.setgrouplimit.md) — Especifica o número de resultados a serem retornados para cada grupo
+  - [SolrQuery::setGroupMain](solrquery.setgroupmain.md) — Define se será usado o resultado do primeiro comando de agrupamento de campos como a lista de resultados principal na resposta
+  - [SolrQuery::setGroupNGroups](solrquery.setgroupngroups.md) — Define a inclusão do número de grupos que corresponderam à consulta nos resultados
+  - [SolrQuery::setGroupOffset](solrquery.setgroupoffset.md) — Define o parâmetro group.offset
+  - [SolrQuery::setGroupTruncate](solrquery.setgrouptruncate.md) — Define se as contagens de facetas são baseadas no documento mais relevante de cada grupo que corresponde à consulta
+  - [SolrQuery::setHighlight](solrquery.sethighlight.md) — Ativa ou desativa o destaque
+  - [SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md) — Especifica o campo reserva a ser usado
+  - [SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.md) — Especifica um formatador para a saída de destaque
+  - [SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md) — Define um gerador de trecho de texto para texto destacado
+  - [SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md) — O tamanho dos fragmentos a serem considerados para destaque
+  - [SolrQuery::setHighlightHighlightMultiTerm](solrquery.sethighlighthighlightmultiterm.md) — Usa o SpanScorer para destacar termos de frases
+  - [SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.md) — Define o número máximo de caracteres do campo a retornar
+  - [SolrQuery::setHighlightMaxAnalyzedChars](solrquery.sethighlightmaxanalyzedchars.md) — Especifica o número de caracteres em um documento para procurar trechos adequados
+  - [SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md) — Informa se fragmentos contíguos devem ou não ser colapsados em um único fragmento
+  - [SolrQuery::setHighlightQuery](solrquery.sethighlightquery.md) — Designa uma consulta para destaque (hl.q)
+  - [SolrQuery::setHighlightRegexMaxAnalyzedChars](solrquery.sethighlightregexmaxanalyzedchars.md) — Especifica o número máximo de caracteres a serem analisados
+  - [SolrQuery::setHighlightRegexPattern](solrquery.sethighlightregexpattern.md) — Especifica a expressão regular para fragmentação
+  - [SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.md) — Define o fator pelo qual o fragmentador de expressão regular pode se desviar do tamanho ideal do fragmento
+  - [SolrQuery::setHighlightRequireFieldMatch](solrquery.sethighlightrequirefieldmatch.md) — Requer correspondência de campo durante o destaque
+  - [SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md) — Define o texto que aparece após um termo destacado
+  - [SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.md) — Define o texto que aparece antes de um termo destacado
+  - [SolrQuery::setHighlightSnippets](solrquery.sethighlightsnippets.md) — Define o número máximo de trechos destacados a serem gerados por campo
+  - [SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md) — Define se os termos da frase devem ser destacados apenas quando eles aparecem na frase de consulta
+  - [SolrQuery::setMlt](solrquery.setmlt.md) — Ativa ou desativa moreLikeThis
+  - [SolrQuery::setMltBoost](solrquery.setmltboost.md) — Define se a consulta será impulsionada pela relevância de termos de interesse
+  - [SolrQuery::setMltCount](solrquery.setmltcount.md) — Define o número de documentos semelhantes a serem retornados para cada resultado
+  - [SolrQuery::setMltMaxNumQueryTerms](solrquery.setmltmaxnumqueryterms.md) — Define o número máximo de termos de consulta incluídos
+  - [SolrQuery::setMltMaxNumTokens](solrquery.setmltmaxnumtokens.md) — Especifica o número máximo de tokens a serem analisados
+  - [SolrQuery::setMltMaxWordLength](solrquery.setmltmaxwordlength.md) — Define o comprimento máximo da palavra
+  - [SolrQuery::setMltMinDocFrequency](solrquery.setmltmindocfrequency.md) — Define a frequência mltMinDoc
+  - [SolrQuery::setMltMinTermFrequency](solrquery.setmltmintermfrequency.md) — Define a frequência abaixo da qual os termos serão ignorados nos documentos de origem
+  - [SolrQuery::setMltMinWordLength](solrquery.setmltminwordlength.md) — Define o comprimento mínimo da palavra
+  - [SolrQuery::setOmitHeader](solrquery.setomitheader.md) — Exclui o cabeçalho dos resultados retornados
+  - [SolrQuery::setQuery](solrquery.setquery.md) — Define a consulta de pesquisa
+  - [SolrQuery::setRows](solrquery.setrows.md) — Especifica o número máximo de linhas a serem retornadas no resultado
+  - [SolrQuery::setShowDebugInfo](solrquery.setshowdebuginfo.md) — Define sinalizador para mostrar informações de depuração
+  - [SolrQuery::setStart](solrquery.setstart.md) — Especifica o número de linhas a serem ignoradas
+  - [SolrQuery::setStats](solrquery.setstats.md) — Ativa ou desativa o componente de estatísticas
+  - [SolrQuery::setTerms](solrquery.setterms.md) — Habilita ou desabilita o TermsComponent
+  - [SolrQuery::setTermsField](solrquery.settermsfield.md) — Define o nome do campo do qual os termos serão obtidos
+  - [SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md) — Inclui o termo do limite inferior no conjunto de resultados
+  - [SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md) — Inclui o termo do limite superior no conjunto de resultados
+  - [SolrQuery::setTermsLimit](solrquery.settermslimit.md) — Define o número máximo de termos a serem retornados
+  - [SolrQuery::setTermsLowerBound](solrquery.settermslowerbound.md) — Especifica o termo de início
+  - [SolrQuery::setTermsMaxCount](solrquery.settermsmaxcount.md) — Define a frequência máxima do documento
+  - [SolrQuery::setTermsMinCount](solrquery.settermsmincount.md) — Define a frequência mínima do documento
+  - [SolrQuery::setTermsPrefix](solrquery.settermsprefix.md) — Restringe correspondências a termos que começam com o prefixo
+  - [SolrQuery::setTermsReturnRaw](solrquery.settermsreturnraw.md) — Retorna os caracteres brutos do termo indexado
+  - [SolrQuery::setTermsSort](solrquery.settermssort.md) — Especifica como classificar os termos retornados
+  - [SolrQuery::setTermsUpperBound](solrquery.settermsupperbound.md) — Define o termo de parada
+  - [SolrQuery::setTimeAllowed](solrquery.settimeallowed.md) — Define o tempo permitido para a pesquisa terminar
+- [SolrDisMaxQuery](class.solrdismaxquery.md) — A classe SolrDisMaxQuery
+  - [SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md) — Adiciona um campo de frase bigrama (parâmetro pf2)
+  - [SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.md) — Adiciona um campo de consulta de impulso com valor e impulso (parâmetro bq)
+  - [SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.md) — Adiciona um campo de frase (parâmetro pf)
+  - [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md) — Adiciona um campo de consulta com impulso opcional (parâmetro qf)
+  - [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md) — Adiciona um campo de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md) — Adiciona um campo ao parâmetro campos do usuário (uf)
+  - [SolrDisMaxQuery::\_\_construct](solrdismaxquery.construct.md) — Construtor da classe
+  - [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.md) — Remove o campo de frase bigrama (parâmetro pf2)
+  - [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md) — Remove uma consulta de impulso parcial por nome de campo (bq)
+  - [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md) — Remover um campo de frase (parâmetro pf)
+  - [SolrDisMaxQuery::removeQueryField](solrdismaxquery.removequeryfield.md) — Remove um campo de consulta (parâmetro qf)
+  - [SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.md) — Remove um campo de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md) — Remove um campo do parâmetro de campos de usuário (uf)
+  - [SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.md) — Define campos de frase bigrama e seus impulsos (e slops) usando o parâmetro pf2
+  - [SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.md) — Define o slop da frase bigrama (parâmetro ps2)
+  - [SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.md) — Define uma função de impulso (parâmetro bf)
+  - [SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md) — Define diretamente o parâmetro de consulta de impulso (bq)
+  - [SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.md) — Define a correspondência mínima "Deveria" (mm)
+  - [SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md) — Define campos de frase e seus impulsos (e slops) usando o parâmetro pf2
+  - [SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md) — Define o slop padrão em consultas de frase (parâmetro ps)
+  - [SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.md) — Define a consulta alternativa (parâmetro q.alt)
+  - [SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md) — Especifica a quantidade de slop permitida em consultas de frase explicitamente incluídas na string de consulta do usuário (parâmetro qf)
+  - [SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.md) — Define o parâmetro de desempate (parâmetro tie)
+  - [SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.md) — Define diretamente campos de frase trigrama (parâmetro pf3)
+  - [SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.md) — Define slop de frase trigrama (parâmetro ps3)
+  - [SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md) — Define parâmetro de campos de usuário (uf)
+  - [SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md) — Troca o analisador de consulta para o DisMax
+  - [SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.md) — Troca o analisador de consulta para o EDisMax
+- [SolrCollapseFunction](class.solrcollapsefunction.md) — A classe SolrCollapseFunction
+  - [SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.md) — Construtor
+  - [SolrCollapseFunction::getField](solrcollapsefunction.getfield.md) — Retorna o campo que está sendo colapsado
+  - [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.md) — Retorna dica de colapso
+  - [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.md) — Retorna o parâmetro "max"
+  - [SolrCollapseFunction::getMin](solrcollapsefunction.getmin.md) — Retorna o parâmetro "min"
+  - [SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md) — Retorna política para NULL
+  - [SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md) — Retorna o parâmetro de tamanho
+  - [SolrCollapseFunction::setField](solrcollapsefunction.setfield.md) — Define o campo para ser colapsado
+  - [SolrCollapseFunction::setHint](solrcollapsefunction.sethint.md) — Define dica de colapso
+  - [SolrCollapseFunction::setMax](solrcollapsefunction.setmax.md) — Seleciona os cabeçalhos dos grupos pelo valor máximo de um campo numérico ou consulta de função
+  - [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.md) — Define o tamanho inicial das estruturas de dados colapsadas ao recolher apenas em um campo numérico
+  - [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md) — Define a política para NULL
+  - [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.md) — Define o tamanho inicial das estruturas de dados colapsadas ao colapsar apenas em um campo numérico
+  - [SolrCollapseFunction::\_\_toString](solrcollapsefunction.tostring.md) — Retorna uma string representando a função de colapso construída
+- [SolrException](class.solrexception.md) — A classe SolrException
+  - [SolrException::getInternalInfo](solrexception.getinternalinfo.md) — Retorna informações internas de onde a exceção foi lançada
+- [SolrClientException](class.solrclientexception.md) — A classe SolrClientException
+  - [SolrClientException::getInternalInfo](solrclientexception.getinternalinfo.md) — Retorna informações internas de onde a exceção foi lançada
+- [SolrServerException](class.solrserverexception.md) — A classe SolrServerException
+  - [SolrServerException::getInternalInfo](solrserverexception.getinternalinfo.md) — Retorna informações internas de onde a exceção foi lançada
+- [SolrIllegalArgumentException](class.solrillegalargumentexception.md) — A classe SolrIllegalArgumentException
+  - [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md) — Retorna informações internas de onde a exceção foi lançada
+- [SolrIllegalOperationException](class.solrillegaloperationexception.md) — A classe SolrIllegalOperationException
+  - [SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md) — Retorna informações internas de onde a exceção foi lançada
+- [SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.md) — A classe SolrMissingMandatoryParameterException
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

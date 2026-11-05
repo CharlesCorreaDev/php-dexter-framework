@@ -1,0 +1,103 @@
+# 📚 Índice da Documentação / Documentation Index
+
+- **Fonte / Source:** ** https://docs.opencart.com/admin-interface/cms
+- **Escopo / Scope:** `** https://docs.opencart.com/admin-interface/cms`
+- **Total de Páginas Capturadas / Total Captured Pages:** 90
+
+---
+
+## 📂 `docs` (89)
+
+- [CMS | OpenCart](docs__admin-interface__cms.md) — `** https://docs.opencart.com/admin-interface/cms`
+- [Anti-Spam | OpenCart](docs__admin-interface__cms__anti-spam.md) — `** https://docs.opencart.com/admin-interface/cms/anti-spam`
+- [Articles | OpenCart](docs__admin-interface__cms__articles.md) — `** https://docs.opencart.com/admin-interface/cms/articles`
+- [Comments | OpenCart](docs__admin-interface__cms__comments.md) — `** https://docs.opencart.com/admin-interface/cms/comments`
+- [Topics | OpenCart](docs__admin-interface__cms__topics.md) — `** https://docs.opencart.com/admin-interface/cms/topics`
+- [Customers | OpenCart](docs__admin-interface__customers.md) — `** https://docs.opencart.com/admin-interface/customers`
+- [Custom Fields | OpenCart](docs__admin-interface__customers__custom-fields.md) — `** https://docs.opencart.com/admin-interface/customers/custom-fields`
+- [Customer Approval | OpenCart](docs__admin-interface__customers__customer-approval.md) — `** https://docs.opencart.com/admin-interface/customers/customer-approval`
+- [Customer Groups | OpenCart](docs__admin-interface__customers__customer-groups.md) — `** https://docs.opencart.com/admin-interface/customers/customer-groups`
+- [Customer Management | OpenCart](docs__admin-interface__customers__customer-management.md) — `** https://docs.opencart.com/admin-interface/customers/customer-management`
+- [GDPR Management | OpenCart](docs__admin-interface__customers__gdpr-management.md) — `** https://docs.opencart.com/admin-interface/customers/gdpr-management`
+- [Dashboard | OpenCart](docs__admin-interface__dashboard.md) — `** https://docs.opencart.com/admin-interface/dashboard`
+- [Marketing | OpenCart](docs__admin-interface__marketing.md) — `** https://docs.opencart.com/admin-interface/marketing`
+- [Affiliates | OpenCart](docs__admin-interface__marketing__affiliates.md) — `** https://docs.opencart.com/admin-interface/marketing/affiliates`
+- [Coupons | OpenCart](docs__admin-interface__marketing__coupons.md) — `** https://docs.opencart.com/admin-interface/marketing/coupons`
+- [Mail | OpenCart](docs__admin-interface__marketing__mail.md) — `** https://docs.opencart.com/admin-interface/marketing/mail`
+- [Catalog | OpenCart](docs__admin-interface__overview.md) — `** https://docs.opencart.com/admin-interface/overview`
+- [Attributes | OpenCart](docs__admin-interface__overview__attributes.md) — `** https://docs.opencart.com/admin-interface/overview/attributes`
+- [Categories | OpenCart](docs__admin-interface__overview__categories.md) — `** https://docs.opencart.com/admin-interface/overview/categories`
+- [Downloads | OpenCart](docs__admin-interface__overview__downloads.md) — `** https://docs.opencart.com/admin-interface/overview/downloads`
+- [Filters | OpenCart](docs__admin-interface__overview__filters.md) — `** https://docs.opencart.com/admin-interface/overview/filters`
+- [Information | OpenCart](docs__admin-interface__overview__information.md) — `** https://docs.opencart.com/admin-interface/overview/information`
+- [Manufacturers | OpenCart](docs__admin-interface__overview__manufacturers.md) — `** https://docs.opencart.com/admin-interface/overview/manufacturers`
+- [Options | OpenCart](docs__admin-interface__overview__options.md) — `** https://docs.opencart.com/admin-interface/overview/options`
+- [Products | OpenCart](docs__admin-interface__overview__products.md) — `** https://docs.opencart.com/admin-interface/overview/products`
+- [Adding Products | OpenCart](docs__admin-interface__overview__products__adding-products.md) — `** https://docs.opencart.com/admin-interface/overview/products/adding-products`
+- [Product Form Tabs | OpenCart](docs__admin-interface__overview__products__product-form-tabs.md) — `** https://docs.opencart.com/admin-interface/overview/products/product-form-tabs`
+- [Product Identifiers | OpenCart](docs__admin-interface__overview__products__product-identifiers.md) — `** https://docs.opencart.com/admin-interface/overview/products/product-identifiers`
+- [Product Managementage | OpenCart](docs__admin-interface__overview__products__product-managementage.md) — `** https://docs.opencart.com/admin-interface/overview/products/product-managementage`
+- [Product Variants | OpenCart](docs__admin-interface__overview__products__product-variants.md) — `** https://docs.opencart.com/admin-interface/overview/products/product-variants`
+- [Subscription Products | OpenCart](docs__admin-interface__overview__products__subscription-products.md) — `** https://docs.opencart.com/admin-interface/overview/products/subscription-products`
+- [Reviews | OpenCart](docs__admin-interface__overview__reviews.md) — `** https://docs.opencart.com/admin-interface/overview/reviews`
+- [Reports | OpenCart](docs__admin-interface__reports.md) — `** https://docs.opencart.com/admin-interface/reports`
+- [Customers | OpenCart](docs__admin-interface__reports__customers.md) — `** https://docs.opencart.com/admin-interface/reports/customers`
+- [Marketing | OpenCart](docs__admin-interface__reports__marketing.md) — `** https://docs.opencart.com/admin-interface/reports/marketing`
+- [Products | OpenCart](docs__admin-interface__reports__products.md) — `** https://docs.opencart.com/admin-interface/reports/products`
+- [Sales | OpenCart](docs__admin-interface__reports__sales.md) — `** https://docs.opencart.com/admin-interface/reports/sales`
+- [Subscriptions | OpenCart](docs__admin-interface__reports__subscriptions.md) — `** https://docs.opencart.com/admin-interface/reports/subscriptions`
+- [Sales | OpenCart](docs__admin-interface__sales.md) — `** https://docs.opencart.com/admin-interface/sales`
+- [Orders | OpenCart](docs__admin-interface__sales__orders.md) — `** https://docs.opencart.com/admin-interface/sales/orders`
+- [Returns | OpenCart](docs__admin-interface__sales__returns.md) — `** https://docs.opencart.com/admin-interface/sales/returns`
+- [Subscriptions | OpenCart](docs__admin-interface__sales__subscriptions.md) — `** https://docs.opencart.com/admin-interface/sales/subscriptions`
+- [System | OpenCart](docs__admin-interface__system.md) — `** https://docs.opencart.com/admin-interface/system`
+- [Localization | OpenCart](docs__admin-interface__system__localization.md) — `** https://docs.opencart.com/admin-interface/system/localization`
+- [Address Formats | OpenCart](docs__admin-interface__system__localization__address-formats.md) — `** https://docs.opencart.com/admin-interface/system/localization/address-formats`
+- [Countries | OpenCart](docs__admin-interface__system__localization__countries.md) — `** https://docs.opencart.com/admin-interface/system/localization/countries`
+- [Currencies | OpenCart](docs__admin-interface__system__localization__currencies.md) — `** https://docs.opencart.com/admin-interface/system/localization/currencies`
+- [Geo Zones | OpenCart](docs__admin-interface__system__localization__geo-zones.md) — `** https://docs.opencart.com/admin-interface/system/localization/geo-zones`
+- [Languages | OpenCart](docs__admin-interface__system__localization__languages.md) — `** https://docs.opencart.com/admin-interface/system/localization/languages`
+- [Length Classes | OpenCart](docs__admin-interface__system__localization__length-classes.md) — `** https://docs.opencart.com/admin-interface/system/localization/length-classes`
+- [Order Statuses | OpenCart](docs__admin-interface__system__localization__order-statuses.md) — `** https://docs.opencart.com/admin-interface/system/localization/order-statuses`
+- [Returns | OpenCart](docs__admin-interface__system__localization__returns.md) — `** https://docs.opencart.com/admin-interface/system/localization/returns`
+- [Stock Statuses | OpenCart](docs__admin-interface__system__localization__stock-statuses.md) — `** https://docs.opencart.com/admin-interface/system/localization/stock-statuses`
+- [Tax Classes | OpenCart](docs__admin-interface__system__localization__tax-classes.md) — `** https://docs.opencart.com/admin-interface/system/localization/tax-classes`
+- [Tax Rates | OpenCart](docs__admin-interface__system__localization__tax-rates.md) — `** https://docs.opencart.com/admin-interface/system/localization/tax-rates`
+- [Weight Classes | OpenCart](docs__admin-interface__system__localization__weight-classes.md) — `** https://docs.opencart.com/admin-interface/system/localization/weight-classes`
+- [Zones | OpenCart](docs__admin-interface__system__localization__zones.md) — `** https://docs.opencart.com/admin-interface/system/localization/zones`
+- [Maintenance | OpenCart](docs__admin-interface__system__maintenance.md) — `** https://docs.opencart.com/admin-interface/system/maintenance`
+- [Error Logs | OpenCart](docs__admin-interface__system__maintenance__error-logs.md) — `** https://docs.opencart.com/admin-interface/system/maintenance/error-logs`
+- [Upgrade | OpenCart](docs__admin-interface__system__maintenance__upgrade.md) — `** https://docs.opencart.com/admin-interface/system/maintenance/upgrade`
+- [Uploads | OpenCart](docs__admin-interface__system__maintenance__uploads.md) — `** https://docs.opencart.com/admin-interface/system/maintenance/uploads`
+- [Settings | OpenCart](docs__admin-interface__system__settings.md) — `** https://docs.opencart.com/admin-interface/system/settings`
+- [Local | OpenCart](docs__admin-interface__system__settings__local.md) — `** https://docs.opencart.com/admin-interface/system/settings/local`
+- [Mail | OpenCart](docs__admin-interface__system__settings__mail.md) — `** https://docs.opencart.com/admin-interface/system/settings/mail`
+- [Option | OpenCart](docs__admin-interface__system__settings__option.md) — `** https://docs.opencart.com/admin-interface/system/settings/option`
+- [Server | OpenCart](docs__admin-interface__system__settings__server.md) — `** https://docs.opencart.com/admin-interface/system/settings/server`
+- [Store | OpenCart](docs__admin-interface__system__settings__store.md) — `** https://docs.opencart.com/admin-interface/system/settings/store`
+- [Users | OpenCart](docs__admin-interface__system__users.md) — `** https://docs.opencart.com/admin-interface/system/users`
+- [API | OpenCart](docs__admin-interface__system__users__api.md) — `** https://docs.opencart.com/admin-interface/system/users/api`
+- [User Groups | OpenCart](docs__admin-interface__system__users__user-groups.md) — `** https://docs.opencart.com/admin-interface/system/users/user-groups`
+- [Banners | OpenCart](docs__design__banners.md) — `** https://docs.opencart.com/design/banners`
+- [Language Editor | OpenCart](docs__design__language-editor.md) — `** https://docs.opencart.com/design/language-editor`
+- [Layouts | OpenCart](docs__design__layouts.md) — `** https://docs.opencart.com/design/layouts`
+- [SEO URL | OpenCart](docs__design__seo-url.md) — `** https://docs.opencart.com/design/seo-url`
+- [Theme Editor | OpenCart](docs__design__theme-editor.md) — `** https://docs.opencart.com/design/theme-editor`
+- [Coding Standard | OpenCart](docs__developer-guide__coding-standard.md) — `** https://docs.opencart.com/developer-guide/coding-standard`
+- [Cron Jobs | OpenCart](docs__developer-guide__cron-jobs.md) — `** https://docs.opencart.com/developer-guide/cron-jobs`
+- [Database Schema | OpenCart](docs__developer-guide__database-schema.md) — `** https://docs.opencart.com/developer-guide/database-schema`
+- [Events | OpenCart](docs__developer-guide__events.md) — `** https://docs.opencart.com/developer-guide/events`
+- [Extensions | OpenCart](docs__developer-guide__extensions.md) — `** https://docs.opencart.com/developer-guide/extensions`
+- [Startups | OpenCart](docs__developer-guide__startups.md) — `** https://docs.opencart.com/developer-guide/startups`
+- [Tasks | OpenCart](docs__developer-guide__tasks.md) — `** https://docs.opencart.com/developer-guide/tasks`
+- [Installation | OpenCart](docs__getting-started__installation.md) — `** https://docs.opencart.com/getting-started/installation`
+- [Quickstart | OpenCart](docs__getting-started__quickstart.md) — `** https://docs.opencart.com/getting-started/quickstart`
+- [System Requirements | OpenCart](docs__getting-started__system-requirements.md) — `** https://docs.opencart.com/getting-started/system-requirements`
+- [Upgrade from 3.x to 4.x | OpenCart](docs__getting-started__upgrade-from-3.x-to-4.x.md) — `** https://docs.opencart.com/getting-started/upgrade-from-3.x-to-4.x`
+- [Introduction | OpenCart](docs__index.md) — `** https://docs.opencart.com/`
+- [/llms.txt](docs__llms.txt.md) — `** https://docs.opencart.com/llms.txt`
+- [/readme.md](docs__readme.md) — `** https://docs.opencart.com/readme.md`
+
+## 📂 `site` (1)
+
+- [OpenCart - Open Source Shopping Cart Solution](site__www_opencart_com.md) — `** https://www.opencart.com/`

@@ -1,0 +1,1256 @@
+{
+  "root_url": "https://www.yiiframework.com/wiki",
+  "scope_prefix": "https://www.yiiframework.com/wiki/",
+  "total_pages": 208,
+  "generated_at": "2026-10-28T15:36:30Z",
+  "pages": [
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/caching-data",
+      "file": "guide_22_0__caching-data.md",
+      "title": "Caching: Data Caching | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/caching-fragment",
+      "file": "guide_22_0__caching-fragment.md",
+      "title": "Caching: Fragment Caching | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/caching-http",
+      "file": "guide_22_0__caching-http.md",
+      "title": "Caching: HTTP Caching | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/caching-overview",
+      "file": "guide_22_0__caching-overview.md",
+      "title": "Caching: Caching Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/caching-page",
+      "file": "guide_22_0__caching-page.md",
+      "title": "Caching: Page Caching | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-aliases",
+      "file": "guide_22_0__concept-aliases.md",
+      "title": "Key Concepts: Aliases | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-autoloading",
+      "file": "guide_22_0__concept-autoloading.md",
+      "title": "Key Concepts: Class Autoloading | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-behaviors",
+      "file": "guide_22_0__concept-behaviors.md",
+      "title": "Key Concepts: Behaviors | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-components",
+      "file": "guide_22_0__concept-components.md",
+      "title": "Key Concepts: Components | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-configurations",
+      "file": "guide_22_0__concept-configurations.md",
+      "title": "Key Concepts: Configurations | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-di-container",
+      "file": "guide_22_0__concept-di-container.md",
+      "title": "Key Concepts: Dependency Injection Container | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-events",
+      "file": "guide_22_0__concept-events.md",
+      "title": "Key Concepts: Events | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-properties",
+      "file": "guide_22_0__concept-properties.md",
+      "title": "Key Concepts: Properties | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/concept-service-locator",
+      "file": "guide_22_0__concept-service-locator.md",
+      "title": "Key Concepts: Service Locator | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/db-active-record",
+      "file": "guide_22_0__db-active-record.md",
+      "title": "Working with Databases: Active Record | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/db-dao",
+      "file": "guide_22_0__db-dao.md",
+      "title": "Working with Databases: Database Access Objects | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/db-migrations",
+      "file": "guide_22_0__db-migrations.md",
+      "title": "Working with Databases: Migrations | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/db-query-builder",
+      "file": "guide_22_0__db-query-builder.md",
+      "title": "Working with Databases: Query Builder | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/helper-array",
+      "file": "guide_22_0__helper-array.md",
+      "title": "Helpers: ArrayHelper | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/helper-html",
+      "file": "guide_22_0__helper-html.md",
+      "title": "Helpers: Html | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/helper-json",
+      "file": "guide_22_0__helper-json.md",
+      "title": "Helpers: Json | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/helper-overview",
+      "file": "guide_22_0__helper-overview.md",
+      "title": "Helpers: Helpers Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en",
+      "file": "guide_22_0__index.md",
+      "title": "The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 0
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-file-upload",
+      "file": "guide_22_0__input-file-upload.md",
+      "title": "Getting Data from Users: Uploading Files | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-form-javascript",
+      "file": "guide_22_0__input-form-javascript.md",
+      "title": "Getting Data from Users: Extending ActiveForm on the Client Side | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-forms",
+      "file": "guide_22_0__input-forms.md",
+      "title": "Getting Data from Users: Creating Forms | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-multiple-models",
+      "file": "guide_22_0__input-multiple-models.md",
+      "title": "Getting Data from Users: Getting Data for Multiple Models | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-tabular-input",
+      "file": "guide_22_0__input-tabular-input.md",
+      "title": "Getting Data from Users: Collecting Tabular Input | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/input-validation",
+      "file": "guide_22_0__input-validation.md",
+      "title": "Getting Data from Users: Validating Input | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/intro-upgrade-from-v1",
+      "file": "guide_22_0__intro-upgrade-from-v1.md",
+      "title": "Introduction: Upgrading from Version 1.1 | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/intro-yii",
+      "file": "guide_22_0__intro-yii.md",
+      "title": "Introduction: About Yii | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-client-scripts",
+      "file": "guide_22_0__output-client-scripts.md",
+      "title": "Displaying Data: Working with Client Scripts | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-data-providers",
+      "file": "guide_22_0__output-data-providers.md",
+      "title": "Displaying Data: Data Providers | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-data-widgets",
+      "file": "guide_22_0__output-data-widgets.md",
+      "title": "Displaying Data: Data Widgets | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-formatting",
+      "file": "guide_22_0__output-formatting.md",
+      "title": "Displaying Data: Data Formatting | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-pagination",
+      "file": "guide_22_0__output-pagination.md",
+      "title": "Displaying Data: Pagination | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-sorting",
+      "file": "guide_22_0__output-sorting.md",
+      "title": "Displaying Data: Sorting | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/output-theming",
+      "file": "guide_22_0__output-theming.md",
+      "title": "Displaying Data: Theming | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-authentication",
+      "file": "guide_22_0__rest-authentication.md",
+      "title": "RESTful Web Services: Authentication | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-controllers",
+      "file": "guide_22_0__rest-controllers.md",
+      "title": "RESTful Web Services: Controllers | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-error-handling",
+      "file": "guide_22_0__rest-error-handling.md",
+      "title": "RESTful Web Services: Error Handling | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-filtering-collections",
+      "file": "guide_22_0__rest-filtering-collections.md",
+      "title": "RESTful Web Services: Filtering Collections | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-quick-start",
+      "file": "guide_22_0__rest-quick-start.md",
+      "title": "RESTful Web Services: Quick Start | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-rate-limiting",
+      "file": "guide_22_0__rest-rate-limiting.md",
+      "title": "RESTful Web Services: Rate Limiting | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-resources",
+      "file": "guide_22_0__rest-resources.md",
+      "title": "RESTful Web Services: Resources | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-response-formatting",
+      "file": "guide_22_0__rest-response-formatting.md",
+      "title": "RESTful Web Services: Response Formatting | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-routing",
+      "file": "guide_22_0__rest-routing.md",
+      "title": "RESTful Web Services: Routing | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/rest-versioning",
+      "file": "guide_22_0__rest-versioning.md",
+      "title": "RESTful Web Services: Versioning | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-bootstrapping",
+      "file": "guide_22_0__runtime-bootstrapping.md",
+      "title": "Handling Requests: Bootstrapping | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-handling-errors",
+      "file": "guide_22_0__runtime-handling-errors.md",
+      "title": "Handling Requests: Handling Errors | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-logging",
+      "file": "guide_22_0__runtime-logging.md",
+      "title": "Handling Requests: Logging | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-overview",
+      "file": "guide_22_0__runtime-overview.md",
+      "title": "Handling Requests: Request Handling Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-requests",
+      "file": "guide_22_0__runtime-requests.md",
+      "title": "Handling Requests: Requests | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-responses",
+      "file": "guide_22_0__runtime-responses.md",
+      "title": "Handling Requests: Responses | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-routing",
+      "file": "guide_22_0__runtime-routing.md",
+      "title": "Handling Requests: Routing and URL Creation | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/runtime-sessions-cookies",
+      "file": "guide_22_0__runtime-sessions-cookies.md",
+      "title": "Handling Requests: Sessions and Cookies | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-authentication",
+      "file": "guide_22_0__security-authentication.md",
+      "title": "Security: Authentication | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-authorization",
+      "file": "guide_22_0__security-authorization.md",
+      "title": "Security: Authorization | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-best-practices",
+      "file": "guide_22_0__security-best-practices.md",
+      "title": "Security: Best Practices | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-cryptography",
+      "file": "guide_22_0__security-cryptography.md",
+      "title": "Security: Cryptography | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-overview",
+      "file": "guide_22_0__security-overview.md",
+      "title": "Security: Security Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/security-passwords",
+      "file": "guide_22_0__security-passwords.md",
+      "title": "Security: Working with Passwords | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-databases",
+      "file": "guide_22_0__start-databases.md",
+      "title": "Getting Started: Working with Databases | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-forms",
+      "file": "guide_22_0__start-forms.md",
+      "title": "Getting Started: Working with Forms | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-gii",
+      "file": "guide_22_0__start-gii.md",
+      "title": "Getting Started: Generating Code with Gii | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-hello",
+      "file": "guide_22_0__start-hello.md",
+      "title": "Getting Started: Saying Hello | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-installation",
+      "file": "guide_22_0__start-installation.md",
+      "title": "Getting Started: Installing Yii | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-looking-ahead",
+      "file": "guide_22_0__start-looking-ahead.md",
+      "title": "Getting Started: Looking Ahead | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-prerequisites",
+      "file": "guide_22_0__start-prerequisites.md",
+      "title": "Getting Started: What do you need to know | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/start-workflow",
+      "file": "guide_22_0__start-workflow.md",
+      "title": "Getting Started: Running Applications | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-application-components",
+      "file": "guide_22_0__structure-application-components.md",
+      "title": "Application Structure: Application Components | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-applications",
+      "file": "guide_22_0__structure-applications.md",
+      "title": "Application Structure: Applications | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-assets",
+      "file": "guide_22_0__structure-assets.md",
+      "title": "Application Structure: Assets | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-controllers",
+      "file": "guide_22_0__structure-controllers.md",
+      "title": "Application Structure: Controllers | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-entry-scripts",
+      "file": "guide_22_0__structure-entry-scripts.md",
+      "title": "Application Structure: Entry Scripts | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-extensions",
+      "file": "guide_22_0__structure-extensions.md",
+      "title": "Application Structure: Extensions | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-filters",
+      "file": "guide_22_0__structure-filters.md",
+      "title": "Application Structure: Filters | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-models",
+      "file": "guide_22_0__structure-models.md",
+      "title": "Application Structure: Models | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-modules",
+      "file": "guide_22_0__structure-modules.md",
+      "title": "Application Structure: Modules | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-overview",
+      "file": "guide_22_0__structure-overview.md",
+      "title": "Application Structure: Application Structure Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-views",
+      "file": "guide_22_0__structure-views.md",
+      "title": "Application Structure: Views | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/structure-widgets",
+      "file": "guide_22_0__structure-widgets.md",
+      "title": "Application Structure: Widgets | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-acceptance",
+      "file": "guide_22_0__test-acceptance.md",
+      "title": "Testing: Acceptance Tests | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-environment-setup",
+      "file": "guide_22_0__test-environment-setup.md",
+      "title": "Testing: Testing environment setup | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-fixtures",
+      "file": "guide_22_0__test-fixtures.md",
+      "title": "Testing: Fixtures | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-functional",
+      "file": "guide_22_0__test-functional.md",
+      "title": "Testing: Functional Tests | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-overview",
+      "file": "guide_22_0__test-overview.md",
+      "title": "Testing: Testing Overview | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/test-unit",
+      "file": "guide_22_0__test-unit.md",
+      "title": "Testing: Unit Tests | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-console",
+      "file": "guide_22_0__tutorial-console.md",
+      "title": "Special Topics: Console Commands | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-core-validators",
+      "file": "guide_22_0__tutorial-core-validators.md",
+      "title": "Special Topics: Core Validators | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-docker",
+      "file": "guide_22_0__tutorial-docker.md",
+      "title": "Special Topics: Docker | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-i18n",
+      "file": "guide_22_0__tutorial-i18n.md",
+      "title": "Special Topics: Internationalization | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-mailing",
+      "file": "guide_22_0__tutorial-mailing.md",
+      "title": "Special Topics: Mailing | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-performance-tuning",
+      "file": "guide_22_0__tutorial-performance-tuning.md",
+      "title": "Special Topics: Performance Tuning | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-shared-hosting",
+      "file": "guide_22_0__tutorial-shared-hosting.md",
+      "title": "Special Topics: Shared Hosting Environment | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-standalone-actions",
+      "file": "guide_22_0__tutorial-standalone-actions.md",
+      "title": "Special Topics: Standalone Actions | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-start-from-scratch",
+      "file": "guide_22_0__tutorial-start-from-scratch.md",
+      "title": "Special Topics: Building Application from Scratch | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-template-engines",
+      "file": "guide_22_0__tutorial-template-engines.md",
+      "title": "Special Topics: Template Engines | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-yii-as-micro-framework",
+      "file": "guide_22_0__tutorial-yii-as-micro-framework.md",
+      "title": "Special Topics: Using Yii as a micro framework | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/doc/guide/22.0/en/tutorial-yii-integration",
+      "file": "guide_22_0__tutorial-yii-integration.md",
+      "title": "Special Topics: Working with Third-Party Code | The Definitive Guide to Yii 2.0 | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/103/adding-yii-search-to-your-browser-search-box",
+      "file": "wiki__103__adding-yii-search-to-your-browser-search-box.md",
+      "title": "Adding Yii Search to Your Browser Search Box | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/142/search-method-of-a-model-for-filters-when-using-dates-unixtimestamp-in-database",
+      "file": "wiki__142__search-method-of-a-model-for-filters-when-using-dates-unixtimestamp-in-database.md",
+      "title": "Search method of a model for filters when using dates - unixtimestamp in database | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/163/avoiding-rendering-entire-page-when-using-cgridview-and-clistview-via-ajax",
+      "file": "wiki__163__avoiding-rendering-entire-page-when-using-cgridview-and-clistview-via-ajax.md",
+      "title": "Avoiding rendering entire page when using CGridView and CListView via AJAX | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/168/create-your-own-validation-rule",
+      "file": "wiki__168__create-your-own-validation-rule.md",
+      "title": "Create your own Validation Rule | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2255/an-alternative-way-to-elasticsearch",
+      "file": "wiki__2255__an-alternative-way-to-elasticsearch.md",
+      "title": "An alternative way to ElasticSearch | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/229/filter-search-with-clistview",
+      "file": "wiki__229__filter-search-with-clistview.md",
+      "title": "Filter / Search with CListView | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2539/what-sql-statement-creates-yii",
+      "file": "wiki__2539__what-sql-statement-creates-yii.md",
+      "title": "What SQL-Statement creates yii? | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/253/cphpauthmanager-how-it-works-and-when-to-use-it",
+      "file": "wiki__253__cphpauthmanager-how-it-works-and-when-to-use-it.md",
+      "title": "CPhpAuthManager - how it works, and when to use it | Wiki | Yii PHP Framework",
+      "depth": 4
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2560/how-to-add-schema-org-markup-to-yii2-pages",
+      "file": "wiki__2560__how-to-add-schema-org-markup-to-yii2-pages.md",
+      "title": "How to add Schema.org markup to Yii2 pages | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2572/aadhar-number-validator",
+      "file": "wiki__2572__aadhar-number-validator.md",
+      "title": "Aadhar Number Validator | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2573/convert-json-data-to-html-table-for-display-on-page",
+      "file": "wiki__2573__convert-json-data-to-html-table-for-display-on-page.md",
+      "title": "Convert JSON data to html table for display on page | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2574/gridview-show-sum-of-columns-in-footer",
+      "file": "wiki__2574__gridview-show-sum-of-columns-in-footer.md",
+      "title": "GridView show sum of columns in footer. | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/2575/how-to-create-and-use-validator-using-regular-expressions",
+      "file": "wiki__2575__how-to-create-and-use-validator-using-regular-expressions.md",
+      "title": "How to Create  and Use Validator Using Regular expressions | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/266/understanding-scenarios",
+      "file": "wiki__266__understanding-scenarios.md",
+      "title": "Understanding Scenarios | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/275/how-to-write-secure-yii1-applications",
+      "file": "wiki__275__how-to-write-secure-yii1-applications.md",
+      "title": "How to write secure Yii1 applications | Wiki | Yii PHP Framework",
+      "depth": 4
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/340/access-log-output-from-unit-tests",
+      "file": "wiki__340__access-log-output-from-unit-tests.md",
+      "title": "Access log output from unit tests | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/346/acl-and-rbac",
+      "file": "wiki__346__acl-and-rbac.md",
+      "title": "ACL and RBAC | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/381/cgridview-clistview-and-cactivedataprovider",
+      "file": "wiki__381__cgridview-clistview-and-cactivedataprovider.md",
+      "title": "CGridView, CListView and CActiveDataProvider | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/474/implementing-a-flat-user-access-system",
+      "file": "wiki__474__implementing-a-flat-user-access-system.md",
+      "title": "Implementing a Flat User Access System | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/487/profiling-using-xdebug",
+      "file": "wiki__487__profiling-using-xdebug.md",
+      "title": "Profiling using XDebug | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/524/how-to-use-bizrules-in-standard-accesscontrol-filter",
+      "file": "wiki__524__how-to-use-bizrules-in-standard-accesscontrol-filter.md",
+      "title": "How to use bizRules in standard accessControl filter | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/541/how-to-use-expression-in-default-accesscontrol-to-allow-only-the-owner-to-do-some-action",
+      "file": "wiki__541__how-to-use-expression-in-default-accesscontrol-to-allow-only-the-owner-to-do-some-action.md",
+      "title": "How to use Expression in default AccessControl to allow only the owner to do some action | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/570/remove-byte-order-mark-bom-from-files-recursively",
+      "file": "wiki__570__remove-byte-order-mark-bom-from-files-recursively.md",
+      "title": "Remove Byte Order Mark (BOM) from files recursively | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/592/tunneling-using-ssh-in-a-limited-enviroment",
+      "file": "wiki__592__tunneling-using-ssh-in-a-limited-enviroment.md",
+      "title": "Tunneling using SSH in a limited enviroment | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/600/angular-music-databaseone-page-web-application-built-with-angularjstypescriptand-yii-framework",
+      "file": "wiki__600__angular-music-databaseone-page-web-application-built-with-angularjstypescriptand-yii-framework.md",
+      "title": "Angular Music Database,One-page Web Application built with AngularJS,TypeScript,and Yii framework. | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/621/filter-sort-by-calculatedrelated-fields-in-gridview-yii-2-0",
+      "file": "wiki__621__filter-sort-by-calculatedrelated-fields-in-gridview-yii-2-0.md",
+      "title": "Filter & Sort by calculated/related fields in GridView Yii 2.0 | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/644/automatically-get-the-svn-revision-number-of-your-project",
+      "file": "wiki__644__automatically-get-the-svn-revision-number-of-your-project.md",
+      "title": "Automatically get the SVN Revision Number of your Project | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/665/overcoming-removal-of-client-helpers-e-g-ajaxlink-and-clientscript-in-yii-2-0",
+      "file": "wiki__665__overcoming-removal-of-client-helpers-e-g-ajaxlink-and-clientscript-in-yii-2-0.md",
+      "title": "Overcoming removal of client helpers (e.g. ajaxLink) and ClientScript in Yii 2.0 | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/668/form-with-get-method-causes-repeated-stacking-of-url-parameters",
+      "file": "wiki__668__form-with-get-method-causes-repeated-stacking-of-url-parameters.md",
+      "title": "FORM with GET method causes repeated stacking of URL Parameters | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/679/filter-sort-by-summary-data-in-gridview-yii-2-0",
+      "file": "wiki__679__filter-sort-by-summary-data-in-gridview-yii-2-0.md",
+      "title": "Filter & Sort by Summary Data in GridView Yii 2.0 | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/696/key-web-server-settings-after-installing-a-fresh-yii-2-basic-or-advanced-app",
+      "file": "wiki__696__key-web-server-settings-after-installing-a-fresh-yii-2-basic-or-advanced-app.md",
+      "title": "Key web server settings after installing a fresh Yii 2 basic or advanced app | Wiki | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/734/manage-email-template-content-from-database",
+      "file": "wiki__734__manage-email-template-content-from-database.md",
+      "title": "Manage Email Template content from database | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/743/role-management",
+      "file": "wiki__743__role-management.md",
+      "title": "Role Management | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/754/mongodbs-rbac-support-class-extending-basemanager",
+      "file": "wiki__754__mongodbs-rbac-support-class-extending-basemanager.md",
+      "title": "MongoDB's RBAC support class extending BaseManager | Wiki | Yii PHP Framework",
+      "depth": 4
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/761/simple-way-to-upload-and-save-file",
+      "file": "wiki__761__simple-way-to-upload-and-save-file.md",
+      "title": "Simple Way to Upload and Save File | Wiki | Yii PHP Framework",
+      "depth": 4
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/805/simple-way-to-implement-dynamic-tabular-inputs",
+      "file": "wiki__805__simple-way-to-implement-dynamic-tabular-inputs.md",
+      "title": "Simple way to implement Dynamic Tabular Inputs | Wiki | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/852/optimize-scenarios-for-yii2",
+      "file": "wiki__852__optimize-scenarios-for-yii2.md",
+      "title": "Optimize Scenarios for yii2 | Wiki | Yii PHP Framework",
+      "depth": 3
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/create",
+      "file": "wiki__create.md",
+      "title": "Login | Yii PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki",
+      "file": "wiki__index.md",
+      "title": "Wiki | Yii PHP Framework",
+      "depth": 0
+    },
+    {
+      "url": "https://www.yiiframework.com/wiki/update",
+      "file": "wiki__update.md",
+      "title": "Login | Yii PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/caching/data.html",
+      "file": "yii3_guide__caching__data.md",
+      "title": "Data caching | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/caching/overview.html",
+      "file": "yii3_guide__caching__overview.md",
+      "title": "Caching | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/aliases.html",
+      "file": "yii3_guide__concept__aliases.md",
+      "title": "Aliases | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/autoloading.html",
+      "file": "yii3_guide__concept__autoloading.md",
+      "title": "Class autoloading | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/configuration.html",
+      "file": "yii3_guide__concept__configuration.md",
+      "title": "Configuration | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/di-container.html",
+      "file": "yii3_guide__concept__di-container.md",
+      "title": "Dependency injection and container | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/events.html",
+      "file": "yii3_guide__concept__events.md",
+      "title": "Events | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/concept/immutability.html",
+      "file": "yii3_guide__concept__immutability.md",
+      "title": "Immutability | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/databases/db-migrations.html",
+      "file": "yii3_guide__databases__db-migrations.md",
+      "title": "Migrations | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/glossary.html",
+      "file": "yii3_guide__glossary.md",
+      "title": "A | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/",
+      "file": "yii3_guide__index.md",
+      "title": "The definitive guide to Yii3 | Yii3 Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/intro/upgrade-from-v1.html",
+      "file": "yii3_guide__intro__upgrade-from-v1.md",
+      "title": "Upgrading from Version 1.1 | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/intro/upgrade-from-v2.html",
+      "file": "yii3_guide__intro__upgrade-from-v2.md",
+      "title": "Upgrading from Version 2.0 | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/intro/what-is-yii.html",
+      "file": "yii3_guide__intro__what-is-yii.md",
+      "title": "What is Yii | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/rest/quick-start.html",
+      "file": "yii3_guide__rest__quick-start.md",
+      "title": "Quick start | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/cookies.html",
+      "file": "yii3_guide__runtime__cookies.md",
+      "title": "Cookies | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/handling-errors.html",
+      "file": "yii3_guide__runtime__handling-errors.md",
+      "title": "Handling errors | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/logging.html",
+      "file": "yii3_guide__runtime__logging.md",
+      "title": "Logging | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/request.html",
+      "file": "yii3_guide__runtime__request.md",
+      "title": "Request | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/response.html",
+      "file": "yii3_guide__runtime__response.md",
+      "title": "Response | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/routing.html",
+      "file": "yii3_guide__runtime__routing.md",
+      "title": "Routing and URL generation | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/runtime/sessions.html",
+      "file": "yii3_guide__runtime__sessions.md",
+      "title": "Sessions | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/authentication.html",
+      "file": "yii3_guide__security__authentication.md",
+      "title": "Authentication | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/authorization.html",
+      "file": "yii3_guide__security__authorization.md",
+      "title": "Authorization | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/best-practices.html",
+      "file": "yii3_guide__security__best-practices.md",
+      "title": "Security best practices | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/cryptography.html",
+      "file": "yii3_guide__security__cryptography.md",
+      "title": "Cryptography | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/overview.html",
+      "file": "yii3_guide__security__overview.md",
+      "title": "Security | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/passwords.html",
+      "file": "yii3_guide__security__passwords.md",
+      "title": "Working with passwords | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/security/trusted-request.html",
+      "file": "yii3_guide__security__trusted-request.md",
+      "title": "Trusted request | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/creating-project.html",
+      "file": "yii3_guide__start__creating-project.md",
+      "title": "Creating a project | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/databases.html",
+      "file": "yii3_guide__start__databases.md",
+      "title": "Working with databases | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/demo-apps.html",
+      "file": "yii3_guide__start__demo-apps.md",
+      "title": "Demo Applications | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/forms.html",
+      "file": "yii3_guide__start__forms.md",
+      "title": "Working with forms | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/gii.html",
+      "file": "yii3_guide__start__gii.md",
+      "title": "Generating code with Gii | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/hello.html",
+      "file": "yii3_guide__start__hello.md",
+      "title": "Saying hello | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/looking-ahead.html",
+      "file": "yii3_guide__start__looking-ahead.md",
+      "title": "Looking ahead | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/prerequisites.html",
+      "file": "yii3_guide__start__prerequisites.md",
+      "title": "What do you need to know? | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/start/workflow.html",
+      "file": "yii3_guide__start__workflow.md",
+      "title": "Application Workflow | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/action.html",
+      "file": "yii3_guide__structure__action.md",
+      "title": "Actions | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/application.html",
+      "file": "yii3_guide__structure__application.md",
+      "title": "Application | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/designing-packages.html",
+      "file": "yii3_guide__structure__designing-packages.md",
+      "title": "Designing packages for Yii applications | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/entry-script.html",
+      "file": "yii3_guide__structure__entry-script.md",
+      "title": "Entry scripts | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/middleware.html",
+      "file": "yii3_guide__structure__middleware.md",
+      "title": "Middleware | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/module.html",
+      "file": "yii3_guide__structure__module.md",
+      "title": "Modules | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/overview.html",
+      "file": "yii3_guide__structure__overview.md",
+      "title": "Overview | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/structure/package.html",
+      "file": "yii3_guide__structure__package.md",
+      "title": "Using packages | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/end-to-end.html",
+      "file": "yii3_guide__testing__end-to-end.md",
+      "title": "End-to-end tests | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/environment-setup.html",
+      "file": "yii3_guide__testing__environment-setup.md",
+      "title": "Testing environment setup | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/functional.html",
+      "file": "yii3_guide__testing__functional.md",
+      "title": "Functional tests | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/overview.html",
+      "file": "yii3_guide__testing__overview.md",
+      "title": "Testing | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/quality-tools.html",
+      "file": "yii3_guide__testing__quality-tools.md",
+      "title": "Static analysis and code quality | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/testing/unit.html",
+      "file": "yii3_guide__testing__unit.md",
+      "title": "Unit tests | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/console-applications.html",
+      "file": "yii3_guide__tutorial__console-applications.md",
+      "title": "Console applications | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/docker.html",
+      "file": "yii3_guide__tutorial__docker.md",
+      "title": "Docker in Application Templates | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/i18n.html",
+      "file": "yii3_guide__tutorial__i18n.md",
+      "title": "Internationalization | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/mailing.html",
+      "file": "yii3_guide__tutorial__mailing.md",
+      "title": "Mailing | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/performance-tuning.html",
+      "file": "yii3_guide__tutorial__performance-tuning.md",
+      "title": "Performance tuning | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/using-with-event-loop.html",
+      "file": "yii3_guide__tutorial__using-with-event-loop.md",
+      "title": "Using Yii with event loop | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/using-yii-with-frankenphp.html",
+      "file": "yii3_guide__tutorial__using-yii-with-frankenphp.md",
+      "title": "Using Yii with FrankenPHP | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/using-yii-with-rapira.html",
+      "file": "yii3_guide__tutorial__using-yii-with-rapira.md",
+      "title": "Using Yii with Rapira | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/using-yii-with-roadrunner.html",
+      "file": "yii3_guide__tutorial__using-yii-with-roadrunner.md",
+      "title": "Using Yii with RoadRunner | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/tutorial/using-yii-with-swoole.html",
+      "file": "yii3_guide__tutorial__using-yii-with-swoole.md",
+      "title": "Using Yii with Swoole | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/asset.html",
+      "file": "yii3_guide__views__asset.md",
+      "title": "Assets | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/script-style-meta.html",
+      "file": "yii3_guide__views__script-style-meta.md",
+      "title": "Scripts, styles and meta tags | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/template-engines.html",
+      "file": "yii3_guide__views__template-engines.md",
+      "title": "Template engines | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/view-injections.html",
+      "file": "yii3_guide__views__view-injections.md",
+      "title": "View injections | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/view.html",
+      "file": "yii3_guide__views__view.md",
+      "title": "Views | Yii3 Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://yiisoft.github.io/docs/guide/views/widget.html",
+      "file": "yii3_guide__views__widget.md",
+      "title": "Widgets | Yii3 Documentation",
+      "depth": 1
+    }
+  ]
+}

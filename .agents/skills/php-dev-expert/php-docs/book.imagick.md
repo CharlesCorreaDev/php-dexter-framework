@@ -1,0 +1,578 @@
+# Processamento de Imagem
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/book.imagick.php
+
+---
+
+# Processamento de Imagem
+
+# Introdução
+
+**Aviso**
+
+Esta extensão é
+*EXPERIMENTAL*. O comportamento desta extensão, incluindo
+os nomes de suas funções e qualquer outra documentação relacionada a esta
+extensão, pode mudar sem aviso prévio em futuras versões do PHP.
+Use por sua conta e risco.
+
+Imagick é uma extensão PHP nativa para criar e modificar imagens usando a
+API ImageMagick.
+
+## Sobre o ImageMagick
+
+ImageMagick é um conjunto de aplicações para criar, editar e compor imagens bitmap.
+Ele pode ler, converter e gravar imagens em vários formatos (mais de 100)
+incluindo DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PhotoCD, PNG, Postscript, SVG e TIFF.
+
+ImageMagick Studio LLC é uma organização sem fins lucrativos dedicada a criação de soluções de software para imagens disponíveis gratuitamente.
+
+- [Instalação/Configuração](imagick.setup.md)
+  - [Dependências](imagick.requirements.md)
+  - [Instalação](imagick.installation.md)
+  - [Configurações de Execução](imagick.configuration.md)
+- [Constantes predefinidas](imagick.constants.md)
+- [Examples](imagick.examples.md)
+  - [Uso básico](imagick.examples-1.md)
+- [Imagick](class.imagick.md) — A classe Imagick
+  - [Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.md) — Adiciona filtro de desfoque adaptável à imagem
+  - [Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.md) — Redimensiona imagem de forma adaptativa com triangulação dependente de dados
+  - [Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.md) — Aumenta a nitidez da imagem de forma adaptativa
+  - [Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.md) — Seleciona um limite para cada pixel com base em uma faixa de intensidade
+  - [Imagick::addImage](imagick.addimage.md) — Adiciona nova imagem à lista de imagens de objetos Imagick
+  - [Imagick::addNoiseImage](imagick.addnoiseimage.md) — Adiciona ruído aleatório à imagem
+  - [Imagick::affineTransformImage](imagick.affinetransformimage.md) — Transforma uma imagem
+  - [Imagick::animateImages](imagick.animateimages.md) — Anima uma imagem ou imagens
+  - [Imagick::annotateImage](imagick.annotateimage.md) — Cria anotação em uma imagem com texto
+  - [Imagick::appendImages](imagick.appendimages.md) — Anexa um conjunto de imagens
+  - [Imagick::autoLevelImage](imagick.autolevelimage.md) — Ajusta os níveis de um canal de imagem específico
+  - [Imagick::averageImages](imagick.averageimages.md) — Tira a média de um conjunto de imagens
+  - [Imagick::blackThresholdImage](imagick.blackthresholdimage.md) — Força todos os pixels abaixo do limite para preto
+  - [Imagick::blueShiftImage](imagick.blueshiftimage.md) — Silencia as cores da imagem
+  - [Imagick::blurImage](imagick.blurimage.md) — Adiciona filtro de desfoque à imagem
+  - [Imagick::borderImage](imagick.borderimage.md) — Envolve a imagem com uma borda
+  - [Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md) — Altera o brilho e/ou contraste de uma imagem
+  - [Imagick::charcoalImage](imagick.charcoalimage.md) — Simula um desenho a carvão
+  - [Imagick::chopImage](imagick.chopimage.md) — Remove uma região de uma imagem e corta
+  - [Imagick::clampImage](imagick.clampimage.md) — Restringe a faixa de cores de 0 à profundidade do Quantum
+  - [Imagick::clear](imagick.clear.md) — Limpa todos os recursos associados ao objeto Imagick
+  - [Imagick::clipImage](imagick.clipimage.md) — Recorta ao longo do primeiro caminho do perfil 8BIM
+  - [Imagick::clipImagePath](imagick.clipimagepath.md) — Recorta ao longo dos caminhos nomeados do perfil 8BIM, se presente
+  - [Imagick::clipPathImage](imagick.clippathimage.md) — Recorta ao longo dos caminhos nomeados do perfil 8BIM
+  - [Imagick::clone](imagick.clone.md) — Faz uma cópia exata do objeto Imagick
+  - [Imagick::clutImage](imagick.clutimage.md) — Substitui cores na imagem
+  - [Imagick::coalesceImages](imagick.coalesceimages.md) — Compõe um conjunto de imagens
+  - [Imagick::colorFloodfillImage](imagick.colorfloodfillimage.md) — Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::colorizeImage](imagick.colorizeimage.md) — Mescla a cor de preenchimento com a imagem
+  - [Imagick::colorMatrixImage](imagick.colormatriximage.md) — Aplica transformação de cores a uma imagem
+  - [Imagick::combineImages](imagick.combineimages.md) — Combina uma ou mais imagens em uma única imagem
+  - [Imagick::commentImage](imagick.commentimage.md) — Adiciona um comentário à sua imagem
+  - [Imagick::compareImageChannels](imagick.compareimagechannels.md) — Retorna a diferença em uma ou mais imagens
+  - [Imagick::compareImageLayers](imagick.compareimagelayers.md) — Retorna a região delimitadora máxima entre imagens
+  - [Imagick::compareImages](imagick.compareimages.md) — Compara uma imagem com uma imagem reconstruída
+  - [Imagick::compositeImage](imagick.compositeimage.md) — Compor uma imagem em outra
+  - [Imagick::\_\_construct](imagick.construct.md) — O construtor Imagick
+  - [Imagick::contrastImage](imagick.contrastimage.md) — Altera o contraste da imagem
+  - [Imagick::contrastStretchImage](imagick.contraststretchimage.md) — Melhora o contraste de uma imagem colorida
+  - [Imagick::convolveImage](imagick.convolveimage.md) — Aplica um kernel de convolução personalizado à imagem
+  - [Imagick::count](imagick.count.md) — Obtém o número de imagens
+  - [Imagick::cropImage](imagick.cropimage.md) — Extrai uma região da imagem
+  - [Imagick::cropThumbnailImage](imagick.cropthumbnailimage.md) — Cria uma miniatura de recorte
+  - [Imagick::current](imagick.current.md) — Retorna uma referência ao objeto Imagick atual
+  - [Imagick::cycleColormapImage](imagick.cyclecolormapimage.md) — Desloca o mapa de cores de uma imagem
+  - [Imagick::decipherImage](imagick.decipherimage.md) — Decifra uma imagem
+  - [Imagick::deconstructImages](imagick.deconstructimages.md) — Retorna certas diferenças de pixels entre imagens
+  - [Imagick::deleteImageArtifact](imagick.deleteimageartifact.md) — Excluir artefato de imagem
+  - [Imagick::deleteImageProperty](imagick.deleteimageproperty.md) — Exclui uma propriedade de imagem
+  - [Imagick::deskewImage](imagick.deskewimage.md) — Remove distorção da imagem
+  - [Imagick::despeckleImage](imagick.despeckleimage.md) — Reduz o ruído pontilhado em uma imagem
+  - [Imagick::destroy](imagick.destroy.md) — Destrói o objeto Imagick
+  - [Imagick::displayImage](imagick.displayimage.md) — Exibe uma imagem
+  - [Imagick::displayImages](imagick.displayimages.md) — Exibe uma imagem ou sequência de imagens
+  - [Imagick::distortImage](imagick.distortimage.md) — Distorce uma imagem usando vários métodos de distorção
+  - [Imagick::drawImage](imagick.drawimage.md) — Renderiza o objeto ImagickDraw na imagem atual
+  - [Imagick::edgeImage](imagick.edgeimage.md) — Melhora as bordas da imagem
+  - [Imagick::embossImage](imagick.embossimage.md) — Retorna uma imagem em tons de cinza com efeito tridimensional
+  - [Imagick::encipherImage](imagick.encipherimage.md) — Cifra uma imagem
+  - [Imagick::enhanceImage](imagick.enhanceimage.md) — Melhora a qualidade de uma imagem com ruído
+  - [Imagick::equalizeImage](imagick.equalizeimage.md) — Equaliza o histograma da imagem
+  - [Imagick::evaluateImage](imagick.evaluateimage.md) — Aplica uma expressão a uma imagem
+  - [Imagick::exportImagePixels](imagick.exportimagepixels.md) — Exporta os pixels da imagem não processada
+  - [Imagick::extentImage](imagick.extentimage.md) — Define tamanho da imagem
+  - [Imagick::filter](imagick.filter.md) — Aplica um kernel de convolução personalizado à imagem
+  - [Imagick::flattenImages](imagick.flattenimages.md) — Mescla uma sequência de imagens
+  - [Imagick::flipImage](imagick.flipimage.md) — Cria uma imagem espelhada vertical
+  - [Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md) — Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::flopImage](imagick.flopimage.md) — Cria uma imagem espelhada horizontal
+  - [Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.md) — Implementa a transformada discreta de Fourier (DFT)
+  - [Imagick::frameImage](imagick.frameimage.md) — Adiciona uma borda tridimensional simulada
+  - [Imagick::functionImage](imagick.functionimage.md) — Aplica uma função na imagem
+  - [Imagick::fxImage](imagick.fximage.md) — Avalia uma expressão para cada pixel da imagem
+  - [Imagick::gammaImage](imagick.gammaimage.md) — Corrige o gama de uma imagem
+  - [Imagick::gaussianBlurImage](imagick.gaussianblurimage.md) — Desfoca uma imagem
+  - [Imagick::getColorspace](imagick.getcolorspace.md) — Obtém o espaço de cores
+  - [Imagick::getCompression](imagick.getcompression.md) — Obtém o tipo de compactação do objeto
+  - [Imagick::getCompressionQuality](imagick.getcompressionquality.md) — Obtém a qualidade de compactação do objeto
+  - [Imagick::getCopyright](imagick.getcopyright.md) — Retorna os direitos autorais da API ImageMagick como uma string
+  - [Imagick::getFilename](imagick.getfilename.md) — Obtém o nome do arquivo associado a uma sequência de imagens
+  - [Imagick::getFont](imagick.getfont.md) — Obtem a fonte
+  - [Imagick::getFormat](imagick.getformat.md) — Retorna o formato do objeto Imagick
+  - [Imagick::getGravity](imagick.getgravity.md) — Obtém a gravidade
+  - [Imagick::getHomeURL](imagick.gethomeurl.md) — Retorna o URL da página do ImageMagick
+  - [Imagick::getImage](imagick.getimage.md) — Retorna um novo objeto Imagick
+  - [Imagick::getImageAlphaChannel](imagick.getimagealphachannel.md) — Verifica se a imagem tem um canal alfa
+  - [Imagick::getImageArtifact](imagick.getimageartifact.md) — Obtém artefato da imagem
+  - [Imagick::getImageAttribute](imagick.getimageattribute.md) — Retorna um atributo nomeado
+  - [Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md) — Retorna a cor de fundo a imagem
+  - [Imagick::getImageBlob](imagick.getimageblob.md) — Retorna a sequência de imagem como um BLOB
+  - [Imagick::getImageBluePrimary](imagick.getimageblueprimary.md) — Retorna o ponto primário azul da cromaticidade
+  - [Imagick::getImageBorderColor](imagick.getimagebordercolor.md) — Retorna a cor da borda da imagem
+  - [Imagick::getImageChannelDepth](imagick.getimagechanneldepth.md) — Obtém a profundidade de um canal de imagem específico
+  - [Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.md) — Compara canais de uma imagem com uma imagem reconstruída
+  - [Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.md) — Obtém distorções de canal
+  - [Imagick::getImageChannelExtrema](imagick.getimagechannelextrema.md) — Obtém os extremos de um ou mais canais de imagem
+  - [Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md) — Obtenha a curtose e a assimetria de um canal específico
+  - [Imagick::getImageChannelMean](imagick.getimagechannelmean.md) — Obtém a média e o desvio padrão
+  - [Imagick::getImageChannelRange](imagick.getimagechannelrange.md) — Obtém o intervalo do canal
+  - [Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md) — Retorna estatísticas para cada canal na imagem
+  - [Imagick::getImageClipMask](imagick.getimageclipmask.md) — Obtém a máscara de recorte da imagem
+  - [Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md) — Retorna a cor do índice especificado do mapa de cores
+  - [Imagick::getImageColors](imagick.getimagecolors.md) — Obtém o número de cores únicas na imagem
+  - [Imagick::getImageColorspace](imagick.getimagecolorspace.md) — Obtém o espaço de cores da imagem
+  - [Imagick::getImageCompose](imagick.getimagecompose.md) — Retorna o operador de composição associado à imagem
+  - [Imagick::getImageCompression](imagick.getimagecompression.md) — Obtém o tipo de compactação da imagem atual
+  - [Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md) — Obtém a qualidade de compressão da imagem atual
+  - [Imagick::getImageDelay](imagick.getimagedelay.md) — Obtém o atraso da imagem
+  - [Imagick::getImageDepth](imagick.getimagedepth.md) — Obtém a profundidade da imagem
+  - [Imagick::getImageDispose](imagick.getimagedispose.md) — Obtém o método de descarte de imagem
+  - [Imagick::getImageDistortion](imagick.getimagedistortion.md) — Compara uma imagem com uma imagem reconstruída
+  - [Imagick::getImageExtrema](imagick.getimageextrema.md) — Obtém os extremos da imagem
+  - [Imagick::getImageFilename](imagick.getimagefilename.md) — Retorna o nome do arquivo de uma imagem específica em uma sequência
+  - [Imagick::getImageFormat](imagick.getimageformat.md) — Retorna o formato de uma imagem específica em uma sequência
+  - [Imagick::getImageGamma](imagick.getimagegamma.md) — Obtém o gama da imagem
+  - [Imagick::getImageGeometry](imagick.getimagegeometry.md) — Obtém a largura e a altura como um array associativo
+  - [Imagick::getImageGravity](imagick.getimagegravity.md) — Obtém a gravidade da imagem
+  - [Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.md) — Retorna o ponto primário verde da cromaticidade
+  - [Imagick::getImageHeight](imagick.getimageheight.md) — Retorna a altura da imagem
+  - [Imagick::getImageHistogram](imagick.getimagehistogram.md) — Obtém o histograma da imagem
+  - [Imagick::getImageIndex](imagick.getimageindex.md) — Obtém o índice da imagem ativa atual
+  - [Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md) — Obtém o esquema de entrelaçamento da imagem
+  - [Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.md) — Retorna o método de interpolação
+  - [Imagick::getImageIterations](imagick.getimageiterations.md) — Obtém as iterações da imagem
+  - [Imagick::getImageLength](imagick.getimagelength.md) — Retorna o comprimento da imagem em bytes
+  - [Imagick::getImageMatte](imagick.getimagematte.md) — Informa se a imagem tem um canal fosco
+  - [Imagick::getImageMatteColor](imagick.getimagemattecolor.md) — Retorna a cor fosca da imagem
+  - [Imagick::getImageMimeType](imagick.getimagemimetype.md) — Retorna o tipo de mídia da imagem
+  - [Imagick::getImageOrientation](imagick.getimageorientation.md) — Obtém a orientação da imagem
+  - [Imagick::getImagePage](imagick.getimagepage.md) — Retorna a geometria da página
+  - [Imagick::getImagePixelColor](imagick.getimagepixelcolor.md) — Retorna a cor do pixel especificado
+  - [Imagick::getImageProfile](imagick.getimageprofile.md) — Retorna o perfil nomeado de imagem
+  - [Imagick::getImageProfiles](imagick.getimageprofiles.md) — Retorna os perfis de imagem
+  - [Imagick::getImageProperties](imagick.getimageproperties.md) — Retorna as propriedades da imagem
+  - [Imagick::getImageProperty](imagick.getimageproperty.md) — Retorna a propriedade nomeada da imagem
+  - [Imagick::getImageRedPrimary](imagick.getimageredprimary.md) — Retorna o ponto primário vermelho da cromaticidade
+  - [Imagick::getImageRegion](imagick.getimageregion.md) — Extrai uma região da imagem
+  - [Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md) — Obtém a intenção de renderização da imagem
+  - [Imagick::getImageResolution](imagick.getimageresolution.md) — Obtém a resolução X e Y da imagem
+  - [Imagick::getImagesBlob](imagick.getimagesblob.md) — Retorna todas as sequências de imagens como um BLOB
+  - [Imagick::getImageScene](imagick.getimagescene.md) — Obtém a cena da imagem
+  - [Imagick::getImageSignature](imagick.getimagesignature.md) — Gera um resumo da mensagem SHA-256
+  - [Imagick::getImageSize](imagick.getimagesize.md) — Retorna o comprimento da imagem em bytes
+  - [Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md) — Obtém os tiques por segundo da imagem
+  - [Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md) — Obtém a densidade total de tinta da imagem
+  - [Imagick::getImageType](imagick.getimagetype.md) — Obtém o tipo potencial da imagem
+  - [Imagick::getImageUnits](imagick.getimageunits.md) — Obtém as unidades de resolução da imagem
+  - [Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md) — Retorna o método do pixel virtual
+  - [Imagick::getImageWhitePoint](imagick.getimagewhitepoint.md) — Retorna o ponto branco da cromaticidade
+  - [Imagick::getImageWidth](imagick.getimagewidth.md) — Retorna a largura da imagem
+  - [Imagick::getInterlaceScheme](imagick.getinterlacescheme.md) — Obtém o esquema de entrelaçamento do objeto
+  - [Imagick::getIteratorIndex](imagick.getiteratorindex.md) — Obtém o índice da imagem ativa atual
+  - [Imagick::getNumberImages](imagick.getnumberimages.md) — Retorna o número de imagens no objeto
+  - [Imagick::getOption](imagick.getoption.md) — Retorna um valor associado à chave especificada
+  - [Imagick::getPackageName](imagick.getpackagename.md) — Retorna o nome do pacote ImageMagick
+  - [Imagick::getPage](imagick.getpage.md) — Retorna a geometria da página
+  - [Imagick::getPixelIterator](imagick.getpixeliterator.md) — Retorna um MagickPixelIterator
+  - [Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md) — Obtém um ImagickPixelIterator para uma seção de imagem
+  - [Imagick::getPointSize](imagick.getpointsize.md) — Obtém o tamanho do ponto
+  - [Imagick::getQuantum](imagick.getquantum.md) — Retorna o intervalo Quantum do Imagick
+  - [Imagick::getQuantumDepth](imagick.getquantumdepth.md) — Obtém a profundidade Quantum
+  - [Imagick::getQuantumRange](imagick.getquantumrange.md) — Retorna o intervalo Quantum do Imagick
+  - [Imagick::getRegistry](imagick.getregistry.md) — Obtém uma entrada StringRegistry
+  - [Imagick::getReleaseDate](imagick.getreleasedate.md) — Retorna a data da versão do ImageMagick
+  - [Imagick::getResource](imagick.getresource.md) — Retorna o uso de memória do recurso especificado
+  - [Imagick::getResourceLimit](imagick.getresourcelimit.md) — Retorna o limite de recursos especificado
+  - [Imagick::getSamplingFactors](imagick.getsamplingfactors.md) — Obtém o fator de amostragem horizontal e vertical
+  - [Imagick::getSize](imagick.getsize.md) — Retorna o tamanho associado ao objeto Imagick
+  - [Imagick::getSizeOffset](imagick.getsizeoffset.md) — Retorna o deslocamento de tamanho
+  - [Imagick::getVersion](imagick.getversion.md) — Retorna a versão da API ImageMagick
+  - [Imagick::haldClutImage](imagick.haldclutimage.md) — Substitui cores na imagem
+  - [Imagick::hasNextImage](imagick.hasnextimage.md) — Verifica se o objeto possui mais imagens
+  - [Imagick::hasPreviousImage](imagick.haspreviousimage.md) — Verifica se o objeto possui uma imagem anterior
+  - [Imagick::identifyFormat](imagick.identifyformat.md) — Formata uma string com detalhes da imagem
+  - [Imagick::identifyImage](imagick.identifyimage.md) — Identifica uma imagem e busca atributos
+  - [Imagick::implodeImage](imagick.implodeimage.md) — Cria uma nova imagem como cópia
+  - [Imagick::importImagePixels](imagick.importimagepixels.md) — Importa pixels de imagem
+  - [Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md) — Implementa a transformada discreta inversa de Fourier (DFT)
+  - [Imagick::labelImage](imagick.labelimage.md) — Adiciona um rótulo a uma imagem
+  - [Imagick::levelImage](imagick.levelimage.md) — Ajusta os níveis de uma imagem
+  - [Imagick::linearStretchImage](imagick.linearstretchimage.md) — Estica com saturação a intensidade da imagem
+  - [Imagick::liquidRescaleImage](imagick.liquidrescaleimage.md) — Anima uma imagem ou imagens
+  - [Imagick::listRegistry](imagick.listregistry.md) — Lista todas as configurações do registro
+  - [Imagick::magnifyImage](imagick.magnifyimage.md) — Dimensiona uma imagem proporcionalmente 2x
+  - [Imagick::mapImage](imagick.mapimage.md) — Substitui as cores de uma imagem pela cor mais próxima de uma imagem de referência
+  - [Imagick::matteFloodfillImage](imagick.mattefloodfillimage.md) — Altera o valor de transparência de uma cor
+  - [Imagick::medianFilterImage](imagick.medianfilterimage.md) — Aplica um filtro digital
+  - [Imagick::mergeImageLayers](imagick.mergeimagelayers.md) — Mescla camadas de imagem
+  - [Imagick::minifyImage](imagick.minifyimage.md) — Dimensiona uma imagem proporcionalmente à metade do seu tamanho
+  - [Imagick::modulateImage](imagick.modulateimage.md) — Controle brilho, saturação e matiz
+  - [Imagick::montageImage](imagick.montageimage.md) — Cria uma imagem composta
+  - [Imagick::morphImages](imagick.morphimages.md) — Transforma um conjunto de imagens
+  - [Imagick::morphology](imagick.morphology.md) — Aplica um kernel fornecido pelo usuário à imagem de acordo com o método de morfologia fornecido
+  - [Imagick::mosaicImages](imagick.mosaicimages.md) — Forma um mosaico a partir de imagens
+  - [Imagick::motionBlurImage](imagick.motionblurimage.md) — Simula desfoque de movimento
+  - [Imagick::negateImage](imagick.negateimage.md) — Negativa as cores na imagem de referência
+  - [Imagick::newImage](imagick.newimage.md) — Cria uma nova imagem
+  - [Imagick::newPseudoImage](imagick.newpseudoimage.md) — Cria uma nova imagem
+  - [Imagick::nextImage](imagick.nextimage.md) — Passa para a próxima imagem
+  - [Imagick::normalizeImage](imagick.normalizeimage.md) — Melhora o contraste de uma imagem colorida
+  - [Imagick::oilPaintImage](imagick.oilpaintimage.md) — Simula uma pintura a óleo
+  - [Imagick::opaquePaintImage](imagick.opaquepaintimage.md) — Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md) — Remove partes repetidas de imagens para otimizar
+  - [Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.md) — Executa um pontilhamento ordenado
+  - [Imagick::paintFloodfillImage](imagick.paintfloodfillimage.md) — Altera o valor da cor de qualquer pixel que corresponda ao alvo
+  - [Imagick::paintOpaqueImage](imagick.paintopaqueimage.md) — Altera qualquer pixel que corresponda à cor
+  - [Imagick::paintTransparentImage](imagick.painttransparentimage.md) — Altera qualquer pixel que corresponda à cor definida pelo preenchimento
+  - [Imagick::pingImage](imagick.pingimage.md) — Busca atributos básicos sobre a imagem
+  - [Imagick::pingImageBlob](imagick.pingimageblob.md) — Busca atributos rapidamente
+  - [Imagick::pingImageFile](imagick.pingimagefile.md) — Obtém atributos básicos de imagem de maneira leve
+  - [Imagick::polaroidImage](imagick.polaroidimage.md) — Simula uma imagem Polaroid
+  - [Imagick::posterizeImage](imagick.posterizeimage.md) — Reduz a imagem a um número limitado de níveis de cor
+  - [Imagick::previewImages](imagick.previewimages.md) — Identifica rapidamente os parâmetros apropriados para processamento de imagem
+  - [Imagick::previousImage](imagick.previousimage.md) — Passa para a imagem anterior no objeto
+  - [Imagick::profileImage](imagick.profileimage.md) — Adiciona ou remove um perfil de uma imagem
+  - [Imagick::quantizeImage](imagick.quantizeimage.md) — Analisa as cores dentro de uma imagem de referência
+  - [Imagick::quantizeImages](imagick.quantizeimages.md) — Analisa as cores dentro de uma sequência de imagens
+  - [Imagick::queryFontMetrics](imagick.queryfontmetrics.md) — Retorna um array representando as métricas da fonte
+  - [Imagick::queryFonts](imagick.queryfonts.md) — Retorna as fontes configuradas
+  - [Imagick::queryFormats](imagick.queryformats.md) — Retorna formatos suportados pelo Imagick
+  - [Imagick::radialBlurImage](imagick.radialblurimage.md) — Desfoca uma imagem de forma radial
+  - [Imagick::raiseImage](imagick.raiseimage.md) — Cria um efeito simulado de botão 3D
+  - [Imagick::randomThresholdImage](imagick.randomthresholdimage.md) — Cria uma imagem de alto contraste e duas cores
+  - [Imagick::readImage](imagick.readimage.md) — Lê imagem de um arquivo
+  - [Imagick::readImageBlob](imagick.readimageblob.md) — Lê imagem de uma string binária
+  - [Imagick::readImageFile](imagick.readimagefile.md) — Lê imagem a partir de um descritor de arquivo
+  - [Imagick::readimages](imagick.readimages.md) — Lê imagens de um array de arquivos
+  - [Imagick::recolorImage](imagick.recolorimage.md) — Recolore imagem
+  - [Imagick::reduceNoiseImage](imagick.reducenoiseimage.md) — Suaviza os contornos de uma imagem
+  - [Imagick::remapImage](imagick.remapimage.md) — Remapeia as cores da imagem
+  - [Imagick::removeImage](imagick.removeimage.md) — Remove uma imagem da lista de imagens
+  - [Imagick::removeImageProfile](imagick.removeimageprofile.md) — Remove o perfil de imagem nomeado e o retorna
+  - [Imagick::render](imagick.render.md) — Renderiza todos os comandos de desenho anteriores
+  - [Imagick::resampleImage](imagick.resampleimage.md) — Reamostra imagem para a resolução desejada
+  - [Imagick::resetImagePage](imagick.resetimagepage.md) — Redefine página de imagem
+  - [Imagick::resizeImage](imagick.resizeimage.md) — Dimensiona uma imagem
+  - [Imagick::rollImage](imagick.rollimage.md) — Desloca uma imagem
+  - [Imagick::rotateImage](imagick.rotateimage.md) — Rotaciona uma imagem
+  - [Imagick::rotationalBlurImage](imagick.rotationalblurimage.md) — Desfoca uma imagem de forma rotacional
+  - [Imagick::roundCorners](imagick.roundcorners.md) — Arredonda os cantos da imagem
+  - [Imagick::sampleImage](imagick.sampleimage.md) — Dimensiona uma imagem com amostragem de pixels
+  - [Imagick::scaleImage](imagick.scaleimage.md) — Dimensiona o tamanho de uma imagem
+  - [Imagick::segmentImage](imagick.segmentimage.md) — Segmenta uma imagem
+  - [Imagick::selectiveBlurImage](imagick.selectiveblurimage.md) — Desfocar seletivamente uma imagem dentro de um limite de contraste
+  - [Imagick::separateImageChannel](imagick.separateimagechannel.md) — Separa um canal da imagem
+  - [Imagick::sepiaToneImage](imagick.sepiatoneimage.md) — Aplica tons de sépia em uma imagem
+  - [Imagick::setBackgroundColor](imagick.setbackgroundcolor.md) — Define a cor de fundo padrão do objeto
+  - [Imagick::setColorspace](imagick.setcolorspace.md) — Define espaço de cores
+  - [Imagick::setCompression](imagick.setcompression.md) — Define o tipo de compactação padrão do objeto
+  - [Imagick::setCompressionQuality](imagick.setcompressionquality.md) — Define a qualidade de compactação padrão do objeto
+  - [Imagick::setFilename](imagick.setfilename.md) — Define o nome do arquivo antes de ler ou gravar a imagem
+  - [Imagick::setFirstIterator](imagick.setfirstiterator.md) — Define o iterador Imagick para a primeira imagem
+  - [Imagick::setFont](imagick.setfont.md) — Define a fonte
+  - [Imagick::setFormat](imagick.setformat.md) — Define o formato do objeto Imagick
+  - [Imagick::setGravity](imagick.setgravity.md) — Define a gravidade
+  - [Imagick::setImage](imagick.setimage.md) — Substitui imagem no objeto
+  - [Imagick::setImageAlphaChannel](imagick.setimagealphachannel.md) — Define o canal alfa da imagem
+  - [Imagick::setImageArtifact](imagick.setimageartifact.md) — Definir artefato de imagem
+  - [Imagick::setImageAttribute](imagick.setimageattribute.md) — Define um atributo de imagem
+  - [Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md) — Define a cor de fundo da imagem
+  - [Imagick::setImageBias](imagick.setimagebias.md) — Define o ajuste (bias) da imagem para qualquer método que faça convolução em uma imagem
+  - [Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.md) — Define o ajuste (bias) da imagem
+  - [Imagick::setImageBluePrimary](imagick.setimageblueprimary.md) — Define o ponto primário azul da cromaticidade da imagem
+  - [Imagick::setImageBorderColor](imagick.setimagebordercolor.md) — Define a cor da borda da imagem
+  - [Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md) — Define a profundidade de um canal de imagem específico
+  - [Imagick::setImageClipMask](imagick.setimageclipmask.md) — Define a máscara de recorte da imagem
+  - [Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md) — Define a cor do índice do mapa de cores especificado
+  - [Imagick::setImageColorspace](imagick.setimagecolorspace.md) — Define o espaço de cores da imagem
+  - [Imagick::setImageCompose](imagick.setimagecompose.md) — Define o operador de composição de imagem
+  - [Imagick::setImageCompression](imagick.setimagecompression.md) — Define a compactação da imagem
+  - [Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.md) — Define a qualidade de compactação da imagem
+  - [Imagick::setImageDelay](imagick.setimagedelay.md) — Define o atraso da imagem
+  - [Imagick::setImageDepth](imagick.setimagedepth.md) — Define a profundidade da imagem
+  - [Imagick::setImageDispose](imagick.setimagedispose.md) — Define o método de descarte de imagem
+  - [Imagick::setImageExtent](imagick.setimageextent.md) — Define o tamanho da imagem
+  - [Imagick::setImageFilename](imagick.setimagefilename.md) — Define o nome do arquivo de uma imagem específica
+  - [Imagick::setImageFormat](imagick.setimageformat.md) — Define o formato de uma imagem específica
+  - [Imagick::setImageGamma](imagick.setimagegamma.md) — Define o gama da imagem
+  - [Imagick::setImageGravity](imagick.setimagegravity.md) — Define a gravidade da imagem
+  - [Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.md) — Define o ponto primário verde da cromaticidade da imagem
+  - [Imagick::setImageIndex](imagick.setimageindex.md) — Define a posição do iterador
+  - [Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md) — Define a compactação da imagem
+  - [Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md) — Define o método de interpolação de pixel da imagem.
+  - [Imagick::setImageIterations](imagick.setimageiterations.md) — Define as iterações da imagem
+  - [Imagick::setImageMatte](imagick.setimagematte.md) — Define o canal fosco da imagem
+  - [Imagick::setImageMatteColor](imagick.setimagemattecolor.md) — Define a cor fosca da imagem
+  - [Imagick::setImageOpacity](imagick.setimageopacity.md) — Define o nível de opacidade da imagem
+  - [Imagick::setImageOrientation](imagick.setimageorientation.md) — Define a orientação da imagem
+  - [Imagick::setImagePage](imagick.setimagepage.md) — Define a geometria da página da imagem
+  - [Imagick::setImageProfile](imagick.setimageprofile.md) — Adiciona um perfil nomeado ao objeto Imagick
+  - [Imagick::setImageProperty](imagick.setimageproperty.md) — Define uma propriedade de imagem
+  - [Imagick::setImageRedPrimary](imagick.setimageredprimary.md) — Define o ponto primário vermelho da cromaticidade da imagem
+  - [Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md) — Define a intenção de renderização da imagem
+  - [Imagick::setImageResolution](imagick.setimageresolution.md) — Define a resolução da imagem
+  - [Imagick::setImageScene](imagick.setimagescene.md) — Define a cena da imagem
+  - [Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.md) — Define os tiques por segundo da imagem
+  - [Imagick::setImageType](imagick.setimagetype.md) — Define o tipo de imagem
+  - [Imagick::setImageUnits](imagick.setimageunits.md) — Define as unidades de resolução da imagem
+  - [Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md) — Define o método de pixel virtual da imagem
+  - [Imagick::setImageWhitePoint](imagick.setimagewhitepoint.md) — Define o ponto branco da cromaticidade da imagem
+  - [Imagick::setInterlaceScheme](imagick.setinterlacescheme.md) — Define o esquema de entrelaçamento da imagem
+  - [Imagick::setIteratorIndex](imagick.setiteratorindex.md) — Define a posição do iterador
+  - [Imagick::setLastIterator](imagick.setlastiterator.md) — Define o iterador Imagick para a última imagem
+  - [Imagick::setOption](imagick.setoption.md) — Define uma opção
+  - [Imagick::setPage](imagick.setpage.md) — Define a geometria da página do objeto Imagick
+  - [Imagick::setPointSize](imagick.setpointsize.md) — Define o tamanho em pontos
+  - [Imagick::setProgressMonitor](imagick.setprogressmonitor.md) — Define uma função de retorno a ser chamada durante o processamento
+  - [Imagick::setRegistry](imagick.setregistry.md) — Define a chave nomeada do registro do ImageMagick para um valor
+  - [Imagick::setResolution](imagick.setresolution.md) — Define a resolução da imagem
+  - [Imagick::setResourceLimit](imagick.setresourcelimit.md) — Define o limite para um recurso específico
+  - [Imagick::setSamplingFactors](imagick.setsamplingfactors.md) — Define os fatores de amostragem da imagem
+  - [Imagick::setSize](imagick.setsize.md) — Define o tamanho do objeto Imagick
+  - [Imagick::setSizeOffset](imagick.setsizeoffset.md) — Define o tamanho e o deslocamento do objeto Imagick
+  - [Imagick::setType](imagick.settype.md) — Define o atributo de tipo de imagem
+  - [Imagick::shadeImage](imagick.shadeimage.md) — Cria um efeito 3D
+  - [Imagick::shadowImage](imagick.shadowimage.md) — Simula uma sombra de imagem
+  - [Imagick::sharpenImage](imagick.sharpenimage.md) — Torna uma imagem mais nítida
+  - [Imagick::shaveImage](imagick.shaveimage.md) — Raspa pixels das bordas da imagem
+  - [Imagick::shearImage](imagick.shearimage.md) — Cria um paralelogramo
+  - [Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md) — Ajusta o contraste de uma imagem
+  - [Imagick::sketchImage](imagick.sketchimage.md) — Simula um esboço a lápis
+  - [Imagick::smushImages](imagick.smushimages.md) — Agrupa todas as imagens do ponteiro da imagem atual até o final da lista de imagens
+  - [Imagick::solarizeImage](imagick.solarizeimage.md) — Aplica um efeito solarizante à imagem
+  - [Imagick::sparseColorImage](imagick.sparsecolorimage.md) — Interpola cores
+  - [Imagick::spliceImage](imagick.spliceimage.md) — Une uma cor sólida na imagem
+  - [Imagick::spreadImage](imagick.spreadimage.md) — Desloca aleatoriamente cada pixel em um bloco
+  - [Imagick::statisticImage](imagick.statisticimage.md) — Modifica a imagem usando uma função estatística
+  - [Imagick::steganoImage](imagick.steganoimage.md) — Oculta uma marca d'água digital na imagem
+  - [Imagick::stereoImage](imagick.stereoimage.md) — Compõe duas imagens
+  - [Imagick::stripImage](imagick.stripimage.md) — Remove todos os perfis e comentários de uma imagem
+  - [Imagick::subImageMatch](imagick.subimagematch.md) — Procura uma subimagem na imagem atual e retorna uma imagem semelhante
+  - [Imagick::swirlImage](imagick.swirlimage.md) — Gira os pixels em torno do centro da imagem
+  - [Imagick::textureImage](imagick.textureimage.md) — Ladrilha repetidamente a imagem da textura
+  - [Imagick::thresholdImage](imagick.thresholdimage.md) — Altera o valor de pixels individuais com base em um limite
+  - [Imagick::thumbnailImage](imagick.thumbnailimage.md) — Altera o tamanho de uma imagem
+  - [Imagick::tintImage](imagick.tintimage.md) — Aplica um vetor de cores a cada pixel da imagem
+  - [Imagick::\_\_toString](imagick.tostring.md) — Retorna a imagem como uma string
+  - [Imagick::transformImage](imagick.transformimage.md) — Método conveniente para definir o tamanho do corte e a geometria da imagem
+  - [Imagick::transformImageColorspace](imagick.transformimagecolorspace.md) — Transforma uma imagem em um novo espaço de cores
+  - [Imagick::transparentPaintImage](imagick.transparentpaintimage.md) — Pinta pixels com a cor transparente
+  - [Imagick::transposeImage](imagick.transposeimage.md) — Cria uma imagem espelhada vertical
+  - [Imagick::transverseImage](imagick.transverseimage.md) — Cria uma imagem espelhada horizontal
+  - [Imagick::trimImage](imagick.trimimage.md) — Apara as bordas da imagem
+  - [Imagick::uniqueImageColors](imagick.uniqueimagecolors.md) — Descarta todas, exceto uma, de qualquer cor de pixel
+  - [Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md) — Torna uma imagem mais nítida
+  - [Imagick::valid](imagick.valid.md) — Verifica se o item atual é válido
+  - [Imagick::vignetteImage](imagick.vignetteimage.md) — Adiciona filtro de vinheta à imagem
+  - [Imagick::waveImage](imagick.waveimage.md) — Aplica filtro de onda à imagem
+  - [Imagick::whiteThresholdImage](imagick.whitethresholdimage.md) — Força todos os pixels acima de um limite para branco
+  - [Imagick::writeImage](imagick.writeimage.md) — Grava uma imagem no nome de arquivo especificado
+  - [Imagick::writeImageFile](imagick.writeimagefile.md) — Grava uma imagem em um descritor de arquivo
+  - [Imagick::writeImages](imagick.writeimages.md) — Grava uma imagem ou sequência de imagens
+  - [Imagick::writeImagesFile](imagick.writeimagesfile.md) — Grava quadros em um descritor de arquivo
+- [ImagickDraw](class.imagickdraw.md) — A classe ImagickDraw
+  - [ImagickDraw::affine](imagickdraw.affine.md) — Ajusta a matriz de transformação afim atual
+  - [ImagickDraw::annotation](imagickdraw.annotation.md) — Desenha texto na imagem
+  - [ImagickDraw::arc](imagickdraw.arc.md) — Desenha um arco
+  - [ImagickDraw::bezier](imagickdraw.bezier.md) — Desenha uma curva de Bézier
+  - [ImagickDraw::circle](imagickdraw.circle.md) — Desenha um círculo
+  - [ImagickDraw::clear](imagickdraw.clear.md) — Limpa o ImagickDraw
+  - [ImagickDraw::clone](imagickdraw.clone.md) — Faz uma cópia exata do objeto ImagickDraw especificado
+  - [ImagickDraw::color](imagickdraw.color.md) — Desenha cores na imagem
+  - [ImagickDraw::comment](imagickdraw.comment.md) — Adiciona um comentário
+  - [ImagickDraw::composite](imagickdraw.composite.md) — Compõe uma imagem sobre a imagem atual
+  - [ImagickDraw::\_\_construct](imagickdraw.construct.md) — O construtor ImagickDraw
+  - [ImagickDraw::destroy](imagickdraw.destroy.md) — Libera todos os recursos associados
+  - [ImagickDraw::ellipse](imagickdraw.ellipse.md) — Desenha uma elipse na imagem
+  - [ImagickDraw::getClipPath](imagickdraw.getclippath.md) — Obtém o ID do caminho de recorte atual
+  - [ImagickDraw::getClipRule](imagickdraw.getcliprule.md) — Retorna a regra atual de preenchimento do polígono
+  - [ImagickDraw::getClipUnits](imagickdraw.getclipunits.md) — Retorna a interpretação das unidades de caminho de recorte
+  - [ImagickDraw::getFillColor](imagickdraw.getfillcolor.md) — Retorna a cor de preenchimento
+  - [ImagickDraw::getFillOpacity](imagickdraw.getfillopacity.md) — Retorna a opacidade usada ao desenhar
+  - [ImagickDraw::getFillRule](imagickdraw.getfillrule.md) — Retorna a regra de preenchimento
+  - [ImagickDraw::getFont](imagickdraw.getfont.md) — Retorna a fonte
+  - [ImagickDraw::getFontFamily](imagickdraw.getfontfamily.md) — Retorna a família de fontes
+  - [ImagickDraw::getFontSize](imagickdraw.getfontsize.md) — Retorna o tamanho da fonte em pontos
+  - [ImagickDraw::getFontStretch](imagickdraw.getfontstretch.md) — Obtém o esticamento de fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::getFontStyle](imagickdraw.getfontstyle.md) — Retorna o estilo da fonte
+  - [ImagickDraw::getFontWeight](imagickdraw.getfontweight.md) — Retorna a espessura da fonte
+  - [ImagickDraw::getGravity](imagickdraw.getgravity.md) — Retorna o alinhamento de posicionamento do texto
+  - [ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md) — Retorna a configuração atual de suavização do traço
+  - [ImagickDraw::getStrokeColor](imagickdraw.getstrokecolor.md) — Retorna a cor usada para traçar os contornos dos objetos
+  - [ImagickDraw::getStrokeDashArray](imagickdraw.getstrokedasharray.md) — Retorna um array que representa o padrão de traços e espaços usados ​​para traçar caminhos
+  - [ImagickDraw::getStrokeDashOffset](imagickdraw.getstrokedashoffset.md) — Retorna o deslocamento no padrão de traço para iniciar o traço
+  - [ImagickDraw::getStrokeLineCap](imagickdraw.getstrokelinecap.md) — Retorna a forma a ser usada no final dos subcaminhos abertos quando eles são traçados
+  - [ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md) — Retorna a forma a ser usada nos cantos dos caminhos quando eles são traçados
+  - [ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md) — Retorna o limite de esquadria do traçado
+  - [ImagickDraw::getStrokeOpacity](imagickdraw.getstrokeopacity.md) — Retorna a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::getStrokeWidth](imagickdraw.getstrokewidth.md) — Retorna a largura do traço usado para desenhar contornos de objetos
+  - [ImagickDraw::getTextAlignment](imagickdraw.gettextalignment.md) — Retorna o alinhamento do texto
+  - [ImagickDraw::getTextAntialias](imagickdraw.gettextantialias.md) — Retorna a configuração atual de antialias do texto
+  - [ImagickDraw::getTextDecoration](imagickdraw.gettextdecoration.md) — Retorna a decoração do texto
+  - [ImagickDraw::getTextEncoding](imagickdraw.gettextencoding.md) — Retorna o conjunto de caracteres usado para anotações de texto
+  - [ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md) — Obtém o espaçamento entre linhas do texto
+  - [ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md) — Obtém o espaçamento entre palavras do texto
+  - [ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md) — Obtém o espaçamento entre letras do texto
+  - [ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md) — Retorna a cor sob o texto
+  - [ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md) — Retorna uma string contendo gráficos vetoriais
+  - [ImagickDraw::line](imagickdraw.line.md) — Desenha uma linha
+  - [ImagickDraw::matte](imagickdraw.matte.md) — Pinta no canal de opacidade da imagem
+  - [ImagickDraw::pathClose](imagickdraw.pathclose.md) — Adiciona um elemento de caminho ao caminho atual
+  - [ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md) — Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierAbsolute](imagickdraw.pathcurvetoquadraticbezierabsolute.md) — Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.md) — Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute](imagickdraw.pathcurvetoquadraticbeziersmoothabsolute.md) — Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md) — Desenha uma curva quadrática de Bézier
+  - [ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md) — Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md) — Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathCurveToSmoothRelative](imagickdraw.pathcurvetosmoothrelative.md) — Desenha uma curva cúbica de Bézier
+  - [ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md) — Desenha um arco elíptico
+  - [ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md) — Desenha um arco elíptico
+  - [ImagickDraw::pathFinish](imagickdraw.pathfinish.md) — Termina o caminho atual
+  - [ImagickDraw::pathLineToAbsolute](imagickdraw.pathlinetoabsolute.md) — Desenha um caminho de linha
+  - [ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.md) — Desenha um caminho de linha horizontal
+  - [ImagickDraw::pathLineToHorizontalRelative](imagickdraw.pathlinetohorizontalrelative.md) — Desenha um caminho de linha horizontal
+  - [ImagickDraw::pathLineToRelative](imagickdraw.pathlinetorelative.md) — Desenha um caminho de linha
+  - [ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md) — Desenha um caminho de linha vertical
+  - [ImagickDraw::pathLineToVerticalRelative](imagickdraw.pathlinetoverticalrelative.md) — Desenha um caminho de linha vertical
+  - [ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.md) — Inicia um novo subcaminho
+  - [ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.md) — Inicia um novo subcaminho
+  - [ImagickDraw::pathStart](imagickdraw.pathstart.md) — Declara o início de uma lista de desenho de caminho
+  - [ImagickDraw::point](imagickdraw.point.md) — Desenha um ponto
+  - [ImagickDraw::polygon](imagickdraw.polygon.md) — Desenha um polígono
+  - [ImagickDraw::polyline](imagickdraw.polyline.md) — Desenha uma polilinha
+  - [ImagickDraw::pop](imagickdraw.pop.md) — Destrói o ImagickDraw atual na pilha e retorna ao ImagickDraw enviado anteriormente
+  - [ImagickDraw::popClipPath](imagickdraw.popclippath.md) — Encerra uma definição de caminho de recorte
+  - [ImagickDraw::popDefs](imagickdraw.popdefs.md) — Encerra uma lista de definições
+  - [ImagickDraw::popPattern](imagickdraw.poppattern.md) — Encerra uma definição de padrão
+  - [ImagickDraw::push](imagickdraw.push.md) — Clona o ImagickDraw atual e o coloca na pilha
+  - [ImagickDraw::pushClipPath](imagickdraw.pushclippath.md) — Inicia uma definição de caminho de recorte
+  - [ImagickDraw::pushDefs](imagickdraw.pushdefs.md) — Indica que os comandos a seguir criam elementos nomeados para processamento antecipado
+  - [ImagickDraw::pushPattern](imagickdraw.pushpattern.md) — Indica que os comandos subsequentes até um comando ImagickDraw::opPattern() compreendem a definição de um padrão nomeado
+  - [ImagickDraw::rectangle](imagickdraw.rectangle.md) — Desenha um retângulo
+  - [ImagickDraw::render](imagickdraw.render.md) — Renderiza todos os comandos de desenho anteriores na imagem
+  - [ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md) — Redefine os gráficos vetoriais
+  - [ImagickDraw::rotate](imagickdraw.rotate.md) — Aplica a rotação especificada ao espaço de coordenadas atual
+  - [ImagickDraw::roundRectangle](imagickdraw.roundrectangle.md) — Desenha um retângulo arredondado
+  - [ImagickDraw::scale](imagickdraw.scale.md) — Ajusta o fator de escala
+  - [ImagickDraw::setClipPath](imagickdraw.setclippath.md) — Associa um caminho de recorte nomeado à imagem
+  - [ImagickDraw::setClipRule](imagickdraw.setcliprule.md) — Define a regra de preenchimento do polígono a ser usada pelo traçado de recorte
+  - [ImagickDraw::setClipUnits](imagickdraw.setclipunits.md) — Define a interpretação das unidades do caminho de recorte
+  - [ImagickDraw::setFillAlpha](imagickdraw.setfillalpha.md) — Define a opacidade a ser usada ao desenhar usando a cor ou textura de preenchimento
+  - [ImagickDraw::setFillColor](imagickdraw.setfillcolor.md) — Define a cor de preenchimento a ser usada para desenhar objetos preenchidos
+  - [ImagickDraw::setFillOpacity](imagickdraw.setfillopacity.md) — Define a opacidade a ser usada ao desenhar usando a cor ou textura de preenchimento
+  - [ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md) — Define a URL a ser usada como padrão de preenchimento para preencher objetos
+  - [ImagickDraw::setFillRule](imagickdraw.setfillrule.md) — Define a regra de preenchimento a ser usada ao desenhar polígonos
+  - [ImagickDraw::setFont](imagickdraw.setfont.md) — Define a fonte totalmente especificada a ser usada ao fazer anotações com texto
+  - [ImagickDraw::setFontFamily](imagickdraw.setfontfamily.md) — Define a família de fontes a ser usada ao fazer anotações com texto
+  - [ImagickDraw::setFontSize](imagickdraw.setfontsize.md) — Define o tamanho da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontStretch](imagickdraw.setfontstretch.md) — Define o esticamento da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontStyle](imagickdraw.setfontstyle.md) — Define o estilo da fonte a ser usado ao fazer anotações com texto
+  - [ImagickDraw::setFontWeight](imagickdraw.setfontweight.md) — Define a espessura da fonte
+  - [ImagickDraw::setGravity](imagickdraw.setgravity.md) — Define a gravidade do posicionamento do texto
+  - [ImagickDraw::setResolution](imagickdraw.setresolution.md) — Define a resolução
+  - [ImagickDraw::setStrokeAlpha](imagickdraw.setstrokealpha.md) — Especifica a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md) — Controla se os contornos traçados são suavizados
+  - [ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.md) — Define a cor usada para traçar os contornos dos objetos
+  - [ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md) — Especifica o padrão de traços e espaços usados ​​para traçar caminhos
+  - [ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.md) — Especifica o deslocamento no padrão de traço para iniciar o traço
+  - [ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.md) — Especifica a forma a ser usada no final dos subcaminhos abertos quando eles são traçados
+  - [ImagickDraw::setStrokeLineJoin](imagickdraw.setstrokelinejoin.md) — Especifica a forma a ser usada nos cantos dos caminhos quando eles são traçados
+  - [ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md) — Especifica o limite de esquadria
+  - [ImagickDraw::setStrokeOpacity](imagickdraw.setstrokeopacity.md) — Especifica a opacidade dos contornos dos objetos traçados
+  - [ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.md) — Define o padrão usado para traçar contornos de objetos
+  - [ImagickDraw::setStrokeWidth](imagickdraw.setstrokewidth.md) — Define a largura do traço usado para desenhar contornos de objetos
+  - [ImagickDraw::setTextAlignment](imagickdraw.settextalignment.md) — Especifica um alinhamento de texto
+  - [ImagickDraw::setTextAntialias](imagickdraw.settextantialias.md) — Controla se o texto é suavizado
+  - [ImagickDraw::setTextDecoration](imagickdraw.settextdecoration.md) — Especifica uma decoração
+  - [ImagickDraw::setTextEncoding](imagickdraw.settextencoding.md) — Especifica o conjunto de caracteres do texto
+  - [ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md) — Define o espaçamento entre linhas do texto
+  - [ImagickDraw::setTextInterwordSpacing](imagickdraw.settextinterwordspacing.md) — Define o espaçamento entre palavras do texto
+  - [ImagickDraw::setTextKerning](imagickdraw.settextkerning.md) — Define o espaçamento entre letras do texto
+  - [ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.md) — Especifica a cor de um retângulo de fundo
+  - [ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md) — Define os gráficos vetoriais
+  - [ImagickDraw::setViewbox](imagickdraw.setviewbox.md) — Define o tamanho geral da tela
+  - [ImagickDraw::skewX](imagickdraw.skewx.md) — Inclina o sistema de coordenadas atual na direção horizontal
+  - [ImagickDraw::skewY](imagickdraw.skewy.md) — Inclina o sistema de coordenadas atual na direção vertical
+  - [ImagickDraw::translate](imagickdraw.translate.md) — Aplica uma translação no sistema de coordenadas atual
+- [ImagickDrawException](class.imagickdrawexception.md) — A classe ImagickDrawException
+- [ImagickException](class.imagickexception.md) — A classe ImagickException
+- [ImagickKernel](class.imagickkernel.md) — A classe ImagickKernel
+  - [ImagickKernel::addKernel](imagickkernel.addkernel.md) — Anexa outro kernel a uma lista de kernels
+  - [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md) — Adiciona um Kernel Unity à lista de kernels
+  - [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md) — Cria um kernel a partir de um kernel integrado
+  - [ImagickKernel::fromMatrix](imagickkernel.frommatrix.md) — Crie um kernel a partir de uma matriz 2D de valores
+  - [ImagickKernel::getMatrix](imagickkernel.getmatrix.md) — Obtém a matriz 2D de valores usada neste kernel
+  - [ImagickKernel::scale](imagickkernel.scale.md) — Dimensiona uma lista de kernel pela quantidade especificada
+  - [ImagickKernel::separate](imagickkernel.separate.md) — Separa um conjunto vinculado de kernels e retorna um array de ImagickKernels
+- [ImagickKernelException](class.imagickkernelexception.md) — A classe ImagickKernelException
+- [ImagickPixel](class.imagickpixel.md) — A classe ImagickPixel
+  - [ImagickPixel::clear](imagickpixel.clear.md) — Limpa recursos associados a este objeto
+  - [ImagickPixel::\_\_construct](imagickpixel.construct.md) — O construtor de ImagickPixel
+  - [ImagickPixel::destroy](imagickpixel.destroy.md) — Desaloca recursos associados a este objeto
+  - [ImagickPixel::getColor](imagickpixel.getcolor.md) — Retorna a cor
+  - [ImagickPixel::getColorAsString](imagickpixel.getcolorasstring.md) — Retorna a cor como uma string
+  - [ImagickPixel::getColorCount](imagickpixel.getcolorcount.md) — Retorna a contagem de cores associada a esta cor
+  - [ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.md) — Retorna a cor do pixel em um array como valores Quantum
+  - [ImagickPixel::getColorValue](imagickpixel.getcolorvalue.md) — Obtém o valor normalizado do canal de cores fornecido
+  - [ImagickPixel::getColorValueQuantum](imagickpixel.getcolorvaluequantum.md) — Obtém o valor Quantum de uma cor no ImagickPixel
+  - [ImagickPixel::getHSL](imagickpixel.gethsl.md) — Retorna a cor HSL normalizada do objeto ImagickPixel
+  - [ImagickPixel::getIndex](imagickpixel.getindex.md) — Obtém o índice do mapa de cores da varinha de pixel
+  - [ImagickPixel::isPixelSimilar](imagickpixel.ispixelsimilar.md) — Verifica a distância entre esta cor e uma outra
+  - [ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md) — Retorna se duas cores diferem em menos que a distância especificada
+  - [ImagickPixel::isSimilar](imagickpixel.issimilar.md) — Verifica a distância entre esta cor e uma outra
+  - [ImagickPixel::setColor](imagickpixel.setcolor.md) — Define a cor
+  - [ImagickPixel::setColorCount](imagickpixel.setcolorcount.md) — Define a contagem de cores associada a esta cor
+  - [ImagickPixel::setColorValue](imagickpixel.setcolorvalue.md) — Define o valor normalizado de um dos canais
+  - [ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.md) — Define o valor Quantum de um elemento de cor do ImagickPixel
+  - [ImagickPixel::setHSL](imagickpixel.sethsl.md) — Define a cor HSL normalizada
+  - [ImagickPixel::setIndex](imagickpixel.setindex.md) — Define o índice do mapa de cores da varinha de pixel
+- [ImagickPixelException](class.imagickpixelexception.md) — A classe ImagickPixelException
+- [ImagickPixelIterator](class.imagickpixeliterator.md) — A classe ImagickPixelIterator
+  - [ImagickPixelIterator::clear](imagickpixeliterator.clear.md) — Limpa recursos associados a um PixelIterator
+  - [ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.md) — O construtor de ImagickPixelIterator
+  - [ImagickPixelIterator::destroy](imagickpixeliterator.destroy.md) — Desaloca recursos associados a um PixelIterator
+  - [ImagickPixelIterator::getCurrentIteratorRow](imagickpixeliterator.getcurrentiteratorrow.md) — Retorna a linha atual de objetos ImagickPixel
+  - [ImagickPixelIterator::getIteratorRow](imagickpixeliterator.getiteratorrow.md) — Retorna a linha atual do iterador de pixel
+  - [ImagickPixelIterator::getNextIteratorRow](imagickpixeliterator.getnextiteratorrow.md) — Retorna a próxima linha do iterador de pixel
+  - [ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md) — Retorna a linha anterior
+  - [ImagickPixelIterator::newPixelIterator](imagickpixeliterator.newpixeliterator.md) — Retorna um novo iterador de pixel
+  - [ImagickPixelIterator::newPixelRegionIterator](imagickpixeliterator.newpixelregioniterator.md) — Retorna um novo iterador de pixel
+  - [ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md) — Redefine o iterador de pixel
+  - [ImagickPixelIterator::setIteratorFirstRow](imagickpixeliterator.setiteratorfirstrow.md) — Define o iterador de pixels para a primeira linha de pixels
+  - [ImagickPixelIterator::setIteratorLastRow](imagickpixeliterator.setiteratorlastrow.md) — Define o iterador de pixels para a última linha de pixels
+  - [ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md) — Define a linha do iterador de pixel
+  - [ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md) — Sincroniza o iterador de pixel
+- [ImagickPixelIteratorException](class.imagickpixeliteratorexception.md) — A classe ImagickPixelIteratorException
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

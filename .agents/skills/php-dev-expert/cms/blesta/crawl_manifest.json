@@ -1,0 +1,608 @@
+{
+  "root_url": "** https://docs.blesta.com/5/",
+  "scope_prefix": "** https://docs.blesta.com/5/",
+  "total_pages": 100,
+  "generated_at": "2026-10-28T18:55:17Z",
+  "pages": [
+    {
+      "url": "** https://docs.blesta.com/5/",
+      "file": "dev__5.md",
+      "title": "Intro | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/developers",
+      "file": "dev__5__category__developers.md",
+      "title": "Developers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/events",
+      "file": "dev__5__category__events.md",
+      "title": "Events | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/getting-started",
+      "file": "dev__5__category__getting-started.md",
+      "title": "Getting Started | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/guides",
+      "file": "dev__5__category__guides.md",
+      "title": "Guides | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/integrations",
+      "file": "dev__5__category__integrations.md",
+      "title": "Integrations | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/messengers-1",
+      "file": "dev__5__category__messengers-1.md",
+      "title": "Messengers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/modules-1",
+      "file": "dev__5__category__modules-1.md",
+      "title": "Modules | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/payment-gateways",
+      "file": "dev__5__category__payment-gateways.md",
+      "title": "Payment Gateways | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/plugins-1",
+      "file": "dev__5__category__plugins-1.md",
+      "title": "Plugins | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/security",
+      "file": "dev__5__category__security.md",
+      "title": "Security | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/settings",
+      "file": "dev__5__category__settings.md",
+      "title": "Settings | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/support",
+      "file": "dev__5__category__support.md",
+      "title": "Support | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/developers/api",
+      "file": "dev__5__developers__api.md",
+      "title": "API | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/developers/deprecated",
+      "file": "dev__5__developers__deprecated.md",
+      "title": "Deprecated Functionality | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/developers/style-guide",
+      "file": "dev__5__developers__style-guide.md",
+      "title": "Style Guide | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/installation",
+      "file": "dev__5__installation.md",
+      "title": "Installation | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/upgrade",
+      "file": "dev__5__upgrade.md",
+      "title": "Upgrading | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/ai",
+      "file": "dev__category__ai.md",
+      "title": "AI | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/developers/",
+      "file": "dev__category__developers.md",
+      "title": "Developers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/events",
+      "file": "dev__category__events.md",
+      "title": "Events | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/getting-started",
+      "file": "dev__category__getting-started.md",
+      "title": "Getting Started | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/guides",
+      "file": "dev__category__guides.md",
+      "title": "Guides | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/integrations",
+      "file": "dev__category__integrations.md",
+      "title": "Integrations | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/messengers-1",
+      "file": "dev__category__messengers-1.md",
+      "title": "Messengers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/modules-1",
+      "file": "dev__category__modules-1.md",
+      "title": "Modules | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/payment-gateways",
+      "file": "dev__category__payment-gateways.md",
+      "title": "Payment Gateways | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/plugins-1",
+      "file": "dev__category__plugins-1.md",
+      "title": "Plugins | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/resellers",
+      "file": "dev__category__resellers.md",
+      "title": "Resellers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/security",
+      "file": "dev__category__security.md",
+      "title": "Security | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/settings",
+      "file": "dev__category__settings.md",
+      "title": "Settings | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/support",
+      "file": "dev__category__support.md",
+      "title": "Support | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/ai",
+      "file": "dev__developers__ai.md",
+      "title": "AI for Developers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/api",
+      "file": "dev__developers__api.md",
+      "title": "API | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/composer",
+      "file": "dev__developers__composer.md",
+      "title": "Composer | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/contributing",
+      "file": "dev__developers__contributing.md",
+      "title": "Contributing Code | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/deprecated",
+      "file": "dev__developers__deprecated.md",
+      "title": "Deprecated Functionality | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/error-checking",
+      "file": "dev__developers__error-checking.md",
+      "title": "Error Checking | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/example-data",
+      "file": "dev__developers__example-data.md",
+      "title": "Example Data Library | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/invoice-templates",
+      "file": "dev__developers__invoice-templates.md",
+      "title": "Invoice Templates | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/javascript",
+      "file": "dev__developers__javascript.md",
+      "title": "JavaScript | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/marketplace",
+      "file": "dev__developers__marketplace.md",
+      "title": "Marketplace | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/query-logger",
+      "file": "dev__developers__query-logger.md",
+      "title": "Database Query Logger | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/style-guide",
+      "file": "dev__developers__style-guide.md",
+      "title": "Style Guide | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/translating-blesta",
+      "file": "dev__developers__translating-blesta.md",
+      "title": "Translating Blesta | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/developers/v6-extension-conversion",
+      "file": "dev__developers__v6-extension-conversion.md",
+      "title": "v6 Extension Conversion Guide | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/",
+      "file": "dev__index.md",
+      "title": "Intro | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/installation",
+      "file": "dev__installation.md",
+      "title": "Installation | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/security/encryption",
+      "file": "dev__security__encryption.md",
+      "title": "Encryption | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/upgrade",
+      "file": "dev__upgrade.md",
+      "title": "Upgrading | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/",
+      "file": "docs__5.md",
+      "title": "Intro | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/developers",
+      "file": "docs__5__category__developers.md",
+      "title": "Developers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/getting-started",
+      "file": "docs__5__category__getting-started.md",
+      "title": "Getting Started | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/guides",
+      "file": "docs__5__category__guides.md",
+      "title": "Guides | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/integrations",
+      "file": "docs__5__category__integrations.md",
+      "title": "Integrations | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/security",
+      "file": "docs__5__category__security.md",
+      "title": "Security | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/category/support",
+      "file": "docs__5__category__support.md",
+      "title": "Support | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/installation",
+      "file": "docs__5__installation.md",
+      "title": "Installation | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/5/upgrade",
+      "file": "docs__5__upgrade.md",
+      "title": "Upgrading | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/ai/",
+      "file": "docs__ai.md",
+      "title": "AI Features Overview | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/ai/chatbot",
+      "file": "docs__ai__chatbot.md",
+      "title": "AI Chatbot | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/ai/configuration",
+      "file": "docs__ai__configuration.md",
+      "title": "AI Configuration | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/ai/email-templates",
+      "file": "docs__ai__email-templates.md",
+      "title": "AI for Email Templates | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/ai/html-templates",
+      "file": "docs__ai__html-templates.md",
+      "title": "AI for HTML Templates | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/ai",
+      "file": "docs__category__ai.md",
+      "title": "AI | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/developers",
+      "file": "docs__category__developers.md",
+      "title": "Developers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/gateways",
+      "file": "docs__category__gateways.md",
+      "title": "Gateways | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/getting-started",
+      "file": "docs__category__getting-started.md",
+      "title": "Getting Started | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/guides",
+      "file": "docs__category__guides.md",
+      "title": "Guides | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/integration-overview",
+      "file": "docs__category__integration-overview.md",
+      "title": "Integrations Overview | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/integrations",
+      "file": "docs__category__integrations.md",
+      "title": "Integrations | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/messengers",
+      "file": "docs__category__messengers.md",
+      "title": "Messengers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/migrating-to-blesta",
+      "file": "docs__category__migrating-to-blesta.md",
+      "title": "Migrating to Blesta | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/modules",
+      "file": "docs__category__modules.md",
+      "title": "Modules | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/plugins",
+      "file": "docs__category__plugins.md",
+      "title": "Plugins | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/releases",
+      "file": "docs__category__releases.md",
+      "title": "Releases | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/security",
+      "file": "docs__category__security.md",
+      "title": "Security | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/category/support",
+      "file": "docs__category__support.md",
+      "title": "Support | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/admin-ui",
+      "file": "docs__getting-started__admin-ui.md",
+      "title": "Admin UI Tour | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/configs",
+      "file": "docs__getting-started__configs.md",
+      "title": "Config Changes | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/customizing-emails",
+      "file": "docs__getting-started__customizing-emails.md",
+      "title": "Customizing Emails | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/customizing-language",
+      "file": "docs__getting-started__customizing-language.md",
+      "title": "Custom Language | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/customizing-the-layout",
+      "file": "docs__getting-started__customizing-the-layout.md",
+      "title": "Customizing the Layout | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/logging-in",
+      "file": "docs__getting-started__logging-in.md",
+      "title": "Logging In | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/getting-started/notifications",
+      "file": "docs__getting-started__notifications.md",
+      "title": "Notifications | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/admin-tools",
+      "file": "docs__guides__admin-tools.md",
+      "title": "Admin Tools | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/client-registration",
+      "file": "docs__guides__client-registration.md",
+      "title": "Client Registration | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/configurable-options",
+      "file": "docs__guides__configurable-options.md",
+      "title": "Configurable Options | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/moving-blesta",
+      "file": "docs__guides__moving-blesta.md",
+      "title": "Moving Blesta | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/removing-branding",
+      "file": "docs__guides__removing-branding.md",
+      "title": "Removing Branding | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/templates",
+      "file": "docs__guides__templates.md",
+      "title": "Modify Templates | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/guides/v6-migration-guide",
+      "file": "docs__guides__v6-migration-guide.md",
+      "title": "v6 Migration Guide | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/",
+      "file": "docs__index.md",
+      "title": "Intro | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/installation",
+      "file": "docs__installation.md",
+      "title": "Installation | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/support/debugging-tools",
+      "file": "docs__support__debugging-tools.md",
+      "title": "Debugging / Tools | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/support/end-of-life-policy",
+      "file": "docs__support__end-of-life-policy.md",
+      "title": "End of Life Policy | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/support/end-user-license-agreement",
+      "file": "docs__support__end-user-license-agreement.md",
+      "title": "EULA | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/support/getting-support",
+      "file": "docs__support__getting-support.md",
+      "title": "Getting Support | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/support/license-transfers",
+      "file": "docs__support__license-transfers.md",
+      "title": "License Transfers | Blesta Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.blesta.com/upgrade",
+      "file": "docs__upgrade.md",
+      "title": "Upgrading | Blesta Documentation",
+      "depth": 1
+    }
+  ]
+}

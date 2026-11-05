@@ -1,0 +1,308 @@
+{
+  "root_url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Action-Tracking",
+  "scope_prefix": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Action-Tracking",
+  "total_pages": 50,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Action-Tracking",
+      "file": "Action-Tracking.md",
+      "title": "Action Tracking · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Campaign-Tracking",
+      "file": "Campaign-Tracking.md",
+      "title": "Campaign Tracking · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Command-Line-Interface-%28CLI%29",
+      "file": "Command-Line-Interface-_28CLI_29.md",
+      "title": "Command Line Interface (CLI) · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Command-Line-Interface-(CLI)",
+      "file": "Command-Line-Interface-_CLI.md",
+      "title": "Command Line Interface (CLI) · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Configuration",
+      "file": "Configuration.md",
+      "title": "Configuration · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Conversion-Tracking",
+      "file": "Conversion-Tracking.md",
+      "title": "Conversion Tracking · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Converting-Dimension-Ids",
+      "file": "Converting-Dimension-Ids.md",
+      "title": "Converting Dimension Ids · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Creating-A-New-Module",
+      "file": "Creating-A-New-Module.md",
+      "title": "Creating A New Module · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Custom-Reports",
+      "file": "Custom-Reports.md",
+      "title": "Custom Reports · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Data-Access-API",
+      "file": "Data-Access-API.md",
+      "title": "Data Access API · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Database-Access",
+      "file": "Database-Access.md",
+      "title": "Database Access · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Database-Schema",
+      "file": "Database-Schema.md",
+      "title": "Database Schema · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Deployment",
+      "file": "Deployment.md",
+      "title": "Deployment · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Development",
+      "file": "Development.md",
+      "title": "Development · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Ecommerce-Tracking",
+      "file": "Ecommerce-Tracking.md",
+      "title": "Ecommerce Tracking · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Entities",
+      "file": "Entities.md",
+      "title": "Entities · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Event-Handlers",
+      "file": "Event-Handlers.md",
+      "title": "Event Handlers · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Event-Queueing",
+      "file": "Event-Queueing.md",
+      "title": "Event Queueing · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Event-Types",
+      "file": "Event-Types.md",
+      "title": "Event Types · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Features",
+      "file": "Features.md",
+      "title": "Features · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/File-System-Permissions",
+      "file": "File-System-Permissions.md",
+      "title": "File System Permissions · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Filters",
+      "file": "Filters.md",
+      "title": "Filters · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Framework-Overview",
+      "file": "Framework-Overview.md",
+      "title": "Framework Overview · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki",
+      "file": "index.md",
+      "title": "Home · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Installation",
+      "file": "Installation.md",
+      "title": "Installation · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Installing-from-Github",
+      "file": "Installing-from-Github.md",
+      "title": "Installing from Github · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Integration-Plugins",
+      "file": "Integration-Plugins.md",
+      "title": "Integration Plugins · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Invocation",
+      "file": "Invocation.md",
+      "title": "Invocation · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Javascript-Tracker",
+      "file": "Javascript-Tracker.md",
+      "title": "Javascript Tracker · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Keeping-An-Install-Healthy",
+      "file": "Keeping-An-Install-Healthy.md",
+      "title": "Keeping An Install Healthy · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Maxmind-GeoIP-Module",
+      "file": "Maxmind-GeoIP-Module.md",
+      "title": "Maxmind GeoIP Module · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Metrics-&-Dimensions",
+      "file": "Metrics-_-Dimensions.md",
+      "title": "Metrics & Dimensions · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Metrics-%26-Dimensions",
+      "file": "Metrics-_26-Dimensions.md",
+      "title": "Metrics & Dimensions · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Metrics",
+      "file": "Metrics.md",
+      "title": "Metrics · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Notifications",
+      "file": "Notifications.md",
+      "title": "Notifications · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Organizations-Properties-and-Profiles",
+      "file": "Organizations-Properties-and-Profiles.md",
+      "title": "Organizations Properties and Profiles · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/OWA-Git-Github",
+      "file": "OWA-Git-Github.md",
+      "title": "OWA Git Github · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Partitioning-Fact-Tables",
+      "file": "Partitioning-Fact-Tables.md",
+      "title": "Partitioning Fact Tables · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/PHP-Tracker",
+      "file": "PHP-Tracker.md",
+      "title": "PHP Tracker · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Report-Definitions",
+      "file": "Report-Definitions.md",
+      "title": "Report Definitions · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Report-Widgets",
+      "file": "Report-Widgets.md",
+      "title": "Report Widgets · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Reports",
+      "file": "Reports.md",
+      "title": "Reports · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/REST-API",
+      "file": "REST-API.md",
+      "title": "REST API · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Scheduled-Jobs",
+      "file": "Scheduled-Jobs.md",
+      "title": "Scheduled Jobs · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Schema-Updater",
+      "file": "Schema-Updater.md",
+      "title": "Schema Updater · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Technical-Requirements",
+      "file": "Technical-Requirements.md",
+      "title": "Technical Requirements · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Testing",
+      "file": "Testing.md",
+      "title": "Testing · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Troubleshooting",
+      "file": "Troubleshooting.md",
+      "title": "Troubleshooting · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/Updating",
+      "file": "Updating.md",
+      "title": "Updating · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/Open-Web-Analytics/Open-Web-Analytics/wiki/User-Permissions",
+      "file": "User-Permissions.md",
+      "title": "User Permissions · Open-Web-Analytics/Open-Web-Analytics Wiki · GitHub",
+      "depth": 1
+    }
+  ]
+}

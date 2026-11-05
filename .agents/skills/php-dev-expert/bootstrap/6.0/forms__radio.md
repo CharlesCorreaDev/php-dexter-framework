@@ -1,0 +1,200 @@
+# Radio · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/forms/radio
+
+---
+
+# Radio
+
+Highly customizable, native radio `<input>` elements for choosing one option from many.
+
+Layer: `forms`
+
+MDN[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio)
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/forms/radio)
+
+On this page…
+
+##### On this page
+
+## Basic radio
+
+Similar to checkboxes, radios are styled with the `.radio` class. However, there’s no custom SVG as we use pure CSS to style the input and its checked state.
+
+HTML
+
+```
+<input type="radio" id="radio" class="radio" />
+```
+
+## With form field
+
+Wrap the `.radio` in a `.form-field` layout wrapper and add your label. The grid layout places the radio and label side by side.
+
+First example radio
+
+Second example radio
+
+HTML
+
+```
+<div class="form-field">
+  <input class="radio" name="radios" type="radio" id="radioLabel" />
+  <label for="radioLabel">First example radio</label>
+</div>
+<div class="form-field">
+  <input class="radio" name="radios" type="radio" id="radioLabel2" />
+  <label for="radioLabel2">Second example radio</label>
+</div>
+```
+
+## Description
+
+Add a description or other content after the label. We recommend wrapping the label and description in a `.form-field-content` to ensure appropriate spacing and alignment.
+
+Example new radio
+Supporting description for the above label.
+
+HTML
+
+```
+<div class="form-field">
+  <input type="radio" id="radioLabelDescription" class="radio" />
+  <div class="form-field-content">
+    <label for="radioLabelDescription" class="fw-medium">Example new radio</label>
+    <small class="form-text">Supporting description for the above label.</small>
+  </div>
+</div>
+```
+
+## Theme colors
+
+Modify the appearance of checked radios by adding the `.theme-{color}` class to the `.radio` element. This will set the checked background and border color to the theme color.
+
+Example primary radio
+
+Example accent radio
+
+Example success radio
+
+Example danger radio
+
+Example warning radio
+
+Example info radio
+
+Example inverse radio
+
+Example secondary radio
+
+HTML
+
+```
+<div class="form-field">
+  <input type="radio" id="radioprimary" class="radio theme-primary" checked />
+  <label for="radioprimary">Example primary radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radioaccent" class="radio theme-accent" checked />
+  <label for="radioaccent">Example accent radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radiosuccess" class="radio theme-success" checked />
+  <label for="radiosuccess">Example success radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radiodanger" class="radio theme-danger" checked />
+  <label for="radiodanger">Example danger radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radiowarning" class="radio theme-warning" checked />
+  <label for="radiowarning">Example warning radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radioinfo" class="radio theme-info" checked />
+  <label for="radioinfo">Example info radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radioinverse" class="radio theme-inverse" checked />
+  <label for="radioinverse">Example inverse radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radiosecondary" class="radio theme-secondary" checked />
+  <label for="radiosecondary">Example secondary radio</label>
+</div>
+```
+
+## Disabled
+
+Add the `disabled` attribute and the associated `<label>`s are automatically styled to match with a lighter color to help indicate the input’s state.
+
+Example new radio
+
+Example checked disabled radio
+
+HTML
+
+```
+<div class="form-field">
+  <input type="radio" id="radioDisabled" class="radio" disabled />
+  <label for="radioDisabled">Example new radio</label>
+</div>
+
+<div class="form-field">
+  <input type="radio" id="radioCheckedDisabled" class="radio" disabled checked />
+  <label for="radioCheckedDisabled">Example checked disabled radio</label>
+</div>
+```
+
+## Sizes
+
+Add `.radio-sm` or `.radio-lg` to make your radio appear smaller or larger.
+
+Small radio
+
+Default radio
+
+Large radio
+
+HTML
+
+```
+<div class="form-field">
+  <input type="radio" id="radioSizeSm" class="radio radio-sm" checked />
+  <label for="radioSizeSm">Small radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radioSizeMd" class="radio" checked />
+  <label for="radioSizeMd">Default radio</label>
+</div>
+<div class="form-field">
+  <input type="radio" id="radioSizeLg" class="radio radio-lg" checked />
+  <label for="radioSizeLg">Large radio</label>
+</div>
+```
+
+## CSS
+
+### Variables
+
+CSS variables for the radio component are built on the Sass variables.
+
+[scss/forms/\_radio.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/forms/_radio.scss)
+
+```
+// stylelint-disable-next-line scss/dollar-variable-default
+$radio-tokens: defaults(
+  (
+    --radio-size: 1.25rem,
+    --radio-margin-block: .125rem,
+    --radio-bg: var(--bg-body),
+    --radio-border-color: var(--border-color),
+    --radio-checked-bg: var(--control-checked-bg),
+    --radio-checked-border-color: var(--control-checked-border-color),
+    --radio-disabled-bg: var(--control-disabled-bg),
+    --radio-disabled-opacity: var(--control-disabled-opacity),
+  ),
+  $radio-tokens
+);
+```

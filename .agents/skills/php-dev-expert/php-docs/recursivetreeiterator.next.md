@@ -1,0 +1,44 @@
+# Move para o próximo elemento
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/recursivetreeiterator.next.php
+
+---
+
+# RecursiveTreeIterator::next
+
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
+
+RecursiveTreeIterator::next — Move para o próximo elemento
+
+### Descrição
+
+public function **RecursiveTreeIterator::next**(): [void](language.types.void.md)
+
+Move para o próximo elemento.
+
+**Aviso**
+
+Esta função não
+está documentada; apenas a lista de argumentos está disponível.
+
+### Parâmetros
+
+Esta função não possui parâmetros.
+
+### Valor Retornado
+
+Nenhum valor é retornado.
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

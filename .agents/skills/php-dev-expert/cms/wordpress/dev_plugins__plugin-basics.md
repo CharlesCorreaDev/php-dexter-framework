@@ -1,0 +1,117 @@
+# Plugin Basics – Plugin Handbook | Developer.WordPress.org
+
+> **Fonte / Source:** https://developer.wordpress.org/plugins/plugin-basics/
+
+---
+
+# Plugin Basics
+
+## In this article
+
+Table of Contents
+
+- [Getting Started](#getting-started)
+- [Hooks: Actions and Filters](#hooks-actions-and-filters)
+  - [Basic Hooks](#basic-hooks)
+  - [Adding Hooks](#adding-hooks)
+  - [Removing Hooks](#removing-hooks)
+- [WordPress APIs](#wordpress-apis)
+- [How WordPress Loads Plugins](#how-wordpress-loads-plugins)
+- [Sharing your Plugin](#sharing-your-plugin)
+
+Copy page
+[View as Markdown](dev_plugins__plugin-basics.md)
+
+[Back to top](#wp--skip-link--target)
+
+## [Getting Started](#getting-started)
+
+At its simplest, a WordPress plugin is a PHP file with a WordPress plugin header comment. It’s highly recommended that you create a directory to hold your plugin so that all of your plugin’s files are neatly organized in one place.
+
+To get started creating a new plugin, follow the steps below.
+
+1. Navigate to the WordPress installation’s **wp-content** directory.
+2. Open the **plugins** directory.
+3. Create a new directory and name it after the plugin (e.g. `plugin-name`).
+4. Open the new plugin’s directory.
+5. Create a new PHP file (it’s also good to name this file after your plugin, e.g. `plugin-name.php`).
+
+Here’s what the process looks like on the Unix command line:
+
+```
+wordpress $ cd wp-content
+wp-content $ cd plugins
+plugins $ mkdir plugin-name
+plugins $ cd plugin-name
+plugin-name $ vi plugin-name.php
+```
+
+In the example above, `vi` is the name of the text editor. Use whichever editor is comfortable for you.
+
+Now that you’re editing your new plugin’s PHP file, you’ll need to add a plugin header comment. This is a specially formatted PHP block comment that contains metadata about the plugin, such as its name, author, version, license, etc. The plugin header comment must comply with the [header requirements](dev_plugins__the-basics__header-requirements.md), and at the very least, contain the name of the plugin.
+
+Only onefile in the plugin’s folder should have the header comment — if the plugin has multiple PHP files, only one of those files should have the header comment.
+
+After you save the file, you should be able to see your plugin listed in your WordPress site. Log in to your WordPress site, and click **Plugins** on the left navigation pane of your WordPress Admin. This page displays a listing of all the plugins your WordPress site has. Your new plugin should now be in that list!
+
+## [Hooks: Actions and Filters](#hooks-actions-and-filters)
+
+WordPress hooks allow you to tap into WordPress at specific points to change how WordPress behaves without editing any core files.
+
+There are two types of hooks within WordPress: *actions* and *filters*. Actions allow you to add or change WordPress functionality, while filters allow you to alter content as it is loaded and displayed to the website user.
+
+Hooks are not just for plugin developers; hooks are used extensively to provide default functionality by WordPress core itself. Other hooks are unused place holders that are simply available for you to tap into when you need to alter how WordPress works. This is what makes WordPress so flexible.
+
+### [Basic Hooks](#basic-hooks)
+
+The 3 basic hooks you’ll need when creating a plugin are the [register\_activation\_hook()](https://developer.wordpress.org/reference/functions/register_activation_hook/) , the [register\_deactivation\_hook()](https://developer.wordpress.org/reference/functions/register_deactivation_hook/) , and the [register\_uninstall\_hook()](https://developer.wordpress.org/reference/functions/register_uninstall_hook/) .
+
+The [activation hook](dev_plugins__the-basics__activation-deactivation-hooks.md) is run when you *activate* your plugin. You would use this to provide a function to set up your plugin — for example, creating some default settings in the `options` table.
+
+The [deactivation hook](dev_plugins__the-basics__activation-deactivation-hooks.md) is run when you *deactivate* your plugin. You would use this to provide a function that clears any temporary data stored by your plugin.
+
+These [uninstall methods](dev_plugins__the-basics__uninstall-methods.md) are used to clean up after your plugin is *deleted* using the WordPress Admin. You would use this to delete all data created by your plugin, such as any options that were added to the `options` table.
+
+### [Adding Hooks](#adding-hooks)
+
+You can add your own, custom hooks with [do\_action()](https://developer.wordpress.org/reference/functions/do_action/) , which will enable developers to extend your plugin by passing functions through your hooks.
+
+### [Removing Hooks](#removing-hooks)
+
+You can also use invoke [remove\_action()](https://developer.wordpress.org/reference/functions/remove_action/) to remove a function that was defined earlier. For example, if your plugin is an add-on to another plugin, you can use [remove\_action()](https://developer.wordpress.org/reference/functions/remove_action/) with the same function callback that was added by the previous plugin with [add\_action()](https://developer.wordpress.org/reference/functions/add_action/) . The priority of actions is important in these situations, as [remove\_action()](https://developer.wordpress.org/reference/functions/remove_action/) would need to run after the initial [add\_action()](https://developer.wordpress.org/reference/functions/add_action/) .
+
+You should be careful when removing an action from a hook, as well as when altering priorities, because it can be difficult to see how these changes will affect other interactions with the same hook. We highly recommend testing frequently.
+
+You can learn more about creating hooks and interacting with them in the [Hooks](https://developer.wordpress.org/plugin/hooks/) section of this handbook.
+
+## [WordPress APIs](#wordpress-apis)
+
+Did you know that WordPress provides a number of [Application Programming Interfaces (APIs)](https://make.wordpress.org/core/handbook/core-apis/)? These APIs can greatly simplify the code you need to write in your plugins. You don’t want to reinvent the wheel, especially when so many people have done a lot of the work and testing for you.
+
+The most common one is the [Options API](https://codex.wordpress.org/Options_API), which makes it easy to store data in the database for your plugin. If you’re thinking of using [cURL](https://en.wikipedia.org/wiki/CURL) in your plugin, the [HTTP API](https://codex.wordpress.org/HTTP_API) might be of interest to you.
+
+Since we’re talking about plugins, you’ll want to study the [Plugin API](https://codex.wordpress.org/Plugin_API). It has a variety of functions that will assist you in developing plugins.
+
+## [How WordPress Loads Plugins](#how-wordpress-loads-plugins)
+
+When WordPress loads the list of installed plugins on the Plugins page of the WordPress Admin, it searches through the `plugins` folder (and its sub-folders) to find PHP files with WordPress plugin header comments. If your entire plugin consists of just a single PHP file, like [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly"), the file could be located directly inside the root of the `plugins` folder. But more commonly, plugin files will reside in their own folder, named after the plugin.
+
+## [Sharing your Plugin](#sharing-your-plugin)
+
+Sometimes a plugin you create is just for your site. But many people like to share their plugins with the rest of the WordPress community. Before sharing your plugin, one thing you need to do is [choose a license](https://opensource.org/licenses/category). This lets the user of your plugin know how they are allowed to use your code. To maintain compatibility with WordPress core, it is recommended that you pick a license that works with GNU General Public License (GPLv2+).
+
+First published
+
+September 16, 2014
+
+Last updated
+
+March 11, 2026
+
+[Previous
+What is a Plugin?
+Previous: What is a Plugin?](dev_plugins__intro__what-is-a-plugin.md)
+
+[Next
+Header Requirements
+Next: Header Requirements](dev_plugins__plugin-basics__header-requirements.md)

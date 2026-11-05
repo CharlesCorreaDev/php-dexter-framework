@@ -1,0 +1,314 @@
+{
+  "root_url": "** https://samnan.github.io/MyWebSQL/docs/advanced-usage/",
+  "scope_prefix": "** https://samnan.github.io/MyWebSQL/docs/advanced-usage/",
+  "total_pages": 51,
+  "generated_at": "2026-10-28T18:55:21Z",
+  "pages": [
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/advanced-usage/",
+      "file": "advanced-usage.md",
+      "title": "Advanced usage | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/advanced-usage/implementing-custom-authentication/",
+      "file": "advanced-usage__implementing-custom-authentication.md",
+      "title": "Implementing Custom Authentication | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/advanced-usage/using-session-variables-in-queries/",
+      "file": "advanced-usage__using-session-variables-in-queries.md",
+      "title": "Using session variables in queries | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/connecting-to-database-servers/connecting-to-multiple-servers/",
+      "file": "connecting-to-database-servers__connecting-to-multiple-servers.md",
+      "title": "Defining and selecting multiple servers | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/connecting-to-database-servers/connecting-to-mysql-server/",
+      "file": "connecting-to-database-servers__connecting-to-mysql-server.md",
+      "title": "Connecting to a MySQL database server | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/connecting-to-database-servers/connecting-to-postgresql-server/",
+      "file": "connecting-to-database-servers__connecting-to-postgresql-server.md",
+      "title": "Connecting to PostgreSQL database server | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/connecting-to-database-servers/connecting-to-sqlite-databases/",
+      "file": "connecting-to-database-servers__connecting-to-sqlite-databases.md",
+      "title": "Connecting to SQLite databases | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/connecting-to-database-servers/user-defined-connections/",
+      "file": "connecting-to-database-servers__user-defined-connections.md",
+      "title": "User defined connections | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/customizing-user-interface/confirmation-dialogs/",
+      "file": "customizing-user-interface__confirmation-dialogs.md",
+      "title": "Confirmation dialogs | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/customizing-user-interface/customizing-interface/",
+      "file": "customizing-user-interface__customizing-interface.md",
+      "title": "Customizing the main interface | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/customizing-user-interface/customizing-object-list/",
+      "file": "customizing-user-interface__customizing-object-list.md",
+      "title": "Customizing object list | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/",
+      "file": "database-management.md",
+      "title": "Creating/Editing tables | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/creating-editing-tables/",
+      "file": "database-management__creating-editing-tables.md",
+      "title": "Creating/Editing tables | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/exporting-database-objects/",
+      "file": "database-management__exporting-database-objects.md",
+      "title": "Exporting Database objects | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/importing-batch-files/",
+      "file": "database-management__importing-batch-files.md",
+      "title": "Importing Batch Files | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/managing-table-indexes/",
+      "file": "database-management__managing-table-indexes.md",
+      "title": "Managing Table Indexes | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/managing-triggers/",
+      "file": "database-management__managing-triggers.md",
+      "title": "Managing triggers | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/managing-users-and-privileges/",
+      "file": "database-management__managing-users-and-privileges.md",
+      "title": "Managing Users and Privileges | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/server-side-backups/",
+      "file": "database-management__server-side-backups.md",
+      "title": "Server side Backups | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/working-with-proceduresfunctions/",
+      "file": "database-management__working-with-proceduresfunctions.md",
+      "title": "Working with procedures/functions | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/database-management/working-with-tables/",
+      "file": "database-management__working-with-tables.md",
+      "title": "Working with tables and views | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/",
+      "file": "index.md",
+      "title": "Documentation | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/",
+      "file": "installation.md",
+      "title": "System requirements | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/advanced-configuration/",
+      "file": "installation__advanced-configuration.md",
+      "title": "Advanced configuration | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/basic-configuration/",
+      "file": "installation__basic-configuration.md",
+      "title": "Basic configuration | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/changing-authentication-mechanism/",
+      "file": "installation__changing-authentication-mechanism.md",
+      "title": "Changing authentication mechanism | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/downloading/",
+      "file": "installation__downloading.md",
+      "title": "Downloading the package | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/system-requirements/",
+      "file": "installation__system-requirements.md",
+      "title": "System requirements | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/installation/unpacking-the-archive/",
+      "file": "installation__unpacking-the-archive.md",
+      "title": "Unpacking the archive | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/editing-records/",
+      "file": "interface-basics__editing-records.md",
+      "title": "Editing records | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/performing-multiple-queries/",
+      "file": "interface-basics__performing-multiple-queries.md",
+      "title": "Performing multiple queries | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/performing-queries/",
+      "file": "interface-basics__performing-queries.md",
+      "title": "Performing queries | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/using-application-menus/",
+      "file": "interface-basics__using-application-menus.md",
+      "title": "Using Application Menus | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/using-context-menus/",
+      "file": "interface-basics__using-context-menus.md",
+      "title": "Using context menus | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/using-keyboard-shortcuts/",
+      "file": "interface-basics__using-keyboard-shortcuts.md",
+      "title": "Using Keyboard Shortcuts | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/interface-basics/working-with-the-results/",
+      "file": "interface-basics__working-with-the-results.md",
+      "title": "Working with the results | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/",
+      "file": "miscellaneous.md",
+      "title": "Miscellaneous | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/adding-changing-sql-editors/",
+      "file": "miscellaneous__adding-changing-sql-editors.md",
+      "title": "Adding/changing sql editors | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/browser-related-issues-and-workarounds/",
+      "file": "miscellaneous__browser-related-issues-and-workarounds.md",
+      "title": "Browser related issues and workarounds | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/creating-themes/",
+      "file": "miscellaneous__creating-themes.md",
+      "title": "Creating themes | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/feature-requests-and-bug-reports/",
+      "file": "miscellaneous__feature-requests-and-bug-reports.md",
+      "title": "Feature Requests and Bug reports | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/miscellaneous/version-changes/",
+      "file": "miscellaneous__version-changes.md",
+      "title": "Reviewing changes between versions | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/tools-and-utilities/",
+      "file": "tools-and-utilities.md",
+      "title": "Process manager | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/tools-and-utilities/process-manager/",
+      "file": "tools-and-utilities__process-manager.md",
+      "title": "Process manager | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/tools-and-utilities/repair-tables/",
+      "file": "tools-and-utilities__repair-tables.md",
+      "title": "Repair Tables | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/tools-and-utilities/server-variables/",
+      "file": "tools-and-utilities__server-variables.md",
+      "title": "Server variables | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/troubleshooting-guide/",
+      "file": "troubleshooting-guide.md",
+      "title": "Troubleshooting Guide | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/troubleshooting-guide/blank-screen-login-issues/",
+      "file": "troubleshooting-guide__blank-screen-login-issues.md",
+      "title": "Blank screen / login issues | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/troubleshooting-guide/garbage-output/",
+      "file": "troubleshooting-guide__garbage-output.md",
+      "title": "Garbage output on first run | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/troubleshooting-guide/general-issues/",
+      "file": "troubleshooting-guide__general-issues.md",
+      "title": "General issues | MyWebSQL",
+      "depth": 1
+    },
+    {
+      "url": "** https://samnan.github.io/MyWebSQL/docs/troubleshooting-guide/server-errors/",
+      "file": "troubleshooting-guide__server-errors.md",
+      "title": "Server Errors | MyWebSQL",
+      "depth": 1
+    }
+  ]
+}

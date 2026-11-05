@@ -1,0 +1,68 @@
+{
+  "root_url": "** https://docs.mibew.org/development.html",
+  "scope_prefix": "** https://docs.mibew.org/development.html",
+  "total_pages": 10,
+  "generated_at": "2026-10-28T18:55:20Z",
+  "pages": [
+    {
+      "url": "** https://docs.mibew.org/development.html",
+      "file": "development.md",
+      "title": "Development — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/development/build-system.html",
+      "file": "development__build-system.md",
+      "title": "Build system — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/development/core-architecture.html",
+      "file": "development__core-architecture.md",
+      "title": "Core architecture — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/development/server-side-events.html",
+      "file": "development__server-side-events.md",
+      "title": "Server side events — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/",
+      "file": "index.md",
+      "title": "Documentation — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/installation-and-update.html",
+      "file": "installation-and-update.md",
+      "title": "Installation and update — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/plugins.html",
+      "file": "plugins.md",
+      "title": "Plugins — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/plugins/installation.html",
+      "file": "plugins__installation.md",
+      "title": "Installation — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/plugins/update.html",
+      "file": "plugins__update.md",
+      "title": "Update — Mibew Messenger docs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.mibew.org/theming.html",
+      "file": "theming.md",
+      "title": "Theming — Mibew Messenger docs",
+      "depth": 1
+    }
+  ]
+}

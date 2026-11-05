@@ -1,0 +1,45 @@
+# Define a cor do índice do mapa de cores especificado
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/imagick.setimagecolormapcolor.php
+
+---
+
+# Imagick::setImageColormapColor
+
+(PECL imagick 2, PECL imagick 3)
+
+Imagick::setImageColormapColor — Define a cor do índice do mapa de cores especificado
+
+### Descrição
+
+public function **Imagick::setImageColormapColor**([int](language.types.integer.md) `$index`, [ImagickPixel](class.imagickpixel.md) `$color`): [bool](language.types.boolean.md)
+
+Define a cor do índice do mapa de cores especificado.
+
+### Parâmetros
+
+`index`
+
+`color`
+
+### Valor Retornado
+
+Retorna **`true`** em caso de sucesso.
+
+### Erros/Exceções
+
+Lança uma exceção ImagickException em caso de erro.
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

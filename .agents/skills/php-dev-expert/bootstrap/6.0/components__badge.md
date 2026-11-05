@@ -1,0 +1,216 @@
+# Badges · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/components/badge
+
+---
+
+# Badges
+
+Small components for indicating status and counts, or labelling items.
+
+Layer: `components`
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/components/badge)
+
+On this page…
+
+##### On this page
+
+## Examples
+
+Badges are tiny, static display components used for adding context to other elements. They can be used as part of navigation, buttons, and more to provide a counter or label. Badges scale to match the size of the immediate parent element by using relative font sizing and `em` units.
+
+Badges come in three variants: solid (default), subtle, and outline.
+
+New
+New
+New
+
+HTML
+
+```
+<span class="badge theme-primary">New</span>
+<span class="badge badge-subtle theme-primary">New</span>
+<span class="badge badge-outline theme-primary">New</span>
+```
+
+### Headings
+
+Badges adapt to the `font-size` of the parent element.
+
+# Example heading New
+
+## Example heading New
+
+### Example heading New
+
+#### Example heading New
+
+##### Example heading New
+
+###### Example heading New
+
+HTML
+
+```
+<h1>Example heading <span class="badge">New</span></h1>
+<h2>Example heading <span class="badge">New</span></h2>
+<h3>Example heading <span class="badge">New</span></h3>
+<h4>Example heading <span class="badge">New</span></h4>
+<h5>Example heading <span class="badge">New</span></h5>
+<h6>Example heading <span class="badge">New</span></h6>
+```
+
+### Buttons
+
+Badges can be used as part of links or buttons to provide a counter.
+
+Notifications 4
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary">
+  Notifications <span class="badge theme-danger">4</span>
+</button>
+```
+
+Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
+
+Unless the context is clear (as with the “Notifications” example, where it is understood that the “4” is the number of notifications), consider including additional context with a visually hidden piece of additional text.
+
+### Positioned
+
+Use utilities to modify a `.badge` and position it in the corner of a link or button.
+
+Inbox
+99+
+unread messages
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary position-relative">
+  Inbox
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill border border-bg theme-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+```
+
+You can also replace the `.badge` class with a few more utilities without a count for a more generic indicator.
+
+Profile
+New alerts
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary position-relative">
+  Profile
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-bg rounded-circle">
+    <span class="visually-hidden">New alerts</span>
+  </span>
+</button>
+```
+
+## Variants
+
+Use the contextual `.theme-{color}` classes to apply a semantic theme color to badges.
+
+Primary
+Accent
+Success
+Danger
+Warning
+Info
+Inverse
+Secondary
+
+HTML
+
+```
+<span class="badge theme-primary">Primary</span>
+<span class="badge theme-accent">Accent</span>
+<span class="badge theme-success">Success</span>
+<span class="badge theme-danger">Danger</span>
+<span class="badge theme-warning">Warning</span>
+<span class="badge theme-info">Info</span>
+<span class="badge theme-inverse">Inverse</span>
+<span class="badge theme-secondary">Secondary</span>
+```
+
+Primary
+Accent
+Success
+Danger
+Warning
+Info
+Inverse
+Secondary
+
+HTML
+
+```
+<span class="badge badge-subtle theme-primary">Primary</span>
+<span class="badge badge-subtle theme-accent">Accent</span>
+<span class="badge badge-subtle theme-success">Success</span>
+<span class="badge badge-subtle theme-danger">Danger</span>
+<span class="badge badge-subtle theme-warning">Warning</span>
+<span class="badge badge-subtle theme-info">Info</span>
+<span class="badge badge-subtle theme-inverse">Inverse</span>
+<span class="badge badge-subtle theme-secondary">Secondary</span>
+```
+
+Primary
+Accent
+Success
+Danger
+Warning
+Info
+Inverse
+Secondary
+
+HTML
+
+```
+<span class="badge badge-outline theme-primary">Primary</span>
+<span class="badge badge-outline theme-accent">Accent</span>
+<span class="badge badge-outline theme-success">Success</span>
+<span class="badge badge-outline theme-danger">Danger</span>
+<span class="badge badge-outline theme-warning">Warning</span>
+<span class="badge badge-outline theme-info">Info</span>
+<span class="badge badge-outline theme-inverse">Inverse</span>
+<span class="badge badge-outline theme-secondary">Secondary</span>
+```
+
+Accessibility Tip: Using color to convey meaning
+
+Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies like screen readers. Please ensure the meaning is obvious from the content itself (e.g., the visible text with a [*sufficient* color contrast](getting-started__accessibility.md#color-contrast)) or is included through alternative means, such as additional text hidden with the `.visually-hidden` class.
+
+## CSS
+
+### Variables
+
+Badges use local CSS variables on `.badge` for real-time customization. Values for the CSS variables are generated from Sass maps unique to each component and applied to the aforementioned class.
+
+[scss/\_badge.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_badge.scss)
+
+```
+$badge-tokens: defaults(
+  (
+    --badge-gap: .375em,
+    --badge-padding-x: .625em,
+    --badge-padding-y: .25em,
+    --badge-font-size: clamp(12px, .75em, .75em),
+    --badge-font-weight: var(--font-weight-semibold),
+    --badge-color: inherit,
+    --badge-bg: var(--bg-2),
+    --badge-border-width: var(--border-width),
+    --badge-border-color: transparent,
+    --badge-border-radius: var(--radius-7),
+  ),
+  $badge-tokens
+);
+```

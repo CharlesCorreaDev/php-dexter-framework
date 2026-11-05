@@ -1,0 +1,1934 @@
+{
+  "root_url": "https://codeigniter.com/user_guide/index.html",
+  "scope_prefix": "https://codeigniter.com/user_guide/",
+  "total_pages": 321,
+  "generated_at": "2026-10-28T15:21:54Z",
+  "pages": [
+    {
+      "url": "https://codeigniter.com/user_guide/index.html",
+      "file": "index.md",
+      "title": "CodeIgniter4 User Guide — CodeIgniter 4.7.5 documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/intro/index.html",
+      "file": "intro__index.md",
+      "title": "Welcome to CodeIgniter4 — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/intro/requirements.html",
+      "file": "intro__requirements.md",
+      "title": "Server Requirements — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/intro/credits.html",
+      "file": "intro__credits.md",
+      "title": "Credits — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/intro/psr.html",
+      "file": "intro__psr.md",
+      "title": "PSR Compliance — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/license.html",
+      "file": "license.md",
+      "title": "The MIT License (MIT) — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/index.html",
+      "file": "installation__index.md",
+      "title": "Installation — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/installing_composer.html",
+      "file": "installation__installing_composer.md",
+      "title": "Composer Installation — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/installing_manual.html",
+      "file": "installation__installing_manual.md",
+      "title": "Manual Installation — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/running.html",
+      "file": "installation__running.md",
+      "title": "Running Your App — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/worker_mode.html",
+      "file": "installation__worker_mode.md",
+      "title": "Worker Mode — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/troubleshooting.html",
+      "file": "installation__troubleshooting.md",
+      "title": "Troubleshooting — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/deployment.html",
+      "file": "installation__deployment.md",
+      "title": "Deployment — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/index.html",
+      "file": "changelogs__index.md",
+      "title": "Change Logs — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrading.html",
+      "file": "installation__upgrading.md",
+      "title": "Upgrading From a Previous Version — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/repositories.html",
+      "file": "installation__repositories.md",
+      "title": "CodeIgniter Repositories — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/index.html",
+      "file": "guides__index.md",
+      "title": "Guides — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/first-app/index.html",
+      "file": "guides__first-app__index.md",
+      "title": "Build Your First Application — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/api/index.html",
+      "file": "guides__api__index.md",
+      "title": "Getting Started with REST APIs — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/index.html",
+      "file": "concepts__index.md",
+      "title": "CodeIgniter4 Overview — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/structure.html",
+      "file": "concepts__structure.md",
+      "title": "Application Structure — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/mvc.html",
+      "file": "concepts__mvc.md",
+      "title": "Models, Views, and Controllers — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/autoloader.html",
+      "file": "concepts__autoloader.md",
+      "title": "Autoloading Files — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/services.html",
+      "file": "concepts__services.md",
+      "title": "Services — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/factories.html",
+      "file": "concepts__factories.md",
+      "title": "Factories — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/http.html",
+      "file": "concepts__http.md",
+      "title": "Working with HTTP Requests — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/security.html",
+      "file": "concepts__security.md",
+      "title": "Security Guidelines — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/concepts/goals.html",
+      "file": "concepts__goals.md",
+      "title": "Design and Architectural Goals — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/index.html",
+      "file": "general__index.md",
+      "title": "General Topics — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/configuration.html",
+      "file": "general__configuration.md",
+      "title": "Configuration — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/urls.html",
+      "file": "general__urls.md",
+      "title": "CodeIgniter URLs — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/helpers.html",
+      "file": "general__helpers.md",
+      "title": "Helper Functions — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/common_functions.html",
+      "file": "general__common_functions.md",
+      "title": "Global Functions and Constants — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/logging.html",
+      "file": "general__logging.md",
+      "title": "Logging Information — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/errors.html",
+      "file": "general__errors.md",
+      "title": "Error Handling — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/caching.html",
+      "file": "general__caching.md",
+      "title": "Web Page Caching — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/ajax.html",
+      "file": "general__ajax.md",
+      "title": "AJAX Requests — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/modules.html",
+      "file": "general__modules.md",
+      "title": "Code Modules — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/managing_apps.html",
+      "file": "general__managing_apps.md",
+      "title": "Managing your Applications — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/general/environments.html",
+      "file": "general__environments.md",
+      "title": "Handling Multiple Environments — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/index.html",
+      "file": "incoming__index.md",
+      "title": "Controllers and Routing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/routing.html",
+      "file": "incoming__routing.md",
+      "title": "URI Routing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/controllers.html",
+      "file": "incoming__controllers.md",
+      "title": "Controllers — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/filters.html",
+      "file": "incoming__filters.md",
+      "title": "Controller Filters — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/controller_attributes.html",
+      "file": "incoming__controller_attributes.md",
+      "title": "Controller Attributes — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/auto_routing_improved.html",
+      "file": "incoming__auto_routing_improved.md",
+      "title": "Auto Routing (Improved) — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/message.html",
+      "file": "incoming__message.md",
+      "title": "HTTP Messages — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/request.html",
+      "file": "incoming__request.md",
+      "title": "Request Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/incomingrequest.html",
+      "file": "incoming__incomingrequest.md",
+      "title": "IncomingRequest Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/content_negotiation.html",
+      "file": "incoming__content_negotiation.md",
+      "title": "Content Negotiation — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/methodspoofing.html",
+      "file": "incoming__methodspoofing.md",
+      "title": "HTTP Method Spoofing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/incoming/restful.html",
+      "file": "incoming__restful.md",
+      "title": "RESTful Resource Handling — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/index.html",
+      "file": "outgoing__index.md",
+      "title": "Building Responses — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/views.html",
+      "file": "outgoing__views.md",
+      "title": "Views — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/view_renderer.html",
+      "file": "outgoing__view_renderer.md",
+      "title": "View Renderer — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/view_layouts.html",
+      "file": "outgoing__view_layouts.md",
+      "title": "View Layouts — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/view_cells.html",
+      "file": "outgoing__view_cells.md",
+      "title": "View Cells — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/view_parser.html",
+      "file": "outgoing__view_parser.md",
+      "title": "View Parser — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/view_decorators.html",
+      "file": "outgoing__view_decorators.md",
+      "title": "View Decorators — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/table.html",
+      "file": "outgoing__table.md",
+      "title": "HTML Table Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/response.html",
+      "file": "outgoing__response.md",
+      "title": "HTTP Responses — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/api_responses.html",
+      "file": "outgoing__api_responses.md",
+      "title": "API Responses — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/api_transformers.html",
+      "file": "outgoing__api_transformers.md",
+      "title": "API Resources — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/csp.html",
+      "file": "outgoing__csp.md",
+      "title": "Content Security Policy — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/localization.html",
+      "file": "outgoing__localization.md",
+      "title": "Localization — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/outgoing/alternative_php.html",
+      "file": "outgoing__alternative_php.md",
+      "title": "Alternate PHP Syntax for View Files — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/index.html",
+      "file": "database__index.md",
+      "title": "Working with Databases — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/examples.html",
+      "file": "database__examples.md",
+      "title": "Quick Start: Usage Examples — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/configuration.html",
+      "file": "database__configuration.md",
+      "title": "Database Configuration — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/connecting.html",
+      "file": "database__connecting.md",
+      "title": "Connecting to your Database — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/queries.html",
+      "file": "database__queries.md",
+      "title": "Queries — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/results.html",
+      "file": "database__results.md",
+      "title": "Generating Query Results — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/helpers.html",
+      "file": "database__helpers.md",
+      "title": "Query Helper Methods — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/query_builder.html",
+      "file": "database__query_builder.md",
+      "title": "Query Builder Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/transactions.html",
+      "file": "database__transactions.md",
+      "title": "Transactions — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/metadata.html",
+      "file": "database__metadata.md",
+      "title": "Getting Metadata — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/call_function.html",
+      "file": "database__call_function.md",
+      "title": "Custom Function Calls — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/events.html",
+      "file": "database__events.md",
+      "title": "Database Events — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/database/utilities.html",
+      "file": "database__utilities.md",
+      "title": "Database Utilities — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/models/index.html",
+      "file": "models__index.md",
+      "title": "Modeling Data — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/models/model.html",
+      "file": "models__model.md",
+      "title": "Using CodeIgniter’s Model — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/models/entities.html",
+      "file": "models__entities.md",
+      "title": "Using Entity Classes — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/dbmgmt/index.html",
+      "file": "dbmgmt__index.md",
+      "title": "Managing Databases — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/dbmgmt/forge.html",
+      "file": "dbmgmt__forge.md",
+      "title": "Database Forge Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/dbmgmt/migration.html",
+      "file": "dbmgmt__migration.md",
+      "title": "Database Migrations — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/dbmgmt/seeds.html",
+      "file": "dbmgmt__seeds.md",
+      "title": "Database Seeding — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/dbmgmt/db_commands.html",
+      "file": "dbmgmt__db_commands.md",
+      "title": "Database Commands — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/index.html",
+      "file": "libraries__index.md",
+      "title": "Library Reference — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/caching.html",
+      "file": "libraries__caching.md",
+      "title": "Caching Driver — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/cookies.html",
+      "file": "libraries__cookies.md",
+      "title": "Cookies — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/cors.html",
+      "file": "libraries__cors.md",
+      "title": "Cross-Origin Resource Sharing (CORS) — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/curlrequest.html",
+      "file": "libraries__curlrequest.md",
+      "title": "CURLRequest Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/email.html",
+      "file": "libraries__email.md",
+      "title": "Email Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/encryption.html",
+      "file": "libraries__encryption.md",
+      "title": "Encryption Service — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/files.html",
+      "file": "libraries__files.md",
+      "title": "Working with Files — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/file_collections.html",
+      "file": "libraries__file_collections.md",
+      "title": "File Collections — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/honeypot.html",
+      "file": "libraries__honeypot.md",
+      "title": "Honeypot Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/images.html",
+      "file": "libraries__images.md",
+      "title": "Image Manipulation Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/pagination.html",
+      "file": "libraries__pagination.md",
+      "title": "Pagination — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/publisher.html",
+      "file": "libraries__publisher.md",
+      "title": "Publisher — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/security.html",
+      "file": "libraries__security.md",
+      "title": "Security — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/sessions.html",
+      "file": "libraries__sessions.md",
+      "title": "Session Library — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/throttler.html",
+      "file": "libraries__throttler.md",
+      "title": "Throttler — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/time.html",
+      "file": "libraries__time.md",
+      "title": "Times and Dates — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/typography.html",
+      "file": "libraries__typography.md",
+      "title": "Typography — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/uploaded_files.html",
+      "file": "libraries__uploaded_files.md",
+      "title": "Working with Uploaded Files — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/uri.html",
+      "file": "libraries__uri.md",
+      "title": "Working with URIs — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/user_agent.html",
+      "file": "libraries__user_agent.md",
+      "title": "User Agent Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/validation.html",
+      "file": "libraries__validation.md",
+      "title": "Validation — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/index.html",
+      "file": "helpers__index.md",
+      "title": "Helpers — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/array_helper.html",
+      "file": "helpers__array_helper.md",
+      "title": "Array Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/cookie_helper.html",
+      "file": "helpers__cookie_helper.md",
+      "title": "Cookie Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/date_helper.html",
+      "file": "helpers__date_helper.md",
+      "title": "Date Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/filesystem_helper.html",
+      "file": "helpers__filesystem_helper.md",
+      "title": "Filesystem Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/form_helper.html",
+      "file": "helpers__form_helper.md",
+      "title": "Form Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/html_helper.html",
+      "file": "helpers__html_helper.md",
+      "title": "HTML Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/inflector_helper.html",
+      "file": "helpers__inflector_helper.md",
+      "title": "Inflector Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/number_helper.html",
+      "file": "helpers__number_helper.md",
+      "title": "Number Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/security_helper.html",
+      "file": "helpers__security_helper.md",
+      "title": "Security Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/test_helper.html",
+      "file": "helpers__test_helper.md",
+      "title": "Test Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/text_helper.html",
+      "file": "helpers__text_helper.md",
+      "title": "Text Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/url_helper.html",
+      "file": "helpers__url_helper.md",
+      "title": "URL Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/helpers/xml_helper.html",
+      "file": "helpers__xml_helper.md",
+      "title": "XML Helper — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/index.html",
+      "file": "testing__index.md",
+      "title": "Testing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/overview.html",
+      "file": "testing__overview.md",
+      "title": "Testing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/database.html",
+      "file": "testing__database.md",
+      "title": "Testing Your Database — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/fabricator.html",
+      "file": "testing__fabricator.md",
+      "title": "Generating Test Data — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/controllers.html",
+      "file": "testing__controllers.md",
+      "title": "Testing Controllers — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/feature.html",
+      "file": "testing__feature.md",
+      "title": "HTTP Feature Testing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/response.html",
+      "file": "testing__response.md",
+      "title": "Testing Responses — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/cli.html",
+      "file": "testing__cli.md",
+      "title": "Testing CLI Commands — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/mocking.html",
+      "file": "testing__mocking.md",
+      "title": "Mocking System Classes — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/benchmark.html",
+      "file": "testing__benchmark.md",
+      "title": "Benchmarking — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/debugging.html",
+      "file": "testing__debugging.md",
+      "title": "Debugging Your Application — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/testing/session_testing.html",
+      "file": "testing__session_testing.md",
+      "title": "Session Testing — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/index.html",
+      "file": "cli__index.md",
+      "title": "Command Line Usage — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_overview.html",
+      "file": "cli__cli_overview.md",
+      "title": "CLI Overview — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_controllers.html",
+      "file": "cli__cli_controllers.md",
+      "title": "Running Controllers via CLI — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/spark_commands.html",
+      "file": "cli__spark_commands.md",
+      "title": "Spark Commands — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_commands.html",
+      "file": "cli__cli_commands.md",
+      "title": "Creating Spark Commands — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_generators.html",
+      "file": "cli__cli_generators.md",
+      "title": "CLI Generators — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_library.html",
+      "file": "cli__cli_library.md",
+      "title": "CLI Library — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_signals.html",
+      "file": "cli__cli_signals.md",
+      "title": "CLI Signals — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/cli/cli_request.html",
+      "file": "cli__cli_request.md",
+      "title": "CLIRequest Class — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/index.html",
+      "file": "extending__index.md",
+      "title": "Extending CodeIgniter — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/core_classes.html",
+      "file": "extending__core_classes.md",
+      "title": "Creating Core System Classes — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/common.html",
+      "file": "extending__common.md",
+      "title": "Replacing Common Functions — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/events.html",
+      "file": "extending__events.md",
+      "title": "Events — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/basecontroller.html",
+      "file": "extending__basecontroller.md",
+      "title": "Extending the Controller — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/authentication.html",
+      "file": "extending__authentication.md",
+      "title": "Authentication — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/composer_packages.html",
+      "file": "extending__composer_packages.md",
+      "title": "Creating Composer Packages — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/extending/contributing.html",
+      "file": "extending__contributing.md",
+      "title": "Contributing to CodeIgniter — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/libraries/official_packages.html",
+      "file": "libraries__official_packages.md",
+      "title": "Official Packages — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/first-app/static_pages.html",
+      "file": "guides__first-app__static_pages.md",
+      "title": "Static Pages — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/first-app/news_section.html",
+      "file": "guides__first-app__news_section.md",
+      "title": "News Section — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/first-app/create_news_items.html",
+      "file": "guides__first-app__create_news_items.md",
+      "title": "Create News Items — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/first-app/conclusion.html",
+      "file": "guides__first-app__conclusion.md",
+      "title": "Conclusion — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/api/first-endpoint.html",
+      "file": "guides__api__first-endpoint.md",
+      "title": "Auto Routing & Your First Endpoint — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/api/database-setup.html",
+      "file": "guides__api__database-setup.md",
+      "title": "Creating the Database and Model — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/api/controller.html",
+      "file": "guides__api__controller.md",
+      "title": "Building a RESTful Controller — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/guides/api/conclusion.html",
+      "file": "guides__api__conclusion.md",
+      "title": "Conclusion — CodeIgniter 4.7.5 documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.5.html",
+      "file": "changelogs__v4.7.5.md",
+      "title": "Version 4.7.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.4.html",
+      "file": "changelogs__v4.7.4.md",
+      "title": "Version 4.7.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.3.html",
+      "file": "changelogs__v4.7.3.md",
+      "title": "Version 4.7.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.2.html",
+      "file": "changelogs__v4.7.2.md",
+      "title": "Version 4.7.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.1.html",
+      "file": "changelogs__v4.7.1.md",
+      "title": "Version 4.7.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.7.0.html",
+      "file": "changelogs__v4.7.0.md",
+      "title": "Version 4.7.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.5.html",
+      "file": "changelogs__v4.6.5.md",
+      "title": "Version 4.6.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.4.html",
+      "file": "changelogs__v4.6.4.md",
+      "title": "Version 4.6.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.3.html",
+      "file": "changelogs__v4.6.3.md",
+      "title": "Version 4.6.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.2.html",
+      "file": "changelogs__v4.6.2.md",
+      "title": "Version 4.6.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.1.html",
+      "file": "changelogs__v4.6.1.md",
+      "title": "Version 4.6.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.6.0.html",
+      "file": "changelogs__v4.6.0.md",
+      "title": "Version 4.6.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.8.html",
+      "file": "changelogs__v4.5.8.md",
+      "title": "Version 4.5.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.7.html",
+      "file": "changelogs__v4.5.7.md",
+      "title": "Version 4.5.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.6.html",
+      "file": "changelogs__v4.5.6.md",
+      "title": "Version 4.5.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.5.html",
+      "file": "changelogs__v4.5.5.md",
+      "title": "Version 4.5.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.4.html",
+      "file": "changelogs__v4.5.4.md",
+      "title": "Version 4.5.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.3.html",
+      "file": "changelogs__v4.5.3.md",
+      "title": "Version 4.5.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.2.html",
+      "file": "changelogs__v4.5.2.md",
+      "title": "Version 4.5.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.1.html",
+      "file": "changelogs__v4.5.1.md",
+      "title": "Version 4.5.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.5.0.html",
+      "file": "changelogs__v4.5.0.md",
+      "title": "Version 4.5.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.8.html",
+      "file": "changelogs__v4.4.8.md",
+      "title": "Version 4.4.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.7.html",
+      "file": "changelogs__v4.4.7.md",
+      "title": "Version 4.4.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.6.html",
+      "file": "changelogs__v4.4.6.md",
+      "title": "Version 4.4.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.5.html",
+      "file": "changelogs__v4.4.5.md",
+      "title": "Version 4.4.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.4.html",
+      "file": "changelogs__v4.4.4.md",
+      "title": "Version 4.4.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.3.html",
+      "file": "changelogs__v4.4.3.md",
+      "title": "Version 4.4.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.2.html",
+      "file": "changelogs__v4.4.2.md",
+      "title": "Version 4.4.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.1.html",
+      "file": "changelogs__v4.4.1.md",
+      "title": "Version 4.4.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.4.0.html",
+      "file": "changelogs__v4.4.0.md",
+      "title": "Version 4.4.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.8.html",
+      "file": "changelogs__v4.3.8.md",
+      "title": "Version 4.3.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.7.html",
+      "file": "changelogs__v4.3.7.md",
+      "title": "Version 4.3.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.6.html",
+      "file": "changelogs__v4.3.6.md",
+      "title": "Version 4.3.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.5.html",
+      "file": "changelogs__v4.3.5.md",
+      "title": "Version 4.3.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.4.html",
+      "file": "changelogs__v4.3.4.md",
+      "title": "Version 4.3.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.3.html",
+      "file": "changelogs__v4.3.3.md",
+      "title": "Version 4.3.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.2.html",
+      "file": "changelogs__v4.3.2.md",
+      "title": "Version 4.3.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.1.html",
+      "file": "changelogs__v4.3.1.md",
+      "title": "Version 4.3.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.3.0.html",
+      "file": "changelogs__v4.3.0.md",
+      "title": "Version 4.3.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.12.html",
+      "file": "changelogs__v4.2.12.md",
+      "title": "Version 4.2.12 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.11.html",
+      "file": "changelogs__v4.2.11.md",
+      "title": "Version 4.2.11 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.10.html",
+      "file": "changelogs__v4.2.10.md",
+      "title": "Version 4.2.10 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.9.html",
+      "file": "changelogs__v4.2.9.md",
+      "title": "Version 4.2.9 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.8.html",
+      "file": "changelogs__v4.2.8.md",
+      "title": "Version 4.2.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.7.html",
+      "file": "changelogs__v4.2.7.md",
+      "title": "Version 4.2.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.6.html",
+      "file": "changelogs__v4.2.6.md",
+      "title": "Version 4.2.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.5.html",
+      "file": "changelogs__v4.2.5.md",
+      "title": "Version 4.2.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.4.html",
+      "file": "changelogs__v4.2.4.md",
+      "title": "Version 4.2.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.3.html",
+      "file": "changelogs__v4.2.3.md",
+      "title": "Version 4.2.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.2.html",
+      "file": "changelogs__v4.2.2.md",
+      "title": "Version 4.2.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.1.html",
+      "file": "changelogs__v4.2.1.md",
+      "title": "Version 4.2.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.2.0.html",
+      "file": "changelogs__v4.2.0.md",
+      "title": "Version 4.2.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.9.html",
+      "file": "changelogs__v4.1.9.md",
+      "title": "Version 4.1.9 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.8.html",
+      "file": "changelogs__v4.1.8.md",
+      "title": "Version 4.1.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.7.html",
+      "file": "changelogs__v4.1.7.md",
+      "title": "Version 4.1.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.6.html",
+      "file": "changelogs__v4.1.6.md",
+      "title": "Version 4.1.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.5.html",
+      "file": "changelogs__v4.1.5.md",
+      "title": "Version 4.1.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.4.html",
+      "file": "changelogs__v4.1.4.md",
+      "title": "Version 4.1.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.3.html",
+      "file": "changelogs__v4.1.3.md",
+      "title": "Version 4.1.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.2.html",
+      "file": "changelogs__v4.1.2.md",
+      "title": "Version 4.1.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.1.html",
+      "file": "changelogs__v4.1.1.md",
+      "title": "Version 4.1.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.1.0.html",
+      "file": "changelogs__v4.1.0.md",
+      "title": "Version 4.1.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.5.html",
+      "file": "changelogs__v4.0.5.md",
+      "title": "Version 4.0.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.4.html",
+      "file": "changelogs__v4.0.4.md",
+      "title": "Version 4.0.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.3.html",
+      "file": "changelogs__v4.0.3.md",
+      "title": "Version 4.0.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0.html",
+      "file": "changelogs__v4.0.0.md",
+      "title": "Version 4.0.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-rc.4.html",
+      "file": "changelogs__v4.0.0-rc.4.md",
+      "title": "Version 4.0.0-rc.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-rc.3.html",
+      "file": "changelogs__v4.0.0-rc.3.md",
+      "title": "Version 4.0.0-rc.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-rc.2.html",
+      "file": "changelogs__v4.0.0-rc.2.md",
+      "title": "Version 4.0.0-rc.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-rc.1.html",
+      "file": "changelogs__v4.0.0-rc.1.md",
+      "title": "Version 4.0.0-rc.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-beta.4.html",
+      "file": "changelogs__v4.0.0-beta.4.md",
+      "title": "Version 4.0.0-beta.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-beta.3.html",
+      "file": "changelogs__v4.0.0-beta.3.md",
+      "title": "Version 4.0.0-beta.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-beta.2.html",
+      "file": "changelogs__v4.0.0-beta.2.md",
+      "title": "Version 4.0.0-beta.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-beta.1.html",
+      "file": "changelogs__v4.0.0-beta.1.md",
+      "title": "Version 4.0.0-beta.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-alpha.5.html",
+      "file": "changelogs__v4.0.0-alpha.5.md",
+      "title": "Version 4.0.0-alpha.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-alpha.4.html",
+      "file": "changelogs__v4.0.0-alpha.4.md",
+      "title": "Version 4.0.0-alpha.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-alpha.3.html",
+      "file": "changelogs__v4.0.0-alpha.3.md",
+      "title": "Version 4.0.0-alpha.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-alpha.2.html",
+      "file": "changelogs__v4.0.0-alpha.2.md",
+      "title": "Version 4.0.0-alpha.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/changelogs/v4.0.0-alpha.1.html",
+      "file": "changelogs__v4.0.0-alpha.1.md",
+      "title": "Version 4.0.0-alpha.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/backward_compatibility_notes.html",
+      "file": "installation__backward_compatibility_notes.md",
+      "title": "Backward Compatibility Notes — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_475.html",
+      "file": "installation__upgrade_475.md",
+      "title": "Upgrading from 4.7.4 to 4.7.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_474.html",
+      "file": "installation__upgrade_474.md",
+      "title": "Upgrading from 4.7.3 to 4.7.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_473.html",
+      "file": "installation__upgrade_473.md",
+      "title": "Upgrading from 4.7.2 to 4.7.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_472.html",
+      "file": "installation__upgrade_472.md",
+      "title": "Upgrading from 4.7.1 to 4.7.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_471.html",
+      "file": "installation__upgrade_471.md",
+      "title": "Upgrading from 4.7.0 to 4.7.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_470.html",
+      "file": "installation__upgrade_470.md",
+      "title": "Upgrading from 4.6.x to 4.7.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_465.html",
+      "file": "installation__upgrade_465.md",
+      "title": "Upgrading from 4.6.4 to 4.6.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_464.html",
+      "file": "installation__upgrade_464.md",
+      "title": "Upgrading from 4.6.3 to 4.6.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_463.html",
+      "file": "installation__upgrade_463.md",
+      "title": "Upgrading from 4.6.2 to 4.6.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_462.html",
+      "file": "installation__upgrade_462.md",
+      "title": "Upgrading from 4.6.1 to 4.6.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_461.html",
+      "file": "installation__upgrade_461.md",
+      "title": "Upgrading from 4.6.0 to 4.6.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_460.html",
+      "file": "installation__upgrade_460.md",
+      "title": "Upgrading from 4.5.8 to 4.6.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_458.html",
+      "file": "installation__upgrade_458.md",
+      "title": "Upgrading from 4.5.7 to 4.5.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_457.html",
+      "file": "installation__upgrade_457.md",
+      "title": "Upgrading from 4.5.6 to 4.5.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_456.html",
+      "file": "installation__upgrade_456.md",
+      "title": "Upgrading from 4.5.5 to 4.5.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_455.html",
+      "file": "installation__upgrade_455.md",
+      "title": "Upgrading from 4.5.4 to 4.5.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_454.html",
+      "file": "installation__upgrade_454.md",
+      "title": "Upgrading from 4.5.3 to 4.5.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_453.html",
+      "file": "installation__upgrade_453.md",
+      "title": "Upgrading from 4.5.2 to 4.5.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_452.html",
+      "file": "installation__upgrade_452.md",
+      "title": "Upgrading from 4.5.1 to 4.5.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_451.html",
+      "file": "installation__upgrade_451.md",
+      "title": "Upgrading from 4.5.0 to 4.5.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_450.html",
+      "file": "installation__upgrade_450.md",
+      "title": "Upgrading from 4.4.8 to 4.5.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_448.html",
+      "file": "installation__upgrade_448.md",
+      "title": "Upgrading from 4.4.7 to 4.4.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_447.html",
+      "file": "installation__upgrade_447.md",
+      "title": "Upgrading from 4.4.6 to 4.4.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_446.html",
+      "file": "installation__upgrade_446.md",
+      "title": "Upgrading from 4.4.5 to 4.4.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_445.html",
+      "file": "installation__upgrade_445.md",
+      "title": "Upgrading from 4.4.4 to 4.4.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_444.html",
+      "file": "installation__upgrade_444.md",
+      "title": "Upgrading from 4.4.3 to 4.4.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_443.html",
+      "file": "installation__upgrade_443.md",
+      "title": "Upgrading from 4.4.2 to 4.4.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_442.html",
+      "file": "installation__upgrade_442.md",
+      "title": "Upgrading from 4.4.1 to 4.4.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_441.html",
+      "file": "installation__upgrade_441.md",
+      "title": "Upgrading from 4.4.0 to 4.4.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_440.html",
+      "file": "installation__upgrade_440.md",
+      "title": "Upgrading from 4.3.8 to 4.4.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_438.html",
+      "file": "installation__upgrade_438.md",
+      "title": "Upgrading from 4.3.7 to 4.3.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_437.html",
+      "file": "installation__upgrade_437.md",
+      "title": "Upgrading from 4.3.6 to 4.3.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_436.html",
+      "file": "installation__upgrade_436.md",
+      "title": "Upgrading from 4.3.5 to 4.3.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_435.html",
+      "file": "installation__upgrade_435.md",
+      "title": "Upgrading from 4.3.4 to 4.3.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_434.html",
+      "file": "installation__upgrade_434.md",
+      "title": "Upgrading from 4.3.3 to 4.3.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_433.html",
+      "file": "installation__upgrade_433.md",
+      "title": "Upgrading from 4.3.2 to 4.3.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_432.html",
+      "file": "installation__upgrade_432.md",
+      "title": "Upgrading from 4.3.1 to 4.3.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_431.html",
+      "file": "installation__upgrade_431.md",
+      "title": "Upgrading from 4.3.0 to 4.3.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_430.html",
+      "file": "installation__upgrade_430.md",
+      "title": "Upgrading from 4.2.12 to 4.3.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_4212.html",
+      "file": "installation__upgrade_4212.md",
+      "title": "Upgrading from 4.2.11 to 4.2.12 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_4211.html",
+      "file": "installation__upgrade_4211.md",
+      "title": "Upgrading from 4.2.10 to 4.2.11 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_4210.html",
+      "file": "installation__upgrade_4210.md",
+      "title": "Upgrading from 4.2.9 to 4.2.10 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_428.html",
+      "file": "installation__upgrade_428.md",
+      "title": "Upgrading from 4.2.7 to 4.2.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_427.html",
+      "file": "installation__upgrade_427.md",
+      "title": "Upgrading from 4.2.6 to 4.2.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_426.html",
+      "file": "installation__upgrade_426.md",
+      "title": "Upgrading from 4.2.5 to 4.2.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_425.html",
+      "file": "installation__upgrade_425.md",
+      "title": "Upgrading from 4.2.3 to 4.2.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_423.html",
+      "file": "installation__upgrade_423.md",
+      "title": "Upgrading from 4.2.2 to 4.2.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_422.html",
+      "file": "installation__upgrade_422.md",
+      "title": "Upgrading from 4.2.1 to 4.2.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_421.html",
+      "file": "installation__upgrade_421.md",
+      "title": "Upgrading from 4.2.0 to 4.2.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_420.html",
+      "file": "installation__upgrade_420.md",
+      "title": "Upgrading from 4.1.9 to 4.2.0 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_418.html",
+      "file": "installation__upgrade_418.md",
+      "title": "Upgrading from 4.1.7 to 4.1.8 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_417.html",
+      "file": "installation__upgrade_417.md",
+      "title": "Upgrading from 4.1.6 to 4.1.7 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_416.html",
+      "file": "installation__upgrade_416.md",
+      "title": "Upgrading from 4.1.5 to 4.1.6 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_415.html",
+      "file": "installation__upgrade_415.md",
+      "title": "Upgrading from 4.1.4 to 4.1.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_414.html",
+      "file": "installation__upgrade_414.md",
+      "title": "Upgrading from 4.1.3 to 4.1.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_413.html",
+      "file": "installation__upgrade_413.md",
+      "title": "Upgrading from 4.1.2 to 4.1.3 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_412.html",
+      "file": "installation__upgrade_412.md",
+      "title": "Upgrading from 4.1.1 to 4.1.2 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_410.html",
+      "file": "installation__upgrade_410.md",
+      "title": "Upgrading from 4.0.5 to 4.1.0 or 4.1.1 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_405.html",
+      "file": "installation__upgrade_405.md",
+      "title": "Upgrading from 4.0.4 to 4.0.5 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_404.html",
+      "file": "installation__upgrade_404.md",
+      "title": "Upgrading from 4.0.x to 4.0.4 — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_4xx.html",
+      "file": "installation__upgrade_4xx.md",
+      "title": "Upgrading from 3.x to 4.x — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_models.html",
+      "file": "installation__upgrade_models.md",
+      "title": "Upgrade Models — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_views.html",
+      "file": "installation__upgrade_views.md",
+      "title": "Upgrade Views — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_controllers.html",
+      "file": "installation__upgrade_controllers.md",
+      "title": "Upgrade Controllers — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_configuration.html",
+      "file": "installation__upgrade_configuration.md",
+      "title": "Upgrade Configuration — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_database.html",
+      "file": "installation__upgrade_database.md",
+      "title": "Upgrade Database — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_emails.html",
+      "file": "installation__upgrade_emails.md",
+      "title": "Upgrade Emails — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_encryption.html",
+      "file": "installation__upgrade_encryption.md",
+      "title": "Upgrade Encryption — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_file_upload.html",
+      "file": "installation__upgrade_file_upload.md",
+      "title": "Upgrade Working with Uploaded Files — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_html_tables.html",
+      "file": "installation__upgrade_html_tables.md",
+      "title": "Upgrade HTML Tables — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_images.html",
+      "file": "installation__upgrade_images.md",
+      "title": "Upgrade Image Manipulation Class — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_localization.html",
+      "file": "installation__upgrade_localization.md",
+      "title": "Upgrade Localization — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_migrations.html",
+      "file": "installation__upgrade_migrations.md",
+      "title": "Upgrade Migrations — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_responses.html",
+      "file": "installation__upgrade_responses.md",
+      "title": "Upgrade Output Class — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_pagination.html",
+      "file": "installation__upgrade_pagination.md",
+      "title": "Upgrade Pagination — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_routing.html",
+      "file": "installation__upgrade_routing.md",
+      "title": "Upgrade Routing — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_security.html",
+      "file": "installation__upgrade_security.md",
+      "title": "Upgrade Security — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_sessions.html",
+      "file": "installation__upgrade_sessions.md",
+      "title": "Upgrade Sessions — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_validations.html",
+      "file": "installation__upgrade_validations.md",
+      "title": "Upgrade Validations — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://codeigniter.com/user_guide/installation/upgrade_view_parser.html",
+      "file": "installation__upgrade_view_parser.md",
+      "title": "Upgrade View Parser — CodeIgniter 4.7.5 documentation",
+      "depth": 2
+    }
+  ]
+}

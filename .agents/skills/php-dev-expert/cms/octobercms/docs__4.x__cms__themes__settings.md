@@ -1,0 +1,233 @@
+# Theme Settings - October CMS - 4.x
+
+> **Fonte / Source:** https://docs.octobercms.com/4.x/cms/themes/settings.html
+
+---
+
+# Theme Settings
+
+Learn how to customize the theme management features.
+
+- [Theme Information File](docs__4.x__cms__themes__settings.md#theme-information-file)
+- [Version File](docs__4.x__cms__themes__settings.md#version-file)
+- [Theme Preview Image](docs__4.x__cms__themes__settings.md#theme-preview-image)
+- [Theme Dependencies](docs__4.x__cms__themes__settings.md#theme-dependencies)
+- [Theme Customization](docs__4.x__cms__themes__settings.md#theme-customization)
+- [Translating Theme Data](#translating-theme-data)
+- [Using Theme Data in CSS](#using-theme-data-in-css)
+- [Using Theme Data with Combined Assets](#using-theme-data-with-combined-assets)
+
+[More...](#)
+
+The theme directory could include the **theme.yaml**, **version.yaml** and **assets/images/theme-preview.png** files. These files are optional for the local development but required for themes published on the October CMS Marketplace.
+
+## [#](#theme-information-file) Theme Information File
+
+The theme information file **theme.yaml** contains the theme description, the author name, URL of the author's website and some other information. The file should be placed to the theme root directory:
+
+```
+├── themes
+|   └── website
+|       ├── pages
+|       ├── layouts
+|       ├── partials
+|       ├── content
+|       ├── assets
+|       └── theme.yaml  ← Information File
+```
+
+The following fields are supported in the **theme.yaml** file:
+
+| Field | Description |
+| --- | --- |
+| **name** | specifies the theme name, required. |
+| **author** | specifies the author name, required. |
+| **homepage** | specifies the author website URL, required. |
+| **description** | the theme description, required. |
+| **previewImage** | custom preview image, path relative to the theme directory, eg: `assets/images/preview.png`, optional. |
+| **code** | the theme code, optional. The value is used on the October CMS marketplace for initializing the theme code value. |
+| **authorCode** | the theme author code, optional. The value is used on the October CMS marketplace for defining the theme owner. |
+| **form** | a configuration array or reference to a form field definition file, used for theme customization, optional. |
+| **require** | an array of plugin names used for theme dependencies, optional. |
+
+Example of the theme information file:
+
+```
+name: "October CMS Demo"
+description: "Demonstrates the basic concepts of the front-end theming."
+author: "October CMS"
+homepage: "https://octobercms.com"
+code: "Demo"
+authorCode: "Acme"
+```
+
+## [#](#version-file) Version File
+
+The theme version file **version.yaml** defines the current theme version and the change log. The file should be placed to the theme root directory.
+
+```
+├── themes
+|   └── website
+|       ├── ...
+|       └── theme.yaml
+|       └── version.yaml  ← Version File
+```
+
+The file contains the following format.
+
+```
+v1.0.1: Theme initialization
+v1.0.2: Added more features
+v1.0.3: Some features are removed
+```
+
+## [#](#theme-preview-image) Theme Preview Image
+
+The theme preview image is used in the back-end theme selector. The image file **theme-preview.png** should be placed to the theme's **assets/images** directory:
+
+```
+├── themes
+|   └── website
+|       ├── ...
+|       └── assets
+|           └── images
+|               └── theme-preview.png  ← Preview Image
+```
+
+The image width should be at least 600px. The ideal aspect ratio is 1.5, for example 600x400px.
+
+## [#](#theme-dependencies) Theme Dependencies
+
+A theme can depend on plugins by defining a **require** option in the theme information file, the option should supply an array of plugin names that are considered requirements. A theme that depends on **Acme.Blog** and **Acme.User** can define this requirement like so:
+
+```
+name: "October CMS Demo"
+# [...]
+
+require:
+    - "Acme.User"
+    - "Acme.Blog"
+```
+
+When the theme is installed for the first time, the system will attempt to install the required plugins at the same time. For a streamlined experience, consider [adding these plugins to the composer depedency list](docs__4.x__extend__resources__publishing-packages.md) as well.
+
+## [#](#theme-customization) Theme Customization
+
+Themes can support configuration values by defining a `form` key in the theme information file. This key should contain a configuration array or reference to a form field definition file, see [form field definitions](docs__4.x__element__form-fields.md) for more information.
+
+The following is an example of how to define a website name configuration field called **site\_name**:
+
+```
+name: My Theme
+# [...]
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the front-end
+            default: My Amazing Site!
+```
+
+The value can then be accessed inside any of the Theme templates using the [global Twig variable](docs__4.x__markup__property__this-theme.md) called `this.theme`.
+
+```
+<h1>Welcome to ___TWIG0___!</h1>
+```
+
+You may also define the configuration in a separate file, where the path is relative to the theme. The following definition will source the form fields from the file **config/fields.yaml** inside the theme.
+
+```
+name: My Theme
+# [...]
+
+form: config/fields.yaml
+```
+
+**themes/demo/config/fields.yaml**:
+
+```
+fields:
+    site_name:
+        label: Site name
+        comment: The website name as it should appear on the front-end
+        default: My Amazing Site!
+```
+
+### [#](#translating-theme-data) Translating Theme Data
+
+When your website has [sites with different languages](docs__4.x__cms__multisite__multisite.md), set the `translatable` option on a field to give each locale its own value. Fields without this option share one value across every locale.
+
+```
+form:
+    fields:
+        site_name:
+            label: Site name
+            default: My Amazing Site!
+            translatable: true
+```
+
+Selecting a different site in the site picker edits every translatable field in that site's locale. The `this.theme.site_name` variable returns the value for the active locale, falling back to the default locale when no translation exists.
+
+### [#](#using-theme-data-in-css) Using Theme Data in CSS
+
+Sometimes you want to include a visual preference inside your theme stylesheet. You may use CSS custom properties (variables) to make these values available. In the following example, we will use a [Color Picker field type](docs__4.x__element__form__widget-colorpicker.md) to specify a custom link color.
+
+```
+form:
+    fields:
+        # [...]
+
+        link_color:
+            label: Link color
+            type: colorpicker
+```
+
+Using the above example we can define a [CMS partial](docs__4.x__cms__themes__partials.md) that passes the selected value to CSS using a local stylesheet. The partial is then included in the [theme layout](docs__4.x__cms__themes__layouts.md) inside the `<head>` tag.
+
+```
+<style>
+    :root {
+        --my-color: {{ this.theme.link_color }};
+    }
+</style>
+```
+
+Custom property names are case sensitive so `--my-color` will be treated as a separate custom property to `--My-color`.
+
+Now inside your stylesheet the custom property can be used anywhere by specifying the custom property name inside the `var()` function, in place of a regular property value.
+
+```
+a {
+    color: var(--my-color);
+}
+```
+
+### [#](#using-theme-data-with-combined-assets) Using Theme Data with Combined Assets
+
+Assets combined using the `|theme` [filter and combiner](docs__4.x__cms__markup__filter-theme.md) can have values passed to supporting filters, such as the LESS filter. Simply specify the `assetVar` option when defining the form field, the value should contain the desired variable name.
+
+```
+form:
+    fields:
+        # [...]
+
+        link_color:
+            label: Link color
+            type: colorpicker
+            assetVar: 'link-color'
+```
+
+In the above example, the color value selected will be available inside the less file as `@link-color`. Assuming we have the following stylesheet reference:
+
+```
+<link href="___TWIG0___" rel="stylesheet">
+```
+
+Using some example content inside **themes/yourtheme/assets/less/theme.less**:
+
+```
+a { color: @link-color }
+```
+
+← [Tailor Localization](docs__4.x__cms__multisite__tailor.md)[Child Themes](docs__4.x__cms__themes__child-themes.md) →

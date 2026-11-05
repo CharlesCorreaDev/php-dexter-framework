@@ -1,0 +1,242 @@
+# Outras Extensões Básicas
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/refs.basic.other.php
+
+---
+
+# Outras Extensões Básicas
+
+- [GeoIP](book.geoip.md) — Localização geográfica do IP
+  - [Instalação/Configuração](geoip.setup.md)
+  - [Constantes predefinidas](geoip.constants.md)
+  - [Funções de GeoIP](ref.geoip.md)
+- [FANN](book.fann.md) — FANN (Rede Neural Artificial Rápida)
+  - [Instalação/Configuração](fann.setup.md)
+  - [Constantes predefinidas](fann.constants.md)
+  - [Examples](fann.examples.md)
+  - [Funções de Fann](ref.fann.md)
+  - [FANNConnection](class.fannconnection.md) — A classe FANNConnection
+- [Igbinary](book.igbinary.md)
+  - [Instalação/Configuração](igbinary.setup.md)
+  - [Funções de Igbinary](ref.igbinary.md)
+- [JSON](book.json.md) — Notação de Objetos do JavaScript
+  - [Instalação/Configuração](json.setup.md)
+  - [Constantes predefinidas](json.constants.md)
+  - [JsonException](class.jsonexception.md) — A classe JsonException
+  - [JsonSerializable](class.jsonserializable.md) — A interface JsonSerializable
+  - [Funções da JSON](ref.json.md)
+- [Simdjson](book.simdjson.md)
+  - [Instalação/Configuração](simdjson.setup.md)
+  - [Constantes predefinidas](simdjson.constants.md)
+  - [Funções de Simdjson](ref.simdjson.md)
+  - [SimdJsonException](class.simdjsonexception.md) — A classe SimdJsonException
+  - [SimdJsonValueError](class.simdjsonvalueerror.md) — A classe SimdJsonValueError
+- [Lua](book.lua.md)
+  - [Instalação/Configuração](lua.setup.md)
+  - [Lua](class.lua.md) — A Classe Lua
+  - [LuaClosure](class.luaclosure.md) — A Classe LuaClosure
+- [LuaSandbox](book.luasandbox.md)
+  - [Instalação/Configuração](luasandbox.setup.md)
+  - [Diferenças do Lua Padrão](reference.luasandbox.differences.md)
+  - [Examples](luasandbox.examples.md)
+  - [LuaSandbox](class.luasandbox.md) — A classe LuaSandbox
+  - [LuaSandboxFunction](class.luasandboxfunction.md) — A classe LuaSandboxFunction
+  - [LuaSandboxError](class.luasandboxerror.md) — A classe LuaSandboxError
+  - [LuaSandboxErrorError](class.luasandboxerrorerror.md) — A classe LuaSandboxErrorError
+  - [LuaSandboxFatalError](class.luasandboxfatalerror.md) — A classe LuaSandboxFatalError
+  - [LuaSandboxMemoryError](class.luasandboxmemoryerror.md) — A classe LuaSandboxMemoryError
+  - [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md) — A classe LuaSandboxRuntimeError
+  - [LuaSandboxSyntaxError](class.luasandboxsyntaxerror.md) — A classe LuaSandboxSyntaxError
+  - [LuaSandboxTimeoutError](class.luasandboxtimeouterror.md) — A classe LuaSandboxTimeoutError
+- [Misc.](book.misc.md) — Funções Miscelâneas
+  - [Instalação/Configuração](misc.setup.md)
+  - [Constantes predefinidas](misc.constants.md)
+  - [Funções Miscelâneas](ref.misc.md)
+  - [Registro de Alterações](changelog.misc.md)
+- [Random](book.random.md) — Geradores de números aleatórios e funções relacionadas à aleatoriedade
+  - [Constantes predefinidas](random.constants.md)
+  - [Examples](random.examples.md)
+  - [Funções Random](ref.random.md)
+  - [Random\Randomizer](class.random-randomizer.md) — A classe Random\Randomizer
+  - [Random\IntervalBoundary](enum.random-intervalboundary.md) — A enumeração Random\IntervalBoundary
+  - [Random\Engine](class.random-engine.md) — A interface Random\Engine
+  - [Random\CryptoSafeEngine](class.random-cryptosafeengine.md) — A interface Random\CryptoSafeEngine
+  - [Random\Engine\Secure](class.random-engine-secure.md) — A classe Random\Engine\Secure
+  - [Random\Engine\Mt19937](class.random-engine-mt19937.md) — A classe Random\Engine\Mt19937
+  - [Random\Engine\PcgOneseq128XslRr64](class.random-engine-pcgoneseq128xslrr64.md) — A classe Random\Engine\PcgOneseq128XslRr64
+  - [Random\Engine\Xoshiro256StarStar](class.random-engine-xoshiro256starstar.md) — A classe Random\Engine\Xoshiro256StarStar
+  - [Random\RandomError](class.random-randomerror.md) — A classe Random\RandomError
+  - [Random\BrokenRandomEngineError](class.random-brokenrandomengineerror.md) — A classe Random\BrokenRandomEngineError
+  - [Random\RandomException](class.random-randomexception.md) — A classe Random\RandomException
+- [Seaslog](book.seaslog.md)
+  - [Instalação/Configuração](seaslog.setup.md)
+  - [Constantes predefinidas](seaslog.constants.md)
+  - [Examples](seaslog.examples.md)
+  - [Funções de Seaslog](ref.seaslog.md)
+  - [SeasLog](class.seaslog.md) — A classe SeasLog
+- [SPL](book.spl.md) — Biblioteca Padrão PHP (SPL)
+  - [Interfaces](spl.interfaces.md)
+  - [Estruturas de dados](spl.datastructures.md)
+  - [Exceções](spl.exceptions.md)
+  - [Iteradores](spl.iterators.md)
+  - [Manipulação de Arquivos](spl.files.md)
+  - [Funções da SPL](ref.spl.md)
+- [Fluxos](book.stream.md)
+  - [Instalação/Configuração](stream.setup.md)
+  - [Constantes predefinidas](stream.constants.md)
+  - [Filtros de Fluxo](stream.filters.md)
+  - [Contextos de Fluxo](stream.contexts.md)
+  - [Erros de Fluxo](stream.errors.md)
+  - [Examples](stream.examples.md)
+  - [php\_user\_filter](class.php-user-filter.md) — A clase php\_user\_filter
+  - [streamWrapper](class.streamwrapper.md) — A classe streamWrapper
+  - [StreamBucket](class.streambucket.md) — A classe StreamBucket
+  - [Funções de Fluxo](ref.stream.md)
+- [Swoole](book.swoole.md)
+  - [Instalação/Configuração](swoole.setup.md)
+  - [Constantes predefinidas](swoole.constants.md)
+  - [Funções Swoole](ref.swoole-funcs.md)
+  - [Swoole\Async](class.swoole-async.md) — A classe Swoole\Async
+  - [Swoole\Atomic](class.swoole-atomic.md) — A classe Swoole\Atomic
+  - [Swoole\Buffer](class.swoole-buffer.md) — A classe Swoole\Buffer
+  - [Swoole\Channel](class.swoole-channel.md) — A classe Swoole\Channel
+  - [Swoole\Client](class.swoole-client.md) — A classe Swoole\Client
+  - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md) — A classe Swoole\Connection\Iterator
+  - [Swoole\Coroutine](class.swoole-coroutine.md) — A classe Swoole\Coroutine
+  - [Swoole\Coroutine\Lock](class.swoole-coroutine-lock.md) — A classe Swoole\Coroutine\Lock
+  - [Swoole\Event](class.swoole-event.md) — A classe Swoole\Event
+  - [Swoole\Exception](class.swoole-exception.md) — A classe Swoole\Exception
+  - [Swoole\Http\Client](class.swoole-http-client.md) — A classe Swoole\Http\Client
+  - [Swoole\Http\Request](class.swoole-http-request.md) — A classe Swoole\Http\Request
+  - [Swoole\Http\Response](class.swoole-http-response.md) — A classe Swoole\Http\Response
+  - [Swoole\Http\Server](class.swoole-http-server.md) — A classe Swoole\Http\Server
+  - [Swoole\Lock](class.swoole-lock.md) — A classe Swoole\Lock
+  - [Swoole\Mmap](class.swoole-mmap.md) — A classe Swoole\Mmap
+  - [Swoole\MySQL](class.swoole-mysql.md) — A classe Swoole\MySQL
+  - [Swoole\MySQL\Exception](class.swoole-mysql-exception.md) — A classe Swoole\MySQL\Exception
+  - [Swoole\Process](class.swoole-process.md) — A classe Swoole\Process
+  - [Swoole\Redis\Server](class.swoole-redis-server.md) — A classe Swoole\Redis\Server
+  - [Swoole\Runtime](class.swoole-runtime.md) — A classe Swoole\Runtime
+  - [Swoole\Serialize](class.swoole-serialize.md) — A classe Swoole\Serialize
+  - [Swoole\Server](class.swoole-server.md) — A classe Swoole\Server
+  - [Swoole\Table](class.swoole-table.md) — A classe Swoole\Table
+  - [Swoole\Timer](class.swoole-timer.md) — A classe Swoole\Timer
+  - [Swoole\WebSocket\Frame](class.swoole-websocket-frame.md) — A classe Swoole\WebSocket\Frame
+  - [Swoole\WebSocket\Server](class.swoole-websocket-server.md) — A classe Swoole\WebSocket\Server
+- [Tidy](book.tidy.md)
+  - [Instalação/Configuração](tidy.setup.md)
+  - [Constantes predefinidas](tidy.constants.md)
+  - [Examples](tidy.examples.md)
+  - [tidy](class.tidy.md) — A classe tidy
+  - [tidyNode](class.tidynode.md) — A classe tidyNode
+  - [Funções de Tidy](ref.tidy.md)
+- [Tokenizer](book.tokenizer.md)
+  - [Instalação/Configuração](tokenizer.setup.md)
+  - [Constantes predefinidas](tokenizer.constants.md)
+  - [Examples](tokenizer.examples.md)
+  - [PhpToken](class.phptoken.md) — A classe PhpToken
+  - [Funções de Tokenizer](ref.tokenizer.md)
+- [URI](book.uri.md)
+  - [Uri\Rfc3986\Uri](class.uri-rfc3986-uri.md) — A classe Uri\Rfc3986\Uri
+  - [Uri\WhatWg\Url](class.uri-whatwg-url.md) — A classe Uri\WhatWg\Url
+  - [Uri\UriComparisonMode](enum.uri-uricomparisonmode.md) — A enumeração Uri\UriComparisonMode
+  - [Uri\UriException](class.uri-uriexception.md) — A classe Uri\UriException
+  - [Uri\UriError](class.uri-urierror.md) — A classe Uri\UriError
+  - [Uri\InvalidUriException](class.uri-invaliduriexception.md) — A classe Uri\InvalidUriException
+  - [Uri\WhatWg\InvalidUrlException](class.uri-whatwg-invalidurlexception.md) — A classe Uri\WhatWg\InvalidUrlException
+  - [Uri\WhatWg\UrlValidationError](class.uri-whatwg-urlvalidationerror.md) — A classe Uri\WhatWg\UrlValidationError
+  - [Uri\WhatWg\UrlValidationErrorType](enum.uri-whatwg-urlvalidationerrortype.md) — A enumeração Uri\WhatWg\UrlValidationErrorType
+- [URLs](book.url.md)
+  - [Constantes predefinidas](url.constants.md)
+  - [Funções de URL](ref.url.md)
+- [V8js](book.v8js.md) — Integração do V8 Javascript Engine
+  - [Instalação/Configuração](v8js.setup.md)
+  - [Examples](v8js.examples.md)
+  - [V8Js](class.v8js.md) — A classe V8Js
+  - [V8JsException](class.v8jsexception.md) — A classe V8JsException
+- [Yaml](book.yaml.md) — Serialização de dados YAML
+  - [Instalação/Configuração](yaml.setup.md)
+  - [Constantes predefinidas](yaml.constants.md)
+  - [Examples](yaml.examples.md)
+  - [Funções de retorno](yaml.callbacks.md)
+  - [Funções de Yaml](ref.yaml.md)
+- [Yaf](book.yaf.md) — Yet Another Framework
+  - [Instalação/Configuração](yaf.setup.md)
+  - [Constantes predefinidas](yaf.constants.md)
+  - [Examples](yaf.tutorials.md)
+  - [Configuração de Aplicação](yaf.appconfig.md)
+  - [Yaf\_Application](class.yaf-application.md) — A classe Yaf\_Application
+  - [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md) — A classe Yaf\_Bootstrap\_Abstract
+  - [Yaf\_Dispatcher](class.yaf-dispatcher.md) — A classe Yaf\_Dispatcher
+  - [Yaf\_Config\_Abstract](class.yaf-config-abstract.md) — A classe Yaf\_Config\_Abstract
+  - [Yaf\_Config\_Ini](class.yaf-config-ini.md) — A classe Yaf\_Config\_Ini
+  - [Yaf\_Config\_Simple](class.yaf-config-simple.md) — A classe Yaf\_Config\_Simple
+  - [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.md) — A classe Yaf\_Controller\_Abstract
+  - [Yaf\_Action\_Abstract](class.yaf-action-abstract.md) — A classe Yaf\_Action\_Abstract
+  - [Yaf\_View\_Interface](class.yaf-view-interface.md) — A classe Yaf\_View\_Interface
+  - [Yaf\_View\_Simple](class.yaf-view-simple.md) — A classe Yaf\_View\_Simple
+  - [Yaf\_Loader](class.yaf-loader.md) — A classe Yaf\_Loader
+  - [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md) — A classe Yaf\_Plugin\_Abstract
+  - [Yaf\_Registry](class.yaf-registry.md) — A classe Yaf\_Registry
+  - [Yaf\_Request\_Abstract](class.yaf-request-abstract.md) — A classe Yaf\_Request\_Abstract
+  - [Yaf\_Request\_Http](class.yaf-request-http.md) — A classe Yaf\_Request\_Http
+  - [Yaf\_Request\_Simple](class.yaf-request-simple.md) — A classe Yaf\_Request\_Simple
+  - [Yaf\_Response\_Abstract](class.yaf-response-abstract.md) — A classe Yaf\_Response\_Abstract
+  - [Yaf\_Route\_Interface](class.yaf-route-interface.md) — A classe Yaf\_Route\_Interface
+  - [Yaf\_Route\_Map](class.yaf-route-map.md) — A classe Yaf\_Route\_Map
+  - [Yaf\_Route\_Regex](class.yaf-route-regex.md) — A classe Yaf\_Route\_Regex
+  - [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md) — A classe Yaf\_Route\_Rewrite
+  - [Yaf\_Router](class.yaf-router.md) — A classe Yaf\_Router
+  - [Yaf\_Route\_Simple](class.yaf-route-simple.md) — A classe Yaf\_Route\_Simple
+  - [Yaf\_Route\_Static](class.yaf-route-static.md) — A classe Yaf\_Route\_Static
+  - [Yaf\_Route\_Supervar](class.yaf-route-supervar.md) — A classe Yaf\_Route\_Supervar
+  - [Yaf\_Session](class.yaf-session.md) — A classe Yaf\_Session
+  - [Yaf\_Exception](class.yaf-exception.md) — A classe Yaf\_Exception
+  - [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md) — A classe Yaf\_Exception\_TypeError
+  - [Yaf\_Exception\_StartupError](class.yaf-exception-startuperror.md) — A classe Yaf\_Exception\_StartupError
+  - [Yaf\_Exception\_DispatchFailed](class.yaf-exception-dispatchfailed.md) — A classe Yaf\_Exception\_DispatchFailed
+  - [Yaf\_Exception\_RouterFailed](class.yaf-exception-routerfailed.md) — A classe Yaf\_Exception\_RouterFailed
+  - [Yaf\_Exception\_LoadFailed](class.yaf-exception-loadfailed.md) — A classe Yaf\_Exception\_LoadFailed
+  - [Yaf\_Exception\_LoadFailed\_Module](class.yaf-exception-loadfailed-module.md) — A classe Yaf\_Exception\_LoadFailed\_Module
+  - [Yaf\_Exception\_LoadFailed\_Controller](class.yaf-exception-loadfailed-controller.md) — A classe Yaf\_Exception\_LoadFailed\_Controller
+  - [Yaf\_Exception\_LoadFailed\_Action](class.yaf-exception-loadfailed-action.md) — A classe Yaf\_Exception\_LoadFailed\_Action
+  - [Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.md) — A classe Yaf\_Exception\_LoadFailed\_View
+- [Yaconf](book.yaconf.md)
+  - [Instalação/Configuração](yaconf.setup.md)
+  - [Yaconf](class.yaconf.md) — A classe Yaconf
+- [Taint](book.taint.md)
+  - [Instalação/Configuração](taint.setup.md)
+  - [Mais detalhes](taint.detail.md)
+  - [Funções de Taint](ref.taint.md)
+- [Estruturas de Dados](book.ds.md)
+  - [Instalação/Configuração](ds.setup.md)
+  - [Examples](ds.examples.md)
+  - [Ds\Collection](class.ds-collection.md) — A interface Collection
+  - [Ds\Hashable](class.ds-hashable.md) — A interface Hashable
+  - [Ds\Sequence](class.ds-sequence.md) — A Interface Sequence
+  - [Ds\Vector](class.ds-vector.md) — A classe Vector
+  - [Ds\Deque](class.ds-deque.md) — A classe Deque
+  - [Ds\Map](class.ds-map.md) — A classe Map
+  - [Ds\Pair](class.ds-pair.md) — A classe Pair
+  - [Ds\Set](class.ds-set.md) — A classe Set
+  - [Ds\Stack](class.ds-stack.md) — A classe Stack
+  - [Ds\Queue](class.ds-queue.md) — A classe Queue
+  - [Ds\PriorityQueue](class.ds-priorityqueue.md) — A classe PriorityQueue
+- [var\_representation](book.var_representation.md)
+  - [Instalação/Configuração](var-representation.setup.md)
+  - [Constantes predefinidas](var-representation.constants.md)
+  - [Funções de var\_representation](ref.var-representation.md)
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

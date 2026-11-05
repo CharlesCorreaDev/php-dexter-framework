@@ -1,0 +1,368 @@
+{
+  "root_url": "** https://docs2.formalms.org/books",
+  "scope_prefix": "** https://docs2.formalms.org/books",
+  "total_pages": 60,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://docs2.formalms.org/books",
+      "file": "books.md",
+      "title": "Livros | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/api-integration",
+      "file": "books__api-integration.md",
+      "title": "API & Integration | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/api-integration/page/forma-integration-automation-solutions",
+      "file": "books__api-integration__page__forma-integration-automation-solutions.md",
+      "title": "Forma Integration & Au... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/api-integration/page/sso-format",
+      "file": "books__api-integration__page__sso-format.md",
+      "title": "SSO Format | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/api-integration/references",
+      "file": "books__api-integration__references.md",
+      "title": "Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide",
+      "file": "books__reference-guide.md",
+      "title": "Reference Guide | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/configuration",
+      "file": "books__reference-guide__chapter__configuration.md",
+      "title": "Configuration | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/contents-and-communication",
+      "file": "books__reference-guide__chapter__contents-and-communication.md",
+      "title": "Contents and Communica... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/course-administration-backend",
+      "file": "books__reference-guide__chapter__course-administration-backend.md",
+      "title": "Course Administration ... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/course-features-frontend",
+      "file": "books__reference-guide__chapter__course-features-frontend.md",
+      "title": "Course Features (Front... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/forma-lms-basics",
+      "file": "books__reference-guide__chapter__forma-lms-basics.md",
+      "title": "Forma LMS Basics | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/layout-templates",
+      "file": "books__reference-guide__chapter__layout-templates.md",
+      "title": "Layout & Templates | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/learning-objects",
+      "file": "books__reference-guide__chapter__learning-objects.md",
+      "title": "Learning Objects | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/reports",
+      "file": "books__reference-guide__chapter__reports.md",
+      "title": "Reports | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/chapter/user-management",
+      "file": "books__reference-guide__chapter__user-management.md",
+      "title": "User Management | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/additional-fields",
+      "file": "books__reference-guide__page__additional-fields.md",
+      "title": "Additional Fields | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/administrators",
+      "file": "books__reference-guide__page__administrators.md",
+      "title": "Administrators | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/assignment",
+      "file": "books__reference-guide__page__assignment.md",
+      "title": "Assignment | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/codes",
+      "file": "books__reference-guide__page__codes.md",
+      "title": "Codes | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/course-final-score",
+      "file": "books__reference-guide__page__course-final-score.md",
+      "title": "Course Final Score | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/course-report",
+      "file": "books__reference-guide__page__course-report.md",
+      "title": "Course Report | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/creating-and-editing-a-course",
+      "file": "books__reference-guide__page__creating-and-editing-a-course.md",
+      "title": "Creating and editing a... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/dashboard-configuration",
+      "file": "books__reference-guide__page__dashboard-configuration.md",
+      "title": "Dashboard Configuration | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/event-manager",
+      "file": "books__reference-guide__page__event-manager.md",
+      "title": "Event Manager | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/file-name-handling-for-scorm-packages",
+      "file": "books__reference-guide__page__file-name-handling-for-scorm-packages.md",
+      "title": "File Name Handling for... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/general-architecture-and-definitions",
+      "file": "books__reference-guide__page__general-architecture-and-definitions.md",
+      "title": "General architecture a... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/gradebook",
+      "file": "books__reference-guide__page__gradebook.md",
+      "title": "Gradebook | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/groups",
+      "file": "books__reference-guide__page__groups.md",
+      "title": "Groups | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/import-users",
+      "file": "books__reference-guide__page__import-users.md",
+      "title": "Import Users | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/installation-and-upgrade",
+      "file": "books__reference-guide__page__installation-and-upgrade.md",
+      "title": "Installation and Upgrade | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/io-tasks-connectors",
+      "file": "books__reference-guide__page__io-tasks-connectors.md",
+      "title": "I/O Tasks Connectors | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/language-management",
+      "file": "books__reference-guide__page__language-management.md",
+      "title": "Language Management | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/learning-materials-management",
+      "file": "books__reference-guide__page__learning-materials-management.md",
+      "title": "Learning Materials Man... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/manage-menu",
+      "file": "books__reference-guide__page__manage-menu.md",
+      "title": "Manage Menu | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/plugin-management",
+      "file": "books__reference-guide__page__plugin-management.md",
+      "title": "Plugin Management | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/privacy-policies",
+      "file": "books__reference-guide__page__privacy-policies.md",
+      "title": "Privacy Policies | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/question-category",
+      "file": "books__reference-guide__page__question-category.md",
+      "title": "Question Category | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/requirements",
+      "file": "books__reference-guide__page__requirements.md",
+      "title": "Requirements | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/subscription-management",
+      "file": "books__reference-guide__page__subscription-management.md",
+      "title": "Subscription management | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/system-configuration",
+      "file": "books__reference-guide__page__system-configuration.md",
+      "title": "System Configuration | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/test",
+      "file": "books__reference-guide__page__test.md",
+      "title": "Test | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/time-periods-course-credits",
+      "file": "books__reference-guide__page__time-periods-course-credits.md",
+      "title": "Time Periods (Course c... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/user-area-lms",
+      "file": "books__reference-guide__page__user-area-lms.md",
+      "title": "User Area LMS | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/reference-guide/page/users-and-organization-chart",
+      "file": "books__reference-guide__page__users-and-organization-chart.md",
+      "title": "Users and organization... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials",
+      "file": "books__tutorials.md",
+      "title": "Tutorials | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials/page/associate-a-template-with-a-domain",
+      "file": "books__tutorials__page__associate-a-template-with-a-domain.md",
+      "title": "Associate a Template w... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials/page/how-to-create-a-coursepath",
+      "file": "books__tutorials__page__how-to-create-a-coursepath.md",
+      "title": "How to create a course... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials/page/how-to-manage-locations",
+      "file": "books__tutorials__page__how-to-manage-locations.md",
+      "title": "How to manage locations | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials/page/importing-users-with-io-tasks",
+      "file": "books__tutorials__page__importing-users-with-io-tasks.md",
+      "title": "Importing users with I... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/books/tutorials/page/managing-the-question-bank",
+      "file": "books__tutorials__page__managing-the-question-bank.md",
+      "title": "Managing the Question ... | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/",
+      "file": "index.md",
+      "title": "Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/login",
+      "file": "login.md",
+      "title": "Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/pages/recently-updated",
+      "file": "pages__recently-updated.md",
+      "title": "Páginas Atualizadas Recentemente | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/password/email",
+      "file": "password__email.md",
+      "title": "Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/search",
+      "file": "search.md",
+      "title": "Pesquisar por  | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/shelves",
+      "file": "shelves.md",
+      "title": "Prateleiras | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/tags",
+      "file": "tags.md",
+      "title": "Tags | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/user/alberto-pastorelli",
+      "file": "user__alberto-pastorelli.md",
+      "title": "Alberto Pastorelli | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/user/lorenzo-polizzi",
+      "file": "user__lorenzo-polizzi.md",
+      "title": "Lorenzo Polizzi | Forma.Lms Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs2.formalms.org/user/max",
+      "file": "user__max.md",
+      "title": "Max | Forma.Lms Documentation",
+      "depth": 1
+    }
+  ]
+}

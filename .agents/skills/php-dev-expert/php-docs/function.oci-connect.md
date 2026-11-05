@@ -1,0 +1,353 @@
+# Conecta-se a um banco de dados Oracle
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/function.oci-connect.php
+
+---
+
+# oci\_connect
+
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
+
+oci\_connect — Conecta-se a um banco de dados Oracle
+
+### Descrição
+
+function **oci\_connect**(  
+    [string](language.types.string.md) `$username`,  
+    [string](language.types.string.md) `$password`,  
+    [?](language.types.null.md)[string](language.types.string.md) `$connection_string` = **`null`**,  
+    [string](language.types.string.md) `$encoding` = "",  
+    [int](language.types.integer.md) `$session_mode` = **`OCI_DEFAULT`**  
+): [resource](language.types.resource.md)|[false](language.types.singleton.md)
+
+Retorna um identificador de conexão necessário para a maioria das outras operações OCI8.
+
+Para melhor desempenho, a maioria das aplicações deve usar conexões persistentes
+com [oci\_pconnect()](function.oci-pconnect.md) em vez
+de **oci\_connect()**.
+Consulte [Manipulação de Conexões](oci8.connection.md) para obter informações gerais
+sobre gerenciamento de conexões e pool de conexões.
+
+A segunda chamada e as subsequentes a **oci\_connect()**
+com os mesmos parâmetros retornarão o identificador de conexão retornado
+da primeira chamada. Isso significa que as transações em um identificador
+também estão nos outros identificadores, pois usam a
+*mesma* conexão de banco de dados subjacente. Se dois
+identificadores precisarem ser isolados transacionalmente um do outro, use
+[oci\_new\_connect()](function.oci-new-connect.md).
+
+### Parâmetros
+
+`username`
+:   O nome de usuário do Oracle.
+
+`password`
+:   A senha para `username`.
+
+`connection_string`
+:   Contém
+    a `instância do Oracle` à qual se conectar. Pode ser
+    uma [» string Easy
+    Connect](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1) ou um Connect Name do
+    arquivo tnsnames.ora ou o nome de uma instância
+    local do Oracle.
+
+    Se não especificado ou **`null`**, o PHP usará
+    variáveis de ambiente como **`TWO_TASK`** (no Linux)
+    ou **`LOCAL`** (no Windows)
+    e **`ORACLE_SID`** para determinar a
+    `instância do Oracle` à qual se conectar.
+
+    Para usar o método de nomenclatura Easy Connect, o PHP precisa ter sido compilado com as bibliotecas
+    Oracle Client 10*g* ou superiores. A string Easy Connect para o Oracle
+    10*g* tem o formato:
+    *[//]nome\_do\_servidor[:porta][/nome\_do\_servico]*. A partir do Oracle
+    11*g* a sintaxe é:
+    *[//]nome\_do\_servidor[:porta][/nome\_do\_servico][:tipo\_de\_servidor][/nome\_da\_instancia]*.
+    Outras opções foram introduzidas com o Oracle 19c, incluindo as configurações de timeout
+    e keep-alive. Consulte a documentação do Oracle. Os nomes dos serviços podem ser encontrados executando
+    o utilitário Oracle `lsnrctl status` na máquina do servidor de
+    banco de dados.
+
+    O arquivo tnsnames.ora pode estar no caminho de pesquisa Oracle Net,
+    que
+    inclui /seu/caminho/para/instantclient/network/admin, $ORACLE\_HOME/network/admin
+    e /etc. Como alternativa, defina `TNS_ADMIN`
+    para que $TNS\_ADMIN/tnsnames.ora possa ser lido. Certifique-se de que o servidor
+    web tem acesso de leitura ao arquivo.
+
+`encoding`
+:   Determina
+    o conjunto de caracteres usado pelas bibliotecas Oracle Client. O conjunto de
+    caracteres não precisa corresponder ao conjunto de caracteres usado pelo banco de dados. Se
+    não corresponderem, o Oracle fará o possível para converter os dados de e para
+    o conjunto de caracteres do banco de dados. Dependendo dos conjuntos de caracteres, isso pode
+    não fornecer resultados utilizáveis. A conversão também adiciona alguma sobrecarga de tempo.
+
+    Se não for especificado, as
+    bibliotecas Oracle Client determinam um conjunto de caracteres a partir da
+    variável de ambiente **`NLS_LANG`**.
+
+    Passar este parâmetro pode
+    reduzir o tempo necessário para conectar.
+
+`session_mode`
+:   Este
+    parâmetro está disponível a partir do PHP 5 (PECL OCI8 1.1) e aceita os
+    seguintes valores: **`OCI_DEFAULT`**,
+    **`OCI_SYSOPER`** e **`OCI_SYSDBA`**.
+    Se **`OCI_SYSOPER`** ou
+    **`OCI_SYSDBA`** forem especificadas, esta função tentará
+    estabelecer uma conexão privilegiada usando credenciais externas.
+    Conexões privilegiadas estão desabilitadas por padrão. Para habilitá-las
+    é preciso configurar [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect)
+    para `On`.
+
+    O PHP 5.3 (PECL OCI8 1.3.4) introduziu o valor
+    de modo **`OCI_CRED_EXT`**. Ele informa ao Oracle para usar
+    autenticação External ou OS, que deve ser configurada no
+    banco de dados. A flag **`OCI_CRED_EXT`** só pode ser usada
+    com o usuário "/" e uma senha vazia.
+    [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect)
+    pode ser `On` ou `Off`.
+
+    **`OCI_CRED_EXT`** pode ser combinado com os modos
+    **`OCI_SYSOPER`** ou
+    **`OCI_SYSDBA`**.
+
+    **`OCI_CRED_EXT`** não é suportado no Windows por
+    razões de segurança.
+
+### Valor Retornado
+
+Retorna um identificador de conexão ou **`false`** em caso de erro.
+
+### Registro de Alterações
+
+| Versão | Descrição |
+| --- | --- |
+| 8.0.0, PECL OCI8 3.0.0 | `connection_string` agora é anulável. |
+
+### Examples
+
+**Exemplo #1 **oci\_connect()** básico usando sintaxe Easy Connect**
+
+```
+<?php
+
+// Conecta-se ao serviço XE (ou seja, banco de dados) na máquina "localhost"
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Exemplo #2 **oci\_connect()** básico usando um nome de conexão de rede**
+
+```
+<?php
+
+// Conecta-se ao banco de dados MYDB descrito no arquivo tnsnames.ora,
+// Um exemplo de entrada tnsnames.ora para MYDB poderia ser:
+//   MYDB =
+//     (DESCRIPTION =
+//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))
+//       (CONNECT_DATA =
+//         (SERVER = DEDICATED)
+//         (SERVICE_NAME = XE)
+//       )
+//     )
+
+$conn = oci_connect('hr', 'welcome', 'MYDB');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Exemplo #3 **oci\_connect()** com um conjunto de caracteres explícito**
+
+```
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'SELECT * FROM employees');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
+    }
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+?>
+```
+
+**Exemplo #4 Usando múltiplas chamadas a **oci\_connect()****
+
+```
+<?php
+
+$c1 = oci_connect("hr", "welcome", 'localhost/XE');
+$c2 = oci_connect("hr", "welcome", 'localhost/XE');
+
+// Tanto $c1 quanto $c2 mostram o mesmo ID de recurso PHP, o que significa que eles usam a
+// mesma conexão de banco de dados subjacente
+echo "c1 é $c1<br>\n";
+echo "c2 é $c2<br>\n";
+
+function create_table($conn)
+{
+    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");
+    oci_execute($stmt);
+    echo "Tabela criada<br>\n";
+}
+
+function drop_table($conn)
+{
+    $stmt = oci_parse($conn, "drop table hallo");
+    oci_execute($stmt);
+    echo "Tabela excluída<br>\n";
+}
+
+function insert_data($connname, $conn)
+{
+    $stmt = oci_parse($conn, "insert into hallo
+              values(to_char(sysdate,'DD-MON-YY HH24:MI:SS'))");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname inserida linha sem confirmação<br>\n";
+}
+
+function rollback($connname, $conn)
+{
+    oci_rollback($conn);
+    echo "$connname revertendo<br>\n";
+}
+
+function select_data($connname, $conn)
+{
+    $stmt = oci_parse($conn, "select * from hallo");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname ----selecionando<br>\n";
+    while (oci_fetch($stmt)) {
+        echo "    " . oci_result($stmt, "TEST") . "<br>\n";
+    }
+    echo "$connname ----feito<br>\n";
+}
+
+create_table($c1);
+
+insert_data('c1', $c1);   // Insere uma linha usando c1
+sleep(2);                 // Espera para mostrar um horário diferente para a 2ª linha
+insert_data('c2', $c2);   // Insere uma linha usando c2
+
+select_data('c1', $c1);   // Os resultados de ambas as inserções são retornados
+select_data('c2', $c2);   // Os resultados de ambas as inserções são retornados
+
+rollback('c1', $c1);      // Reverte usando c1
+
+select_data('c1', $c1);   // Ambas as inserções foram revertidas
+select_data('c2', $c2);
+
+drop_table($c1);
+
+// Fechar uma das conexões torna a variável PHP inutilizável, mas
+// a outra pode ser usada
+oci_close($c1);
+echo "c1 é $c1<br>\n";
+echo "c2 é $c2<br>\n";
+
+// O resultado é:
+//    c1 é Resource id #5
+//    c2 é Resource id #5
+//    Tabela criada
+//    c1 inseriu linha sem confirmar
+//    c2 inseriu linha sem confirmar
+//    c1 ----selecionando
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c1 ----feito
+//    c2 ----selecionando
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c2 ----feito
+//    c1 revertendo
+//    c1 ----selecionando
+//    c1 ----feito
+//    c2 ----selecionando
+//    c2 ----feito
+//    Tabela excluída
+//    c1 é
+//    c2 é Resource id #5
+
+?>
+```
+
+### Notas
+
+> **Nota**:
+>
+> Uma extensão OCI8 instalada ou configurada incorretamente
+> frequentemente se manifestará como um problema ou erro de conexão.
+> Consulte [Instalando/Configurando](oci8.setup.md)
+> para obter informações sobre solução de problemas.
+
+### Veja também
+
+- [oci\_pconnect()](function.oci-pconnect.md) - Conecta-se a um banco de dados Oracle usando uma conexão persistente
+- [oci\_new\_connect()](function.oci-new-connect.md) - Conecta-se ao servidor Oracle usando uma conexão exclusiva
+- [oci\_close()](function.oci-close.md) - Fecha uma conexão Oracle
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

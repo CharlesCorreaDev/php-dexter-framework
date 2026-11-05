@@ -1,0 +1,308 @@
+{
+  "root_url": "** https://www.oscommerce.com/wiki/Assigning_and_Moving_Products_to_Categories",
+  "scope_prefix": "** https://www.oscommerce.com/wiki/Assigning_and_Moving_Products_to_Categories",
+  "total_pages": 50,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://www.oscommerce.com/wiki/Assigning_and_Moving_Products_to_Categories",
+      "file": "Assigning_and_Moving_Products_to_Categories.md",
+      "title": "Assigning and Moving Products to Categories - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Assigning_Products_and_Categories_to_Front_Ends",
+      "file": "Assigning_Products_and_Categories_to_Front_Ends.md",
+      "title": "Assigning Products and Categories to Front Ends - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Assigning_Theme_to_Sales_Channel_and_Deleting_Sales_Channel",
+      "file": "Assigning_Theme_to_Sales_Channel_and_Deleting_Sales_Channel.md",
+      "title": "Assigning Theme to Sales Channel and Deleting Sales Channel - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Backend",
+      "file": "Backend.md",
+      "title": "Backend - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Creating_Manual_Orders",
+      "file": "Creating_Manual_Orders.md",
+      "title": "Creating Manual Orders - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Creating_Theme_from_Scratch",
+      "file": "Creating_Theme_from_Scratch.md",
+      "title": "Creating Theme from Scratch - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Design_Technologies_and_Creating_Theme",
+      "file": "Design_Technologies_and_Creating_Theme.md",
+      "title": "Design Technologies and Creating Theme - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Exporting_and_Importing_Themes",
+      "file": "Exporting_and_Importing_Themes.md",
+      "title": "Exporting and Importing Themes - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Frontend",
+      "file": "Frontend.md",
+      "title": "Frontend - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Main_Page",
+      "file": "Main_Page.md",
+      "title": "osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Attributes",
+      "file": "Managing_Attributes.md",
+      "title": "Managing Attributes - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Automatic_Import_and_Data_Sources",
+      "file": "Managing_Automatic_Import_and_Data_Sources.md",
+      "title": "Managing Automatic Import and Data Sources - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Banners",
+      "file": "Managing_Banners.md",
+      "title": "Managing Banners - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Brands",
+      "file": "Managing_Brands.md",
+      "title": "Managing Brands - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Categories",
+      "file": "Managing_Categories.md",
+      "title": "Managing Categories - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Coupons",
+      "file": "Managing_Coupons.md",
+      "title": "Managing Coupons - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Customer_Groups",
+      "file": "Managing_Customer_Groups.md",
+      "title": "Managing Customer Groups - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Customers",
+      "file": "Managing_Customers.md",
+      "title": "Managing Customers - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Default_Sort_Order_on_Product_Listing_and_Category",
+      "file": "Managing_Default_Sort_Order_on_Product_Listing_and_Category.md",
+      "title": "Managing Default Sort Order on Product Listing and Category - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Deleted_Orders",
+      "file": "Managing_Deleted_Orders.md",
+      "title": "Managing Deleted Orders - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Email_templates",
+      "file": "Managing_Email_templates.md",
+      "title": "Managing Email templates - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Export_and_Import",
+      "file": "Managing_Export_and_Import.md",
+      "title": "Managing Export and Import - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Featured_Products",
+      "file": "Managing_Featured_Products.md",
+      "title": "Managing Featured Products - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Filters_on_Categories",
+      "file": "Managing_Filters_on_Categories.md",
+      "title": "Managing Filters on Categories - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Give_Away",
+      "file": "Managing_Give_Away.md",
+      "title": "Managing Give Away - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Menus",
+      "file": "Managing_Menus.md",
+      "title": "Managing Menus - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Meta_Tags",
+      "file": "Managing_Meta_Tags.md",
+      "title": "Managing Meta Tags - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Notify_Me_when_in_Stock",
+      "file": "Managing_Notify_Me_when_in_Stock.md",
+      "title": "Managing Notify Me when in Stock - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Order_and_Product_Statuses",
+      "file": "Managing_Order_and_Product_Statuses.md",
+      "title": "Managing Order and Product Statuses - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Orders",
+      "file": "Managing_Orders.md",
+      "title": "Managing Orders - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Pages",
+      "file": "Managing_Pages.md",
+      "title": "Managing Pages - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Product_Groups",
+      "file": "Managing_Product_Groups.md",
+      "title": "Managing Product Groups - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Products",
+      "file": "Managing_Products.md",
+      "title": "Managing Products - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Properties",
+      "file": "Managing_Properties.md",
+      "title": "Managing Properties - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Reviews",
+      "file": "Managing_Reviews.md",
+      "title": "Managing Reviews - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Sales_Price",
+      "file": "Managing_Sales_Price.md",
+      "title": "Managing Sales Price - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Sales_Statistics_and_Purchase_Report",
+      "file": "Managing_Sales_Statistics_and_Purchase_Report.md",
+      "title": "Managing Sales Statistics and Purchase Report - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_SEO",
+      "file": "Managing_SEO.md",
+      "title": "Managing SEO - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Stock",
+      "file": "Managing_Stock.md",
+      "title": "Managing Stock - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Stocktaking_Costs",
+      "file": "Managing_Stocktaking_Costs.md",
+      "title": "Managing Stocktaking Costs - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Suppliers",
+      "file": "Managing_Suppliers.md",
+      "title": "Managing Suppliers - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Translation",
+      "file": "Managing_Translation.md",
+      "title": "Managing Translation - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Virtual_Gift_Card",
+      "file": "Managing_Virtual_Gift_Card.md",
+      "title": "Managing Virtual Gift Card - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_Warehouse(s)",
+      "file": "Managing_Warehouse_s.md",
+      "title": "Managing Warehouse(s) - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_XML_Sitemap",
+      "file": "Managing_XML_Sitemap.md",
+      "title": "Managing XML Sitemap - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Managing_XSell_and_UPSell",
+      "file": "Managing_XSell_and_UPSell.md",
+      "title": "Managing XSell and UPSell - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/OsCommerce",
+      "file": "OsCommerce.md",
+      "title": "OsCommerce - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Setting_up_GA4",
+      "file": "Setting_up_GA4.md",
+      "title": "Setting up GA4 - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/The_settings_of_E-commerce_Tracking_for_Google_Tag_Manager_(GTM)",
+      "file": "The_settings_of_E-commerce_Tracking_for_Google_Tag_Manager__GTM.md",
+      "title": "The settings of E-commerce Tracking for Google Tag Manager (GTM) - osCommerce Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.oscommerce.com/wiki/Uploading_Images_in_Bulk",
+      "file": "Uploading_Images_in_Bulk.md",
+      "title": "Uploading Images in Bulk - osCommerce Wiki",
+      "depth": 1
+    }
+  ]
+}

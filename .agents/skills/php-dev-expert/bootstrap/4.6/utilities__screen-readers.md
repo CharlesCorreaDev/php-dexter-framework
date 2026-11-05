@@ -1,0 +1,27 @@
+# Screen readers · Bootstrap v4.6
+
+> **Fonte / Source:** https://getbootstrap.com/docs/4.6/utilities/screen-readers/
+
+---
+
+[View on GitHub](https://github.com/twbs/bootstrap/blob/v4.6.2/site/content/docs/4.6/utilities/screen-readers.md "View and edit this file on GitHub")
+
+# Screen readers
+
+Use screen reader utilities to hide elements on all devices except screen readers.
+
+Hide an element to all devices **except screen readers** with `.sr-only`. Combine `.sr-only` with `.sr-only-focusable` to show the element again when it’s focused (e.g. by a keyboard-only user). Can also be used as mixins.
+
+[Skip to main content](#content)
+
+```
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+```
+
+```
+// Usage as a mixin
+.skip-navigation {
+  @include sr-only;
+  @include sr-only-focusable;
+}
+```

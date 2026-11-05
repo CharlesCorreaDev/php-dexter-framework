@@ -1,0 +1,242 @@
+{
+  "root_url": "** https://nextcloud.com/roundcube/",
+  "scope_prefix": "** https://nextcloud.com/roundcube/",
+  "total_pages": 39,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://nextcloud.com/roundcube/",
+      "file": "nextcloud__nextcloud_com_roundcube.md",
+      "title": "Roundcube - The most popular on premise webmail",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/BR",
+      "file": "wiki__BR.md",
+      "title": "Home · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Build-from-source",
+      "file": "wiki__Build-from-source.md",
+      "title": "Build from source · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Changelog",
+      "file": "wiki__Changelog.md",
+      "title": "Changelog · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration",
+      "file": "wiki__Configuration.md",
+      "title": "Configuration · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration:-LDAP-Address-Books",
+      "file": "wiki__Configuration_-LDAP-Address-Books.md",
+      "title": "Configuration: LDAP Address Books · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration:-Load-balanced-Setup",
+      "file": "wiki__Configuration_-Load-balanced-Setup.md",
+      "title": "Configuration: Load balanced Setup · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration:-Multi-Domain-Setup",
+      "file": "wiki__Configuration_-Multi-Domain-Setup.md",
+      "title": "Configuration: Multi Domain Setup · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration:-OAuth2",
+      "file": "wiki__Configuration_-OAuth2.md",
+      "title": "Configuration: OAuth2 · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration%3A-LDAP-Address-Books",
+      "file": "wiki__Configuration_3A-LDAP-Address-Books.md",
+      "title": "Configuration: LDAP Address Books · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration%3A-Load-balanced-Setup",
+      "file": "wiki__Configuration_3A-Load-balanced-Setup.md",
+      "title": "Configuration: Load balanced Setup · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration%3A-Multi-Domain-Setup",
+      "file": "wiki__Configuration_3A-Multi-Domain-Setup.md",
+      "title": "Configuration: Multi Domain Setup · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Configuration%3A-OAuth2",
+      "file": "wiki__Configuration_3A-OAuth2.md",
+      "title": "Configuration: OAuth2 · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Dev-Accessibility-Guidelines",
+      "file": "wiki__Dev-Accessibility-Guidelines.md",
+      "title": "Dev Accessibility Guidelines · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Dev-Contribution",
+      "file": "wiki__Dev-Contribution.md",
+      "title": "Dev Contribution · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Dev-Docs",
+      "file": "wiki__Dev-Docs.md",
+      "title": "Dev Docs · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Dev-Guidelines",
+      "file": "wiki__Dev-Guidelines.md",
+      "title": "Dev Guidelines · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Dev-Releases",
+      "file": "wiki__Dev-Releases.md",
+      "title": "Dev Releases · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Doc_SkinML",
+      "file": "wiki__Doc_SkinML.md",
+      "title": "Home · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/FAQ",
+      "file": "wiki__FAQ.md",
+      "title": "FAQ · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Howto-Report-Issues",
+      "file": "wiki__Howto-Report-Issues.md",
+      "title": "Howto Report Issues · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Image%28mvc_diagram.png%29",
+      "file": "wiki__Image_28mvc_diagram.png_29.md",
+      "title": "Home · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki",
+      "file": "wiki__index.md",
+      "title": "Home · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Install-Requirements",
+      "file": "wiki__Install-Requirements.md",
+      "title": "Install Requirements · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Installation",
+      "file": "wiki__Installation.md",
+      "title": "Installation · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Javascript-API",
+      "file": "wiki__Javascript-API.md",
+      "title": "Javascript API · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Languages",
+      "file": "wiki__Languages.md",
+      "title": "Languages · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Online-Help",
+      "file": "wiki__Online-Help.md",
+      "title": "Online Help · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugin-API",
+      "file": "wiki__Plugin-API.md",
+      "title": "Plugin API · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugin-Events",
+      "file": "wiki__Plugin-Events.md",
+      "title": "Plugin Events · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugin-Hooks",
+      "file": "wiki__Plugin-Hooks.md",
+      "title": "Plugin Hooks · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugin-managesieve",
+      "file": "wiki__Plugin-managesieve.md",
+      "title": "Plugin managesieve · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugin-password",
+      "file": "wiki__Plugin-password.md",
+      "title": "Plugin password · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugins-Link-to-new-page",
+      "file": "wiki__Plugins-Link-to-new-page.md",
+      "title": "Plugins Link to new page · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Plugins",
+      "file": "wiki__Plugins.md",
+      "title": "Plugins · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Skin-Markup",
+      "file": "wiki__Skin-Markup.md",
+      "title": "Skin Markup · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Skins",
+      "file": "wiki__Skins.md",
+      "title": "Skins · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Upgrade",
+      "file": "wiki__Upgrade.md",
+      "title": "Upgrade · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/roundcube/roundcubemail/wiki/Version-History",
+      "file": "wiki__Version-History.md",
+      "title": "Version History · roundcube/roundcubemail Wiki · GitHub",
+      "depth": 1
+    }
+  ]
+}

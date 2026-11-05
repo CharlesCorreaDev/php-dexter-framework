@@ -1,0 +1,59 @@
+# Filosofia
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/philosophy.parallel.php
+
+---
+
+# Filosofia
+
+Esta seção contém filosofias importantes para escrever código paralelo e alguns detalhes sobre a implementação interna do parallel.
+
+### Não se comunique compartilhando memória; em vez disso, compartilhe a memória comunicando-se.
+
+Essa filosofia abraçada pelo parallel tem sua origem no Go, uma das plataformas mais admiradas, senão mais utilizadas, para escrever código paralelo no momento.
+Os programadores Go precisam trabalhar duro para atingir esse ideal: PHP e parallel fazem todo o trabalho duro para o programador, e por padrão.
+
+Em modelos convencionais de threading encontrados em outras linguagens, geralmente os threads se comunicam entre si apenas pelo fato de
+operarem no mesmo espaço de endereço.
+O programador deve implantar exclusão mútua, variáveis de condição e outras primitivas de threading ou sincronização de baixo nível para garantir a comunicação adequada
+de estado e consistência.
+
+Quando o modelo convencional é invertido, significa que as threads só compartilham memória como resultado da comunicação (uma variável é passada por um Channel, por exemplo).
+
+Quando o parallel passa uma variável de um thread para outro por qualquer meio - argumentos de Task, retorno via Future e Channels - ela é passada por valor.
+Em todos os casos, exceto no caso de canais sem buffer, a variável também é armazenada em buffer para que não possa ser alterada (ou destruída) antes de ser usada em qualquer thread para o qual a variável
+está sendo passada. Uma leitura sem buffer em um channel é a única instância em que um thread lê diretamente a memória alocada por outro thread. Ele pode fazê-lo com segurança porque
+o thread que possui a memória está aguardando que a leitura seja concluída antes que possa continuar a manipulá-la, e o thread que não possui a memória lê por valor. Quando
+ambos os threads continuam, eles não estão mais compartilhando memória.
+
+Isso torna a escrita e o raciocínio sobre código paralelo muito mais fáceis do que o modelo convencional de threading. Isso significa que o programador não precisa considerar que threads
+podem estar manipulando dados simultaneamente, porque isso não é possível.
+
+Isso também torna o PHP a plataforma perfeita para implementar uma API de simultaneidade paralela baseada em CSP (passagem de mensagens por canais), porque o PHP em si não é compartilhado -
+threads PHP operam em seu próprio espaço de endereço virtual por padrão e, portanto, só podem compartilhar memória comunicando-se.
+
+### Os dados devem ter um único proprietário definitivo
+
+Ao abordar o modelo CSP pela primeira vez, um programador versado no modelo tradicional de threading pode se encontrar procurando estruturas de dados simultâneas,
+porque é por isso que elas também são usadas: elas passam objetos compartilhados para manipulação.
+
+Quando se trata do modelo CSP, não há necessidade de as estruturas de dados serem compartilhadas por muitas tarefas e, na verdade, é mais simples se não forem. Os dados devem pertencer
+a uma única tarefa, as alterações (ou operações) nessa estrutura de dados devem ser comunicadas através de canais e executadas pelo proprietário dos dados, o sucesso, a falha
+ou o resultado (estado) da alteração (ou operação) sendo comunicado de volta.
+
+Mais uma vez a natureza de zero compartilhamento do PHP e a natureza de cópia por valor do parallel ajudam o programador a atingir esse objetivo, nenhum dado será compartilhado por acidente,
+e sim apenas como resultado de comunicação.
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

@@ -1,0 +1,23 @@
+# Instalação
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/apache.installation.php
+
+---
+
+## Instalação
+
+Para instalação do PHP no Apache, veja o [capítulo de instalação](install.md).
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

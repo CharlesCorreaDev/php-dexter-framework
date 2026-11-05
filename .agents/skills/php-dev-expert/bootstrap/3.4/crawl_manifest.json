@@ -1,0 +1,170 @@
+{
+  "root_url": "https://getbootstrap.com/docs/3.4/",
+  "scope_prefix": "https://getbootstrap.com/docs/3.4/",
+  "total_pages": 27,
+  "generated_at": "2026-10-28T16:42:17Z",
+  "pages": [
+    {
+      "url": "https://getbootstrap.com/docs/3.4/",
+      "file": "index.md",
+      "title": "Bootstrap · The world’s most popular mobile-first and responsive front-end framework.",
+      "depth": 0
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/getting-started/",
+      "file": "getting-started.md",
+      "title": "Getting started · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/css/",
+      "file": "css.md",
+      "title": "CSS · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/components/",
+      "file": "components.md",
+      "title": "Components · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/javascript/",
+      "file": "javascript.md",
+      "title": "JavaScript · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/customize/",
+      "file": "customize.md",
+      "title": "Customize and download · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/about/",
+      "file": "about.md",
+      "title": "About · Bootstrap",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/starter-template/",
+      "file": "examples__starter-template.md",
+      "title": "Starter Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/theme/",
+      "file": "examples__theme.md",
+      "title": "Theme Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/grid/",
+      "file": "examples__grid.md",
+      "title": "Grid Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/jumbotron/",
+      "file": "examples__jumbotron.md",
+      "title": "Jumbotron Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/jumbotron-narrow/",
+      "file": "examples__jumbotron-narrow.md",
+      "title": "Narrow Jumbotron Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/navbar/",
+      "file": "examples__navbar.md",
+      "title": "Navbar Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/navbar-static-top/",
+      "file": "examples__navbar-static-top.md",
+      "title": "Static Top Navbar Example for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/navbar-fixed-top/",
+      "file": "examples__navbar-fixed-top.md",
+      "title": "Fixed Top Navbar Example for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/cover/",
+      "file": "examples__cover.md",
+      "title": "Cover Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/carousel/",
+      "file": "examples__carousel.md",
+      "title": "Carousel Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/blog/",
+      "file": "examples__blog.md",
+      "title": "Blog Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/dashboard/",
+      "file": "examples__dashboard.md",
+      "title": "Dashboard Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/signin/",
+      "file": "examples__signin.md",
+      "title": "Signin Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/justified-nav/",
+      "file": "examples__justified-nav.md",
+      "title": "Justified Nav Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/sticky-footer/",
+      "file": "examples__sticky-footer.md",
+      "title": "Sticky Footer Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/sticky-footer-navbar/",
+      "file": "examples__sticky-footer-navbar.md",
+      "title": "Sticky Footer Navbar Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/non-responsive/",
+      "file": "examples__non-responsive.md",
+      "title": "Non-responsive Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/examples/offcanvas/",
+      "file": "examples__offcanvas.md",
+      "title": "Off Canvas Template for Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/migration/",
+      "file": "migration.md",
+      "title": "Migrating to v3.x · Bootstrap",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/3.4/browser-bugs/",
+      "file": "browser-bugs.md",
+      "title": "Wall of browser bugs · Bootstrap",
+      "depth": 2
+    }
+  ]
+}

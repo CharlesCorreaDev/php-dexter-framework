@@ -1,0 +1,1940 @@
+{
+  "root_url": "** https://api.joomla.org/cms-2.5/classes/JAccess.html",
+  "scope_prefix": "** https://api.joomla.org/cms-2.5/classes/JAccess.html",
+  "total_pages": 322,
+  "generated_at": "2026-10-28T18:55:20Z",
+  "pages": [
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JAccess.html",
+      "file": "api_cms-2.5__classes__JAccess.md",
+      "title": "Joomla! CMS 2.5 API » \\JAccess",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JAccessRule.html",
+      "file": "api_cms-2.5__classes__JAccessRule.md",
+      "title": "Joomla! CMS 2.5 API » \\JAccessRule",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JAccessRules.html",
+      "file": "api_cms-2.5__classes__JAccessRules.md",
+      "title": "Joomla! CMS 2.5 API » \\JAccessRules",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JAdapter.html",
+      "file": "api_cms-2.5__classes__JAdapter.md",
+      "title": "Joomla! CMS 2.5 API » \\JAdapter",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JCryptCipher.html",
+      "file": "api_cms-2.5__classes__JCryptCipher.md",
+      "title": "Joomla! CMS 2.5 API » \\JCryptCipher",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JDatabaseInterface.html",
+      "file": "api_cms-2.5__classes__JDatabaseInterface.md",
+      "title": "Joomla! CMS 2.5 API » \\JDatabaseInterface",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/classes/JHttpTransport.html",
+      "file": "api_cms-2.5__classes__JHttpTransport.md",
+      "title": "Joomla! CMS 2.5 API » \\JHttpTransport",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/deprecated.html",
+      "file": "api_cms-2.5__deprecated.md",
+      "title": "Joomla! CMS 2.5 API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/errors.html",
+      "file": "api_cms-2.5__errors.md",
+      "title": "Joomla! CMS 2.5 API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/graph_class.html",
+      "file": "api_cms-2.5__graph_class.md",
+      "title": "Joomla! CMS 2.5 API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/index.html",
+      "file": "api_cms-2.5__index.md",
+      "title": "Joomla! CMS 2.5 API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/markers.html",
+      "file": "api_cms-2.5__markers.md",
+      "title": "Joomla! CMS 2.5 API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/namespaces/default.html",
+      "file": "api_cms-2.5__namespaces__default.md",
+      "title": "Joomla! CMS 2.5 API » \\",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/Cms.Libraries.html",
+      "file": "api_cms-2.5__packages__Cms.Libraries.md",
+      "title": "Joomla! CMS 2.5 API » \\Cms.Libraries",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/CMS.Library.html",
+      "file": "api_cms-2.5__packages__CMS.Library.md",
+      "title": "Joomla! CMS 2.5 API » \\CMS.Library",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/default.html",
+      "file": "api_cms-2.5__packages__default.md",
+      "title": "Joomla! CMS 2.5 API »",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/Joomla.Libraries.html",
+      "file": "api_cms-2.5__packages__Joomla.Libraries.md",
+      "title": "Joomla! CMS 2.5 API » \\Joomla.Libraries",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/Joomla.html",
+      "file": "api_cms-2.5__packages__Joomla.md",
+      "title": "Joomla! CMS 2.5 API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/Joomla.Platform.html",
+      "file": "api_cms-2.5__packages__Joomla.Platform.md",
+      "title": "Joomla! CMS 2.5 API » \\Joomla.Platform",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-2.5/packages/Joomla.Site.html",
+      "file": "api_cms-2.5__packages__Joomla.Site.md",
+      "title": "Joomla! CMS 2.5 API » \\Joomla.Site",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/deprecated.html",
+      "file": "api_cms-3__deprecated.md",
+      "title": "Joomla! CMS 3.10.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/errors.html",
+      "file": "api_cms-3__errors.md",
+      "title": "Joomla! CMS 3.10.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/graph_class.html",
+      "file": "api_cms-3__graph_class.md",
+      "title": "Joomla! CMS 3.10.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/index.html",
+      "file": "api_cms-3__index.md",
+      "title": "Joomla! CMS 3.10.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/markers.html",
+      "file": "api_cms-3__markers.md",
+      "title": "Joomla! CMS 3.10.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-access-exception.html",
+      "file": "api_cms-3__namespaces__joomla-cms-access-exception.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Access\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-access-wrapper.html",
+      "file": "api_cms-3__namespaces__joomla-cms-access-wrapper.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Access\\Wrapper",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-access.html",
+      "file": "api_cms-3__namespaces__joomla-cms-access.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Access",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-adapter.html",
+      "file": "api_cms-3__namespaces__joomla-cms-adapter.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Adapter",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-application.html",
+      "file": "api_cms-3__namespaces__joomla-cms-application.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-association.html",
+      "file": "api_cms-3__namespaces__joomla-cms-association.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Association",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-authentication.html",
+      "file": "api_cms-3__namespaces__joomla-cms-authentication.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-cache-controller.html",
+      "file": "api_cms-3__namespaces__joomla-cms-cache-controller.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Cache\\Controller",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-cache-exception.html",
+      "file": "api_cms-3__namespaces__joomla-cms-cache-exception.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Cache\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-cache-storage.html",
+      "file": "api_cms-3__namespaces__joomla-cms-cache-storage.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Cache\\Storage",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-cache.html",
+      "file": "api_cms-3__namespaces__joomla-cms-cache.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Cache",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms-captcha.html",
+      "file": "api_cms-3__namespaces__joomla-cms-captcha.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS\\Captcha",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla-cms.html",
+      "file": "api_cms-3__namespaces__joomla-cms.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla\\CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/namespaces/joomla.html",
+      "file": "api_cms-3__namespaces__joomla.md",
+      "title": "Joomla! CMS 3.10.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-3/packages/JoomlaCMS.html",
+      "file": "api_cms-3__packages__JoomlaCMS.md",
+      "title": "Joomla! CMS 3.10.x API » \\JoomlaCMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/deprecated.html",
+      "file": "api_cms-4__deprecated.md",
+      "title": "Joomla! CMS 4.4.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/errors.html",
+      "file": "api_cms-4__errors.md",
+      "title": "Joomla! CMS 4.4.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/graph_class.html",
+      "file": "api_cms-4__graph_class.md",
+      "title": "Joomla! CMS 4.4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/index.html",
+      "file": "api_cms-4__index.md",
+      "title": "Joomla! CMS 4.4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/markers.html",
+      "file": "api_cms-4__markers.md",
+      "title": "Joomla! CMS 4.4.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-access-exception.html",
+      "file": "api_cms-4__namespaces__joomla-cms-access-exception.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Access\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-access.html",
+      "file": "api_cms-4__namespaces__joomla-cms-access.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Access",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-adapter.html",
+      "file": "api_cms-4__namespaces__joomla-cms-adapter.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Adapter",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-application-cli-output-processor.html",
+      "file": "api_cms-4__namespaces__joomla-cms-application-cli-output-processor.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Application\\CLI\\Output\\Processor",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-application-cli-output.html",
+      "file": "api_cms-4__namespaces__joomla-cms-application-cli-output.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Application\\CLI\\Output",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-application-cli.html",
+      "file": "api_cms-4__namespaces__joomla-cms-application-cli.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Application\\CLI",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-application-exception.html",
+      "file": "api_cms-4__namespaces__joomla-cms-application-exception.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-application.html",
+      "file": "api_cms-4__namespaces__joomla-cms-application.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-association.html",
+      "file": "api_cms-4__namespaces__joomla-cms-association.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Association",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-authentication-password.html",
+      "file": "api_cms-4__namespaces__joomla-cms-authentication-password.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-authentication.html",
+      "file": "api_cms-4__namespaces__joomla-cms-authentication.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms-autoload.html",
+      "file": "api_cms-4__namespaces__joomla-cms-autoload.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS\\Autoload",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla-cms.html",
+      "file": "api_cms-4__namespaces__joomla-cms.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla\\CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/namespaces/joomla.html",
+      "file": "api_cms-4__namespaces__joomla.md",
+      "title": "Joomla! CMS 4.4.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-4/packages/JoomlaCMS.html",
+      "file": "api_cms-4__packages__JoomlaCMS.md",
+      "title": "Joomla! CMS 4.4.x API » \\JoomlaCMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/deprecated.html",
+      "file": "api_cms-5__deprecated.md",
+      "title": "Joomla! CMS 5.4.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/errors.html",
+      "file": "api_cms-5__errors.md",
+      "title": "Joomla! CMS 5.4.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/graph_class.html",
+      "file": "api_cms-5__graph_class.md",
+      "title": "Joomla! CMS 5.4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/index.html",
+      "file": "api_cms-5__index.md",
+      "title": "Joomla! CMS 5.4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/markers.html",
+      "file": "api_cms-5__markers.md",
+      "title": "Joomla! CMS 5.4.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-access-exception.html",
+      "file": "api_cms-5__namespaces__joomla-cms-access-exception.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Access\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-access.html",
+      "file": "api_cms-5__namespaces__joomla-cms-access.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Access",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-adapter.html",
+      "file": "api_cms-5__namespaces__joomla-cms-adapter.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Adapter",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-application-cli-output-processor.html",
+      "file": "api_cms-5__namespaces__joomla-cms-application-cli-output-processor.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Application\\CLI\\Output\\Processor",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-application-cli-output.html",
+      "file": "api_cms-5__namespaces__joomla-cms-application-cli-output.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Application\\CLI\\Output",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-application-cli.html",
+      "file": "api_cms-5__namespaces__joomla-cms-application-cli.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Application\\CLI",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-application-exception.html",
+      "file": "api_cms-5__namespaces__joomla-cms-application-exception.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-application.html",
+      "file": "api_cms-5__namespaces__joomla-cms-application.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-association.html",
+      "file": "api_cms-5__namespaces__joomla-cms-association.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Association",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-authentication-password.html",
+      "file": "api_cms-5__namespaces__joomla-cms-authentication-password.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-authentication.html",
+      "file": "api_cms-5__namespaces__joomla-cms-authentication.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms-autoload.html",
+      "file": "api_cms-5__namespaces__joomla-cms-autoload.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS\\Autoload",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla-cms.html",
+      "file": "api_cms-5__namespaces__joomla-cms.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla\\CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/namespaces/joomla.html",
+      "file": "api_cms-5__namespaces__joomla.md",
+      "title": "Joomla! CMS 5.4.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-5/packages/JoomlaCMS.html",
+      "file": "api_cms-5__packages__JoomlaCMS.md",
+      "title": "Joomla! CMS 5.4.x API » \\JoomlaCMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/deprecated.html",
+      "file": "api_cms-6__deprecated.md",
+      "title": "Joomla! CMS 6.0.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/errors.html",
+      "file": "api_cms-6__errors.md",
+      "title": "Joomla! CMS 6.0.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/graph_class.html",
+      "file": "api_cms-6__graph_class.md",
+      "title": "Joomla! CMS 6.0.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/index.html",
+      "file": "api_cms-6__index.md",
+      "title": "Joomla! CMS 6.0.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/markers.html",
+      "file": "api_cms-6__markers.md",
+      "title": "Joomla! CMS 6.0.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-access-exception.html",
+      "file": "api_cms-6__namespaces__joomla-cms-access-exception.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Access\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-access.html",
+      "file": "api_cms-6__namespaces__joomla-cms-access.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Access",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-application-exception.html",
+      "file": "api_cms-6__namespaces__joomla-cms-application-exception.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-application.html",
+      "file": "api_cms-6__namespaces__joomla-cms-application.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-association.html",
+      "file": "api_cms-6__namespaces__joomla-cms-association.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Association",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-authentication-password.html",
+      "file": "api_cms-6__namespaces__joomla-cms-authentication-password.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-authentication.html",
+      "file": "api_cms-6__namespaces__joomla-cms-authentication.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-autoload.html",
+      "file": "api_cms-6__namespaces__joomla-cms-autoload.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Autoload",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-button.html",
+      "file": "api_cms-6__namespaces__joomla-cms-button.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Button",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-cache-controller.html",
+      "file": "api_cms-6__namespaces__joomla-cms-cache-controller.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Cache\\Controller",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-cache-exception.html",
+      "file": "api_cms-6__namespaces__joomla-cms-cache-exception.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Cache\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms-cache.html",
+      "file": "api_cms-6__namespaces__joomla-cms-cache.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS\\Cache",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla-cms.html",
+      "file": "api_cms-6__namespaces__joomla-cms.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla\\CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/namespaces/joomla.html",
+      "file": "api_cms-6__namespaces__joomla.md",
+      "title": "Joomla! CMS 6.0.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/cms-6/packages/JoomlaCMS.html",
+      "file": "api_cms-6__packages__JoomlaCMS.md",
+      "title": "Joomla! CMS 6.0.x API » \\JoomlaCMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/deprecated.html",
+      "file": "api_framework-1__deprecated.md",
+      "title": "Joomla! Framework 1.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/errors.html",
+      "file": "api_framework-1__errors.md",
+      "title": "Joomla! Framework 1.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/graph_class.html",
+      "file": "api_framework-1__graph_class.md",
+      "title": "Joomla! Framework 1.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/index.html",
+      "file": "api_framework-1__index.md",
+      "title": "Joomla! Framework 1.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/markers.html",
+      "file": "api_framework-1__markers.md",
+      "title": "Joomla! Framework 1.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-application-cli-output-processor.html",
+      "file": "api_framework-1__namespaces__joomla-application-cli-output-processor.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Application\\Cli\\Output\\Processor",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-application-cli-output.html",
+      "file": "api_framework-1__namespaces__joomla-application-cli-output.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Application\\Cli\\Output",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-application-cli.html",
+      "file": "api_framework-1__namespaces__joomla-application-cli.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Application\\Cli",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-application-web.html",
+      "file": "api_framework-1__namespaces__joomla-application-web.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Application\\Web",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-application.html",
+      "file": "api_framework-1__namespaces__joomla-application.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-archive-exception.html",
+      "file": "api_framework-1__namespaces__joomla-archive-exception.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Archive\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-archive.html",
+      "file": "api_framework-1__namespaces__joomla-archive.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Archive",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-authentication-password.html",
+      "file": "api_framework-1__namespaces__joomla-authentication-password.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-authentication-strategies.html",
+      "file": "api_framework-1__namespaces__joomla-authentication-strategies.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Authentication\\Strategies",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-authentication.html",
+      "file": "api_framework-1__namespaces__joomla-authentication.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-console-command.html",
+      "file": "api_framework-1__namespaces__joomla-console-command.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Console\\Command",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-console-descriptor.html",
+      "file": "api_framework-1__namespaces__joomla-console-descriptor.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Console\\Descriptor",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla-console.html",
+      "file": "api_framework-1__namespaces__joomla-console.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla\\Console",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/namespaces/joomla.html",
+      "file": "api_framework-1__namespaces__joomla.md",
+      "title": "Joomla! Framework 1.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-1/packages/JoomlaFramework.html",
+      "file": "api_framework-1__packages__JoomlaFramework.md",
+      "title": "Joomla! Framework 1.x API » \\JoomlaFramework",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/deprecated.html",
+      "file": "api_framework-2__deprecated.md",
+      "title": "Joomla! Framework 2.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/errors.html",
+      "file": "api_framework-2__errors.md",
+      "title": "Joomla! Framework 2.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/graph_class.html",
+      "file": "api_framework-2__graph_class.md",
+      "title": "Joomla! Framework 2.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/index.html",
+      "file": "api_framework-2__index.md",
+      "title": "Joomla! Framework 2.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/markers.html",
+      "file": "api_framework-2__markers.md",
+      "title": "Joomla! Framework 2.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-application-controller.html",
+      "file": "api_framework-2__namespaces__joomla-application-controller.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Application\\Controller",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-application-event.html",
+      "file": "api_framework-2__namespaces__joomla-application-event.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Application\\Event",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-application-exception.html",
+      "file": "api_framework-2__namespaces__joomla-application-exception.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-application-web.html",
+      "file": "api_framework-2__namespaces__joomla-application-web.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Application\\Web",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-application.html",
+      "file": "api_framework-2__namespaces__joomla-application.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-archive-exception.html",
+      "file": "api_framework-2__namespaces__joomla-archive-exception.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Archive\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-archive.html",
+      "file": "api_framework-2__namespaces__joomla-archive.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Archive",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-authentication-exception.html",
+      "file": "api_framework-2__namespaces__joomla-authentication-exception.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Authentication\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-authentication-password.html",
+      "file": "api_framework-2__namespaces__joomla-authentication-password.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-authentication-strategies.html",
+      "file": "api_framework-2__namespaces__joomla-authentication-strategies.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Authentication\\Strategies",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-authentication.html",
+      "file": "api_framework-2__namespaces__joomla-authentication.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-console-command.html",
+      "file": "api_framework-2__namespaces__joomla-console-command.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Console\\Command",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla-console.html",
+      "file": "api_framework-2__namespaces__joomla-console.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla\\Console",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/namespaces/joomla.html",
+      "file": "api_framework-2__namespaces__joomla.md",
+      "title": "Joomla! Framework 2.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-2/packages/JoomlaFramework.html",
+      "file": "api_framework-2__packages__JoomlaFramework.md",
+      "title": "Joomla! Framework 2.x API » \\JoomlaFramework",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/deprecated.html",
+      "file": "api_framework-3__deprecated.md",
+      "title": "Joomla! Framework 3.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/errors.html",
+      "file": "api_framework-3__errors.md",
+      "title": "Joomla! Framework 3.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/graph_class.html",
+      "file": "api_framework-3__graph_class.md",
+      "title": "Joomla! Framework 3.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/index.html",
+      "file": "api_framework-3__index.md",
+      "title": "Joomla! Framework 3.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/markers.html",
+      "file": "api_framework-3__markers.md",
+      "title": "Joomla! Framework 3.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-application-controller.html",
+      "file": "api_framework-3__namespaces__joomla-application-controller.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Application\\Controller",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-application-event.html",
+      "file": "api_framework-3__namespaces__joomla-application-event.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Application\\Event",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-application-exception.html",
+      "file": "api_framework-3__namespaces__joomla-application-exception.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-application-web.html",
+      "file": "api_framework-3__namespaces__joomla-application-web.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Application\\Web",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-application.html",
+      "file": "api_framework-3__namespaces__joomla-application.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-archive-exception.html",
+      "file": "api_framework-3__namespaces__joomla-archive-exception.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Archive\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-archive.html",
+      "file": "api_framework-3__namespaces__joomla-archive.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Archive",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-authentication-exception.html",
+      "file": "api_framework-3__namespaces__joomla-authentication-exception.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Authentication\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-authentication-password.html",
+      "file": "api_framework-3__namespaces__joomla-authentication-password.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-authentication-strategies.html",
+      "file": "api_framework-3__namespaces__joomla-authentication-strategies.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Authentication\\Strategies",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-authentication.html",
+      "file": "api_framework-3__namespaces__joomla-authentication.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-console-command.html",
+      "file": "api_framework-3__namespaces__joomla-console-command.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Console\\Command",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla-console.html",
+      "file": "api_framework-3__namespaces__joomla-console.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla\\Console",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/namespaces/joomla.html",
+      "file": "api_framework-3__namespaces__joomla.md",
+      "title": "Joomla! Framework 3.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-3/packages/JoomlaFramework.html",
+      "file": "api_framework-3__packages__JoomlaFramework.md",
+      "title": "Joomla! Framework 3.x API » \\JoomlaFramework",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/deprecated.html",
+      "file": "api_framework-4__deprecated.md",
+      "title": "Joomla! Framework 4.x API » Deprecated elements",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/errors.html",
+      "file": "api_framework-4__errors.md",
+      "title": "Joomla! Framework 4.x API » Compilation errors",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/graph_class.html",
+      "file": "api_framework-4__graph_class.md",
+      "title": "Joomla! Framework 4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/index.html",
+      "file": "api_framework-4__index.md",
+      "title": "Joomla! Framework 4.x API",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/markers.html",
+      "file": "api_framework-4__markers.md",
+      "title": "Joomla! Framework 4.x API » Markers",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-application-controller.html",
+      "file": "api_framework-4__namespaces__joomla-application-controller.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Application\\Controller",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-application-event.html",
+      "file": "api_framework-4__namespaces__joomla-application-event.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Application\\Event",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-application-exception.html",
+      "file": "api_framework-4__namespaces__joomla-application-exception.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Application\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-application-web.html",
+      "file": "api_framework-4__namespaces__joomla-application-web.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Application\\Web",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-application.html",
+      "file": "api_framework-4__namespaces__joomla-application.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-archive-exception.html",
+      "file": "api_framework-4__namespaces__joomla-archive-exception.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Archive\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-archive.html",
+      "file": "api_framework-4__namespaces__joomla-archive.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Archive",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-authentication-exception.html",
+      "file": "api_framework-4__namespaces__joomla-authentication-exception.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Authentication\\Exception",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-authentication-password.html",
+      "file": "api_framework-4__namespaces__joomla-authentication-password.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Authentication\\Password",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-authentication-strategies.html",
+      "file": "api_framework-4__namespaces__joomla-authentication-strategies.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Authentication\\Strategies",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-authentication.html",
+      "file": "api_framework-4__namespaces__joomla-authentication.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Authentication",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-console-command.html",
+      "file": "api_framework-4__namespaces__joomla-console-command.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Console\\Command",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla-console.html",
+      "file": "api_framework-4__namespaces__joomla-console.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla\\Console",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/namespaces/joomla.html",
+      "file": "api_framework-4__namespaces__joomla.md",
+      "title": "Joomla! Framework 4.x API » \\Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/framework-4/packages/JoomlaFramework.html",
+      "file": "api_framework-4__packages__JoomlaFramework.md",
+      "title": "Joomla! Framework 4.x API » \\JoomlaFramework",
+      "depth": 1
+    },
+    {
+      "url": "** https://api.joomla.org/",
+      "file": "api_root__api_joomla_org.md",
+      "title": "Joomla! API",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/contributors",
+      "file": "guide__contributors.md",
+      "title": "Become a Knowledge Navigator",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/help-pages-references",
+      "file": "guide__help-pages-references.md",
+      "title": "Help Pages",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/how-to-guides",
+      "file": "guide__how-to-guides.md",
+      "title": "How-to guides",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/",
+      "file": "guide__index.md",
+      "title": "Joomla User Guide",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/tutorials",
+      "file": "guide__tutorials.md",
+      "title": "Tutorials",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles",
+      "file": "guide__user-guide__articles.md",
+      "title": "Articles",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-access-restriction",
+      "file": "guide__user-guide__articles__articles-article-access-restriction.md",
+      "title": "Article: Access Restriction",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-accessibility-check",
+      "file": "guide__user-guide__articles__articles-article-accessibility-check.md",
+      "title": "Article: Accessibility Check",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-check-in",
+      "file": "guide__user-guide__articles__articles-article-check-in.md",
+      "title": "Article: Check-in",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-configure-edit-screen",
+      "file": "guide__user-guide__articles__articles-article-configure-edit-screen.md",
+      "title": "Article: Edit - Configure Edit Screen",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-content",
+      "file": "guide__user-guide__articles__articles-article-content.md",
+      "title": "Article: Edit - Content",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-headings",
+      "file": "guide__user-guide__articles__articles-article-headings.md",
+      "title": "Article: Edit - Headings",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-images-and-links",
+      "file": "guide__user-guide__articles__articles-article-images-and-links.md",
+      "title": "Article: Edit - Images and Links",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-images",
+      "file": "guide__user-guide__articles__articles-article-images.md",
+      "title": "Article: Edit - Images",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-links",
+      "file": "guide__user-guide__articles__articles-article-links.md",
+      "title": "Article: Edit - Links",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-lists",
+      "file": "guide__user-guide__articles__articles-article-lists.md",
+      "title": "Article: Edit - Lists",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-metadata",
+      "file": "guide__user-guide__articles__articles-article-metadata.md",
+      "title": "Article: Edit - Metadata",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-options",
+      "file": "guide__user-guide__articles__articles-article-options.md",
+      "title": "Article: Edit - Options",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-pagination",
+      "file": "guide__user-guide__articles__articles-article-pagination.md",
+      "title": "Article: Edit - Pagination",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-permissions",
+      "file": "guide__user-guide__articles__articles-article-permissions.md",
+      "title": "Article: Edit - Permissions",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-preview",
+      "file": "guide__user-guide__articles__articles-article-preview.md",
+      "title": "Article: Preview",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-publishing",
+      "file": "guide__user-guide__articles__articles-article-publishing.md",
+      "title": "Article: Edit - Publishing",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-read-more",
+      "file": "guide__user-guide__articles__articles-article-read-more.md",
+      "title": "Article: Edit - Read More",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-save-to-menu",
+      "file": "guide__user-guide__articles__articles-article-save-to-menu.md",
+      "title": "Article: Save to Menu",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-tables",
+      "file": "guide__user-guide__articles__articles-article-tables.md",
+      "title": "Article: Edit - Tables",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-article-versions",
+      "file": "guide__user-guide__articles__articles-article-versions.md",
+      "title": "Article: Versions",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-articles-archive",
+      "file": "guide__user-guide__articles__articles-articles-archive.md",
+      "title": "Articles: Archive",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-articles-categories",
+      "file": "guide__user-guide__articles__articles-articles-categories.md",
+      "title": "Articles: Categories",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-articles-delete",
+      "file": "guide__user-guide__articles__articles-articles-delete.md",
+      "title": "Articles: Delete",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-articles-featured",
+      "file": "guide__user-guide__articles__articles-articles-featured.md",
+      "title": "Articles: Featured",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/articles/articles-articles-filter-options",
+      "file": "guide__user-guide__articles__articles-articles-filter-options.md",
+      "title": "Articles: Filter Options",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/command-line-interface",
+      "file": "guide__user-guide__command-line-interface.md",
+      "title": "Command Line Interface",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/command-line-interface/command-line-interface-joomla-cli-installation",
+      "file": "guide__user-guide__command-line-interface__command-line-interface-joomla-cli-installation.md",
+      "title": "Joomla CLI Installation",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/command-line-interface/command-line-interface-using-the-cli",
+      "file": "guide__user-guide__command-line-interface__command-line-interface-using-the-cli.md",
+      "title": "Using the CLI",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/components",
+      "file": "guide__user-guide__components.md",
+      "title": "Components",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/components/banners-banners",
+      "file": "guide__user-guide__components__banners-banners.md",
+      "title": "Banners",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration",
+      "file": "guide__user-guide__configuration.md",
+      "title": "Configuration",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-adding-www-to-a-url",
+      "file": "guide__user-guide__configuration__configuration-adding-www-to-a-url.md",
+      "title": "Adding www to a URL",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-disallow-directory-listing",
+      "file": "guide__user-guide__configuration__configuration-disallow-directory-listing.md",
+      "title": "Disallow Directory Listing",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-disallow-image-hotlinking",
+      "file": "guide__user-guide__configuration__configuration-disallow-image-hotlinking.md",
+      "title": "Disallow Image Hotlinking",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-global-configuration",
+      "file": "guide__user-guide__configuration__configuration-global-configuration.md",
+      "title": "Global Configuration",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-password-protect-directories",
+      "file": "guide__user-guide__configuration__configuration-password-protect-directories.md",
+      "title": "Password Protect Directories",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-robots-txt-file",
+      "file": "guide__user-guide__configuration__configuration-robots-txt-file.md",
+      "title": "The robots.txt file",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-site-offline",
+      "file": "guide__user-guide__configuration__configuration-site-offline.md",
+      "title": "Site Offline",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-smtp-mail-gmail",
+      "file": "guide__user-guide__configuration__configuration-smtp-mail-gmail.md",
+      "title": "SMTP mail and Gmail",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/configuration-the-htaccess-file",
+      "file": "guide__user-guide__configuration__configuration-the-htaccess-file.md",
+      "title": "The htaccess.txt file",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/configuration/sending-email-using-oauth-2-0",
+      "file": "guide__user-guide__configuration__sending-email-using-oauth-2-0.md",
+      "title": "SMTP OAuth 2.0 Configuration in Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/contacts",
+      "file": "guide__user-guide__contacts.md",
+      "title": "Contacts",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started",
+      "file": "guide__user-guide__getting-started.md",
+      "title": "Getting Started",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-adding-a-category",
+      "file": "guide__user-guide__getting-started__getting-started-adding-a-category.md",
+      "title": "Adding a Category",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-adding-a-menu-item",
+      "file": "guide__user-guide__getting-started__getting-started-adding-a-menu-item.md",
+      "title": "Adding a Menu Item",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-adding-a-module",
+      "file": "guide__user-guide__getting-started__getting-started-adding-a-module.md",
+      "title": "Adding a Module",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-adding-an-article",
+      "file": "guide__user-guide__getting-started__getting-started-adding-an-article.md",
+      "title": "Adding an Article",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-articles-and-categories",
+      "file": "guide__user-guide__getting-started__getting-started-articles-and-categories.md",
+      "title": "Articles and Categories",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-hosting-setup",
+      "file": "guide__user-guide__getting-started__getting-started-hosting-setup.md",
+      "title": "Hosting Setup",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-installing-joomla",
+      "file": "guide__user-guide__getting-started__getting-started-installing-joomla.md",
+      "title": "Installing Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-introduction-to-joomla",
+      "file": "guide__user-guide__getting-started__getting-started-introduction-to-joomla.md",
+      "title": "Introduction to Joomla!",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-joomla-core-features",
+      "file": "guide__user-guide__getting-started__getting-started-joomla-core-features.md",
+      "title": "Joomla Core Features",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-keyboard-shortcuts",
+      "file": "guide__user-guide__getting-started__getting-started-keyboard-shortcuts.md",
+      "title": "Keyboard Shortcuts",
+      "depth": 1
+    },
+    {
+      "url": "** https://guide.joomla.org/user-guide/getting-started/getting-started-logging-in-to-joomla",
+      "file": "guide__user-guide__getting-started__getting-started-logging-in-to-joomla.md",
+      "title": "Logging in to Joomla",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/",
+      "file": "manual_docs__4.4.md",
+      "title": "Introduction | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/about/",
+      "file": "manual_docs__4.4__about.md",
+      "title": "About | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/accessibility/",
+      "file": "manual_docs__4.4__accessibility.md",
+      "title": "Accessibility | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/building-extensions/",
+      "file": "manual_docs__4.4__building-extensions.md",
+      "title": "Build Extensions | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/changelog/",
+      "file": "manual_docs__4.4__changelog.md",
+      "title": "Changes to the CMS and the API | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/common-errors/",
+      "file": "manual_docs__4.4__common-errors.md",
+      "title": "Common Errors | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/general-concepts/",
+      "file": "manual_docs__4.4__general-concepts.md",
+      "title": "General Concepts | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/get-started/",
+      "file": "manual_docs__4.4__get-started.md",
+      "title": "Get Started | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/security/",
+      "file": "manual_docs__4.4__security.md",
+      "title": "Security | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/testing/",
+      "file": "manual_docs__4.4__testing.md",
+      "title": "Testing | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/user-interface-text/",
+      "file": "manual_docs__4.4__user-interface-text.md",
+      "title": "User Interface Text Guidelines | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/4.4/web-services-api/",
+      "file": "manual_docs__4.4__web-services-api.md",
+      "title": "Web Services API | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/",
+      "file": "manual_docs__5.4.md",
+      "title": "Introduction | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/accessibility/",
+      "file": "manual_docs__5.4__accessibility.md",
+      "title": "Accessibility | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/building-extensions/",
+      "file": "manual_docs__5.4__building-extensions.md",
+      "title": "Build Extensions | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/common-errors/",
+      "file": "manual_docs__5.4__common-errors.md",
+      "title": "Common Errors | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/development-strategy/",
+      "file": "manual_docs__5.4__development-strategy.md",
+      "title": "Development Strategy | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/general-concepts/",
+      "file": "manual_docs__5.4__general-concepts.md",
+      "title": "General Concepts | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/get-started/",
+      "file": "manual_docs__5.4__get-started.md",
+      "title": "Get Started | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/get-started/git/github-manual/",
+      "file": "manual_docs__5.4__get-started__git__github-manual.md",
+      "title": "GitHub Example 1: This Manual | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/security/",
+      "file": "manual_docs__5.4__security.md",
+      "title": "Security | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/testing/",
+      "file": "manual_docs__5.4__testing.md",
+      "title": "Testing | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/user-interface-text/",
+      "file": "manual_docs__5.4__user-interface-text.md",
+      "title": "User Interface Text Guidelines | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/5.4/web-services-api/",
+      "file": "manual_docs__5.4__web-services-api.md",
+      "title": "Web Services API | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/accessibility/",
+      "file": "manual_docs__accessibility.md",
+      "title": "Accessibility | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/building-extensions/",
+      "file": "manual_docs__building-extensions.md",
+      "title": "Build Extensions | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/building-extensions/modules/module-development-tutorial/",
+      "file": "manual_docs__building-extensions__modules__module-development-tutorial.md",
+      "title": "Module Development Tutorial | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/common-errors/",
+      "file": "manual_docs__common-errors.md",
+      "title": "Common Errors | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/development-strategy/",
+      "file": "manual_docs__development-strategy.md",
+      "title": "Development Strategy | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/development-strategy/backward-compatibility-policy/",
+      "file": "manual_docs__development-strategy__backward-compatibility-policy.md",
+      "title": "Backward Compatibility Policy | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/development-strategy/changes/",
+      "file": "manual_docs__development-strategy__changes.md",
+      "title": "Code Updates | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/development-strategy/security-policy/",
+      "file": "manual_docs__development-strategy__security-policy.md",
+      "title": "Security Policy | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/development-strategy/software-release-cycle/",
+      "file": "manual_docs__development-strategy__software-release-cycle.md",
+      "title": "Software Release Cycle | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/",
+      "file": "manual_docs__general-concepts.md",
+      "title": "General Concepts | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/acl/",
+      "file": "manual_docs__general-concepts__acl.md",
+      "title": "ACL | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/cache/",
+      "file": "manual_docs__general-concepts__cache.md",
+      "title": "Cache | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/categories/",
+      "file": "manual_docs__general-concepts__categories.md",
+      "title": "Categories | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/classes/",
+      "file": "manual_docs__general-concepts__classes.md",
+      "title": "Classes | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/dashboard/",
+      "file": "manual_docs__general-concepts__dashboard.md",
+      "title": "Dashboard | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/database/",
+      "file": "manual_docs__general-concepts__database.md",
+      "title": "Database | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/dependency-injection/",
+      "file": "manual_docs__general-concepts__dependency-injection.md",
+      "title": "Dependency Injection | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/extension-and-dispatcher/",
+      "file": "manual_docs__general-concepts__extension-and-dispatcher.md",
+      "title": "Extension and Dispatcher Classes | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/forms-fields/",
+      "file": "manual_docs__general-concepts__forms-fields.md",
+      "title": "Form Fields | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/forms/",
+      "file": "manual_docs__general-concepts__forms.md",
+      "title": "Forms | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/guided-tours/",
+      "file": "manual_docs__general-concepts__guided-tours.md",
+      "title": "Guided Tours | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/html-registry/",
+      "file": "manual_docs__general-concepts__html-registry.md",
+      "title": "HTML Registry | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/icons/",
+      "file": "manual_docs__general-concepts__icons.md",
+      "title": "Icons | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/input/",
+      "file": "manual_docs__general-concepts__input.md",
+      "title": "Input | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/javascript/",
+      "file": "manual_docs__general-concepts__javascript.md",
+      "title": "JavaScript | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/layouts/",
+      "file": "manual_docs__general-concepts__layouts.md",
+      "title": "Layouts | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/logging/",
+      "file": "manual_docs__general-concepts__logging.md",
+      "title": "Logging | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/mail/",
+      "file": "manual_docs__general-concepts__mail.md",
+      "title": "Mail | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/menus-menuitems/",
+      "file": "manual_docs__general-concepts__menus-menuitems.md",
+      "title": "Menus and Menuitems | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/namespaces/",
+      "file": "manual_docs__general-concepts__namespaces.md",
+      "title": "Namespaces | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/general-concepts/the-lifecycle/",
+      "file": "manual_docs__general-concepts__the-lifecycle.md",
+      "title": "Joomla's Lifecycle | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/",
+      "file": "manual_docs__get-started.md",
+      "title": "Get Started | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/codestyle/",
+      "file": "manual_docs__get-started__codestyle.md",
+      "title": "Coding Style Guide | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/composer/",
+      "file": "manual_docs__get-started__composer.md",
+      "title": "Composer | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/git/",
+      "file": "manual_docs__get-started__git.md",
+      "title": "Git | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/git/github-manual/",
+      "file": "manual_docs__get-started__git__github-manual.md",
+      "title": "GitHub Example 1: This Manual | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/ide/",
+      "file": "manual_docs__get-started__ide.md",
+      "title": "IDE | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/npm/",
+      "file": "manual_docs__get-started__npm.md",
+      "title": "NPM | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/get-started/technical-requirements/",
+      "file": "manual_docs__get-started__technical-requirements.md",
+      "title": "Technical Requirements | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/",
+      "file": "manual_docs__index.md",
+      "title": "Introduction | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/",
+      "file": "manual_docs__next.md",
+      "title": "Introduction | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/accessibility/",
+      "file": "manual_docs__next__accessibility.md",
+      "title": "Accessibility | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/building-extensions/",
+      "file": "manual_docs__next__building-extensions.md",
+      "title": "Build Extensions | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/common-errors/",
+      "file": "manual_docs__next__common-errors.md",
+      "title": "Common Errors | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/development-strategy/",
+      "file": "manual_docs__next__development-strategy.md",
+      "title": "Development Strategy | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/general-concepts/",
+      "file": "manual_docs__next__general-concepts.md",
+      "title": "General Concepts | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/get-started/",
+      "file": "manual_docs__next__get-started.md",
+      "title": "Get Started | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/get-started/git/github-manual/",
+      "file": "manual_docs__next__get-started__git__github-manual.md",
+      "title": "GitHub Example 1: This Manual | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/security/",
+      "file": "manual_docs__next__security.md",
+      "title": "Security | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/testing/",
+      "file": "manual_docs__next__testing.md",
+      "title": "Testing | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/user-interface-text/",
+      "file": "manual_docs__next__user-interface-text.md",
+      "title": "User Interface Text Guidelines | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/next/web-services-api/",
+      "file": "manual_docs__next__web-services-api.md",
+      "title": "Web Services API | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/security/",
+      "file": "manual_docs__security.md",
+      "title": "Security | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/testing/",
+      "file": "manual_docs__testing.md",
+      "title": "Testing | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/user-interface-text/",
+      "file": "manual_docs__user-interface-text.md",
+      "title": "User Interface Text Guidelines | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/docs/web-services-api/",
+      "file": "manual_docs__web-services-api.md",
+      "title": "Web Services API | Joomla! Programmers Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://manual.joomla.org/",
+      "file": "manual_home__manual_joomla_org.md",
+      "title": "Get started with the Joomla! Programmers Documentation | Joomla! Programmers Documentation",
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+# Retorna o resultado de adicionar todos os valores fornecidos à sequência
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/ds-sequence.merge.php
+
+---
+
+# Ds\Sequence::merge
+
+(PECL ds >= 1.0.0)
+
+Ds\Sequence::merge — Retorna o resultado de adicionar todos os valores fornecidos à sequência
+
+### Descrição
+
+abstract public function **Ds\Sequence::merge**([mixed](language.types.mixed.md) `$values`): [Ds\Sequence](class.ds-sequence.md)
+
+Retorna o resultado de adicionar todos os valores fornecidos à sequência.
+
+### Parâmetros
+
+`values`
+:   Um objeto [traversable](class.traversable.md) ou um [array](language.types.array.md).
+
+### Valor Retornado
+
+O resultado de adicionar todos os valores fornecidos à sequência,
+efetivamente o mesmo que adicionar os valores a uma cópia e, em seguida, retornar essa cópia.
+
+> **Nota**:
+>
+> A instância atual não será afetada.
+
+### Examples
+
+**Exemplo #1 Exemplo de **Ds\Sequence::merge()****
+
+```
+<?php
+$sequence = new \Ds\Vector([1, 2, 3]);
+
+var_dump($sequence->merge([4, 5, 6]));
+var_dump($sequence);
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+object(Ds\Vector)#2 (6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  int(4)
+  [4]=>
+  int(5)
+  [5]=>
+  int(6)
+}
+object(Ds\Vector)#1 (3) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+}
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

@@ -1,0 +1,95 @@
+# Tasks - WebFramework
+
+> **Fonte / Source:** https://web-framework.com/tasks/
+
+---
+
+# Tasks
+
+This document provides a guide for developers on how to create and run tasks in the WebFramework. Tasks are used to perform specific operations, such as database initialization or updates, and can be executed from the command line.
+
+## Overview
+
+Tasks in WebFramework implement the `Task`, which defines a single method, `execute()`. This method contains the logic for the task. Tasks are executed using the `TaskRunner`, which sets up the application environment and runs the specified task.
+
+## Creating Custom Tasks
+
+To create a custom task, you need to implement the `Task` and define the `execute()` method. This method should contain the logic for your task.
+
+### Example: Custom Task
+
+| PHP | |
+| --- | --- |
+| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 14 ``` | ``` <?php  namespace App\Task;  use WebFramework\Core\Task;  class CustomTask implements Task {     public function execute(): void     {         // Task logic goes here         echo "Running custom task...";     } } ``` |
+
+In this example, the `CustomTask` class implements the `Task` and defines the `execute()` method, which contains the task logic.
+
+## Running Tasks from the Command Line
+
+Tasks can be executed from the command line using PHP scripts. These scripts initialize the `TaskRunner` and execute the specified task.
+
+### Example: Running a Task
+
+To run a task from the command line, create a script similar to the following:
+
+| PHP | |
+| --- | --- |
+| ```  1  2  3  4  5  6  7  8  9 10 11 ``` | ``` <?php  use WebFramework\Core\TaskRunner; use App\Task\CustomTask;  require_once __DIR__.'/../vendor/autoload.php';  $taskRunner = new TaskRunner(__DIR__.'/..'); $taskRunner->build();  $taskRunner->execute(CustomTask::class); ``` |
+
+This script initializes the `TaskRunner`, builds the application environment, and executes the `CustomTask`.
+
+## Existing Tasks
+
+The WebFramework includes several predefined tasks for common operations. Here are the existing tasks and their purposes:
+
+### SlimAppTask
+
+- **Purpose**: Initializes and runs the Slim application.
+- **Script**: `public/index.php`
+- **Script**: Typically run as part of the web server setup, not directly from the command line.
+
+### DbInitTask
+
+- **Purpose**: Initializes the database schema.
+- **Script**: `scripts/db_init.php`
+- **Usage**: Run this script to set up the initial database schema.
+
+### DbUpdateTask
+
+- **Purpose**: Updates the database schema to the latest version.
+- **Script**: `scripts/db_update.php`
+- **Usage**: Run this script to apply database migrations and update the schema.
+
+### DbVersionTask
+
+- **Purpose**: Displays the current database version.
+- **Script**: `scripts/db_version.php`
+- **Usage**: Run this script to check the current version of the database schema.
+
+### SanityCheckTask
+
+- **Purpose**: Runs sanity checks on the application.
+- **Script**: `scripts/sanity_check.php`
+- **Usage**: Run this script to perform sanity checks and ensure the application environment is correct.
+
+### TaskRunnerTask
+
+- **Purpose**: Executes a custom task class from the command line.
+- **Command**: `task:run`
+- **Usage**: Run this command to execute any task that implements the `Task` interface.
+
+#### Options
+
+- `--continuous`: Run the task continuously in a loop
+- `--delay <secs>`: The delay between continuous runs in seconds (default: 1)
+- `--max-runtime <secs>`: The maximum runtime in seconds for continuous execution
+- `--attempts <num>`: The maximum number of attempts if the task fails (default: 1, no retries)
+- `--backoff <secs>`: The backoff delay in seconds between retries (default: 1). The actual delay is multiplied by the attempt number (exponential backoff)
+
+#### Examples
+
+| Bash | |
+| --- | --- |
+| ``` 1 2 3 4 5 6 7 8 ``` | ``` # Run a task once php scripts/framework.php task:run App\\Task\\MyTask  # Run a task with retry logic (3 attempts with 2 second base backoff) php scripts/framework.php task:run --attempts 3 --backoff 2 App\\Task\\MyTask  # Run a task continuously with retry logic php scripts/framework.php task:run --continuous --delay 60 --attempts 3 --backoff 5 App\\Task\\MyTask ``` |
+
+When using retry logic, if a task throws an exception, it will be retried up to the specified number of attempts. The delay between retries follows an exponential backoff pattern: `backoff * attempt_number`. For example, with `--backoff 2` and `--attempts 3`, the delays will be 2 seconds (after attempt 1), 4 seconds (after attempt 2), and then the final exception will be thrown if attempt 3 also fails.

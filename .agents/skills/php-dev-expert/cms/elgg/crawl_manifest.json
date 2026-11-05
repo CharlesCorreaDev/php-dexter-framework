@@ -1,0 +1,368 @@
+{
+  "root_url": "** https://learn.elgg.org/en/stable/admin/backup-restore.html",
+  "scope_prefix": "** https://learn.elgg.org/en/stable/admin/backup-restore.html",
+  "total_pages": 60,
+  "generated_at": "2026-10-28T18:55:18Z",
+  "pages": [
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/backup-restore.html",
+      "file": "admin__backup-restore.md",
+      "title": "Backup and Restore — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/composer.html",
+      "file": "admin__composer.md",
+      "title": "Composer installation — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/cron.html",
+      "file": "admin__cron.md",
+      "title": "Cron — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/duplicate-installation.html",
+      "file": "admin__duplicate-installation.md",
+      "title": "Duplicate Installation — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/getting-help.html",
+      "file": "admin__getting-help.md",
+      "title": "Getting Help — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/getting_started.html",
+      "file": "admin__getting_started.md",
+      "title": "Getting Started — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/index.html",
+      "file": "admin__index.md",
+      "title": "Administrator Guides — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/performance.html",
+      "file": "admin__performance.md",
+      "title": "Performance — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/plugins.html",
+      "file": "admin__plugins.md",
+      "title": "Plugins — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/security.html",
+      "file": "admin__security.md",
+      "title": "Security — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/spam.html",
+      "file": "admin__spam.md",
+      "title": "Spam — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/upgrading.html",
+      "file": "admin__upgrading.md",
+      "title": "Upgrading Elgg — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/admin/uservalidation.html",
+      "file": "admin__uservalidation.md",
+      "title": "User validation — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/appendix/index.html",
+      "file": "appendix__index.md",
+      "title": "Appendix — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/contribute/index.html",
+      "file": "contribute__index.md",
+      "title": "Contributor Guides — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/design/index.html",
+      "file": "design__index.md",
+      "title": "Design Docs — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/access.html",
+      "file": "guides__access.md",
+      "title": "Access Control Lists — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/accessibility.html",
+      "file": "guides__accessibility.md",
+      "title": "Accessibility — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/actions.html",
+      "file": "guides__actions.md",
+      "title": "Forms + Actions — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/ajax.html",
+      "file": "guides__ajax.md",
+      "title": "Ajax — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/authentication.html",
+      "file": "guides__authentication.md",
+      "title": "Authentication — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/capabilities.html",
+      "file": "guides__capabilities.md",
+      "title": "Capabilities — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/context.html",
+      "file": "guides__context.md",
+      "title": "Context — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/cron.html",
+      "file": "guides__cron.md",
+      "title": "Cron — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/database.html",
+      "file": "guides__database.md",
+      "title": "Database — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/dont-modify-core.html",
+      "file": "guides__dont-modify-core.md",
+      "title": "Don’t Modify Core — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/email.html",
+      "file": "guides__email.md",
+      "title": "Email — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/errors.html",
+      "file": "guides__errors.md",
+      "title": "Error Handling — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/events-list.html",
+      "file": "guides__events-list.md",
+      "title": "List of events in core — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/file-system.html",
+      "file": "guides__file-system.md",
+      "title": "File System — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/group-tools.html",
+      "file": "guides__group-tools.md",
+      "title": "Group Tools — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/guidelines.html",
+      "file": "guides__guidelines.md",
+      "title": "Plugin coding guidelines — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/helpers.html",
+      "file": "guides__helpers.md",
+      "title": "Helper functions — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/i18n.html",
+      "file": "guides__i18n.md",
+      "title": "Internationalization — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/index.html",
+      "file": "guides__index.md",
+      "title": "Developer Guides — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/javascript.html",
+      "file": "guides__javascript.md",
+      "title": "JavaScript — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/menus.html",
+      "file": "guides__menus.md",
+      "title": "Menus — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/notifications.html",
+      "file": "guides__notifications.md",
+      "title": "Notifications — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/page-owner.html",
+      "file": "guides__page-owner.md",
+      "title": "Page ownership — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/permissions-check.html",
+      "file": "guides__permissions-check.md",
+      "title": "Permissions Check — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/plugins.html",
+      "file": "guides__plugins.md",
+      "title": "Plugins — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/restore.html",
+      "file": "guides__restore.md",
+      "title": "Restore capability — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/river.html",
+      "file": "guides__river.md",
+      "title": "River — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/routing.html",
+      "file": "guides__routing.md",
+      "title": "Routing — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/search.html",
+      "file": "guides__search.md",
+      "title": "Search — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/services.html",
+      "file": "guides__services.md",
+      "title": "Services — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/settings.html",
+      "file": "guides__settings.md",
+      "title": "Plugin settings — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/themes.html",
+      "file": "guides__themes.md",
+      "title": "Themes — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/guides/upgrading-data.html",
+      "file": "guides__upgrading-data.md",
+      "title": "Writing a plugin upgrade — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/",
+      "file": "index.md",
+      "title": "Elgg Documentation (master) — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/intro/development.html",
+      "file": "intro__development.md",
+      "title": "Developer Overview — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/intro/elgg-cli.html",
+      "file": "intro__elgg-cli.md",
+      "title": "Elgg CLI — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/intro/index.html",
+      "file": "intro__index.md",
+      "title": "Getting Started — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/intro/install.html",
+      "file": "intro__install.md",
+      "title": "Installation — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/intro/license.html",
+      "file": "intro__license.md",
+      "title": "License — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/plugins/index.html",
+      "file": "plugins__index.md",
+      "title": "Bundled plugins — Elgg master documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/_sources/admin/index.rst.txt",
+      "file": "sources__admin__index.rst.txt.md",
+      "title": "/en/stable/_sources/admin/index.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/_sources/index.rst.txt",
+      "file": "sources__index.rst.txt.md",
+      "title": "/en/stable/_sources/index.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/_sources/intro/index.rst.txt",
+      "file": "sources__intro__index.rst.txt.md",
+      "title": "/en/stable/_sources/intro/index.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://learn.elgg.org/en/stable/tutorials/index.html",
+      "file": "tutorials__index.md",
+      "title": "Tutorials — Elgg master documentation",
+      "depth": 1
+    }
+  ]
+}

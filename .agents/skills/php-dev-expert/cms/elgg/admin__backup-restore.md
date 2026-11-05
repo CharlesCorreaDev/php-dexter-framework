@@ -1,0 +1,298 @@
+# Backup and Restore — Elgg master documentation
+
+> **Fonte / Source:** https://learn.elgg.org/en/stable/admin/backup-restore.html
+
+---
+
+# Backup and Restore[](#backup-and-restore "Permalink to this heading")
+
+Contents
+
+- [Introduction](#introduction)
+
+  - [Why](#why)
+  - [What](#what)
+  - [Assumptions](#assumptions)
+- [Creating a usable backup - automatically](#creating-a-usable-backup-automatically)
+
+  - [Customize the backup script](#customize-the-backup-script)
+  - [Configure the backup Cron job](#configure-the-backup-cron-job)
+  - [Configure the cleanup Cron job](#configure-the-cleanup-cron-job)
+- [Restoring from backup](#restoring-from-backup)
+
+  - [Prepare your backup files](#prepare-your-backup-files)
+  - [Restore the files](#restore-the-files)
+  - [Restore the Database](#restore-the-database)
+  - [Edit the database backup file](#edit-the-database-backup-file)
+  - [Create the new database](#create-the-new-database)
+  - [Restore the production database](#restore-the-production-database)
+  - [Bringing it all together](#bringing-it-all-together)
+  - [Finalizing the new installation](#finalizing-the-new-installation)
+- [Congratulations!](#congratulations)
+- [Related](#related)
+
+## [Introduction](#id1)[](#introduction "Permalink to this heading")
+
+### [Why](#id2)[](#why "Permalink to this heading")
+
+Shared hosting providers typically don’t provide an automated way to backup your Elgg installation. This article will
+address a method of accomplishing this task.
+
+In IT there are often many ways to accomplish the same thing. Keep that in mind. This article will explain one method
+to backup and restore your Elgg installation on a shared hosting provider that uses the CPanel application. However,
+the ideas presented here can be tailored to other applications as well. The following are typical situations that
+might require a procedure such as this:
+
+- Disaster Recovery
+- Moving your Elgg site to a new host
+- Duplicating an installation
+
+### [What](#id3)[](#what "Permalink to this heading")
+
+Topics covered:
+
+- Full backups of the Elgg directories and databases are performed daily (automated)
+- The backups are sent to an off-site location via FTP (automated)
+- The local backups are deleted after successful transfer to the off-site location (automatic)
+- Five days of backups will be maintained (automated)
+- Restoration of data to the new host (manual)
+
+This process was composed with assistance from previous articles in the Elgg documentation wiki.
+
+### [Assumptions](#id4)[](#assumptions "Permalink to this heading")
+
+The following assumptions have been made:
+
+- The Elgg program directory is `/home/userx/public_html`
+- The Elgg data directory is `/home/userx/elggdata`
+- You’ve created a local directory for your backups at `/home/userx/sitebackups`
+- You have an off-site FTP server to send the backup files to
+- The directory that you will be saving the off-site backups to is `/home/usery/sitebackups/`
+- You will be restoring the site to a second shared hosting provider in the `/home/usery/public_html` directory
+
+Important
+
+Be sure to replace `userx`, `usery`, `http://mynewdomain.com` and all passwords with values that reflect
+your actual installation!
+
+## [Creating a usable backup - automatically](#id5)[](#creating-a-usable-backup-automatically "Permalink to this heading")
+
+### [Customize the backup script](#id6)[](#customize-the-backup-script "Permalink to this heading")
+
+The script that you will use can be found [here](admin__backup__ftp-backup-script.md) .
+
+Just copy the script to a text file and name the file with a .pl extension. You can use any text editor to update the file.
+
+Change the following to reflect your directory structure:
+
+```
+# ENTER THE PATH TO THE DIRECTORY YOU WANT TO BACKUP, NO TRAILING SLASH
+$directory_to_backup = '/home/userx/public_html';
+$directory_to_backup2 = '/home/userx/elggdata';
+# ENTER THE PATH TO THE DIRECTORY YOU WISH TO SAVE THE BACKUP FILE TO, NO TRAILING SLASH
+$backup_dest_dir = '/home/userx/sitebackups';
+```
+
+Change the following to reflect your database parameters:
+
+```
+# DATABASE BACKUP PARAMETERS
+$dbhost = 'localhost';
+$dbuser = 'userx_elgg';
+$dbpwd = 'dbpassword';
+# ENTER DATABASE NAME
+$database_names_elgg = 'userx_elgg';
+```
+
+Change the following to reflect your off-site FTP server parameters:
+
+```
+# FTP PARAMETERS
+$ftp_host = "FTP HOSTNAME/IP";
+$ftp_user = "ftpuser";
+$ftp_pwd = "ftppassword";
+$ftp_dir = "/";
+```
+
+Save the file with the `.pl` extension (for the purposes of this article we will name the file:`elgg-ftp-backup-script.pl`)
+and upload it to the following directory `/home/userx/sitebackups`
+
+Be aware that you can turn off FTP and flip a bit in the script so that it does not delete the local backup file in
+the event that you don’t want to use off-site storage for your backups.
+
+### [Configure the backup Cron job](#id7)[](#configure-the-backup-cron-job "Permalink to this heading")
+
+Login to your CPanel application and click on the “Cron Jobs” link. In the Common Settings dropdown choose “Once a day”
+and type the following in the command field `/usr/bin/perl /home/userx/sitebackups/elgg-ftp-backup-script.pl`
+
+Click on the “Add New Cron Job” button. Daily full backups are now scheduled and will be transferred off-site.
+
+### [Configure the cleanup Cron job](#id8)[](#configure-the-cleanup-cron-job "Permalink to this heading")
+
+If you are sending your backups, via FTP, to another shared hosting provider that uses the CPanel application or you’ve
+turned off FTP altogether you can configure your data retention as follows.
+
+Login to your CPanel application for your FTP site, or locally if you’re not using FTP, and click on the “Cron Jobs”
+link. In the Common Settings dropdown choose “Once a day” and type the following in the command field
+`find /home/usery/sitebackups/full_* -mtime +4 -exec rm {} \;`
+
+The `-mtime X` parameter will set the number of days to retain backups. All files older than `x` number of days
+will be deleted. Click on the “Add New Cron Job” button. You have now configured your backup retention time.
+
+## [Restoring from backup](#id9)[](#restoring-from-backup "Permalink to this heading")
+
+### [Prepare your backup files](#id10)[](#prepare-your-backup-files "Permalink to this heading")
+
+The assumption is that you’re restoring your site to another shared hosting provider with CPanel.
+
+When the script backed the files up the original directory structure was maintained in the zip file. We need to do a
+little cleanup. Perform the following:
+
+- Download the backup file that you wish to restore from
+- Extract the contents of the backup file
+- Drill down and you will find your site backup and SQL backup. Extract both of these. You will then have:
+  :   - a database dump file with a `.sql` extension
+      - another directory structure with the contents of:
+        :   - `/home/userx/public_html`
+            - `/home/userx/elggdata`
+- Repackage the contents of the `/home/userx/public_html` directory as a zip file so that the files are in the root of the zip file
+  :   - The reason for doing this is simple. It’s much more efficient to upload one zip file than it is to ftp the
+        contents of the `/home/userx/public_html` directory to your new host.
+- Repackage the contents of the /home/userx/elggdata directory as a zip file so that the files are in the root of the zip file
+
+You should now have the following files:
+
+- the `.sql` file
+- the zip file with the contents of `/home/userx/public_html` in the root
+- the zip file with the contents of `/home/userx/elggdata` in the root
+
+### [Restore the files](#id11)[](#restore-the-files "Permalink to this heading")
+
+This is written with the assumption that you’re restoring to a different host but maintaining the original directory
+structure. Perform the following:
+
+- Login to the CPanel application on the host that you wish to restore the site to and open the File Manager.
+- Navigate to `/home/usery/public_html`
+  :   - Upload the zip file that contains the `/home/userx/public_html` files
+      - Extract the zip file
+        :   You should now see all of the files in `/home/usery/public_html`
+      - Delete the zip file
+- Navigate to `/home/usery/elggdata`
+  :   - Upload the zip file that contains the `/home/userx/elggdata` files
+      - Extract the zip file
+        :   You should now see all of the files in `/home/usery/elggdata`
+      - Delete the zip file
+
+Program and data file restoration is complete
+
+### [Restore the Database](#id12)[](#restore-the-database "Permalink to this heading")
+
+Note
+
+Again, the assumption here is that you’re restoring your Elgg installation to a second shared hosting provider.
+Each shared hosting provider prepends the account holder’s name to the databases associated with that account.
+For example, the username for our primary host is `userx` so the host will prepend `userx_` to give us a
+database name of `userx_elgg`. When we restore to our second shared hosting provider we’re doing so with a
+username of `usery` so our database name will be `usery_elgg`. The hosting providers don’t allow you to
+modify this behavior. So the process here isn’t as simple as just restoring the database from backup to the
+`usery` account. However, having said that, it’s not terribly difficult either.
+
+### [Edit the database backup file](#id13)[](#edit-the-database-backup-file "Permalink to this heading")
+
+Open the `.sql` file that you extracted from your backup in your favorite text editor. Comment out the following
+lines with a hash mark:
+
+```
+#CREATE DATABASE /*!32312 IF NOT EXISTS*/ `userx_elgg` /*!40100 DEFAULT CHARACTER SET latin1 */;
+#USE `userx_elgg`;
+```
+
+Save the file.
+
+### [Create the new database](#id14)[](#create-the-new-database "Permalink to this heading")
+
+Perform the following:
+
+- Login to the CPanel application on the new host and click on the “MariaDB/MySQL Databases” icon
+  :   - Fill in the database name and click the “create” button. For our example we are going to stick with `elgg`
+        which will give us a database name of `usery_elgg`
+      - You can associate an existing user with the new database, but to create a new user you will need to:
+        :   - Go to the “Add New User” section of the “MariaDB/MySQL Databases” page
+            - Enter the username and password. For our example we’re going to keep it simple and use `elgg` once again.
+              This will give us a username of `usery_elgg`
+      - Associate the new user with the new database
+        :   - Go to the “Add User To Database” section of the “MariaDB/MySQL Databases” page. Add the `usery_elgg` user
+              to the `usery_elgg` database
+            - Select “All Privileges” and click the “Make Changes” button
+
+### [Restore the production database](#id15)[](#restore-the-production-database "Permalink to this heading")
+
+Now it’s time to restore the database backup file by importing it into our new database named `usery_elgg`.
+
+- Login to the CPanel application on the new host and click on the “phpMyAdmin” icon
+  :   - Choose the `usery_elgg` database in the left hand column
+      - Click on the “import” tab at the top of the page
+      - Browse to the `.sql` backup on your local computer and select it
+      - Click the “Go” button on the bottom right side of the page
+
+You should now see a message stating that the operation was successful
+
+### [Bringing it all together](#id16)[](#bringing-it-all-together "Permalink to this heading")
+
+The restored Elgg installation knows **nothing** about the new database name, database username, directory structure,
+etc. That’s what we’re going to address here.
+
+Edit `/public_html/elgg-config/settings.php` on the new hosting provider to reflect the database information
+for the database that you just created.
+
+```
+// Database username
+$CONFIG->dbuser = 'usery_elgg';
+
+// Database password
+$CONFIG->dbpass = 'dbpassword';
+
+// Database name
+$CONFIG->dbname = 'usery_elgg';
+
+// Database server
+// (For most configurations, you can leave this as 'localhost')
+$CONFIG->dbhost = 'localhost';
+
+// (For most configurations, you can leave this as 3306)
+$CONFIG->dbport = 3306;
+
+$CONFIG->wwwroot = 'http://your.website.com/'
+```
+
+Upload the `settings.php` file back to the new host - overwriting the existing file.
+
+### [Finalizing the new installation](#id17)[](#finalizing-the-new-installation "Permalink to this heading")
+
+Run the upgrade script by visiting the following URL: `http://mynewdomain.com/upgrade.php` .
+Do this step twice - back to back.
+
+Update your DNS records so that your host name resolves to the new host’s IP address if this is a permanent move.
+
+## [Congratulations!](#id18)[](#congratulations "Permalink to this heading")
+
+If you followed the steps outlined here you should now have a fully functional copy of your primary Elgg installation.
+
+## [Related](#id19)[](#related "Permalink to this heading")
+
+- [FTP backup script](admin__backup__ftp-backup-script.md)
+- [Duplicate Installation](admin__duplicate-installation.md)
+  - [Introduction](admin__duplicate-installation.md#introduction)
+    - [Why Duplicate an Elgg Installation?](admin__duplicate-installation.md#why-duplicate-an-elgg-installation)
+    - [What Is Not Covered in This Tutorial](admin__duplicate-installation.md#what-is-not-covered-in-this-tutorial)
+    - [Before You Start](admin__duplicate-installation.md#before-you-start)
+  - [Copy Elgg Code to the Test Server](admin__duplicate-installation.md#copy-elgg-code-to-the-test-server)
+  - [Copy Data to the Test Server](admin__duplicate-installation.md#copy-data-to-the-test-server)
+  - [Edit settings.php](admin__duplicate-installation.md#edit-settings-php)
+  - [Copy Elgg Database](admin__duplicate-installation.md#copy-elgg-database)
+  - [Database Entries](admin__duplicate-installation.md#database-entries)
+  - [Check .htaccess](admin__duplicate-installation.md#check-htaccess)
+  - [Update Webserver Config](admin__duplicate-installation.md#update-webserver-config)
+  - [Run upgrade.php](admin__duplicate-installation.md#run-upgrade-php)
+  - [Tips](admin__duplicate-installation.md#tips)
+  - [Related](admin__duplicate-installation.md#related)

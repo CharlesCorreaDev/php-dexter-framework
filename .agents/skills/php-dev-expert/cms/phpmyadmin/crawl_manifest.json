@@ -1,0 +1,296 @@
+{
+  "root_url": "** https://docs.phpmyadmin.net/pt-br/latest/bookmarks.html",
+  "scope_prefix": "** https://docs.phpmyadmin.net/pt-br/latest/bookmarks.html",
+  "total_pages": 48,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/bookmarks.html",
+      "file": "bookmarks.md",
+      "title": "Favoritos — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/charts.html",
+      "file": "charts.md",
+      "title": "Gráficos — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/config.html",
+      "file": "config.md",
+      "title": "Configuração — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/copyright.html",
+      "file": "copyright.md",
+      "title": "Direitos autorais — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/credits.html",
+      "file": "credits.md",
+      "title": "Créditos — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/developers.html",
+      "file": "developers.md",
+      "title": "Informações aos Desenvolvedores — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/faq.html",
+      "file": "faq.md",
+      "title": "FAQ - Perguntas Frequentes — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/genindex.html",
+      "file": "genindex.md",
+      "title": "Índice — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/glossary.html",
+      "file": "glossary.md",
+      "title": "Glossário — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/import_export.html",
+      "file": "import_export.md",
+      "title": "Importar e exportar — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/",
+      "file": "index.md",
+      "title": "Bem-vindo(a) à documentação do phpMyAdmin! — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/intro.html",
+      "file": "intro.md",
+      "title": "Introdução — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/other.html",
+      "file": "other.md",
+      "title": "Outras fontes de informação — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/privileges.html",
+      "file": "privileges.md",
+      "title": "Gerenciamento de usuários — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/relations.html",
+      "file": "relations.md",
+      "title": "Relações — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/require.html",
+      "file": "require.md",
+      "title": "Requisitos — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/search.html",
+      "file": "search.md",
+      "title": "Buscar — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/security.html",
+      "file": "security.md",
+      "title": "Política de segurança — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/settings.html",
+      "file": "settings.md",
+      "title": "Configurando o phpMyAdmin — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/setup.html",
+      "file": "setup.md",
+      "title": "Instalação — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/bookmarks.rst.txt",
+      "file": "sources__bookmarks.rst.txt.md",
+      "title": "/pt-br/latest/_sources/bookmarks.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/charts.rst.txt",
+      "file": "sources__charts.rst.txt.md",
+      "title": "/pt-br/latest/_sources/charts.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/config.rst.txt",
+      "file": "sources__config.rst.txt.md",
+      "title": "/pt-br/latest/_sources/config.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/copyright.rst.txt",
+      "file": "sources__copyright.rst.txt.md",
+      "title": "/pt-br/latest/_sources/copyright.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/credits.rst.txt",
+      "file": "sources__credits.rst.txt.md",
+      "title": "/pt-br/latest/_sources/credits.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/developers.rst.txt",
+      "file": "sources__developers.rst.txt.md",
+      "title": "/pt-br/latest/_sources/developers.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/faq.rst.txt",
+      "file": "sources__faq.rst.txt.md",
+      "title": "/pt-br/latest/_sources/faq.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/glossary.rst.txt",
+      "file": "sources__glossary.rst.txt.md",
+      "title": "/pt-br/latest/_sources/glossary.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/import_export.rst.txt",
+      "file": "sources__import_export.rst.txt.md",
+      "title": "/pt-br/latest/_sources/import_export.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/index.rst.txt",
+      "file": "sources__index.rst.txt.md",
+      "title": "/pt-br/latest/_sources/index.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/intro.rst.txt",
+      "file": "sources__intro.rst.txt.md",
+      "title": "/pt-br/latest/_sources/intro.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/other.rst.txt",
+      "file": "sources__other.rst.txt.md",
+      "title": "/pt-br/latest/_sources/other.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/privileges.rst.txt",
+      "file": "sources__privileges.rst.txt.md",
+      "title": "/pt-br/latest/_sources/privileges.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/relations.rst.txt",
+      "file": "sources__relations.rst.txt.md",
+      "title": "/pt-br/latest/_sources/relations.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/require.rst.txt",
+      "file": "sources__require.rst.txt.md",
+      "title": "/pt-br/latest/_sources/require.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/security.rst.txt",
+      "file": "sources__security.rst.txt.md",
+      "title": "/pt-br/latest/_sources/security.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/settings.rst.txt",
+      "file": "sources__settings.rst.txt.md",
+      "title": "/pt-br/latest/_sources/settings.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/setup.rst.txt",
+      "file": "sources__setup.rst.txt.md",
+      "title": "/pt-br/latest/_sources/setup.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/themes.rst.txt",
+      "file": "sources__themes.rst.txt.md",
+      "title": "/pt-br/latest/_sources/themes.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/transformations.rst.txt",
+      "file": "sources__transformations.rst.txt.md",
+      "title": "/pt-br/latest/_sources/transformations.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/two_factor.rst.txt",
+      "file": "sources__two_factor.rst.txt.md",
+      "title": "/pt-br/latest/_sources/two_factor.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/user.rst.txt",
+      "file": "sources__user.rst.txt.md",
+      "title": "/pt-br/latest/_sources/user.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/_sources/vendors.rst.txt",
+      "file": "sources__vendors.rst.txt.md",
+      "title": "/pt-br/latest/_sources/vendors.rst.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/themes.html",
+      "file": "themes.md",
+      "title": "Temas Personalizados — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/transformations.html",
+      "file": "transformations.md",
+      "title": "Transformações — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/two_factor.html",
+      "file": "two_factor.md",
+      "title": "Autenticação de dois fatores — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/user.html",
+      "file": "user.md",
+      "title": "Guia de Usuário — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.phpmyadmin.net/pt-br/latest/vendors.html",
+      "file": "vendors.md",
+      "title": "Distribuição e empacotamento do phpMyAdmin — documentação phpMyAdmin 6.0.0-dev",
+      "depth": 1
+    }
+  ]
+}

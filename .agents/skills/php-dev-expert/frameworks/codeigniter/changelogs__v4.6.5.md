@@ -1,0 +1,20 @@
+# Version 4.6.5 — CodeIgniter 4.7.5 documentation
+
+> **Fonte / Source:** https://codeigniter.com/user_guide/changelogs/v4.6.5.html
+
+---
+
+# Version 4.6.5[](#version-4-6-5 "Link to this heading")
+
+Release Date: February 1, 2026
+
+**4.6.5 release of CodeIgniter4**
+
+## [Bugs Fixed](#id1)[](#bugs-fixed "Link to this heading")
+
+- **Database:** Fixed a bug where `Seeder::call()` did not pass the database connection to child seeders, causing them to use the default connection instead of the one specified via `Database::seeder('group')`.
+- **HTTP:** Updated the Content Security Policy nonce generation to use base64 encoding instead of hexadecimal, ensuring compatibility with CSP specifications.
+
+See the repo’s
+[CHANGELOG.md](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CHANGELOG.md)
+for a complete list of bugs fixed.

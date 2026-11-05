@@ -1,0 +1,97 @@
+# Version 4.0.0-rc.4 — CodeIgniter 4.7.5 documentation
+
+> **Fonte / Source:** https://codeigniter.com/user_guide/changelogs/v4.0.0-rc.4.html
+
+---
+
+# Version 4.0.0-rc.4[](#version-4-0-0-rc-4 "Link to this heading")
+
+Release Date: February 6, 2020
+
+**RC.4 release of CodeIgniter4**
+
+## [Enhancements](#id1)[](#enhancements "Link to this heading")
+
+- Fixed url systems so that it would work when system is served out of subfolders.
+- Added required insert ignore support for sqlite3 and mysql.
+- Add validation function is\_not\_unique
+- Various improvements and cleanup to the Email class
+
+## [PRs merged](#id2)[](#prs-merged "Link to this heading")
+
+- #2527 Update manual.rst
+- #2454 Page in the official documentation on ajax requests with iSAJAX() fixes
+- #2525 Remove incorrect inline doc type
+- #2524 Restore namespace after regress.
+- #2523 Replace legacy CI3 constant.
+- #2522 Adding Events information in the ‘Upgrading from 3.x to 4.x’ section
+- #2518 Fix pager URI to work in subfolders.
+- #2516 HTML Helper - Fix attribute type for lists
+- #2515 Layout Renderer Fix
+- #2513 Typo in userguide “Entity Classes - Business Logic”
+- #2511 Database add highlight
+- #2509 Revert Renderer section reset
+- #2507 Update ordering of search locations for better prioritization.
+- #2506 HTTP Response - Fix crash on CSP methods CSP is disabled
+- #2504 BaseConnection - Nullable return type in getConnectStart()
+- #2502 View Renderer - Reset sections after generating the ouput
+- #2501 view\_cell call controller on initController method.
+- #2499 View Parser - Fix ParsePair() with filter
+- #2497 Fix splitQueryPart()
+- #2496 Use site\_url for RedirectResponse.
+- #2495 update toolbar userguide
+- #2494 Debug Toolbar - Fix Debugbar-Time header, Render in <head>
+- #2493 fix sphinx version.
+- #2490 fix. Toolbar init view Error
+- #2489 Fix pager
+- #2486 Update current\_url and previous\_url in the docs for View Parser.
+- #2485 Typo in user guide “Running via the Command Line”
+- #2482 Services request add URI Core System extend support
+- #2481 Priority Redirection.
+- #2472 ControllerTest should work without URI specified. Fixes #2470
+- #2471 Transition from Zend Escaper to Laminas Escaper
+- #2462 Fix impossible length for migration table id.
+- #2458 Replace composer install by composer require
+- #2450 CRITICAL when $\_SESSION is null / Argument 2 passed to dot\_array\_search() must be []
+- #2449 User Guide: Query Builder selectCount - error correction in example
+- #2447 Existing File checks (Nowackipawel/patch-69)
+- #2446 DB Insert Ignore (Tada5hi/database-feature)
+- #2438 Nice array view in debug toolbar
+- #2436 Fix Message method reference
+- #2433 Inserting through a model should respect all validation rules. Fixes #2384
+- #2432 Fix curly brace deprecation in php 7.4
+- #2429 fix. safe\_mailto multi-byte safe
+- #2427 Add $recipients property to ConfigEmail
+- #2426 Add hex validation rule, test, Guide
+- #2425 fix: Router setDefaultNameSpace can’t worker
+- #2422 Don’t show duplicate Date headers when running under PHPs server.
+- #2420 Change current\_url() to use cloned URI
+- #2417 Revise Encryption Service Documentation
+- #2416 Add missing closing braces of condition ‘hasError()’
+- #2415 Add ‘nullable’ to MySQL field data
+- #2413 fix. toolbar file 301
+- #2411 fix parse params of plugin
+- #2408 Ensure previous\_url() gets accurate URI.
+- #2407 Fix url helper functions to work when site hosted in subfolders.
+- #2406 Fix issue #2391 CodeIgniter::display404errors()
+- #2402 Removed pointless isset() check
+- #2401 Remove pointless check from conditional
+- #2400 Remove redundant check in conditionals
+- #2399 Revise Controllers Documentation
+- #2398 Edit .htaccess
+- #2392 Add validation function is\_not\_unique
+- #2389 Confer silent status to nested seeders
+- #2388 Fix copypaste command comment
+- #2387 Use only digits for migrations order
+- #2382 quick fix postgresql insert id
+- #2381 Fix: Use of CodeIgniterConfigServices prevents Service overriding
+- #2379 Replace null log file extension check
+- #2377 Docs Rev: Replacing Core Classes
+- #2369 Remove LoggerAwareTrait from Email class
+- #2368 Remove log\_message from Email::\_\_construct
+- #2364 Email config doesn’t incorporate .env items
+- #2362 Fix SMTP protocol problem
+- #2359 Bugfix Model after event data
+- #2358 Fix Logger config
+- #2356 Fix typo in comments of Services.php
+- #2352 Fix method name to ‘toDateString()’ in Date and Times user guide

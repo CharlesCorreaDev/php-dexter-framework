@@ -1,0 +1,148 @@
+# Examples
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/sockets.examples.php
+
+---
+
+# Examples
+
+**Exemplo #1 Exemplo de soquete: Servidor TCP/IP simples**
+
+Este exemplo mostra um servidor simples de resposta. Altere as
+variáveis ​​address e port
+para adequar à configuração e execução em particular. Pode-se então conectar ao
+servidor com um comando semelhante a: **telnet 192.168.1.53
+10000** (onde o endereço e a porta correspondem à configuração
+específica). Qualquer coisa que for digitada será exibida no lado do
+servidor e ecoada de volta para o usuário. Para desconectar, digite 'quit'.
+
+```
+#!/usr/local/bin/php -q
+<?php
+error_reporting(E_ALL);
+
+/* Permite que o script fique esperando por conexões. */
+set_time_limit(0);
+
+/* Ativa a liberação de saída implícita para exibir o que está sendo obtido à medida
+ * que os dados chegam. */
+ob_implicit_flush();
+
+$address = '192.168.1.53';
+$port = 10000;
+
+if (($sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP)) === false) {
+    echo "socket_create() falhou. Motivo: " . socket_strerror(socket_last_error()) . "\n";
+}
+
+if (socket_bind($sock, $address, $port) === false) {
+    echo "socket_bind() falhou. Motivo: " . socket_strerror(socket_last_error($sock)) . "\n";
+}
+
+if (socket_listen($sock, 5) === false) {
+    echo "socket_listen() falhou. Motivo: " . socket_strerror(socket_last_error($sock)) . "\n";
+}
+
+do {
+    if (($msgsock = socket_accept($sock)) === false) {
+        echo "socket_accept() falhou. Motivo: " . socket_strerror(socket_last_error($sock)) . "\n";
+        break;
+    }
+    /* Envia instruções. */
+    $msg = "\nBem-vindo ao servidor de tests do PHP. \n" .
+        "Para sair, digite 'quit'. Para desligar o servidor, digite 'shutdown'.\n";
+    socket_write($msgsock, $msg, strlen($msg));
+
+    do {
+        if (false === ($buf = socket_read($msgsock, 2048, PHP_NORMAL_READ))) {
+            echo "socket_read() falhou. Motivo: " . socket_strerror(socket_last_error($msgsock)) . "\n";
+            break 2;
+        }
+        if (!$buf = trim($buf)) {
+            continue;
+        }
+        if ($buf == 'quit') {
+            break;
+        }
+        if ($buf == 'shutdown') {
+            socket_close($msgsock);
+            break 2;
+        }
+        $talkback = "PHP: Você disse '$buf'.\n";
+        socket_write($msgsock, $talkback, strlen($talkback));
+        echo "$buf\n";
+    } while (true);
+    socket_close($msgsock);
+} while (true);
+
+socket_close($sock);
+?>
+```
+
+**Exemplo #2 Exemplo de Socket: Cliente TCP/IP simples**
+
+Este exemplo mostra cliente simples, de tiro único. Ele simplemente
+conecta à uma página, submete uma requisição HEAD, ecoa a resposta
+e sai.
+
+```
+<?php
+error_reporting(E_ALL);
+
+echo "<h2>Conexão TCP/IP</h2>\n";
+
+/* Obtém a porta para o serviço WWW. */
+$service_port = getservbyname('www', 'tcp');
+
+/* Obtém o endereço IP para o servidor de destino. */
+$address = gethostbyname('www.example.com');
+
+/* Cria um soquete TCP/IP. */
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+if ($socket === false) {
+    echo "socket_create() falhou. Motivo: " . socket_strerror(socket_last_error()) . "\n";
+} else {
+    echo "OK.\n";
+}
+
+echo "Tentando conexão a '$address' na porta '$service_port'...";
+$result = socket_connect($socket, $address, $service_port);
+if ($result === false) {
+    echo "socket_connect() falhou.\nMotivo: ($result) " . socket_strerror(socket_last_error($socket)) . "\n";
+} else {
+    echo "OK.\n";
+}
+
+$in = "HEAD / HTTP/1.1\r\n";
+$in .= "Host: www.example.com\r\n";
+$in .= "Connection: Close\r\n\r\n";
+$out = '';
+
+echo "Enviando requisição HTTP HEAD...";
+socket_write($socket, $in, strlen($in));
+echo "OK.\n";
+
+echo "Lendo resposta:\n\n";
+while ($out = socket_read($socket, 2048)) {
+    echo $out;
+}
+
+echo "Fechando soquete...";
+socket_close($socket);
+echo "OK.\n\n";
+?>
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

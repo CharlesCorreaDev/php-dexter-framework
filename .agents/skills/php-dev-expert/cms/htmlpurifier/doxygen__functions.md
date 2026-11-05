@@ -1,0 +1,835 @@
+# HTMLPurifier: Class Members
+
+> **Fonte / Source:** http://htmlpurifier.org/doxygen/html/functions.html
+
+---
+
+|  |
+| --- |
+| HTMLPurifier 4.4.0 |
+
+- [Main Page](doxygen__index.md)
+- [Related Pages](doxygen__pages.md)
+- [Classes](doxygen__annotated.md)
+- [Files](doxygen__files.md)
+
+- [Class List](doxygen__annotated.md)
+- [Class Hierarchy](doxygen__hierarchy.md)
+- [Class Members](doxygen__functions.md)
+
+- [All](doxygen__functions.md)
+- [Functions](doxygen__functions_func.md)
+- [Variables](doxygen__functions_vars.md)
+
+- [$](doxygen__functions.md#index_0x24)
+- [\_](doxygen__functions_0x5f.md#index__)
+- [a](doxygen__functions_0x61.md#index_a)
+- [b](doxygen__functions_0x62.md#index_b)
+- [c](doxygen__functions_0x63.md#index_c)
+- [d](doxygen__functions_0x64.md#index_d)
+- [e](doxygen__functions_0x65.md#index_e)
+- [f](doxygen__functions_0x66.md#index_f)
+- [g](doxygen__functions_0x67.md#index_g)
+- [h](doxygen__functions_0x68.md#index_h)
+- [i](doxygen__functions_0x69.md#index_i)
+- [l](doxygen__functions_0x6c.md#index_l)
+- [m](doxygen__functions_0x6d.md#index_m)
+- [n](doxygen__functions_0x6e.md#index_n)
+- [o](doxygen__functions_0x6f.md#index_o)
+- [p](doxygen__functions_0x70.md#index_p)
+- [r](doxygen__functions_0x72.md#index_r)
+- [s](doxygen__functions_0x73.md#index_s)
+- [t](doxygen__functions_0x74.md#index_t)
+- [u](doxygen__functions_0x75.md#index_u)
+- [v](doxygen__functions_0x76.md#index_v)
+- [w](doxygen__functions_0x77.md#index_w)
+
+Here is a list of all class members with links to the classes they belong to:
+
+### - $ -
+
+- $\_anonModule
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#afbf5446505c41f7901729e4aed66fde0)
+- $\_class\_attrdef
+  : [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#ab194f24d84c7ac34344777a8d92cbf18)
+- $\_current
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a37405b5d2321efcf2073303a24764455)
+- $\_def
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#ad40dfb94cc910bf9b5184eba04109f95)
+- $\_entity\_lookup
+  : [HTMLPurifier\_EntityParser](doxygen__classHTMLPurifier__EntityParser.md#a4c4b9d2b462fea1c7d027f009dabf4aa)
+- $\_enum\_attrdef
+  : [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#a9f6feb62f5692497c4bef9d2b8b0e0df)
+- $\_flashCompat
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#aca0fae98dea32a5af145869865b0b6a3)
+- $\_flashStack
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#aa4942b89c2b333b41b95f339aba10571)
+- $\_id\_attrdef
+  : [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#a8d4dbfde64c10ea9f883b61ce0d19fef)
+- $\_innerHTMLFix
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#a2404c2732b6dbdb082fdd0dd5ac977bd)
+- $\_loaded
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#a972e2795bb72936c59aa28d6b893e7e9)
+- $\_pcre\_regex
+  : [HTMLPurifier\_ChildDef\_Custom](doxygen__classHTMLPurifier__ChildDef__Custom.md#a3e2671c372c23d8a1a2ef8c6def758b7)
+- $\_scriptFix
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#a0230267fa55f933d619ff60eb9da752c)
+- $\_size\_lookup
+  : [HTMLPurifier\_TagTransform\_Font](doxygen__classHTMLPurifier__TagTransform__Font.md#ac2142e8ad00755138d88fbb40af3b86a)
+- $\_sortAttr
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#a51bf9e596e92e832a4a130f6e1fcc8ef)
+- $\_special\_dec2str
+  : [HTMLPurifier\_EntityParser](doxygen__classHTMLPurifier__EntityParser.md#a0144a916f272789e64e2bd514139b31e)
+- $\_special\_ent2dec
+  : [HTMLPurifier\_EntityParser](doxygen__classHTMLPurifier__EntityParser.md#a1233260b0aaf087445e962aca4d12689)
+- $\_special\_entity2str
+  : [HTMLPurifier\_Lexer](doxygen__classHTMLPurifier__Lexer.md#af2dcc2daaa4671f1a4edefa53b0d022d)
+- $\_stacks
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a3462be7c083f9ff667813674690e4c10)
+- $\_storage
+  : [HTMLPurifier\_Context](doxygen__classHTMLPurifier__Context.md#a8a010232cb7371e2010f21f9bef16fa5)
+- $\_styleMatches
+  : [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#a6583d53f797fa25d3aa72ae9e94b5b66)
+- $\_substituteEntitiesRegex
+  : [HTMLPurifier\_EntityParser](doxygen__classHTMLPurifier__EntityParser.md#a0d3d84748792da4caba3150a0a9daaf9)
+- $\_tidy
+  : [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#a0848c4c8c70f0acf40d6fcf3dcd218f2)
+- $\_whitespace
+  : [HTMLPurifier\_Lexer\_DirectLex](doxygen__classHTMLPurifier__Lexer__DirectLex.md#a0da4e3b01b4baaf3fd48269631d01006)
+- $\_xhtml
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#aa185587ce3713fec98f8b5207fd55198)
+- $a\_formatting
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#abaa2d4379e49084c1b85b278a39a61c8)
+- $accessed
+  : [HTMLPurifier\_StringHash](doxygen__classHTMLPurifier__StringHash.md#ab6ca407f3132961a9ac57a0eee2db3f2)
+- $addParam
+  : [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#a4cc4bca85bac5284f96605d07c3ca6b3)
+- $aliases
+  : [HTMLPurifier\_DoctypeRegistry](doxygen__classHTMLPurifier__DoctypeRegistry.md#a543ad0ac3f184d26f81a8aa18348be8e)
+  , [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#adcf03d73d17bb87e36b6d745b26d448c)
+  , [HTMLPurifier\_ConfigSchema\_Validator](doxygen__classHTMLPurifier__ConfigSchema__Validator.md#aad5127ca1ef16cfb7cd636f3c3a2f1a6)
+  , [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#a18245ce939802ad66cb814cfafde5a99)
+- $aliasMode
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a3a358de0bb33654989a7f02369ac37b5)
+- $allow
+  : [HTMLPurifier\_AttrDef\_CSS\_ImportantDecorator](doxygen__classHTMLPurifier__AttrDef__CSS__ImportantDecorator.md#aa42484aa059d225e808cb23d1488ea7c)
+- $allow\_empty
+  : [HTMLPurifier\_ChildDef\_Custom](doxygen__classHTMLPurifier__ChildDef__Custom.md#acac362eee284fbd3acf67d15bc2acdd9)
+  , [HTMLPurifier\_ChildDef\_Empty](doxygen__classHTMLPurifier__ChildDef__Empty.md#aac95e7cc2a385915d0db8fc88954e252)
+  , [HTMLPurifier\_ChildDef\_Optional](doxygen__classHTMLPurifier__ChildDef__Optional.md#a80d5714c4cd27511cfacafa39a96dfd9)
+  , [HTMLPurifier\_ChildDef\_Required](doxygen__classHTMLPurifier__ChildDef__Required.md#aee98174a19b3f1f8a1e37c1344039713)
+  , [HTMLPurifier\_ChildDef\_StrictBlockquote](doxygen__classHTMLPurifier__ChildDef__StrictBlockquote.md#a83ad81362bae210bb7169fae156f0016)
+  , [HTMLPurifier\_ChildDef\_Table](doxygen__classHTMLPurifier__ChildDef__Table.md#a3feef09bb10feb0e93384f7963f46a94)
+  , [HTMLPurifier\_ChildDef](doxygen__classHTMLPurifier__ChildDef.md#a9f2bccf595a35d8d0f810b8a241a528a)
+- $allowed
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a26ae514188fab0a906ac047821e7e89d)
+- $allowed\_types
+  : [HTMLPurifier\_URIScheme\_data](doxygen__classHTMLPurifier__URIScheme__data.md#a2be7445398e03794937d6f8ab28e305d)
+- $allowedParam
+  : [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#ac54a17d6c45bbe420addf00ca8a0da6c)
+- $allowedUnits
+  : [HTMLPurifier\_Length](doxygen__classHTMLPurifier__Length.md#af6d4d32e8397200a6c24b8063b51cee4)
+- $always\_load
+  : [HTMLPurifier\_URIFilter\_SafeIframe](doxygen__classHTMLPurifier__URIFilter__SafeIframe.md#a63db7026d31166a6562e5e1544894125)
+  , [HTMLPurifier\_URIFilter](doxygen__classHTMLPurifier__URIFilter.md#a003e57f2a66ad11542a7964522ef622a)
+- $armor
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#a3379dcc5aa96a30f90e15b7823cc54db)
+- $attr
+  : [HTMLPurifier\_AttrTransform\_BoolToCSS](doxygen__classHTMLPurifier__AttrTransform__BoolToCSS.md#a74e68fd4d081e0d00bd707b936c0c9af)
+  , [HTMLPurifier\_AttrTransform\_EnumToCSS](doxygen__classHTMLPurifier__AttrTransform__EnumToCSS.md#abf0edf37a0956030cbf115dc67a524b6)
+  , [HTMLPurifier\_AttrTransform\_ImgSpace](doxygen__classHTMLPurifier__AttrTransform__ImgSpace.md#a6bbabae9f08859c1bde6afea203650bd)
+  , [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a2bcbdb53248fe3df0ac956cde18f793f)
+  , [HTMLPurifier\_Token\_Tag](doxygen__classHTMLPurifier__Token__Tag.md#af97f0e1005e1e8cfd4a88a3dbc256c30)
+- $attr\_collections
+  : [HTMLPurifier\_HTMLModule\_Bdo](doxygen__classHTMLPurifier__HTMLModule__Bdo.md#a86c91c35877cd53221d7f0fb27267ad9)
+  , [HTMLPurifier\_HTMLModule\_CommonAttributes](doxygen__classHTMLPurifier__HTMLModule__CommonAttributes.md#abafc686db980efbef653bf7b4d63189a)
+  , [HTMLPurifier\_HTMLModule\_NonXMLCommonAttributes](doxygen__classHTMLPurifier__HTMLModule__NonXMLCommonAttributes.md#a1b6278c5b511e70b75d317bac85dbb22)
+  , [HTMLPurifier\_HTMLModule\_StyleAttribute](doxygen__classHTMLPurifier__HTMLModule__StyleAttribute.md#a9cde83b200c83c9d066c41795ced0599)
+  , [HTMLPurifier\_HTMLModule\_XMLCommonAttributes](doxygen__classHTMLPurifier__HTMLModule__XMLCommonAttributes.md#a30b37c8810e0438162b3db739718d253)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a7c8805952fcf0ad143180d97b3d3ec17)
+- $attr\_transform\_post
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a3085ac6ae100475e1ff86fe94910c12e)
+- $attr\_transform\_pre
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a8673e6a9b4eb86ebacdcc44a4eba2cad)
+- $attrCollections
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#a8c0860d983146ac2086afb8cc4fefbd1)
+- $attrTypes
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#ae71132f5eb2e1999b9c2e9d19a00da77)
+- $attrValidator
+  : [HTMLPurifier\_Injector\_RemoveEmpty](doxygen__classHTMLPurifier__Injector__RemoveEmpty.md#a9499c8d7739ae3441a18b40dc99edcb5)
+  , [HTMLPurifier\_Injector\_RemoveSpansWithoutAttributes](doxygen__classHTMLPurifier__Injector__RemoveSpansWithoutAttributes.md#a4dc20c07bf7315ab4ec3ab4441706f19)
+- $autoclose
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a19729d4c2d69e9864a148d0a6b390a36)
+- $autoFinalize
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a951b10546b388ab4c6242931096aa97e)
+- $base
+  : [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#acbd574495184a66e4d2095ec70815c59)
+  , [HTMLPurifier\_URIFilter\_MakeAbsolute](doxygen__classHTMLPurifier__URIFilter__MakeAbsolute.md#ab3693c07dd49f1919eaf36e274954ab8)
+- $basePathStack
+  : [HTMLPurifier\_URIFilter\_MakeAbsolute](doxygen__classHTMLPurifier__URIFilter__MakeAbsolute.md#a0b729e07ad059641fd5b45101b67a6ea)
+- $bcmath
+  : [HTMLPurifier\_UnitConverter](doxygen__classHTMLPurifier__UnitConverter.md#a8bdbb74a762387c4434ffd6fdf1a8129)
+- $blacklist
+  : [HTMLPurifier\_URIFilter\_HostBlacklist](doxygen__classHTMLPurifier__URIFilter__HostBlacklist.md#a59195baa7b4bf4c371a1201a589ca4a6)
+- $block
+  : [HTMLPurifier\_ChildDef\_Chameleon](doxygen__classHTMLPurifier__ChildDef__Chameleon.md#aa442c7df577a378e265c6094cd226129)
+- $browsable
+  : [HTMLPurifier\_URIScheme\_data](doxygen__classHTMLPurifier__URIScheme__data.md#a2d60b4a273c9f16a1a9edc48b3f12fe8)
+  , [HTMLPurifier\_URIScheme\_file](doxygen__classHTMLPurifier__URIScheme__file.md#acc57fbd70598b7d461937c7dae0da764)
+  , [HTMLPurifier\_URIScheme\_ftp](doxygen__classHTMLPurifier__URIScheme__ftp.md#ad18caa12518cda39b640d782c07204be)
+  , [HTMLPurifier\_URIScheme\_http](doxygen__classHTMLPurifier__URIScheme__http.md#a19d530875ba0cccf3b1a5e4dafa3e4c8)
+  , [HTMLPurifier\_URIScheme\_mailto](doxygen__classHTMLPurifier__URIScheme__mailto.md#ad49224bf61865346e2a9320a95ba9f03)
+  , [HTMLPurifier\_URIScheme\_news](doxygen__classHTMLPurifier__URIScheme__news.md#aa365449a0dc311ed6c208b0b3f047114)
+  , [HTMLPurifier\_URIScheme\_nntp](doxygen__classHTMLPurifier__URIScheme__nntp.md#a34a72c83f25d35dcc65f71ad14e08d2a)
+  , [HTMLPurifier\_URIScheme](doxygen__classHTMLPurifier__URIScheme.md#abbd36fc30d0256aa9a3a2728a4b1d28f)
+- $cache
+  : [HTMLPurifier\_DefinitionCache\_Decorator](doxygen__classHTMLPurifier__DefinitionCache__Decorator.md#a200d4c7658023111e322e6a027ca9846)
+  , [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#a963533a7141c8acb5ae890c39c72a85f)
+  , [HTMLPurifier\_PropertyList](doxygen__classHTMLPurifier__PropertyList.md#aa4ab979aa52360c136ecb515c38b5e4a)
+- $caches
+  : [HTMLPurifier\_DefinitionCacheFactory](doxygen__classHTMLPurifier__DefinitionCacheFactory.md#a9bdfdc5a945ea8d47fabc3adfd50c807)
+- $carryover
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#ac83c86cb9f4e65a872bb1b4330224533)
+- $case\_sensitive
+  : [HTMLPurifier\_AttrDef\_Enum](doxygen__classHTMLPurifier__AttrDef__Enum.md#a146fbbbb149091688e54c1772a7713ac)
+  , [HTMLPurifier\_AttrDef\_HTML\_FrameTarget](doxygen__classHTMLPurifier__AttrDef__HTML__FrameTarget.md#a48a9bf713e370ee4177404a53b22d5a2)
+- $caseSensitive
+  : [HTMLPurifier\_AttrTransform\_EnumToCSS](doxygen__classHTMLPurifier__AttrTransform__EnumToCSS.md#a009481d77e57d9880f2be25b9e2e6303)
+- $char
+  : [HTML5](doxygen__classHTML5.md#aa280e0c674d9ea539fda13a17442c7e6)
+- $chatty
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#aba285c9cecc61c82b95bab05f8931539)
+- $child
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#ac00a01850d99ecacc0245d6ceba13a9b)
+- $children
+  : [HTMLPurifier\_ErrorStruct](doxygen__classHTMLPurifier__ErrorStruct.md#a6d353ce9c9ce6e7d80e8f69dcf4f939f)
+- $clone
+  : [HTMLPurifier\_AttrDef\_Clone](doxygen__classHTMLPurifier__AttrDef__Clone.md#a5d374993e70cf416ba63e8c2424ad79a)
+- $code
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#a5d7bd0b73124250f04e8d6848f16c3ff)
+- $col
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#ae063b7efb1fb056d4abad981d5237a71)
+- $cols
+  : [HTMLPurifier\_Printer\_ConfigForm\_default](doxygen__classHTMLPurifier__Printer__ConfigForm__default.md#a1b7a97e39411c8304643ab669a76f927)
+- $compress
+  : [HTMLPurifier\_Printer\_ConfigForm](doxygen__classHTMLPurifier__Printer__ConfigForm.md#a2ba57d7eb6fe78a607d9b8512cb7579d)
+- $config
+  : [HTMLPurifier\_Generator](doxygen__classHTMLPurifier__Generator.md#a42a40024d1f996b1fc78ab9f979b1801)
+  , [HTMLPurifier\_Injector\_RemoveEmpty](doxygen__classHTMLPurifier__Injector__RemoveEmpty.md#ac36aae9401621e42b25964c310783f08)
+  , [HTMLPurifier\_Injector\_RemoveSpansWithoutAttributes](doxygen__classHTMLPurifier__Injector__RemoveSpansWithoutAttributes.md#a157b82001bd4e946399aeb2e2146dd8b)
+  , [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#a3bbdf4305e5d242a46270e8c8fd912c8)
+  , [HTMLPurifier\_Printer](doxygen__classHTMLPurifier__Printer.md#a36736bff5c38e17fd9f9f4cd051cfdb8)
+  , [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#a652d2a2d24b6290651cef30a794385ca)
+  , [HTMLPurifier](doxygen__classHTMLPurifier.md#a0cc1609717991f9ac7a42065f0114c33)
+- $content\_model
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a629aecb03bfd09763b4f22d6153e845b)
+  , [HTML5](doxygen__classHTML5.md#a88f895434ad4922b6c8e8f92d61c18dc)
+- $content\_model\_type
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a0371f4fa7ff6a8fdd55aa949df833f38)
+- $content\_sets
+  : [HTMLPurifier\_HTMLModule\_Forms](doxygen__classHTMLPurifier__HTMLModule__Forms.md#a9e515244b705047039d88081e7440d7d)
+  , [HTMLPurifier\_HTMLModule\_List](doxygen__classHTMLPurifier__HTMLModule__List.md#a6d163b1f148ca142fa34b8da005cd514)
+  , [HTMLPurifier\_HTMLModule\_Scripting](doxygen__classHTMLPurifier__HTMLModule__Scripting.md#adb1946f078e64352e5e038f41798f6f4)
+  , [HTMLPurifier\_HTMLModule\_Text](doxygen__classHTMLPurifier__HTMLModule__Text.md#aedeade1f8f771d4090555b0f214b2901)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a9ab9ca2173f38bb33d398db756714809)
+- $contents
+  : [HTMLPurifier\_ConfigSchema\_ValidatorAtom](doxygen__classHTMLPurifier__ConfigSchema__ValidatorAtom.md#a4adf2499d158d09eeca2a172cb90f381)
+- $contentSets
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#aa756a5b18c58d609963a2302e5c569a1)
+- $context
+  : [HTMLPurifier\_ConfigSchema\_Validator](doxygen__classHTMLPurifier__ConfigSchema__Validator.md#a95e7c52bbfd59ebe6ad904caf4419893)
+  , [HTMLPurifier\_ConfigSchema\_ValidatorAtom](doxygen__classHTMLPurifier__ConfigSchema__ValidatorAtom.md#abe55da201c44ab9e725cff9f4b52d80e)
+  , [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#abb5f03a7e8958c24cc06156f30dc887a)
+  , [HTMLPurifier\_Injector\_RemoveEmpty](doxygen__classHTMLPurifier__Injector__RemoveEmpty.md#acfdfceb195b45a0e8aae12f2b2ff4ef8)
+  , [HTMLPurifier\_Injector\_RemoveSpansWithoutAttributes](doxygen__classHTMLPurifier__Injector__RemoveSpansWithoutAttributes.md#a94b1daa7295854e8bd24f22318b1aa10)
+  , [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#ae4650de6fad492c6179523ae7ec7ba7d)
+  , [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#a2183f02d99e6db551da2a8aa2f53a26f)
+  , [HTMLPurifier](doxygen__classHTMLPurifier.md#a496b488a6ca3bac2684bc876a027a897)
+- $css
+  : [HTMLPurifier\_AttrTransform\_BoolToCSS](doxygen__classHTMLPurifier__AttrTransform__BoolToCSS.md#a782d1f9d1502c7060a84cca2bd9d3f0d)
+  , [HTMLPurifier\_AttrTransform\_ImgSpace](doxygen__classHTMLPurifier__AttrTransform__ImgSpace.md#a20d57cb323becdfd30f98b56fc7dc643)
+- $cssName
+  : [HTMLPurifier\_AttrTransform\_Length](doxygen__classHTMLPurifier__AttrTransform__Length.md#acf4647e011cfb76591ee8bdbf8827d96)
+- $currentNesting
+  : [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#a019ea28937cb013ced5900063253d132)
+- $data
+  : [HTML5](doxygen__classHTML5.md#a8e0f659dc55fbe991a411166df801fda)
+  , [HTMLPurifier\_PropertyList](doxygen__classHTMLPurifier__PropertyList.md#ad7a37152332e56b6d460ff5d870f0b00)
+  , [HTMLPurifier\_Token\_Comment](doxygen__classHTMLPurifier__Token__Comment.md#ad468b28dbb352c47f4250539d4bd6a64)
+  , [HTMLPurifier\_Token\_Text](doxygen__classHTMLPurifier__Token__Text.md#ad77402c8b1972c3397cd154ec5b7c9bb)
+- $decorators
+  : [HTMLPurifier\_DefinitionCacheFactory](doxygen__classHTMLPurifier__DefinitionCacheFactory.md#a6e7d9245dd426ea65b11c25ae06b0c5b)
+- $def
+  : [HTMLPurifier\_AttrDef\_CSS\_DenyElementDecorator](doxygen__classHTMLPurifier__AttrDef__CSS__DenyElementDecorator.md#ac5768a4c2e8de0873fcd2cc5c2b0ab68)
+  , [HTMLPurifier\_AttrDef\_CSS\_ImportantDecorator](doxygen__classHTMLPurifier__AttrDef__CSS__ImportantDecorator.md#a7c9714eb47d21aa5f443f1cb8e06dbca)
+  , [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#aa76555df1991f670de3b1b3019929673)
+  , [HTMLPurifier\_Printer\_CSSDefinition](doxygen__classHTMLPurifier__Printer__CSSDefinition.md#ab17c9bfde2e134d667f852068d8c7952)
+  , [HTMLPurifier\_Printer\_HTMLDefinition](doxygen__classHTMLPurifier__Printer__HTMLDefinition.md#a76b1268721ebe6dc39f4a38844e67c9c)
+- $default
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a85b4dde959b966c7c449a3a1c82903e9)
+  , [HTMLPurifier\_StringHashParser](doxygen__classHTMLPurifier__StringHashParser.md#a166b076f78ab5974134a32a41b11343c)
+- $default\_port
+  : [HTMLPurifier\_URIScheme\_ftp](doxygen__classHTMLPurifier__URIScheme__ftp.md#a48b8fe1052b83ee9c23987836f2e7d61)
+  , [HTMLPurifier\_URIScheme\_http](doxygen__classHTMLPurifier__URIScheme__http.md#a01a76c2738847d030ef72d3176904df3)
+  , [HTMLPurifier\_URIScheme\_https](doxygen__classHTMLPurifier__URIScheme__https.md#a6e15c5f519ce4fb44ead473555741f90)
+  , [HTMLPurifier\_URIScheme\_nntp](doxygen__classHTMLPurifier__URIScheme__nntp.md#a48da8ce8150b716514fe739a7342cf9b)
+  , [HTMLPurifier\_URIScheme](doxygen__classHTMLPurifier__URIScheme.md#a3a6f27695d6029d4cab45ed2cc20e5ba)
+- $defaultLevel
+  : [HTMLPurifier\_HTMLModule\_Tidy\_Name](doxygen__classHTMLPurifier__HTMLModule__Tidy__Name.md#a336020f3dfda27ed5bead10dad1667f7)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Proprietary](doxygen__classHTMLPurifier__HTMLModule__Tidy__Proprietary.md#ae14ae65b6d47b04cb043e4d9b6abe9de)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Strict](doxygen__classHTMLPurifier__HTMLModule__Tidy__Strict.md#a93f21b040f167375e2d04a2cf2436b5a)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Transitional](doxygen__classHTMLPurifier__HTMLModule__Tidy__Transitional.md#a510405d2fc5b924b1360306210a1e768)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_XHTML](doxygen__classHTMLPurifier__HTMLModule__Tidy__XHTML.md#a811d4772eedfbb4c65db1a7003bf648c)
+  , [HTMLPurifier\_HTMLModule\_Tidy](doxygen__classHTMLPurifier__HTMLModule__Tidy.md#a6a5534b32d85f3e0c16a8325cf7f7f4a)
+- $defaultPlist
+  : [HTMLPurifier\_ConfigSchema](doxygen__classHTMLPurifier__ConfigSchema.md#a05712519dc257a092bc9bda8bfe34977)
+- $defaults
+  : [HTMLPurifier\_ConfigSchema](doxygen__classHTMLPurifier__ConfigSchema.md#a7fc713e221224772229688e8bda11a19)
+- $defaultScheme
+  : [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#afb85743941b395f885ecde8165c19b9d)
+- $defines\_child\_def
+  : [HTMLPurifier\_HTMLModule\_Edit](doxygen__classHTMLPurifier__HTMLModule__Edit.md#abaf9668647fcc2e4870d2b354a60d6d5)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Strict](doxygen__classHTMLPurifier__HTMLModule__Tidy__Strict.md#aafc8f8c916922ec526359a47db648a44)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a6a249c0e393231a3c59d9b1f8ec897f0)
+- $definitions
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a744bb585ea736e15c14e308ce34a89cf)
+  , [HTMLPurifier\_DefinitionCache\_Decorator\_Memory](doxygen__classHTMLPurifier__DefinitionCache__Decorator__Memory.md#aaaebf9d79d50657b768a0aea22516474)
+- $defs
+  : [HTMLPurifier\_AttrDef\_CSS\_Composite](doxygen__classHTMLPurifier__AttrDef__CSS__Composite.md#a7e99e8d8ab6507cf5e6cb4b1cc8935fc)
+- $deprecatedUse
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#ace5b3be427b3ef113d5eb2ded908c589)
+- $deprecatedVersion
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a663449eb7012bf8977efac0fcf681861)
+- $descendants\_are\_inline
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#abb620edb77a4817b18aeed07343d002b)
+- $description
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a5d3ce181f3e8b87fd14383a303998031)
+- $dir
+  : [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#a741f65f44cddbeb9a1ef54fedf8e2a89)
+- $directives
+  : [HTMLPurifier\_ConfigSchema\_Interchange](doxygen__classHTMLPurifier__ConfigSchema__Interchange.md#a3843ecbd13ae7227f509ce8336ce18ac)
+- $doctype
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a438cd686a28b47fe48222f9895044f8c)
+  , [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#aaeffccf938152286738d5c3466eae2b5)
+- $doctypes
+  : [HTMLPurifier\_DoctypeRegistry](doxygen__classHTMLPurifier__DoctypeRegistry.md#aadfe9274b5c028c80c51106ba428ce97)
+  , [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#a94b1b82d8a2873995d6f0e7348e960d0)
+- $docURL
+  : [HTMLPurifier\_Injector\_PurifierLinkify](doxygen__classHTMLPurifier__Injector__PurifierLinkify.md#aec059e9f48b1f2dac2e8ca85ad7644ef)
+  , [HTMLPurifier\_Printer\_ConfigForm](doxygen__classHTMLPurifier__Printer__ConfigForm.md#a02e9e17aec27b9667972ff71e990ff55)
+- $doEmbed
+  : [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#a10e8d0dd0bb0c9d3c35c90f406552428)
+- $dom
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#a527dbb89aad95ec863d3ce0da133658d)
+- $dtd\_regex
+  : [HTMLPurifier\_ChildDef\_Custom](doxygen__classHTMLPurifier__ChildDef__Custom.md#a72b76ac39dbaa12629440dd7c0dfacf8)
+- $dtdPublic
+  : [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#a7c09accf36f15025fb9eacdd7d3034e9)
+- $dtdSystem
+  : [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#a06deda0ab96e03bb9fa4dff3c4b28522)
+- $element
+  : [HTMLPurifier\_AttrDef\_CSS\_DenyElementDecorator](doxygen__classHTMLPurifier__AttrDef__CSS__DenyElementDecorator.md#a83ed8157a77ab74cbe87f6c882f2af2d)
+- $elementLookup
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#a9e6c47d3f347bb0d09116b4ac5fce29e)
+- $elements
+  : [HTMLPurifier\_ChildDef\_List](doxygen__classHTMLPurifier__ChildDef__List.md#a92ce6abbf82d46c1a37b4743fcdd4cd3)
+  , [HTMLPurifier\_ChildDef\_Required](doxygen__classHTMLPurifier__ChildDef__Required.md#aedbceaeb60dd657ff3538589c21149a6)
+  , [HTMLPurifier\_ChildDef\_Table](doxygen__classHTMLPurifier__ChildDef__Table.md#a7ca799c4fcc31910a301c8c92486df35)
+  , [HTMLPurifier\_ChildDef](doxygen__classHTMLPurifier__ChildDef.md#a15ba19c83342e287caccf507e54fdad7)
+  , [HTMLPurifier\_HTMLModule\_Scripting](doxygen__classHTMLPurifier__HTMLModule__Scripting.md#a7e596ea05b36930db0fd8489e568c012)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a55ba2bf877759995be201f4badb49fc8)
+- $embedsResource
+  : [HTMLPurifier\_AttrDef\_URI](doxygen__classHTMLPurifier__AttrDef__URI.md#ac159995ddeb224f67ab5b87e523505e1)
+- $entities
+  : [HTML5](doxygen__classHTML5.md#a267752b65dcad31239420fc56d3c1b56)
+- $enumToCSS
+  : [HTMLPurifier\_AttrTransform\_EnumToCSS](doxygen__classHTMLPurifier__AttrTransform__EnumToCSS.md#a8ccbc09476300832cb12fa0c2ce1181d)
+- $EOF
+  : [HTML5](doxygen__classHTML5.md#a7cc3d98fdc08cf8e15303be3521cb593)
+- $error
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#abb0604315d77bc0d8793c695be23a3c7)
+- $errorNames
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#ab6f8454f90315876de68931909f1f7ac)
+- $errors
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a8f96f3a9588f584a2f0ec3997bdbc832)
+  , [HTMLPurifier\_ErrorStruct](doxygen__classHTMLPurifier__ErrorStruct.md#a370433ac100a38c2da678c5c787554e1)
+- $escape
+  : [HTML5](doxygen__classHTML5.md#ab6d09284d0cad0418264f28af2a521ad)
+- $excludes
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a878b52c232dac0e65eec37048c47299f)
+- $external
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a36350af665d522b6a0b25bedc477d79a)
+- $factory
+  : [HTMLPurifier\_Lexer\_DOMLex](doxygen__classHTMLPurifier__Lexer__DOMLex.md#afa13863b56ba93f5d9f4c0b1e075c6d0)
+- $fake\_elements
+  : [HTMLPurifier\_ChildDef\_StrictBlockquote](doxygen__classHTMLPurifier__ChildDef__StrictBlockquote.md#ac8a7f47adc1da6ab4dd42d746f4ce955)
+- $fallback
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#ae37ea0bda359fc0ab33db4d74c267a47)
+- $fields
+  : [HTMLPurifier\_Printer\_ConfigForm](doxygen__classHTMLPurifier__Printer__ConfigForm.md#abca6158a6f2327f831ec219859d71b2f)
+- $filter
+  : [HTMLPurifier\_PropertyListIterator](doxygen__classHTMLPurifier__PropertyListIterator.md#a149602e661a7924b45179aab9147f15c)
+- $filters
+  : [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#aa2e2666cb45427509548175fb171c950)
+  , [HTMLPurifier](doxygen__classHTMLPurifier.md#a35bcf973b9c7c7178bcbe4313d1fb119)
+- $finalized
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a6f4aab5c90546e30139d6c57657c7008)
+- $fixesForLevel
+  : [HTMLPurifier\_HTMLModule\_Tidy](doxygen__classHTMLPurifier__HTMLModule__Tidy.md#a1bfe0abd281d86ed31562468d0104aac)
+- $form\_pointer
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#aa4ae4201c3ced71278b2642d19ac3dd1)
+- $formatting
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#adb1a90d0ca1759f991e69b8e4a7758ce)
+  , [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#a9245b271bc81f4d44b437ba92a092617)
+- $foster\_parent
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#a9ff787821675aaa8d22eb575032bf261)
+- $fragment
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#a2aefd8357cfc12bb7c50fc47edf980a7)
+- $fs
+  : [FSTools\_File](doxygen__classFSTools__File.md#aa605b4e17f205df14dc096dbf077050e)
+- $generator
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a5fb7ece8bd0c13480e789bf881bf086f)
+  , [HTMLPurifier\_Printer](doxygen__classHTMLPurifier__Printer.md#a512dc8c69720eb69180b01000987380b)
+  , [HTMLPurifier](doxygen__classHTMLPurifier.md#ae3fac678235d4807eb71825f5a45d3d8)
+- $handle
+  : [FSTools\_File](doxygen__classFSTools__File.md#a0b73197faed2780d8a9fdecd80fef952)
+- $head\_pointer
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#a8506b7d36c0298f9173bac37a97172cf)
+- $hierarchical
+  : [HTMLPurifier\_URIScheme\_ftp](doxygen__classHTMLPurifier__URIScheme__ftp.md#aea2ab0dd4b2354db85c9d22608d149b3)
+  , [HTMLPurifier\_URIScheme\_http](doxygen__classHTMLPurifier__URIScheme__http.md#af0af83918ca0e98aec3da6954eff982b)
+  , [HTMLPurifier\_URIScheme](doxygen__classHTMLPurifier__URIScheme.md#ac8df8407ec6f4e8c8bb1dc9ae3c352fb)
+- $host
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#a32782c2563b3a3d186e370b3aa956289)
+  , [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#abb18dbc906edbfcf04d153386a3a10c8)
+- $htmlDefinition
+  : [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#abe98d61292bba4349be8a8236ef9e255)
+- $id
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a1e4055feb63312cee8eccf13bd6ffd7c)
+- $ids
+  : [HTMLPurifier\_IDAccumulator](doxygen__classHTMLPurifier__IDAccumulator.md#a8b1925aa347f0da5360b5daff2915f31)
+- $implementations
+  : [HTMLPurifier\_DefinitionCacheFactory](doxygen__classHTMLPurifier__DefinitionCacheFactory.md#a0c7a76120ee346ab4c3c993d0f58cc4b)
+- $info
+  : [HTMLPurifier\_AttrCollections](doxygen__classHTMLPurifier__AttrCollections.md#a588bcab5f5978c50456dbba61e695900)
+  , [HTMLPurifier\_AttrDef\_CSS\_Background](doxygen__classHTMLPurifier__AttrDef__CSS__Background.md#a7d0f96826ddc1cc7fcd9e7dd605fd6c8)
+  , [HTMLPurifier\_AttrDef\_CSS\_Border](doxygen__classHTMLPurifier__AttrDef__CSS__Border.md#aa9fb4d4dfd690be373acff02889c8096)
+  , [HTMLPurifier\_AttrDef\_CSS\_Font](doxygen__classHTMLPurifier__AttrDef__CSS__Font.md#a18be00fdfbebb2803a53d1590569f05e)
+  , [HTMLPurifier\_AttrDef\_CSS\_ListStyle](doxygen__classHTMLPurifier__AttrDef__CSS__ListStyle.md#ab3f5f0e24f511e97940de1af26a6eaba)
+  , [HTMLPurifier\_AttrTypes](doxygen__classHTMLPurifier__AttrTypes.md#abcc6214d1fc6a46dc5e40ddacd0f860c)
+  , [HTMLPurifier\_ConfigSchema](doxygen__classHTMLPurifier__ConfigSchema.md#a2e8a80a7aa2d777b95de55e8465d385b)
+  , [HTMLPurifier\_ContentSets](doxygen__classHTMLPurifier__ContentSets.md#a59146cf7fed870a194f1459fc3291329)
+  , [HTMLPurifier\_CSSDefinition](doxygen__classHTMLPurifier__CSSDefinition.md#aef5447a5d3a7ab1af3ca143c39a22ec8)
+  , [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#ab4bac9f9178f0afffbf52261d2957f0f)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a8993a9639004f7e706f63f65ee28254f)
+- $info\_attr\_transform\_post
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a80c26abf49745da3b4b777610a65b03e)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#aef22ceb521086ceea23c408cd4974c40)
+- $info\_attr\_transform\_pre
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a6611f980f1032f5f9ba85c2b2c5eb867)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a8360302f80672ee91e38609982ee3e96)
+- $info\_block\_wrapper
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a5cc22490461d0b4d669370a7c3d65de3)
+- $info\_content\_sets
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a6b30c22edf1203d78746f119ba3292da)
+- $info\_global\_attr
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#ac0a6b529fd54bf3e94fb4f6ef1555a39)
+- $info\_injector
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a22beaf3dd6ed19e1f850f3c146c7f2d7)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a68a3f58ec05cf9b1aceb0ee0966dc4fa)
+- $info\_parent
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#ab32cb20536d9eea061c61c5f895af3b8)
+- $info\_parent\_def
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#ae715103eaaad56c4d09a9c32db82e022)
+- $info\_tag\_transform
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#aef7624e8f0a8dde1e5358ec9bfaefc7c)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a9cd963895282a192b432ebef787fe93b)
+- $init
+  : [HTMLPurifier\_ChildDef\_StrictBlockquote](doxygen__classHTMLPurifier__ChildDef__StrictBlockquote.md#a34a7169953e9cc74e31cef2a6e383cd0)
+- $injectors
+  : [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#a8f24bfd1c7814eabfcfe377b671fef55)
+- $inline
+  : [HTMLPurifier\_ChildDef\_Chameleon](doxygen__classHTMLPurifier__ChildDef__Chameleon.md#a6d23ca5b2646f664a68362715bbfb384)
+- $inputIndex
+  : [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#a9f43d4bd741ceaaca63bf47ff8fcf05e)
+- $inputTokens
+  : [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#ada82e2e5701aad454e8b75b8aee6d606)
+- $instance
+  : [HTMLPurifier](doxygen__classHTMLPurifier.md#a7cd1dc86b3b284a3e98066b43f3f073c)
+- $interchange
+  : [HTMLPurifier\_ConfigSchema\_Validator](doxygen__classHTMLPurifier__ConfigSchema__Validator.md#ad8cfb6b080ccbc19ea3754914d9fd81c)
+  , [HTMLPurifier\_ConfigSchema\_Builder\_Xml](doxygen__classHTMLPurifier__ConfigSchema__Builder__Xml.md#a0f53d08db98000fe4c9f0082a8fa7ba1)
+- $internalPrecision
+  : [HTMLPurifier\_UnitConverter](doxygen__classHTMLPurifier__UnitConverter.md#a21579fd5b8beaaf5699c3951737142c3)
+- $intValidator
+  : [HTMLPurifier\_AttrDef\_CSS\_Filter](doxygen__classHTMLPurifier__AttrDef__CSS__Filter.md#a3871246e8ca0c94a91efddeb818d45af)
+- $ip4
+  : [HTMLPurifier\_AttrDef\_URI\_IPv4](doxygen__classHTMLPurifier__AttrDef__URI__IPv4.md#a2b5e3f2b6f6e41bdf2d48309379f5de1)
+- $ipv4
+  : [HTMLPurifier\_AttrDef\_URI\_Host](doxygen__classHTMLPurifier__AttrDef__URI__Host.md#aa0291fa531c33d1826f218bf0b044179)
+- $ipv6
+  : [HTMLPurifier\_AttrDef\_URI\_Host](doxygen__classHTMLPurifier__AttrDef__URI__Host.md#add553d6766b9ad3438b858365f371c59)
+- $is\_tag
+  : [HTMLPurifier\_Token\_Tag](doxygen__classHTMLPurifier__Token__Tag.md#a974e4c3fdf940a938335c3aaba2e15b5)
+- $is\_whitespace
+  : [HTMLPurifier\_Token\_Text](doxygen__classHTMLPurifier__Token__Text.md#aabc9a269015ae9b3e370a15ee5de621f)
+  , [HTMLPurifier\_Token\_Comment](doxygen__classHTMLPurifier__Token__Comment.md#a50eee338dd6a4749b5c9224e12a8dede)
+- $isValid
+  : [HTMLPurifier\_Length](doxygen__classHTMLPurifier__Length.md#a702c647145c9f859423b269f98fbe2e0)
+- $key
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Id](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Id.md#a8d3e83f6e8ecb121f0fbc7c640aaefec)
+- $keys
+  : [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#ad42771f148ac00e139798d3eac59d592)
+  , [HTMLPurifier\_ContentSets](doxygen__classHTMLPurifier__ContentSets.md#abf3eac7ddc8ffaddea9a6cc5d599a69c)
+- $l
+  : [HTMLPurifier\_PropertyListIterator](doxygen__classHTMLPurifier__PropertyListIterator.md#a27292e22d81f619f1fc0396fd5445004)
+- $length
+  : [HTMLPurifier\_AttrDef\_CSS\_BackgroundPosition](doxygen__classHTMLPurifier__AttrDef__CSS__BackgroundPosition.md#ad61228f5654ccd804ec390999c5b6bf5)
+- $levels
+  : [HTMLPurifier\_HTMLModule\_Tidy](doxygen__classHTMLPurifier__HTMLModule__Tidy.md#a700db969800293dd50c3b85c29722b80)
+- $line
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#a64cba5bdee6d525377b8fe33109122b4)
+- $lines
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a3af666ba56b9ddab14856a6e8b6156b6)
+- $locale
+  : [HTMLPurifier\_ErrorCollector](doxygen__classHTMLPurifier__ErrorCollector.md#a014daeb6e9c79564095185154500e6a6)
+- $lock
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a5bd9ca2728ab90c3ed0b272e801a7acb)
+- $lookup
+  : [HTMLPurifier\_ContentSets](doxygen__classHTMLPurifier__ContentSets.md#a4edc2744f4c253f1958ccae6a8894c5f)
+- $manager
+  : [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a7d12dbd6f3c9e01dc952a86c4b9e09ef)
+- $mask
+  : [HTMLPurifier\_AttrDef\_CSS\_FontFamily](doxygen__classHTMLPurifier__AttrDef__CSS__FontFamily.md#ad4bc4fe0cf0e0873eab19f9a94163c4c)
+- $max
+  : [HTMLPurifier\_AttrDef\_CSS\_Multiple](doxygen__classHTMLPurifier__AttrDef__CSS__Multiple.md#a65da5b3ca816d32bb1698add3e0a3576)
+  , [HTMLPurifier\_AttrDef\_HTML\_Pixels](doxygen__classHTMLPurifier__AttrDef__HTML__Pixels.md#ac015b0271641ab15a9a78b6f770fbb8a)
+  , [HTMLPurifier\_AttrDef\_CSS\_Length](doxygen__classHTMLPurifier__AttrDef__CSS__Length.md#a5c799d594d0be52515ba3f1855339254)
+- $may\_omit\_host
+  : [HTMLPurifier\_URIScheme\_data](doxygen__classHTMLPurifier__URIScheme__data.md#a34d953efd10dd8236b299aac1b4da60b)
+  , [HTMLPurifier\_URIScheme\_mailto](doxygen__classHTMLPurifier__URIScheme__mailto.md#a42ffed0793f1dac2002a7ba48a2df7e7)
+  , [HTMLPurifier\_URIScheme\_news](doxygen__classHTMLPurifier__URIScheme__news.md#ade497fe02fe79224c6183b76917e5c1d)
+  , [HTMLPurifier\_URIScheme](doxygen__classHTMLPurifier__URIScheme.md#a9d8e36fcebf034700d00bc4d935fa765)
+  , [HTMLPurifier\_URIScheme\_file](doxygen__classHTMLPurifier__URIScheme__file.md#ac62abc9c669a6e467ce2ce6cd9cbdcaa)
+- $member
+  : [HTMLPurifier\_ConfigSchema\_ValidatorAtom](doxygen__classHTMLPurifier__ConfigSchema__ValidatorAtom.md#af524e276d540c814e14e821fdb33c957)
+- $mergeable\_keys\_list
+  : [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#a9901a43e75cef050c89b117a10800843)
+- $mergeable\_keys\_map
+  : [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#a52e2d6740f4e7411697bad9f85e95892)
+- $messages
+  : [HTMLPurifier\_Language](doxygen__classHTMLPurifier__Language.md#ae0b2a027ff425c9ebefc0e4f2728c7ab)
+- $min
+  : [HTMLPurifier\_AttrDef\_CSS\_Length](doxygen__classHTMLPurifier__AttrDef__CSS__Length.md#ab132213a1ab8151d0c2df78a3c446240)
+- $minimized
+  : [HTMLPurifier\_AttrDef\_HTML\_Bool](doxygen__classHTMLPurifier__AttrDef__HTML__Bool.md#aaca2ecb54c295f3b65bfa1e81a7b8583)
+  , [HTMLPurifier\_AttrDef](doxygen__classHTMLPurifier__AttrDef.md#a970c87d71a9c82781741194fd67a62df)
+- $mode
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#ae18a8404bf51d96fa7f26af447d5c3a1)
+- $modules
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#a1dad6984fd384aa80f545c0323e8b18f)
+  , [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#ac02f91aa55c131c0d047a8e919851eaf)
+- $n
+  : [HTMLPurifier\_Length](doxygen__classHTMLPurifier__Length.md#ae5e0e6ba1ea8bf13163fd1926c583e43)
+- $name
+  : [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a10f7d43e478f76541c170593453b9e50)
+  , [HTMLPurifier\_URIFilter\_SafeIframe](doxygen__classHTMLPurifier__URIFilter__SafeIframe.md#a7da0f2963e27f8fdea9cc3aa9e13a485)
+  , [HTMLPurifier\_Filter\_ExtractStyleBlocks](doxygen__classHTMLPurifier__Filter__ExtractStyleBlocks.md#af3c579b4f5e79ab1784baf5f321daf5c)
+  , [HTMLPurifier\_URIFilter\_MakeAbsolute](doxygen__classHTMLPurifier__URIFilter__MakeAbsolute.md#a9beee269d7431813e481b3a13989540f)
+  , [HTMLPurifier\_Injector\_AutoParagraph](doxygen__classHTMLPurifier__Injector__AutoParagraph.md#a003bc6d4f2f794a6ca7f5288a751c260)
+  , [FSTools\_File](doxygen__classFSTools__File.md#a4a60f5eb0bfa0c806e3022522066b316)
+  , [HTMLPurifier\_AttrDef\_HTML\_LinkTypes](doxygen__classHTMLPurifier__AttrDef__HTML__LinkTypes.md#a0b1b0d672fe9e3ee3fe23472243b1bf9)
+  , [HTMLPurifier\_AttrTransform\_Length](doxygen__classHTMLPurifier__AttrTransform__Length.md#abd9ec3d6894fadd50a4955376bb409f5)
+  , [HTMLPurifier\_URIFilter\_DisableResources](doxygen__classHTMLPurifier__URIFilter__DisableResources.md#a32a025c93830816e4287da6c3648e002)
+  , [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#a15efeb72d86f022fc99513f8d5de5bac)
+  , [HTMLPurifier\_AttrTransform\_SafeParam](doxygen__classHTMLPurifier__AttrTransform__SafeParam.md#af4fd8183836a1d11286a76a0851f6b14)
+  , [HTMLPurifier\_ConfigSchema\_Interchange](doxygen__classHTMLPurifier__ConfigSchema__Interchange.md#afc0f02aa85fcf661b554115466995f35)
+  , [HTMLPurifier\_DefinitionCache\_Decorator\_Cleanup](doxygen__classHTMLPurifier__DefinitionCache__Decorator__Cleanup.md#ae7665675a06d7658c6c0941c1575cb61)
+  , [HTMLPurifier\_Printer\_ConfigForm](doxygen__classHTMLPurifier__Printer__ConfigForm.md#a387d1ddf6544c4a3521adfce90de9ee0)
+  , [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#ab1bbc91b5d4bea664707ceb5a21fb80e)
+  , [HTMLPurifier\_Token\_Tag](doxygen__classHTMLPurifier__Token__Tag.md#a11b476f2bf296541387212e5add8b88f)
+  , [HTMLPurifier\_Injector\_Linkify](doxygen__classHTMLPurifier__Injector__Linkify.md#a33427eb3f9c651494045a9193aa482e9)
+  , [HTMLPurifier\_HTMLModule\_Bdo](doxygen__classHTMLPurifier__HTMLModule__Bdo.md#ae63a3f1dac1f77d32b44946493fb4813)
+  , [HTMLPurifier\_HTMLModule\_CommonAttributes](doxygen__classHTMLPurifier__HTMLModule__CommonAttributes.md#a065ed49304a046fe8e04e8f2b36339c2)
+  , [HTMLPurifier\_HTMLModule\_Edit](doxygen__classHTMLPurifier__HTMLModule__Edit.md#af83c8d17bfeaa663ed916d473d14b13e)
+  , [HTMLPurifier\_HTMLModule\_Hypertext](doxygen__classHTMLPurifier__HTMLModule__Hypertext.md#a7adb2367f5650f1d435d964e0049c318)
+  , [HTMLPurifier\_HTMLModule\_Iframe](doxygen__classHTMLPurifier__HTMLModule__Iframe.md#a8ff094429099da3d6873cfc18eeac9ac)
+  , [HTMLPurifier\_Injector\_RemoveSpansWithoutAttributes](doxygen__classHTMLPurifier__Injector__RemoveSpansWithoutAttributes.md#a806ef502c1a96089b35bb3487762c71a)
+  , [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#ae5035385c97162b392da13544a4ab4d6)
+  , [HTMLPurifier\_Filter\_YouTube](doxygen__classHTMLPurifier__Filter__YouTube.md#a558fc2c5f2a44bc705f0a6179d8cf160)
+  , [HTMLPurifier\_HTMLModule\_Ruby](doxygen__classHTMLPurifier__HTMLModule__Ruby.md#ab2064cc5bf30b8eb89dc8720e18b0bc6)
+  , [HTMLPurifier\_HTMLModule\_XMLCommonAttributes](doxygen__classHTMLPurifier__HTMLModule__XMLCommonAttributes.md#aa54863fead1c28bd1c48905f8860bdc4)
+  , [HTMLPurifier\_HTMLModule\_StyleAttribute](doxygen__classHTMLPurifier__HTMLModule__StyleAttribute.md#a7b36f1b21eef8336375d7a055828d63c)
+  , [HTMLPurifier\_HTMLModule\_List](doxygen__classHTMLPurifier__HTMLModule__List.md#af36f0026c56b02afe9ebb7392836eafe)
+  , [HTMLPurifier\_HTMLModule\_Name](doxygen__classHTMLPurifier__HTMLModule__Name.md#a5500ae6159a3930e44d73b4f4bc827cc)
+  , [HTMLPurifier\_HTMLModule\_Nofollow](doxygen__classHTMLPurifier__HTMLModule__Nofollow.md#a56487ab72c9ce41fb98a6968bd3798b5)
+  , [HTMLPurifier\_HTMLModule\_Text](doxygen__classHTMLPurifier__HTMLModule__Text.md#a04cc02d4be360164113d399749c69cc1)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_XHTML](doxygen__classHTMLPurifier__HTMLModule__Tidy__XHTML.md#a42cf1efb51b320104529733b00e82c53)
+  , [HTMLPurifier\_HTMLModule\_Object](doxygen__classHTMLPurifier__HTMLModule__Object.md#a4a413bfde22c550e39f70e53d3f784a8)
+  , [HTMLPurifier\_HTMLModule\_Presentation](doxygen__classHTMLPurifier__HTMLModule__Presentation.md#a40a8ba1db0e8f2b3b2cc8d6fe7c01ef4)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Transitional](doxygen__classHTMLPurifier__HTMLModule__Tidy__Transitional.md#ad0ff9fac768c3cf2ec88f7d8828a774a)
+  , [HTMLPurifier\_HTMLModule\_Proprietary](doxygen__classHTMLPurifier__HTMLModule__Proprietary.md#a0e6c30a7cde3d5cf83ebcc14d4327446)
+  , [HTMLPurifier\_HTMLModule\_SafeEmbed](doxygen__classHTMLPurifier__HTMLModule__SafeEmbed.md#a00ddb5aadbb7b6c79639e6063c857b45)
+  , [HTMLPurifier\_HTMLModule\_SafeObject](doxygen__classHTMLPurifier__HTMLModule__SafeObject.md#a19aa497b76849a5cfb28e085cbaec377)
+  , [HTMLPurifier\_HTMLModule\_Scripting](doxygen__classHTMLPurifier__HTMLModule__Scripting.md#a4e135ce2197c4d38cae6293ff410fc70)
+  , [HTMLPurifier\_HTMLModule\_Tables](doxygen__classHTMLPurifier__HTMLModule__Tables.md#a6b21e3468f4511d1ebd064b6e426fc8c)
+  , [HTMLPurifier\_HTMLModule\_Target](doxygen__classHTMLPurifier__HTMLModule__Target.md#a505cbc4a10c6708d26ff18efedcca5de)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Name](doxygen__classHTMLPurifier__HTMLModule__Tidy__Name.md#aaea38af3cc35162d772bbc432dd2be0c)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Proprietary](doxygen__classHTMLPurifier__HTMLModule__Tidy__Proprietary.md#afc1b22277b5705ae192b8a6ddfd0a070)
+  , [HTMLPurifier\_HTMLModule\_Tidy\_Strict](doxygen__classHTMLPurifier__HTMLModule__Tidy__Strict.md#a212a9bfe79289fecd8731681147312f0)
+  , [HTMLPurifier\_HTMLModule\_TargetBlank](doxygen__classHTMLPurifier__HTMLModule__TargetBlank.md#a128927858c5e8e63be5560f051e2abd3)
+  , [HTMLPurifier\_Injector\_DisplayLinkURI](doxygen__classHTMLPurifier__Injector__DisplayLinkURI.md#aae886996782515047aa0f0236efa4ed8)
+  , [HTMLPurifier\_Injector\_PurifierLinkify](doxygen__classHTMLPurifier__Injector__PurifierLinkify.md#a52d19cc95bf3f5a4288439ed818e72e1)
+  , [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#a84f42995caf73f2ce757e3f4b9170602)
+  , [HTMLPurifier\_Filter](doxygen__classHTMLPurifier__Filter.md#a5ba5b60834e169792f9005bc75000c21)
+  , [HTMLPurifier\_Token\_Text](doxygen__classHTMLPurifier__Token__Text.md#a2e1a60c76a85960d81f9e74f2fd2f294)
+  , [HTMLPurifier\_URIFilter\_DisableExternal](doxygen__classHTMLPurifier__URIFilter__DisableExternal.md#ad3995a91603ac1f0f69c70cafa823481)
+  , [HTMLPurifier\_URIFilter\_DisableExternalResources](doxygen__classHTMLPurifier__URIFilter__DisableExternalResources.md#ab675354fe206ee9f5c1e4bca62488343)
+  , [HTMLPurifier\_URIFilter\_HostBlacklist](doxygen__classHTMLPurifier__URIFilter__HostBlacklist.md#ade87a3cc9253685aa49b2d74347e1819)
+  , [HTMLPurifier\_URIFilter](doxygen__classHTMLPurifier__URIFilter.md#a48c492ff331b050dba7a8142e76d3ba1)
+  , [HTMLPurifier\_HTMLModule\_NonXMLCommonAttributes](doxygen__classHTMLPurifier__HTMLModule__NonXMLCommonAttributes.md#abad2282b74aaa25f94d0c3f7fb0c61a7)
+  , [HTMLPurifier\_HTMLModule\_Image](doxygen__classHTMLPurifier__HTMLModule__Image.md#ae861c8ed867d1dd559c9992cc5572364)
+  , [HTMLPurifier\_HTMLModule\_Legacy](doxygen__classHTMLPurifier__HTMLModule__Legacy.md#a712964245293b6ba5a55406cd6b635a0)
+  , [HTMLPurifier\_HTMLModule\_Forms](doxygen__classHTMLPurifier__HTMLModule__Forms.md#a8e88ddf919ddbe2def4b30ab19e055fb)
+  , [HTMLPurifier\_DefinitionCache\_Decorator\_Memory](doxygen__classHTMLPurifier__DefinitionCache__Decorator__Memory.md#aaa583537f97f1890c13803cdbc97474f)
+  , [HTMLPurifier\_AttrTransform\_SafeEmbed](doxygen__classHTMLPurifier__AttrTransform__SafeEmbed.md#a1f81b8fd11a452e0c240da859e4b1e7a)
+  , [HTMLPurifier\_AttrTransform\_SafeObject](doxygen__classHTMLPurifier__AttrTransform__SafeObject.md#a8b3f8e56cd67974a72529022fa7b2940)
+  , [HTMLPurifier\_AttrDef\_HTML\_Bool](doxygen__classHTMLPurifier__AttrDef__HTML__Bool.md#afdbcd84359ce80275e8b8780b7d645ed)
+- $namespace
+  : [HTMLPurifier\_ConfigSchema\_Builder\_Xml](doxygen__classHTMLPurifier__ConfigSchema__Builder__Xml.md#ad6cc7a9f616134b18b763f67a4807811)
+- $needed
+  : [HTMLPurifier\_Injector\_PurifierLinkify](doxygen__classHTMLPurifier__Injector__PurifierLinkify.md#a569fa2c54469b9eddc354e7ad0e3d3bb)
+  , [HTMLPurifier\_Injector\_Linkify](doxygen__classHTMLPurifier__Injector__Linkify.md#a9faf391a03cafc6738aca303a50c123e)
+  , [HTMLPurifier\_Injector\_AutoParagraph](doxygen__classHTMLPurifier__Injector__AutoParagraph.md#a3acffb72b8e8141e174efeff7dd2f5d2)
+  , [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#ae8c48ddbf7a7bd826a8c7a2ce3ab081d)
+  , [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#ad361a1c14e9d819760f17572d1b74117)
+  , [HTMLPurifier\_Injector\_DisplayLinkURI](doxygen__classHTMLPurifier__Injector__DisplayLinkURI.md#a8aaf875d45aba11b54a9327c5ca9ad9e)
+  , [HTMLPurifier\_Injector\_RemoveSpansWithoutAttributes](doxygen__classHTMLPurifier__Injector__RemoveSpansWithoutAttributes.md#a139f7d7dc8163b21f02cd1838a1ef462)
+- $negative
+  : [HTMLPurifier\_AttrDef\_Integer](doxygen__classHTMLPurifier__AttrDef__Integer.md#a760f67c20ecd2d873c1e76eb5a8a2463)
+- $non\_negative
+  : [HTMLPurifier\_AttrDef\_CSS\_Number](doxygen__classHTMLPurifier__AttrDef__CSS__Number.md#a29cdc45b8b5dd9f5fc613996975044ee)
+- $number\_def
+  : [HTMLPurifier\_AttrDef\_CSS\_Percentage](doxygen__classHTMLPurifier__AttrDef__CSS__Percentage.md#a8a4534be853d98f7417921581dacc4c0)
+- $obj
+  : [HTMLPurifier\_ConfigSchema\_ValidatorAtom](doxygen__classHTMLPurifier__ConfigSchema__ValidatorAtom.md#a2e7dd0e83aa5f66cb5ca1da3f28dc05e)
+  , [HTMLPurifier\_Printer\_ConfigForm\_NullDecorator](doxygen__classHTMLPurifier__Printer__ConfigForm__NullDecorator.md#a7e9757e34fd37ec59f3f1042c07422ba)
+- $objectStack
+  : [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#a46a5ffcba8ee5d55ff56ee5263925dcd)
+- $optimized
+  : [HTMLPurifier\_Definition](doxygen__classHTMLPurifier__Definition.md#a3250fd885bfeeee52b9c92f093628dc0)
+- $ourHostParts
+  : [HTMLPurifier\_URIFilter\_DisableExternal](doxygen__classHTMLPurifier__URIFilter__DisableExternal.md#af6a300b222528c011e2908fc2398552b)
+- $outputPrecision
+  : [HTMLPurifier\_UnitConverter](doxygen__classHTMLPurifier__UnitConverter.md#a0f78b7cbeb6d98e1afca5a50e696fa9e)
+- $p\_comment
+  : [HTMLPurifier\_TokenFactory](doxygen__classHTMLPurifier__TokenFactory.md#ac43011acb9be11fad3c5da73f4225b47)
+- $p\_empty
+  : [HTMLPurifier\_TokenFactory](doxygen__classHTMLPurifier__TokenFactory.md#a4a9636ac8d85fb51748a82f3ac5f9687)
+- $p\_end
+  : [HTMLPurifier\_TokenFactory](doxygen__classHTMLPurifier__TokenFactory.md#a8d28d7ec8c618fec3e847b27615ccce9)
+- $p\_start
+  : [HTMLPurifier\_TokenFactory](doxygen__classHTMLPurifier__TokenFactory.md#a0a49f37a56ec585c9257c78ac8c08e07)
+- $p\_text
+  : [HTMLPurifier\_TokenFactory](doxygen__classHTMLPurifier__TokenFactory.md#a44d3335320c4d44bb0a9b2af2df70bcb)
+- $paramStack
+  : [HTMLPurifier\_Injector\_SafeObject](doxygen__classHTMLPurifier__Injector__SafeObject.md#a9d8f249ce6106264ed87538810c7bd2f)
+- $parent
+  : [HTMLPurifier\_PropertyList](doxygen__classHTMLPurifier__PropertyList.md#a5cd68db88135d770f1df2a822d74d7dd)
+- $parser
+  : [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#a40af53603e0131ba2be27ac4af64d977)
+  , [HTMLPurifier\_ConfigSchema\_Validator](doxygen__classHTMLPurifier__ConfigSchema__Validator.md#ae468f8373f7f510ac0c972d9fd0b9b61)
+  , [HTMLPurifier\_AttrTransform\_Nofollow](doxygen__classHTMLPurifier__AttrTransform__Nofollow.md#a50b7d70b8a1ccee0a930ab8de7775f29)
+  , [HTMLPurifier\_AttrDef\_URI](doxygen__classHTMLPurifier__AttrDef__URI.md#a52a7426b1f733df5ec6474a5cd157178)
+  , [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a4b3bfa5d185c17c911db346bbf1cfb49)
+  , [HTMLPurifier\_AttrTransform\_TargetBlank](doxygen__classHTMLPurifier__AttrTransform__TargetBlank.md#aed65ec19b55166d58e790a7018190e85)
+- $path
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#a80bf30e8440f3794b344169ad7add6bd)
+- $percentage
+  : [HTMLPurifier\_AttrDef\_CSS\_BackgroundPosition](doxygen__classHTMLPurifier__AttrDef__CSS__BackgroundPosition.md#af726a396376661d1b536ef8cf3c17150)
+- $percentEncoder
+  : [HTMLPurifier\_URIParser](doxygen__classHTMLPurifier__URIParser.md#a173c1d322bb4a911f482c682f738f1dc)
+- $phase
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#ab722661083a0b2010f20cbfdc10313e0)
+- $pixels
+  : [HTMLPurifier\_AttrTransform\_Input](doxygen__classHTMLPurifier__AttrTransform__Input.md#a78d319c585f2108dcda04bd664788f8e)
+- $plist
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a11e37c608d947d71495b700b2e350e1c)
+- $port
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#a9d2b7107411122efa7e930be6d38aa82)
+- $positive
+  : [HTMLPurifier\_AttrDef\_Integer](doxygen__classHTMLPurifier__AttrDef__Integer.md#a43924be8ea747daf7d9f25403827db79)
+- $post
+  : [HTMLPurifier\_URIFilter](doxygen__classHTMLPurifier__URIFilter.md#a1e2ab0673c51d2ffa4a702279faa3f0d)
+  , [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#a57096486fc926a1cb2af8361999bba9c)
+- $postFilters
+  : [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#a0f4eb7bc917cbaf1af581572743389fc)
+- $prefixes
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#ada129f26d42ceea1c83cd771b0fdb261)
+- $preserve
+  : [HTMLPurifier\_PercentEncoder](doxygen__classHTMLPurifier__PercentEncoder.md#a671e9bd32d57206df54030b0d57721d6)
+- $query
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#ab33a9b00eec363db001b271a64fcfba7)
+- $real\_elements
+  : [HTMLPurifier\_ChildDef\_StrictBlockquote](doxygen__classHTMLPurifier__ChildDef__StrictBlockquote.md#ae85b845bf91b142b904b123b87fbc8a0)
+- $regexp
+  : [HTMLPurifier\_URIFilter\_SafeIframe](doxygen__classHTMLPurifier__URIFilter__SafeIframe.md#aa1e2f702420080c5c5388d71482579b8)
+- $registeredFilters
+  : [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#a22a5ccf72975eba6ca2093cd5298f9f9)
+- $registeredModules
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#ac7baacae235048bc75eeb962de4fd096)
+- $removeNbsp
+  : [HTMLPurifier\_Injector\_RemoveEmpty](doxygen__classHTMLPurifier__Injector__RemoveEmpty.md#a3f3efa1b98fd2d89e36ba49193714f55)
+- $removeNbspExceptions
+  : [HTMLPurifier\_Injector\_RemoveEmpty](doxygen__classHTMLPurifier__Injector__RemoveEmpty.md#a13fb5587daceb1290725075c52981012)
+- $replace
+  : [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#ad628754fb7406800b8e7dfa12324d3af)
+- $required
+  : [HTMLPurifier\_AttrDef](doxygen__classHTMLPurifier__AttrDef.md#a900a27ff615bbe5e080f04e46d584367)
+- $required\_attr
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a5a3ba83e55d67a7e20ba6c80ea73aa54)
+- $rewind
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#ae6284c7aa38e04e9e2b117e2029ef8c3)
+  , [HTMLPurifier\_Injector](doxygen__classHTMLPurifier__Injector.md#a0196cdb677f22f5d021fad631c785c2e)
+- $rows
+  : [HTMLPurifier\_Printer\_ConfigForm\_default](doxygen__classHTMLPurifier__Printer__ConfigForm__default.md#ae249df38b0d9e27b2d7a0f67b91e1ba6)
+- $safe
+  : [HTMLPurifier\_HTMLModule\_Iframe](doxygen__classHTMLPurifier__HTMLModule__Iframe.md#a50491af1d5909f99ded97c3d67bd26ff)
+  , [HTMLPurifier\_HTMLModule\_Forms](doxygen__classHTMLPurifier__HTMLModule__Forms.md#a242c1674d909d22435954c43df3fc9c3)
+  , [HTMLPurifier\_HTMLModule](doxygen__classHTMLPurifier__HTMLModule.md#a2607fc85f803afa801cf1904300644b9)
+  , [HTMLPurifier\_HTMLModule\_Object](doxygen__classHTMLPurifier__HTMLModule__Object.md#abecede9f689f8ff2e15be9d0cb85692a)
+  , [HTMLPurifier\_HTMLModule\_Scripting](doxygen__classHTMLPurifier__HTMLModule__Scripting.md#a3d7746230db0a4bf2c093adc65e708fb)
+- $scheme
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#a6e035d8cdd9fa94b370cfe3f8aad5ccf)
+- $schemes
+  : [HTMLPurifier\_URISchemeRegistry](doxygen__classHTMLPurifier__URISchemeRegistry.md#a09ca1389f3c5d6912b41a9b55b249a40)
+- $scoping
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#ab5724fe06cfb76df24ca3d149c9b1697)
+- $secretKey
+  : [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#ad8f47e61f8584367c9da43de39144e4e)
+- $secure
+  : [HTMLPurifier\_URIScheme](doxygen__classHTMLPurifier__URIScheme.md#a53fc8c93025cf82924f0c8f44d432e20)
+  , [HTMLPurifier\_URIScheme\_https](doxygen__classHTMLPurifier__URIScheme__https.md#a4d28074cb176b324d57c89a194f133ea)
+- $selector
+  : [HTMLPurifier\_AttrDef\_HTML\_ID](doxygen__classHTMLPurifier__AttrDef__HTML__ID.md#a7a0c9b401031cff44d814aa25591d180)
+- $serial
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a69593d42c4c4f7a9c285ac2bf892fa15)
+- $serials
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#afe003339baa3446423bde92d230c1333)
+- $setup
+  : [HTMLPurifier\_Definition](doxygen__classHTMLPurifier__Definition.md#a8770f38b390d596bb5611c517e0710b3)
+- $single
+  : [HTMLPurifier\_AttrDef\_CSS\_Multiple](doxygen__classHTMLPurifier__AttrDef__CSS__Multiple.md#a52fb60d24dfe202beeaa7f7c6bad97f1)
+- $singleton
+  : [FSTools](doxygen__classFSTools.md#aa7d8f37e42c789788bc34bf518618930)
+  , [HTMLPurifier\_ConfigSchema](doxygen__classHTMLPurifier__ConfigSchema.md#a56e4e2dacfc856840ca4afed1bc5c8be)
+- $skip
+  : [HTMLPurifier\_Token](doxygen__classHTMLPurifier__Token.md#af7eba36dca16eab138ff7823444f2ca0)
+- $special
+  : [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#aa8847875486bd18d277674de6d9dc954)
+- $stack
+  : [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#a42b5206c0b08d3713224da362e3893b1)
+  , [HTML5TreeConstructer](doxygen__classHTML5TreeConstructer.md#a6362d352c497f6289392b689bb08172a)
+- $standalone
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a55b9825b6bf0fcf1757d223fe67b2502)
+- $start
+  : [HTMLPurifier\_Token\_End](doxygen__classHTMLPurifier__Token__End.md#a07ce05890f8dd957bb9bc6822cb540ba)
+- $state
+  : [HTML5](doxygen__classHTML5.md#a79ca4710787eb6958d3a0546a4c6d0e6)
+- $strategies
+  : [HTMLPurifier\_Strategy\_Composite](doxygen__classHTMLPurifier__Strategy__Composite.md#a5b643fc2bf293843b95c6829de63855f)
+- $strategy
+  : [HTMLPurifier](doxygen__classHTMLPurifier.md#a43bcd3ebc364d2fe66b412df5ce03200)
+- $stringTypes
+  : [HTMLPurifier\_VarParser](doxygen__classHTMLPurifier__VarParser.md#a4ec21d634a62e1325b3fc0a094e8bbf5)
+- $style
+  : [HTMLPurifier\_TagTransform\_Simple](doxygen__classHTMLPurifier__TagTransform__Simple.md#ae78b6f004ece32e96cd7bedbe5f02e5c)
+- $t
+  : [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#a1f363142a9154902642833c7c41c9536)
+- $table
+  : [HTMLPurifier\_EntityLookup](doxygen__classHTMLPurifier__EntityLookup.md#a821c8d947878cf667426a6aa809d605c)
+- $tag
+  : [HTMLPurifier\_AttrDef\_Switch](doxygen__classHTMLPurifier__AttrDef__Switch.md#af5673fdba8457304443a33819c04ae6e)
+- $target
+  : [HTMLPurifier\_URIFilter\_Munge](doxygen__classHTMLPurifier__URIFilter__Munge.md#ac6a51eb5ed9d73c1fab1832a020df5ac)
+- $tidyModules
+  : [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#a68201521e368ad87fb91c656a46fc993)
+- $token
+  : [HTML5](doxygen__classHTML5.md#af20c2c1352a8c0ab42a6b16f6c7b823b)
+- $tokens
+  : [HTMLPurifier\_Strategy\_MakeWellFormed](doxygen__classHTMLPurifier__Strategy__MakeWellFormed.md#afb844c69e9d6e032993b50048c6c08ff)
+- $tracksLineNumbers
+  : [HTMLPurifier\_Lexer\_DirectLex](doxygen__classHTMLPurifier__Lexer__DirectLex.md#a273c45a399a2544879ecac2ffa3a2fd8)
+  , [HTMLPurifier\_Lexer](doxygen__classHTMLPurifier__Lexer.md#acd246fb6f67bd3043b18553b04db93ed)
+- $transform\_to
+  : [HTMLPurifier\_TagTransform\_Font](doxygen__classHTMLPurifier__TagTransform__Font.md#ae7ea191975d1e5b5d1045620a8e78330)
+  , [HTMLPurifier\_TagTransform](doxygen__classHTMLPurifier__TagTransform.md#af9e40f17af8a63f26381fa968aeb7c89)
+- $tree
+  : [HTML5](doxygen__classHTML5.md#a460f98f638f2b93f1fc59f4c4a87adbf)
+- $trusted
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#ac672c14e87065bab6cbc76edcda40315)
+- $type
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a1653790e5969bbf12bd9094ce9949a77)
+  , [HTMLPurifier\_DefinitionCache](doxygen__classHTMLPurifier__DefinitionCache.md#a0c80a1c08a20940de796f4ef29feefbc)
+  , [HTMLPurifier\_ErrorStruct](doxygen__classHTMLPurifier__ErrorStruct.md#ab0df20e74f43d79b9b5fc220b3db5ab6)
+  , [HTMLPurifier\_CSSDefinition](doxygen__classHTMLPurifier__CSSDefinition.md#ac4de0630820d8d83f555ab4eb9b9e6e6)
+  , [HTMLPurifier\_ChildDef\_Empty](doxygen__classHTMLPurifier__ChildDef__Empty.md#ac69b98705c247629be35b69cd9e98dff)
+  , [HTMLPurifier\_ChildDef](doxygen__classHTMLPurifier__ChildDef.md#a3b9246b900d9c5d6107cb82cea62180d)
+  , [HTMLPurifier\_HTMLDefinition](doxygen__classHTMLPurifier__HTMLDefinition.md#a45e0d16c16636c45f2fbdfa556ec9294)
+  , [HTMLPurifier\_ChildDef\_List](doxygen__classHTMLPurifier__ChildDef__List.md#a6fb97080d80dd11dbe41abdf1d06009c)
+  , [HTMLPurifier\_ChildDef\_Chameleon](doxygen__classHTMLPurifier__ChildDef__Chameleon.md#a17b07005a3f864b5820f1e3fb8aea132)
+  , [HTMLPurifier\_Definition](doxygen__classHTMLPurifier__Definition.md#a2e14e97d237d70cb1b22379e99e7100e)
+  , [HTMLPurifier\_ChildDef\_Optional](doxygen__classHTMLPurifier__ChildDef__Optional.md#ac12756a533fd1f420669156aeb6be162)
+  , [HTMLPurifier\_ChildDef\_Custom](doxygen__classHTMLPurifier__ChildDef__Custom.md#aa367d716379195c16bb9174a7c8b8dde)
+  , [HTMLPurifier\_ChildDef\_Required](doxygen__classHTMLPurifier__ChildDef__Required.md#a2f815a4acff5b44801bc21f353871c62)
+  , [HTMLPurifier\_ChildDef\_StrictBlockquote](doxygen__classHTMLPurifier__ChildDef__StrictBlockquote.md#ac98c7b6e19426f0366c651034edee22f)
+  , [HTMLPurifier\_URIDefinition](doxygen__classHTMLPurifier__URIDefinition.md#af8025a26e38e2dc7f9043409d5e67646)
+  , [HTMLPurifier\_ChildDef\_Table](doxygen__classHTMLPurifier__ChildDef__Table.md#aa47480c1b24895cb53cb7116dc1cbde4)
+- $typeAllowsNull
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a4ebab550b459e3460d32dda71e7bfdba)
+- $types
+  : [HTMLPurifier\_VarParser](doxygen__classHTMLPurifier__VarParser.md#a27ce5f1bdb947ac6269408e3cc7ab3e6)
+- $unit
+  : [HTMLPurifier\_Length](doxygen__classHTMLPurifier__Length.md#a770d1e622fc661387ade708fa9308a89)
+- $units
+  : [HTMLPurifier\_UnitConverter](doxygen__classHTMLPurifier__UnitConverter.md#a1638b315e056028b01a13ecd47025efe)
+- $uri
+  : [HTMLPurifier\_AttrTransform\_SafeParam](doxygen__classHTMLPurifier__AttrTransform__SafeParam.md#af213316c229930efcab8c6348d7cc03d)
+- $userinfo
+  : [HTMLPurifier\_URI](doxygen__classHTMLPurifier__URI.md#accbbb68c8c8694d1af0449e2a78816c9)
+- $userModules
+  : [HTMLPurifier\_HTMLModuleManager](doxygen__classHTMLPurifier__HTMLModuleManager.md#acb5e35e4049e59fda2f13e974211f420)
+- $valid\_values
+  : [HTMLPurifier\_AttrDef\_Enum](doxygen__classHTMLPurifier__AttrDef__Enum.md#abc1df45b8d1bb628e037beae48b951d4)
+  , [HTMLPurifier\_AttrDef\_HTML\_FrameTarget](doxygen__classHTMLPurifier__AttrDef__HTML__FrameTarget.md#aa182df884f684070451afdcd407d1ef1)
+- $validator
+  : [HTMLPurifier\_LanguageFactory](doxygen__classHTMLPurifier__LanguageFactory.md#adc75fa793689675394f89fd920804105)
+- $value
+  : [HTMLPurifier\_ErrorStruct](doxygen__classHTMLPurifier__ErrorStruct.md#a1c8bc4d3501b43b91cfd02e8d425a5c3)
+- $valueAliases
+  : [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#aff1f970448156697608aa14a8bcef760)
+- $values
+  : [HTMLPurifier\_ContentSets](doxygen__classHTMLPurifier__ContentSets.md#a60b13361a83f3b845d8e1af0719333fe)
+- $varParser
+  : [HTMLPurifier\_ConfigSchema\_InterchangeBuilder](doxygen__classHTMLPurifier__ConfigSchema__InterchangeBuilder.md#afbc00b630518e882245d254a19d54ca8)
+- $version
+  : [HTMLPurifier\_Config](doxygen__classHTMLPurifier__Config.md#a90113c09843f976f69f37031f7eb9023)
+  , [HTMLPurifier\_ConfigSchema\_Interchange\_Directive](doxygen__classHTMLPurifier__ConfigSchema__Interchange__Directive.md#a330b67667a9b8152679b906bbdcd58c1)
+  , [HTMLPurifier](doxygen__classHTMLPurifier.md#a1950375d91cbecb0260bbfc4eca926f0)
+- $whitespace
+  : [HTMLPurifier\_ChildDef\_Required](doxygen__classHTMLPurifier__ChildDef__Required.md#a80312b67fca1c07ab6bb11baad938b2e)
+- $withoutTag
+  : [HTMLPurifier\_AttrDef\_Switch](doxygen__classHTMLPurifier__AttrDef__Switch.md#a2cb92c5090091aae410ff7300ff4511e)
+- $withTag
+  : [HTMLPurifier\_AttrDef\_Switch](doxygen__classHTMLPurifier__AttrDef__Switch.md#a2b3eddccdafb76e7280bd4e877653f68)
+- $wrap
+  : [HTMLPurifier\_ElementDef](doxygen__classHTMLPurifier__ElementDef.md#a9d58b1db4bc6a4aa7bf4e6896ba3b932)
+- $xml
+  : [HTMLPurifier\_Doctype](doxygen__classHTMLPurifier__Doctype.md#aceb157000dffa2942914fdf1de8bf920)
+- $xsltProcessor
+  : [ConfigDoc\_HTMLXSLTProcessor](doxygen__classConfigDoc__HTMLXSLTProcessor.md#ae43820369a41154eaa1de88361459dfb)
+- $zero
+  : [HTMLPurifier\_AttrDef\_Integer](doxygen__classHTMLPurifier__AttrDef__Integer.md#ae3b61a5ba24479d2104accc5eb11b3c5)
+
+- Generated on Wed Jan 18 2012 22:58:18 for HTMLPurifier by 
+  [![doxygen](doxygen.png)](http://www.doxygen.org/index.html) 1.7.4

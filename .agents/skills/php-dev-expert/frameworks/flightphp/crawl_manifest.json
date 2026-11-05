@@ -1,0 +1,74 @@
+{
+  "root_url": "https://docs.flightphp.com/pt/v3/",
+  "scope_prefix": "https://docs.flightphp.com/pt/v3/",
+  "total_pages": 11,
+  "generated_at": "2026-10-28T15:15:33Z",
+  "pages": [
+    {
+      "url": "https://docs.flightphp.com/pt/v3/",
+      "file": "index.md",
+      "title": "Sobre -\n            \n            Flight PHP Framework",
+      "depth": 0
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/install",
+      "file": "install.md",
+      "title": "Instruções de Instalação - Instalar - \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/learn",
+      "file": "learn.md",
+      "title": "Aprenda Sobre o Flight - Aprender - \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/media",
+      "file": "media.md",
+      "title": "Mídia -\n            \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/examples",
+      "file": "examples.md",
+      "title": "Exemplos -\n            \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/guides",
+      "file": "guides.md",
+      "title": "Guias -\n            \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/awesome-plugins",
+      "file": "awesome-plugins.md",
+      "title": "Plugins Incríveis - Plugins incríveis - \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/single-page",
+      "file": "single-page.md",
+      "title": "Documentação de uma única página -\n            \n            Flight PHP Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/migrating-to-v3",
+      "file": "migrating-to-v3.md",
+      "title": "Flight PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/middleware",
+      "file": "middleware.md",
+      "title": "Flight PHP Framework",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.flightphp.com/pt/v3/dependency-injection-container",
+      "file": "dependency-injection-container.md",
+      "title": "Flight PHP Framework",
+      "depth": 2
+    }
+  ]
+}

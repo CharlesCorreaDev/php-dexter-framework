@@ -1,0 +1,75 @@
+# Creating a project | Yii3 Documentation
+
+> **Fonte / Source:** https://yiisoft.github.io/docs/guide/start/creating-project.html
+
+---
+
+# Creating a project [​](#creating-a-project)
+
+In this guide we'll provide commands for both [Docker](https://docs.docker.com/get-started/get-docker/) and the built-in dev server with everything installed locally.
+
+NOTE
+
+If you want to use another web server, see ["Configuring web servers"](https://yiisoft.github.io/docs/cookbook/configuring-webservers/general.html).
+
+We recommend starting with a project template that's a minimal working Yii project implementing some basic features. It can serve as a good starting point for your projects.
+
+You can create a new project from a template using the [Composer](https://getcomposer.org) package manager:
+
+sh
+
+```
+composer create-project yiisoft/app your_project
+```
+
+Docker users can run the following commands:
+
+sh
+
+```
+docker run --rm -it -v "$(pwd):/app" --user $(id -u):$(id -g) composer/composer create-project yiisoft/app your_project
+sudo chown -R $(id -u):$(id -g) your_project
+cd your_project
+make composer update
+```
+
+If you want development version instead of release one:
+
+sh
+
+```
+git clone https://github.com/yiisoft/app.git --depth 1 your_project && \
+cd your_project && \
+rm -rf .git && \
+make composer update
+```
+
+This installs the latest stable version of the Yii project template in a directory named `your_project`. You can choose a different directory name if you want.
+
+TIP
+
+If you want to install the latest development version of Yii, you may add `--stability=dev` to the command. Don't use the development version of Yii for production because it may break your running code.
+
+Go into the newly created directory, copy `.env.example` to `.env`, and run:
+
+sh
+
+```
+./yii serve --port=80
+```
+
+For Docker users, run:
+
+sh
+
+```
+make up
+```
+
+Open your browser to the URL `http://localhost/`.
+
+NOTE
+
+To change the port for the built-in server, pass `--port` to `./yii serve`. For Docker, set `DEV_PORT` in `docker/.env`.
+
+![Successful Installation of Yii](/docs/images/guide/start/app-installed.png)

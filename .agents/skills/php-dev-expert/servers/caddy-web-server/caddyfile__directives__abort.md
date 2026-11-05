@@ -1,0 +1,34 @@
+# abort (Caddyfile directive) — Caddy Documentation
+
+> **Fonte / Source:** https://caddyserver.com/docs/caddyfile/directives/abort
+
+---
+
+# abort
+
+Prevents any response to the client by immediately aborting the HTTP handler chain and closing the connection. Any concurrent, active HTTP streams on the same connection are interrupted.
+
+## Syntax
+
+```
+abort [<matcher>]
+```
+
+## Examples
+
+Forcefully close a connection received for unknown domains when using a wildcard certificate:
+
+```
+*.example.com {
+    @foo host foo.example.com
+    handle @foo {
+        respond "This is foo!" 200
+    }
+
+    handle {
+		# Unhandled domains fall through to here,
+		# but we don't want to accept their requests
+        abort
+    }
+}
+```

@@ -1,0 +1,255 @@
+# Command Line Interface | HumHub Documentation
+
+> **Fonte / Source:** https://docs.humhub.org/docs/admin/console
+
+---
+
+On this page
+
+Some administrative tasks can also or exclusively be executed by console. This guide lists the most
+important console commands used to administer HumHub. All available console commands can be displayed
+by running the `yii` command with no arguments.
+
+The available commands are the same for both installation methods, only the way you invoke `yii` differs between the two cases:
+
+- Docker
+- Web Server
+
+You run the command on the **host**, in the directory that holds your `compose.yml`. Docker executes it inside the running `humhub` container:
+
+```
+docker compose exec humhub /app/yii <command>
+```
+
+**Examples**
+
+List all available commands by leaving the route out:
+
+```
+docker compose exec humhub /app/yii
+```
+
+Flush the caches:
+
+```
+docker compose exec humhub /app/yii cache/flush-all
+```
+
+As a further variant you can address the container by its id instead, which is handy in scripts and outside the Compose directory:
+
+```
+docker exec -it $(docker compose ps -q humhub) /app/yii cache/flush-all
+```
+
+See the [Docker CLI guide](https://github.com/humhub/docker/blob/main/docs/cli.md) for details.
+
+important
+
+Make sure that you are working with the proper system user to prevent permission problems.
+To change the system user use e.g. `su -s /bin/bash -l www-data`
+
+You run the command on the server itself, within the `@humhub/protected` directory of your HumHub installation.
+
+```
+cd protected
+
+php yii <command>
+```
+
+**Examples**
+
+List all available commands by leaving the route out:
+
+```
+php yii
+```
+
+Flush the caches:
+
+```
+php yii cache/flush-all
+```
+
+## Commands[â](#commands "Direct link to Commands")
+
+### `cache`[â](#cache "Direct link to cache")
+
+| Command | Description |
+| --- | --- |
+| `cache/flush` | Allows you to flush cache |
+| `cache/flush-all` | Flushes all caches registered in the system |
+| `cache/flush-schema` | Clears DB schema cache for a given connection component |
+| `cache/index (default)` | Lists the caches that can be flushed |
+
+### `cron`[â](#cron "Direct link to cron")
+
+| Command | Description |
+| --- | --- |
+| `cron/daily` | Force run of the daily cron jobs |
+| `cron/hourly` | Force run of the hourly cron jobs |
+| `cron/run` | Runs the cron jobs |
+
+### `help`[â](#help "Direct link to help")
+
+Provides help information about console commands.
+
+| Command | Description |
+| --- | --- |
+| `help/index (default)` | Displays available commands or the detailed information |
+| `help/list` | List all available controllers and actions in machine readable format |
+| `help/list-action-options` | List all available options for the $action in machine readable format |
+| `help/usage` | Displays usage information for $action |
+
+### `integrity`[â](#integrity "Direct link to integrity")
+
+Performs data integrity checks.
+
+| Command | Description |
+| --- | --- |
+| `integrity/run` | Starts integrity checker |
+| `integrity/run --interactive=0` | Starts integrity checker with automatic acceptance |
+
+### `ldap`[â](#ldap "Direct link to ldap")
+
+Console tools for manage Ldap
+
+| Command | Description |
+| --- | --- |
+| `ldap/list` (default) | Lists configured LDAP auth clients |
+| `ldap/list-users` | Lists all users found in the LDAP server |
+| `ldap/mapping-clear` | Clears the `authclient_id` entries in the user table. |
+| `ldap/mapping-rebuild` | Rebuilds the `authclient_id` and auth\_mode mappings in the user table |
+| `ldap/show-user` | Shows all returned user attributes provided by the LDAP connection |
+| `ldap/status` | Returns status information |
+| `ldap/sync` | Synchronizes all ldap users (if `autoRefresh` is enabled) |
+
+### `migrate`[â](#migrate "Direct link to migrate")
+
+Manages application migrations.
+
+| Command | Description |
+| --- | --- |
+| `migrate/up` (default) | Upgrades the application by applying new migrations |
+| `migrate/history` | Displays the migration history |
+
+**Include module migrations:**
+
+```
+<yii> migrate/up --includeModuleMigrations=1
+```
+
+`<yii>` stands for the invocation shown at the top of this page, depending on your installation method.
+
+### `module`[â](#module "Direct link to module")
+
+HumHub Module Management
+
+| Command | Description |
+| --- | --- |
+| `module/disable` | Disables an enabled module |
+| `module/enable` | Enables an installed module |
+| `module/info` | Displays module info |
+| `module/install` | Installs a given module |
+| `module/list` | Lists all installed and enabled modules |
+| `module/list-online` | Lists all online available modules |
+| `module/register` | Registers a given module |
+| `module/remove` | Uninstalls a given module |
+| `module/update` | Updates a given module |
+| `module/update-all` | Updates all modules to the latest available version |
+
+### `queue`[â](#queue "Direct link to queue")
+
+HumHub Queue Management
+
+| Command | Description |
+| --- | --- |
+| `queue/clear` | Clears the queue |
+| `queue/exec` | Executes a job |
+| `queue/info` (default) | Info about queue status |
+| `queue/listen` | Listens db-queue and runs new jobs |
+| `queue/remove` | Removes a job by id. |
+| `queue/run` | Runs all jobs from db-queue |
+
+### ~~`search`~~[â](#search "Direct link to search")
+
+warning
+
+Removed with HumHub v.16
+
+HumHub Search Tools
+
+| Command | Description |
+| --- | --- |
+| `search/find` | Search the index |
+| `search/optimize` | Optimizes the search index |
+| `search/queue-rebuild` | Queue search index rebuild |
+| `search/rebuild` | Rebuilds the search index |
+
+### `content-search`[â](#content-search "Direct link to content-search")
+
+Content Fulltext Search (HumHub v1.16+)
+
+| Command | Description |
+| --- | --- |
+| `content-search/find` | Search the index |
+| `content-search/optimize` | Optimizes the search index |
+| `content-search/queue-rebuild` | Queue search index rebuild |
+| `content-search/rebuild` | Rebuilds the search index |
+
+### `settings`[â](#settings "Direct link to settings")
+
+Provides CLI access to database settings.
+
+| Command | Description |
+| --- | --- |
+| `settings/delete` | Deletes a stored setting |
+| `settings/list` | Lists all stored settings |
+| `settings/list-module` | Lists stored settings by given module id |
+| `settings/set` | Adds or updates a stored setting |
+
+### `space`[â](#space "Direct link to space")
+
+Console tools for manage spaces
+
+| Command | Description |
+| --- | --- |
+| `space/assign-all-members` | Assign all members to a given space |
+
+### `test`[â](#test "Direct link to test")
+
+Provides some console tests
+
+| Command | Description |
+| --- | --- |
+| `test/db-connection` | Tests the database connection |
+| `test/email` | Sends a test e-mail to the given e-mail address |
+
+### `theme`[â](#theme "Direct link to theme")
+
+Theme CLI Tools
+
+| Command | Description |
+| --- | --- |
+| `theme/info` (default) | Shows all available and active themes |
+| `theme/switch` (default) | Switches the current theme |
+
+### `user`[â](#user "Direct link to user")
+
+User management tools. (HumHub 1.7+)
+
+| Command | Description |
+| --- | --- |
+| `user/create` | Creates a new user account. |
+| `user/make-admin` | Add user to the admin group. |
+| `user/set-password` | Sets the password for a user account. |
+| `user/delete` | Deletes a user account (`--full` to delete contributions and `--force` to delete owned Spaces) |
+
+### `file`[â](#file "Direct link to file")
+
+Management of uploaded files. (HumHub 1.7+)
+
+| Command | Description |
+| --- | --- |
+| `file/delete-variants` | Deletes all automatically generated file variants (previews, converted versions). |
+| `file/downscale-images` | Scales down already uploaded images to the maximum dimensions and quality. |
+| `file/index (default)` | Overview of uploaded files and automatically generated variants. |

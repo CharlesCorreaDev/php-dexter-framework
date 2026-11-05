@@ -1,0 +1,632 @@
+{
+  "root_url": "https://laravel.com/framework/docs",
+  "scope_prefix": "https://laravel.com/framework/docs/",
+  "total_pages": 104,
+  "generated_at": "2026-10-28T15:24:39Z",
+  "pages": [
+    {
+      "url": "https://laravel.com/framework/docs",
+      "file": "index.md",
+      "title": "Installation | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 0
+    },
+    {
+      "url": "https://laravel.com/framework/docs/releases",
+      "file": "releases.md",
+      "title": "Release Notes | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/upgrade",
+      "file": "upgrade.md",
+      "title": "Upgrade Guide | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/contributions",
+      "file": "contributions.md",
+      "title": "Contribution Guide | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/installation",
+      "file": "installation.md",
+      "title": "Installation | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/configuration",
+      "file": "configuration.md",
+      "title": "Configuration | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/ai",
+      "file": "ai.md",
+      "title": "AI Assisted Development | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/structure",
+      "file": "structure.md",
+      "title": "Directory Structure | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/frontend",
+      "file": "frontend.md",
+      "title": "Frontend | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/starter-kits",
+      "file": "starter-kits.md",
+      "title": "Starter Kits | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/deployment",
+      "file": "deployment.md",
+      "title": "Deployment | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/lifecycle",
+      "file": "lifecycle.md",
+      "title": "Request Lifecycle | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/container",
+      "file": "container.md",
+      "title": "Service Container | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/providers",
+      "file": "providers.md",
+      "title": "Service Providers | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/facades",
+      "file": "facades.md",
+      "title": "Facades | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/routing",
+      "file": "routing.md",
+      "title": "Routing | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/middleware",
+      "file": "middleware.md",
+      "title": "Middleware | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/csrf",
+      "file": "csrf.md",
+      "title": "CSRF Protection | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/controllers",
+      "file": "controllers.md",
+      "title": "Controllers | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/requests",
+      "file": "requests.md",
+      "title": "HTTP Requests | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/responses",
+      "file": "responses.md",
+      "title": "HTTP Responses | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/views",
+      "file": "views.md",
+      "title": "Views | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/blade",
+      "file": "blade.md",
+      "title": "Blade Templates | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/vite",
+      "file": "vite.md",
+      "title": "Asset Bundling (Vite) | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/urls",
+      "file": "urls.md",
+      "title": "URL Generation | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/session",
+      "file": "session.md",
+      "title": "HTTP Session | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/validation",
+      "file": "validation.md",
+      "title": "Validation | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/errors",
+      "file": "errors.md",
+      "title": "Error Handling | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/logging",
+      "file": "logging.md",
+      "title": "Logging | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/artisan",
+      "file": "artisan.md",
+      "title": "Artisan Console | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/broadcasting",
+      "file": "broadcasting.md",
+      "title": "Broadcasting | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/cache",
+      "file": "cache.md",
+      "title": "Cache | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/collections",
+      "file": "collections.md",
+      "title": "Collections | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/concurrency",
+      "file": "concurrency.md",
+      "title": "Concurrency | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/context",
+      "file": "context.md",
+      "title": "Context | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/contracts",
+      "file": "contracts.md",
+      "title": "Contracts | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/events",
+      "file": "events.md",
+      "title": "Events | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/filesystem",
+      "file": "filesystem.md",
+      "title": "File Storage | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/helpers",
+      "file": "helpers.md",
+      "title": "Helpers | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/http-client",
+      "file": "http-client.md",
+      "title": "HTTP Client | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/images",
+      "file": "images.md",
+      "title": "Image Manipulation | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/localization",
+      "file": "localization.md",
+      "title": "Localization | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/mail",
+      "file": "mail.md",
+      "title": "Mail | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/notifications",
+      "file": "notifications.md",
+      "title": "Notifications | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/packages",
+      "file": "packages.md",
+      "title": "Package Development | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/processes",
+      "file": "processes.md",
+      "title": "Processes | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/queues",
+      "file": "queues.md",
+      "title": "Queues | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/rate-limiting",
+      "file": "rate-limiting.md",
+      "title": "Rate Limiting | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/search",
+      "file": "search.md",
+      "title": "Search | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/strings",
+      "file": "strings.md",
+      "title": "Strings | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/scheduling",
+      "file": "scheduling.md",
+      "title": "Task Scheduling | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/authentication",
+      "file": "authentication.md",
+      "title": "Authentication | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/authorization",
+      "file": "authorization.md",
+      "title": "Authorization | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/verification",
+      "file": "verification.md",
+      "title": "Email Verification | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/encryption",
+      "file": "encryption.md",
+      "title": "Encryption | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/hashing",
+      "file": "hashing.md",
+      "title": "Hashing | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/passwords",
+      "file": "passwords.md",
+      "title": "Resetting Passwords | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/database",
+      "file": "database.md",
+      "title": "Database: Getting Started | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/queries",
+      "file": "queries.md",
+      "title": "Database: Query Builder | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/pagination",
+      "file": "pagination.md",
+      "title": "Database: Pagination | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/migrations",
+      "file": "migrations.md",
+      "title": "Database: Migrations | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/seeding",
+      "file": "seeding.md",
+      "title": "Database: Seeding | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/redis",
+      "file": "redis.md",
+      "title": "Redis | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/mongodb",
+      "file": "mongodb.md",
+      "title": "MongoDB | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent",
+      "file": "eloquent.md",
+      "title": "Eloquent: Getting Started | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-relationships",
+      "file": "eloquent-relationships.md",
+      "title": "Eloquent: Relationships | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-collections",
+      "file": "eloquent-collections.md",
+      "title": "Eloquent: Collections | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-mutators",
+      "file": "eloquent-mutators.md",
+      "title": "Eloquent: Mutators & Casting | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-resources",
+      "file": "eloquent-resources.md",
+      "title": "Eloquent: API Resources | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-serialization",
+      "file": "eloquent-serialization.md",
+      "title": "Eloquent: Serialization | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/eloquent-factories",
+      "file": "eloquent-factories.md",
+      "title": "Eloquent: Factories | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/ai-sdk",
+      "file": "ai-sdk.md",
+      "title": "Laravel AI SDK | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/mcp",
+      "file": "mcp.md",
+      "title": "Laravel MCP | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/boost",
+      "file": "boost.md",
+      "title": "Laravel Boost | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/testing",
+      "file": "testing.md",
+      "title": "Testing: Getting Started | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/http-tests",
+      "file": "http-tests.md",
+      "title": "HTTP Tests | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/console-tests",
+      "file": "console-tests.md",
+      "title": "Console Tests | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/dusk",
+      "file": "dusk.md",
+      "title": "Laravel Dusk | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/database-testing",
+      "file": "database-testing.md",
+      "title": "Database Testing | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/mocking",
+      "file": "mocking.md",
+      "title": "Mocking | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/billing",
+      "file": "billing.md",
+      "title": "Laravel Cashier (Stripe) | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/cashier-paddle",
+      "file": "cashier-paddle.md",
+      "title": "Laravel Cashier (Paddle) | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/envoy",
+      "file": "envoy.md",
+      "title": "Laravel Envoy | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/fortify",
+      "file": "fortify.md",
+      "title": "Laravel Fortify | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/folio",
+      "file": "folio.md",
+      "title": "Laravel Folio | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/head",
+      "file": "head.md",
+      "title": "Laravel Head | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/homestead",
+      "file": "homestead.md",
+      "title": "Laravel Homestead | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/horizon",
+      "file": "horizon.md",
+      "title": "Laravel Horizon | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/mix",
+      "file": "mix.md",
+      "title": "Laravel Mix | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/octane",
+      "file": "octane.md",
+      "title": "Laravel Octane | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/passport",
+      "file": "passport.md",
+      "title": "Laravel Passport | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/pennant",
+      "file": "pennant.md",
+      "title": "Laravel Pennant | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/pint",
+      "file": "pint.md",
+      "title": "Laravel Pint | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/precognition",
+      "file": "precognition.md",
+      "title": "Precognition | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/prompts",
+      "file": "prompts.md",
+      "title": "Prompts | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/pulse",
+      "file": "pulse.md",
+      "title": "Laravel Pulse | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/reverb",
+      "file": "reverb.md",
+      "title": "Laravel Reverb | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/sail",
+      "file": "sail.md",
+      "title": "Laravel Sail | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/sanctum",
+      "file": "sanctum.md",
+      "title": "Laravel Sanctum | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/scout",
+      "file": "scout.md",
+      "title": "Laravel Scout | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/socialite",
+      "file": "socialite.md",
+      "title": "Laravel Socialite | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/telescope",
+      "file": "telescope.md",
+      "title": "Laravel Telescope | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/valet",
+      "file": "valet.md",
+      "title": "Laravel Valet | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    },
+    {
+      "url": "https://laravel.com/framework/docs/changelog",
+      "file": "changelog.md",
+      "title": "Changelog | Laravel 13.x - The clean stack for Artisans and agents",
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "root_url": "** http://community.x2crm.com/",
+  "scope_prefix": "** http://community.x2crm.com/",
+  "total_pages": 4,
+  "generated_at": "2026-10-28T18:55:27Z",
+  "pages": [
+    {
+      "url": "** http://community.x2crm.com/",
+      "file": "community__community_x2crm_com.md",
+      "title": "A configuration or server error has occurred",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/X2Engine/X2CRM",
+      "file": "github__github_com_X2Engine_X2CRM.md",
+      "title": "GitHub - X2Engine/X2CRM: X2CRM Open Source CRM - PHP · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.x2crm.com/",
+      "file": "site__index.md",
+      "title": "Homepage - X2Engine",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/X2Engine/X2CRM/wiki",
+      "file": "wiki__index.md",
+      "title": "Home · X2Engine/X2CRM Wiki · GitHub",
+      "depth": 1
+    }
+  ]
+}

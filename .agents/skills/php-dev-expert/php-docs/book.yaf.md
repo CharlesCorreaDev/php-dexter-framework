@@ -1,0 +1,329 @@
+# Yet Another Framework
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/book.yaf.php
+
+---
+
+# Yet Another Framework
+
+# Introdução
+
+E extensão `Yet Another Framework` (Yaf)
+é uma estrutura em PHP usada para desenvolver aplicações web.
+
+Uma análise simples de desempenho pode ser consultada em [» Yaf Performance](https://www.laruence.com/2011/12/02/2333.html).
+
+Para um guia de início rápido, consulte a seção de [tutoriais](yaf.tutorials.md).
+
+- [Instalação/Configuração](yaf.setup.md)
+  - [Instalação](yaf.installation.md)
+  - [Configurações de Execução](yaf.configuration.md)
+- [Constantes predefinidas](yaf.constants.md)
+- [Examples](yaf.tutorials.md)
+- [Configuração de Aplicação](yaf.appconfig.md)
+- [Yaf\_Application](class.yaf-application.md) — A classe Yaf\_Application
+  - [Yaf\_Application::app](yaf-application.app.md) — Obtém uma instância da aplicação
+  - [Yaf\_Application::bootstrap](yaf-application.bootstrap.md) — Chama o bootstrap
+  - [Yaf\_Application::clearLastError](yaf-application.clearlasterror.md) — Limpa a última informação de erro
+  - [Yaf\_Application::\_\_construct](yaf-application.construct.md) — Construtor de Yaf\_Application
+  - [Yaf\_Application::\_\_destruct](yaf-application.destruct.md) — \_\_destruct
+  - [Yaf\_Application::environ](yaf-application.environ.md) — Obtém o ambiente
+  - [Yaf\_Application::execute](yaf-application.execute.md) — Executa uma chamada de função de retorno
+  - [Yaf\_Application::getAppDirectory](yaf-application.getappdirectory.md) — Obtém o diretório da aplicação
+  - [Yaf\_Application::getConfig](yaf-application.getconfig.md) — Obtém a instância da configuração
+  - [Yaf\_Application::getDispatcher](yaf-application.getdispatcher.md) — Obtém a instância de Yaf\_Dispatcher
+  - [Yaf\_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md) — Obtém a mensagem do último erro ocorrido
+  - [Yaf\_Application::getLastErrorNo](yaf-application.getlasterrorno.md) — Obtém o código do último erro ocorrido
+  - [Yaf\_Application::getModules](yaf-application.getmodules.md) — Obtém os nomes dos módulos definidos
+  - [Yaf\_Application::run](yaf-application.run.md) — Inicia a Yaf\_Application
+  - [Yaf\_Application::setAppDirectory](yaf-application.setappdirectory.md) — Altera o diretório da aplicação
+- [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md) — A classe Yaf\_Bootstrap\_Abstract
+- [Yaf\_Dispatcher](class.yaf-dispatcher.md) — A classe Yaf\_Dispatcher
+  - [Yaf\_Dispatcher::autoRender](yaf-dispatcher.autorender.md) — Ativa/desativa a renderização automática
+  - [Yaf\_Dispatcher::catchException](yaf-dispatcher.catchexception.md) — Ativa/desativa a captura de exceções
+  - [Yaf\_Dispatcher::\_\_construct](yaf-dispatcher.construct.md) — Construtor de Yaf\_Dispatcher
+  - [Yaf\_Dispatcher::disableView](yaf-dispatcher.disableview.md) — Desativa a renderização de visualização
+  - [Yaf\_Dispatcher::dispatch](yaf-dispatcher.dispatch.md) — Despacha uma requisição
+  - [Yaf\_Dispatcher::enableView](yaf-dispatcher.enableview.md) — Ativa a renderização de visualização
+  - [Yaf\_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.md) — Liga/desliga o descarregamento instantânea
+  - [Yaf\_Dispatcher::getApplication](yaf-dispatcher.getapplication.md) — Obtém a aplicação
+  - [Yaf\_Dispatcher::getDefaultAction](yaf-dispatcher.getdefaultaction.md) — Obtém o nome da ação padrão
+  - [Yaf\_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md) — Obtém o nome do controlador padrão
+  - [Yaf\_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md) — Obtém o nome do módulo padrão
+  - [Yaf\_Dispatcher::getInstance](yaf-dispatcher.getinstance.md) — Obtém a instância do despachante
+  - [Yaf\_Dispatcher::getRequest](yaf-dispatcher.getrequest.md) — Obtém a instância da requisição
+  - [Yaf\_Dispatcher::getResponse](yaf-dispatcher.getresponse.md) — Get the response object
+  - [Yaf\_Dispatcher::getRouter](yaf-dispatcher.getrouter.md) — Obtém a instância do roteador
+  - [Yaf\_Dispatcher::initView](yaf-dispatcher.initview.md) — Inicializa a visualização e a retorna
+  - [Yaf\_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.md) — Registra um plugin
+  - [Yaf\_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.md) — returnResponse
+  - [Yaf\_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md) — Altera o nome da ação padrão
+  - [Yaf\_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md) — Altera o nome do controlador padrão
+  - [Yaf\_Dispatcher::setDefaultModule](yaf-dispatcher.setdefaultmodule.md) — Altera o nome do módulo padrão
+  - [Yaf\_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md) — Define o manipulador de erros
+  - [Yaf\_Dispatcher::setRequest](yaf-dispatcher.setrequest.md) — setRequest
+  - [Yaf\_Dispatcher::setResponse](yaf-dispatcher.setresponse.md) — Set the response object
+  - [Yaf\_Dispatcher::setView](yaf-dispatcher.setview.md) — Define um mecanismo de visualização customizado
+  - [Yaf\_Dispatcher::throwException](yaf-dispatcher.throwexception.md) — Ativa/desativa o lançamento de exceção
+- [Yaf\_Config\_Abstract](class.yaf-config-abstract.md) — A classe Yaf\_Config\_Abstract
+  - [Yaf\_Config\_Abstract::get](yaf-config-abstract.get.md) — Obtém uma configuração
+  - [Yaf\_Config\_Abstract::readonly](yaf-config-abstract.readonly.md) — Informa se a configuração é somente-leitura
+  - [Yaf\_Config\_Abstract::set](yaf-config-abstract.set.md) — Define uma configuração
+  - [Yaf\_Config\_Abstract::toArray](yaf-config-abstract.toarray.md) — Converte para um array
+- [Yaf\_Config\_Ini](class.yaf-config-ini.md) — A classe Yaf\_Config\_Ini
+  - [Yaf\_Config\_Ini::\_\_construct](yaf-config-ini.construct.md) — Construtor de Yaf\_Config\_Ini
+  - [Yaf\_Config\_Ini::count](yaf-config-ini.count.md) — Conta todos os elementos de Yaf\_Config.ini
+  - [Yaf\_Config\_Ini::current](yaf-config-ini.current.md) — Obtém o valor atual
+  - [Yaf\_Config\_Ini::\_\_get](yaf-config-ini.get.md) — Obtém um elemento
+  - [Yaf\_Config\_Ini::\_\_isset](yaf-config-ini.isset.md) — Determina se uma chave existe
+  - [Yaf\_Config\_Ini::key](yaf-config-ini.key.md) — Busca a chave do elemento atual
+  - [Yaf\_Config\_Ini::next](yaf-config-ini.next.md) — Avança o ponteiro interno
+  - [Yaf\_Config\_Ini::offsetExists](yaf-config-ini.offsetexists.md) — offsetExists
+  - [Yaf\_Config\_Ini::offsetGet](yaf-config-ini.offsetget.md) — offsetGet
+  - [Yaf\_Config\_Ini::offsetSet](yaf-config-ini.offsetset.md) — offsetSet
+  - [Yaf\_Config\_Ini::offsetUnset](yaf-config-ini.offsetunset.md) — offsetUnset
+  - [Yaf\_Config\_Ini::readonly](yaf-config-ini.readonly.md) — readonly
+  - [Yaf\_Config\_Ini::rewind](yaf-config-ini.rewind.md) — rewind
+  - [Yaf\_Config\_Ini::\_\_set](yaf-config-ini.set.md) — \_\_set
+  - [Yaf\_Config\_Ini::toArray](yaf-config-ini.toarray.md) — Retorna a configuração como um array PHP
+  - [Yaf\_Config\_Ini::valid](yaf-config-ini.valid.md) — valid
+- [Yaf\_Config\_Simple](class.yaf-config-simple.md) — A classe Yaf\_Config\_Simple
+  - [Yaf\_Config\_Simple::\_\_construct](yaf-config-simple.construct.md) — \_\_construct
+  - [Yaf\_Config\_Simple::count](yaf-config-simple.count.md) — count
+  - [Yaf\_Config\_Simple::current](yaf-config-simple.current.md) — current
+  - [Yaf\_Config\_Simple::\_\_get](yaf-config-simple.get.md) — \_\_get
+  - [Yaf\_Config\_Simple::\_\_isset](yaf-config-simple.isset.md) — \_\_isset
+  - [Yaf\_Config\_Simple::key](yaf-config-simple.key.md) — key
+  - [Yaf\_Config\_Simple::next](yaf-config-simple.next.md) — next
+  - [Yaf\_Config\_Simple::offsetExists](yaf-config-simple.offsetexists.md) — offsetExists
+  - [Yaf\_Config\_Simple::offsetGet](yaf-config-simple.offsetget.md) — offsetGet
+  - [Yaf\_Config\_Simple::offsetSet](yaf-config-simple.offsetset.md) — offsetSet
+  - [Yaf\_Config\_Simple::offsetUnset](yaf-config-simple.offsetunset.md) — offsetUnset
+  - [Yaf\_Config\_Simple::readonly](yaf-config-simple.readonly.md) — readonly
+  - [Yaf\_Config\_Simple::rewind](yaf-config-simple.rewind.md) — rewind
+  - [Yaf\_Config\_Simple::\_\_set](yaf-config-simple.set.md) — \_\_set
+  - [Yaf\_Config\_Simple::toArray](yaf-config-simple.toarray.md) — Converte para um array PHP
+  - [Yaf\_Config\_Simple::valid](yaf-config-simple.valid.md) — valid
+- [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.md) — A classe Yaf\_Controller\_Abstract
+  - [Yaf\_Controller\_Abstract::\_\_construct](yaf-controller-abstract.construct.md) — Construtor de Yaf\_Controller\_Abstract
+  - [Yaf\_Controller\_Abstract::display](yaf-controller-abstract.display.md) — display
+  - [Yaf\_Controller\_Abstract::forward](yaf-controller-abstract.forward.md) — Encaminha para outra ação
+  - [Yaf\_Controller\_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md) — getInvokeArg
+  - [Yaf\_Controller\_Abstract::getInvokeArgs](yaf-controller-abstract.getinvokeargs.md) — getInvokeArgs
+  - [Yaf\_Controller\_Abstract::getModuleName](yaf-controller-abstract.getmodulename.md) — Obtém o nome do módulo
+  - [Yaf\_Controller\_Abstract::getName](yaf-controller-abstract.getname.md) — Obtém o próprio nome
+  - [Yaf\_Controller\_Abstract::getRequest](yaf-controller-abstract.getrequest.md) — Obtém o objeto da requisição atual
+  - [Yaf\_Controller\_Abstract::getResponse](yaf-controller-abstract.getresponse.md) — Obtém o objeto da resposta atual
+  - [Yaf\_Controller\_Abstract::getView](yaf-controller-abstract.getview.md) — Obtém o mecanismo de visualização
+  - [Yaf\_Controller\_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md) — getViewpath
+  - [Yaf\_Controller\_Abstract::init](yaf-controller-abstract.init.md) — Inicializador do controlador
+  - [Yaf\_Controller\_Abstract::initView](yaf-controller-abstract.initview.md) — initView
+  - [Yaf\_Controller\_Abstract::redirect](yaf-controller-abstract.redirect.md) — Redireciona para um URL
+  - [Yaf\_Controller\_Abstract::render](yaf-controller-abstract.render.md) — Renderiza o modelo de visualização
+  - [Yaf\_Controller\_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md) — setViewpath
+- [Yaf\_Action\_Abstract](class.yaf-action-abstract.md) — A classe Yaf\_Action\_Abstract
+  - [Yaf\_Action\_Abstract::execute](yaf-action-abstract.execute.md) — Ponto de entrada da ação
+  - [Yaf\_Action\_Abstract::getController](yaf-action-abstract.getcontroller.md) — Obtém o objeto controlador
+  - [Yaf\_Action\_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md) — Obtém o nome do controlador
+- [Yaf\_View\_Interface](class.yaf-view-interface.md) — A classe Yaf\_View\_Interface
+  - [Yaf\_View\_Interface::assign](yaf-view-interface.assign.md) — Atribui valor ao mecanismo de visualização
+  - [Yaf\_View\_Interface::display](yaf-view-interface.display.md) — Renderiza e exibe um modelo
+  - [Yaf\_View\_Interface::getScriptPath](yaf-view-interface.getscriptpath.md) — getScriptPath
+  - [Yaf\_View\_Interface::render](yaf-view-interface.render.md) — Renderiza um modelo
+  - [Yaf\_View\_Interface::setScriptPath](yaf-view-interface.setscriptpath.md) — Define o diretório base dos modelos
+- [Yaf\_View\_Simple](class.yaf-view-simple.md) — A classe Yaf\_View\_Simple
+  - [Yaf\_View\_Simple::assign](yaf-view-simple.assign.md) — Atribui valores
+  - [Yaf\_View\_Simple::assignRef](yaf-view-simple.assignref.md) — Atribui um valor de referência ao mecanismo
+  - [Yaf\_View\_Simple::clear](yaf-view-simple.clear.md) — Limpa valores atribuídos
+  - [Yaf\_View\_Simple::\_\_construct](yaf-view-simple.construct.md) — Construtor de Yaf\_View\_Simple
+  - [Yaf\_View\_Simple::display](yaf-view-simple.display.md) — Renderiza e exibe
+  - [Yaf\_View\_Simple::eval](yaf-view-simple.eval.md) — Renderiza o modelo
+  - [Yaf\_View\_Simple::\_\_get](yaf-view-simple.get.md) — Obtém variável atribuída
+  - [Yaf\_View\_Simple::getScriptPath](yaf-view-simple.getscriptpath.md) — Obtém o diretório de modelos
+  - [Yaf\_View\_Simple::\_\_isset](yaf-view-simple.isset.md) — \_\_isset
+  - [Yaf\_View\_Simple::render](yaf-view-simple.render.md) — Renderiza o modelo
+  - [Yaf\_View\_Simple::\_\_set](yaf-view-simple.set.md) — Define valor para o mecanismo
+  - [Yaf\_View\_Simple::setScriptPath](yaf-view-simple.setscriptpath.md) — Define o diretório de modelos
+- [Yaf\_Loader](class.yaf-loader.md) — A classe Yaf\_Loader
+  - [Yaf\_Loader::autoload](yaf-loader.autoload.md) — autoload
+  - [Yaf\_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md) — clearLocalNamespace
+  - [Yaf\_Loader::\_\_construct](yaf-loader.construct.md) — \_\_construct
+  - [Yaf\_Loader::getInstance](yaf-loader.getinstance.md) — getInstance
+  - [Yaf\_Loader::getLibraryPath](yaf-loader.getlibrarypath.md) — Obtem o caminho da biblioteca
+  - [Yaf\_Loader::getLocalNamespace](yaf-loader.getlocalnamespace.md) — getLocalNamespace
+  - [Yaf\_Loader::getNamespacePath](yaf-loader.getnamespacepath.md) — Obtém o caminho do namespace registrado
+  - [Yaf\_Loader::getLocalNamespace](yaf-loader.getnamespaces.md) — Obtém informação de todos os namespaces registrados
+  - [Yaf\_Loader::import](yaf-loader.import.md) — import
+  - [Yaf\_Loader::isLocalName](yaf-loader.islocalname.md) — isLocalName
+  - [Yaf\_Loader::registerLocalNamespace](yaf-loader.registerlocalnamespace.md) — Registra prefixo de classe local
+  - [Yaf\_Loader::registerNamespace](yaf-loader.registernamespace.md) — Registra namespace com caminho de pesquisa
+  - [Yaf\_Loader::setLibraryPath](yaf-loader.setlibrarypath.md) — Altera o caminho da biblioteca
+- [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md) — A classe Yaf\_Plugin\_Abstract
+  - [Yaf\_Plugin\_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md) — dispatchLoopShutdown
+  - [Yaf\_Plugin\_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md) — Gancho antes do loop de despacho
+  - [Yaf\_Plugin\_Abstract::postDispatch](yaf-plugin-abstract.postdispatch.md) — postDispatch
+  - [Yaf\_Plugin\_Abstract::preDispatch](yaf-plugin-abstract.predispatch.md) — preDispatch
+  - [Yaf\_Plugin\_Abstract::preResponse](yaf-plugin-abstract.preresponse.md) — preResponse
+  - [Yaf\_Plugin\_Abstract::routerShutdown](yaf-plugin-abstract.routershutdown.md) — routerShutdown
+  - [Yaf\_Plugin\_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.md) — Gancho RouterStartup
+- [Yaf\_Registry](class.yaf-registry.md) — A classe Yaf\_Registry
+  - [Yaf\_Registry::\_\_construct](yaf-registry.construct.md) — Yaf\_Registry implementa singleton
+  - [Yaf\_Registry::del](yaf-registry.del.md) — Remove um item do registro
+  - [Yaf\_Registry::get](yaf-registry.get.md) — Obtém um item do registro
+  - [Yaf\_Registry::has](yaf-registry.has.md) — Verifica se um item existe
+  - [Yaf\_Registry::set](yaf-registry.set.md) — Adiciona um item ao registro
+- [Yaf\_Request\_Abstract](class.yaf-request-abstract.md) — A classe Yaf\_Request\_Abstract
+  - [Yaf\_Request\_Abstract::clearParams](yaf-request-abstract.clearparams.md) — Remove todos os parâmetros
+  - [Yaf\_Request\_Abstract::get](yaf-request-abstract.get.md) — Retrieve a variable from the request
+  - [Yaf\_Request\_Abstract::getActionName](yaf-request-abstract.getactionname.md) — getActionName
+  - [Yaf\_Request\_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.md) — getBaseUri
+  - [Yaf\_Request\_Abstract::getControllerName](yaf-request-abstract.getcontrollername.md) — getControllerName
+  - [Yaf\_Request\_Abstract::getCookie](yaf-request-abstract.getcookie.md) — Fetch a COOKIE variable
+  - [Yaf\_Request\_Abstract::getEnv](yaf-request-abstract.getenv.md) — Obtém a variável ENV
+  - [Yaf\_Request\_Abstract::getException](yaf-request-abstract.getexception.md) — getException
+  - [Yaf\_Request\_Abstract::getFiles](yaf-request-abstract.getfiles.md) — Fetch uploaded files
+  - [Yaf\_Request\_Abstract::getLanguage](yaf-request-abstract.getlanguage.md) — Obtém a língua preferida do cliente
+  - [Yaf\_Request\_Abstract::getMethod](yaf-request-abstract.getmethod.md) — Obtém o método de requisição
+  - [Yaf\_Request\_Abstract::getModuleName](yaf-request-abstract.getmodulename.md) — getModuleName
+  - [Yaf\_Request\_Abstract::getParam](yaf-request-abstract.getparam.md) — Obtém o parâmetro da chamada
+  - [Yaf\_Request\_Abstract::getParams](yaf-request-abstract.getparams.md) — Obtém todos os parâmetros de chamada
+  - [Yaf\_Request\_Abstract::getPost](yaf-request-abstract.getpost.md) — Fetch a POST parameter
+  - [Yaf\_Request\_Abstract::getQuery](yaf-request-abstract.getquery.md) — Fetch a query parameter
+  - [Yaf\_Request\_Abstract::getRaw](yaf-request-abstract.getraw.md) — Retrieve the raw request body
+  - [Yaf\_Request\_Abstract::getRequest](yaf-request-abstract.getrequest.md) — Fetch a REQUEST variable
+  - [Yaf\_Request\_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.md) — getRequestUri
+  - [Yaf\_Request\_Abstract::getServer](yaf-request-abstract.getserver.md) — Obtém a variável SERVER
+  - [Yaf\_Request\_Abstract::isCli](yaf-request-abstract.iscli.md) — Informa se é uma requisição CLI
+  - [Yaf\_Request\_Abstract::isDelete](yaf-request-abstract.isdelete.md) — Determine if the request is a DELETE request
+  - [Yaf\_Request\_Abstract::isDispatched](yaf-request-abstract.isdispatched.md) — Informa se a requisição foi despachada
+  - [Yaf\_Request\_Abstract::isGet](yaf-request-abstract.isget.md) — Informa se a requisição é GET
+  - [Yaf\_Request\_Abstract::isHead](yaf-request-abstract.ishead.md) — Informa se a requisição é HEAD
+  - [Yaf\_Request\_Abstract::isOptions](yaf-request-abstract.isoptions.md) — Informa se a requisição é OPTIONS
+  - [Yaf\_Request\_Abstract::isPatch](yaf-request-abstract.ispatch.md) — Determine if the request is a PATCH request
+  - [Yaf\_Request\_Abstract::isPost](yaf-request-abstract.ispost.md) — Informa se a requisição é POST
+  - [Yaf\_Request\_Abstract::isPut](yaf-request-abstract.isput.md) — Informa se a requisição é PUT
+  - [Yaf\_Request\_Abstract::isRouted](yaf-request-abstract.isrouted.md) — Informa se a requisição foi roteada
+  - [Yaf\_Request\_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md) — Informa se a requisição é AJAX
+  - [Yaf\_Request\_Abstract::setActionName](yaf-request-abstract.setactionname.md) — Define nome de ação
+  - [Yaf\_Request\_Abstract::setBaseUri](yaf-request-abstract.setbaseuri.md) — Define o URI base
+  - [Yaf\_Request\_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md) — Define o nome do controlador
+  - [Yaf\_Request\_Abstract::setDispatched](yaf-request-abstract.setdispatched.md) — setDispatched
+  - [Yaf\_Request\_Abstract::setModuleName](yaf-request-abstract.setmodulename.md) — Define o nome do módulo
+  - [Yaf\_Request\_Abstract::setParam](yaf-request-abstract.setparam.md) — Define um parâmetro de chamada para uma solicitação
+  - [Yaf\_Request\_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md) — setRequestUri
+  - [Yaf\_Request\_Abstract::setRouted](yaf-request-abstract.setrouted.md) — setRouted
+- [Yaf\_Request\_Http](class.yaf-request-http.md) — A classe Yaf\_Request\_Http
+  - [Yaf\_Request\_Http::\_\_construct](yaf-request-http.construct.md) — Construtor de Yaf\_Request\_Http
+  - [Yaf\_Request\_Http::get](yaf-request-http.get.md) — Obtém variável do cliente
+  - [Yaf\_Request\_Http::getCookie](yaf-request-http.getcookie.md) — Obtém a variável Cookie
+  - [Yaf\_Request\_Http::getFiles](yaf-request-http.getfiles.md) — getFiles
+  - [Yaf\_Request\_Http::getPost](yaf-request-http.getpost.md) — Obtém a variável POST
+  - [Yaf\_Request\_Http::getQuery](yaf-request-http.getquery.md) — Busca um parâmetro da consulta
+  - [Yaf\_Request\_Http::getRaw](yaf-request-http.getraw.md) — Obtém o corpo bruto da requisição
+  - [Yaf\_Request\_Http::getRequest](yaf-request-http.getrequest.md) — getRequest
+  - [Yaf\_Request\_Http::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md) — Informa se a requisição é Ajax
+- [Yaf\_Request\_Simple](class.yaf-request-simple.md) — A classe Yaf\_Request\_Simple
+  - [Yaf\_Request\_Simple::\_\_construct](yaf-request-simple.construct.md) — Construtor de Yaf\_Request\_Simple
+  - [Yaf\_Request\_Simple::get](yaf-request-simple.get.md) — get
+  - [Yaf\_Request\_Simple::getCookie](yaf-request-simple.getcookie.md) — getCookie
+  - [Yaf\_Request\_Simple::getFiles](yaf-request-simple.getfiles.md) — getFiles
+  - [Yaf\_Request\_Simple::getPost](yaf-request-simple.getpost.md) — getPost
+  - [Yaf\_Request\_Simple::getQuery](yaf-request-simple.getquery.md) — getQuery
+  - [Yaf\_Request\_Simple::getRequest](yaf-request-simple.getrequest.md) — getRequest
+  - [Yaf\_Request\_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) — Informa se a requisição é Ajax
+- [Yaf\_Response\_Abstract](class.yaf-response-abstract.md) — A classe Yaf\_Response\_Abstract
+  - [Yaf\_Response\_Abstract::appendBody](yaf-response-abstract.appendbody.md) — Acrescenta ao corpo da resposta
+  - [Yaf\_Response\_Abstract::clearBody](yaf-response-abstract.clearbody.md) — Descarta todo o corpo de resposta existente
+  - [Yaf\_Response\_Abstract::clearHeaders](yaf-response-abstract.clearheaders.md) — Descarta todos os cabeçalhos definidos
+  - [Yaf\_Response\_Abstract::\_\_construct](yaf-response-abstract.construct.md) — \_\_construct
+  - [Yaf\_Response\_Abstract::\_\_destruct](yaf-response-abstract.destruct.md) — \_\_destruct
+  - [Yaf\_Response\_Abstract::getBody](yaf-response-abstract.getbody.md) — Recupera um conteúdo existente
+  - [Yaf\_Response\_Abstract::getHeader](yaf-response-abstract.getheader.md) — getHeader
+  - [Yaf\_Response\_Abstract::prependBody](yaf-response-abstract.prependbody.md) — prependBody
+  - [Yaf\_Response\_Abstract::response](yaf-response-abstract.response.md) — Envia resposta
+  - [Yaf\_Response\_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md) — setAllHeaders
+  - [Yaf\_Response\_Abstract::setBody](yaf-response-abstract.setbody.md) — Define o conteúdo da resposta
+  - [Yaf\_Response\_Abstract::setHeader](yaf-response-abstract.setheader.md) — Define o cabeçalho da resposta
+  - [Yaf\_Response\_Abstract::setRedirect](yaf-response-abstract.setredirect.md) — setRedirect
+  - [Yaf\_Response\_Abstract::\_\_toString](yaf-response-abstract.tostring.md) — Obtém todo o corpo como um string
+- [Yaf\_Route\_Interface](class.yaf-route-interface.md) — A classe Yaf\_Route\_Interface
+  - [Yaf\_Route\_Interface::assemble](yaf-route-interface.assemble.md) — Monta uma solicitação
+  - [Yaf\_Route\_Interface::route](yaf-route-interface.route.md) — Encaminha uma solicitação
+- [Yaf\_Route\_Map](class.yaf-route-map.md) — A classe Yaf\_Route\_Map
+  - [Yaf\_Route\_Map::assemble](yaf-route-map.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Map::\_\_construct](yaf-route-map.construct.md) — \_\_construct
+  - [Yaf\_Route\_Map::route](yaf-route-map.route.md) — route
+- [Yaf\_Route\_Regex](class.yaf-route-regex.md) — A classe Yaf\_Route\_Regex
+  - [Yaf\_Route\_Regex::assemble](yaf-route-regex.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Regex::\_\_construct](yaf-route-regex.construct.md) — Construtor de Yaf\_Route\_Regex
+  - [Yaf\_Route\_Regex::route](yaf-route-regex.route.md) — Encaminha uma solicitação
+- [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md) — A classe Yaf\_Route\_Rewrite
+  - [Yaf\_Route\_Rewrite::assemble](yaf-route-rewrite.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.md) — Construtor de Yaf\_Route\_Rewrite
+  - [Yaf\_Route\_Rewrite::route](yaf-route-rewrite.route.md) — route
+- [Yaf\_Router](class.yaf-router.md) — A classe Yaf\_Router
+  - [Yaf\_Router::addConfig](yaf-router.addconfig.md) — Adiciona as rotas definidas na configuração
+  - [Yaf\_Router::addRoute](yaf-router.addroute.md) — Adiciona nova rota
+  - [Yaf\_Router::\_\_construct](yaf-router.construct.md) — Construtor de Yaf\_Router
+  - [Yaf\_Router::getCurrentRoute](yaf-router.getcurrentroute.md) — Obtém o nome efetivo da rota
+  - [Yaf\_Router::getRoute](yaf-router.getroute.md) — Obtém uma rota pelo nome
+  - [Yaf\_Router::getRoutes](yaf-router.getroutes.md) — Obtém rotas registradas
+  - [Yaf\_Router::route](yaf-router.route.md) — Encaminha uma requisição
+- [Yaf\_Route\_Simple](class.yaf-route-simple.md) — A classe Yaf\_Route\_Simple
+  - [Yaf\_Route\_Simple::assemble](yaf-route-simple.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Simple::\_\_construct](yaf-route-simple.construct.md) — Construtor de Yaf\_Route\_Simple
+  - [Yaf\_Route\_Simple::route](yaf-route-simple.route.md) — Encaminha uma requisição
+- [Yaf\_Route\_Static](class.yaf-route-static.md) — A classe Yaf\_Route\_Static
+  - [Yaf\_Route\_Static::assemble](yaf-route-static.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Static::match](yaf-route-static.match.md) — match
+  - [Yaf\_Route\_Static::route](yaf-route-static.route.md) — Encaminha uma requisição
+- [Yaf\_Route\_Supervar](class.yaf-route-supervar.md) — A classe Yaf\_Route\_Supervar
+  - [Yaf\_Route\_Supervar::assemble](yaf-route-supervar.assemble.md) — Monta um URL
+  - [Yaf\_Route\_Supervar::\_\_construct](yaf-route-supervar.construct.md) — Construtor de Yaf\_Route\_Supervar
+  - [Yaf\_Route\_Supervar::route](yaf-route-supervar.route.md) — Encaminha uma requisição
+- [Yaf\_Session](class.yaf-session.md) — A classe Yaf\_Session
+  - [Yaf\_Session::\_\_construct](yaf-session.construct.md) — Construtor de Yaf\_Session
+  - [Yaf\_Session::count](yaf-session.count.md) — count
+  - [Yaf\_Session::current](yaf-session.current.md) — current
+  - [Yaf\_Session::del](yaf-session.del.md) — del
+  - [Yaf\_Session::\_\_get](yaf-session.get.md) — \_\_get
+  - [Yaf\_Session::getInstance](yaf-session.getinstance.md) — getInstance
+  - [Yaf\_Session::has](yaf-session.has.md) — has
+  - [Yaf\_Session::\_\_isset](yaf-session.isset.md) — \_\_isset
+  - [Yaf\_Session::key](yaf-session.key.md) — key
+  - [Yaf\_Session::next](yaf-session.next.md) — next
+  - [Yaf\_Session::offsetExists](yaf-session.offsetexists.md) — offsetExists
+  - [Yaf\_Session::offsetGet](yaf-session.offsetget.md) — offsetGet
+  - [Yaf\_Session::offsetSet](yaf-session.offsetset.md) — offsetSet
+  - [Yaf\_Session::offsetUnset](yaf-session.offsetunset.md) — offsetUnset
+  - [Yaf\_Session::rewind](yaf-session.rewind.md) — rewind
+  - [Yaf\_Session::\_\_set](yaf-session.set.md) — \_\_set
+  - [Yaf\_Session::start](yaf-session.start.md) — start
+  - [Yaf\_Session::\_\_unset](yaf-session.unset.md) — \_\_unset
+  - [Yaf\_Session::valid](yaf-session.valid.md) — valid
+- [Yaf\_Exception](class.yaf-exception.md) — A classe Yaf\_Exception
+  - [Yaf\_Exception::\_\_construct](yaf-exception.construct.md) — \_\_construct
+  - [Yaf\_Exception::getPrevious](yaf-exception.getprevious.md) — getPrevious
+- [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md) — A classe Yaf\_Exception\_TypeError
+- [Yaf\_Exception\_StartupError](class.yaf-exception-startuperror.md) — A classe Yaf\_Exception\_StartupError
+- [Yaf\_Exception\_DispatchFailed](class.yaf-exception-dispatchfailed.md) — A classe Yaf\_Exception\_DispatchFailed
+- [Yaf\_Exception\_RouterFailed](class.yaf-exception-routerfailed.md) — A classe Yaf\_Exception\_RouterFailed
+- [Yaf\_Exception\_LoadFailed](class.yaf-exception-loadfailed.md) — A classe Yaf\_Exception\_LoadFailed
+- [Yaf\_Exception\_LoadFailed\_Module](class.yaf-exception-loadfailed-module.md) — A classe Yaf\_Exception\_LoadFailed\_Module
+- [Yaf\_Exception\_LoadFailed\_Controller](class.yaf-exception-loadfailed-controller.md) — A classe Yaf\_Exception\_LoadFailed\_Controller
+- [Yaf\_Exception\_LoadFailed\_Action](class.yaf-exception-loadfailed-action.md) — A classe Yaf\_Exception\_LoadFailed\_Action
+- [Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.md) — A classe Yaf\_Exception\_LoadFailed\_View
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

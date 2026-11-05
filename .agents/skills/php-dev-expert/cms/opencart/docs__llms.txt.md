@@ -1,0 +1,95 @@
+# /llms.txt
+
+> **Fonte / Source:** https://docs.opencart.com/llms.txt
+
+---
+
+# OpenCart
+## OpenCart
+- [Introduction](https://docs.opencart.com/readme.md)
+- [System Requirements](https://docs.opencart.com/getting-started/system-requirements.md)
+- [Installation](https://docs.opencart.com/getting-started/installation.md)
+- [Quickstart](https://docs.opencart.com/getting-started/quickstart.md): Quick setup guide for OpenCart 4
+- [Upgrade from 3.x to 4.x](https://docs.opencart.com/getting-started/upgrade-from-3.x-to-4.x.md): Guide to upgrade from OpenCart 3.x to 4.x
+- [Dashboard](https://docs.opencart.com/admin-interface/dashboard.md): Overview of the OpenCart admin dashboard with performance analytics and quick access to store management
+- [Catalog](https://docs.opencart.com/admin-interface/overview.md): Introduction to catalog management in OpenCart
+- [Categories](https://docs.opencart.com/admin-interface/overview/categories.md): Managing product categories in OpenCart
+- [Products](https://docs.opencart.com/admin-interface/overview/products.md): Comprehensive guide to managing products in OpenCart 4
+- [Adding Products](https://docs.opencart.com/admin-interface/overview/products/adding-products.md): Step-by-step guide to adding products in OpenCart 4
+- [Product Managementage](https://docs.opencart.com/admin-interface/overview/products/product-managementage.md): Comprehensive guide to managing products in OpenCart 4
+- [Product Form Tabs](https://docs.opencart.com/admin-interface/overview/products/product-form-tabs.md): Complete guide to all product form tabs in OpenCart 4
+- [Product Variants](https://docs.opencart.com/admin-interface/overview/products/product-variants.md): Master the variant product system in OpenCart 4
+- [Product Identifiers](https://docs.opencart.com/admin-interface/overview/products/product-identifiers.md): Advanced product identification and validation in OpenCart 4
+- [Subscription Products](https://docs.opencart.com/admin-interface/overview/products/subscription-products.md): Set up recurring billing and subscription products in OpenCart 4
+- [Filters](https://docs.opencart.com/admin-interface/overview/filters.md): Complete guide to configuring product filters for enhanced search and navigation in OpenCart 4
+- [Attributes](https://docs.opencart.com/admin-interface/overview/attributes.md): Complete guide to managing product attributes and specifications in OpenCart 4
+- [Options](https://docs.opencart.com/admin-interface/overview/options.md): Comprehensive guide to managing product options and variations in OpenCart 4
+- [Manufacturers](https://docs.opencart.com/admin-interface/overview/manufacturers.md): Complete guide to managing product manufacturers and brands in OpenCart 4
+- [Downloads](https://docs.opencart.com/admin-interface/overview/downloads.md): Complete guide to managing digital products and file downloads in OpenCart 4
+- [Reviews](https://docs.opencart.com/admin-interface/overview/reviews.md): Complete guide to managing customer reviews and ratings for products in OpenCart 4
+- [Information](https://docs.opencart.com/admin-interface/overview/information.md): Complete guide to managing static content pages like About Us, Contact, and Terms in OpenCart 4
+- [CMS](https://docs.opencart.com/admin-interface/cms.md): Comprehensive content management system for creating articles, organizing topics, managing comments, and filtering spam
+- [Articles](https://docs.opencart.com/admin-interface/cms/articles.md): Creating and managing blog articles with rich content, SEO optimization, and multi-store publishing
+- [Topics](https://docs.opencart.com/admin-interface/cms/topics.md): Organizing articles into categories or topics for better navigation and content structure
+- [Comments](https://docs.opencart.com/admin-interface/cms/comments.md): Managing user comments on articles with moderation tools, rating calculations, and spam filtering
+- [Anti-Spam](https://docs.opencart.com/admin-interface/cms/anti-spam.md): Protecting your blog from spam comments by maintaining a list of banned keywords and phrases
+- [Sales](https://docs.opencart.com/admin-interface/sales.md): Managing orders, returns, and subscriptions in OpenCart 4
+- [Orders](https://docs.opencart.com/admin-interface/sales/orders.md): Complete guide to managing customer orders in OpenCart 4
+- [Subscriptions](https://docs.opencart.com/admin-interface/sales/subscriptions.md): Complete guide to managing recurring orders and subscription billing in OpenCart 4
+- [Returns](https://docs.opencart.com/admin-interface/sales/returns.md): Complete guide to managing product returns and refunds in OpenCart 4
+- [Customers](https://docs.opencart.com/admin-interface/customers.md): Complete guide to customer management in OpenCart 4
+- [Customer Management](https://docs.opencart.com/admin-interface/customers/customer-management.md): Complete guide to managing individual customers in OpenCart 4
+- [Customer Groups](https://docs.opencart.com/admin-interface/customers/customer-groups.md): Guide to creating and managing customer groups in OpenCart 4
+- [Customer Approval](https://docs.opencart.com/admin-interface/customers/customer-approval.md): Guide to managing customer registration approval in OpenCart 4
+- [Custom Fields](https://docs.opencart.com/admin-interface/customers/custom-fields.md): Guide to creating and managing custom form fields for customers in OpenCart 4
+- [GDPR Management](https://docs.opencart.com/admin-interface/customers/gdpr-management.md): Guide to GDPR compliance and data privacy management in OpenCart 4
+- [Marketing](https://docs.opencart.com/admin-interface/marketing.md): Comprehensive marketing tools for promotions, affiliates, email campaigns, and customer engagement in OpenCart 4
+- [Affiliates](https://docs.opencart.com/admin-interface/marketing/affiliates.md): Complete guide to managing affiliate programs, commissions, and tracking in OpenCart 4
+- [Coupons](https://docs.opencart.com/admin-interface/marketing/coupons.md): Complete guide to creating and managing discount coupons, promotional codes, and special offers in OpenCart 4
+- [Mail](https://docs.opencart.com/admin-interface/marketing/mail.md): Guide to sending mass emails to customers, affiliates, and newsletter subscribers in OpenCart 4
+- [System](https://docs.opencart.com/admin-interface/system.md)
+- [Settings](https://docs.opencart.com/admin-interface/system/settings.md): Configuring store visual identity, theme, logo, and SEO meta tags in OpenCart 4
+- [Store](https://docs.opencart.com/admin-interface/system/settings/store.md): Configuring store contact details and location information in OpenCart 4
+- [Local](https://docs.opencart.com/admin-interface/system/settings/local.md): Configuring store localization, languages, and currencies in OpenCart 4
+- [Option](https://docs.opencart.com/admin-interface/system/settings/option.md): Configuring core business logic, checkout options, and storefront behavior in OpenCart 4
+- [Mail](https://docs.opencart.com/admin-interface/system/settings/mail.md): Configuring email protocols and notification alerts in OpenCart 4
+- [Server](https://docs.opencart.com/admin-interface/system/settings/server.md): Configuring server-side technical options, security, and SEO in OpenCart 4
+- [Localization](https://docs.opencart.com/admin-interface/system/localization.md): Managing regional settings, languages, currencies, taxes, and geographical data for multi-store and international operations
+- [Languages](https://docs.opencart.com/admin-interface/system/localization/languages.md): Managing store languages, locale settings, and translation configurations for multilingual stores
+- [Currencies](https://docs.opencart.com/admin-interface/system/localization/currencies.md): Managing currency configurations, exchange rates, and display formats for international stores
+- [Stock Statuses](https://docs.opencart.com/admin-interface/system/localization/stock-statuses.md): Defining inventory availability messages displayed to customers when viewing products
+- [Order Statuses](https://docs.opencart.com/admin-interface/system/localization/order-statuses.md): Defining order workflow stages and status labels for customer communication and internal tracking
+- [Returns](https://docs.opencart.com/admin-interface/system/localization/returns.md): Configuring return statuses, actions, and reasons for handling product returns and refunds
+- [Countries](https://docs.opencart.com/admin-interface/system/localization/countries.md): Managing country definitions, address formats, and postal code requirements for international operations
+- [Zones](https://docs.opencart.com/admin-interface/system/localization/zones.md): Managing regional subdivisions (states, provinces, territories) within countries for address validation and regional rules
+- [Geo Zones](https://docs.opencart.com/admin-interface/system/localization/geo-zones.md): Creating custom geographical groupings that combine countries and zones for shipping rules and tax calculations
+- [Tax Classes](https://docs.opencart.com/admin-interface/system/localization/tax-classes.md): Creating tax categories that group multiple tax rates for different products and services
+- [Tax Rates](https://docs.opencart.com/admin-interface/system/localization/tax-rates.md): Defining specific tax percentages or fixed amounts applied to products based on geographical zones and customer groups
+- [Length Classes](https://docs.opencart.com/admin-interface/system/localization/length-classes.md): Defining measurement units for product dimensions (centimeters, inches, meters, etc.) with conversion rates
+- [Weight Classes](https://docs.opencart.com/admin-interface/system/localization/weight-classes.md): Defining weight units for products (kilograms, pounds, ounces, grams, etc.) with conversion rates for shipping calculations
+- [Address Formats](https://docs.opencart.com/admin-interface/system/localization/address-formats.md): Managing address format templates for consistent address display across countries and regions
+- [Maintenance](https://docs.opencart.com/admin-interface/system/maintenance.md): Create, restore, and manage database backups to protect your store's data and ensure business continuity
+- [Error Logs](https://docs.opencart.com/admin-interface/system/maintenance/error-logs.md): Monitor, analyze, and manage system error logs to identify issues, debug problems, and maintain store stability
+- [Upgrade](https://docs.opencart.com/admin-interface/system/maintenance/upgrade.md): Check for, download, and install OpenCart updates to keep your store secure and up-to-date with the latest features
+- [Uploads](https://docs.opencart.com/admin-interface/system/maintenance/uploads.md): Manage customer file uploads, track submission history, and handle file downloads for personalized orders and custom product requests
+- [Users](https://docs.opencart.com/admin-interface/system/users.md)
+- [User Groups](https://docs.opencart.com/admin-interface/system/users/user-groups.md): Defining permission sets and access controls for administrative roles in OpenCart 4
+- [API](https://docs.opencart.com/admin-interface/system/users/api.md): Generating and managing API credentials for external integrations and secure data exchange
+- [Reports](https://docs.opencart.com/admin-interface/reports.md): Comprehensive analytics and insights into store performance, customer behavior, marketing effectiveness, and sales metrics
+- [Sales](https://docs.opencart.com/admin-interface/reports/sales.md): Detailed analytics on store sales, including orders, taxes, shipping, returns, and coupon usage
+- [Customers](https://docs.opencart.com/admin-interface/reports/customers.md): Comprehensive analytics on customer behavior, engagement, search patterns, and financial activity
+- [Products](https://docs.opencart.com/admin-interface/reports/products.md): Analytics on product popularity, views, and sales performance to optimize inventory and marketing
+- [Marketing](https://docs.opencart.com/admin-interface/reports/marketing.md): Track the effectiveness of marketing campaigns, tracking codes, and promotional efforts
+- [Subscriptions](https://docs.opencart.com/admin-interface/reports/subscriptions.md): Analyze recurring revenue, active subscriptions, and renewal trends for subscription-based products
+- [Layouts](https://docs.opencart.com/design/layouts.md): Managing store layouts and module positions in OpenCart 4
+- [Banners](https://docs.opencart.com/design/banners.md): Creating and managing promotional banners in OpenCart 4
+- [SEO URL](https://docs.opencart.com/design/seo-url.md): Configuring SEO-friendly URLs and URL aliases in OpenCart 4
+- [Theme Editor](https://docs.opencart.com/design/theme-editor.md): Edit template files and create theme overrides using the built-in Theme Editor in OpenCart 4
+- [Language Editor](https://docs.opencart.com/design/language-editor.md): Editing language translations and text strings in OpenCart 4
+- [Coding Standard](https://docs.opencart.com/developer-guide/coding-standard.md)
+- [Database Schema](https://docs.opencart.com/developer-guide/database-schema.md)
+- [Extensions](https://docs.opencart.com/developer-guide/extensions.md)
+- [Events](https://docs.opencart.com/developer-guide/events.md)
+- [Startups](https://docs.opencart.com/developer-guide/startups.md)
+- [Tasks](https://docs.opencart.com/developer-guide/tasks.md)
+- [Cron Jobs](https://docs.opencart.com/developer-guide/cron-jobs.md)

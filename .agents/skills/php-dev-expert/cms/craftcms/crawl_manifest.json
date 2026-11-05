@@ -1,0 +1,1502 @@
+{
+  "root_url": "** https://craftcms.com/docs/commerce/5.x/configure",
+  "scope_prefix": "** https://craftcms.com/docs/commerce/5.x/configure",
+  "total_pages": 249,
+  "generated_at": "2026-10-28T18:55:18Z",
+  "pages": [
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/configure",
+      "file": "commerce_5x__configure.md",
+      "title": "Configuring Commerce | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/address-management",
+      "file": "commerce_5x__development__address-management.md",
+      "title": "Address Management | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/cart",
+      "file": "commerce_5x__development__cart.md",
+      "title": "Cart | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/checkout",
+      "file": "commerce_5x__development__checkout.md",
+      "title": "Checkout | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/example-templates",
+      "file": "commerce_5x__development__example-templates.md",
+      "title": "Example Templates | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/making-payments",
+      "file": "commerce_5x__development__making-payments.md",
+      "title": "Making Payments | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/orders",
+      "file": "commerce_5x__development__orders.md",
+      "title": "Order History | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/saving-payment-sources",
+      "file": "commerce_5x__development__saving-payment-sources.md",
+      "title": "Saving Payment Sources | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/development/subscription-templates",
+      "file": "commerce_5x__development__subscription-templates.md",
+      "title": "Subscription Templates | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/extend/events",
+      "file": "commerce_5x__extend__events.md",
+      "title": "Events | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/extend/payment-gateway-types",
+      "file": "commerce_5x__extend__payment-gateway-types.md",
+      "title": "Payment Gateway Types | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/extend/purchasable-types",
+      "file": "commerce_5x__extend__purchasable-types.md",
+      "title": "Purchasable Types | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/",
+      "file": "commerce_5x__index.md",
+      "title": "About Craft Commerce | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/install",
+      "file": "commerce_5x__install.md",
+      "title": "Installation | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/reference/console-commands",
+      "file": "commerce_5x__reference__console-commands.md",
+      "title": "Console Commands | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/reference/controller-actions",
+      "file": "commerce_5x__reference__controller-actions.md",
+      "title": "Controller Actions | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/reference/twig",
+      "file": "commerce_5x__reference__twig.md",
+      "title": "Twig Filters | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/requirements",
+      "file": "commerce_5x__requirements.md",
+      "title": "Requirements | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/addresses",
+      "file": "commerce_5x__system__addresses.md",
+      "title": "Addresses | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/coupon-codes",
+      "file": "commerce_5x__system__coupon-codes.md",
+      "title": "Coupon Codes | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/currencies",
+      "file": "commerce_5x__system__currencies.md",
+      "title": "Payment Currencies | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/customers",
+      "file": "commerce_5x__system__customers.md",
+      "title": "Customers | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/discounts",
+      "file": "commerce_5x__system__discounts.md",
+      "title": "Discounts | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/donations",
+      "file": "commerce_5x__system__donations.md",
+      "title": "Donations | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/emails",
+      "file": "commerce_5x__system__emails.md",
+      "title": "Emails | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/gateways",
+      "file": "commerce_5x__system__gateways.md",
+      "title": "Payment Gateways | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/orders-carts",
+      "file": "commerce_5x__system__orders-carts.md",
+      "title": "Orders & Carts | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/pdfs",
+      "file": "commerce_5x__system__pdfs.md",
+      "title": "PDFs | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/pricing-rules",
+      "file": "commerce_5x__system__pricing-rules.md",
+      "title": "Catalog Pricing Rules | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/products-variants",
+      "file": "commerce_5x__system__products-variants.md",
+      "title": "Products & Variants | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/purchasables",
+      "file": "commerce_5x__system__purchasables.md",
+      "title": "Purchasables | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/sales",
+      "file": "commerce_5x__system__sales.md",
+      "title": "Sales | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/shipping",
+      "file": "commerce_5x__system__shipping.md",
+      "title": "Shipping | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/stores",
+      "file": "commerce_5x__system__stores.md",
+      "title": "Stores | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/subscriptions",
+      "file": "commerce_5x__system__subscriptions.md",
+      "title": "Subscriptions | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/system/tax",
+      "file": "commerce_5x__system__tax.md",
+      "title": "Tax | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/update",
+      "file": "commerce_5x__update.md",
+      "title": "Updating Instructions | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/commerce/5.x/upgrade",
+      "file": "commerce_5x__upgrade.md",
+      "title": "Upgrading from Commerce 4 | Craft Commerce Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/coc",
+      "file": "docs_5x__coc.md",
+      "title": "Code of Conduct | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/configure",
+      "file": "docs_5x__configure.md",
+      "title": "Configuring Craft | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/deploy",
+      "file": "docs_5x__deploy.md",
+      "title": "Hosting & Deployment | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/",
+      "file": "docs_5x__development.md",
+      "title": "Front-End Development | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/accessibility",
+      "file": "docs_5x__development__accessibility.md",
+      "title": "Accessibility | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/collections",
+      "file": "docs_5x__development__collections.md",
+      "title": "Collections | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/eager-loading",
+      "file": "docs_5x__development__eager-loading.md",
+      "title": "Eager-Loading Elements | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/element-queries",
+      "file": "docs_5x__development__element-queries.md",
+      "title": "Element Queries | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/forms",
+      "file": "docs_5x__development__forms.md",
+      "title": "Forms | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/graphql",
+      "file": "docs_5x__development__graphql.md",
+      "title": "GraphQL API | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/image-transforms",
+      "file": "docs_5x__development__image-transforms.md",
+      "title": "Image Transforms | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/templates",
+      "file": "docs_5x__development__templates.md",
+      "title": "Templates | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/development/twig",
+      "file": "docs_5x__development__twig.md",
+      "title": "Twig Fundamentals | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/editions",
+      "file": "docs_5x__editions.md",
+      "title": "Licensing & Editions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/",
+      "file": "docs_5x__extend.md",
+      "title": "Extending Craft | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/announcements",
+      "file": "docs_5x__extend__announcements.md",
+      "title": "Announcements | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/asset-bundles",
+      "file": "docs_5x__extend__asset-bundles.md",
+      "title": "Asset Bundles | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/behaviors",
+      "file": "docs_5x__extend__behaviors.md",
+      "title": "Behaviors | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/changelogs-and-updates",
+      "file": "docs_5x__extend__changelogs-and-updates.md",
+      "title": "Changelogs and Updates | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/coding-guidelines",
+      "file": "docs_5x__extend__coding-guidelines.md",
+      "title": "Coding Guidelines | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/commands",
+      "file": "docs_5x__extend__commands.md",
+      "title": "Console Commands | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/conditions",
+      "file": "docs_5x__extend__conditions.md",
+      "title": "Conditions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/controllers",
+      "file": "docs_5x__extend__controllers.md",
+      "title": "Controllers | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/cp-section",
+      "file": "docs_5x__extend__cp-section.md",
+      "title": "Control Panel Sections | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/element-actions",
+      "file": "docs_5x__extend__element-actions.md",
+      "title": "Element Actions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/element-exporter-types",
+      "file": "docs_5x__extend__element-exporter-types.md",
+      "title": "Element Exporter Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/element-types",
+      "file": "docs_5x__extend__element-types.md",
+      "title": "Element Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/environmental-settings",
+      "file": "docs_5x__extend__environmental-settings.md",
+      "title": "Environmental Settings | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/events",
+      "file": "docs_5x__extend__events.md",
+      "title": "Events | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/extending-twig",
+      "file": "docs_5x__extend__extending-twig.md",
+      "title": "Extending Twig | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/field-types",
+      "file": "docs_5x__extend__field-types.md",
+      "title": "Field Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/filesystem-types",
+      "file": "docs_5x__extend__filesystem-types.md",
+      "title": "Filesystem Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/generator",
+      "file": "docs_5x__extend__generator.md",
+      "title": "Generator | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/graphql",
+      "file": "docs_5x__extend__graphql.md",
+      "title": "Extending GraphQL | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/migrations",
+      "file": "docs_5x__extend__migrations.md",
+      "title": "Migrations | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/module-guide",
+      "file": "docs_5x__extend__module-guide.md",
+      "title": "How to Build a Module | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/plugin-editions",
+      "file": "docs_5x__extend__plugin-editions.md",
+      "title": "Plugin Editions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/plugin-guide",
+      "file": "docs_5x__extend__plugin-guide.md",
+      "title": "How to Build a Plugin | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/plugin-settings",
+      "file": "docs_5x__extend__plugin-settings.md",
+      "title": "Plugin Settings | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/plugin-store",
+      "file": "docs_5x__extend__plugin-store.md",
+      "title": "Publishing to the Plugin Store | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/project-config",
+      "file": "docs_5x__extend__project-config.md",
+      "title": "Supporting Project Config | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/queue-jobs",
+      "file": "docs_5x__extend__queue-jobs.md",
+      "title": "Queue Jobs | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/services",
+      "file": "docs_5x__extend__services.md",
+      "title": "Services | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/soft-deletes",
+      "file": "docs_5x__extend__soft-deletes.md",
+      "title": "Soft Deletes | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/template-hooks",
+      "file": "docs_5x__extend__template-hooks.md",
+      "title": "Template Hooks | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/template-roots",
+      "file": "docs_5x__extend__template-roots.md",
+      "title": "Template Roots | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/topics",
+      "file": "docs_5x__extend__topics.md",
+      "title": "Topics | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/updating-plugins",
+      "file": "docs_5x__extend__updating-plugins.md",
+      "title": "Updating Plugins for Craft 5 | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/user-permissions",
+      "file": "docs_5x__extend__user-permissions.md",
+      "title": "User Permissions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/utilities",
+      "file": "docs_5x__extend__utilities.md",
+      "title": "Utilities | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/extend/widget-types",
+      "file": "docs_5x__extend__widget-types.md",
+      "title": "Widget Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/",
+      "file": "docs_5x__index.md",
+      "title": "About Craft CMS | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/install",
+      "file": "docs_5x__install.md",
+      "title": "Installation | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/",
+      "file": "docs_5x__reference.md",
+      "title": "Reference | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/cli",
+      "file": "docs_5x__reference__cli.md",
+      "title": "Console Commands | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/config/",
+      "file": "docs_5x__reference__config.md",
+      "title": "Configuration Reference | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/config/app",
+      "file": "docs_5x__reference__config__app.md",
+      "title": "Application Configuration | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/config/bootstrap",
+      "file": "docs_5x__reference__config__bootstrap.md",
+      "title": "Bootstrap Variables | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/config/db",
+      "file": "docs_5x__reference__config__db.md",
+      "title": "Database Connection Settings | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/config/general",
+      "file": "docs_5x__reference__config__general.md",
+      "title": "General Settings | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/controller-actions",
+      "file": "docs_5x__reference__controller-actions.md",
+      "title": "Controller Actions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/",
+      "file": "docs_5x__reference__element-types.md",
+      "title": "Element Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/addresses",
+      "file": "docs_5x__reference__element-types__addresses.md",
+      "title": "Addresses | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/assets",
+      "file": "docs_5x__reference__element-types__assets.md",
+      "title": "Assets | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/categories",
+      "file": "docs_5x__reference__element-types__categories.md",
+      "title": "Categories | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/entries",
+      "file": "docs_5x__reference__element-types__entries.md",
+      "title": "Entries | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/globals",
+      "file": "docs_5x__reference__element-types__globals.md",
+      "title": "Globals | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/tags",
+      "file": "docs_5x__reference__element-types__tags.md",
+      "title": "Tags | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/element-types/users",
+      "file": "docs_5x__reference__element-types__users.md",
+      "title": "Users | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/",
+      "file": "docs_5x__reference__field-types.md",
+      "title": "Custom Field Types | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/addresses",
+      "file": "docs_5x__reference__field-types__addresses.md",
+      "title": "Addresses Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/assets",
+      "file": "docs_5x__reference__field-types__assets.md",
+      "title": "Assets Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/categories",
+      "file": "docs_5x__reference__field-types__categories.md",
+      "title": "Categories Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/checkboxes",
+      "file": "docs_5x__reference__field-types__checkboxes.md",
+      "title": "Checkboxes Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/color",
+      "file": "docs_5x__reference__field-types__color.md",
+      "title": "Color Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/content-block",
+      "file": "docs_5x__reference__field-types__content-block.md",
+      "title": "Content Block Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/country",
+      "file": "docs_5x__reference__field-types__country.md",
+      "title": "Country Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/date-time",
+      "file": "docs_5x__reference__field-types__date-time.md",
+      "title": "Date Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/dropdown",
+      "file": "docs_5x__reference__field-types__dropdown.md",
+      "title": "Dropdown Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/email",
+      "file": "docs_5x__reference__field-types__email.md",
+      "title": "Email Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/entries",
+      "file": "docs_5x__reference__field-types__entries.md",
+      "title": "Entries Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/icon",
+      "file": "docs_5x__reference__field-types__icon.md",
+      "title": "Icon Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/lightswitch",
+      "file": "docs_5x__reference__field-types__lightswitch.md",
+      "title": "Lightswitch Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/link",
+      "file": "docs_5x__reference__field-types__link.md",
+      "title": "Link Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/matrix",
+      "file": "docs_5x__reference__field-types__matrix.md",
+      "title": "Matrix Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/money",
+      "file": "docs_5x__reference__field-types__money.md",
+      "title": "Money Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/plain-text",
+      "file": "docs_5x__reference__field-types__plain-text.md",
+      "title": "Plain Text Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/range",
+      "file": "docs_5x__reference__field-types__range.md",
+      "title": "Range Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/table",
+      "file": "docs_5x__reference__field-types__table.md",
+      "title": "Table Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/tags",
+      "file": "docs_5x__reference__field-types__tags.md",
+      "title": "Tags Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/field-types/users",
+      "file": "docs_5x__reference__field-types__users.md",
+      "title": "Users Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/",
+      "file": "docs_5x__reference__twig.md",
+      "title": "Twig Reference | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/filters",
+      "file": "docs_5x__reference__twig__filters.md",
+      "title": "Filters | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/functions",
+      "file": "docs_5x__reference__twig__functions.md",
+      "title": "Functions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/global-variables",
+      "file": "docs_5x__reference__twig__global-variables.md",
+      "title": "Global Variables | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/tags",
+      "file": "docs_5x__reference__twig__tags.md",
+      "title": "Tags | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/reference/twig/tests",
+      "file": "docs_5x__reference__twig__tests.md",
+      "title": "Tests | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/requirements",
+      "file": "docs_5x__requirements.md",
+      "title": "Requirements | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/",
+      "file": "docs_5x__system.md",
+      "title": "System | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/cli",
+      "file": "docs_5x__system__cli.md",
+      "title": "Command-Line Interface | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/control-panel",
+      "file": "docs_5x__system__control-panel.md",
+      "title": "Control Panel | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/directory-structure",
+      "file": "docs_5x__system__directory-structure.md",
+      "title": "Directory Structure | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/drafts-revisions",
+      "file": "docs_5x__system__drafts-revisions.md",
+      "title": "Drafts & Revisions | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/elements",
+      "file": "docs_5x__system__elements.md",
+      "title": "Elements | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/fields",
+      "file": "docs_5x__system__fields.md",
+      "title": "Custom Fields | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/gc",
+      "file": "docs_5x__system__gc.md",
+      "title": "Garbage Collection | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/logging",
+      "file": "docs_5x__system__logging.md",
+      "title": "Logging | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/mail",
+      "file": "docs_5x__system__mail.md",
+      "title": "Email | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/object-templates",
+      "file": "docs_5x__system__object-templates.md",
+      "title": "Object Templates | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/plugins",
+      "file": "docs_5x__system__plugins.md",
+      "title": "Plugins | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/project-config",
+      "file": "docs_5x__system__project-config.md",
+      "title": "Project Config | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/queue",
+      "file": "docs_5x__system__queue.md",
+      "title": "Queue | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/reference-tags",
+      "file": "docs_5x__system__reference-tags.md",
+      "title": "Reference Tags | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/relations",
+      "file": "docs_5x__system__relations.md",
+      "title": "Relations | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/routing",
+      "file": "docs_5x__system__routing.md",
+      "title": "Routing | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/searching",
+      "file": "docs_5x__system__searching.md",
+      "title": "Searching | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/sites",
+      "file": "docs_5x__system__sites.md",
+      "title": "Sites & Localization | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/system/user-management",
+      "file": "docs_5x__system__user-management.md",
+      "title": "User Management | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/update",
+      "file": "docs_5x__update.md",
+      "title": "Running Updates | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/5.x/upgrade",
+      "file": "docs_5x__upgrade.md",
+      "title": "Upgrading from Craft 4 | Craft CMS Documentation | 5.x",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/docs/",
+      "file": "docs_root__craftcms_com_docs.md",
+      "title": "Home | Craft Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/101",
+      "file": "kb__101.md",
+      "title": "Guides: Craft 101 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/access-control-panel-from-alternate-domain",
+      "file": "kb__access-control-panel-from-alternate-domain.md",
+      "title": "How to Access the Control Panel from an Alternate Domain | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/bulk-resaving-elements",
+      "file": "kb__bulk-resaving-elements.md",
+      "title": "Bulk-Resaving Elements | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/choosing-a-cache-duration-for-assets",
+      "file": "kb__choosing-a-cache-duration-for-assets.md",
+      "title": "Choosing a Cache Duration for Assets | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/commerce-multiple-sites",
+      "file": "kb__commerce-multiple-sites.md",
+      "title": "Running Multiple Craft Sites with Craft Commerce | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/configuring-load-balanced-environments",
+      "file": "kb__configuring-load-balanced-environments.md",
+      "title": "Configuring Craft for Load-Balanced Environments | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/connecting-to-multiple-databases",
+      "file": "kb__connecting-to-multiple-databases.md",
+      "title": "Connecting to Multiple Databases | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/control-panel-translations",
+      "file": "kb__control-panel-translations.md",
+      "title": "Control Panel Translations | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-4-faq",
+      "file": "kb__craft-4-faq.md",
+      "title": "Craft 4 FAQ | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-cms-and-log4j",
+      "file": "kb__craft-cms-and-log4j.md",
+      "title": "Craft CMS and Log4j | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-cms-argc-and-argv",
+      "file": "kb__craft-cms-argc-and-argv.md",
+      "title": "Craft CMS, argc, and argv | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-cms-cve-2025-32432",
+      "file": "kb__craft-cms-cve-2025-32432.md",
+      "title": "Craft CMS and CVE-2025-32432 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-console-organizations",
+      "file": "kb__craft-console-organizations.md",
+      "title": "Using Organizations in Craft Console | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-database-options-and-best-practices",
+      "file": "kb__craft-database-options-and-best-practices.md",
+      "title": "Craft Database Options and Best Practices | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-laravel-homestead",
+      "file": "kb__craft-laravel-homestead.md",
+      "title": "Running Craft on Laravel Homestead | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/craft-storage-gitignore",
+      "file": "kb__craft-storage-gitignore.md",
+      "title": "Determining Which Folders in craft/storage to Add to… | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/creating-seo-friendly-pagination-links",
+      "file": "kb__creating-seo-friendly-pagination-links.md",
+      "title": "Creating SEO-Friendly Pagination Links | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/custom-nitro-container",
+      "file": "kb__custom-nitro-container.md",
+      "title": "Adding a Custom Nitro Container | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/database-character-set-and-collation",
+      "file": "kb__database-character-set-and-collation.md",
+      "title": "Database Character Set and Collation | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/deployment-best-practices",
+      "file": "kb__deployment-best-practices.md",
+      "title": "Deployment Best Practices | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/developer-plugin-store-faq",
+      "file": "kb__developer-plugin-store-faq.md",
+      "title": "Developer Plugin Store FAQ | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/developer-support",
+      "file": "kb__developer-support.md",
+      "title": "Getting Help | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/development",
+      "file": "kb__development.md",
+      "title": "Guides: Development | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/devops",
+      "file": "kb__devops.md",
+      "title": "Guides: DevOps | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/displaying-a-navigation-for-a-structure-section",
+      "file": "kb__displaying-a-navigation-for-a-structure-section.md",
+      "title": "Displaying a Navigation for a Structure Section | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/displaying-entries-related-to-a-category",
+      "file": "kb__displaying-entries-related-to-a-category.md",
+      "title": "Displaying A Category’s Related Entries | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/docker-for-local-development",
+      "file": "kb__docker-for-local-development.md",
+      "title": "Local Development with Docker | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/docker-in-production",
+      "file": "kb__docker-in-production.md",
+      "title": "Production-Ready Docker Images for Craft | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/downloading-previous-craft-versions",
+      "file": "kb__downloading-previous-craft-versions.md",
+      "title": "Downloading Previous Craft Versions | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/duplicating-a-craft-site",
+      "file": "kb__duplicating-a-craft-site.md",
+      "title": "Duplicating a Craft Site | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/editing-entries",
+      "file": "kb__editing-entries.md",
+      "title": "Editing Entries in Craft 3.7 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/enabling-csrf-protection",
+      "file": "kb__enabling-csrf-protection.md",
+      "title": "Enabling CSRF Protection | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/enabling-fuzzy-search",
+      "file": "kb__enabling-fuzzy-search.md",
+      "title": "Enabling Fuzzy Search | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/enforcing-ssl-for-cp-requests",
+      "file": "kb__enforcing-ssl-for-cp-requests.md",
+      "title": "Enforcing SSL for Control Panel Requests | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/entry-form",
+      "file": "kb__entry-form.md",
+      "title": "Entry Form | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/extending-craft",
+      "file": "kb__extending-craft.md",
+      "title": "Guides: Extending Craft | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/finding-your-craft-license-keys",
+      "file": "kb__finding-your-craft-license-keys.md",
+      "title": "Finding your Craft License Keys | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/front-end-user-accounts",
+      "file": "kb__front-end-user-accounts.md",
+      "title": "Front-End User Accounts | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/hosting-craft-101",
+      "file": "kb__hosting-craft-101.md",
+      "title": "Hosting Craft 101 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/how-craft-license-enforcement-works",
+      "file": "kb__how-craft-license-enforcement-works.md",
+      "title": "How Craft License Enforcement Works | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/how-craft-licenses-and-renewals-work",
+      "file": "kb__how-craft-licenses-and-renewals-work.md",
+      "title": "How Craft Licenses and Renewals Work | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/how-in-app-purchasing-is-secure",
+      "file": "kb__how-in-app-purchasing-is-secure.md",
+      "title": "How In-App Purchasing is Secure | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/how-to-fix-a-mismatched-craft-license",
+      "file": "kb__how-to-fix-a-mismatched-craft-license.md",
+      "title": "How to fix a “mismatched” Craft license | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base",
+      "file": "kb__index.md",
+      "title": "Knowledge Base Home | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/licensing-editions",
+      "file": "kb__licensing-editions.md",
+      "title": "Guides: Licensing & Editions | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/listing-products-on-sale",
+      "file": "kb__listing-products-on-sale.md",
+      "title": "Listing Products on Sale | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/live-preview-alternate-control-panel-domain",
+      "file": "kb__live-preview-alternate-control-panel-domain.md",
+      "title": "Using Live Preview with an Alternate Control Panel Domain | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/marketing",
+      "file": "kb__marketing.md",
+      "title": "Guides: Marketing & SEO | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/migrating-from-craft-nitro-to-ddev",
+      "file": "kb__migrating-from-craft-nitro-to-ddev.md",
+      "title": "Migrating from Craft Nitro to DDEV | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/more-information-than-you-require-about-craft-license-keys",
+      "file": "kb__more-information-than-you-require-about-craft-license-keys.md",
+      "title": "More Information than You Require About Craft License Keys | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/performance",
+      "file": "kb__performance.md",
+      "title": "Guides: Performance | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/populating-mysql-mariadb-timezone-tables",
+      "file": "kb__populating-mysql-mariadb-timezone-tables.md",
+      "title": "Populating MySQL and MariaDB Timezone Tables | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/preparing-for-craft-4",
+      "file": "kb__preparing-for-craft-4.md",
+      "title": "Preparing for Craft 4 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/privacy-gdpr",
+      "file": "kb__privacy-gdpr.md",
+      "title": "Guides: Privacy & GDPR | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/removing-index-php-from-urls",
+      "file": "kb__removing-index-php-from-urls.md",
+      "title": "Removing “index.php” from URLs | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/resaving-elements",
+      "file": "kb__resaving-elements.md",
+      "title": "Resaving Elements | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/resolving-php-requirement-conflicts",
+      "file": "kb__resolving-php-requirement-conflicts.md",
+      "title": "Resolving PHP Requirement Conflicts | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/rss-and-atom-feeds",
+      "file": "kb__rss-and-atom-feeds.md",
+      "title": "RSS and Atom Feeds | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/running-multiple-craft-installations-from-the-same-domain",
+      "file": "kb__running-multiple-craft-installations-from-the-same-domain.md",
+      "title": "Running Multiple Craft Installations from the Same Domain | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/search-form",
+      "file": "kb__search-form.md",
+      "title": "Search Form | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/security-faq",
+      "file": "kb__security-faq.md",
+      "title": "Security FAQ | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/security",
+      "file": "kb__security.md",
+      "title": "Guides: Security | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/sendmail-and-dkim",
+      "file": "kb__sendmail-and-dkim.md",
+      "title": "Sendmail and DKIM | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/setting-up-a-craft-project-from-scratch",
+      "file": "kb__setting-up-a-craft-project-from-scratch.md",
+      "title": "Setting up a Craft Project from Scratch | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/sharing-a-craft-app-folder-across-multiple-sites",
+      "file": "kb__sharing-a-craft-app-folder-across-multiple-sites.md",
+      "title": "Sharing a craft/app Folder Across Multiple Sites | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/supported-versions",
+      "file": "kb__supported-versions.md",
+      "title": "Supported Versions | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/troubleshooting-composer-errors",
+      "file": "kb__troubleshooting-composer-errors.md",
+      "title": "Troubleshooting Composer Errors | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/troubleshooting-failed-installation",
+      "file": "kb__troubleshooting-failed-installation.md",
+      "title": "Troubleshooting a Failed Craft Installation | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/troubleshooting",
+      "file": "kb__troubleshooting.md",
+      "title": "Guides: Troubleshooting | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/updating-from-craft-3-7-39",
+      "file": "kb__updating-from-craft-3-7-39.md",
+      "title": "Updating Craft 3.7.39 to a Newer Version | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/updating-plugins-for-craft-2-5",
+      "file": "kb__updating-plugins-for-craft-2-5.md",
+      "title": "Updating Plugins for Craft 2.5 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/updating-plugins-for-craft-3-1",
+      "file": "kb__updating-plugins-for-craft-3-1.md",
+      "title": "Updating Plugins for Craft 3.1 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/upgrading-to-craft-3-5",
+      "file": "kb__upgrading-to-craft-3-5.md",
+      "title": "Upgrading to Craft 3.5 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/upgrading-to-craft-3-6",
+      "file": "kb__upgrading-to-craft-3-6.md",
+      "title": "Upgrading to Craft 3.6 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/upgrading-to-craft-3-7",
+      "file": "kb__upgrading-to-craft-3-7.md",
+      "title": "Upgrading to Craft 3.7 | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/upgrading-to-craft-pro",
+      "file": "kb__upgrading-to-craft-pro.md",
+      "title": "Upgrading to Craft Pro | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/using-local-volumes-for-development",
+      "file": "kb__using-local-volumes-for-development.md",
+      "title": "Using Local Volumes for Development | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/using-the-starter-project",
+      "file": "kb__using-the-starter-project.md",
+      "title": "Using the Starter Project | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/what-dev-mode-does",
+      "file": "kb__what-dev-mode-does.md",
+      "title": "What Dev Mode Does | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/what-is-craft-console",
+      "file": "kb__what-is-craft-console.md",
+      "title": "What is Craft Console? | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/commerce",
+      "file": "kb_cat__craftcms_com_knowledge-base_commerce.md",
+      "title": "Guides: Commerce | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/development",
+      "file": "kb_cat__craftcms_com_knowledge-base_development.md",
+      "title": "Guides: Development | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/devops",
+      "file": "kb_cat__craftcms_com_knowledge-base_devops.md",
+      "title": "Guides: DevOps | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/localization",
+      "file": "kb_cat__craftcms_com_knowledge-base_localization.md",
+      "title": "Guides: Localization | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/marketing",
+      "file": "kb_cat__craftcms_com_knowledge-base_marketing.md",
+      "title": "Guides: Marketing & SEO | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/performance",
+      "file": "kb_cat__craftcms_com_knowledge-base_performance.md",
+      "title": "Guides: Performance | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/knowledge-base/security",
+      "file": "kb_cat__craftcms_com_knowledge-base_security.md",
+      "title": "Guides: Security | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/accessibility",
+      "file": "site__craftcms_com_accessibility.md",
+      "title": "Accessibility | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/glossary",
+      "file": "site__craftcms_com_glossary.md",
+      "title": "Glossary | Craft CMS",
+      "depth": 1
+    },
+    {
+      "url": "** https://craftcms.com/starters",
+      "file": "site__craftcms_com_starters.md",
+      "title": "Starters | Craft CMS",
+      "depth": 1
+    }
+  ]
+}

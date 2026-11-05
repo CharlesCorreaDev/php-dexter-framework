@@ -1,0 +1,262 @@
+# Referência da Linguagem
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/langref.php
+
+---
+
+# Referência da Linguagem
+
+- [Sintaxe Básica](language.basic-syntax.md)
+  - [Tags PHP](language.basic-syntax.phptags.md)
+  - [Escapando o HTML](language.basic-syntax.phpmode.md)
+  - [Separação de instruções](language.basic-syntax.instruction-separation.md)
+  - [Comentários](language.basic-syntax.comments.md)
+- [Tipos](language.types.md)
+  - [Introdução](language.types.intro.md)
+  - [Sistema de tipagem](language.types.type-system.md)
+  - [NULL](language.types.null.md)
+  - [Booleanos](language.types.boolean.md)
+  - [Inteiros](language.types.integer.md)
+  - [Números de ponto flutuante](language.types.float.md)
+  - [Strings](language.types.string.md)
+  - [Strings numéricas](language.types.numeric-strings.md)
+  - [Arrays](language.types.array.md)
+  - [Objetos](language.types.object.md)
+  - [Enumerações](language.types.enumerations.md)
+  - [Recursos](language.types.resource.md)
+  - [Chamáveis](language.types.callable.md)
+  - [Misto](language.types.mixed.md)
+  - [Void](language.types.void.md)
+  - [Never](language.types.never.md)
+  - [Tipos de classes relativas](language.types.relative-class-types.md)
+  - [Tipos únicos](language.types.singleton.md)
+  - [Iterável](language.types.iterable.md)
+  - [Declarações de tipo](language.types.declarations.md)
+  - [Conversão automática de tipos](language.types.type-juggling.md)
+- [Variáveis](language.variables.md)
+  - [Básico](language.variables.basics.md)
+  - [Variáveis Predefinidas](language.variables.predefined.md)
+  - [Escopo de variáveis](language.variables.scope.md)
+  - [Variáveis variáveis](language.variables.variable.md)
+  - [Variáveis de fontes externas](language.variables.external.md)
+- [Constantes](language.constants.md)
+  - [Sintaxe](language.constants.syntax.md)
+  - [Constantes Predefinidas](language.constants.predefined.md)
+  - [Constantes Mágicas](language.constants.magic.md)
+- [Expressões](language.expressions.md)
+- [Operadores](language.operators.md)
+  - [Precedência de Operadores](language.operators.precedence.md)
+  - [Aritméticos](language.operators.arithmetic.md) — Operadores Aritméticos
+  - [Incremento e Decremento](language.operators.increment.md) — Operadores de Incremento/Decremento
+  - [Atribuição](language.operators.assignment.md) — Operadores de Atribuição
+  - [Binários](language.operators.bitwise.md) — Operadores Binários
+  - [Comparação](language.operators.comparison.md) — Operadores de Comparação
+  - [Controle de Erro](language.operators.errorcontrol.md) — Operadores de Controle de Erro
+  - [Execução](language.operators.execution.md) — Operadores de Execução
+  - [Lógica](language.operators.logical.md) — Operadores Lógicos
+  - [String](language.operators.string.md) — Operadores de String
+  - [Arrays](language.operators.array.md) — Operadores de Arrays
+  - [Tipo](language.operators.type.md) — Operadores de Tipo
+  - [Funcional](language.operators.functional.md) — Operadores Funcionais
+- [Estruturas de Controle](language.control-structures.md)
+  - [Introdução](control-structures.intro.md)
+  - [if](control-structures.if.md)
+  - [else](control-structures.else.md)
+  - [elseif/else if](control-structures.elseif.md)
+  - [Sintaxe Alternativa para estruturas de controle](control-structures.alternative-syntax.md)
+  - [while](control-structures.while.md)
+  - [do-while](control-structures.do.while.md)
+  - [for](control-structures.for.md)
+  - [foreach](control-structures.foreach.md)
+  - [break](control-structures.break.md)
+  - [continue](control-structures.continue.md)
+  - [switch](control-structures.switch.md)
+  - [match](control-structures.match.md)
+  - [declare](control-structures.declare.md)
+  - [return](function.return.md)
+  - [require](function.require.md)
+  - [include](function.include.md)
+  - [require\_once](function.require-once.md)
+  - [include\_once](function.include-once.md)
+  - [goto](control-structures.goto.md)
+- [Funções](language.functions.md)
+  - [Funções definidas pelo usuário](functions.user-defined.md)
+  - [Parâmetros e argumentos de funções](functions.arguments.md)
+  - [Retornando valores](functions.returning-values.md)
+  - [Funções variáveis](functions.variable-functions.md)
+  - [Funções internas](functions.internal.md)
+  - [Funções anônimas](functions.anonymous.md)
+  - [Funções de Seta](functions.arrow.md)
+  - [Sintaxe de Chamáveis de Primeira Classe](functions.first_class_callable_syntax.md)
+- [Classes e Objetos](language.oop5.md)
+  - [Introdução](oop5.intro.md)
+  - [O Básico](language.oop5.basic.md)
+  - [Propriedades](language.oop5.properties.md)
+  - [Ganchos de Propriedade](language.oop5.property-hooks.md)
+  - [Constantes de Classe](language.oop5.constants.md)
+  - [Autocarregamento de Classes](language.oop5.autoload.md)
+  - [Construtores e Destrutores](language.oop5.decon.md)
+  - [Visibilidade](language.oop5.visibility.md)
+  - [Herança de Objetos](language.oop5.inheritance.md)
+  - [Operador de Resolução de Escopo (::)](language.oop5.paamayim-nekudotayim.md)
+  - [Palavra-Chave 'static'](language.oop5.static.md)
+  - [Abstração de Classes](language.oop5.abstract.md)
+  - [Interfaces de Objetos](language.oop5.interfaces.md)
+  - [Traits](language.oop5.traits.md)
+  - [Classes Anônimas](language.oop5.anonymous.md)
+  - [Sobrecarga](language.oop5.overloading.md)
+  - [Iteração de Objetos](language.oop5.iterations.md)
+  - [Métodos Mágicos](language.oop5.magic.md)
+  - [final](language.oop5.final.md)
+  - [Clonando Objetos](language.oop5.cloning.md)
+  - [Comparando Objetos](language.oop5.object-comparison.md)
+  - [Vinculações Estáticas Tardias](language.oop5.late-static-bindings.md)
+  - [Objetos e Referências](language.oop5.references.md)
+  - [Serialização de Objetos](language.oop5.serialization.md) — Serialização de Objetos - Objetos em sessões
+  - [Covariância e Contravariância](language.oop5.variance.md)
+  - [Objetos Lentos](language.oop5.lazy-objects.md)
+  - [Lista de alterações da POO](language.oop5.changelog.md)
+- [Namespaces](language.namespaces.md)
+  - [Visão Geral](language.namespaces.rationale.md) — Visão geral de Namespaces
+  - [Namespaces](language.namespaces.definition.md) — Definindo namespaces
+  - [Sub-namespaces](language.namespaces.nested.md) — Declarando sub-namespaces
+  - [Definindo vários namespaces no mesmo arquivo](language.namespaces.definitionmultiple.md)
+  - [Fundamentos](language.namespaces.basics.md) — Usando namespaces: Fundamentos
+  - [Namespaces e recursos de linguagem dinâmica](language.namespaces.dynamic.md)
+  - [Palavra-chave namespace e \_\_NAMESPACE\_\_](language.namespaces.nsconstants.md) — Palavra-chave namespace e constante \_\_NAMESPACE\_\_
+  - [Apelidando e Importando](language.namespaces.importing.md) — Usando namespaces: Apelidando/Importando
+  - [Espaço Global](language.namespaces.global.md)
+  - [Recorrendo ao espaço global](language.namespaces.fallback.md) — Usando namespaces: recorrendo ao espaço global para funções e constantes
+  - [Regras de resolução de nomes](language.namespaces.rules.md)
+  - [Perguntas Frequentes](language.namespaces.faq.md) — Perguntas Frequentes: Coisas que você precisa saber sobre namespaces
+- [Enumerações](language.enumerations.md)
+  - [Visão Geral das Enumerações](language.enumerations.overview.md)
+  - [Enumerações Básicas](language.enumerations.basics.md)
+  - [Enumerações Apoiadas](language.enumerations.backed.md)
+  - [Métodos de enumerações](language.enumerations.methods.md)
+  - [Métodos estáticos de enumerações](language.enumerations.static-methods.md)
+  - [Constantes de enumeração](language.enumerations.constants.md)
+  - [Traits](language.enumerations.traits.md)
+  - [Valores de enumeração em expressões constantes](language.enumerations.expressions.md)
+  - [Diferenças de objetos](language.enumerations.object-differences.md)
+  - [Listagem de valores](language.enumerations.listing.md)
+  - [Serialização](language.enumerations.serialization.md)
+  - [Porque enumerações não são extensíveis](language.enumerations.object-differences.inheritance.md)
+  - [Examples](language.enumerations.examples.md)
+- [Error Handling](language.error-handling.md)
+  - [Throwable errors](language.error-handling.throwable.md)
+  - [Diagnostic errors](language.error-handling.diagnostic.md)
+- [Fibers](language.fibers.md)
+- [Geradores](language.generators.md)
+  - [Geradores, visão geral](language.generators.overview.md)
+  - [Sintaxe do Gerador](language.generators.syntax.md)
+  - [Comparando geradores com objetos Iterator](language.generators.comparison.md)
+- [Atributos](language.attributes.md)
+  - [Visão geral dos atributos](language.attributes.overview.md)
+  - [Sintaxe de Atributo](language.attributes.syntax.md)
+  - [Lendo Atributos com a API Reflection](language.attributes.reflection.md)
+  - [Declarando Classes de Atributos](language.attributes.classes.md)
+- [Referências](language.references.md)
+  - [O que são referências](language.references.whatare.md)
+  - [O que as referências fazem](language.references.whatdo.md)
+  - [O que referências não são](language.references.arent.md)
+  - [Passagem por referência](language.references.pass.md)
+  - [Retornando referências](language.references.return.md)
+  - [Destruindo referências](language.references.unset.md)
+  - [Demonstrando referências](language.references.spot.md)
+- [Variáveis predefinidas](reserved.variables.md)
+  - [Superglobais](language.variables.superglobals.md) — Variáveis nativas que estão sempre disponíveis em todos escopos
+  - [$GLOBALS](reserved.variables.globals.md) — Referencia todas variáveis disponíveis no escopo global
+  - [$\_SERVER](reserved.variables.server.md) — Informação do servidor e ambiente de execução
+  - [$\_GET](reserved.variables.get.md) — Variáveis de string de consulta
+  - [$\_POST](reserved.variables.post.md) — Dados de formulário de requisições POST HTTP
+  - [$\_FILES](reserved.variables.files.md) — Variáveis de Upload de Arquivos HTTP
+  - [$\_REQUEST](reserved.variables.request.md) — Variáveis de requisição HTTP
+  - [$\_SESSION](reserved.variables.session.md) — Variáveis de sessão
+  - [$\_ENV](reserved.variables.environment.md) — Variáveis de ambiente
+  - [$\_COOKIE](reserved.variables.cookies.md) — Cookies HTTP
+  - [$php\_errormsg](reserved.variables.phperrormsg.md) — A mensagem de erro anterior
+  - [$http\_response\_header](reserved.variables.httpresponseheader.md) — Cabeçalhos de resposta HTTP
+  - [$argc](reserved.variables.argc.md) — O número de argumentos passados para o script
+  - [$argv](reserved.variables.argv.md) — Array de argumentos passados para o script
+- [Exceções predefinidas](reserved.exceptions.md)
+  - [Exception](class.exception.md)
+  - [ErrorException](class.errorexception.md)
+  - [ClosedGeneratorException](class.closedgeneratorexception.md) — A classe ClosedGeneratorException
+  - [Error](class.error.md)
+  - [ArgumentCountError](class.argumentcounterror.md)
+  - [ArithmeticError](class.arithmeticerror.md)
+  - [AssertionError](class.assertionerror.md)
+  - [DivisionByZeroError](class.divisionbyzeroerror.md)
+  - [CompileError](class.compileerror.md)
+  - [ParseError](class.parseerror.md)
+  - [TypeError](class.typeerror.md)
+  - [ValueError](class.valueerror.md)
+  - [UnhandledMatchError](class.unhandledmatcherror.md)
+  - [FiberError](class.fibererror.md)
+  - [RequestParseBodyException](class.requestparsebodyexception.md)
+- [Interfaces e Classes predefinidas](reserved.interfaces.md)
+  - [Traversable](class.traversable.md) — A interface Traversable
+  - [Iterator](class.iterator.md) — A interface Iterator
+  - [IteratorAggregate](class.iteratoraggregate.md) — A interface IteratorAggregate
+  - [InternalIterator](class.internaliterator.md) — A classe InternalIterator
+  - [Throwable](class.throwable.md) — A classe Throwable
+  - [Countable](class.countable.md) — A interface Countable
+  - [ArrayAccess](class.arrayaccess.md) — A interface ArrayAccess
+  - [Serializable](class.serializable.md) — A interface Serializable
+  - [Closure](class.closure.md) — A classe Closure
+  - [stdClass](class.stdclass.md) — A classe stdClass
+  - [Generator](class.generator.md) — A classe Generator
+  - [Fiber](class.fiber.md) — A classe Fiber
+  - [WeakReference](class.weakreference.md) — A classe WeakReference
+  - [WeakMap](class.weakmap.md) — A classe WeakMap
+  - [Stringable](class.stringable.md) — A interface Stringable
+  - [UnitEnum](class.unitenum.md) — A interface UnitEnum
+  - [BackedEnum](class.backedenum.md) — A interface BackedEnum
+  - [SensitiveParameterValue](class.sensitiveparametervalue.md) — A classe SensitiveParameterValue
+  - [\_\_PHP\_Incomplete\_Class](class.php-incomplete-class.md) — A classe \_\_PHP\_Incomplete\_Class
+- [Atributos Predefinidos](reserved.attributes.md)
+  - [Attribute](class.attribute.md) — O atributo Attribute
+  - [AllowDynamicProperties](class.allowdynamicproperties.md) — O atributo AllowDynamicProperties
+  - [DelayedTargetValidation](class.delayedtargetvalidation.md) — O atributo DelayedTargetValidation
+  - [Deprecated](class.deprecated.md) — O atributo Deprecated
+  - [NoDiscard](class.nodiscard.md) — O atributo NoDiscard
+  - [Override](class.override.md) — O atributo Override
+  - [ReturnTypeWillChange](class.returntypewillchange.md) — O atributo ReturnTypeWillChange
+  - [SensitiveParameter](class.sensitiveparameter.md) — O atributo SensitiveParameter
+- [Opções e parâmetros de contexto](context.md)
+  - [Opções de contexto de Socket](context.socket.md) — Lista de opções de contexto de Socket
+  - [Opções de contexto do HTTP](context.http.md) — Lista de opções de contexto do HTTP
+  - [Opções de contexto do FTP](context.ftp.md) — Lista de opções de contexto do FTP
+  - [Opções de contexto de SSL](context.ssl.md) — Lista de opções de contexto de SSL
+  - [Opções de contexto do Phar](context.phar.md) — Lista de opções de contexto do Phar
+  - [Parâmetros de contexto](context.params.md) — Listagem de parâmetros de contexto
+  - [Opções de contexto para Zip](context.zip.md) — Lista de opções de contexto de Zip
+  - [Opções de contexto Zlib](context.zlib.md) — Lista de opções de contexto de Zlib
+- [Protocolos e empacotadores suportados](wrappers.md)
+  - [file://](wrappers.file.md) — Acessando o sistema de arquivos local
+  - [http://](wrappers.http.md) — Acessando URLs HTTP(s)
+  - [ftp://](wrappers.ftp.md) — Acessando URLs FTP(s)
+  - [php://](wrappers.php.md) — Acessando vários fluxos de E/S
+  - [zlib://](wrappers.compression.md) — Fluxos de compactação
+  - [data://](wrappers.data.md) — Dados (RFC 2397)
+  - [glob://](wrappers.glob.md) — Encontra caminhos que correspondem a um padrão
+  - [phar://](wrappers.phar.md) — Arquivo PHP
+  - [ssh2://](wrappers.ssh2.md) — Shell Seguro 2
+  - [rar://](wrappers.rar.md) — RAR
+  - [ogg://](wrappers.audio.md) — Fluxos de áudio
+  - [expect://](wrappers.expect.md) — Fluxos de Interação entre Processos
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

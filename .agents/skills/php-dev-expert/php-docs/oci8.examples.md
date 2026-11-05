@@ -1,0 +1,328 @@
+# Examples
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/oci8.examples.php
+
+---
+
+# Examples
+
+Estes exemplos utilizam o usuário `HR`, que faz parte
+do esquema de exemplo "Human Resources" fornecido com o
+banco de dados Oracle. A conta precisa ser desbloqueada e a senha
+redefinida antes de ser usada.
+
+Os exemplos se conectam ao banco de dados `XE` na
+máquina local. Modifique a string de conexão para o banco de dados local
+antes de executar os exemplos.
+
+**Exemplo #1 Consulta básica**
+
+Este exemplo mostra consulta e resultados. Declaração no OCI8 usam
+passos na sequência preparação-execução-recebimento.
+
+```
+<?php
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+// Prepara a declaração
+$stid = oci_parse($conn, 'SELECT * FROM departments');
+if (!$stid) {
+    $e = oci_error($conn);
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+// Executa a lógica da consulta
+$r = oci_execute($stid);
+if (!$r) {
+    $e = oci_error($stid);
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+// Recebe os resultados da consulta
+print "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    print "<tr>\n";
+    foreach ($row as $item) {
+        print "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
+    }
+    print "</tr>\n";
+}
+print "</table>\n";
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Exemplo #2 Inserindo com variáveis vinculadas**
+
+Vincular variáveis melhora o desempenho por permitir o reúso de contextos de
+execução e de caches. Vinculação de variáveis melhoram a segurança pois impedem
+alguns tipos de problemas de Injeção SQL.
+
+```
+<?php
+
+// Antes de executar, cria a tabela:
+//   CREATE TABLE MYTABLE (mid NUMBER, myd VARCHAR2(20));
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$stid = oci_parse($conn, 'INSERT INTO MYTABLE (mid, myd) VALUES(:myid, :mydata)');
+
+$id = 60;
+$data = 'Alguns dados';
+
+oci_bind_by_name($stid, ':myid', $id);
+oci_bind_by_name($stid, ':mydata', $data);
+
+$r = oci_execute($stid);  // executa e envia
+
+if ($r) {
+    print "Uma linha inserida";
+}
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Exemplo #3 Vinculando em cláusula WHERE de uma consulta**
+
+Este exemplo mostra uma simples vinculação de valor escalar.
+
+```
+<?php
+
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+}
+
+$sql = 'SELECT last_name FROM employees WHERE department_id = :didbv ORDER BY last_name';
+$stid = oci_parse($conn, $sql);
+$didbv = 60;
+oci_bind_by_name($stid, ':didbv', $didbv);
+oci_execute($stid);
+while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
+    echo $row['LAST_NAME'] ."<br>\n";
+}
+
+// Saída:
+//    Austin
+//    Ernst
+//    Hunold
+//    Lorentz
+//    Pataballa
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Exemplo #4 Inserindo e recebendo um CLOB**
+
+Para grande quantidade de dados, use os tipos objeto binário longo (BLOB) ou objeto
+caractere longo (CLOB). Este exemplo usa CLOB.
+
+```
+<?php
+
+// Antes de executar, cria a tabela:
+//     CREATE TABLE MYTABLE (mykey NUMBER, myclob CLOB);
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$mykey = 12343;  // chave arbitrária para este exemplo;
+
+$sql = "INSERT INTO mytable (mykey, myclob)
+        VALUES (:mykey, EMPTY_CLOB())
+        RETURNING myclob INTO :myclob";
+
+$stid = oci_parse($conn, $sql);
+$clob = oci_new_descriptor($conn, OCI_D_LOB);
+oci_bind_by_name($stid, ":mykey", $mykey, 5);
+oci_bind_by_name($stid, ":myclob", $clob, -1, OCI_B_CLOB);
+oci_execute($stid, OCI_NO_AUTO_COMMIT);
+$clob->save("Uma string muito longa");
+
+oci_commit($conn);
+
+// Recebendo dados CLOB
+
+$query = 'SELECT myclob FROM mytable WHERE mykey = :mykey';
+
+$stid = oci_parse ($conn, $query);
+oci_bind_by_name($stid, ":mykey", $mykey, 5);
+oci_execute($stid);
+
+print '<table border="1">';
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_LOBS)) {
+    print '<tr><td>'.$row['MYCLOB'].'</td></tr>';
+    // Em uma repetição, liberar a variável grande antes do 2º recebimento reduz o pico de uso de memória do PHP
+    unset($row);
+}
+print '</table>';
+
+?>
+```
+
+**Exemplo #5 Usando uma função armazenada PL/SQL**
+
+Deve-se vincular uma variável para o valor de retorno e opcionalmente para
+quaisquer argumentos de função PL/SQL.
+
+```
+<?php
+
+/*
+  Antes de executar o programa PHP, crie uma função armazenada no
+  SQL*Plus ou SQL Developer:
+
+  CREATE OR REPLACE FUNCTION myfunc(p IN NUMBER) RETURN NUMBER AS
+  BEGIN
+      RETURN p * 3;
+  END;
+
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$p = 8;
+
+$stid = oci_parse($conn, 'begin :r := myfunc(:p); end;');
+oci_bind_by_name($stid, ':p', $p);
+oci_bind_by_name($stid, ':r', $r, 40);
+
+oci_execute($stid);
+
+print "$r\n";   // mostra 24
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Exemplo #6 Usando um procedimento armazenado PL/SQL**
+
+Com procedimentos armazenados, deve-se vincular variáveis, para quaisquer argumentos.
+
+```
+<?php
+
+/*
+  Antes de executar o programa PHP, crie um procedimento armazenado no
+  SQL*Plus ou SQL Developer:
+
+  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
+  BEGIN
+      p2 := p1 * 2;
+  END;
+
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
+
+$p1 = 8;
+
+$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
+oci_bind_by_name($stid, ':p1', $p1);
+oci_bind_by_name($stid, ':p2', $p2, 40);
+
+oci_execute($stid);
+
+print "$p2\n";   // mostra 16
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+**Exemplo #7 Chamando uma função PL/SQL que retorna um `REF CURSOR`**
+
+Cada valor retornado da consulta é um `REF
+CURSOR` que permite o recebimento a partir dele.
+
+```
+<?php
+/*
+  Crie a função armazenada PL/SQL desta forma:
+
+  CREATE OR REPLACE FUNCTION myfunc(p1 IN NUMBER) RETURN SYS_REFCURSOR AS
+      rc SYS_REFCURSOR;
+  BEGIN
+      OPEN rc FOR SELECT city FROM locations WHERE ROWNUM < p1;
+      RETURN rc;
+  END;
+*/
+
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+
+$stid = oci_parse($conn, 'SELECT myfunc(5) AS mfrc FROM dual');
+oci_execute($stid);
+
+echo "<table border='1'>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC))) {
+    echo "<tr>\n";
+    $rc = $row['MFRC'];
+    oci_execute($rc);  // o valor da coluna retornado da consulta é um cursor 'ref'
+    while (($rc_row = oci_fetch_array($rc, OCI_ASSOC))) {
+        echo "    <td>" . $rc_row['CITY'] . "</td>\n";
+    }
+    oci_free_statement($rc);
+    echo "</tr>\n";
+}
+echo "</table>\n";
+
+// Saída:
+//   Beijing
+//   Bern
+//   Bombay
+//   Geneva
+
+oci_free_statement($stid);
+oci_close($conn);
+
+?>
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

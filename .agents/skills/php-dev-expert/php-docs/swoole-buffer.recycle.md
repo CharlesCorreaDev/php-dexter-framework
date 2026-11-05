@@ -1,0 +1,33 @@
+# Libera a memória para o sistema operacional que não está sendo usada pelo buffer de memória.
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/swoole-buffer.recycle.php
+
+---
+
+# Swoole\Buffer::recycle
+
+(PECL swoole >= 1.9.0)
+
+Swoole\Buffer::recycle — Libera a memória para o sistema operacional que não está sendo usada pelo buffer de memória.
+
+### Descrição
+
+public function **Swoole\Buffer::recycle**(): [void](language.types.void.md)
+
+### Parâmetros
+
+Esta função não possui parâmetros.
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

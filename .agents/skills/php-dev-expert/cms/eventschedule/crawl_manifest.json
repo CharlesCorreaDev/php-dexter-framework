@@ -1,0 +1,254 @@
+{
+  "root_url": "** https://eventschedule.com/docs/account-settings",
+  "scope_prefix": "** https://eventschedule.com/docs/account-settings",
+  "total_pages": 41,
+  "generated_at": "2026-10-28T18:55:18Z",
+  "pages": [
+    {
+      "url": "** https://eventschedule.com/docs/account-settings",
+      "file": "docs__account-settings.md",
+      "title": "Account Settings: Payments, API, Calendars - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/ai-import",
+      "file": "docs__ai-import.md",
+      "title": "AI Import Guide: Links, Text and Flyers - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/allocated-seating",
+      "file": "docs__allocated-seating.md",
+      "title": "Allocated Seating and Seat Maps Guide - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/analytics",
+      "file": "docs__analytics.md",
+      "title": "Analytics Guide: Views, Revenue, Check-Ins - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/appointments",
+      "file": "docs__appointments.md",
+      "title": "How to Set Up Appointment Types and Hours - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/boost",
+      "file": "docs__boost.md",
+      "title": "Boost Setup Guide: Meta Ads and Promotions - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/creating-events",
+      "file": "docs__creating-events.md",
+      "title": "Creating Events: Tickets, Repeats, Privacy - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/creating-schedules",
+      "file": "docs__creating-schedules.md",
+      "title": "Creating Schedules: Settings, Links, Sync - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/developer/api",
+      "file": "docs__developer__api.md",
+      "title": "API Reference: Schedules, Events, Sales - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/developer/webhooks",
+      "file": "docs__developer__webhooks.md",
+      "title": "Webhooks: Signed Sale and Event Alerts - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/event-graphics",
+      "file": "docs__event-graphics.md",
+      "title": "How to Make Event Graphics and Text Posts - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/getting-started",
+      "file": "docs__getting-started.md",
+      "title": "Getting Started: Account and First Schedule - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/gift-cards",
+      "file": "docs__gift-cards.md",
+      "title": "Gift Card Guide: Set Up, Send and Redeem - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs",
+      "file": "docs__index.md",
+      "title": "Event Schedule Documentation: User Guide, Selfhost, API",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/managing-schedules",
+      "file": "docs__managing-schedules.md",
+      "title": "Manage Schedules: Team, Requests, Followers - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/newsletters",
+      "file": "docs__newsletters.md",
+      "title": "Newsletters Guide: Segments and A/B Tests - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/referral-program",
+      "file": "docs__referral-program.md",
+      "title": "Referral Program: Earn Free Months - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas",
+      "file": "docs__saas.md",
+      "title": "White-Label SaaS Setup: Your Own Platform - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas/custom-domains",
+      "file": "docs__saas__custom-domains.md",
+      "title": "Custom Domains for Tenants: DNS and SSL - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas/facebook-login",
+      "file": "docs__saas__facebook-login.md",
+      "title": "Facebook Login Setup - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas/federation",
+      "file": "docs__saas__federation.md",
+      "title": "Federation on a White-Label SaaS - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas/monetization",
+      "file": "docs__saas__monetization.md",
+      "title": "SaaS Monetization: Ads, Promotions, Stay22 - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/saas/twilio",
+      "file": "docs__saas__twilio.md",
+      "title": "Twilio: SMS, WhatsApp, Phone Verification - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/scan-agenda",
+      "file": "docs__scan-agenda.md",
+      "title": "Scan Agenda: Photograph an Agenda with AI - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/schedule-styling",
+      "file": "docs__schedule-styling.md",
+      "title": "Schedule Styling: Colors, Fonts and Headers - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost",
+      "file": "docs__selfhost.md",
+      "title": "Selfhost Guide: Run Event Schedule on Your Own Server",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/accessibility",
+      "file": "docs__selfhost__accessibility.md",
+      "title": "Web accessibility (selfhost) - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/admin",
+      "file": "docs__selfhost__admin.md",
+      "title": "Admin Panel for Selfhosted Installs - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/ai",
+      "file": "docs__selfhost__ai.md",
+      "title": "AI Setup with Gemini or OpenAI (Selfhost) - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/boost",
+      "file": "docs__selfhost__boost.md",
+      "title": "Boost Setup with the Meta Marketing API - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/email",
+      "file": "docs__selfhost__email.md",
+      "title": "Email Setup for a Selfhosted Install - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/federation",
+      "file": "docs__selfhost__federation.md",
+      "title": "Federation on a Selfhost Install - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/google-calendar",
+      "file": "docs__selfhost__google-calendar.md",
+      "title": "Google Calendar Sync Setup for Selfhost - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/google-wallet",
+      "file": "docs__selfhost__google-wallet.md",
+      "title": "Google Wallet Ticket Passes for Selfhost - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/installation",
+      "file": "docs__selfhost__installation.md",
+      "title": "Selfhost Installation: PHP, MySQL and Cron - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/microsoft-calendar",
+      "file": "docs__selfhost__microsoft-calendar.md",
+      "title": "Outlook and Microsoft 365 Sync for Selfhost - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/selfhost/stripe",
+      "file": "docs__selfhost__stripe.md",
+      "title": "Stripe, PayPal, Payfast, Razorpay on Selfhost - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/sharing",
+      "file": "docs__sharing.md",
+      "title": "Sharing Your Schedule: Links, Embeds, Feeds - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/subscriptions",
+      "file": "docs__subscriptions.md",
+      "title": "Subscriptions & Passes: Multi-Visit Tickets - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/docs/tickets",
+      "file": "docs__tickets.md",
+      "title": "Sell Tickets: Payments, Refunds, Check-In - Event Schedule",
+      "depth": 1
+    },
+    {
+      "url": "** https://eventschedule.com/selfhost",
+      "file": "selfhost__eventschedule_com_selfhost.md",
+      "title": "Selfhosted Event Calendar: Every Feature Free on Your Server",
+      "depth": 1
+    }
+  ]
+}

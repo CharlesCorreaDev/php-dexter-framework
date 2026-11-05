@@ -1,0 +1,548 @@
+{
+  "root_url": "** https://docs.opencart.com/admin-interface/cms",
+  "scope_prefix": "** https://docs.opencart.com/admin-interface/cms",
+  "total_pages": 90,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://docs.opencart.com/admin-interface/cms",
+      "file": "docs__admin-interface__cms.md",
+      "title": "CMS | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/cms/anti-spam",
+      "file": "docs__admin-interface__cms__anti-spam.md",
+      "title": "Anti-Spam | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/cms/articles",
+      "file": "docs__admin-interface__cms__articles.md",
+      "title": "Articles | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/cms/comments",
+      "file": "docs__admin-interface__cms__comments.md",
+      "title": "Comments | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/cms/topics",
+      "file": "docs__admin-interface__cms__topics.md",
+      "title": "Topics | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers",
+      "file": "docs__admin-interface__customers.md",
+      "title": "Customers | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers/custom-fields",
+      "file": "docs__admin-interface__customers__custom-fields.md",
+      "title": "Custom Fields | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers/customer-approval",
+      "file": "docs__admin-interface__customers__customer-approval.md",
+      "title": "Customer Approval | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers/customer-groups",
+      "file": "docs__admin-interface__customers__customer-groups.md",
+      "title": "Customer Groups | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers/customer-management",
+      "file": "docs__admin-interface__customers__customer-management.md",
+      "title": "Customer Management | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/customers/gdpr-management",
+      "file": "docs__admin-interface__customers__gdpr-management.md",
+      "title": "GDPR Management | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/dashboard",
+      "file": "docs__admin-interface__dashboard.md",
+      "title": "Dashboard | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/marketing",
+      "file": "docs__admin-interface__marketing.md",
+      "title": "Marketing | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/marketing/affiliates",
+      "file": "docs__admin-interface__marketing__affiliates.md",
+      "title": "Affiliates | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/marketing/coupons",
+      "file": "docs__admin-interface__marketing__coupons.md",
+      "title": "Coupons | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/marketing/mail",
+      "file": "docs__admin-interface__marketing__mail.md",
+      "title": "Mail | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview",
+      "file": "docs__admin-interface__overview.md",
+      "title": "Catalog | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/attributes",
+      "file": "docs__admin-interface__overview__attributes.md",
+      "title": "Attributes | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/categories",
+      "file": "docs__admin-interface__overview__categories.md",
+      "title": "Categories | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/downloads",
+      "file": "docs__admin-interface__overview__downloads.md",
+      "title": "Downloads | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/filters",
+      "file": "docs__admin-interface__overview__filters.md",
+      "title": "Filters | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/information",
+      "file": "docs__admin-interface__overview__information.md",
+      "title": "Information | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/manufacturers",
+      "file": "docs__admin-interface__overview__manufacturers.md",
+      "title": "Manufacturers | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/options",
+      "file": "docs__admin-interface__overview__options.md",
+      "title": "Options | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products",
+      "file": "docs__admin-interface__overview__products.md",
+      "title": "Products | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/adding-products",
+      "file": "docs__admin-interface__overview__products__adding-products.md",
+      "title": "Adding Products | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/product-form-tabs",
+      "file": "docs__admin-interface__overview__products__product-form-tabs.md",
+      "title": "Product Form Tabs | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/product-identifiers",
+      "file": "docs__admin-interface__overview__products__product-identifiers.md",
+      "title": "Product Identifiers | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/product-managementage",
+      "file": "docs__admin-interface__overview__products__product-managementage.md",
+      "title": "Product Managementage | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/product-variants",
+      "file": "docs__admin-interface__overview__products__product-variants.md",
+      "title": "Product Variants | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/products/subscription-products",
+      "file": "docs__admin-interface__overview__products__subscription-products.md",
+      "title": "Subscription Products | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/overview/reviews",
+      "file": "docs__admin-interface__overview__reviews.md",
+      "title": "Reviews | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports",
+      "file": "docs__admin-interface__reports.md",
+      "title": "Reports | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports/customers",
+      "file": "docs__admin-interface__reports__customers.md",
+      "title": "Customers | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports/marketing",
+      "file": "docs__admin-interface__reports__marketing.md",
+      "title": "Marketing | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports/products",
+      "file": "docs__admin-interface__reports__products.md",
+      "title": "Products | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports/sales",
+      "file": "docs__admin-interface__reports__sales.md",
+      "title": "Sales | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/reports/subscriptions",
+      "file": "docs__admin-interface__reports__subscriptions.md",
+      "title": "Subscriptions | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/sales",
+      "file": "docs__admin-interface__sales.md",
+      "title": "Sales | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/sales/orders",
+      "file": "docs__admin-interface__sales__orders.md",
+      "title": "Orders | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/sales/returns",
+      "file": "docs__admin-interface__sales__returns.md",
+      "title": "Returns | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/sales/subscriptions",
+      "file": "docs__admin-interface__sales__subscriptions.md",
+      "title": "Subscriptions | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system",
+      "file": "docs__admin-interface__system.md",
+      "title": "System | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization",
+      "file": "docs__admin-interface__system__localization.md",
+      "title": "Localization | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/address-formats",
+      "file": "docs__admin-interface__system__localization__address-formats.md",
+      "title": "Address Formats | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/countries",
+      "file": "docs__admin-interface__system__localization__countries.md",
+      "title": "Countries | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/currencies",
+      "file": "docs__admin-interface__system__localization__currencies.md",
+      "title": "Currencies | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/geo-zones",
+      "file": "docs__admin-interface__system__localization__geo-zones.md",
+      "title": "Geo Zones | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/languages",
+      "file": "docs__admin-interface__system__localization__languages.md",
+      "title": "Languages | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/length-classes",
+      "file": "docs__admin-interface__system__localization__length-classes.md",
+      "title": "Length Classes | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/order-statuses",
+      "file": "docs__admin-interface__system__localization__order-statuses.md",
+      "title": "Order Statuses | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/returns",
+      "file": "docs__admin-interface__system__localization__returns.md",
+      "title": "Returns | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/stock-statuses",
+      "file": "docs__admin-interface__system__localization__stock-statuses.md",
+      "title": "Stock Statuses | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/tax-classes",
+      "file": "docs__admin-interface__system__localization__tax-classes.md",
+      "title": "Tax Classes | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/tax-rates",
+      "file": "docs__admin-interface__system__localization__tax-rates.md",
+      "title": "Tax Rates | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/weight-classes",
+      "file": "docs__admin-interface__system__localization__weight-classes.md",
+      "title": "Weight Classes | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/localization/zones",
+      "file": "docs__admin-interface__system__localization__zones.md",
+      "title": "Zones | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/maintenance",
+      "file": "docs__admin-interface__system__maintenance.md",
+      "title": "Maintenance | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/maintenance/error-logs",
+      "file": "docs__admin-interface__system__maintenance__error-logs.md",
+      "title": "Error Logs | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/maintenance/upgrade",
+      "file": "docs__admin-interface__system__maintenance__upgrade.md",
+      "title": "Upgrade | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/maintenance/uploads",
+      "file": "docs__admin-interface__system__maintenance__uploads.md",
+      "title": "Uploads | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings",
+      "file": "docs__admin-interface__system__settings.md",
+      "title": "Settings | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings/local",
+      "file": "docs__admin-interface__system__settings__local.md",
+      "title": "Local | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings/mail",
+      "file": "docs__admin-interface__system__settings__mail.md",
+      "title": "Mail | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings/option",
+      "file": "docs__admin-interface__system__settings__option.md",
+      "title": "Option | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings/server",
+      "file": "docs__admin-interface__system__settings__server.md",
+      "title": "Server | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/settings/store",
+      "file": "docs__admin-interface__system__settings__store.md",
+      "title": "Store | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/users",
+      "file": "docs__admin-interface__system__users.md",
+      "title": "Users | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/users/api",
+      "file": "docs__admin-interface__system__users__api.md",
+      "title": "API | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/admin-interface/system/users/user-groups",
+      "file": "docs__admin-interface__system__users__user-groups.md",
+      "title": "User Groups | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/design/banners",
+      "file": "docs__design__banners.md",
+      "title": "Banners | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/design/language-editor",
+      "file": "docs__design__language-editor.md",
+      "title": "Language Editor | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/design/layouts",
+      "file": "docs__design__layouts.md",
+      "title": "Layouts | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/design/seo-url",
+      "file": "docs__design__seo-url.md",
+      "title": "SEO URL | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/design/theme-editor",
+      "file": "docs__design__theme-editor.md",
+      "title": "Theme Editor | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/coding-standard",
+      "file": "docs__developer-guide__coding-standard.md",
+      "title": "Coding Standard | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/cron-jobs",
+      "file": "docs__developer-guide__cron-jobs.md",
+      "title": "Cron Jobs | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/database-schema",
+      "file": "docs__developer-guide__database-schema.md",
+      "title": "Database Schema | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/events",
+      "file": "docs__developer-guide__events.md",
+      "title": "Events | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/extensions",
+      "file": "docs__developer-guide__extensions.md",
+      "title": "Extensions | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/startups",
+      "file": "docs__developer-guide__startups.md",
+      "title": "Startups | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/developer-guide/tasks",
+      "file": "docs__developer-guide__tasks.md",
+      "title": "Tasks | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/getting-started/installation",
+      "file": "docs__getting-started__installation.md",
+      "title": "Installation | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/getting-started/quickstart",
+      "file": "docs__getting-started__quickstart.md",
+      "title": "Quickstart | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/getting-started/system-requirements",
+      "file": "docs__getting-started__system-requirements.md",
+      "title": "System Requirements | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/getting-started/upgrade-from-3.x-to-4.x",
+      "file": "docs__getting-started__upgrade-from-3.x-to-4.x.md",
+      "title": "Upgrade from 3.x to 4.x | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/",
+      "file": "docs__index.md",
+      "title": "Introduction | OpenCart",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/llms.txt",
+      "file": "docs__llms.txt.md",
+      "title": "/llms.txt",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.opencart.com/readme.md",
+      "file": "docs__readme.md",
+      "title": "/readme.md",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.opencart.com/",
+      "file": "site__www_opencart_com.md",
+      "title": "OpenCart - Open Source Shopping Cart Solution",
+      "depth": 1
+    }
+  ]
+}

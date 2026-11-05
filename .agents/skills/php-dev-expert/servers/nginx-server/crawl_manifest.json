@@ -1,0 +1,920 @@
+{
+  "root_url": "https://nginx.org/en/docs/index.html",
+  "scope_prefix": "https://nginx.org/en/docs/",
+  "total_pages": 152,
+  "generated_at": "2026-10-28T14:55:48Z",
+  "pages": [
+    {
+      "url": "https://nginx.org/en/docs/index.html",
+      "file": "index.md",
+      "title": "nginx documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq.html",
+      "file": "faq.md",
+      "title": "FAQ",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/",
+      "file": "njs.md",
+      "title": "nginx JavaScript module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/install.html",
+      "file": "install.md",
+      "title": "Installing nginx",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/configure.html",
+      "file": "configure.md",
+      "title": "Building nginx from Sources",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/beginners_guide.html",
+      "file": "beginners_guide.md",
+      "title": "Beginner’s Guide",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/control.html",
+      "file": "control.md",
+      "title": "Controlling nginx",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/events.html",
+      "file": "events.md",
+      "title": "Connection processing methods",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/hash.html",
+      "file": "hash.md",
+      "title": "Setting up hashes",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/debugging_log.html",
+      "file": "debugging_log.md",
+      "title": "A debugging log",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/syslog.html",
+      "file": "syslog.md",
+      "title": "Logging to syslog",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/syntax.html",
+      "file": "syntax.md",
+      "title": "Configuration file measurement units",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/regex_captures.html",
+      "file": "regex_captures.md",
+      "title": "Regular expression captures",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/switches.html",
+      "file": "switches.md",
+      "title": "Command-line parameters",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/windows.html",
+      "file": "windows.md",
+      "title": "nginx for Windows",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/quic.html",
+      "file": "quic.md",
+      "title": "Support for QUIC and HTTP/3",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/request_processing.html",
+      "file": "http__request_processing.md",
+      "title": "How nginx processes a request",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/server_names.html",
+      "file": "http__server_names.md",
+      "title": "Server names",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/load_balancing.html",
+      "file": "http__load_balancing.md",
+      "title": "Using nginx as HTTP load balancer",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/configuring_https_servers.html",
+      "file": "http__configuring_https_servers.md",
+      "title": "Configuring HTTPS servers",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/stream_processing.html",
+      "file": "stream__stream_processing.md",
+      "title": "How nginx processes a TCP/UDP session",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/index.html",
+      "file": "njs__index.md",
+      "title": "nginx JavaScript module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/howto_build_on_win32.html",
+      "file": "howto_build_on_win32.md",
+      "title": "Building nginx on the Win32 platform with Visual C",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/nginx_dtrace_pid_provider.html",
+      "file": "nginx_dtrace_pid_provider.md",
+      "title": "Debugging nginx with DTrace pid provider",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/converting_rewrite_rules.html",
+      "file": "http__converting_rewrite_rules.md",
+      "title": "Converting rewrite rules",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/websocket.html",
+      "file": "http__websocket.md",
+      "title": "WebSocket proxying",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/contributing_changes.html",
+      "file": "contributing_changes.md",
+      "title": "Contributing Changes",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/dev/development_guide.html",
+      "file": "dev__development_guide.md",
+      "title": "Development guide",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/dirindex.html",
+      "file": "dirindex.md",
+      "title": "Alphabetical index of directives",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/varindex.html",
+      "file": "varindex.md",
+      "title": "Alphabetical index of variables",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/ngx_core_module.html",
+      "file": "ngx_core_module.md",
+      "title": "Core functionality",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_core_module.html",
+      "file": "http__ngx_http_core_module.md",
+      "title": "Module ngx_http_core_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_access_module.html",
+      "file": "http__ngx_http_access_module.md",
+      "title": "Module ngx_http_access_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_addition_module.html",
+      "file": "http__ngx_http_addition_module.md",
+      "title": "Module ngx_http_addition_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_api_module.html",
+      "file": "http__ngx_http_api_module.md",
+      "title": "Module ngx_http_api_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html",
+      "file": "http__ngx_http_auth_basic_module.md",
+      "title": "Module ngx_http_auth_basic_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_auth_jwt_module.html",
+      "file": "http__ngx_http_auth_jwt_module.md",
+      "title": "Module ngx_http_auth_jwt_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_auth_request_module.html",
+      "file": "http__ngx_http_auth_request_module.md",
+      "title": "Module ngx_http_auth_request_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_auth_require_module.html",
+      "file": "http__ngx_http_auth_require_module.md",
+      "title": "Module ngx_http_auth_require_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_autoindex_module.html",
+      "file": "http__ngx_http_autoindex_module.md",
+      "title": "Module ngx_http_autoindex_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_browser_module.html",
+      "file": "http__ngx_http_browser_module.md",
+      "title": "Module ngx_http_browser_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_charset_module.html",
+      "file": "http__ngx_http_charset_module.md",
+      "title": "Module ngx_http_charset_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_dav_module.html",
+      "file": "http__ngx_http_dav_module.md",
+      "title": "Module ngx_http_dav_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_db_module.html",
+      "file": "http__ngx_http_db_module.md",
+      "title": "Module ngx_http_db_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_empty_gif_module.html",
+      "file": "http__ngx_http_empty_gif_module.md",
+      "title": "Module ngx_http_empty_gif_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_f4f_module.html",
+      "file": "http__ngx_http_f4f_module.md",
+      "title": "Module ngx_http_f4f_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_fastcgi_module.html",
+      "file": "http__ngx_http_fastcgi_module.md",
+      "title": "Module ngx_http_fastcgi_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_flv_module.html",
+      "file": "http__ngx_http_flv_module.md",
+      "title": "Module ngx_http_flv_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_geo_module.html",
+      "file": "http__ngx_http_geo_module.md",
+      "title": "Module ngx_http_geo_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_geoip_module.html",
+      "file": "http__ngx_http_geoip_module.md",
+      "title": "Module ngx_http_geoip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_grpc_module.html",
+      "file": "http__ngx_http_grpc_module.md",
+      "title": "Module ngx_http_grpc_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_gunzip_module.html",
+      "file": "http__ngx_http_gunzip_module.md",
+      "title": "Module ngx_http_gunzip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_gzip_module.html",
+      "file": "http__ngx_http_gzip_module.md",
+      "title": "Module ngx_http_gzip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_gzip_static_module.html",
+      "file": "http__ngx_http_gzip_static_module.md",
+      "title": "Module ngx_http_gzip_static_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_headers_module.html",
+      "file": "http__ngx_http_headers_module.md",
+      "title": "Module ngx_http_headers_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_hls_module.html",
+      "file": "http__ngx_http_hls_module.md",
+      "title": "Module ngx_http_hls_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_image_filter_module.html",
+      "file": "http__ngx_http_image_filter_module.md",
+      "title": "Module ngx_http_image_filter_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_index_module.html",
+      "file": "http__ngx_http_index_module.md",
+      "title": "Module ngx_http_index_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_internal_redirect_module.html",
+      "file": "http__ngx_http_internal_redirect_module.md",
+      "title": "Module ngx_http_internal_redirect_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_js_module.html",
+      "file": "http__ngx_http_js_module.md",
+      "title": "Module ngx_http_js_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_json_module.html",
+      "file": "http__ngx_http_json_module.md",
+      "title": "Module ngx_http_json_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_keyval_module.html",
+      "file": "http__ngx_http_keyval_module.md",
+      "title": "Module ngx_http_keyval_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_limit_conn_module.html",
+      "file": "http__ngx_http_limit_conn_module.md",
+      "title": "Module ngx_http_limit_conn_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_limit_req_module.html",
+      "file": "http__ngx_http_limit_req_module.md",
+      "title": "Module ngx_http_limit_req_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_log_module.html",
+      "file": "http__ngx_http_log_module.md",
+      "title": "Module ngx_http_log_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_map_module.html",
+      "file": "http__ngx_http_map_module.md",
+      "title": "Module ngx_http_map_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_memcached_module.html",
+      "file": "http__ngx_http_memcached_module.md",
+      "title": "Module ngx_http_memcached_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_mirror_module.html",
+      "file": "http__ngx_http_mirror_module.md",
+      "title": "Module ngx_http_mirror_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_mp4_module.html",
+      "file": "http__ngx_http_mp4_module.md",
+      "title": "Module ngx_http_mp4_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_num_map_module.html",
+      "file": "http__ngx_http_num_map_module.md",
+      "title": "Module ngx_http_num_map_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_oidc_module.html",
+      "file": "http__ngx_http_oidc_module.md",
+      "title": "Module ngx_http_oidc_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_perl_module.html",
+      "file": "http__ngx_http_perl_module.md",
+      "title": "Module ngx_http_perl_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_proxy_module.html",
+      "file": "http__ngx_http_proxy_module.md",
+      "title": "Module ngx_http_proxy_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_proxy_protocol_vendor_module.html",
+      "file": "http__ngx_http_proxy_protocol_vendor_module.md",
+      "title": "Module ngx_http_proxy_protocol_vendor_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_random_index_module.html",
+      "file": "http__ngx_http_random_index_module.md",
+      "title": "Module ngx_http_random_index_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_realip_module.html",
+      "file": "http__ngx_http_realip_module.md",
+      "title": "Module ngx_http_realip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_referer_module.html",
+      "file": "http__ngx_http_referer_module.md",
+      "title": "Module ngx_http_referer_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_rewrite_module.html",
+      "file": "http__ngx_http_rewrite_module.md",
+      "title": "Module ngx_http_rewrite_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_scgi_module.html",
+      "file": "http__ngx_http_scgi_module.md",
+      "title": "Module ngx_http_scgi_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_secure_link_module.html",
+      "file": "http__ngx_http_secure_link_module.md",
+      "title": "Module ngx_http_secure_link_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_session_log_module.html",
+      "file": "http__ngx_http_session_log_module.md",
+      "title": "Module ngx_http_session_log_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_slice_module.html",
+      "file": "http__ngx_http_slice_module.md",
+      "title": "Module ngx_http_slice_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_split_clients_module.html",
+      "file": "http__ngx_http_split_clients_module.md",
+      "title": "Module ngx_http_split_clients_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_ssi_module.html",
+      "file": "http__ngx_http_ssi_module.md",
+      "title": "Module ngx_http_ssi_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_ssl_module.html",
+      "file": "http__ngx_http_ssl_module.md",
+      "title": "Module ngx_http_ssl_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_status_module.html",
+      "file": "http__ngx_http_status_module.md",
+      "title": "Module ngx_http_status_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_stub_status_module.html",
+      "file": "http__ngx_http_stub_status_module.md",
+      "title": "Module ngx_http_stub_status_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_sub_module.html",
+      "file": "http__ngx_http_sub_module.md",
+      "title": "Module ngx_http_sub_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_tunnel_module.html",
+      "file": "http__ngx_http_tunnel_module.md",
+      "title": "Module ngx_http_tunnel_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_upstream_module.html",
+      "file": "http__ngx_http_upstream_module.md",
+      "title": "Module ngx_http_upstream_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_upstream_conf_module.html",
+      "file": "http__ngx_http_upstream_conf_module.md",
+      "title": "Module ngx_http_upstream_conf_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_upstream_hc_module.html",
+      "file": "http__ngx_http_upstream_hc_module.md",
+      "title": "Module ngx_http_upstream_hc_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_userid_module.html",
+      "file": "http__ngx_http_userid_module.md",
+      "title": "Module ngx_http_userid_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_uwsgi_module.html",
+      "file": "http__ngx_http_uwsgi_module.md",
+      "title": "Module ngx_http_uwsgi_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_v2_module.html",
+      "file": "http__ngx_http_v2_module.md",
+      "title": "Module ngx_http_v2_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_v3_module.html",
+      "file": "http__ngx_http_v3_module.md",
+      "title": "Module ngx_http_v3_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_xslt_module.html",
+      "file": "http__ngx_http_xslt_module.md",
+      "title": "Module ngx_http_xslt_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_core_module.html",
+      "file": "mail__ngx_mail_core_module.md",
+      "title": "Module ngx_mail_core_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_auth_http_module.html",
+      "file": "mail__ngx_mail_auth_http_module.md",
+      "title": "Module ngx_mail_auth_http_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_proxy_module.html",
+      "file": "mail__ngx_mail_proxy_module.md",
+      "title": "Module ngx_mail_proxy_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_realip_module.html",
+      "file": "mail__ngx_mail_realip_module.md",
+      "title": "Module ngx_mail_realip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_ssl_module.html",
+      "file": "mail__ngx_mail_ssl_module.md",
+      "title": "Module ngx_mail_ssl_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_imap_module.html",
+      "file": "mail__ngx_mail_imap_module.md",
+      "title": "Module ngx_mail_imap_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_pop3_module.html",
+      "file": "mail__ngx_mail_pop3_module.md",
+      "title": "Module ngx_mail_pop3_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/mail/ngx_mail_smtp_module.html",
+      "file": "mail__ngx_mail_smtp_module.md",
+      "title": "Module ngx_mail_smtp_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_core_module.html",
+      "file": "stream__ngx_stream_core_module.md",
+      "title": "Module ngx_stream_core_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_access_module.html",
+      "file": "stream__ngx_stream_access_module.md",
+      "title": "Module ngx_stream_access_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_geo_module.html",
+      "file": "stream__ngx_stream_geo_module.md",
+      "title": "Module ngx_stream_geo_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_geoip_module.html",
+      "file": "stream__ngx_stream_geoip_module.md",
+      "title": "Module ngx_stream_geoip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_js_module.html",
+      "file": "stream__ngx_stream_js_module.md",
+      "title": "Module ngx_stream_js_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_keyval_module.html",
+      "file": "stream__ngx_stream_keyval_module.md",
+      "title": "Module ngx_stream_keyval_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_limit_conn_module.html",
+      "file": "stream__ngx_stream_limit_conn_module.md",
+      "title": "Module ngx_stream_limit_conn_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_log_module.html",
+      "file": "stream__ngx_stream_log_module.md",
+      "title": "Module ngx_stream_log_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_map_module.html",
+      "file": "stream__ngx_stream_map_module.md",
+      "title": "Module ngx_stream_map_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_mqtt_preread_module.html",
+      "file": "stream__ngx_stream_mqtt_preread_module.md",
+      "title": "Module ngx_stream_mqtt_preread_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_mqtt_filter_module.html",
+      "file": "stream__ngx_stream_mqtt_filter_module.md",
+      "title": "Module ngx_stream_mqtt_filter_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_num_map_module.html",
+      "file": "stream__ngx_stream_num_map_module.md",
+      "title": "Module ngx_stream_num_map_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_pass_module.html",
+      "file": "stream__ngx_stream_pass_module.md",
+      "title": "Module ngx_stream_pass_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_proxy_module.html",
+      "file": "stream__ngx_stream_proxy_module.md",
+      "title": "Module ngx_stream_proxy_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_proxy_protocol_vendor_module.html",
+      "file": "stream__ngx_stream_proxy_protocol_vendor_module.md",
+      "title": "Module ngx_stream_proxy_protocol_vendor_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_realip_module.html",
+      "file": "stream__ngx_stream_realip_module.md",
+      "title": "Module ngx_stream_realip_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_return_module.html",
+      "file": "stream__ngx_stream_return_module.md",
+      "title": "Module ngx_stream_return_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_set_module.html",
+      "file": "stream__ngx_stream_set_module.md",
+      "title": "Module ngx_stream_set_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_split_clients_module.html",
+      "file": "stream__ngx_stream_split_clients_module.md",
+      "title": "Module ngx_stream_split_clients_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_ssl_module.html",
+      "file": "stream__ngx_stream_ssl_module.md",
+      "title": "Module ngx_stream_ssl_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_ssl_preread_module.html",
+      "file": "stream__ngx_stream_ssl_preread_module.md",
+      "title": "Module ngx_stream_ssl_preread_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_upstream_module.html",
+      "file": "stream__ngx_stream_upstream_module.md",
+      "title": "Module ngx_stream_upstream_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_upstream_hc_module.html",
+      "file": "stream__ngx_stream_upstream_hc_module.md",
+      "title": "Module ngx_stream_upstream_hc_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/stream/ngx_stream_zone_sync_module.html",
+      "file": "stream__ngx_stream_zone_sync_module.md",
+      "title": "Module ngx_stream_zone_sync_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/ngx_google_perftools_module.html",
+      "file": "ngx_google_perftools_module.md",
+      "title": "Module ngx_google_perftools_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/ngx_mgmt_module.html",
+      "file": "ngx_mgmt_module.md",
+      "title": "Module ngx_mgmt_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/http/ngx_http_acme_module.html",
+      "file": "http__ngx_http_acme_module.md",
+      "title": "Module ngx_http_acme_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/ngx_otel_module.html",
+      "file": "ngx_otel_module.md",
+      "title": "Module ngx_otel_module",
+      "depth": 1
+    },
+    {
+      "url": "https://nginx.org/en/docs/welcome_nginx_facebook.html",
+      "file": "welcome_nginx_facebook.md",
+      "title": "I am trying to open Facebook,                Yahoo!, Yandex, Tumblr, Google etc., and                instead I am getting “Welcome to nginx!” page",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq/license_copyright.html",
+      "file": "faq__license_copyright.md",
+      "title": "How can nginx copyright be acknowledged                when using nginx as part of a proprietary                software distribution?",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq/accept_failed.html",
+      "file": "faq__accept_failed.md",
+      "title": "What does the following error mean in the log file:                “accept() failed (53: Software caused connection abort)                while accepting new connection on 0.0.0.0:80”?",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq/variables_in_config.html",
+      "file": "faq__variables_in_config.md",
+      "title": "Is there a proper way to use nginx variables to                make sections of the configuration shorter,                using them as macros for making                parts of configuration work as templates?",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq/daemon_master_process_off.html",
+      "file": "faq__daemon_master_process_off.md",
+      "title": "Can I run nginx with “daemon off” or                “master_process off” settings                in a production environment?",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/faq/chunked_encoding_from_backend.html",
+      "file": "faq__chunked_encoding_from_backend.md",
+      "title": "Why nginx doesn’t handle chunked encoding                responses from my backend properly?",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/sys_errlist.html",
+      "file": "sys_errlist.md",
+      "title": "A message “ ‘sys_errlist’                 is deprecated;                 use ‘strerror’ or ‘strerror_r’                 instead ”",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/integration.html",
+      "file": "njs__integration.md",
+      "title": "Execution model and integration points",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/engine.html",
+      "file": "njs__engine.md",
+      "title": "JavaScript Engine",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/changes.html",
+      "file": "njs__changes.md",
+      "title": "Changes",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/install.html",
+      "file": "njs__install.md",
+      "title": "Download and install",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/cli.html",
+      "file": "njs__cli.md",
+      "title": "Command-line interface",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/reference.html",
+      "file": "njs__reference.md",
+      "title": "Reference",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/compatibility.html",
+      "file": "njs__compatibility.md",
+      "title": "Compatibility",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/native_modules.html",
+      "file": "njs__native_modules.md",
+      "title": "Native modules",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/node_modules.html",
+      "file": "njs__node_modules.md",
+      "title": "Using node modules with njs",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/typescript.html",
+      "file": "njs__typescript.md",
+      "title": "Writing njs code using TypeScript definition files",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/preload_objects.html",
+      "file": "njs__preload_objects.md",
+      "title": "Understanding preloaded objects",
+      "depth": 2
+    },
+    {
+      "url": "https://nginx.org/en/docs/njs/security.html",
+      "file": "njs__security.md",
+      "title": "Security",
+      "depth": 2
+    }
+  ]
+}

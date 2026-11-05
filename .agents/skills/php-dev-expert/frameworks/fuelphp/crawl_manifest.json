@@ -1,0 +1,1706 @@
+{
+  "root_url": "https://www.fuelphp.com/api/",
+  "scope_prefix": "https://www.fuelphp.com/api/",
+  "total_pages": 283,
+  "generated_at": "2026-10-28T15:19:53Z",
+  "pages": [
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth.html",
+      "file": "api__classes__Auth.Auth.md",
+      "title": "phpDocumentor » \\Auth\\Auth",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.AuthException.html",
+      "file": "api__classes__Auth.AuthException.md",
+      "title": "phpDocumentor » \\Auth\\AuthException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Driver.html",
+      "file": "api__classes__Auth.Auth_Acl_Driver.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Acl_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Ormacl.html",
+      "file": "api__classes__Auth.Auth_Acl_Ormacl.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Acl_Ormacl",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Simpleacl.html",
+      "file": "api__classes__Auth.Auth_Acl_Simpleacl.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Acl_Simpleacl",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Driver.html",
+      "file": "api__classes__Auth.Auth_Driver.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Group_Driver.html",
+      "file": "api__classes__Auth.Auth_Group_Driver.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Group_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Group_Ormgroup.html",
+      "file": "api__classes__Auth.Auth_Group_Ormgroup.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Group_Ormgroup",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Group_Simplegroup.html",
+      "file": "api__classes__Auth.Auth_Group_Simplegroup.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Group_Simplegroup",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Login_Driver.html",
+      "file": "api__classes__Auth.Auth_Login_Driver.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Login_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Login_Ormauth.html",
+      "file": "api__classes__Auth.Auth_Login_Ormauth.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Login_Ormauth",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Login_Simpleauth.html",
+      "file": "api__classes__Auth.Auth_Login_Simpleauth.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Login_Simpleauth",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Auth_Opauth.html",
+      "file": "api__classes__Auth.Auth_Opauth.md",
+      "title": "phpDocumentor » \\Auth\\Auth_Opauth",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Group.html",
+      "file": "api__classes__Auth.Model.Auth_Group.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Group",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Grouppermission.html",
+      "file": "api__classes__Auth.Model.Auth_Grouppermission.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Grouppermission",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Metadata.html",
+      "file": "api__classes__Auth.Model.Auth_Metadata.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Metadata",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Permission.html",
+      "file": "api__classes__Auth.Model.Auth_Permission.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Permission",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Provider.html",
+      "file": "api__classes__Auth.Model.Auth_Provider.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Provider",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Role.html",
+      "file": "api__classes__Auth.Model.Auth_Role.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Role",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Rolepermission.html",
+      "file": "api__classes__Auth.Model.Auth_Rolepermission.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Rolepermission",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_User.html",
+      "file": "api__classes__Auth.Model.Auth_User.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_User",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.Model.Auth_Userpermission.html",
+      "file": "api__classes__Auth.Model.Auth_Userpermission.md",
+      "title": "phpDocumentor » \\Auth\\Model\\Auth_Userpermission",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.OpauthException.html",
+      "file": "api__classes__Auth.OpauthException.md",
+      "title": "phpDocumentor » \\Auth\\OpauthException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.SimpleUserUpdateException.html",
+      "file": "api__classes__Auth.SimpleUserUpdateException.md",
+      "title": "phpDocumentor » \\Auth\\SimpleUserUpdateException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Auth.SimpleUserWrongPassword.html",
+      "file": "api__classes__Auth.SimpleUserWrongPassword.md",
+      "title": "phpDocumentor » \\Auth\\SimpleUserWrongPassword",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.AttachmentNotFoundException.html",
+      "file": "api__classes__Email.AttachmentNotFoundException.md",
+      "title": "phpDocumentor » \\Email\\AttachmentNotFoundException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email.html",
+      "file": "api__classes__Email.Email.md",
+      "title": "phpDocumentor » \\Email\\Email",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.EmailSendingFailedException.html",
+      "file": "api__classes__Email.EmailSendingFailedException.md",
+      "title": "phpDocumentor » \\Email\\EmailSendingFailedException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.EmailValidationFailedException.html",
+      "file": "api__classes__Email.EmailValidationFailedException.md",
+      "title": "phpDocumentor » \\Email\\EmailValidationFailedException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver.html",
+      "file": "api__classes__Email.Email_Driver.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Mail.html",
+      "file": "api__classes__Email.Email_Driver_Mail.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Mail",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Mailgun.html",
+      "file": "api__classes__Email.Email_Driver_Mailgun.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Mailgun",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Mandrill.html",
+      "file": "api__classes__Email.Email_Driver_Mandrill.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Mandrill",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Noop.html",
+      "file": "api__classes__Email.Email_Driver_Noop.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Noop",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Sendmail.html",
+      "file": "api__classes__Email.Email_Driver_Sendmail.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Sendmail",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.Email_Driver_Smtp.html",
+      "file": "api__classes__Email.Email_Driver_Smtp.md",
+      "title": "phpDocumentor » \\Email\\Email_Driver_Smtp",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.InvalidAttachmentsException.html",
+      "file": "api__classes__Email.InvalidAttachmentsException.md",
+      "title": "phpDocumentor » \\Email\\InvalidAttachmentsException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.InvalidEmailStringEncoding.html",
+      "file": "api__classes__Email.InvalidEmailStringEncoding.md",
+      "title": "phpDocumentor » \\Email\\InvalidEmailStringEncoding",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SendmailConnectionException.html",
+      "file": "api__classes__Email.SendmailConnectionException.md",
+      "title": "phpDocumentor » \\Email\\SendmailConnectionException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SendmailFailedException.html",
+      "file": "api__classes__Email.SendmailFailedException.md",
+      "title": "phpDocumentor » \\Email\\SendmailFailedException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SmtpAuthenticationFailedException.html",
+      "file": "api__classes__Email.SmtpAuthenticationFailedException.md",
+      "title": "phpDocumentor » \\Email\\SmtpAuthenticationFailedException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SmtpCommandFailureException.html",
+      "file": "api__classes__Email.SmtpCommandFailureException.md",
+      "title": "phpDocumentor » \\Email\\SmtpCommandFailureException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SmtpConnectionException.html",
+      "file": "api__classes__Email.SmtpConnectionException.md",
+      "title": "phpDocumentor » \\Email\\SmtpConnectionException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Email.SmtpTimeoutException.html",
+      "file": "api__classes__Email.SmtpTimeoutException.md",
+      "title": "phpDocumentor » \\Email\\SmtpTimeoutException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Agent.html",
+      "file": "api__classes__Fuel.Core.Agent.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Agent",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Arr.html",
+      "file": "api__classes__Fuel.Core.Arr.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Arr",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Asset.html",
+      "file": "api__classes__Fuel.Core.Asset.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Asset",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Asset_Instance.html",
+      "file": "api__classes__Fuel.Core.Asset_Instance.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Asset_Instance",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Autoloader.html",
+      "file": "api__classes__Fuel.Core.Autoloader.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Autoloader",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache.html",
+      "file": "api__classes__Fuel.Core.Cache.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.CacheExpiredException.html",
+      "file": "api__classes__Fuel.Core.CacheExpiredException.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\CacheExpiredException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.CacheNotFoundException.html",
+      "file": "api__classes__Fuel.Core.CacheNotFoundException.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\CacheNotFoundException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Driver.html",
+      "file": "api__classes__Fuel.Core.Cache_Handler_Driver.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Handler_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Json.html",
+      "file": "api__classes__Fuel.Core.Cache_Handler_Json.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Handler_Json",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Serialized.html",
+      "file": "api__classes__Fuel.Core.Cache_Handler_Serialized.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Handler_Serialized",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_String.html",
+      "file": "api__classes__Fuel.Core.Cache_Handler_String.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Handler_String",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Apc.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_Apc.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_Apc",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Driver.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_Driver.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_Driver",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_File.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_File.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_File",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Memcached.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_Memcached.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_Memcached",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Redis.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_Redis.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_Redis",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Xcache.html",
+      "file": "api__classes__Fuel.Core.Cache_Storage_Xcache.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cache_Storage_Xcache",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cli.html",
+      "file": "api__classes__Fuel.Core.Cli.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cli",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config.html",
+      "file": "api__classes__Fuel.Core.Config.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.ConfigException.html",
+      "file": "api__classes__Fuel.Core.ConfigException.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\ConfigException",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Db.html",
+      "file": "api__classes__Fuel.Core.Config_Db.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Db",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_File.html",
+      "file": "api__classes__Fuel.Core.Config_File.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_File",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Ini.html",
+      "file": "api__classes__Fuel.Core.Config_Ini.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Ini",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Interface.html",
+      "file": "api__classes__Fuel.Core.Config_Interface.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Interface",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Json.html",
+      "file": "api__classes__Fuel.Core.Config_Json.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Json",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Memcached.html",
+      "file": "api__classes__Fuel.Core.Config_Memcached.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Memcached",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Php.html",
+      "file": "api__classes__Fuel.Core.Config_Php.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Php",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Config_Yml.html",
+      "file": "api__classes__Fuel.Core.Config_Yml.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Config_Yml",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Controller.html",
+      "file": "api__classes__Fuel.Core.Controller.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Controller",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Hybrid.html",
+      "file": "api__classes__Fuel.Core.Controller_Hybrid.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Controller_Hybrid",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Rest.html",
+      "file": "api__classes__Fuel.Core.Controller_Rest.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Controller_Rest",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Template.html",
+      "file": "api__classes__Fuel.Core.Controller_Template.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Controller_Template",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Cookie.html",
+      "file": "api__classes__Fuel.Core.Cookie.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Cookie",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Crypt.html",
+      "file": "api__classes__Fuel.Core.Crypt.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Crypt",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.DB.html",
+      "file": "api__classes__Fuel.Core.DB.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\DB",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.DBUtil.html",
+      "file": "api__classes__Fuel.Core.DBUtil.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\DBUtil",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Connection.html",
+      "file": "api__classes__Fuel.Core.Database_Connection.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Connection",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Dblib_Connection.html",
+      "file": "api__classes__Fuel.Core.Database_Dblib_Connection.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Dblib_Connection",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Exception.html",
+      "file": "api__classes__Fuel.Core.Database_Exception.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Exception",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Expression.html",
+      "file": "api__classes__Fuel.Core.Database_Expression.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Expression",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQL_Connection.html",
+      "file": "api__classes__Fuel.Core.Database_MySQL_Connection.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_MySQL_Connection",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Cached.html",
+      "file": "api__classes__Fuel.Core.Database_MySQLi_Cached.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_MySQLi_Cached",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Connection.html",
+      "file": "api__classes__Fuel.Core.Database_MySQLi_Connection.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_MySQLi_Connection",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Result.html",
+      "file": "api__classes__Fuel.Core.Database_MySQLi_Result.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_MySQLi_Result",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Cached.html",
+      "file": "api__classes__Fuel.Core.Database_PDO_Cached.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_PDO_Cached",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Connection.html",
+      "file": "api__classes__Fuel.Core.Database_PDO_Connection.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_PDO_Connection",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Result.html",
+      "file": "api__classes__Fuel.Core.Database_PDO_Result.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_PDO_Result",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query.html",
+      "file": "api__classes__Fuel.Core.Database_Query.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Query",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder.html",
+      "file": "api__classes__Fuel.Core.Database_Query_Builder.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Query_Builder",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Delete.html",
+      "file": "api__classes__Fuel.Core.Database_Query_Builder_Delete.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Query_Builder_Delete",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Insert.html",
+      "file": "api__classes__Fuel.Core.Database_Query_Builder_Insert.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Query_Builder_Insert",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Join.html",
+      "file": "api__classes__Fuel.Core.Database_Query_Builder_Join.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Database_Query_Builder_Join",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Lang_Interface.html",
+      "file": "api__classes__Fuel.Core.Lang_Interface.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Lang_Interface",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/classes/Fuel.Core.Sanitization.html",
+      "file": "api__classes__Fuel.Core.Sanitization.md",
+      "title": "phpDocumentor » \\Fuel\\Core\\Sanitization",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/deprecated.html",
+      "file": "api__deprecated.md",
+      "title": "phpDocumentor",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/errors.html",
+      "file": "api__errors.md",
+      "title": "phpDocumentor",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/graph_class.html",
+      "file": "api__graph_class.md",
+      "title": "phpDocumentor",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/",
+      "file": "api__index.md",
+      "title": "phpDocumentor",
+      "depth": 0
+    },
+    {
+      "url": "https://www.fuelphp.com/api/markers.html",
+      "file": "api__markers.md",
+      "title": "phpDocumentor",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Auth.Model.html",
+      "file": "api__namespaces__Auth.Model.md",
+      "title": "phpDocumentor » Auth\\Model",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Auth.html",
+      "file": "api__namespaces__Auth.md",
+      "title": "phpDocumentor » Auth",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Email.html",
+      "file": "api__namespaces__Email.md",
+      "title": "phpDocumentor » Email",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Fuel.Core.html",
+      "file": "api__namespaces__Fuel.Core.md",
+      "title": "phpDocumentor » Fuel\\Core",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Fuel.Migrations.html",
+      "file": "api__namespaces__Fuel.Migrations.md",
+      "title": "phpDocumentor » Fuel\\Migrations",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Fuel.Tasks.html",
+      "file": "api__namespaces__Fuel.Tasks.md",
+      "title": "phpDocumentor » Fuel\\Tasks",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Fuel.html",
+      "file": "api__namespaces__Fuel.md",
+      "title": "phpDocumentor » Fuel",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Oil.html",
+      "file": "api__namespaces__Oil.md",
+      "title": "phpDocumentor » Oil",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Orm.html",
+      "file": "api__namespaces__Orm.md",
+      "title": "phpDocumentor » Orm",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/Parser.html",
+      "file": "api__namespaces__Parser.md",
+      "title": "phpDocumentor » Parser",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/namespaces/global.html",
+      "file": "api__namespaces__global.md",
+      "title": "phpDocumentor » global",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/packages/Core.html",
+      "file": "api__packages__Core.md",
+      "title": "phpDocumentor » Core",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/packages/Default.html",
+      "file": "api__packages__Default.md",
+      "title": "phpDocumentor » Default",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/packages/Fuel.html",
+      "file": "api__packages__Fuel.md",
+      "title": "phpDocumentor » Fuel",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/packages/Orm.html",
+      "file": "api__packages__Orm.md",
+      "title": "phpDocumentor » Orm",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/api/packages/app.html",
+      "file": "api__packages__app.md",
+      "title": "phpDocumentor » app",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/Redis.html",
+      "file": "docs__classes__Redis.md",
+      "title": "Redis_Db - Classes - FuelPHP Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/agent/config.html",
+      "file": "docs__classes__agent__config.md",
+      "title": "Agent Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/agent/usage.html",
+      "file": "docs__classes__agent__usage.md",
+      "title": "Agent Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/arr.html",
+      "file": "docs__classes__arr.md",
+      "title": "Arr - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/asset/advanced.html",
+      "file": "docs__classes__asset__advanced.md",
+      "title": "Asset Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/asset/config.html",
+      "file": "docs__classes__asset__config.md",
+      "title": "Asset Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/asset/usage.html",
+      "file": "docs__classes__asset__usage.md",
+      "title": "Asset Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/autoloader.html",
+      "file": "docs__classes__autoloader.md",
+      "title": "Autoloader - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/cache/advanced.html",
+      "file": "docs__classes__cache__advanced.md",
+      "title": "Cache Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/cache/config.html",
+      "file": "docs__classes__cache__config.md",
+      "title": "Cache Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/cache/usage.html",
+      "file": "docs__classes__cache__usage.md",
+      "title": "Cache Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/cli.html",
+      "file": "docs__classes__cli.md",
+      "title": "Cli - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/config.html",
+      "file": "docs__classes__config.md",
+      "title": "Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/cookie.html",
+      "file": "docs__classes__cookie.md",
+      "title": "Cookie - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/crypt/advanced.html",
+      "file": "docs__classes__crypt__advanced.md",
+      "title": "Crypt Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/crypt/config.html",
+      "file": "docs__classes__crypt__config.md",
+      "title": "Crypt Configuration - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/crypt/usage.html",
+      "file": "docs__classes__crypt__usage.md",
+      "title": "Crypt Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/db.html",
+      "file": "docs__classes__database__db.md",
+      "title": "DB - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/dbutil.html",
+      "file": "docs__classes__database__dbutil.md",
+      "title": "DBUtil - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/introduction.html",
+      "file": "docs__classes__database__introduction.md",
+      "title": "Database Introduction - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb.html",
+      "file": "docs__classes__database__qb.md",
+      "title": "Query Builder - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_builder.html",
+      "file": "docs__classes__database__qb_builder.md",
+      "title": "Query Builder - Classes - FuelPHP Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_delete.html",
+      "file": "docs__classes__database__qb_delete.md",
+      "title": "Query Builder Delete - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_insert.html",
+      "file": "docs__classes__database__qb_insert.md",
+      "title": "Query Builder Insert - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_select.html",
+      "file": "docs__classes__database__qb_select.md",
+      "title": "Query Builder Select - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_update.html",
+      "file": "docs__classes__database__qb_update.md",
+      "title": "Query Builder Update - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/qb_where.html",
+      "file": "docs__classes__database__qb_where.md",
+      "title": "Query Builder Where - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/database/usage.html",
+      "file": "docs__classes__database__usage.md",
+      "title": "Query Builder Select - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/date.html",
+      "file": "docs__classes__date.md",
+      "title": "Date - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/debug.html",
+      "file": "docs__classes__debug.md",
+      "title": "Debug - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/event.html",
+      "file": "docs__classes__event.md",
+      "title": "Event - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/fieldset/field.html",
+      "file": "docs__classes__fieldset__field.md",
+      "title": "Fieldset_Field - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/fieldset/fieldset.html",
+      "file": "docs__classes__fieldset__fieldset.md",
+      "title": "Fieldset - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/file/advanced.html",
+      "file": "docs__classes__file__advanced.md",
+      "title": "File Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/file/handlers.html",
+      "file": "docs__classes__file__handlers.md",
+      "title": "File Handlers - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/file/intro.html",
+      "file": "docs__classes__file__intro.md",
+      "title": "File Intro - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/file/usage.html",
+      "file": "docs__classes__file__usage.md",
+      "title": "File Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/finder.html",
+      "file": "docs__classes__finder.md",
+      "title": "Finder - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/form.html",
+      "file": "docs__classes__form.md",
+      "title": "Form - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/format.html",
+      "file": "docs__classes__format.md",
+      "title": "Format - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/ftp.html",
+      "file": "docs__classes__ftp.md",
+      "title": "Ftp - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/fuel.html",
+      "file": "docs__classes__fuel.md",
+      "title": "Fuel - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/html.html",
+      "file": "docs__classes__html.md",
+      "title": "Html - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/image.html",
+      "file": "docs__classes__image.md",
+      "title": "Image - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/inflector.html",
+      "file": "docs__classes__inflector.md",
+      "title": "Inflector - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/input.html",
+      "file": "docs__classes__input.md",
+      "title": "Input - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/lang.html",
+      "file": "docs__classes__lang.md",
+      "title": "Lang - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/log.html",
+      "file": "docs__classes__log.md",
+      "title": "Log - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/markdown.html",
+      "file": "docs__classes__markdown.md",
+      "title": "Markdown - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/migrate.html",
+      "file": "docs__classes__migrate.md",
+      "title": "Migrate - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/model_crud/introduction.html",
+      "file": "docs__classes__model_crud__introduction.md",
+      "title": "Model_Crud - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/model_crud/methods.html",
+      "file": "docs__classes__model_crud__methods.md",
+      "title": "Model_Crud - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/module.html",
+      "file": "docs__classes__module.md",
+      "title": "Module - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/mongo/introduction.html",
+      "file": "docs__classes__mongo__introduction.md",
+      "title": "Mongo_Db Introduction - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/mongo/methods.html",
+      "file": "docs__classes__mongo__methods.md",
+      "title": "Mongo_Db Methods - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/num.html",
+      "file": "docs__classes__num.md",
+      "title": "Num - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/package.html",
+      "file": "docs__classes__package.md",
+      "title": "Package - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/pagination.html",
+      "file": "docs__classes__pagination.md",
+      "title": "Pagination - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/presenter.html",
+      "file": "docs__classes__presenter.md",
+      "title": "Presenter - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/profiler.html",
+      "file": "docs__classes__profiler.md",
+      "title": "Profiler - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/redis.html",
+      "file": "docs__classes__redis.md",
+      "title": "Redis_Db - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/request/curl.html",
+      "file": "docs__classes__request__curl.md",
+      "title": "Request_Curl - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/request/request.html",
+      "file": "docs__classes__request__request.md",
+      "title": "Request - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/request/soap.html",
+      "file": "docs__classes__request__soap.md",
+      "title": "Request_Soap - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/response.html",
+      "file": "docs__classes__response.md",
+      "title": "Response - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/router.html",
+      "file": "docs__classes__router.md",
+      "title": "Router - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/security.html",
+      "file": "docs__classes__security.md",
+      "title": "Security - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/session/advanced.html",
+      "file": "docs__classes__session__advanced.md",
+      "title": "Session Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/session/config.html",
+      "file": "docs__classes__session__config.md",
+      "title": "Session Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/session/usage.html",
+      "file": "docs__classes__session__usage.md",
+      "title": "Session Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/str.html",
+      "file": "docs__classes__str.md",
+      "title": "Str - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/theme/advanced.html",
+      "file": "docs__classes__theme__advanced.md",
+      "title": "Theme Advanced - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/theme/introduction.html",
+      "file": "docs__classes__theme__introduction.md",
+      "title": "Theme Introduction - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/theme/methods.html",
+      "file": "docs__classes__theme__methods.md",
+      "title": "Theme Methods - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/upload/config.html",
+      "file": "docs__classes__upload__config.md",
+      "title": "Upload Config - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/upload/usage.html",
+      "file": "docs__classes__upload__usage.md",
+      "title": "Upload Usage - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/uri.html",
+      "file": "docs__classes__uri.md",
+      "title": "Uri - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/validation/errors.html",
+      "file": "docs__classes__validation__errors.md",
+      "title": "Validation Errors - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/validation/methods.html",
+      "file": "docs__classes__validation__methods.md",
+      "title": "Validation Methods - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/validation/validation.html",
+      "file": "docs__classes__validation__validation.md",
+      "title": "Validation - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/classes/view.html",
+      "file": "docs__classes__view.md",
+      "title": "View - Classes - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/contribute.html",
+      "file": "docs__contribute.md",
+      "title": "Contribute - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/credits.html",
+      "file": "docs__credits.md",
+      "title": "Credits - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/classes.html",
+      "file": "docs__general__classes.md",
+      "title": "Classes - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/coding_standards.html",
+      "file": "docs__general__coding_standards.md",
+      "title": "Coding Standards - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/configuration.html",
+      "file": "docs__general__configuration.md",
+      "title": "Configuration - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/constants.html",
+      "file": "docs__general__constants.md",
+      "title": "Constants - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/controllers/base.html",
+      "file": "docs__general__controllers__base.md",
+      "title": "Controller - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/controllers/hybrid.html",
+      "file": "docs__general__controllers__hybrid.md",
+      "title": "Hybrid Controller - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/controllers/rest.html",
+      "file": "docs__general__controllers__rest.md",
+      "title": "Rest Controller - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/controllers/template.html",
+      "file": "docs__general__controllers__template.md",
+      "title": "Template Controller - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/environments.html",
+      "file": "docs__general__environments.md",
+      "title": "Environments - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/error.html",
+      "file": "docs__general__error.md",
+      "title": "Error Handling - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/extending_core.html",
+      "file": "docs__general__extending_core.md",
+      "title": "Extending Core - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/hmvc.html",
+      "file": "docs__general__hmvc.md",
+      "title": "HMVC Requests - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/migrations.html",
+      "file": "docs__general__migrations.md",
+      "title": "Migrations - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/models.html",
+      "file": "docs__general__models.md",
+      "title": "Models - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/modules.html",
+      "file": "docs__general__modules.md",
+      "title": "Modules - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/mvc.html",
+      "file": "docs__general__mvc.md",
+      "title": "Model-View-Controller - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/namespacing.html",
+      "file": "docs__general__namespacing.md",
+      "title": "Namespacing - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/packages.html",
+      "file": "docs__general__packages.md",
+      "title": "Packages - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/presenters.html",
+      "file": "docs__general__presenters.md",
+      "title": "Presenters - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/profiling.html",
+      "file": "docs__general__profiling.md",
+      "title": "Profiling - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/routing.html",
+      "file": "docs__general__routing.md",
+      "title": "Routing - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/security.html",
+      "file": "docs__general__security.md",
+      "title": "Security - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/tasks.html",
+      "file": "docs__general__tasks.md",
+      "title": "Tasks - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/unit_testing.html",
+      "file": "docs__general__unit_testing.md",
+      "title": "Unit Testing - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/general/views.html",
+      "file": "docs__general__views.md",
+      "title": "Views - General - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/",
+      "file": "docs__index.md",
+      "title": "FuelPHP Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/installation/download.html",
+      "file": "docs__installation__download.md",
+      "title": "Download Fuel - Installation - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/installation/external.html",
+      "file": "docs__installation__external.md",
+      "title": "External Info - Installation - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/installation/instructions.html",
+      "file": "docs__installation__instructions.md",
+      "title": "Instruction - Installation - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/installation/troubleshooting.html",
+      "file": "docs__installation__troubleshooting.md",
+      "title": "Troubleshooting - Installation - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/installation/upgrade.html",
+      "file": "docs__installation__upgrade.md",
+      "title": "Installation - Upgrade - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/license.html",
+      "file": "docs__license.md",
+      "title": "License - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/drivers.html",
+      "file": "docs__packages__auth__drivers.md",
+      "title": "Writing your own drivers - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/examples/auth.html",
+      "file": "docs__packages__auth__examples__auth.md",
+      "title": "Auth Controller example - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/examples/opauth.html",
+      "file": "docs__packages__auth__examples__opauth.md",
+      "title": "Opauth Controller example - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/intro.html",
+      "file": "docs__packages__auth__intro.md",
+      "title": "Introduction - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/opauth/intro.html",
+      "file": "docs__packages__auth__opauth__intro.md",
+      "title": "Introduction - Opauth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/opauth/usage.html",
+      "file": "docs__packages__auth__opauth__usage.md",
+      "title": "Usage - Opauth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/ormauth/intro.html",
+      "file": "docs__packages__auth__ormauth__intro.md",
+      "title": "Introduction - OrmAuth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/ormauth/usage.html",
+      "file": "docs__packages__auth__ormauth__usage.md",
+      "title": "Usage - OrmAuth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/simpleauth/intro.html",
+      "file": "docs__packages__auth__simpleauth__intro.md",
+      "title": "Introduction - SimpleAuth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/simpleauth/usage.html",
+      "file": "docs__packages__auth__simpleauth__usage.md",
+      "title": "Usage - SimpleAuth - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/types/acl.html",
+      "file": "docs__packages__auth__types__acl.md",
+      "title": "ACL - Driver types - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/types/group.html",
+      "file": "docs__packages__auth__types__group.md",
+      "title": "Group - Driver types - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/auth/types/login.html",
+      "file": "docs__packages__auth__types__login.md",
+      "title": "Login - Driver types - Auth Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/email/introduction.html",
+      "file": "docs__packages__email__introduction.md",
+      "title": "Introduction - Email Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/email/methods.html",
+      "file": "docs__packages__email__methods.md",
+      "title": "Methods - Email Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/email/troubleshooting.html",
+      "file": "docs__packages__email__troubleshooting.md",
+      "title": "Troubleshooting - Email Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/email/usage.html",
+      "file": "docs__packages__email__usage.md",
+      "title": "Usage - Email Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/console.html",
+      "file": "docs__packages__oil__console.md",
+      "title": "Console - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/generate.html",
+      "file": "docs__packages__oil__generate.md",
+      "title": "Generate - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/intro.html",
+      "file": "docs__packages__oil__intro.md",
+      "title": "Introduction - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/package.html",
+      "file": "docs__packages__oil__package.md",
+      "title": "Package - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/refine.html",
+      "file": "docs__packages__oil__refine.md",
+      "title": "Generate - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/server.html",
+      "file": "docs__packages__oil__server.md",
+      "title": "Server - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/oil/test.html",
+      "file": "docs__packages__oil__test.md",
+      "title": "Test - Oil Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/creating_models.html",
+      "file": "docs__packages__orm__creating_models.md",
+      "title": "Creating models - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/crud.html",
+      "file": "docs__packages__orm__crud.md",
+      "title": "CRUD - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/eav.html",
+      "file": "docs__packages__orm__eav.md",
+      "title": "EAV Containers - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/intro.html",
+      "file": "docs__packages__orm__intro.md",
+      "title": "Introduction - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/model/nestedset.html",
+      "file": "docs__packages__orm__model__nestedset.md",
+      "title": "NestedSets Model - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/model/soft.html",
+      "file": "docs__packages__orm__model__soft.md",
+      "title": "Soft Delete Model - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/model/temporal.html",
+      "file": "docs__packages__orm__model__temporal.md",
+      "title": "Temporal Model - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/observers/creating.html",
+      "file": "docs__packages__orm__observers__creating.md",
+      "title": "Creating - Observers - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/observers/included.html",
+      "file": "docs__packages__orm__observers__included.md",
+      "title": "Included - Observers - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/observers/intro.html",
+      "file": "docs__packages__orm__observers__intro.md",
+      "title": "Introduction - Obervers - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/relations/belongs_to.html",
+      "file": "docs__packages__orm__relations__belongs_to.md",
+      "title": "Belongs To - Relations - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/relations/has_many.html",
+      "file": "docs__packages__orm__relations__has_many.md",
+      "title": "Has Many - Relations - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/relations/has_one.html",
+      "file": "docs__packages__orm__relations__has_one.md",
+      "title": "Has One - Relations - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/relations/intro.html",
+      "file": "docs__packages__orm__relations__intro.md",
+      "title": "Introduction - Relations - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/orm/relations/many_many.html",
+      "file": "docs__packages__orm__relations__many_many.md",
+      "title": "Many to Many - Relations - Orm Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/packages/parser/intro.html",
+      "file": "docs__packages__parser__intro.md",
+      "title": "Introduction - Parser Package - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/requirements.html",
+      "file": "docs__requirements.md",
+      "title": "Requirements - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/toc.html",
+      "file": "docs__toc.md",
+      "title": "Table of Contents - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/htmlawed.html",
+      "file": "docs__vendor__htmlawed.md",
+      "title": "Vendor additions - htmLawed - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/intro.html",
+      "file": "docs__vendor__intro.md",
+      "title": "Vendor additions - introduction - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/markdown.html",
+      "file": "docs__vendor__markdown.md",
+      "title": "Vendor additions - markdown - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/phpquickprofiler.html",
+      "file": "docs__vendor__phpquickprofiler.md",
+      "title": "Vendor additions - PHPQuickProfiler - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/phpseclib.html",
+      "file": "docs__vendor__phpseclib.md",
+      "title": "Vendor additions - PHPSecLib - FuelPHP Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.fuelphp.com/docs/vendor/spyc.html",
+      "file": "docs__vendor__spyc.md",
+      "title": "Vendor additions - spyc - FuelPHP Documentation",
+      "depth": 1
+    }
+  ]
+}

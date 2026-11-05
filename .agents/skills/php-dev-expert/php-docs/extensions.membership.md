@@ -1,0 +1,230 @@
+# Classificadas por Pertencimento
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/extensions.membership.php
+
+---
+
+## Classificadas por Pertencimento
+
+## Extensões de Núcleo
+
+Estas não são extensões reais. Elas fazem parte do núcleo do PHP
+e não podem ser excluídas de um binário do PHP com opções de compilação.
+
+- [Arrays](book.array.md)
+- [Classes/Objetos](book.classobj.md)
+- [Data/Horário](book.datetime.md)
+- [Diretórios](book.dir.md)
+- [Gerenciamento de Erros](book.errorfunc.md)
+- [Execução de programa](book.exec.md)
+- [Extensão Filesystem (Sistema de Arquivos)](book.filesystem.md)
+- [Gerenciador de processos FastCGI](book.fpm.md)
+- [Gerenciamento de funções](book.funchand.md)
+- [Hash](book.hash.md)
+- [Opções/Info do PHP](book.info.md)
+- [JSON](book.json.md)
+- [Mail](book.mail.md)
+- [Math](book.math.md)
+- [Misc.](book.misc.md)
+- [Network](book.network.md)
+- [OPcache](book.opcache.md)
+- [Controle de Saída](book.outcontrol.md)
+- [Hash de Senhas](book.password.md)
+- [PCRE](book.pcre.md)
+- [Random](book.random.md)
+- [Reflexão](book.reflection.md)
+- [SPL](book.spl.md)
+- [Fluxos](book.stream.md)
+- [Strings](book.strings.md)
+- [URI](book.uri.md)
+- [URLs](book.url.md)
+- [Manipulação de variável](book.var.md)
+
+## Extensões Agregadas
+
+Estas extensões são incluídas no PHP.
+
+- [Apache](book.apache.md)
+- [BC Math](book.bc.md)
+- [Calendário](book.calendar.md)
+- [COM](book.com.md)
+- [Ctype](book.ctype.md)
+- [DBA](book.dba.md)
+- [Exif](book.exif.md)
+- [FFI](book.ffi.md)
+- [Fileinfo](book.fileinfo.md)
+- [Filter](book.filter.md)
+- [FTP](book.ftp.md)
+- [iconv](book.iconv.md)
+- [GD](book.image.md)
+- [intl](book.intl.md)
+- [LiteSpeed](book.litespeed.md)
+- [String Multibyte](book.mbstring.md)
+- [Mhash](book.mhash.md)
+- [PCNTL](book.pcntl.md)
+- [PDO](book.pdo.md)
+- [Phar](book.phar.md)
+- [phpdbg](book.phpdbg.md)
+- [POSIX](book.posix.md)
+- [Semaphore](book.sem.md)
+- [Sessões](book.session.md)
+- [Memória Compartilhada](book.shmop.md)
+- [Soquetes](book.sockets.md)
+- [SQLite3](book.sqlite3.md)
+- [Tokenizer](book.tokenizer.md)
+- [Zlib](book.zlib.md)
+
+## Extensões Externas
+
+Estas extensões são agregadas ao PHP, mas para compilá-las,
+bibliotecas externas serão necessárias.
+
+- [Bzip2](book.bzip2.md)
+- [cURL](book.curl.md)
+- [DOM](book.dom.md)
+- [Enchant](book.enchant.md)
+- [Gettext](book.gettext.md)
+- [GMP](book.gmp.md)
+- [LDAP](book.ldap.md)
+- [libxml](book.libxml.md)
+- [MySQLi](book.mysqli.md)
+- [Mysqlnd](book.mysqlnd.md)
+- [OpenSSL](book.openssl.md)
+- [Driver PDO do MS SQL Server](ref.pdo-dblib.md)
+- [Driver PDO do Firebird](ref.pdo-firebird.md)
+- [Driver PDO do MySQL](ref.pdo-mysql.md)
+- [Driver PDO do ODBC e do DB2](ref.pdo-odbc.md)
+- [Driver PDO do PostgreSQL](ref.pdo-pgsql.md)
+- [Driver PDO do SQLite](ref.pdo-sqlite.md)
+- [PostgreSQL](book.pgsql.md)
+- [Readline](book.readline.md)
+- [SimpleXML](book.simplexml.md)
+- [SNMP](book.snmp.md)
+- [SOAP](book.soap.md)
+- [Sodium](book.sodium.md)
+- [Tidy](book.tidy.md)
+- [ODBC](book.uodbc.md)
+- [Analisador de XML](book.xml.md)
+- [XMLReader](book.xmlreader.md)
+- [XMLWriter](book.xmlwriter.md)
+- [XSL](book.xsl.md)
+- [Zip](book.zip.md)
+
+## Extensões PECL
+
+Estas extensões estão disponíveis em [» PECL](https://pecl.php.net/). Elas podem
+requerer bibliotecas externas. Mais extensões PECL existem, mas
+ainda não estão documentadas no manual do PHP.
+
+- [APCu](book.apcu.md)
+- [CommonMark](book.cmark.md)
+- [Componere](book.componere.md)
+- [CUBRID](book.cubrid.md)
+- [dBase](book.dbase.md)
+- [E/S Direta](book.dio.md)
+- [Estruturas de Dados](book.ds.md)
+- [Eio](book.eio.md)
+- [Ev](book.ev.md)
+- [Event](book.event.md)
+- [Expect](book.expect.md)
+- [FANN](book.fann.md)
+- [FDF](book.fdf.md)
+- [Gearman](book.gearman.md)
+- [Gender](book.gender.md)
+- [GeoIP](book.geoip.md)
+- [Gmagick](book.gmagick.md)
+- [GnuPG](book.gnupg.md)
+- [HRTime](book.hrtime.md)
+- [Firebird/InterBase](book.ibase.md)
+- [IBM DB2](book.ibm-db2.md)
+- [Igbinary](book.igbinary.md)
+- [ImageMagick](book.imagick.md)
+- [IMAP](book.imap.md)
+- [Inotify](book.inotify.md)
+- [Lua](book.lua.md)
+- [LuaSandbox](book.luasandbox.md)
+- [LZF](book.lzf.md)
+- [Mailparse](book.mailparse.md)
+- [Mcrypt](book.mcrypt.md)
+- [Memcache](book.memcache.md)
+- [Memcached](book.memcached.md)
+- [MongoDB](book.mongodb.md)
+- [mqseries](book.mqseries.md)
+- [MySQL (Original)](book.mysql.md)
+- [Mysql\_xdevapi](book.mysql-xdevapi.md)
+- [OAuth](book.oauth.md)
+- [OCI8](book.oci8.md)
+- [OpenAL](book.openal.md)
+- [Sobrecarga de Operadores](book.operator.md)
+- [parallel](book.parallel.md)
+- [Parle](book.parle.md)
+- [Driver PDO do CUBRID](ref.pdo-cubrid.md)
+- [Driver PDO da IBM](ref.pdo-ibm.md)
+- [Driver PDO do Informix](ref.pdo-informix.md)
+- [Driver PDO do Oracle](ref.pdo-oci.md)
+- [Driver PDO do Microsoft SQL Server](ref.pdo-sqlsrv.md)
+- [PS](book.ps.md)
+- [Pspell](book.pspell.md)
+- [pthreads](book.pthreads.md)
+- [Quickhash](book.quickhash.md)
+- [Radius](book.radius.md)
+- [Rar](book.rar.md)
+- [Recode](book.recode.md)
+- [Rnp](book.rnp.md)
+- [RpmInfo](book.rpminfo.md)
+- [RRD](book.rrd.md)
+- [runkit7](book.runkit7.md)
+- [ScoutAPM](book.scoutapm.md)
+- [Seaslog](book.seaslog.md)
+- [Simdjson](book.simdjson.md)
+- [Solr](book.solr.md)
+- [SQLSRV](book.sqlsrv.md)
+- [ssdeep](book.ssdeep.md)
+- [SSH2](book.ssh2.md)
+- [Estatísticas](book.stats.md)
+- [Stomp](book.stomp.md)
+- [SVM](book.svm.md)
+- [SVN](book.svn.md)
+- [Swoole](book.swoole.md)
+- [Sync](book.sync.md)
+- [Taint](book.taint.md)
+- [TCP](book.tcpwrap.md)
+- [Trader](book.trader.md)
+- [UI](book.ui.md)
+- [uopz](book.uopz.md)
+- [V8js](book.v8js.md)
+- [var\_representation](book.var_representation.md)
+- [Varnish](book.varnish.md)
+- [WDDX](book.wddx.md)
+- [win32service](book.win32service.md)
+- [WinCache](book.wincache.md)
+- [wkhtmltox](book.wkhtmltox.md)
+- [xattr](book.xattr.md)
+- [xdiff](book.xdiff.md)
+- [Xhprof](book.xhprof.md)
+- [XLSWriter](book.xlswriter.md)
+- [XMLDiff](book.xmldiff.md)
+- [XML-RPC](book.xmlrpc.md)
+- [Xpass](book.xpass.md)
+- [Yac](book.yac.md)
+- [Yaconf](book.yaconf.md)
+- [Yaf](book.yaf.md)
+- [Yaml](book.yaml.md)
+- [Yar](book.yar.md)
+- [YAZ](book.yaz.md)
+- [API de Mensagens 0MQ](book.zmq.md)
+- [ZooKeeper](book.zookeeper.md)
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

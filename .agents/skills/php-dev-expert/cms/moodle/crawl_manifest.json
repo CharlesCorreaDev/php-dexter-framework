@@ -1,0 +1,368 @@
+{
+  "root_url": "** https://docs.moodle.org/503/en/About_Moodle",
+  "scope_prefix": "** https://docs.moodle.org/503/en/About_Moodle",
+  "total_pages": 60,
+  "generated_at": "2026-10-28T18:55:21Z",
+  "pages": [
+    {
+      "url": "** https://docs.moodle.org/503/en/About_Moodle",
+      "file": "About_Moodle.md",
+      "title": "About Moodle - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/About_Moodle_FAQ",
+      "file": "About_Moodle_FAQ.md",
+      "title": "About Moodle FAQ - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Accessibility",
+      "file": "Accessibility.md",
+      "title": "Accessibility - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Activities",
+      "file": "Activities.md",
+      "title": "Activities - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Add_students",
+      "file": "Add_students.md",
+      "title": "Course enrolment - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Add_users",
+      "file": "Add_users.md",
+      "title": "Add users - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Adding_a_new_course",
+      "file": "Adding_a_new_course.md",
+      "title": "Adding a new course - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Admin_quick_guide",
+      "file": "Admin_quick_guide.md",
+      "title": "Admin quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Administration_FAQ",
+      "file": "Administration_FAQ.md",
+      "title": "Administration FAQ - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Administration_via_command_line",
+      "file": "Administration_via_command_line.md",
+      "title": "Administration via command line - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Assignment_activity",
+      "file": "Assignment_activity.md",
+      "title": "Assignment activity - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Authentication",
+      "file": "Authentication.md",
+      "title": "Authentication - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Automatic_updates_deployment",
+      "file": "Automatic_updates_deployment.md",
+      "title": "Automatic updates deployment - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Category:New_features",
+      "file": "Category_New_features.md",
+      "title": "Category:New features - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Category:Quick_guide",
+      "file": "Category_Quick_guide.md",
+      "title": "Category:Quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Course_homepage",
+      "file": "Course_homepage.md",
+      "title": "Course homepage - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Creating_Moodle-app-friendly_courses",
+      "file": "Creating_Moodle-app-friendly_courses.md",
+      "title": "Creating mobile-friendly courses - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Cron",
+      "file": "Cron.md",
+      "title": "Cron - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Features",
+      "file": "Features.md",
+      "title": "Features - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Forum_activity",
+      "file": "Forum_activity.md",
+      "title": "Forum activity - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Git_for_Administrators",
+      "file": "Git_for_Administrators.md",
+      "title": "Git for Administrators - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Guide_for_new_administrators",
+      "file": "Guide_for_new_administrators.md",
+      "title": "Admin quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/History",
+      "file": "History.md",
+      "title": "History - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installation",
+      "file": "Installation.md",
+      "title": "Installation - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installation_FAQ",
+      "file": "Installation_FAQ.md",
+      "title": "Installation FAQ - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installation_quick_guide",
+      "file": "Installation_quick_guide.md",
+      "title": "Installation quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installation_Quickstart",
+      "file": "Installation_Quickstart.md",
+      "title": "Installation quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installing_Moodle",
+      "file": "Installing_Moodle.md",
+      "title": "Installing Moodle - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Installing_plugins",
+      "file": "Installing_plugins.md",
+      "title": "Installing plugins - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Main_page",
+      "file": "Main_page.md",
+      "title": "MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Managing_a_Moodle_course",
+      "file": "Managing_a_Moodle_course.md",
+      "title": "Managing a Moodle course - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Managing_a_Moodle_site",
+      "file": "Managing_a_Moodle_site.md",
+      "title": "Managing a Moodle site - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Managing_authentication",
+      "file": "Managing_authentication.md",
+      "title": "Managing authentication - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_app",
+      "file": "Moodle_app.md",
+      "title": "Moodle app - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_app_additional_features",
+      "file": "Moodle_app_additional_features.md",
+      "title": "Moodle app additional features - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_app_features",
+      "file": "Moodle_app_features.md",
+      "title": "Moodle app features - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_app_notifications",
+      "file": "Moodle_app_notifications.md",
+      "title": "Moodle app notifications - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_key_terms",
+      "file": "Moodle_key_terms.md",
+      "title": "Moodle key terms - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_migration",
+      "file": "Moodle_migration.md",
+      "title": "Moodle migration - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Moodle_site_-_basic_structure",
+      "file": "Moodle_site_-_basic_structure.md",
+      "title": "Moodle site - basic structure - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/MoodleDocs:About",
+      "file": "MoodleDocs_About.md",
+      "title": "MoodleDocs:About - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/MoodleDocs:General_disclaimer",
+      "file": "MoodleDocs_General_disclaimer.md",
+      "title": "MoodleDocs:General disclaimer - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/MoodleDocs:Privacy",
+      "file": "MoodleDocs_Privacy.md",
+      "title": "MoodleDocs:Privacy - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/New_features",
+      "file": "New_features.md",
+      "title": "New features - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/New_for_administrators",
+      "file": "New_for_administrators.md",
+      "title": "New for administrators - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/New_for_teachers",
+      "file": "New_for_teachers.md",
+      "title": "New for teachers - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Pedagogy",
+      "file": "Pedagogy.md",
+      "title": "Pedagogy - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Philosophy",
+      "file": "Philosophy.md",
+      "title": "Philosophy - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Quiz_activity",
+      "file": "Quiz_activity.md",
+      "title": "Quiz activity - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Site_appearance",
+      "file": "Site_appearance.md",
+      "title": "Site appearance - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Standards",
+      "file": "Standards.md",
+      "title": "Standards - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Table_of_Contents",
+      "file": "Table_of_Contents.md",
+      "title": "Table of Contents - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Teacher_quick_guide",
+      "file": "Teacher_quick_guide.md",
+      "title": "Teacher quick guide - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Tracking_progress",
+      "file": "Tracking_progress.md",
+      "title": "Tracking progress - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Upgrade_overview",
+      "file": "Upgrade_overview.md",
+      "title": "Upgrade overview - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Upgrading",
+      "file": "Upgrading.md",
+      "title": "Upgrading - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Upgrading_FAQ",
+      "file": "Upgrading_FAQ.md",
+      "title": "Upgrading FAQ - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Usage",
+      "file": "Usage.md",
+      "title": "Usage - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Working_with_files",
+      "file": "Working_with_files.md",
+      "title": "Working with files - MoodleDocs",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.moodle.org/503/en/Workshop_activity",
+      "file": "Workshop_activity.md",
+      "title": "Workshop activity - MoodleDocs",
+      "depth": 1
+    }
+  ]
+}

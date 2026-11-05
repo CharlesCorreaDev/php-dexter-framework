@@ -1,0 +1,308 @@
+{
+  "root_url": "** http://htmlpurifier.org/live/configdoc/plain.html",
+  "scope_prefix": "** http://htmlpurifier.org/live/configdoc/plain.html",
+  "total_pages": 50,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** http://htmlpurifier.org/live/configdoc/plain.html",
+      "file": "configdoc__htmlpurifier_org_live_configdoc_plain.md",
+      "title": "Configuration Documentation - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-advanced-api.html",
+      "file": "docs__htmlpurifier_org_docs_dev-advanced-api.md",
+      "title": "Advanced API - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-config-schema.html",
+      "file": "docs__htmlpurifier_org_docs_dev-config-schema.md",
+      "title": "Config Schema - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-flush.html",
+      "file": "docs__htmlpurifier_org_docs_dev-flush.md",
+      "title": "Flushing the Purifier - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-naming.html",
+      "file": "docs__htmlpurifier_org_docs_dev-naming.md",
+      "title": "Naming Conventions - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-optimization.html",
+      "file": "docs__htmlpurifier_org_docs_dev-optimization.md",
+      "title": "Optimization - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/dev-progress.html",
+      "file": "docs__htmlpurifier_org_docs_dev-progress.md",
+      "title": "Implementation Progress - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-customize.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-customize.md",
+      "title": "Customize - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-id.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-id.md",
+      "title": "IDs - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-slow.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-slow.md",
+      "title": "Speeding up HTML Purifier - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-tidy.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-tidy.md",
+      "title": "Tidy - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-uri-filter.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-uri-filter.md",
+      "title": "URI Filters - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-utf8.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-utf8.md",
+      "title": "UTF-8: The Secret of Character Encoding - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-youtube.html",
+      "file": "docs__htmlpurifier_org_docs_enduser-youtube.md",
+      "title": "Embedding YouTube Videos - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/proposal-colors.html",
+      "file": "docs__htmlpurifier_org_docs_proposal-colors.md",
+      "title": "Proposal: Colors - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/ref-devnetwork.html",
+      "file": "docs__htmlpurifier_org_docs_ref-devnetwork.md",
+      "title": "DevNetwork Credits - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/annotated.html",
+      "file": "doxygen__annotated.md",
+      "title": "HTMLPurifier: Class List",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classConfigDoc__HTMLXSLTProcessor.html",
+      "file": "doxygen__classConfigDoc__HTMLXSLTProcessor.md",
+      "title": "HTMLPurifier: ConfigDoc_HTMLXSLTProcessor Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classFSTools.html",
+      "file": "doxygen__classFSTools.md",
+      "title": "HTMLPurifier: FSTools Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classFSTools__File.html",
+      "file": "doxygen__classFSTools__File.md",
+      "title": "HTMLPurifier: FSTools_File Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTML5.html",
+      "file": "doxygen__classHTML5.md",
+      "title": "HTMLPurifier: HTML5 Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTML5TreeConstructer.html",
+      "file": "doxygen__classHTML5TreeConstructer.md",
+      "title": "HTMLPurifier: HTML5TreeConstructer Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier.html",
+      "file": "doxygen__classHTMLPurifier.md",
+      "title": "HTMLPurifier: HTMLPurifier Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrCollections.html",
+      "file": "doxygen__classHTMLPurifier__AttrCollections.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrCollections Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__Clone.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__Clone.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_Clone Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__AlphaValue.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__AlphaValue.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_AlphaValue Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Background.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Background.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Background Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__BackgroundPosition.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__BackgroundPosition.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_BackgroundPosition Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Border.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Border.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Border Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Color.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Color.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Color Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Composite.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Composite.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Composite Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__DenyElementDecorator.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__DenyElementDecorator.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_DenyElementDecorator Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Filter.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Filter.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Filter Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Font.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Font.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Font Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__FontFamily.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__FontFamily.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_FontFamily Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__AttrDef__CSS__Ident.html",
+      "file": "doxygen__classHTMLPurifier__AttrDef__CSS__Ident.md",
+      "title": "HTMLPurifier: HTMLPurifier_AttrDef_CSS_Ident Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/classHTMLPurifier__Config.html",
+      "file": "doxygen__classHTMLPurifier__Config.md",
+      "title": "HTMLPurifier: HTMLPurifier_Config Class Reference",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/deprecated.html",
+      "file": "doxygen__deprecated.md",
+      "title": "HTMLPurifier: Deprecated List",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/files.html",
+      "file": "doxygen__files.md",
+      "title": "HTMLPurifier: File List",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/functions.html",
+      "file": "doxygen__functions.md",
+      "title": "HTMLPurifier: Class Members",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/hierarchy.html",
+      "file": "doxygen__hierarchy.md",
+      "title": "HTMLPurifier: Class Hierarchy",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/",
+      "file": "doxygen__index.md",
+      "title": "HTMLPurifier: Main Page",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/pages.html",
+      "file": "doxygen__pages.md",
+      "title": "HTMLPurifier: Related Pages",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/doxygen/html/todo.html",
+      "file": "doxygen__todo.md",
+      "title": "HTMLPurifier: Todo List",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-id.html",
+      "file": "enduser-id.md",
+      "title": "IDs - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-slow.html",
+      "file": "enduser-slow.md",
+      "title": "Speeding up HTML Purifier - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs/enduser-utf8.html",
+      "file": "enduser-utf8.md",
+      "title": "UTF-8: The Secret of Character Encoding - HTML Purifier",
+      "depth": 1
+    },
+    {
+      "url": "** http://htmlpurifier.org/docs",
+      "file": "index.md",
+      "title": "Documentation - HTML Purifier",
+      "depth": 1
+    }
+  ]
+}

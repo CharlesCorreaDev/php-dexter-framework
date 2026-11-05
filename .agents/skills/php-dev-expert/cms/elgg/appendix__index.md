@@ -1,0 +1,52 @@
+# Appendix — Elgg master documentation
+
+> **Fonte / Source:** https://learn.elgg.org/en/stable/appendix/index.html
+
+---
+
+# Appendix[](#appendix "Permalink to this heading")
+
+Miscellaneous information about the project.
+
+- [Upgrade Notes](appendix__upgrade-notes.md)
+  - [From 7.0 to 7.1](appendix__upgrade-notes__7.0-to-7.1.md)
+  - [From 6.x to 7.0](appendix__upgrade-notes__6.x-to-7.0.md)
+  - [From 6.2 to 6.3](appendix__upgrade-notes__6.2-to-6.3.md)
+  - [From 6.1 to 6.2](appendix__upgrade-notes__6.1-to-6.2.md)
+  - [From 6.0 to 6.1](appendix__upgrade-notes__6.0-to-6.1.md)
+  - [From 5.x to 6.0](appendix__upgrade-notes__5.x-to-6.0.md)
+  - [From 5.0 to 5.1](appendix__upgrade-notes__5.0-to-5.1.md)
+  - [From 4.x to 5.0](appendix__upgrade-notes__4.x-to-5.0.md)
+  - [From 4.2 to 4.3](appendix__upgrade-notes__4.2-to-4.3.md)
+  - [From 4.1 to 4.2](appendix__upgrade-notes__4.1-to-4.2.md)
+  - [From 4.0 to 4.1](appendix__upgrade-notes__4.0-to-4.1.md)
+  - [From 3.x to 4.0](appendix__upgrade-notes__3.x-to-4.0.md)
+  - [From 3.2 to 3.3](appendix__upgrade-notes__3.2-to-3.3.md)
+  - [From 3.1 to 3.2](appendix__upgrade-notes__3.1-to-3.2.md)
+  - [From 3.0 to 3.1](appendix__upgrade-notes__3.0-to-3.1.md)
+  - [From 2.x to 3.0](appendix__upgrade-notes__2.x-to-3.0.md)
+  - [From 2.2 to 2.3](appendix__upgrade-notes__2.2-to-2.3.md)
+  - [From 2.1 to 2.2](appendix__upgrade-notes__2.1-to-2.2.md)
+  - [From 2.0 to 2.1](appendix__upgrade-notes__2.0-to-2.1.md)
+  - [From 1.x to 2.0](appendix__upgrade-notes__1.x-to-2.0.md)
+  - [From 1.10 to 1.11](appendix__upgrade-notes__1.10-to-1.11.md)
+  - [From 1.9 to 1.10](appendix__upgrade-notes__1.9-to-1.10.md)
+  - [From 1.8 to 1.9](appendix__upgrade-notes__1.8-to-1.9.md)
+  - [From 1.7 to 1.8](appendix__upgrade-notes__1.7-to-1.8.md)
+- [FAQs and Other Troubleshooting](appendix__faqs.md)
+  - [General](appendix__faqs.md#general)
+  - [Security](appendix__faqs.md#security)
+  - [Development](appendix__faqs.md#development)
+- [Roadmap](appendix__roadmap.md)
+  - [Values](appendix__roadmap.md#values)
+  - [FAQ](appendix__roadmap.md#faq)
+- [Release Policy](appendix__releases.md)
+  - [Patch/Bugfix Releases (2.1.x)](appendix__releases.md#patch-bugfix-releases-2-1-x)
+  - [Minor/Feature Releases (2.x.0)](appendix__releases.md#minor-feature-releases-2-x-0)
+  - [Major/Breaking Releases (x.0.0)](appendix__releases.md#major-breaking-releases-x-0-0)
+  - [Alphas, Betas, and Release Candidates](appendix__releases.md#alphas-betas-and-release-candidates)
+  - [Backwards compatibility](appendix__releases.md#backwards-compatibility)
+- [Support policy](appendix__support.md)
+  - [Long Term Support Releases](appendix__support.md#long-term-support-releases)
+  - [Timeline](appendix__support.md#timeline)
+- [History](appendix__history.md)

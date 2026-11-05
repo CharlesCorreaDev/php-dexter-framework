@@ -1,0 +1,98 @@
+{
+  "root_url": "** https://www.jcow.net/docs/",
+  "scope_prefix": "** https://www.jcow.net/docs/",
+  "total_pages": 15,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://www.jcow.net/docs/",
+      "file": "docs__index.md",
+      "title": "Jcow - Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/editstory/2849",
+      "file": "wiki__editstory__2849.md",
+      "title": "Wiki - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/editstory/2850",
+      "file": "wiki__editstory__2850.md",
+      "title": "/wiki/editstory/2850",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/editstory/2857",
+      "file": "wiki__editstory__2857.md",
+      "title": "/wiki/editstory/2857",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/editstory/2858",
+      "file": "wiki__editstory__2858.md",
+      "title": "/wiki/editstory/2858",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki",
+      "file": "wiki__index.md",
+      "title": "Wiki - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewhistory/2849",
+      "file": "wiki__viewhistory__2849.md",
+      "title": "history - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewhistory/2850",
+      "file": "wiki__viewhistory__2850.md",
+      "title": "history - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewhistory/2857",
+      "file": "wiki__viewhistory__2857.md",
+      "title": "history - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewhistory/2858",
+      "file": "wiki__viewhistory__2858.md",
+      "title": "history - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewstory/2849",
+      "file": "wiki__viewstory__2849.md",
+      "title": "Wiki Home - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewstory/2850",
+      "file": "wiki__viewstory__2850.md",
+      "title": "How to install Facebook login/connect button to your website - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewstory/2857",
+      "file": "wiki__viewstory__2857.md",
+      "title": "How to build Google Connect button to your website - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/viewstory/2858",
+      "file": "wiki__viewstory__2858.md",
+      "title": "How to create a new Jcow module - Jcow Community",
+      "depth": 1
+    },
+    {
+      "url": "** https://community.jcow.net/wiki/writestory",
+      "file": "wiki__writestory.md",
+      "title": "Log In - Jcow Community",
+      "depth": 1
+    }
+  ]
+}

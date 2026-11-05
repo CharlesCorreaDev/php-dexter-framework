@@ -1,0 +1,43 @@
+# Guia de Usuário — documentação phpMyAdmin 6.0.0-dev
+
+> **Fonte / Source:** https://docs.phpmyadmin.net/pt-br/latest/user.html
+
+---
+
+# Guia de Usuário[¶](#user-guide "Link permanente para este título")
+
+- [Configurando o phpMyAdmin](settings.md)
+- [Autenticação de dois fatores](two_factor.md)
+  - [Aplicativo de Autenticação (2FA)](two_factor.md#authentication-application-2fa)
+  - [Chave de Segurança de Hardware (FIDO U2F)](two_factor.md#hardware-security-key-fido-u2f)
+  - [Autenticação de dois fatores simples](two_factor.md#simple-two-factor-authentication)
+- [Transformações](transformations.md)
+  - [Introdução](transformations.md#introduction)
+  - [Utilização](transformations.md#usage)
+  - [Estrutura de arquivos](transformations.md#file-structure)
+- [Favoritos](bookmarks.md)
+  - [Armazenando favoritos](bookmarks.md#storing-bookmarks)
+  - [Variáveis dentro de favoritos](bookmarks.md#variables-inside-bookmarks)
+  - [Explorando uma tabela usando um favorito](bookmarks.md#browsing-a-table-using-a-bookmark)
+- [Gerenciamento de usuários](privileges.md)
+  - [Criando um novo usuário](privileges.md#creating-a-new-user)
+  - [Editando um usuário existente](privileges.md#editing-an-existing-user)
+  - [Excluindo um usuário](privileges.md#deleting-a-user)
+  - [Atribuindo privilégios ao usuário para um banco de dados específico](privileges.md#assigning-privileges-to-user-for-a-specific-database)
+  - [Menus configuráveis e grupos de usuários](privileges.md#configurable-menus-and-user-groups)
+- [Relações](relations.md)
+  - [Informações técnicas](relations.md#technical-info)
+  - [Visão de relação(ões)](relations.md#relation-view)
+  - [Designer](relations.md#designer)
+- [Gráficos](charts.md)
+  - [Implementação do gráfico](charts.md#chart-implementation)
+  - [Exemplos](charts.md#examples)
+- [Importar e exportar](import_export.md)
+  - [Importar](import_export.md#import)
+  - [Exportar](import_export.md#export)
+- [Temas Personalizados](themes.md)
+  - [Configuração](themes.md#configuration)
+  - [Criação de temas personalizados](themes.md#creating-custom-theme)
+- [Outras fontes de informação](other.md)
+  - [Livro Impresso](other.md#printed-book)
+  - [Tutoriais](other.md#tutorials)

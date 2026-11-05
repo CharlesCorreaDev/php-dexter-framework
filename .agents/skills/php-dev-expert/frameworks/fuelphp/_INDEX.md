@@ -1,0 +1,296 @@
+# 📚 Índice da Documentação / Documentation Index
+
+- **Fonte / Source:** https://www.fuelphp.com/api/
+- **Escopo / Scope:** `https://www.fuelphp.com/api/`
+- **Total de Páginas Capturadas / Total Captured Pages:** 283
+
+---
+
+## 📂 `api` (120)
+
+- [phpDocumentor » \Auth\Auth](api__classes__Auth.Auth.md) — `https://www.fuelphp.com/api/classes/Auth.Auth.html`
+- [phpDocumentor » \Auth\AuthException](api__classes__Auth.AuthException.md) — `https://www.fuelphp.com/api/classes/Auth.AuthException.html`
+- [phpDocumentor » \Auth\Auth_Acl_Driver](api__classes__Auth.Auth_Acl_Driver.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Driver.html`
+- [phpDocumentor » \Auth\Auth_Acl_Ormacl](api__classes__Auth.Auth_Acl_Ormacl.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Ormacl.html`
+- [phpDocumentor » \Auth\Auth_Acl_Simpleacl](api__classes__Auth.Auth_Acl_Simpleacl.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Acl_Simpleacl.html`
+- [phpDocumentor » \Auth\Auth_Driver](api__classes__Auth.Auth_Driver.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Driver.html`
+- [phpDocumentor » \Auth\Auth_Group_Driver](api__classes__Auth.Auth_Group_Driver.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Group_Driver.html`
+- [phpDocumentor » \Auth\Auth_Group_Ormgroup](api__classes__Auth.Auth_Group_Ormgroup.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Group_Ormgroup.html`
+- [phpDocumentor » \Auth\Auth_Group_Simplegroup](api__classes__Auth.Auth_Group_Simplegroup.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Group_Simplegroup.html`
+- [phpDocumentor » \Auth\Auth_Login_Driver](api__classes__Auth.Auth_Login_Driver.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Login_Driver.html`
+- [phpDocumentor » \Auth\Auth_Login_Ormauth](api__classes__Auth.Auth_Login_Ormauth.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Login_Ormauth.html`
+- [phpDocumentor » \Auth\Auth_Login_Simpleauth](api__classes__Auth.Auth_Login_Simpleauth.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Login_Simpleauth.html`
+- [phpDocumentor » \Auth\Auth_Opauth](api__classes__Auth.Auth_Opauth.md) — `https://www.fuelphp.com/api/classes/Auth.Auth_Opauth.html`
+- [phpDocumentor » \Auth\Model\Auth_Group](api__classes__Auth.Model.Auth_Group.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Group.html`
+- [phpDocumentor » \Auth\Model\Auth_Grouppermission](api__classes__Auth.Model.Auth_Grouppermission.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Grouppermission.html`
+- [phpDocumentor » \Auth\Model\Auth_Metadata](api__classes__Auth.Model.Auth_Metadata.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Metadata.html`
+- [phpDocumentor » \Auth\Model\Auth_Permission](api__classes__Auth.Model.Auth_Permission.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Permission.html`
+- [phpDocumentor » \Auth\Model\Auth_Provider](api__classes__Auth.Model.Auth_Provider.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Provider.html`
+- [phpDocumentor » \Auth\Model\Auth_Role](api__classes__Auth.Model.Auth_Role.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Role.html`
+- [phpDocumentor » \Auth\Model\Auth_Rolepermission](api__classes__Auth.Model.Auth_Rolepermission.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Rolepermission.html`
+- [phpDocumentor » \Auth\Model\Auth_User](api__classes__Auth.Model.Auth_User.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_User.html`
+- [phpDocumentor » \Auth\Model\Auth_Userpermission](api__classes__Auth.Model.Auth_Userpermission.md) — `https://www.fuelphp.com/api/classes/Auth.Model.Auth_Userpermission.html`
+- [phpDocumentor » \Auth\OpauthException](api__classes__Auth.OpauthException.md) — `https://www.fuelphp.com/api/classes/Auth.OpauthException.html`
+- [phpDocumentor » \Auth\SimpleUserUpdateException](api__classes__Auth.SimpleUserUpdateException.md) — `https://www.fuelphp.com/api/classes/Auth.SimpleUserUpdateException.html`
+- [phpDocumentor » \Auth\SimpleUserWrongPassword](api__classes__Auth.SimpleUserWrongPassword.md) — `https://www.fuelphp.com/api/classes/Auth.SimpleUserWrongPassword.html`
+- [phpDocumentor » \Email\AttachmentNotFoundException](api__classes__Email.AttachmentNotFoundException.md) — `https://www.fuelphp.com/api/classes/Email.AttachmentNotFoundException.html`
+- [phpDocumentor » \Email\Email](api__classes__Email.Email.md) — `https://www.fuelphp.com/api/classes/Email.Email.html`
+- [phpDocumentor » \Email\EmailSendingFailedException](api__classes__Email.EmailSendingFailedException.md) — `https://www.fuelphp.com/api/classes/Email.EmailSendingFailedException.html`
+- [phpDocumentor » \Email\EmailValidationFailedException](api__classes__Email.EmailValidationFailedException.md) — `https://www.fuelphp.com/api/classes/Email.EmailValidationFailedException.html`
+- [phpDocumentor » \Email\Email_Driver](api__classes__Email.Email_Driver.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver.html`
+- [phpDocumentor » \Email\Email_Driver_Mail](api__classes__Email.Email_Driver_Mail.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Mail.html`
+- [phpDocumentor » \Email\Email_Driver_Mailgun](api__classes__Email.Email_Driver_Mailgun.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Mailgun.html`
+- [phpDocumentor » \Email\Email_Driver_Mandrill](api__classes__Email.Email_Driver_Mandrill.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Mandrill.html`
+- [phpDocumentor » \Email\Email_Driver_Noop](api__classes__Email.Email_Driver_Noop.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Noop.html`
+- [phpDocumentor » \Email\Email_Driver_Sendmail](api__classes__Email.Email_Driver_Sendmail.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Sendmail.html`
+- [phpDocumentor » \Email\Email_Driver_Smtp](api__classes__Email.Email_Driver_Smtp.md) — `https://www.fuelphp.com/api/classes/Email.Email_Driver_Smtp.html`
+- [phpDocumentor » \Email\InvalidAttachmentsException](api__classes__Email.InvalidAttachmentsException.md) — `https://www.fuelphp.com/api/classes/Email.InvalidAttachmentsException.html`
+- [phpDocumentor » \Email\InvalidEmailStringEncoding](api__classes__Email.InvalidEmailStringEncoding.md) — `https://www.fuelphp.com/api/classes/Email.InvalidEmailStringEncoding.html`
+- [phpDocumentor » \Email\SendmailConnectionException](api__classes__Email.SendmailConnectionException.md) — `https://www.fuelphp.com/api/classes/Email.SendmailConnectionException.html`
+- [phpDocumentor » \Email\SendmailFailedException](api__classes__Email.SendmailFailedException.md) — `https://www.fuelphp.com/api/classes/Email.SendmailFailedException.html`
+- [phpDocumentor » \Email\SmtpAuthenticationFailedException](api__classes__Email.SmtpAuthenticationFailedException.md) — `https://www.fuelphp.com/api/classes/Email.SmtpAuthenticationFailedException.html`
+- [phpDocumentor » \Email\SmtpCommandFailureException](api__classes__Email.SmtpCommandFailureException.md) — `https://www.fuelphp.com/api/classes/Email.SmtpCommandFailureException.html`
+- [phpDocumentor » \Email\SmtpConnectionException](api__classes__Email.SmtpConnectionException.md) — `https://www.fuelphp.com/api/classes/Email.SmtpConnectionException.html`
+- [phpDocumentor » \Email\SmtpTimeoutException](api__classes__Email.SmtpTimeoutException.md) — `https://www.fuelphp.com/api/classes/Email.SmtpTimeoutException.html`
+- [phpDocumentor » \Fuel\Core\Agent](api__classes__Fuel.Core.Agent.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Agent.html`
+- [phpDocumentor » \Fuel\Core\Arr](api__classes__Fuel.Core.Arr.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Arr.html`
+- [phpDocumentor » \Fuel\Core\Asset](api__classes__Fuel.Core.Asset.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Asset.html`
+- [phpDocumentor » \Fuel\Core\Asset_Instance](api__classes__Fuel.Core.Asset_Instance.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Asset_Instance.html`
+- [phpDocumentor » \Fuel\Core\Autoloader](api__classes__Fuel.Core.Autoloader.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Autoloader.html`
+- [phpDocumentor » \Fuel\Core\Cache](api__classes__Fuel.Core.Cache.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache.html`
+- [phpDocumentor » \Fuel\Core\CacheExpiredException](api__classes__Fuel.Core.CacheExpiredException.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.CacheExpiredException.html`
+- [phpDocumentor » \Fuel\Core\CacheNotFoundException](api__classes__Fuel.Core.CacheNotFoundException.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.CacheNotFoundException.html`
+- [phpDocumentor » \Fuel\Core\Cache_Handler_Driver](api__classes__Fuel.Core.Cache_Handler_Driver.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Driver.html`
+- [phpDocumentor » \Fuel\Core\Cache_Handler_Json](api__classes__Fuel.Core.Cache_Handler_Json.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Json.html`
+- [phpDocumentor » \Fuel\Core\Cache_Handler_Serialized](api__classes__Fuel.Core.Cache_Handler_Serialized.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_Serialized.html`
+- [phpDocumentor » \Fuel\Core\Cache_Handler_String](api__classes__Fuel.Core.Cache_Handler_String.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Handler_String.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_Apc](api__classes__Fuel.Core.Cache_Storage_Apc.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Apc.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_Driver](api__classes__Fuel.Core.Cache_Storage_Driver.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Driver.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_File](api__classes__Fuel.Core.Cache_Storage_File.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_File.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_Memcached](api__classes__Fuel.Core.Cache_Storage_Memcached.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Memcached.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_Redis](api__classes__Fuel.Core.Cache_Storage_Redis.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Redis.html`
+- [phpDocumentor » \Fuel\Core\Cache_Storage_Xcache](api__classes__Fuel.Core.Cache_Storage_Xcache.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cache_Storage_Xcache.html`
+- [phpDocumentor » \Fuel\Core\Cli](api__classes__Fuel.Core.Cli.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cli.html`
+- [phpDocumentor » \Fuel\Core\Config](api__classes__Fuel.Core.Config.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config.html`
+- [phpDocumentor » \Fuel\Core\ConfigException](api__classes__Fuel.Core.ConfigException.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.ConfigException.html`
+- [phpDocumentor » \Fuel\Core\Config_Db](api__classes__Fuel.Core.Config_Db.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Db.html`
+- [phpDocumentor » \Fuel\Core\Config_File](api__classes__Fuel.Core.Config_File.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_File.html`
+- [phpDocumentor » \Fuel\Core\Config_Ini](api__classes__Fuel.Core.Config_Ini.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Ini.html`
+- [phpDocumentor » \Fuel\Core\Config_Interface](api__classes__Fuel.Core.Config_Interface.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Interface.html`
+- [phpDocumentor » \Fuel\Core\Config_Json](api__classes__Fuel.Core.Config_Json.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Json.html`
+- [phpDocumentor » \Fuel\Core\Config_Memcached](api__classes__Fuel.Core.Config_Memcached.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Memcached.html`
+- [phpDocumentor » \Fuel\Core\Config_Php](api__classes__Fuel.Core.Config_Php.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Php.html`
+- [phpDocumentor » \Fuel\Core\Config_Yml](api__classes__Fuel.Core.Config_Yml.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Config_Yml.html`
+- [phpDocumentor » \Fuel\Core\Controller](api__classes__Fuel.Core.Controller.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Controller.html`
+- [phpDocumentor » \Fuel\Core\Controller_Hybrid](api__classes__Fuel.Core.Controller_Hybrid.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Hybrid.html`
+- [phpDocumentor » \Fuel\Core\Controller_Rest](api__classes__Fuel.Core.Controller_Rest.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Rest.html`
+- [phpDocumentor » \Fuel\Core\Controller_Template](api__classes__Fuel.Core.Controller_Template.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Controller_Template.html`
+- [phpDocumentor » \Fuel\Core\Cookie](api__classes__Fuel.Core.Cookie.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Cookie.html`
+- [phpDocumentor » \Fuel\Core\Crypt](api__classes__Fuel.Core.Crypt.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Crypt.html`
+- [phpDocumentor » \Fuel\Core\DB](api__classes__Fuel.Core.DB.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.DB.html`
+- [phpDocumentor » \Fuel\Core\DBUtil](api__classes__Fuel.Core.DBUtil.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.DBUtil.html`
+- [phpDocumentor » \Fuel\Core\Database_Connection](api__classes__Fuel.Core.Database_Connection.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Connection.html`
+- [phpDocumentor » \Fuel\Core\Database_Dblib_Connection](api__classes__Fuel.Core.Database_Dblib_Connection.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Dblib_Connection.html`
+- [phpDocumentor » \Fuel\Core\Database_Exception](api__classes__Fuel.Core.Database_Exception.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Exception.html`
+- [phpDocumentor » \Fuel\Core\Database_Expression](api__classes__Fuel.Core.Database_Expression.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Expression.html`
+- [phpDocumentor » \Fuel\Core\Database_MySQL_Connection](api__classes__Fuel.Core.Database_MySQL_Connection.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQL_Connection.html`
+- [phpDocumentor » \Fuel\Core\Database_MySQLi_Cached](api__classes__Fuel.Core.Database_MySQLi_Cached.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Cached.html`
+- [phpDocumentor » \Fuel\Core\Database_MySQLi_Connection](api__classes__Fuel.Core.Database_MySQLi_Connection.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Connection.html`
+- [phpDocumentor » \Fuel\Core\Database_MySQLi_Result](api__classes__Fuel.Core.Database_MySQLi_Result.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_MySQLi_Result.html`
+- [phpDocumentor » \Fuel\Core\Database_PDO_Cached](api__classes__Fuel.Core.Database_PDO_Cached.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Cached.html`
+- [phpDocumentor » \Fuel\Core\Database_PDO_Connection](api__classes__Fuel.Core.Database_PDO_Connection.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Connection.html`
+- [phpDocumentor » \Fuel\Core\Database_PDO_Result](api__classes__Fuel.Core.Database_PDO_Result.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_PDO_Result.html`
+- [phpDocumentor » \Fuel\Core\Database_Query](api__classes__Fuel.Core.Database_Query.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query.html`
+- [phpDocumentor » \Fuel\Core\Database_Query_Builder](api__classes__Fuel.Core.Database_Query_Builder.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder.html`
+- [phpDocumentor » \Fuel\Core\Database_Query_Builder_Delete](api__classes__Fuel.Core.Database_Query_Builder_Delete.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Delete.html`
+- [phpDocumentor » \Fuel\Core\Database_Query_Builder_Insert](api__classes__Fuel.Core.Database_Query_Builder_Insert.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Insert.html`
+- [phpDocumentor » \Fuel\Core\Database_Query_Builder_Join](api__classes__Fuel.Core.Database_Query_Builder_Join.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Database_Query_Builder_Join.html`
+- [phpDocumentor » \Fuel\Core\Lang_Interface](api__classes__Fuel.Core.Lang_Interface.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Lang_Interface.html`
+- [phpDocumentor » \Fuel\Core\Sanitization](api__classes__Fuel.Core.Sanitization.md) — `https://www.fuelphp.com/api/classes/Fuel.Core.Sanitization.html`
+- [phpDocumentor](api__deprecated.md) — `https://www.fuelphp.com/api/deprecated.html`
+- [phpDocumentor](api__errors.md) — `https://www.fuelphp.com/api/errors.html`
+- [phpDocumentor](api__graph_class.md) — `https://www.fuelphp.com/api/graph_class.html`
+- [phpDocumentor](api__index.md) — `https://www.fuelphp.com/api/`
+- [phpDocumentor](api__markers.md) — `https://www.fuelphp.com/api/markers.html`
+- [phpDocumentor » Auth\Model](api__namespaces__Auth.Model.md) — `https://www.fuelphp.com/api/namespaces/Auth.Model.html`
+- [phpDocumentor » Auth](api__namespaces__Auth.md) — `https://www.fuelphp.com/api/namespaces/Auth.html`
+- [phpDocumentor » Email](api__namespaces__Email.md) — `https://www.fuelphp.com/api/namespaces/Email.html`
+- [phpDocumentor » Fuel\Core](api__namespaces__Fuel.Core.md) — `https://www.fuelphp.com/api/namespaces/Fuel.Core.html`
+- [phpDocumentor » Fuel\Migrations](api__namespaces__Fuel.Migrations.md) — `https://www.fuelphp.com/api/namespaces/Fuel.Migrations.html`
+- [phpDocumentor » Fuel\Tasks](api__namespaces__Fuel.Tasks.md) — `https://www.fuelphp.com/api/namespaces/Fuel.Tasks.html`
+- [phpDocumentor » Fuel](api__namespaces__Fuel.md) — `https://www.fuelphp.com/api/namespaces/Fuel.html`
+- [phpDocumentor » Oil](api__namespaces__Oil.md) — `https://www.fuelphp.com/api/namespaces/Oil.html`
+- [phpDocumentor » Orm](api__namespaces__Orm.md) — `https://www.fuelphp.com/api/namespaces/Orm.html`
+- [phpDocumentor » Parser](api__namespaces__Parser.md) — `https://www.fuelphp.com/api/namespaces/Parser.html`
+- [phpDocumentor » global](api__namespaces__global.md) — `https://www.fuelphp.com/api/namespaces/global.html`
+- [phpDocumentor » Core](api__packages__Core.md) — `https://www.fuelphp.com/api/packages/Core.html`
+- [phpDocumentor » Default](api__packages__Default.md) — `https://www.fuelphp.com/api/packages/Default.html`
+- [phpDocumentor » Fuel](api__packages__Fuel.md) — `https://www.fuelphp.com/api/packages/Fuel.html`
+- [phpDocumentor » Orm](api__packages__Orm.md) — `https://www.fuelphp.com/api/packages/Orm.html`
+- [phpDocumentor » app](api__packages__app.md) — `https://www.fuelphp.com/api/packages/app.html`
+
+## 📂 `docs` (163)
+
+- [Redis_Db - Classes - FuelPHP Documentation](docs__classes__Redis.md) — `https://www.fuelphp.com/docs/classes/Redis.html`
+- [Agent Config - Classes - FuelPHP Documentation](docs__classes__agent__config.md) — `https://www.fuelphp.com/docs/classes/agent/config.html`
+- [Agent Usage - Classes - FuelPHP Documentation](docs__classes__agent__usage.md) — `https://www.fuelphp.com/docs/classes/agent/usage.html`
+- [Arr - Classes - FuelPHP Documentation](docs__classes__arr.md) — `https://www.fuelphp.com/docs/classes/arr.html`
+- [Asset Advanced - Classes - FuelPHP Documentation](docs__classes__asset__advanced.md) — `https://www.fuelphp.com/docs/classes/asset/advanced.html`
+- [Asset Config - Classes - FuelPHP Documentation](docs__classes__asset__config.md) — `https://www.fuelphp.com/docs/classes/asset/config.html`
+- [Asset Usage - Classes - FuelPHP Documentation](docs__classes__asset__usage.md) — `https://www.fuelphp.com/docs/classes/asset/usage.html`
+- [Autoloader - Classes - FuelPHP Documentation](docs__classes__autoloader.md) — `https://www.fuelphp.com/docs/classes/autoloader.html`
+- [Cache Advanced - Classes - FuelPHP Documentation](docs__classes__cache__advanced.md) — `https://www.fuelphp.com/docs/classes/cache/advanced.html`
+- [Cache Config - Classes - FuelPHP Documentation](docs__classes__cache__config.md) — `https://www.fuelphp.com/docs/classes/cache/config.html`
+- [Cache Usage - Classes - FuelPHP Documentation](docs__classes__cache__usage.md) — `https://www.fuelphp.com/docs/classes/cache/usage.html`
+- [Cli - Classes - FuelPHP Documentation](docs__classes__cli.md) — `https://www.fuelphp.com/docs/classes/cli.html`
+- [Config - Classes - FuelPHP Documentation](docs__classes__config.md) — `https://www.fuelphp.com/docs/classes/config.html`
+- [Cookie - Classes - FuelPHP Documentation](docs__classes__cookie.md) — `https://www.fuelphp.com/docs/classes/cookie.html`
+- [Crypt Advanced - Classes - FuelPHP Documentation](docs__classes__crypt__advanced.md) — `https://www.fuelphp.com/docs/classes/crypt/advanced.html`
+- [Crypt Configuration - Classes - FuelPHP Documentation](docs__classes__crypt__config.md) — `https://www.fuelphp.com/docs/classes/crypt/config.html`
+- [Crypt Usage - Classes - FuelPHP Documentation](docs__classes__crypt__usage.md) — `https://www.fuelphp.com/docs/classes/crypt/usage.html`
+- [DB - Classes - FuelPHP Documentation](docs__classes__database__db.md) — `https://www.fuelphp.com/docs/classes/database/db.html`
+- [DBUtil - Classes - FuelPHP Documentation](docs__classes__database__dbutil.md) — `https://www.fuelphp.com/docs/classes/database/dbutil.html`
+- [Database Introduction - Classes - FuelPHP Documentation](docs__classes__database__introduction.md) — `https://www.fuelphp.com/docs/classes/database/introduction.html`
+- [Query Builder - Classes - FuelPHP Documentation](docs__classes__database__qb.md) — `https://www.fuelphp.com/docs/classes/database/qb.html`
+- [Query Builder - Classes - FuelPHP Documentation](docs__classes__database__qb_builder.md) — `https://www.fuelphp.com/docs/classes/database/qb_builder.html`
+- [Query Builder Delete - Classes - FuelPHP Documentation](docs__classes__database__qb_delete.md) — `https://www.fuelphp.com/docs/classes/database/qb_delete.html`
+- [Query Builder Insert - Classes - FuelPHP Documentation](docs__classes__database__qb_insert.md) — `https://www.fuelphp.com/docs/classes/database/qb_insert.html`
+- [Query Builder Select - Classes - FuelPHP Documentation](docs__classes__database__qb_select.md) — `https://www.fuelphp.com/docs/classes/database/qb_select.html`
+- [Query Builder Update - Classes - FuelPHP Documentation](docs__classes__database__qb_update.md) — `https://www.fuelphp.com/docs/classes/database/qb_update.html`
+- [Query Builder Where - Classes - FuelPHP Documentation](docs__classes__database__qb_where.md) — `https://www.fuelphp.com/docs/classes/database/qb_where.html`
+- [Query Builder Select - Classes - FuelPHP Documentation](docs__classes__database__usage.md) — `https://www.fuelphp.com/docs/classes/database/usage.html`
+- [Date - Classes - FuelPHP Documentation](docs__classes__date.md) — `https://www.fuelphp.com/docs/classes/date.html`
+- [Debug - Classes - FuelPHP Documentation](docs__classes__debug.md) — `https://www.fuelphp.com/docs/classes/debug.html`
+- [Event - Classes - FuelPHP Documentation](docs__classes__event.md) — `https://www.fuelphp.com/docs/classes/event.html`
+- [Fieldset_Field - Classes - FuelPHP Documentation](docs__classes__fieldset__field.md) — `https://www.fuelphp.com/docs/classes/fieldset/field.html`
+- [Fieldset - Classes - FuelPHP Documentation](docs__classes__fieldset__fieldset.md) — `https://www.fuelphp.com/docs/classes/fieldset/fieldset.html`
+- [File Advanced - Classes - FuelPHP Documentation](docs__classes__file__advanced.md) — `https://www.fuelphp.com/docs/classes/file/advanced.html`
+- [File Handlers - Classes - FuelPHP Documentation](docs__classes__file__handlers.md) — `https://www.fuelphp.com/docs/classes/file/handlers.html`
+- [File Intro - Classes - FuelPHP Documentation](docs__classes__file__intro.md) — `https://www.fuelphp.com/docs/classes/file/intro.html`
+- [File Usage - Classes - FuelPHP Documentation](docs__classes__file__usage.md) — `https://www.fuelphp.com/docs/classes/file/usage.html`
+- [Finder - Classes - FuelPHP Documentation](docs__classes__finder.md) — `https://www.fuelphp.com/docs/classes/finder.html`
+- [Form - Classes - FuelPHP Documentation](docs__classes__form.md) — `https://www.fuelphp.com/docs/classes/form.html`
+- [Format - Classes - FuelPHP Documentation](docs__classes__format.md) — `https://www.fuelphp.com/docs/classes/format.html`
+- [Ftp - Classes - FuelPHP Documentation](docs__classes__ftp.md) — `https://www.fuelphp.com/docs/classes/ftp.html`
+- [Fuel - Classes - FuelPHP Documentation](docs__classes__fuel.md) — `https://www.fuelphp.com/docs/classes/fuel.html`
+- [Html - Classes - FuelPHP Documentation](docs__classes__html.md) — `https://www.fuelphp.com/docs/classes/html.html`
+- [Image - Classes - FuelPHP Documentation](docs__classes__image.md) — `https://www.fuelphp.com/docs/classes/image.html`
+- [Inflector - Classes - FuelPHP Documentation](docs__classes__inflector.md) — `https://www.fuelphp.com/docs/classes/inflector.html`
+- [Input - Classes - FuelPHP Documentation](docs__classes__input.md) — `https://www.fuelphp.com/docs/classes/input.html`
+- [Lang - Classes - FuelPHP Documentation](docs__classes__lang.md) — `https://www.fuelphp.com/docs/classes/lang.html`
+- [Log - Classes - FuelPHP Documentation](docs__classes__log.md) — `https://www.fuelphp.com/docs/classes/log.html`
+- [Markdown - Classes - FuelPHP Documentation](docs__classes__markdown.md) — `https://www.fuelphp.com/docs/classes/markdown.html`
+- [Migrate - Classes - FuelPHP Documentation](docs__classes__migrate.md) — `https://www.fuelphp.com/docs/classes/migrate.html`
+- [Model_Crud - Classes - FuelPHP Documentation](docs__classes__model_crud__introduction.md) — `https://www.fuelphp.com/docs/classes/model_crud/introduction.html`
+- [Model_Crud - Classes - FuelPHP Documentation](docs__classes__model_crud__methods.md) — `https://www.fuelphp.com/docs/classes/model_crud/methods.html`
+- [Module - Classes - FuelPHP Documentation](docs__classes__module.md) — `https://www.fuelphp.com/docs/classes/module.html`
+- [Mongo_Db Introduction - Classes - FuelPHP Documentation](docs__classes__mongo__introduction.md) — `https://www.fuelphp.com/docs/classes/mongo/introduction.html`
+- [Mongo_Db Methods - Classes - FuelPHP Documentation](docs__classes__mongo__methods.md) — `https://www.fuelphp.com/docs/classes/mongo/methods.html`
+- [Num - Classes - FuelPHP Documentation](docs__classes__num.md) — `https://www.fuelphp.com/docs/classes/num.html`
+- [Package - Classes - FuelPHP Documentation](docs__classes__package.md) — `https://www.fuelphp.com/docs/classes/package.html`
+- [Pagination - Classes - FuelPHP Documentation](docs__classes__pagination.md) — `https://www.fuelphp.com/docs/classes/pagination.html`
+- [Presenter - Classes - FuelPHP Documentation](docs__classes__presenter.md) — `https://www.fuelphp.com/docs/classes/presenter.html`
+- [Profiler - Classes - FuelPHP Documentation](docs__classes__profiler.md) — `https://www.fuelphp.com/docs/classes/profiler.html`
+- [Redis_Db - Classes - FuelPHP Documentation](docs__classes__redis.md) — `https://www.fuelphp.com/docs/classes/redis.html`
+- [Request_Curl - Classes - FuelPHP Documentation](docs__classes__request__curl.md) — `https://www.fuelphp.com/docs/classes/request/curl.html`
+- [Request - Classes - FuelPHP Documentation](docs__classes__request__request.md) — `https://www.fuelphp.com/docs/classes/request/request.html`
+- [Request_Soap - Classes - FuelPHP Documentation](docs__classes__request__soap.md) — `https://www.fuelphp.com/docs/classes/request/soap.html`
+- [Response - Classes - FuelPHP Documentation](docs__classes__response.md) — `https://www.fuelphp.com/docs/classes/response.html`
+- [Router - Classes - FuelPHP Documentation](docs__classes__router.md) — `https://www.fuelphp.com/docs/classes/router.html`
+- [Security - Classes - FuelPHP Documentation](docs__classes__security.md) — `https://www.fuelphp.com/docs/classes/security.html`
+- [Session Advanced - Classes - FuelPHP Documentation](docs__classes__session__advanced.md) — `https://www.fuelphp.com/docs/classes/session/advanced.html`
+- [Session Config - Classes - FuelPHP Documentation](docs__classes__session__config.md) — `https://www.fuelphp.com/docs/classes/session/config.html`
+- [Session Usage - Classes - FuelPHP Documentation](docs__classes__session__usage.md) — `https://www.fuelphp.com/docs/classes/session/usage.html`
+- [Str - Classes - FuelPHP Documentation](docs__classes__str.md) — `https://www.fuelphp.com/docs/classes/str.html`
+- [Theme Advanced - Classes - FuelPHP Documentation](docs__classes__theme__advanced.md) — `https://www.fuelphp.com/docs/classes/theme/advanced.html`
+- [Theme Introduction - Classes - FuelPHP Documentation](docs__classes__theme__introduction.md) — `https://www.fuelphp.com/docs/classes/theme/introduction.html`
+- [Theme Methods - Classes - FuelPHP Documentation](docs__classes__theme__methods.md) — `https://www.fuelphp.com/docs/classes/theme/methods.html`
+- [Upload Config - Classes - FuelPHP Documentation](docs__classes__upload__config.md) — `https://www.fuelphp.com/docs/classes/upload/config.html`
+- [Upload Usage - Classes - FuelPHP Documentation](docs__classes__upload__usage.md) — `https://www.fuelphp.com/docs/classes/upload/usage.html`
+- [Uri - Classes - FuelPHP Documentation](docs__classes__uri.md) — `https://www.fuelphp.com/docs/classes/uri.html`
+- [Validation Errors - Classes - FuelPHP Documentation](docs__classes__validation__errors.md) — `https://www.fuelphp.com/docs/classes/validation/errors.html`
+- [Validation Methods - Classes - FuelPHP Documentation](docs__classes__validation__methods.md) — `https://www.fuelphp.com/docs/classes/validation/methods.html`
+- [Validation - Classes - FuelPHP Documentation](docs__classes__validation__validation.md) — `https://www.fuelphp.com/docs/classes/validation/validation.html`
+- [View - Classes - FuelPHP Documentation](docs__classes__view.md) — `https://www.fuelphp.com/docs/classes/view.html`
+- [Contribute - FuelPHP Documentation](docs__contribute.md) — `https://www.fuelphp.com/docs/contribute.html`
+- [Credits - FuelPHP Documentation](docs__credits.md) — `https://www.fuelphp.com/docs/credits.html`
+- [Classes - General - FuelPHP Documentation](docs__general__classes.md) — `https://www.fuelphp.com/docs/general/classes.html`
+- [Coding Standards - General - FuelPHP Documentation](docs__general__coding_standards.md) — `https://www.fuelphp.com/docs/general/coding_standards.html`
+- [Configuration - General - FuelPHP Documentation](docs__general__configuration.md) — `https://www.fuelphp.com/docs/general/configuration.html`
+- [Constants - General - FuelPHP Documentation](docs__general__constants.md) — `https://www.fuelphp.com/docs/general/constants.html`
+- [Controller - General - FuelPHP Documentation](docs__general__controllers__base.md) — `https://www.fuelphp.com/docs/general/controllers/base.html`
+- [Hybrid Controller - General - FuelPHP Documentation](docs__general__controllers__hybrid.md) — `https://www.fuelphp.com/docs/general/controllers/hybrid.html`
+- [Rest Controller - General - FuelPHP Documentation](docs__general__controllers__rest.md) — `https://www.fuelphp.com/docs/general/controllers/rest.html`
+- [Template Controller - General - FuelPHP Documentation](docs__general__controllers__template.md) — `https://www.fuelphp.com/docs/general/controllers/template.html`
+- [Environments - General - FuelPHP Documentation](docs__general__environments.md) — `https://www.fuelphp.com/docs/general/environments.html`
+- [Error Handling - General - FuelPHP Documentation](docs__general__error.md) — `https://www.fuelphp.com/docs/general/error.html`
+- [Extending Core - General - FuelPHP Documentation](docs__general__extending_core.md) — `https://www.fuelphp.com/docs/general/extending_core.html`
+- [HMVC Requests - General - FuelPHP Documentation](docs__general__hmvc.md) — `https://www.fuelphp.com/docs/general/hmvc.html`
+- [Migrations - General - FuelPHP Documentation](docs__general__migrations.md) — `https://www.fuelphp.com/docs/general/migrations.html`
+- [Models - General - FuelPHP Documentation](docs__general__models.md) — `https://www.fuelphp.com/docs/general/models.html`
+- [Modules - General - FuelPHP Documentation](docs__general__modules.md) — `https://www.fuelphp.com/docs/general/modules.html`
+- [Model-View-Controller - General - FuelPHP Documentation](docs__general__mvc.md) — `https://www.fuelphp.com/docs/general/mvc.html`
+- [Namespacing - General - FuelPHP Documentation](docs__general__namespacing.md) — `https://www.fuelphp.com/docs/general/namespacing.html`
+- [Packages - General - FuelPHP Documentation](docs__general__packages.md) — `https://www.fuelphp.com/docs/general/packages.html`
+- [Presenters - General - FuelPHP Documentation](docs__general__presenters.md) — `https://www.fuelphp.com/docs/general/presenters.html`
+- [Profiling - General - FuelPHP Documentation](docs__general__profiling.md) — `https://www.fuelphp.com/docs/general/profiling.html`
+- [Routing - General - FuelPHP Documentation](docs__general__routing.md) — `https://www.fuelphp.com/docs/general/routing.html`
+- [Security - General - FuelPHP Documentation](docs__general__security.md) — `https://www.fuelphp.com/docs/general/security.html`
+- [Tasks - General - FuelPHP Documentation](docs__general__tasks.md) — `https://www.fuelphp.com/docs/general/tasks.html`
+- [Unit Testing - General - FuelPHP Documentation](docs__general__unit_testing.md) — `https://www.fuelphp.com/docs/general/unit_testing.html`
+- [Views - General - FuelPHP Documentation](docs__general__views.md) — `https://www.fuelphp.com/docs/general/views.html`
+- [FuelPHP Documentation](docs__index.md) — `https://www.fuelphp.com/docs/`
+- [Download Fuel - Installation - FuelPHP Documentation](docs__installation__download.md) — `https://www.fuelphp.com/docs/installation/download.html`
+- [External Info - Installation - FuelPHP Documentation](docs__installation__external.md) — `https://www.fuelphp.com/docs/installation/external.html`
+- [Instruction - Installation - FuelPHP Documentation](docs__installation__instructions.md) — `https://www.fuelphp.com/docs/installation/instructions.html`
+- [Troubleshooting - Installation - FuelPHP Documentation](docs__installation__troubleshooting.md) — `https://www.fuelphp.com/docs/installation/troubleshooting.html`
+- [Installation - Upgrade - FuelPHP Documentation](docs__installation__upgrade.md) — `https://www.fuelphp.com/docs/installation/upgrade.html`
+- [License - FuelPHP Documentation](docs__license.md) — `https://www.fuelphp.com/docs/license.html`
+- [Writing your own drivers - Auth Package - FuelPHP Documentation](docs__packages__auth__drivers.md) — `https://www.fuelphp.com/docs/packages/auth/drivers.html`
+- [Auth Controller example - Auth Package - FuelPHP Documentation](docs__packages__auth__examples__auth.md) — `https://www.fuelphp.com/docs/packages/auth/examples/auth.html`
+- [Opauth Controller example - Auth Package - FuelPHP Documentation](docs__packages__auth__examples__opauth.md) — `https://www.fuelphp.com/docs/packages/auth/examples/opauth.html`
+- [Introduction - Auth Package - FuelPHP Documentation](docs__packages__auth__intro.md) — `https://www.fuelphp.com/docs/packages/auth/intro.html`
+- [Introduction - Opauth - Auth Package - FuelPHP Documentation](docs__packages__auth__opauth__intro.md) — `https://www.fuelphp.com/docs/packages/auth/opauth/intro.html`
+- [Usage - Opauth - Auth Package - FuelPHP Documentation](docs__packages__auth__opauth__usage.md) — `https://www.fuelphp.com/docs/packages/auth/opauth/usage.html`
+- [Introduction - OrmAuth - Auth Package - FuelPHP Documentation](docs__packages__auth__ormauth__intro.md) — `https://www.fuelphp.com/docs/packages/auth/ormauth/intro.html`
+- [Usage - OrmAuth - Auth Package - FuelPHP Documentation](docs__packages__auth__ormauth__usage.md) — `https://www.fuelphp.com/docs/packages/auth/ormauth/usage.html`
+- [Introduction - SimpleAuth - Auth Package - FuelPHP Documentation](docs__packages__auth__simpleauth__intro.md) — `https://www.fuelphp.com/docs/packages/auth/simpleauth/intro.html`
+- [Usage - SimpleAuth - Auth Package - FuelPHP Documentation](docs__packages__auth__simpleauth__usage.md) — `https://www.fuelphp.com/docs/packages/auth/simpleauth/usage.html`
+- [ACL - Driver types - Auth Package - FuelPHP Documentation](docs__packages__auth__types__acl.md) — `https://www.fuelphp.com/docs/packages/auth/types/acl.html`
+- [Group - Driver types - Auth Package - FuelPHP Documentation](docs__packages__auth__types__group.md) — `https://www.fuelphp.com/docs/packages/auth/types/group.html`
+- [Login - Driver types - Auth Package - FuelPHP Documentation](docs__packages__auth__types__login.md) — `https://www.fuelphp.com/docs/packages/auth/types/login.html`
+- [Introduction - Email Package - FuelPHP Documentation](docs__packages__email__introduction.md) — `https://www.fuelphp.com/docs/packages/email/introduction.html`
+- [Methods - Email Package - FuelPHP Documentation](docs__packages__email__methods.md) — `https://www.fuelphp.com/docs/packages/email/methods.html`
+- [Troubleshooting - Email Package - FuelPHP Documentation](docs__packages__email__troubleshooting.md) — `https://www.fuelphp.com/docs/packages/email/troubleshooting.html`
+- [Usage - Email Package - FuelPHP Documentation](docs__packages__email__usage.md) — `https://www.fuelphp.com/docs/packages/email/usage.html`
+- [Console - Oil Package - FuelPHP Documentation](docs__packages__oil__console.md) — `https://www.fuelphp.com/docs/packages/oil/console.html`
+- [Generate - Oil Package - FuelPHP Documentation](docs__packages__oil__generate.md) — `https://www.fuelphp.com/docs/packages/oil/generate.html`
+- [Introduction - Oil Package - FuelPHP Documentation](docs__packages__oil__intro.md) — `https://www.fuelphp.com/docs/packages/oil/intro.html`
+- [Package - Oil Package - FuelPHP Documentation](docs__packages__oil__package.md) — `https://www.fuelphp.com/docs/packages/oil/package.html`
+- [Generate - Oil Package - FuelPHP Documentation](docs__packages__oil__refine.md) — `https://www.fuelphp.com/docs/packages/oil/refine.html`
+- [Server - Oil Package - FuelPHP Documentation](docs__packages__oil__server.md) — `https://www.fuelphp.com/docs/packages/oil/server.html`
+- [Test - Oil Package - FuelPHP Documentation](docs__packages__oil__test.md) — `https://www.fuelphp.com/docs/packages/oil/test.html`
+- [Creating models - Orm Package - FuelPHP Documentation](docs__packages__orm__creating_models.md) — `https://www.fuelphp.com/docs/packages/orm/creating_models.html`
+- [CRUD - Orm Package - FuelPHP Documentation](docs__packages__orm__crud.md) — `https://www.fuelphp.com/docs/packages/orm/crud.html`
+- [EAV Containers - Orm Package - FuelPHP Documentation](docs__packages__orm__eav.md) — `https://www.fuelphp.com/docs/packages/orm/eav.html`
+- [Introduction - Orm Package - FuelPHP Documentation](docs__packages__orm__intro.md) — `https://www.fuelphp.com/docs/packages/orm/intro.html`
+- [NestedSets Model - Orm Package - FuelPHP Documentation](docs__packages__orm__model__nestedset.md) — `https://www.fuelphp.com/docs/packages/orm/model/nestedset.html`
+- [Soft Delete Model - Orm Package - FuelPHP Documentation](docs__packages__orm__model__soft.md) — `https://www.fuelphp.com/docs/packages/orm/model/soft.html`
+- [Temporal Model - Orm Package - FuelPHP Documentation](docs__packages__orm__model__temporal.md) — `https://www.fuelphp.com/docs/packages/orm/model/temporal.html`
+- [Creating - Observers - Orm Package - FuelPHP Documentation](docs__packages__orm__observers__creating.md) — `https://www.fuelphp.com/docs/packages/orm/observers/creating.html`
+- [Included - Observers - Orm Package - FuelPHP Documentation](docs__packages__orm__observers__included.md) — `https://www.fuelphp.com/docs/packages/orm/observers/included.html`
+- [Introduction - Obervers - Orm Package - FuelPHP Documentation](docs__packages__orm__observers__intro.md) — `https://www.fuelphp.com/docs/packages/orm/observers/intro.html`
+- [Belongs To - Relations - Orm Package - FuelPHP Documentation](docs__packages__orm__relations__belongs_to.md) — `https://www.fuelphp.com/docs/packages/orm/relations/belongs_to.html`
+- [Has Many - Relations - Orm Package - FuelPHP Documentation](docs__packages__orm__relations__has_many.md) — `https://www.fuelphp.com/docs/packages/orm/relations/has_many.html`
+- [Has One - Relations - Orm Package - FuelPHP Documentation](docs__packages__orm__relations__has_one.md) — `https://www.fuelphp.com/docs/packages/orm/relations/has_one.html`
+- [Introduction - Relations - Orm Package - FuelPHP Documentation](docs__packages__orm__relations__intro.md) — `https://www.fuelphp.com/docs/packages/orm/relations/intro.html`
+- [Many to Many - Relations - Orm Package - FuelPHP Documentation](docs__packages__orm__relations__many_many.md) — `https://www.fuelphp.com/docs/packages/orm/relations/many_many.html`
+- [Introduction - Parser Package - FuelPHP Documentation](docs__packages__parser__intro.md) — `https://www.fuelphp.com/docs/packages/parser/intro.html`
+- [Requirements - FuelPHP Documentation](docs__requirements.md) — `https://www.fuelphp.com/docs/requirements.html`
+- [Table of Contents - FuelPHP Documentation](docs__toc.md) — `https://www.fuelphp.com/docs/toc.html`
+- [Vendor additions - htmLawed - FuelPHP Documentation](docs__vendor__htmlawed.md) — `https://www.fuelphp.com/docs/vendor/htmlawed.html`
+- [Vendor additions - introduction - FuelPHP Documentation](docs__vendor__intro.md) — `https://www.fuelphp.com/docs/vendor/intro.html`
+- [Vendor additions - markdown - FuelPHP Documentation](docs__vendor__markdown.md) — `https://www.fuelphp.com/docs/vendor/markdown.html`
+- [Vendor additions - PHPQuickProfiler - FuelPHP Documentation](docs__vendor__phpquickprofiler.md) — `https://www.fuelphp.com/docs/vendor/phpquickprofiler.html`
+- [Vendor additions - PHPSecLib - FuelPHP Documentation](docs__vendor__phpseclib.md) — `https://www.fuelphp.com/docs/vendor/phpseclib.html`
+- [Vendor additions - spyc - FuelPHP Documentation](docs__vendor__spyc.md) — `https://www.fuelphp.com/docs/vendor/spyc.html`

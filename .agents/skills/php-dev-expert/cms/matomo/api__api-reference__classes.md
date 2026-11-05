@@ -1,0 +1,293 @@
+# Classes - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6
+
+> **Fonte / Source:** https://developer.matomo.org/api-reference/classes
+
+---
+
+#### [API Reference](api__api-reference.md)
+
+- [Introduction](api__api-reference__api-reference-introduction.md)
+- Tracking
+  - [Tracking HTTP API](api__api-reference__tracking-api.md)
+  - [JavaScript Tracking Client](api__api-reference__tracking-javascript.md)
+  - [Java Tracker](api__api-reference__tracking-java.md)
+  - [PHP Tracking Client](api__api-reference__PHP-Matomo-Tracker.md)
+- Tag Manager
+  - [Tag Manager JavaScript API](api__api-reference__tagmanager__javascript-api-reference.md)
+- Reporting HTTP API
+  - [Reporting API Reference](api__api-reference__reporting-api.md)
+  - [Metadata](api__api-reference__reporting-api-metadata.md)
+  - [Segmentation](api__api-reference__reporting-api-segmentation.md)
+  - [Compatible apiModule and apiAction combinations](api__api-reference__reporting-api-apiModule_apiAction-combinations.md)
+- PHP Plugins API
+  - [Classes](api__api-reference__classes.md)
+  - [Events](api__api-reference__events.md)
+  - [Index](api__api-reference__index.md)
+- WordPress
+  - [Classes](api__api-reference__wordpress__classes-reference.md)
+  - [Hooks](api__api-reference__wordpress__hooks-reference.md)
+  - [REST API](api__api-reference__wordpress__restapi-reference.md)
+- Database
+  - [Database schema](api__guides__database-schema.md)
+
+# Classes
+
+This is a complete list of available classes:
+
+- [`API\Request`](api__api-reference__Piwik__API__Request.md) — Dispatches API requests to the appropriate API method.
+- [`Access`](api__api-reference__Piwik__Access.md) — Singleton that manages user access to Matomo (formerly Piwik) resources.
+- [`Archive`](api__api-reference__Piwik__Archive.md) — The **Archive** class is used to query cached analytics statistics (termed "archive data").
+- [`ArchiveProcessor`](api__api-reference__Piwik__ArchiveProcessor.md) — Used by [Archiver](api__api-reference__Piwik__Plugin__Archiver.md) instances to insert and aggregate archive data.
+- [`ArchiveProcessor\Parameters`](api__api-reference__Piwik__ArchiveProcessor__Parameters.md) — Contains the analytics parameters for the reports that are currently being archived.
+- [`ArchiveProcessor\Record`](api__api-reference__Piwik__ArchiveProcessor__Record.md)
+- [`Archive\ArchiveInvalidator`](api__api-reference__Piwik__Archive__ArchiveInvalidator.md) — Service that can be used to invalidate archives or add archive references to a list so they will be invalidated later.
+- [`AuthResult`](api__api-reference__Piwik__AuthResult.md) — Authentication result.
+- [`Auth\Password`](api__api-reference__Piwik__Auth__Password.md) — Main class to handle actions related to password hashing and verification.
+- [`Auth\PasswordStrength`](api__api-reference__Piwik__Auth__PasswordStrength.md) — Main class to handle actions related to password strength rules and verification of those rules.
+- [`Category\Subcategory`](api__api-reference__Piwik__Category__Subcategory.md) — Base type for subcategories.
+- [`Columns\ComputedMetricFactory`](api__api-reference__Piwik__Columns__ComputedMetricFactory.md) — A factory to create computed metrics.
+- [`Columns\Dimension`](api__api-reference__Piwik__Columns__Dimension.md)
+- [`Columns\DimensionMetricFactory`](api__api-reference__Piwik__Columns__DimensionMetricFactory.md) — A factory to create metrics from a dimension.
+- [`Columns\DimensionSegmentFactory`](api__api-reference__Piwik__Columns__DimensionSegmentFactory.md) — A factory to create segments from a dimension.
+- [`Columns\Discriminator`](api__api-reference__Piwik__Columns__Discriminator.md)
+- [`Columns\Join`](api__api-reference__Piwik__Columns__Join.md)
+- [`Columns\Join\ActionNameJoin`](api__api-reference__Piwik__Columns__Join__ActionNameJoin.md)
+- [`Columns\Join\GoalNameJoin`](api__api-reference__Piwik__Columns__Join__GoalNameJoin.md)
+- [`Columns\Join\SiteNameJoin`](api__api-reference__Piwik__Columns__Join__SiteNameJoin.md)
+- [`Columns\MetricsList`](api__api-reference__Piwik__Columns__MetricsList.md) — Manages the global list of metrics that can be used in reports.
+- [`Columns\Updater`](api__api-reference__Piwik__Columns__Updater.md) — Class that handles dimension updates
+- [`Common`](api__api-reference__Piwik__Common.md) — Contains helper methods used by both Matomo Core and the Matomo Tracking engine.
+- [`Config`](api__api-reference__Piwik__Config.md) — Singleton that provides read & write access to Matomo's INI configuration.
+- [`DI`](api__api-reference__Piwik__DI.md) — Proxy class for using DI related methods
+- [`DataAccess\LogAggregator`](api__api-reference__Piwik__DataAccess__LogAggregator.md) — Contains methods that calculate metrics by aggregating log data (visits, actions, conversions, ecommerce items).
+- [`DataTable`](api__api-reference__Piwik__DataTable.md) — The primary data structure used to store analytics data in Matomo.
+- [`DataTable\BaseFilter`](api__api-reference__Piwik__DataTable__BaseFilter.md) — A filter is set of logic that manipulates a DataTable.
+- [`DataTable\Filter\AddColumnsProcessedMetrics`](api__api-reference__Piwik__DataTable__Filter__AddColumnsProcessedMetrics.md) — Adds processed metrics columns to a DataTable using metrics that already exist.
+- [`DataTable\Filter\AddColumnsProcessedMetricsGoal`](api__api-reference__Piwik__DataTable__Filter__AddColumnsProcessedMetricsGoal.md) — Adds goal related metrics to a DataTable using metrics that already exist.
+- [`DataTable\Filter\AddSegmentByLabel`](api__api-reference__Piwik__DataTable__Filter__AddSegmentByLabel.md) — Executes a filter for each row of a DataTable and generates a segment filter for each row.
+- [`DataTable\Filter\AddSegmentByLabelMapping`](api__api-reference__Piwik__DataTable__Filter__AddSegmentByLabelMapping.md) — Executes a filter for each row of a DataTable and generates a segment filter for each row.
+- [`DataTable\Filter\AddSegmentByRangeLabel`](api__api-reference__Piwik__DataTable__Filter__AddSegmentByRangeLabel.md) — Executes a filter for each row of a DataTable and generates a segment filter for each row.
+- [`DataTable\Filter\AddSegmentBySegmentValue`](api__api-reference__Piwik__DataTable__Filter__AddSegmentBySegmentValue.md) — Converts for each row of a DataTable a segmentValue to a segment (expression).
+- [`DataTable\Filter\AddSegmentValue`](api__api-reference__Piwik__DataTable__Filter__AddSegmentValue.md) — Executes a filter for each row of a DataTable and generates a segment filter for each row.
+- [`DataTable\Filter\AddSummaryRow`](api__api-reference__Piwik__DataTable__Filter__AddSummaryRow.md) — Adds a summary row to DataTables that contains the sum of all other table rows.
+- [`DataTable\Filter\BeautifyRangeLabels`](api__api-reference__Piwik__DataTable__Filter__BeautifyRangeLabels.md) — A DataTable filter that replaces range label columns with prettier, human-friendlier versions.
+- [`DataTable\Filter\BeautifyTimeRangeLabels`](api__api-reference__Piwik__DataTable__Filter__BeautifyTimeRangeLabels.md) — A DataTable filter that replaces range labels whose values are in seconds with prettier, human-friendlier versions.
+- [`DataTable\Filter\CalculateEvolutionFilter`](api__api-reference__Piwik__DataTable__Filter__CalculateEvolutionFilter.md) — A DataTable filter that calculates the evolution of a metric and adds it to each row as a percentage.
+- [`DataTable\Filter\ColumnCallbackAddColumn`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackAddColumn.md) — Adds a new column to every row of a DataTable based on the result of callback.
+- [`DataTable\Filter\ColumnCallbackAddColumnPercentage`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackAddColumnPercentage.md) — Calculates a percentage value for each row of a DataTable and adds the result to each row.
+- [`DataTable\Filter\ColumnCallbackAddColumnQuotient`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackAddColumnQuotient.md) — Calculates the quotient of two columns and adds the result as a new column for each row of a DataTable.
+- [`DataTable\Filter\ColumnCallbackAddMetadata`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackAddMetadata.md) — Executes a callback for each row of a DataTable and adds the result as a new row metadata value.
+- [`DataTable\Filter\ColumnCallbackDeleteMetadata`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackDeleteMetadata.md) — Executes a callback for each row of a DataTable and removes the defined metadata column from each row.
+- [`DataTable\Filter\ColumnCallbackDeleteRow`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackDeleteRow.md) — Deletes all rows for which a callback returns true.
+- [`DataTable\Filter\ColumnCallbackReplace`](api__api-reference__Piwik__DataTable__Filter__ColumnCallbackReplace.md) — Replaces one or more column values in each row of a DataTable with the results of a callback.
+- [`DataTable\Filter\ColumnDelete`](api__api-reference__Piwik__DataTable__Filter__ColumnDelete.md) — Filter that will remove columns from a DataTable using either a blacklist, allowlist or both.
+- [`DataTable\Filter\ExcludeLowPopulation`](api__api-reference__Piwik__DataTable__Filter__ExcludeLowPopulation.md) — Deletes all rows for which a specific column has a value that is lower than specified minimum threshold value.
+- [`DataTable\Filter\GroupBy`](api__api-reference__Piwik__DataTable__Filter__GroupBy.md) — DataTable filter that will group DataTable rows together based on the results of a reduce function.
+- [`DataTable\Filter\Limit`](api__api-reference__Piwik__DataTable__Filter__Limit.md) — Delete all rows from the table that are not in the given [offset, offset+limit) range.
+- [`DataTable\Filter\MetadataCallbackAddMetadata`](api__api-reference__Piwik__DataTable__Filter__MetadataCallbackAddMetadata.md) — Executes a callback for each row of a DataTable and adds the result to the row as a metadata value.
+- [`DataTable\Filter\MetadataCallbackReplace`](api__api-reference__Piwik__DataTable__Filter__MetadataCallbackReplace.md) — Execute a callback for each row of a DataTable passing certain column values and metadata as metadata, and replaces row metadata with the callback result.
+- [`DataTable\Filter\Pattern`](api__api-reference__Piwik__DataTable__Filter__Pattern.md) — Deletes every row for which a specific column does not match a supplied regex pattern.
+- [`DataTable\Filter\PatternRecursive`](api__api-reference__Piwik__DataTable__Filter__PatternRecursive.md) — Deletes rows that do not contain a column that matches a regex pattern and do not contain a subtable that contains a column that matches a regex pattern.
+- [`DataTable\Filter\PrependSegment`](api__api-reference__Piwik__DataTable__Filter__PrependSegment.md) — Executes a callback for each row of a DataTable and prepends each existing segment with the given segment.
+- [`DataTable\Filter\PrependValueToMetadata`](api__api-reference__Piwik__DataTable__Filter__PrependValueToMetadata.md) — Executes a callback for each row of a DataTable and prepends the given value to each metadata entry but only if the given metadata entry exists.
+- [`DataTable\Filter\RemoveSubtables`](api__api-reference__Piwik__DataTable__Filter__RemoveSubtables.md) — Delete all existing subtables from rows.
+- [`DataTable\Filter\ReplaceColumnNames`](api__api-reference__Piwik__DataTable__Filter__ReplaceColumnNames.md) — Replaces column names in each row of a table using an array that maps old column names new ones.
+- [`DataTable\Filter\ReplaceSummaryRowLabel`](api__api-reference__Piwik__DataTable__Filter__ReplaceSummaryRowLabel.md) — Replaces the label of the summary row with a supplied label.
+- [`DataTable\Filter\Sort`](api__api-reference__Piwik__DataTable__Filter__Sort.md) — Sorts a DataTable based on the value of a specific column.
+- [`DataTable\Filter\Truncate`](api__api-reference__Piwik__DataTable__Filter__Truncate.md) — Truncates a DataTable by merging all rows after a certain index into a new summary row.
+- [`DataTable\Map`](api__api-reference__Piwik__DataTable__Map.md) — Stores an array of DataTables indexed by one type of DataTable metadata (such as site ID or period).
+- [`DataTable\Row`](api__api-reference__Piwik__DataTable__Row.md) — This is what a [DataTable](api__api-reference__Piwik__DataTable.md) is composed of.
+- [`DataTable\Simple`](api__api-reference__Piwik__DataTable__Simple.md) — A [DataTable](api__api-reference__Piwik__DataTable.md) where every row has two columns: **label** and **value**.
+- [`Date`](api__api-reference__Piwik__Date.md) — Utility class that wraps date/time related PHP functions.
+- [`Db`](api__api-reference__Piwik__Db.md) — Contains SQL related helper functions for Matomo's MySQL database.
+- [`DbHelper`](api__api-reference__Piwik__DbHelper.md) — Contains database related helper functions.
+- [`Filesystem`](api__api-reference__Piwik__Filesystem.md) — Contains helper functions that deal with the filesystem.
+- [`FrontController`](api__api-reference__Piwik__FrontController.md) — This singleton dispatches requests to the appropriate plugin Controller.
+- [`Http`](api__api-reference__Piwik__Http.md) — Contains HTTP client related helper methods that can retrieve content from remote servers and optionally save to a local file.
+- [`Http\SecurityHeaders`](api__api-reference__Piwik__Http__SecurityHeaders.md) — Sends the response headers for a data response: one that carries data rather than application UI.
+- [`IP`](api__api-reference__Piwik__IP.md) — Contains IP address helper functions (for both IPv4 and IPv6).
+- [`Intl\Data\Provider\CurrencyDataProvider`](api__api-reference__Piwik__Intl__Data__Provider__CurrencyDataProvider.md) — Provides currency data.
+- [`Intl\Data\Provider\LanguageDataProvider`](api__api-reference__Piwik__Intl__Data__Provider__LanguageDataProvider.md) — Provides language data.
+- [`Intl\Data\Provider\RegionDataProvider`](api__api-reference__Piwik__Intl__Data__Provider__RegionDataProvider.md) — Provides region related data (continents, countries, etc.).
+- [`Log`](api__api-reference__Piwik__Log.md) — Logging utility class.
+- [`Mail`](api__api-reference__Piwik__Mail.md) — Class for sending mails
+- [`Menu\MenuAbstract`](api__api-reference__Piwik__Menu__MenuAbstract.md) — Base class for classes that manage one of Matomo's menus.
+- [`Menu\MenuAdmin`](api__api-reference__Piwik__Menu__MenuAdmin.md) — Contains menu entries for the Admin menu.
+- [`Menu\MenuTop`](api__api-reference__Piwik__Menu__MenuTop.md) — Contains menu entries for the Top menu (the menu at the very top of the page).
+- [`Metrics`](api__api-reference__Piwik__Metrics.md) — This class contains metadata regarding core metrics and contains several related helper functions.
+- [`Metrics\Formatter`](api__api-reference__Piwik__Metrics__Formatter.md) — Contains methods to format metric values.
+- [`Metrics\Formatter\Html`](api__api-reference__Piwik__Metrics__Formatter__Html.md) — Metrics formatter that formats for HTML output.
+- [`NoAccessException`](api__api-reference__Piwik__NoAccessException.md) — Exception thrown when a user doesn't have sufficient access to a resource.
+- [`Nonce`](api__api-reference__Piwik__Nonce.md) — Nonce class.
+- [`Notification`](api__api-reference__Piwik__Notification.md) — Describes a UI notification.
+- [`Notification\Manager`](api__api-reference__Piwik__Notification__Manager.md) — Posts and removes UI notifications (see [Notification](api__api-reference__Piwik__Notification.md) to learn more).
+- [`Option`](api__api-reference__Piwik__Option.md) — Convenient key-value storage for user specified options and temporary data that needs to be persisted beyond one request.
+- [`Period`](api__api-reference__Piwik__Period.md) — Date range representation.
+- [`Period\Range`](api__api-reference__Piwik__Period__Range.md) — Arbitrary date range representation.
+- [`Piwik`](api__api-reference__Piwik__Piwik.md) — Main piwik helper class.
+- [`Plugin`](api__api-reference__Piwik__Plugin.md) — Base class of all Plugin Descriptor classes.
+- [`Plugin\API`](api__api-reference__Piwik__Plugin__API.md) — The base class of all API singletons.
+- [`Plugin\AggregatedMetric`](api__api-reference__Piwik__Plugin__AggregatedMetric.md) — Base type for metric metadata classes that describe aggregated metrics.
+- [`Plugin\Archiver`](api__api-reference__Piwik__Plugin__Archiver.md) — The base class that should be extended by plugins that compute their own analytics data.
+- [`Plugin\Controller`](api__api-reference__Piwik__Plugin__Controller.md) — Base class of all plugin Controllers.
+- [`Plugin\ControllerAdmin`](api__api-reference__Piwik__Plugin__ControllerAdmin.md) — Base class of plugin controllers that provide administrative functionality.
+- [`Plugin\Dimension\ActionDimension`](api__api-reference__Piwik__Plugin__Dimension__ActionDimension.md) — Defines a new action dimension that records any information during tracking for each action.
+- [`Plugin\Dimension\ConversionDimension`](api__api-reference__Piwik__Plugin__Dimension__ConversionDimension.md) — Defines a new conversion dimension that records any visit related information during tracking.
+- [`Plugin\Dimension\VisitDimension`](api__api-reference__Piwik__Plugin__Dimension__VisitDimension.md) — Defines a new visit dimension that records any visit related information during tracking.
+- [`Plugin\Manager`](api__api-reference__Piwik__Plugin__Manager.md) — The singleton that manages plugin loading/unloading and installation/uninstallation.
+- [`Plugin\Menu`](api__api-reference__Piwik__Plugin__Menu.md) — Base class of all plugin menu providers.
+- [`Plugin\Metric`](api__api-reference__Piwik__Plugin__Metric.md) — Base type of metric metadata classes.
+- [`Plugin\ProcessedMetric`](api__api-reference__Piwik__Plugin__ProcessedMetric.md) — Base type for processed metrics.
+- [`Plugin\Report`](api__api-reference__Piwik__Plugin__Report.md) — Defines a new report.
+- [`Plugin\ReportsProvider`](api__api-reference__Piwik__Plugin__ReportsProvider.md) — Get reports that are defined by plugins.
+- [`Plugin\Segment`](api__api-reference__Piwik__Plugin__Segment.md) — Creates a new segment that can be used for instance within the \Piwik\Columns\Dimension::configureSegment() method.
+- [`Plugin\SettingsProvider`](api__api-reference__Piwik__Plugin__SettingsProvider.md) — Base class of all plugin settings providers.
+- [`Plugin\Tasks`](api__api-reference__Piwik__Plugin__Tasks.md) — Base class for all Tasks declarations.
+- [`Plugin\ViewDataTable`](api__api-reference__Piwik__Plugin__ViewDataTable.md) — The base class of all report visualizations.
+- [`Plugin\Visualization`](api__api-reference__Piwik__Plugin__Visualization.md) — The base class for report visualizations that output HTML and use JavaScript.
+- [`Plugins\AIAgents\Columns\Metrics\AIAgentMetric`](api__api-reference__Piwik__Plugins__AIAgents__Columns__Metrics__AIAgentMetric.md) — Processed metric for AIAgents.get API method which just copies VisitsSummary.get metrics as differently named metrics.
+- [`Plugins\Actions\Columns\Metrics\AveragePageGenerationTime`](api__api-reference__Piwik__Plugins__Actions__Columns__Metrics__AveragePageGenerationTime.md) — The average amount of time it takes to generate a page.
+- [`Plugins\Actions\Columns\Metrics\AverageTimeOnPage`](api__api-reference__Piwik__Plugins__Actions__Columns__Metrics__AverageTimeOnPage.md) — The average amount of time spent on a page.
+- [`Plugins\Actions\Columns\Metrics\BounceRate`](api__api-reference__Piwik__Plugins__Actions__Columns__Metrics__BounceRate.md) — The bounce rate for individual pages.
+- [`Plugins\Actions\Columns\Metrics\ExitRate`](api__api-reference__Piwik__Plugins__Actions__Columns__Metrics__ExitRate.md) — Percent of visits that finished on this page.
+- [`Plugins\Bandwidth\Columns\Metrics\AvgBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__AvgBandwidth.md) — The average amount bandwidth per page.
+- [`Plugins\Bandwidth\Columns\Metrics\Base`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__Base.md)
+- [`Plugins\Bandwidth\Columns\Metrics\DownloadBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__DownloadBandwidth.md) — The total amount bandwidth used for downloads.
+- [`Plugins\Bandwidth\Columns\Metrics\HitsWithBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__HitsWithBandwidth.md) — The amount of a pages that were tracked having a bandwidth.
+- [`Plugins\Bandwidth\Columns\Metrics\MaxBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__MaxBandwidth.md) — The max amount bandwidth of a pages.
+- [`Plugins\Bandwidth\Columns\Metrics\MinBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__MinBandwidth.md) — The min amount bandwidth of a pages.
+- [`Plugins\Bandwidth\Columns\Metrics\OverallBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__OverallBandwidth.md) — The total amount bandwidth used.
+- [`Plugins\Bandwidth\Columns\Metrics\PageviewBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__PageviewBandwidth.md) — The total amount bandwidth used for page views.
+- [`Plugins\Bandwidth\Columns\Metrics\SumBandwidth`](api__api-reference__Piwik__Plugins__Bandwidth__Columns__Metrics__SumBandwidth.md) — The sum amount bandwidth of a pages.
+- [`Plugins\BotTracking\Columns\Metrics\AIChatbotRequests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__AIChatbotRequests.md) — Column metric for the AI-chatbot request count on the Human/AI-Favoured Pages reports.
+- [`Plugins\BotTracking\Columns\Metrics\AcquiredVisits`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__AcquiredVisits.md)
+- [`Plugins\BotTracking\Columns\Metrics\AvgResponseSize`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__AvgResponseSize.md)
+- [`Plugins\BotTracking\Columns\Metrics\AvgServerTime`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__AvgServerTime.md)
+- [`Plugins\BotTracking\Columns\Metrics\ClickThroughRate`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__ClickThroughRate.md)
+- [`Plugins\BotTracking\Columns\Metrics\DiscrepancyScore`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__DiscrepancyScore.md) — Column metadata (name / translation / per-variant documentation / formatting) for the bounded 0–100 Discrepancy Score on the Human/AI-Favoured Pages reports.
+- [`Plugins\BotTracking\Columns\Metrics\DocumentRequests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__DocumentRequests.md)
+- [`Plugins\BotTracking\Columns\Metrics\PageNotFound404Requests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__PageNotFound404Requests.md)
+- [`Plugins\BotTracking\Columns\Metrics\PageRequests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__PageRequests.md)
+- [`Plugins\BotTracking\Columns\Metrics\Requests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__Requests.md)
+- [`Plugins\BotTracking\Columns\Metrics\ServerError5xxRequests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__ServerError5xxRequests.md)
+- [`Plugins\BotTracking\Columns\Metrics\TotalBrokenRequests`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__TotalBrokenRequests.md)
+- [`Plugins\BotTracking\Columns\Metrics\UniqueHumanPageviews`](api__api-reference__Piwik__Plugins__BotTracking__Columns__Metrics__UniqueHumanPageviews.md) — Column metric for the human-side pageview count on the Human/AI-Favoured Pages reports.
+- [`Plugins\Contents\Columns\Metrics\InteractionRate`](api__api-reference__Piwik__Plugins__Contents__Columns__Metrics__InteractionRate.md) — The content interaction rate.
+- [`Plugins\CoreHome\Columns\Metrics\ActionsPerVisit`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__ActionsPerVisit.md) — The average number of actions per visit.
+- [`Plugins\CoreHome\Columns\Metrics\AverageTimeOnSite`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__AverageTimeOnSite.md) — The average number of seconds spent on the site per visit.
+- [`Plugins\CoreHome\Columns\Metrics\BounceRate`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__BounceRate.md) — The percentage of visits that leave the site without visiting another page.
+- [`Plugins\CoreHome\Columns\Metrics\CallableProcessedMetric`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__CallableProcessedMetric.md)
+- [`Plugins\CoreHome\Columns\Metrics\ConversionRate`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__ConversionRate.md) — The percent of visits that result in a conversion.
+- [`Plugins\CoreHome\Columns\Metrics\EvolutionMetric`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__EvolutionMetric.md) — Calculates evolution values for any other metric.
+- [`Plugins\CoreHome\Columns\Metrics\PercentOfReportTotal`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__PercentOfReportTotal.md) — Percent of the report total for a metric.
+- [`Plugins\CoreHome\Columns\Metrics\VisitsPercent`](api__api-reference__Piwik__Plugins__CoreHome__Columns__Metrics__VisitsPercent.md) — Percent of visits in the whole table.
+- [`Plugins\CoreHome\SystemSummary\Item`](api__api-reference__Piwik__Plugins__CoreHome__SystemSummary__Item.md) — This class can be used to add a new entry / item to the system summary widget.
+- [`Plugins\CoreVisualizations\Metrics\Formatter\Numeric`](api__api-reference__Piwik__Plugins__CoreVisualizations__Metrics__Formatter__Numeric.md) — A metrics formatter that prettifies metric values without returning string values.
+- [`Plugins\CoreVisualizations\Visualizations\Cloud\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__Cloud__Config.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\CoreVisualizations\Visualizations\Graph\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__Graph__Config.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\CoreVisualizations\Visualizations\HtmlTable\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__HtmlTable__Config.md) — Configuration for the HtmlTable visualization.
+- [`Plugins\CoreVisualizations\Visualizations\JqplotGraph\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__JqplotGraph__Config.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\CoreVisualizations\Visualizations\JqplotGraph\Evolution\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__JqplotGraph__Evolution__Config.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\CoreVisualizations\Visualizations\Sparklines\Config`](api__api-reference__Piwik__Plugins__CoreVisualizations__Visualizations__Sparklines__Config.md) — DataTable Visualization that derives from Sparklines.
+- [`Plugins\CustomDimensions\Columns\Metrics\AverageTimeOnDimension`](api__api-reference__Piwik__Plugins__CustomDimensions__Columns__Metrics__AverageTimeOnDimension.md) — The average amount of time spent on a dimension.
+- [`Plugins\CustomDimensions\Dimension\Name`](api__api-reference__Piwik__Plugins__CustomDimensions__Dimension__Name.md)
+- [`Plugins\CustomJsTracker\TrackerUpdater`](api__api-reference__Piwik__Plugins__CustomJsTracker__TrackerUpdater.md) — Updates the Matomo JavaScript Tracker "piwik.js" in case plugins extend the tracker.
+- [`Plugins\DevicePlugins\DevicePlugins`](api__api-reference__Piwik__Plugins__DevicePlugins__DevicePlugins.md)
+- [`Plugins\Diagnostics\DiagnosticService`](api__api-reference__Piwik__Plugins__Diagnostics__DiagnosticService.md) — Runs the Matomo diagnostics.
+- [`Plugins\Diagnostics\Diagnostic\DiagnosticResult`](api__api-reference__Piwik__Plugins__Diagnostics__Diagnostic__DiagnosticResult.md) — The result of a diagnostic.
+- [`Plugins\Diagnostics\Diagnostic\DiagnosticResultItem`](api__api-reference__Piwik__Plugins__Diagnostics__Diagnostic__DiagnosticResultItem.md)
+- [`Plugins\Events\Columns\Metrics\AverageEventValue`](api__api-reference__Piwik__Plugins__Events__Columns__Metrics__AverageEventValue.md) — The average value for a triggered event.
+- [`Plugins\Goals\Columns\Metrics\AverageOrderRevenue`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__AverageOrderRevenue.md) — The average value for each order.
+- [`Plugins\Goals\Columns\Metrics\AveragePrice`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__AveragePrice.md) — The average price for each ecommerce order or abandoned cart.
+- [`Plugins\Goals\Columns\Metrics\AverageQuantity`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__AverageQuantity.md) — The average amount of products in each order or abandoned cart.
+- [`Plugins\Goals\Columns\Metrics\GoalConversionRate`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalConversionRate.md) — The conversion rate for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecificProcessedMetric`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecificProcessedMetric.md) — Base class for processed metrics that are calculated using metrics that are specific to certain goals.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\AverageOrderRevenue`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__AverageOrderRevenue.md) — The average order revenue for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ConversionEntryRate`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ConversionEntryRate.md) — The entry page conversion rate for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ConversionPageRate`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ConversionPageRate.md) — The page conversion rate for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ConversionRate`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ConversionRate.md) — The conversion rate for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\Conversions`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__Conversions.md) — The conversions for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ConversionsAttrib`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ConversionsAttrib.md) — The conversions for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ConversionsEntry`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ConversionsEntry.md) — The conversions for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\ItemsCount`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__ItemsCount.md) — The number of ecommerce order items for conversions of a goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\Revenue`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__Revenue.md) — Revenue for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\RevenueAttrib`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__RevenueAttrib.md) — Attributed Revenue for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\RevenueEntry`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__RevenueEntry.md) — Attributed Revenue for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\RevenuePerEntry`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__RevenuePerEntry.md) — Revenue per entry for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\GoalSpecific\RevenuePerVisit`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__GoalSpecific__RevenuePerVisit.md) — Revenue per visit for a specific goal.
+- [`Plugins\Goals\Columns\Metrics\ProductConversionRate`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__ProductConversionRate.md) — The conversion rate for ecommerce orders.
+- [`Plugins\Goals\Columns\Metrics\RevenuePerVisit`](api__api-reference__Piwik__Plugins__Goals__Columns__Metrics__RevenuePerVisit.md) — The amount of revenue per visit (or per conversion if there are no visits).
+- [`Plugins\Live\ProfileSummaryProvider`](api__api-reference__Piwik__Plugins__Live__ProfileSummaryProvider.md)
+- [`Plugins\Live\ProfileSummary\ProfileSummaryAbstract`](api__api-reference__Piwik__Plugins__Live__ProfileSummary__ProfileSummaryAbstract.md) — Class ProfileSummaryAbstract
+- [`Plugins\Live\Visitor`](api__api-reference__Piwik__Plugins__Live__Visitor.md)
+- [`Plugins\Live\VisitorDetailsAbstract`](api__api-reference__Piwik__Plugins__Live__VisitorDetailsAbstract.md) — Class VisitorDetailsAbstract
+- [`Plugins\Live\Visualizations\VisitorLog\Config`](api__api-reference__Piwik__Plugins__Live__Visualizations__VisitorLog__Config.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\MobileMessaging\SMSProvider`](api__api-reference__Piwik__Plugins__MobileMessaging__SMSProvider.md) — The SMSProvider abstract class is used as a base class for SMS provider implementations.
+- [`Plugins\MultiSites\Columns\Metrics\EcommerceOnlyEvolutionMetric`](api__api-reference__Piwik__Plugins__MultiSites__Columns__Metrics__EcommerceOnlyEvolutionMetric.md) — Ecommerce evolution metric adapter.
+- [`Plugins\PagePerformance\Columns\Metrics\AveragePageLoadTime`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AveragePageLoadTime.md) — The average amount of time it took loading a page completely.
+- [`Plugins\PagePerformance\Columns\Metrics\AveragePerformanceMetric`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AveragePerformanceMetric.md) — The average amount for a certain performance metric.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeDomCompletion`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeDomCompletion.md) — The average amount of time the browser needs to load media any Javascript listening for the DOMContentLoaded event.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeDomProcessing`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeDomProcessing.md) — The average amount of time the browser spends until user can start interacting with the page.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeNetwork`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeNetwork.md) — The average amount of time needed to connect to the server.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeOnLoad`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeOnLoad.md) — The average amount of time browser needs to execute javascript waiting for window.load event.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeServer`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeServer.md) — The average amount of time the server needs to start serving a page.
+- [`Plugins\PagePerformance\Columns\Metrics\AverageTimeTransfer`](api__api-reference__Piwik__Plugins__PagePerformance__Columns__Metrics__AverageTimeTransfer.md) — The average amount of time it takes to transfer a page.
+- [`Plugins\Referrers\Columns\Metrics\VisitorsFromReferrerPercent`](api__api-reference__Piwik__Plugins__Referrers__Columns__Metrics__VisitorsFromReferrerPercent.md)
+- [`Plugins\TagManager\MenuTagManager`](api__api-reference__Piwik__Plugins__TagManager__MenuTagManager.md) — Contains menu entries for the Tag Manager menu.
+- [`Plugins\TagManager\Template\BaseTemplate`](api__api-reference__Piwik__Plugins__TagManager__Template__BaseTemplate.md)
+- [`Plugins\TagManager\Template\Tag\BaseTag`](api__api-reference__Piwik__Plugins__TagManager__Template__Tag__BaseTag.md)
+- [`Plugins\TagManager\Template\Trigger\BaseTrigger`](api__api-reference__Piwik__Plugins__TagManager__Template__Trigger__BaseTrigger.md)
+- [`Plugins\TagManager\Template\Variable\BaseVariable`](api__api-reference__Piwik__Plugins__TagManager__Template__Variable__BaseVariable.md)
+- [`Plugins\Tour\Engagement\Challenge`](api__api-reference__Piwik__Plugins__Tour__Engagement__Challenge.md) — Defines a new challenge which a super user needs to complete in order to become a "Matomo expert".
+- [`Plugins\TreemapVisualization\TreemapConfig`](api__api-reference__Piwik__Plugins__TreemapVisualization__TreemapConfig.md) — DataTable Visualization that derives from HtmlTable and sets show\_extra\_columns to true.
+- [`Plugins\UsersManager\UserPreferences`](api__api-reference__Piwik__Plugins__UsersManager__UserPreferences.md)
+- [`Plugins\VisitFrequency\Columns\Metrics\ReturningMetric`](api__api-reference__Piwik__Plugins__VisitFrequency__Columns__Metrics__ReturningMetric.md) — Processed metric for VisitFrequency.get API method which just copies VisitsSummary.get metrics as differently named metrics.
+- [`RankingQuery`](api__api-reference__Piwik__RankingQuery.md) — The ranking query class wraps an arbitrary SQL query with more SQL that limits the number of results while aggregating the rest in an a new "Others" row.
+- [`Report\ReportWidgetConfig`](api__api-reference__Piwik__Report__ReportWidgetConfig.md) — Defines a widget config that is used to render a report.
+- [`Report\ReportWidgetFactory`](api__api-reference__Piwik__Report__ReportWidgetFactory.md) — Report widget factory.
+- [`Request`](api__api-reference__Piwik__Request.md) — Provides (type safe) access methods for request parameters.
+- [`Scheduler\Schedule\Daily`](api__api-reference__Piwik__Scheduler__Schedule__Daily.md) — Daily class is used to schedule tasks every day.
+- [`Scheduler\Schedule\Hourly`](api__api-reference__Piwik__Scheduler__Schedule__Hourly.md) — Hourly class is used to schedule tasks every hour.
+- [`Scheduler\Schedule\Monthly`](api__api-reference__Piwik__Scheduler__Schedule__Monthly.md) — Monthly class is used to schedule tasks every month.
+- [`Scheduler\Schedule\Schedule`](api__api-reference__Piwik__Scheduler__Schedule__Schedule.md) — Describes the interval on which a scheduled task is executed.
+- [`Scheduler\Schedule\SpecificTime`](api__api-reference__Piwik__Scheduler__Schedule__SpecificTime.md)
+- [`Scheduler\Schedule\Weekly`](api__api-reference__Piwik__Scheduler__Schedule__Weekly.md) — Weekly class is used to schedule tasks every week.
+- [`Scheduler\Scheduler`](api__api-reference__Piwik__Scheduler__Scheduler.md) — Schedules task execution.
+- [`Scheduler\Task`](api__api-reference__Piwik__Scheduler__Task.md) — Describes a task that should be executed on a given time.
+- [`Segment`](api__api-reference__Piwik__Segment.md) — Limits the set of visits Matomo uses when aggregating analytics data.
+- [`Segment\SegmentsList`](api__api-reference__Piwik__Segment__SegmentsList.md) — Manages the global list of segments that can be used.
+- [`SettingsPiwik`](api__api-reference__Piwik__SettingsPiwik.md) — Contains helper methods that can be used to get common Matomo settings.
+- [`SettingsServer`](api__api-reference__Piwik__SettingsServer.md) — Contains helper methods that can be used to get information regarding the server, its settings and currently used PHP settings.
+- [`Settings\FieldConfig`](api__api-reference__Piwik__Settings__FieldConfig.md) — Lets you configure a form field.
+- [`Settings\FieldConfig\ArrayField`](api__api-reference__Piwik__Settings__FieldConfig__ArrayField.md) — Lets you configure a field for a field array.
+- [`Settings\FieldConfig\MultiPair`](api__api-reference__Piwik__Settings__FieldConfig__MultiPair.md) — Lets you configure a multi pair field.
+- [`Settings\Plugin\SystemConfigSetting`](api__api-reference__Piwik__Settings__Plugin__SystemConfigSetting.md) — Describes a system wide setting.
+- [`Settings\Plugin\SystemSetting`](api__api-reference__Piwik__Settings__Plugin__SystemSetting.md) — Describes a system wide setting.
+- [`Settings\Setting`](api__api-reference__Piwik__Settings__Setting.md) — Base setting type class.
+- [`Settings\Settings`](api__api-reference__Piwik__Settings__Settings.md) — Base class of all settings providers.
+- [`Singleton`](api__api-reference__Piwik__Singleton.md) — The singleton base class restricts the instantiation of derived classes to one object only.
+- [`Site`](api__api-reference__Piwik__Site.md) — Provides access to individual [site entity](api__guides__persistence-and-the-mysql-backend.md#websites-aka-sites) data (including name, URL, etc.).
+- [`SiteContentDetector`](api__api-reference__Piwik__SiteContentDetector.md) — This class provides detection functions for specific content on a site.
+- [`Translation\Translator`](api__api-reference__Piwik__Translation__Translator.md) — Translates messages.
+- [`Updater`](api__api-reference__Piwik__Updater.md) — Load and execute all relevant, incremental update scripts for Matomo core and plugins, and bump the component version numbers for completed updates.
+- [`Updater\Migration`](api__api-reference__Piwik__Updater__Migration.md) — Base class for migrations.
+- [`Updater\Migration\Config\Factory`](api__api-reference__Piwik__Updater__Migration__Config__Factory.md) — Provides config migrations.
+- [`Updater\Migration\Custom`](api__api-reference__Piwik__Updater__Migration__Custom.md) — Create a custom migration that can execute any callback.
+- [`Updater\Migration\Db`](api__api-reference__Piwik__Updater__Migration__Db.md) — Base class for a single database migration.
+- [`Updater\Migration\Db\Factory`](api__api-reference__Piwik__Updater__Migration__Db__Factory.md) — Provides database migrations.
+- [`Updater\Migration\Factory`](api__api-reference__Piwik__Updater__Migration__Factory.md) — Migration factory to create various migrations that implement the Migration interface.
+- [`Updater\Migration\Plugin\Factory`](api__api-reference__Piwik__Updater__Migration__Plugin__Factory.md) — Provides plugin migrations.
+- [`Updates`](api__api-reference__Piwik__Updates.md) — Base class for update scripts.
+- [`Url`](api__api-reference__Piwik__Url.md) — Provides URL related helper methods.
+- [`UrlHelper`](api__api-reference__Piwik__UrlHelper.md) — Contains less commonly needed URL helper methods.
+- [`Version`](api__api-reference__Piwik__Version.md) — Matomo version information.
+- [`View`](api__api-reference__Piwik__View.md) — Encapsulates and manages a [Twig](https://twig.sensiolabs.org/) template.
+- [`ViewDataTable\Config`](api__api-reference__Piwik__ViewDataTable__Config.md) — Contains base display properties for [ViewDataTable](api__api-reference__Piwik__Plugin__ViewDataTable.md)s.
+- [`ViewDataTable\Factory`](api__api-reference__Piwik__ViewDataTable__Factory.md) — Provides a means of creating [ViewDataTable](api__api-reference__Piwik__Plugin__ViewDataTable.md) instances by ID.
+- [`ViewDataTable\RequestConfig`](api__api-reference__Piwik__ViewDataTable__RequestConfig.md) — Contains base request properties for [ViewDataTable](api__api-reference__Piwik__Plugin__ViewDataTable.md) instances.
+- [`View\SecurityPolicy`](api__api-reference__Piwik__View__SecurityPolicy.md) — Content Security Policy HTTP Header management class
+- [`View\UIControl`](api__api-reference__Piwik__View__UIControl.md) — Base type of UI controls.
+- [`Widget\Widget`](api__api-reference__Piwik__Widget__Widget.md) — Defines a new widget.
+- [`Widget\WidgetConfig`](api__api-reference__Piwik__Widget__WidgetConfig.md) — Configures a widget.
+- [`Widget\WidgetContainerConfig`](api__api-reference__Piwik__Widget__WidgetContainerConfig.md) — Defines a new widget container.
+- [`Widget\WidgetsList`](api__api-reference__Piwik__Widget__WidgetsList.md) — Manages the global list of reports that can be displayed as dashboard widgets.

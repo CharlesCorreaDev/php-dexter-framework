@@ -1,0 +1,135 @@
+# Este método de fábrica cria um hash de um arquivo
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/quickhashintstringhash.loadfromfile.php
+
+---
+
+# QuickHashIntStringHash::loadFromFile
+
+(PECL quickhash >= Unknown)
+
+QuickHashIntStringHash::loadFromFile — Este método de fábrica cria um hash de um arquivo
+
+### Descrição
+
+public static function **QuickHashIntStringHash::loadFromFile**([string](language.types.string.md) `$filename`, [int](language.types.integer.md) `$size` = 0, [int](language.types.integer.md) `$options` = 0): [QuickHashIntStringHash](class.quickhashintstringhash.md)
+
+Este método de fábrica cria um novo hash a partir de um arquivo de definição em disco. O formato do arquivo
+consiste em uma assinatura `'QH\0x12\0'`, o número de elementos como
+um inteiro com sinal de 32 bits na ordem de bytes do sistema, um inteiro sem sinal de 32 bits
+contendo o número de dados do elemento a seguir em caracteres. Esses dados do elemento
+contêm todas as strings. Após o cabeçalho e as strings, os
+elementos seguem em pares de dois inteiros sem sinal de 32 bits, onde o primeiro
+é a chave e o segundo o índice na string de dados do elemento.
+Um exemplo poderia ser:
+
+**Exemplo #1 Formato de arquivo QuickHash IntString**
+
+```
+00000000  51 48 12 00 02 00 00 00  09 00 00 00 4f 4e 45 00  |QH..........ONE.|
+00000010  4e 49 4e 45 00 01 00 00  00 00 00 00 00 03 00 00  |NINE............|
+00000020  00 04 00 00 00                                    |.....|
+00000025
+```
+
+**Exemplo #2 Formato de arquivo QuickHash IntString**
+
+```
+assinatura de cabeçalho ('QH'; tipo de chave: 1; tipo de valor: 2; preenchimento: \0x00)
+00000000  51 48 12 00
+
+número de elementos:
+00000004  02 00 00 00
+
+comprimento dos valores string (9 caracteres):
+00000008  09 00 00 00
+
+valores string:
+0000000C  4f 4e 45 00 4e 49 4e 45  00
+
+dados string:
+00000015  01 00 00 00 00 00 00 00  03 00 00 00 04 00 00 00
+
+chave/valor 1 (chave = 1, índice da string = 0 ("ONE")):
+01 00 00 00  00 00 00 00
+
+chave/valor 2 (chave = 3, índice da string = 4 ("NINE")):
+03 00 00 00  04 00 00 00
+```
+
+### Parâmetros
+
+`filename`
+:   O nome do arquivo do qual o hash será lido.
+
+`size`
+:   A quantidade de listas de buckets a serem configuradas. O número informado será
+    automaticamente arredondado para a próxima potência de dois. Também é
+    automaticamente limitado de `4` a `4194304`.
+
+`options`
+:   As mesmas opções que o construtor da classe aceita; exceto que a opção de tamanho
+    é ignorada. Ela é calculada automaticamente para ser igual ao
+    número de entradas no hash, arredondado para a potência de dois mais próxima
+    com um limite máximo de `4194304`.
+
+### Valor Retornado
+
+Retorna um novo [QuickHashIntStringHash](class.quickhashintstringhash.md).
+
+### Examples
+
+**Exemplo #3 Exemplo de **QuickHashIntStringHash::loadFromFile()****
+
+```
+<?php
+$file = dirname( __FILE__ ) . "/simple.string.hash";
+$hash = QuickHashIntStringHash::loadFromFile(
+    $file,
+    QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC
+);
+foreach( range( 0, 0x0f ) as $key )
+{
+    printf( "Chave %3d (%2x) está %s\n",
+        $key, $key,
+        $hash->exists( $key ) ? 'definida' : 'indefinida'
+    );
+}
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+Chave   0 ( 0) está indefinida
+Chave   1 ( 1) está definida
+Chave   2 ( 2) está definida
+Chave   3 ( 3) está definida
+Chave   4 ( 4) está indefinida
+Chave   5 ( 5) está definida
+Chave   6 ( 6) está indefinida
+Chave   7 ( 7) está definida
+Chave   8 ( 8) está indefinida
+Chave   9 ( 9) está indefinida
+Chave  10 ( a) está indefinida
+Chave  11 ( b) está definida
+Chave  12 ( c) está indefinida
+Chave  13 ( d) está definida
+Chave  14 ( e) está indefinida
+Chave  15 ( f) está indefinida
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

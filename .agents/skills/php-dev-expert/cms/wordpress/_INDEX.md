@@ -1,0 +1,486 @@
+# 📚 Índice da Documentação / Documentation Index
+
+- **Fonte / Source:** ** https://wordpress.org/documentation/article/accordion-block/
+- **Escopo / Scope:** `** https://wordpress.org/documentation/article/accordion-block/`
+- **Total de Páginas Capturadas / Total Captured Pages:** 452
+
+---
+
+## 📂 `article` (126)
+
+- [Accordion block – Documentation – WordPress.org](article__accordion-block.md) — `** https://wordpress.org/documentation/article/accordion-block/`
+- [Adding a new block – Documentation – WordPress.org](article__adding-a-new-block.md) — `** https://wordpress.org/documentation/article/adding-a-new-block/`
+- [Additional guide to using the Site Editor – Documentation – WordPress.org](article__additional-guide-to-using-the-site-editor.md) — `** https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor/`
+- [Administer your Blog – Documentation – WordPress.org](article__administer-your-blog.md) — `** https://wordpress.org/documentation/article/administer-your-blog/`
+- [Administration Screens – Documentation – WordPress.org](article__administration-screens.md) — `** https://wordpress.org/documentation/article/administration-screens/`
+- [Advanced Settings overview – Documentation – WordPress.org](article__advanced-settings-overview.md) — `** https://wordpress.org/documentation/article/advanced-settings-overview/`
+- [Amazon Kindle Embed – Documentation – WordPress.org](article__amazon-kindle-embed.md) — `** https://wordpress.org/documentation/article/amazon-kindle-embed/`
+- [Animoto Embed – Documentation – WordPress.org](article__animoto-embed.md) — `** https://wordpress.org/documentation/article/animoto-embed/`
+- [Appearance Menus Screen – Documentation – WordPress.org](article__appearance-menus-screen.md) — `** https://wordpress.org/documentation/article/appearance-menus-screen/`
+- [Appearance Theme File Editor Screen – Documentation – WordPress.org](article__appearance-theme-file-editor-screen.md) — `** https://wordpress.org/documentation/article/appearance-theme-file-editor-screen/`
+- [Appearance Themes Screen – Documentation – WordPress.org](article__appearance-themes-screen.md) — `** https://wordpress.org/documentation/article/appearance-themes-screen/`
+- [Appearance Widgets Screen (Classic Editor) – Documentation – WordPress.org](article__appearance-widgets-screen-classic-editor.md) — `** https://wordpress.org/documentation/article/appearance-widgets-screen-classic-editor/`
+- [Assign custom fields – Documentation – WordPress.org](article__assign-custom-fields.md) — `** https://wordpress.org/documentation/article/assign-custom-fields/`
+- [Audio block – Documentation – WordPress.org](article__audio-block.md) — `** https://wordpress.org/documentation/article/audio-block/`
+- [Audio Shortcode – Documentation – WordPress.org](article__audio-shortcode.md) — `** https://wordpress.org/documentation/article/audio-shortcode/`
+- [Background Settings Overview – Documentation – WordPress.org](article__background-settings-overview.md) — `** https://wordpress.org/documentation/article/background-settings-overview/`
+- [Become a WordPress contributor – Documentation](article__become-a-wordpress-contributor.md) — `** https://wordpress.org/documentation/article/become-a-wordpress-contributor/`
+- [Block-based Widgets Editor – Documentation – WordPress.org](article__block-based-widgets-editor.md) — `** https://wordpress.org/documentation/article/block-based-widgets-editor/`
+- [Block Directory – Documentation – WordPress.org](article__block-directory.md) — `** https://wordpress.org/documentation/article/block-directory/`
+- [Block Error: Unexpected or Invalid Content – Documentation – WordPress.org](article__block-error-unexpected-or-invalid-content.md) — `** https://wordpress.org/documentation/article/block-error-unexpected-or-invalid-content/`
+- [Block Pattern Directory – Documentation – WordPress.org](article__block-pattern-directory.md) — `** https://wordpress.org/documentation/article/block-pattern-directory/`
+- [Block Patterns – Documentation – WordPress.org](article__block-pattern.md) — `** https://wordpress.org/documentation/article/block-pattern/`
+- [Block themes – Documentation – WordPress.org](article__block-themes.md) — `** https://wordpress.org/documentation/article/block-themes/`
+- [Blocks list – Documentation – WordPress.org](article__blocks-list.md) — `** https://wordpress.org/documentation/article/blocks-list/`
+- [Bluesky embed – Documentation – WordPress.org](article__bluesky-embed.md) — `** https://wordpress.org/documentation/article/bluesky-embed/`
+- [Border & Shadow Settings overview – Documentation – WordPress.org](article__border-settings-overview.md) — `** https://wordpress.org/documentation/article/border-settings-overview/`
+- [(Deprecated)Button block – Documentation – WordPress.org](article__button-block.md) — `** https://wordpress.org/documentation/article/button-block/`
+- [Buttons block – Documentation – WordPress.org](article__buttons-block.md) — `** https://wordpress.org/documentation/article/buttons-block/`
+- [Classic block – Documentation – WordPress.org](article__classic-block.md) — `** https://wordpress.org/documentation/article/classic-block/`
+- [Cloudup Embed – Documentation – WordPress.org](article__cloudup-embed.md) — `** https://wordpress.org/documentation/article/cloudup-embed/`
+- [Code block – Documentation – WordPress.org](article__code-block.md) — `** https://wordpress.org/documentation/article/code-block/`
+- [Colors Settings overview – Documentation – WordPress.org](article__colors-settings-overview.md) — `** https://wordpress.org/documentation/article/colors-settings-overview/`
+- [Columns block – Documentation – WordPress.org](article__columns-block.md) — `** https://wordpress.org/documentation/article/columns-block/`
+- [Comment moderation – Documentation – WordPress.org](article__comment-moderation.md) — `** https://wordpress.org/documentation/article/comment-moderation/`
+- [Comments in WordPress – Documentation](article__comments-in-wordpress.md) — `** https://wordpress.org/documentation/article/comments-in-wordpress/`
+- [Comments screen – Documentation – WordPress.org](article__comments-screen.md) — `** https://wordpress.org/documentation/article/comments-screen/`
+- [Comparing Patterns, Template Parts, and Synced Patterns (Reusable Blocks) – Documentation – WordPress.org](article__comparing-patterns-template-parts-and-reusable-blocks.md) — `** https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/`
+- [Cover block – Documentation – WordPress.org](article__cover-block.md) — `** https://wordpress.org/documentation/article/cover-block/`
+- [Create a Favicon – Documentation – WordPress.org](article__create-a-favicon.md) — `** https://wordpress.org/documentation/article/create-a-favicon/`
+- [Create a search page – Documentation – WordPress.org](article__create-a-search-page.md) — `** https://wordpress.org/documentation/article/create-a-search-page/`
+- [Create a static front page – Documentation – WordPress.org](article__create-a-static-front-page.md) — `** https://wordpress.org/documentation/article/create-a-static-front-page/`
+- [Create pages – Documentation – WordPress.org](article__create-pages.md) — `** https://wordpress.org/documentation/article/create-pages/`
+- [Crowdsignal embed – Documentation – WordPress.org](article__crowdsignal-embed.md) — `** https://wordpress.org/documentation/article/crowdsignal-embed/`
+- [Customize date and time format – Documentation – WordPress.org](article__customize-date-and-time-format.md) — `** https://wordpress.org/documentation/article/customize-date-and-time-format/`
+- [Customize permalinks – Documentation – WordPress.org](article__customize-permalinks.md) — `** https://wordpress.org/documentation/article/customize-permalinks/`
+- [Customizer – Documentation – WordPress.org](article__customizer.md) — `** https://wordpress.org/documentation/article/customizer/`
+- [Dailymotion embed – Documentation – WordPress.org](article__dailymotion-embed.md) — `** https://wordpress.org/documentation/article/dailymotion-embed/`
+- [Dashboard screen – Documentation – WordPress.org](article__dashboard-screen.md) — `** https://wordpress.org/documentation/article/dashboard-screen/`
+- [Dashboard Updates screen – Documentation – WordPress.org](article__dashboard-updates-screen.md) — `** https://wordpress.org/documentation/article/dashboard-updates-screen/`
+- [What’s the difference between WordPress.org and WordPress.com? – Documentation](article__difference-between-wordpress-org-and-wordpress-com.md) — `** https://wordpress.org/documentation/article/difference-between-wordpress-org-and-wordpress-com/`
+- [Edit Media – Documentation – WordPress.org](article__edit-media.md) — `** https://wordpress.org/documentation/article/edit-media/`
+- [Embed block – Documentation – WordPress.org](article__embed-block.md) — `** https://wordpress.org/documentation/article/embed-block/`
+- [Embeds – Documentation – WordPress.org](article__embeds.md) — `** https://wordpress.org/documentation/article/embeds/`
+- [Facebook embed – Documentation – WordPress.org](article__facebook-embed.md) — `** https://wordpress.org/documentation/article/facebook-embed/`
+- [FAQ I make changes and nothing happens – Documentation – WordPress.org](article__faq-i-make-changes-and-nothing-happens.md) — `** https://wordpress.org/documentation/article/faq-i-make-changes-and-nothing-happens/`
+- [FAQ Installation – Documentation – WordPress.org](article__faq-installation.md) — `** https://wordpress.org/documentation/article/faq-installation/`
+- [FAQ My site was hacked – Documentation – WordPress.org](article__faq-my-site-was-hacked.md) — `** https://wordpress.org/documentation/article/faq-my-site-was-hacked/`
+- [FAQ Troubleshooting – Documentation – WordPress.org](article__faq-troubleshooting.md) — `** https://wordpress.org/documentation/article/faq-troubleshooting/`
+- [FAQ Work with WordPress – Documentation](article__faq-work-with-wordpress.md) — `** https://wordpress.org/documentation/article/faq-work-with-wordpress/`
+- [File block – Documentation – WordPress.org](article__file-block.md) — `** https://wordpress.org/documentation/article/file-block/`
+- [First steps with WordPress (Block Editor) – Documentation](article__first-steps-with-wordpress-block-editor.md) — `** https://wordpress.org/documentation/article/first-steps-with-wordpress-block-editor/`
+- [First steps with WordPress (Classic Editor) – Documentation](article__first-steps-with-wordpress-classic.md) — `** https://wordpress.org/documentation/article/first-steps-with-wordpress-classic/`
+- [Flickr embed – Documentation – WordPress.org](article__flickr-embed.md) — `** https://wordpress.org/documentation/article/flickr-embed/`
+- [Gallery block – Documentation – WordPress.org](article__gallery-block.md) — `** https://wordpress.org/documentation/article/gallery-block/`
+- [Get started with WordPress – Documentation](article__get-started-with-wordpress.md) — `** https://wordpress.org/documentation/article/get-started-with-wordpress/`
+- [Grid block – Documentation – WordPress.org](article__grid-block.md) — `** https://wordpress.org/documentation/article/grid-block/`
+- [Group block – Documentation – WordPress.org](article__group-block.md) — `** https://wordpress.org/documentation/article/group-block/`
+- [Hosting WordPress – Documentation](article__hosting-wordpress.md) — `** https://wordpress.org/documentation/article/hosting-wordpress/`
+- [How WordPress processes Post Content – Documentation](article__how-wordpress-processes-post-content.md) — `** https://wordpress.org/documentation/article/how-wordpress-processes-post-content/`
+- [Icon block – Documentation – WordPress.org](article__icon-block.md) — `** https://wordpress.org/documentation/article/icon-block/`
+- [Image block – Documentation – WordPress.org](article__image-block.md) — `** https://wordpress.org/documentation/article/image-block/`
+- [Image size and quality – Documentation – WordPress.org](article__image-size-and-quality.md) — `** https://wordpress.org/documentation/article/image-size-and-quality/`
+- [Inserting images into posts and pages (Block Editor) – Documentation – WordPress.org](article__inserting-images-into-posts-and-pages-block-editor.md) — `** https://wordpress.org/documentation/article/inserting-images-into-posts-and-pages-block-editor/`
+- [Inserting images into posts and pages (Classic Editor) – Documentation – WordPress.org](article__inserting-images-into-posts-and-pages-classic.md) — `** https://wordpress.org/documentation/article/inserting-images-into-posts-and-pages-classic/`
+- [Introduction to Blogging – Documentation – WordPress.org](article__introduction-to-blogging.md) — `** https://wordpress.org/documentation/article/introduction-to-blogging/`
+- [Introduction to Plugins – Documentation – WordPress.org](article__introduction-to-plugins.md) — `** https://wordpress.org/documentation/article/introduction-to-plugins/`
+- [Layout Settings overview – Documentation – WordPress.org](article__layout-settings-overview.md) — `** https://wordpress.org/documentation/article/layout-settings-overview/`
+- [Learn about WordPress origins and version history – Documentation](article__learn-about-wordpress-and-version-history.md) — `** https://wordpress.org/documentation/article/learn-about-wordpress-and-version-history/`
+- [Manage Plugins – Documentation – WordPress.org](article__manage-plugins.md) — `** https://wordpress.org/documentation/article/manage-plugins/`
+- [Media & Text block – Documentation – WordPress.org](article__media-text-block.md) — `** https://wordpress.org/documentation/article/media-text-block/`
+- [More block – Documentation – WordPress.org](article__more-block.md) — `** https://wordpress.org/documentation/article/more-block/`
+- [Page Break block – Documentation – WordPress.org](article__page-break-block.md) — `** https://wordpress.org/documentation/article/page-break-block/`
+- [Pages Add New screen – Documentation – WordPress.org](article__pages-add-new-screen.md) — `** https://wordpress.org/documentation/article/pages-add-new-screen/`
+- [Password Best Practices – Documentation – WordPress.org](article__password-best-practices.md) — `** https://wordpress.org/documentation/article/password-best-practices/`
+- [Playlist block – Documentation – WordPress.org](article__playlist-block.md) — `** https://wordpress.org/documentation/article/playlist-block/`
+- [Plugin and themes auto-updates – Documentation – WordPress.org](article__plugins-themes-auto-updates.md) — `** https://wordpress.org/documentation/article/plugins-themes-auto-updates/`
+- [Position Settings overview – Documentation – WordPress.org](article__position-settings-overview.md) — `** https://wordpress.org/documentation/article/position-settings-overview/`
+- [Post Status – Documentation – WordPress.org](article__post-status.md) — `** https://wordpress.org/documentation/article/post-status/`
+- [Recovery Mode – Documentation – WordPress.org](article__recovery-mode.md) — `** https://wordpress.org/documentation/article/recovery-mode/`
+- [Row block – Documentation – WordPress.org](article__row-block.md) — `** https://wordpress.org/documentation/article/row-block/`
+- [Search Engine Optimization – Documentation – WordPress.org](article__search-engine-optimization.md) — `** https://wordpress.org/documentation/article/search-engine-optimization/`
+- [Separator block – Documentation – WordPress.org](article__separator-block.md) — `** https://wordpress.org/documentation/article/separator-block/`
+- [Command Palette – Documentation – WordPress.org](article__site-editor-command-palette.md) — `** https://wordpress.org/documentation/article/site-editor-command-palette/`
+- [Site Editor navigation – Documentation – WordPress.org](article__site-editor-navigation.md) — `** https://wordpress.org/documentation/article/site-editor-navigation/`
+- [Site Editor Pages – Documentation – WordPress.org](article__site-editor-pages.md) — `** https://wordpress.org/documentation/article/site-editor-pages/`
+- [Site Editor Patterns – Documentation – WordPress.org](article__site-editor-patterns.md) — `** https://wordpress.org/documentation/article/site-editor-patterns/`
+- [Site Editor – Documentation – WordPress.org](article__site-editor.md) — `** https://wordpress.org/documentation/article/site-editor/`
+- [Supported Versions – Documentation – WordPress.org](article__supported-versions.md) — `** https://wordpress.org/documentation/article/supported-versions/`
+- [The WordPress Gallery (Block Editor) – Documentation](article__the-wordpress-gallery-block-editor.md) — `** https://wordpress.org/documentation/article/the-wordpress-gallery-block-editor/`
+- [The WordPress Gallery (Classic Editor) – Documentation](article__the-wordpress-gallery-classic-editor.md) — `** https://wordpress.org/documentation/article/the-wordpress-gallery-classic-editor/`
+- [Troubleshoot login issues – Documentation – WordPress.org](article__troubleshoot-login-issues.md) — `** https://wordpress.org/documentation/article/troubleshoot-login-issues/`
+- [Twenty Fifteen – Documentation – WordPress.org](article__twenty-fifteen.md) — `** https://wordpress.org/documentation/article/twenty-fifteen/`
+- [Twenty Nineteen – Documentation – WordPress.org](article__twenty-nineteen.md) — `** https://wordpress.org/documentation/article/twenty-nineteen/`
+- [Twenty Seventeen – Documentation – WordPress.org](article__twenty-seventeen.md) — `** https://wordpress.org/documentation/article/twenty-seventeen/`
+- [Twenty Sixteen – Documentation – WordPress.org](article__twenty-sixteen.md) — `** https://wordpress.org/documentation/article/twenty-sixteen/`
+- [Twenty Twenty-Five – Documentation – WordPress.org](article__twenty-twenty-five.md) — `** https://wordpress.org/documentation/article/twenty-twenty-five/`
+- [Twenty Twenty-Four – Documentation – WordPress.org](article__twenty-twenty-four.md) — `** https://wordpress.org/documentation/article/twenty-twenty-four/`
+- [Twenty Twenty-One – Documentation – WordPress.org](article__twenty-twenty-one.md) — `** https://wordpress.org/documentation/article/twenty-twenty-one/`
+- [Twenty Twenty-Three – Documentation – WordPress.org](article__twenty-twenty-three.md) — `** https://wordpress.org/documentation/article/twenty-twenty-three/`
+- [Twenty Twenty-Two – Documentation – WordPress.org](article__twenty-twenty-two.md) — `** https://wordpress.org/documentation/article/twenty-twenty-two/`
+- [Twenty Twenty – Documentation – WordPress.org](article__twenty-twenty.md) — `** https://wordpress.org/documentation/article/twenty-twenty/`
+- [Updating WordPress – Documentation](article__updating-wordpress.md) — `** https://wordpress.org/documentation/article/updating-wordpress/`
+- [Use automated installation – Documentation – WordPress.org](article__use-automated-installation.md) — `** https://wordpress.org/documentation/article/use-automated-installation/`
+- [Use image and file attachments – Documentation – WordPress.org](article__use-image-and-file-attachments.md) — `** https://wordpress.org/documentation/article/use-image-and-file-attachments/`
+- [Use Images – Documentation – WordPress.org](article__use-images.md) — `** https://wordpress.org/documentation/article/use-images/`
+- [Video block – Documentation – WordPress.org](article__video-block.md) — `** https://wordpress.org/documentation/article/video-block/`
+- [Where to find WordPress help – Documentation](article__where-to-find-wordpress-help.md) — `** https://wordpress.org/documentation/article/where-to-find-wordpress-help/`
+- [HTTPS – Advanced Administration Handbook | Developer.WordPress.org](article__why-should-i-use-https.md) — `** https://wordpress.org/documentation/article/why-should-i-use-https/`
+- [WordPress Glossary – Documentation](article__wordpress-glossary.md) — `** https://wordpress.org/documentation/article/wordpress-glossary/`
+- [WordPress Housekeeping – Documentation](article__wordpress-housekeeping.md) — `** https://wordpress.org/documentation/article/wordpress-housekeeping/`
+- [WordPress Privacy – Documentation](article__wordpress-privacy.md) — `** https://wordpress.org/documentation/article/wordpress-privacy/`
+- [WordPress Semantics – Documentation](article__wordpress-semantics.md) — `** https://wordpress.org/documentation/article/wordpress-semantics/`
+- [WordPress site maintenance – Documentation](article__wordpress-site-maintenance.md) — `** https://wordpress.org/documentation/article/wordpress-site-maintenance/`
+- [WordPress Versions 0.7 to 4.9 – Documentation](article__wordpress-versions-0-7-to-4-9.md) — `** https://wordpress.org/documentation/article/wordpress-versions-0-7-to-4-9/`
+- [WordPress Versions – Documentation](article__wordpress-versions.md) — `** https://wordpress.org/documentation/article/wordpress-versions/`
+- [Zoom out view – Documentation – WordPress.org](article__zoom-out-view.md) — `** https://wordpress.org/documentation/article/zoom-out-view/`
+
+## 📂 `category` (19)
+
+- [About WordPress – Documentation](category__about-wp.md) — `** https://wordpress.org/documentation/category/about-wp/`
+- [Appearance – Documentation – WordPress.org](category__appearance.md) — `** https://wordpress.org/documentation/category/appearance/`
+- [Block Editor – Documentation – WordPress.org](category__block-editor.md) — `** https://wordpress.org/documentation/category/block-editor/`
+- [Dashboard – Documentation – WordPress.org](category__dashboard.md) — `** https://wordpress.org/documentation/category/dashboard/`
+- [Default themes – Documentation – WordPress.org](category__default-themes.md) — `** https://wordpress.org/documentation/category/default-themes/`
+- [Design blocks – Documentation – WordPress.org](category__design-blocks.md) — `** https://wordpress.org/documentation/category/design-blocks/`
+- [Embed blocks – Documentation – WordPress.org](category__embed-blocks.md) — `** https://wordpress.org/documentation/category/embed-blocks/`
+- [FAQs – Documentation – WordPress.org](category__faqs.md) — `** https://wordpress.org/documentation/category/faqs/`
+- [Installation – Documentation – WordPress.org](category__installation.md) — `** https://wordpress.org/documentation/category/installation/`
+- [Maintenance – Documentation – WordPress.org](category__maintenance.md) — `** https://wordpress.org/documentation/category/maintenance/`
+- [Media blocks – Documentation – WordPress.org](category__media-blocks.md) — `** https://wordpress.org/documentation/category/media-blocks/`
+- [Media – Documentation – WordPress.org](category__media.md) — `** https://wordpress.org/documentation/category/media/`
+- [Publishing – Documentation – WordPress.org](category__publishing.md) — `** https://wordpress.org/documentation/category/publishing/`
+- [Security – Documentation – WordPress.org](category__security.md) — `** https://wordpress.org/documentation/category/security/`
+- [Site Editor – Documentation – WordPress.org](category__site-editor.md) — `** https://wordpress.org/documentation/category/site-editor/`
+- [Text blocks – Documentation – WordPress.org](category__text-blocks.md) — `** https://wordpress.org/documentation/category/text-blocks/`
+- [Theme blocks – Documentation – WordPress.org](category__theme-blocks.md) — `** https://wordpress.org/documentation/category/theme-blocks/`
+- [Where to start – Documentation – WordPress.org](category__where-to-start.md) — `** https://wordpress.org/documentation/category/where-to-start/`
+- [Widget blocks – Documentation – WordPress.org](category__widget-blocks.md) — `** https://wordpress.org/documentation/category/widget-blocks/`
+
+## 📂 `dev_plugins` (110)
+
+- [Administration Menus – Plugin Handbook | Developer.WordPress.org](dev_plugins__administration-menus.md) — `** https://developer.wordpress.org/plugins/administration-menus/`
+- [Sub-Menus – Plugin Handbook | Developer.WordPress.org](dev_plugins__administration-menus__sub-menus.md) — `** https://developer.wordpress.org/plugins/administration-menus/sub-menus/`
+- [Top-Level Menus – Plugin Handbook | Developer.WordPress.org](dev_plugins__administration-menus__top-level-menus.md) — `** https://developer.wordpress.org/plugins/administration-menus/top-level-menus/`
+- [Creating Tables with Plugins – Plugin Handbook | Developer.WordPress.org](dev_plugins__creating-tables-with-plugins.md) — `** https://developer.wordpress.org/plugins/creating-tables-with-plugins/`
+- [Credits – Plugin Handbook | Developer.WordPress.org](dev_plugins__credits.md) — `** https://developer.wordpress.org/plugins/credits/`
+- [Cron – Plugin Handbook | Developer.WordPress.org](dev_plugins__cron.md) — `** https://developer.wordpress.org/plugins/cron/`
+- [Hooking WP-Cron Into the System Task Scheduler – Plugin Handbook | Developer.WordPress.org](dev_plugins__cron__hooking-wp-cron-into-the-system-task-scheduler.md) — `** https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/`
+- [Scheduling WP Cron Events – Plugin Handbook | Developer.WordPress.org](dev_plugins__cron__scheduling-wp-cron-events.md) — `** https://developer.wordpress.org/plugins/cron/scheduling-wp-cron-events/`
+- [Testing of WP-Cron – Plugin Handbook | Developer.WordPress.org](dev_plugins__cron__simple-testing.md) — `** https://developer.wordpress.org/plugins/cron/simple-testing/`
+- [Understanding WP-Cron Scheduling – Plugin Handbook | Developer.WordPress.org](dev_plugins__cron__understanding-wp-cron-scheduling.md) — `** https://developer.wordpress.org/plugins/cron/understanding-wp-cron-scheduling/`
+- [Developer Tools – Plugin Handbook | Developer.WordPress.org](dev_plugins__developer-tools.md) — `** https://developer.wordpress.org/plugins/developer-tools/`
+- [Debug Bar and Add-Ons – Plugin Handbook | Developer.WordPress.org](dev_plugins__developer-tools__debug-bar-and-add-ons.md) — `** https://developer.wordpress.org/plugins/developer-tools/debug-bar-and-add-ons/`
+- [Helper Plugins – Plugin Handbook | Developer.WordPress.org](dev_plugins__developer-tools__helper-plugins.md) — `** https://developer.wordpress.org/plugins/developer-tools/helper-plugins/`
+- [Hooks – Plugin Handbook | Developer.WordPress.org](dev_plugins__hooks.md) — `** https://developer.wordpress.org/plugins/hooks/`
+- [Actions – Plugin Handbook | Developer.WordPress.org](dev_plugins__hooks__actions.md) — `** https://developer.wordpress.org/plugins/hooks/actions/`
+- [Advanced Topics – Plugin Handbook | Developer.WordPress.org](dev_plugins__hooks__advanced-topics.md) — `** https://developer.wordpress.org/plugins/hooks/advanced-topics/`
+- [Custom Hooks – Plugin Handbook | Developer.WordPress.org](dev_plugins__hooks__custom-hooks.md) — `** https://developer.wordpress.org/plugins/hooks/custom-hooks/`
+- [Filters – Plugin Handbook | Developer.WordPress.org](dev_plugins__hooks__filters.md) — `** https://developer.wordpress.org/plugins/hooks/filters/`
+- [HTTP API – Plugin Handbook | Developer.WordPress.org](dev_plugins__http-api.md) — `** https://developer.wordpress.org/plugins/http-api/`
+- [Plugin Handbook | Developer.WordPress.org](dev_plugins__index.md) — `** https://developer.wordpress.org/plugins/`
+- [Internationalization – Plugin Handbook | Developer.WordPress.org](dev_plugins__internationalization.md) — `** https://developer.wordpress.org/plugins/internationalization/`
+- [How to Internationalize Your Plugin – Plugin Handbook | Developer.WordPress.org](dev_plugins__internationalization__how-to-internationalize-your-plugin.md) — `** https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/`
+- [Localization – Plugin Handbook | Developer.WordPress.org](dev_plugins__internationalization__localization.md) — `** https://developer.wordpress.org/plugins/internationalization/localization/`
+- [Internationalization Security – Plugin Handbook | Developer.WordPress.org](dev_plugins__internationalization__security.md) — `** https://developer.wordpress.org/plugins/internationalization/security/`
+- [Introduction to Plugin Development – Plugin Handbook | Developer.WordPress.org](dev_plugins__intro.md) — `** https://developer.wordpress.org/plugins/intro/`
+- [What is a Plugin? – Plugin Handbook | Developer.WordPress.org](dev_plugins__intro__what-is-a-plugin.md) — `** https://developer.wordpress.org/plugins/intro/what-is-a-plugin/`
+- [JavaScript – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript.md) — `** https://developer.wordpress.org/plugins/javascript/`
+- [AJAX – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__ajax.md) — `** https://developer.wordpress.org/plugins/javascript/ajax/`
+- [Server Side PHP and Enqueuing – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__enqueuing.md) — `** https://developer.wordpress.org/plugins/javascript/enqueuing/`
+- [Heartbeat API – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__heartbeat-api.md) — `** https://developer.wordpress.org/plugins/javascript/heartbeat-api/`
+- [Internationalization – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__internationalization.md) — `** https://developer.wordpress.org/plugins/javascript/internationalization/`
+- [jQuery – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__jquery.md) — `** https://developer.wordpress.org/plugins/javascript/jquery/`
+- [Summary – Plugin Handbook | Developer.WordPress.org](dev_plugins__javascript__summary.md) — `** https://developer.wordpress.org/plugins/javascript/summary/`
+- [Metadata – Plugin Handbook | Developer.WordPress.org](dev_plugins__metadata.md) — `** https://developer.wordpress.org/plugins/metadata/`
+- [Custom Meta Boxes – Plugin Handbook | Developer.WordPress.org](dev_plugins__metadata__custom-meta-boxes.md) — `** https://developer.wordpress.org/plugins/metadata/custom-meta-boxes/`
+- [Internationalization – Plugin Handbook | Developer.WordPress.org](dev_plugins__metadata__internationalization.md) — `** https://developer.wordpress.org/plugins/metadata/internationalization/`
+- [Managing Post Metadata – Plugin Handbook | Developer.WordPress.org](dev_plugins__metadata__managing-post-metadata.md) — `** https://developer.wordpress.org/plugins/metadata/managing-post-metadata/`
+- [Rendering Post Metadata – Plugin Handbook | Developer.WordPress.org](dev_plugins__metadata__rendering-post-metadata.md) — `** https://developer.wordpress.org/plugins/metadata/rendering-post-metadata/`
+- [Plugin Basics – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics.md) — `** https://developer.wordpress.org/plugins/plugin-basics/`
+- [Activation / Deactivation Hooks – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__activation-deactivation-hooks.md) — `** https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/`
+- [Best Practices – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__best-practices.md) — `** https://developer.wordpress.org/plugins/plugin-basics/best-practices/`
+- [Determining Plugin and Content Directories – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__determining-plugin-and-content-directories.md) — `** https://developer.wordpress.org/plugins/plugin-basics/determining-plugin-and-content-directories/`
+- [Header Requirements – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__header-requirements.md) — `** https://developer.wordpress.org/plugins/plugin-basics/header-requirements/`
+- [Including a Software License – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__including-a-software-license.md) — `** https://developer.wordpress.org/plugins/plugin-basics/including-a-software-license/`
+- [Uninstall Methods – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-basics__uninstall-methods.md) — `** https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/`
+- [Securing (sanitizing) Input – Plugin Handbook | Developer.WordPress.org](dev_plugins__plugin-security__securing-input.md) — `** https://developer.wordpress.org/plugins/plugin-security/securing-input/`
+- [Custom Post Types – Plugin Handbook | Developer.WordPress.org](dev_plugins__post-types.md) — `** https://developer.wordpress.org/plugins/post-types/`
+- [Registering Custom Post Types – Plugin Handbook | Developer.WordPress.org](dev_plugins__post-types__registering-custom-post-types.md) — `** https://developer.wordpress.org/plugins/post-types/registering-custom-post-types/`
+- [Working with Custom Post Types – Plugin Handbook | Developer.WordPress.org](dev_plugins__post-types__working-with-custom-post-types.md) — `** https://developer.wordpress.org/plugins/post-types/working-with-custom-post-types/`
+- [Privacy – Plugin Handbook | Developer.WordPress.org](dev_plugins__privacy.md) — `** https://developer.wordpress.org/plugins/privacy/`
+- [Adding the Personal Data Eraser to Your Plugin – Plugin Handbook | Developer.WordPress.org](dev_plugins__privacy__adding-the-personal-data-eraser-to-your-plugin.md) — `** https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/`
+- [Adding the Personal Data Exporter to Your Plugin – Plugin Handbook | Developer.WordPress.org](dev_plugins__privacy__adding-the-personal-data-exporter-to-your-plugin.md) — `** https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-exporter-to-your-plugin/`
+- [Privacy Related Options, Hooks and Capabilities – Plugin Handbook | Developer.WordPress.org](dev_plugins__privacy__privacy-related-options-hooks-and-capabilities.md) — `** https://developer.wordpress.org/plugins/privacy/privacy-related-options-hooks-and-capabilities/`
+- [Suggesting text for the site privacy policy – Plugin Handbook | Developer.WordPress.org](dev_plugins__privacy__suggesting-text-for-the-site-privacy-policy.md) — `** https://developer.wordpress.org/plugins/privacy/suggesting-text-for-the-site-privacy-policy/`
+- [REST API – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api.md) — `** https://developer.wordpress.org/plugins/rest-api/`
+- [Controller Classes – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__controller-classes.md) — `** https://developer.wordpress.org/plugins/rest-api/controller-classes/`
+- [Requests – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__requests.md) — `** https://developer.wordpress.org/plugins/rest-api/requests/`
+- [Responses – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__responses-2.md) — `** https://developer.wordpress.org/plugins/rest-api/responses-2/`
+- [REST API Overview – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__rest-api-overview.md) — `** https://developer.wordpress.org/plugins/rest-api/rest-api-overview/`
+- [Routes & Endpoints – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__routes-endpoints.md) — `** https://developer.wordpress.org/plugins/rest-api/routes-endpoints/`
+- [Schema – Plugin Handbook | Developer.WordPress.org](dev_plugins__rest-api__schema.md) — `** https://developer.wordpress.org/plugins/rest-api/schema/`
+- [Plugin Security – Plugin Handbook | Developer.WordPress.org](dev_plugins__security.md) — `** https://developer.wordpress.org/plugins/security/`
+- [Checking User Capabilities – Plugin Handbook | Developer.WordPress.org](dev_plugins__security__checking-user-capabilities.md) — `** https://developer.wordpress.org/plugins/security/checking-user-capabilities/`
+- [Data Validation – Plugin Handbook | Developer.WordPress.org](dev_plugins__security__data-validation.md) — `** https://developer.wordpress.org/plugins/security/data-validation/`
+- [Nonces – Plugin Handbook | Developer.WordPress.org](dev_plugins__security__nonces.md) — `** https://developer.wordpress.org/plugins/security/nonces/`
+- [Securing (sanitizing) Input – Plugin Handbook | Developer.WordPress.org](dev_plugins__security__securing-input.md) — `** https://developer.wordpress.org/plugins/security/securing-input/`
+- [Securing (escaping) Output – Plugin Handbook | Developer.WordPress.org](dev_plugins__security__securing-output.md) — `** https://developer.wordpress.org/plugins/security/securing-output/`
+- [Settings – Plugin Handbook | Developer.WordPress.org](dev_plugins__settings.md) — `** https://developer.wordpress.org/plugins/settings/`
+- [Custom Settings Page – Plugin Handbook | Developer.WordPress.org](dev_plugins__settings__custom-settings-page.md) — `** https://developer.wordpress.org/plugins/settings/custom-settings-page/`
+- [Options API – Plugin Handbook | Developer.WordPress.org](dev_plugins__settings__options-api.md) — `** https://developer.wordpress.org/plugins/settings/options-api/`
+- [Settings API – Plugin Handbook | Developer.WordPress.org](dev_plugins__settings__settings-api.md) — `** https://developer.wordpress.org/plugins/settings/settings-api/`
+- [Using Settings API – Plugin Handbook | Developer.WordPress.org](dev_plugins__settings__using-settings-api.md) — `** https://developer.wordpress.org/plugins/settings/using-settings-api/`
+- [Shortcodes – Plugin Handbook | Developer.WordPress.org](dev_plugins__shortcodes.md) — `** https://developer.wordpress.org/plugins/shortcodes/`
+- [Basic Shortcodes – Plugin Handbook | Developer.WordPress.org](dev_plugins__shortcodes__basic-shortcodes.md) — `** https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/`
+- [Enclosing Shortcodes – Plugin Handbook | Developer.WordPress.org](dev_plugins__shortcodes__enclosing-shortcodes.md) — `** https://developer.wordpress.org/plugins/shortcodes/enclosing-shortcodes/`
+- [Shortcodes with Parameters – Plugin Handbook | Developer.WordPress.org](dev_plugins__shortcodes__shortcodes-with-parameters.md) — `** https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/`
+- [TinyMCE Enhanced Shortcodes – Plugin Handbook | Developer.WordPress.org](dev_plugins__shortcodes__tinymce-enhanced-shortcodes.md) — `** https://developer.wordpress.org/plugins/shortcodes/tinymce-enhanced-shortcodes/`
+- [Taxonomies – Plugin Handbook | Developer.WordPress.org](dev_plugins__taxonomies.md) — `** https://developer.wordpress.org/plugins/taxonomies/`
+- [Term Splitting (WordPress 4.2) – Plugin Handbook | Developer.WordPress.org](dev_plugins__taxonomies__split-terms-wp-4-2.md) — `** https://developer.wordpress.org/plugins/taxonomies/split-terms-wp-4-2/`
+- [Working with Custom Taxonomies – Plugin Handbook | Developer.WordPress.org](dev_plugins__taxonomies__working-with-custom-taxonomies.md) — `** https://developer.wordpress.org/plugins/taxonomies/working-with-custom-taxonomies/`
+- [Activation / Deactivation Hooks – Plugin Handbook | Developer.WordPress.org](dev_plugins__the-basics__activation-deactivation-hooks.md) — `** https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/`
+- [Best Practices – Plugin Handbook | Developer.WordPress.org](dev_plugins__the-basics__best-practices.md) — `** https://developer.wordpress.org/plugins/the-basics/best-practices/`
+- [Header Requirements – Plugin Handbook | Developer.WordPress.org](dev_plugins__the-basics__header-requirements.md) — `** https://developer.wordpress.org/plugins/the-basics/header-requirements/`
+- [Uninstall Methods – Plugin Handbook | Developer.WordPress.org](dev_plugins__the-basics__uninstall-methods.md) — `** https://developer.wordpress.org/plugins/the-basics/uninstall-methods/`
+- [Users – Plugin Handbook | Developer.WordPress.org](dev_plugins__users.md) — `** https://developer.wordpress.org/plugins/users/`
+- [Roles and Capabilities – Plugin Handbook | Developer.WordPress.org](dev_plugins__users__roles-and-capabilities.md) — `** https://developer.wordpress.org/plugins/users/roles-and-capabilities/`
+- [Working with User Metadata – Plugin Handbook | Developer.WordPress.org](dev_plugins__users__working-with-user-metadata.md) — `** https://developer.wordpress.org/plugins/users/working-with-user-metadata/`
+- [Working with Users – Plugin Handbook | Developer.WordPress.org](dev_plugins__users__working-with-users.md) — `** https://developer.wordpress.org/plugins/users/working-with-users/`
+- [The WordPress.org Plugin Directory – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org.md) — `** https://developer.wordpress.org/plugins/wordpress-org/`
+- [Add Your Plugin to the Block Directory – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__add-your-plugin-to-the-block-directory.md) — `** https://developer.wordpress.org/plugins/wordpress-org/add-your-plugin-to-the-block-directory/`
+- [Alerts and Warnings – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__alerts-and-warnings.md) — `** https://developer.wordpress.org/plugins/wordpress-org/alerts-and-warnings/`
+- [Automated Security Review – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__automated-security-review.md) — `** https://developer.wordpress.org/plugins/wordpress-org/automated-security-review/`
+- [Block Specific Plugin Guidelines – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__block-specific-plugin-guidelines.md) — `** https://developer.wordpress.org/plugins/wordpress-org/block-specific-plugin-guidelines/`
+- [Common issues – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__common-issues.md) — `** https://developer.wordpress.org/plugins/wordpress-org/common-issues/`
+- [Compliance Disclaimers – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__compliance-disclaimers.md) — `** https://developer.wordpress.org/plugins/wordpress-org/compliance-disclaimers/`
+- [Detailed Plugin Guidelines – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__detailed-plugin-guidelines.md) — `** https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/`
+- [Using Subversion – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__how-to-use-subversion.md) — `** https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/`
+- [Plugin Readmes – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__how-your-readme-txt-works.md) — `** https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/`
+- [Planning, Submitting, and Maintaining Plugins – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__planning-submitting-and-maintaining-plugins.md) — `** https://developer.wordpress.org/plugins/wordpress-org/planning-submitting-and-maintaining-plugins/`
+- [How Your Plugin Assets Work – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__plugin-assets.md) — `** https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/`
+- [Plugin Developer FAQ – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__plugin-developer-faq.md) — `** https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/`
+- [Reporting Plugin Security Issues – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__plugin-security__reporting-plugin-security-issues.md) — `** https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/`
+- [Previews and Blueprints – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__previews-and-blueprints.md) — `** https://developer.wordpress.org/plugins/wordpress-org/previews-and-blueprints/`
+- [Release Confirmation Emails – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__release-confirmation-emails.md) — `** https://developer.wordpress.org/plugins/wordpress-org/release-confirmation-emails/`
+- [Reporting Plugin Security Issues – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__reporting-plugin-security-issues.md) — `** https://developer.wordpress.org/plugins/wordpress-org/reporting-plugin-security-issues/`
+- [Special User Roles and Capabilities – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__special-user-roles-capabilities.md) — `** https://developer.wordpress.org/plugins/wordpress-org/special-user-roles-capabilities/`
+- [Take Over an Existing Plugin – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__take-over-an-existing-plugin.md) — `** https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/`
+- [Transferring Your Plugin to a New Owner – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__transferring-your-plugin-to-a-new-owner.md) — `** https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/`
+- [Using the Forums – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__using-the-forums.md) — `** https://developer.wordpress.org/plugins/wordpress-org/using-the-forums/`
+- [Using the WordPress.org MCP Server – Plugin Handbook | Developer.WordPress.org](dev_plugins__wordpress-org__using-the-mcp-server.md) — `** https://developer.wordpress.org/plugins/wordpress-org/using-the-mcp-server/`
+
+## 📂 `dev_rest_api` (67)
+
+- [Authentication – REST API Handbook | Developer.WordPress.org](dev_rest_api__authentication.md) — `** https://developer.wordpress.org/rest-api/authentication/`
+- [Backbone JavaScript Client – REST API Handbook | Developer.WordPress.org](dev_rest_api__backbone-javascript-client.md) — `** https://developer.wordpress.org/rest-api/backbone-javascript-client/`
+- [Changelog – REST API Handbook | Developer.WordPress.org](dev_rest_api__changelog.md) — `** https://developer.wordpress.org/rest-api/changelog/`
+- [Discovery – REST API Handbook | Developer.WordPress.org](dev_rest_api__discovery.md) — `** https://developer.wordpress.org/rest-api/discovery/`
+- [Extending the REST API – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/`
+- [Adding Custom Endpoints – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__adding-custom-endpoints.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-custom-endpoints/`
+- [Adding REST API Support For Custom Content Types – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__adding-rest-api-support-for-custom-content-types.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-rest-api-support-for-custom-content-types/`
+- [Controller Classes – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__controller-classes.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/controller-classes/`
+- [Modifying Responses – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__modifying-responses.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/modifying-responses/`
+- [Routes and Endpoints – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__routes-and-endpoints.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/routes-and-endpoints/`
+- [Schema – REST API Handbook | Developer.WordPress.org](dev_rest_api__extending-the-rest-api__schema.md) — `** https://developer.wordpress.org/rest-api/extending-the-rest-api/schema/`
+- [Frequently Asked Questions – REST API Handbook | Developer.WordPress.org](dev_rest_api__frequently-asked-questions.md) — `** https://developer.wordpress.org/rest-api/frequently-asked-questions/`
+- [Global Parameters – REST API Handbook | Developer.WordPress.org](dev_rest_api__global-parameters.md) — `** https://developer.wordpress.org/rest-api/global-parameters/`
+- [Glossary – REST API Handbook | Developer.WordPress.org](dev_rest_api__glossary.md) — `** https://developer.wordpress.org/rest-api/glossary/`
+- [REST API Handbook | Developer.WordPress.org](dev_rest_api__index.md) — `** https://developer.wordpress.org/rest-api/`
+- [Key Concepts – REST API Handbook | Developer.WordPress.org](dev_rest_api__key-concepts.md) — `** https://developer.wordpress.org/rest-api/key-concepts/`
+- [Linking and Embedding – REST API Handbook | Developer.WordPress.org](dev_rest_api__linking-and-embedding.md) — `** https://developer.wordpress.org/rest-api/linking-and-embedding/`
+- [Reference – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference.md) — `** https://developer.wordpress.org/rest-api/reference/`
+- [Application Passwords – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__application-passwords.md) — `** https://developer.wordpress.org/rest-api/reference/application-passwords/`
+- [Block Directory Items – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__block-directory-items.md) — `** https://developer.wordpress.org/rest-api/reference/block-directory-items/`
+- [Block Pattern Categories – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__block-pattern-categories.md) — `** https://developer.wordpress.org/rest-api/reference/block-pattern-categories/`
+- [Block Patterns – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__block-patterns.md) — `** https://developer.wordpress.org/rest-api/reference/block-patterns/`
+- [Block Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__block-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/block-revisions/`
+- [Block Types – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__block-types.md) — `** https://developer.wordpress.org/rest-api/reference/block-types/`
+- [Editor Blocks – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__blocks.md) — `** https://developer.wordpress.org/rest-api/reference/blocks/`
+- [Categories – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__categories.md) — `** https://developer.wordpress.org/rest-api/reference/categories/`
+- [Comments – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__comments.md) — `** https://developer.wordpress.org/rest-api/reference/comments/`
+- [Media – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__media.md) — `** https://developer.wordpress.org/rest-api/reference/media/`
+- [Menu Locations – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__menu-locations.md) — `** https://developer.wordpress.org/rest-api/reference/menu-locations/`
+- [Nav_Menu_Item Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__nav_menu_item-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/nav_menu_item-revisions/`
+- [Nav_Menu_Items – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__nav_menu_items.md) — `** https://developer.wordpress.org/rest-api/reference/nav_menu_items/`
+- [Nav_Menus – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__nav_menus.md) — `** https://developer.wordpress.org/rest-api/reference/nav_menus/`
+- [Page Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__page-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/page-revisions/`
+- [Pages – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__pages.md) — `** https://developer.wordpress.org/rest-api/reference/pages/`
+- [Pattern Directory Items – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__pattern-directory-items.md) — `** https://developer.wordpress.org/rest-api/reference/pattern-directory-items/`
+- [Plugins – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__plugins.md) — `** https://developer.wordpress.org/rest-api/reference/plugins/`
+- [Post Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__post-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/post-revisions/`
+- [Statuses – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__post-statuses.md) — `** https://developer.wordpress.org/rest-api/reference/post-statuses/`
+- [Types – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__post-types.md) — `** https://developer.wordpress.org/rest-api/reference/post-types/`
+- [Posts – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__posts.md) — `** https://developer.wordpress.org/rest-api/reference/posts/`
+- [Rendered Blocks – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__rendered-blocks.md) — `** https://developer.wordpress.org/rest-api/reference/rendered-blocks/`
+- [Search Results – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__search-results.md) — `** https://developer.wordpress.org/rest-api/reference/search-results/`
+- [Site Settings – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__settings.md) — `** https://developer.wordpress.org/rest-api/reference/settings/`
+- [Sidebars – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__sidebars.md) — `** https://developer.wordpress.org/rest-api/reference/sidebars/`
+- [Tags – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__tags.md) — `** https://developer.wordpress.org/rest-api/reference/tags/`
+- [Taxonomies – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__taxonomies.md) — `** https://developer.wordpress.org/rest-api/reference/taxonomies/`
+- [Themes – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__themes.md) — `** https://developer.wordpress.org/rest-api/reference/themes/`
+- [Users – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__users.md) — `** https://developer.wordpress.org/rest-api/reference/users/`
+- [Widget Types – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__widget-types.md) — `** https://developer.wordpress.org/rest-api/reference/widget-types/`
+- [Widgets – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__widgets.md) — `** https://developer.wordpress.org/rest-api/reference/widgets/`
+- [Wp Site Health Tests – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp-site-health-tests.md) — `** https://developer.wordpress.org/rest-api/reference/wp-site-health-tests/`
+- [Global_Styles – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_global_styles.md) — `** https://developer.wordpress.org/rest-api/reference/wp_global_styles/`
+- [Navigation Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_navigation-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/wp_navigation-revisions/`
+- [Navigations – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_navigations.md) — `** https://developer.wordpress.org/rest-api/reference/wp_navigations/`
+- [Template Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_template-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/wp_template-revisions/`
+- [Template_Part Revisions – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_template_part-revisions.md) — `** https://developer.wordpress.org/rest-api/reference/wp_template_part-revisions/`
+- [Template_Parts – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_template_parts.md) — `** https://developer.wordpress.org/rest-api/reference/wp_template_parts/`
+- [Templates – REST API Handbook | Developer.WordPress.org](dev_rest_api__reference__wp_templates.md) — `** https://developer.wordpress.org/rest-api/reference/wp_templates/`
+- [Requests – REST API Handbook | Developer.WordPress.org](dev_rest_api__requests.md) — `** https://developer.wordpress.org/rest-api/requests/`
+- [Using the REST API – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/`
+- [Authentication – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__authentication.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/`
+- [Backbone JavaScript Client – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__backbone-javascript-client.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/backbone-javascript-client/`
+- [Client Libraries – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__client-libraries.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/client-libraries/`
+- [Discovery – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__discovery.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/`
+- [Global Parameters – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__global-parameters.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/global-parameters/`
+- [Linking and Embedding – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__linking-and-embedding.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/linking-and-embedding/`
+- [Pagination – REST API Handbook | Developer.WordPress.org](dev_rest_api__using-the-rest-api__pagination.md) — `** https://developer.wordpress.org/rest-api/using-the-rest-api/pagination/`
+
+## 📂 `dev_themes` (120)
+
+- [Advanced Topics – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics.md) — `** https://developer.wordpress.org/themes/advanced-topics/`
+- [Build Process – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__build-process.md) — `** https://developer.wordpress.org/themes/advanced-topics/build-process/`
+- [Child Themes – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__child-themes.md) — `** https://developer.wordpress.org/themes/advanced-topics/child-themes/`
+- [Debugging – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__debugging.md) — `** https://developer.wordpress.org/themes/advanced-topics/debugging/`
+- [Internationalization – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__internationalization.md) — `** https://developer.wordpress.org/themes/advanced-topics/internationalization/`
+- [JavaScript Best Practices – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__javascript-best-practices.md) — `** https://developer.wordpress.org/themes/advanced-topics/javascript-best-practices/`
+- [Plugin API Hooks – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__plugin-api-hooks.md) — `** https://developer.wordpress.org/themes/advanced-topics/plugin-api-hooks/`
+- [Privacy – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__privacy.md) — `** https://developer.wordpress.org/themes/advanced-topics/privacy/`
+- [Publishing Themes – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__publishing-themes.md) — `** https://developer.wordpress.org/themes/advanced-topics/publishing-themes/`
+- [Security – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__security.md) — `** https://developer.wordpress.org/themes/advanced-topics/security/`
+- [Testing – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__testing.md) — `** https://developer.wordpress.org/themes/advanced-topics/testing/`
+- [Theme Testing – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__theme-testing.md) — `** https://developer.wordpress.org/themes/advanced-topics/theme-testing/`
+- [UI Best Practices – Theme Handbook | Developer.WordPress.org](dev_themes__advanced-topics__ui-best-practices.md) — `** https://developer.wordpress.org/themes/advanced-topics/ui-best-practices/`
+- [Classic themes – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes.md) — `** https://developer.wordpress.org/themes/classic-themes/`
+- [Theme Basics – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/`
+- [Categories, Tags, & Custom Taxonomies – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__categories-tags-custom-taxonomies.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/categories-tags-custom-taxonomies/`
+- [Conditional Tags – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__conditional-tags.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/conditional-tags/`
+- [Including CSS & JavaScript (Archived) – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__including-css-javascript.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/including-css-javascript/`
+- [Linking Theme Files & Directories – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__linking-theme-files-directories.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/linking-theme-files-directories/`
+- [Main Stylesheet (style.css) – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__main-stylesheet-style-css.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/main-stylesheet-style-css/`
+- [Organizing Theme Files – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__organizing-theme-files.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/organizing-theme-files/`
+- [Post Types – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__post-types.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/post-types/`
+- [Reworking Theme Files & Organization – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__reworking-theme-files-organization.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/reworking-theme-files-organization/`
+- [Template Files – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__template-files.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/template-files/`
+- [Template Hierarchy – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__template-hierarchy.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/template-hierarchy/`
+- [Template Tags – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__template-tags.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/template-tags/`
+- [The Loop – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__the-loop.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/the-loop/`
+- [Theme Functions – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__theme-functions.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/theme-functions/`
+- [Tools & Resources – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__basics__tools-resources.md) — `** https://developer.wordpress.org/themes/classic-themes/basics/tools-resources/`
+- [Theme Options – The Customize API – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__customize-api.md) — `** https://developer.wordpress.org/themes/classic-themes/customize-api/`
+- [Customizer Objects – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__customize-api__customizer-objects.md) — `** https://developer.wordpress.org/themes/classic-themes/customize-api/customizer-objects/`
+- [Other Resources – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__customize-api__other-resources.md) — `** https://developer.wordpress.org/themes/classic-themes/customize-api/other-resources/`
+- [Theme Functionality – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/`
+- [404 Pages – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__404-pages.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/404-pages/`
+- [Accessibility – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__accessibility.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/accessibility/`
+- [Administration Menus – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__administration-menus.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/administration-menus/`
+- [Block theme accessibility – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__block-theme-accessibility.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/block-theme-accessibility/`
+- [Core-Supported Features – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__core-supported.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/core-supported/`
+- [Custom Backgrounds – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__custom-backgrounds.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/custom-backgrounds/`
+- [Custom Front Page Templates – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__custom-front-page-templates.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/custom-front-page-templates/`
+- [Custom Headers – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__custom-headers.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/custom-headers/`
+- [Custom Logo – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__custom-logo.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/custom-logo/`
+- [Featured Images & Post Thumbnails – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__featured-images-post-thumbnails.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/featured-images-post-thumbnails/`
+- [Internationalization – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__internationalization.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/internationalization/`
+- [Localization – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__localization.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/localization/`
+- [Media – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__media.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/media/`
+- [Audio – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__media__audio.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/media/audio/`
+- [Galleries – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__media__galleries.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/media/galleries/`
+- [Images – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__media__images.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/media/images/`
+- [Video – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__media__video.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/media/video/`
+- [Navigation Menus – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__navigation-menus.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/navigation-menus/`
+- [Pagination – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__pagination.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/pagination/`
+- [Post Formats – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__post-formats.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/post-formats/`
+- [Sidebars – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__sidebars.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/sidebars/`
+- [Widgets – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__functionality__widgets.md) — `** https://developer.wordpress.org/themes/classic-themes/functionality/widgets/`
+- [Your First Theme – Theme Handbook | Developer.WordPress.org](dev_themes__classic-themes__your-first-theme.md) — `** https://developer.wordpress.org/themes/classic-themes/your-first-theme/`
+- [Core Concepts – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts.md) — `** https://developer.wordpress.org/themes/core-concepts/`
+- [Custom Functionality (functions.php) – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__custom-functionality.md) — `** https://developer.wordpress.org/themes/core-concepts/custom-functionality/`
+- [Global Settings and Styles – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__global-settings-and-styles.md) — `** https://developer.wordpress.org/themes/core-concepts/global-settings-and-styles/`
+- [Including Assets – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__including-assets.md) — `** https://developer.wordpress.org/themes/core-concepts/including-assets/`
+- [Main Stylesheet (style.css) – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__main-stylesheet.md) — `** https://developer.wordpress.org/themes/core-concepts/main-stylesheet/`
+- [Templates – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__templates.md) — `** https://developer.wordpress.org/themes/core-concepts/templates/`
+- [Theme Structure – Theme Handbook | Developer.WordPress.org](dev_themes__core-concepts__theme-structure.md) — `** https://developer.wordpress.org/themes/core-concepts/theme-structure/`
+- [Features – Theme Handbook | Developer.WordPress.org](dev_themes__features.md) — `** https://developer.wordpress.org/themes/features/`
+- [Block Patterns (Archived) – Theme Handbook | Developer.WordPress.org](dev_themes__features__block-patterns.md) — `** https://developer.wordpress.org/themes/features/block-patterns/`
+- [Block Style Variations – Theme Handbook | Developer.WordPress.org](dev_themes__features__block-style-variations.md) — `** https://developer.wordpress.org/themes/features/block-style-variations/`
+- [Block Stylesheets – Theme Handbook | Developer.WordPress.org](dev_themes__features__block-stylesheets.md) — `** https://developer.wordpress.org/themes/features/block-stylesheets/`
+- [Block Variations – Theme Handbook | Developer.WordPress.org](dev_themes__features__block-variations.md) — `** https://developer.wordpress.org/themes/features/block-variations/`
+- [Getting Started – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started.md) — `** https://developer.wordpress.org/themes/getting-started/`
+- [Quick-Start Guide – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started__quick-start-guide.md) — `** https://developer.wordpress.org/themes/getting-started/quick-start-guide/`
+- [Reading This Handbook – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started__reading-this-handbook.md) — `** https://developer.wordpress.org/themes/getting-started/reading-this-handbook/`
+- [Tools and Setup – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started__tools-and-setup.md) — `** https://developer.wordpress.org/themes/getting-started/tools-and-setup/`
+- [What Is a Theme? – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started__what-is-a-theme.md) — `** https://developer.wordpress.org/themes/getting-started/what-is-a-theme/`
+- [Who Is This Handbook For? – Theme Handbook | Developer.WordPress.org](dev_themes__getting-started__who-is-this-handbook-for.md) — `** https://developer.wordpress.org/themes/getting-started/who-is-this-handbook-for/`
+- [Global Settings and Styles (theme.json) – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/`
+- [Custom Templates – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__custom-templates.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/custom-templates/`
+- [Introduction to theme.json – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__introduction-to-theme-json.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/introduction-to-theme-json/`
+- [Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__patterns.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/patterns/`
+- [Settings – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/`
+- [Appearance Tools – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__appearance-tools.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/appearance-tools/`
+- [Blocks – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__blocks.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/blocks/`
+- [Border – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__border.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/border/`
+- [Color – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__color.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/color/`
+- [Custom – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__custom.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/custom/`
+- [Dimensions – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__dimensions.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/dimensions/`
+- [Layout – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__layout.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/layout/`
+- [Lightbox – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__lightbox.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/lightbox/`
+- [Position – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__position.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/position/`
+- [Settings Reference – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__settings-reference.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/settings-reference/`
+- [Shadow – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__shadow.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/shadow/`
+- [Spacing – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__spacing.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/spacing/`
+- [Typography – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__typography.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/typography/`
+- [Use Root Padding Aware Alignments – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__settings__use-root-padding-aware-alignments.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/settings/use-root-padding-aware-alignments/`
+- [Style Variations – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__style-variations.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/style-variations/`
+- [Styles – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__styles.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/styles/`
+- [Applying Styles – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__styles__applying-styles.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/styles/applying-styles/`
+- [Styles Reference – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__styles__styles-reference.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/styles/styles-reference/`
+- [Using Presets – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__styles__using-presets.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/styles/using-presets/`
+- [Template Parts – Theme Handbook | Developer.WordPress.org](dev_themes__global-settings-and-styles__template-parts.md) — `** https://developer.wordpress.org/themes/global-settings-and-styles/template-parts/`
+- [Theme Handbook | Developer.WordPress.org](dev_themes__index.md) — `** https://developer.wordpress.org/themes/`
+- [Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns.md) — `** https://developer.wordpress.org/themes/patterns/`
+- [Block Type Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__block-type-patterns.md) — `** https://developer.wordpress.org/themes/patterns/block-type-patterns/`
+- [Introduction to Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__introduction-to-patterns.md) — `** https://developer.wordpress.org/themes/patterns/introduction-to-patterns/`
+- [Patterns and Block Locking – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__patterns-and-block-locking.md) — `** https://developer.wordpress.org/themes/patterns/patterns-and-block-locking/`
+- [Registering Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__registering-patterns.md) — `** https://developer.wordpress.org/themes/patterns/registering-patterns/`
+- [Starter Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__starter-patterns.md) — `** https://developer.wordpress.org/themes/patterns/starter-patterns/`
+- [Usage in Templates – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__usage-in-templates.md) — `** https://developer.wordpress.org/themes/patterns/usage-in-templates/`
+- [Using PHP in Patterns – Theme Handbook | Developer.WordPress.org](dev_themes__patterns__using-php-in-patterns.md) — `** https://developer.wordpress.org/themes/patterns/using-php-in-patterns/`
+- [Releasing Your Theme – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/`
+- [Required Theme Files – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__required-theme-files.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/required-theme-files/`
+- [Submitting Your Theme to WordPress.org – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__submitting-your-theme-to-wordpress-org.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/submitting-your-theme-to-wordpress-org/`
+- [Testing – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__testing.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/testing/`
+- [Theme Review Guidelines – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__theme-review-guidelines.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/theme-review-guidelines/`
+- [Updating Your Theme – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__updating-your-theme.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/updating-your-theme/`
+- [Writing Documentation – Theme Handbook | Developer.WordPress.org](dev_themes__releasing-your-theme__writing-documentation.md) — `** https://developer.wordpress.org/themes/releasing-your-theme/writing-documentation/`
+- [Templates – Theme Handbook | Developer.WordPress.org](dev_themes__templates.md) — `** https://developer.wordpress.org/themes/templates/`
+- [Introduction to Templates – Theme Handbook | Developer.WordPress.org](dev_themes__templates__introduction-to-templates.md) — `** https://developer.wordpress.org/themes/templates/introduction-to-templates/`
+- [Template Hierarchy – Theme Handbook | Developer.WordPress.org](dev_themes__templates__template-hierarchy.md) — `** https://developer.wordpress.org/themes/templates/template-hierarchy/`
+- [Template Parts – Theme Handbook | Developer.WordPress.org](dev_themes__templates__template-parts.md) — `** https://developer.wordpress.org/themes/templates/template-parts/`
+- [Templates – Theme Handbook | Developer.WordPress.org](dev_themes__templates__templates.md) — `** https://developer.wordpress.org/themes/templates/templates/`
+
+## 📂 `geral` (3)
+
+- [Customization – Documentation – WordPress.org](customization.md) — `** https://wordpress.org/documentation/customization/`
+- [Documentation – WordPress.org](index.md) — `** https://wordpress.org/documentation/`
+- [WordPress overview – Documentation](overview.md) — `** https://wordpress.org/documentation/overview/`
+
+## 📂 `support` (1)
+
+- [Support guides – Documentation – WordPress.org](support-guides.md) — `** https://wordpress.org/documentation/support-guides/`
+
+## 📂 `technical` (1)
+
+- [Technical guides – Documentation – WordPress.org](technical-guides.md) — `** https://wordpress.org/documentation/technical-guides/`
+
+## 📂 `themes_templates` (5)
+
+- [Templates – Theme Handbook | Developer.WordPress.org](themes_templates__index.md) — `** https://developer.wordpress.org/themes/templates/`
+- [Introduction to Templates – Theme Handbook | Developer.WordPress.org](themes_templates__introduction-to-templates.md) — `** https://developer.wordpress.org/themes/templates/introduction-to-templates/`
+- [Template Hierarchy – Theme Handbook | Developer.WordPress.org](themes_templates__template-hierarchy.md) — `** https://developer.wordpress.org/themes/templates/template-hierarchy/`
+- [Template Parts – Theme Handbook | Developer.WordPress.org](themes_templates__template-parts.md) — `** https://developer.wordpress.org/themes/templates/template-parts/`
+- [Templates – Theme Handbook | Developer.WordPress.org](themes_templates__templates.md) — `** https://developer.wordpress.org/themes/templates/templates/`

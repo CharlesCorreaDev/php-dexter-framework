@@ -1,0 +1,746 @@
+{
+  "root_url": "https://caddyserver.com/docs/",
+  "scope_prefix": "https://caddyserver.com/docs/",
+  "total_pages": 123,
+  "generated_at": "2026-10-28T14:48:56Z",
+  "pages": [
+    {
+      "url": "https://caddyserver.com/docs/",
+      "file": "index.md",
+      "title": "Welcome — Caddy Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://caddyserver.com/docs/install",
+      "file": "install.md",
+      "title": "Install — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile",
+      "file": "caddyfile.md",
+      "title": "The Caddyfile — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/json",
+      "file": "json.md",
+      "title": "json — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/getting-started",
+      "file": "getting-started.md",
+      "title": "Getting Started — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/static-files",
+      "file": "quick-starts__static-files.md",
+      "title": "Static files quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/reverse-proxy",
+      "file": "quick-starts__reverse-proxy.md",
+      "title": "Reverse proxy quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/troubleshooting",
+      "file": "troubleshooting.md",
+      "title": "troubleshooting — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/command-line",
+      "file": "command-line.md",
+      "title": "Command Line — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/api",
+      "file": "api.md",
+      "title": "API — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/automatic-https",
+      "file": "automatic-https.md",
+      "title": "Automatic HTTPS — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/architecture",
+      "file": "architecture.md",
+      "title": "Architecture — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/extending-caddy",
+      "file": "extending-caddy.md",
+      "title": "Extending Caddy — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/logging",
+      "file": "logging.md",
+      "title": "How Logging Works — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/metrics",
+      "file": "metrics.md",
+      "title": "Monitoring Caddy with metrics — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/running",
+      "file": "running.md",
+      "title": "Keep Caddy Running — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/profiling",
+      "file": "profiling.md",
+      "title": "Profiling Caddy — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/examples",
+      "file": "examples.md",
+      "title": "examples — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/faq",
+      "file": "faq.md",
+      "title": "faq — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules",
+      "file": "modules.md",
+      "title": "modules — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/build",
+      "file": "build.md",
+      "title": "Build from source — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts",
+      "file": "quick-starts.md",
+      "title": "Quick-starts — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/api",
+      "file": "quick-starts__api.md",
+      "title": "API Quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/caddyfile",
+      "file": "quick-starts__caddyfile.md",
+      "title": "Caddyfile Quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/https",
+      "file": "quick-starts__https.md",
+      "title": "HTTPS quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/quick-starts/railway",
+      "file": "quick-starts__railway.md",
+      "title": "Railway Quick-start — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/api-tutorial",
+      "file": "api-tutorial.md",
+      "title": "API Tutorial — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile-tutorial",
+      "file": "caddyfile-tutorial.md",
+      "title": "Caddyfile Tutorial — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/concepts",
+      "file": "caddyfile__concepts.md",
+      "title": "Caddyfile Concepts — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/options",
+      "file": "caddyfile__options.md",
+      "title": "Global options (Caddyfile) — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives",
+      "file": "caddyfile__directives.md",
+      "title": "Caddyfile Directives — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/matchers",
+      "file": "caddyfile__matchers.md",
+      "title": "Request matchers (Caddyfile) — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/response-matchers",
+      "file": "caddyfile__response-matchers.md",
+      "title": "Response matchers (Caddyfile) — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/patterns",
+      "file": "caddyfile__patterns.md",
+      "title": "Common Caddyfile Patterns — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/conventions",
+      "file": "conventions.md",
+      "title": "Conventions — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/config-adapters",
+      "file": "config-adapters.md",
+      "title": "Config Adapters — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/signature-verification",
+      "file": "signature-verification.md",
+      "title": "Verifying Asset Signatures — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/extending-caddy/caddyfile",
+      "file": "extending-caddy__caddyfile.md",
+      "title": "Caddyfile Support — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/extending-caddy/config-adapters",
+      "file": "extending-caddy__config-adapters.md",
+      "title": "Writing Config Adapters — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/extending-caddy/placeholders",
+      "file": "extending-caddy__placeholders.md",
+      "title": "Placeholder Support — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/extending-caddy/namespaces",
+      "file": "extending-caddy__namespaces.md",
+      "title": "Module Namespaces — Caddy Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/file_server",
+      "file": "caddyfile__directives__file_server.md",
+      "title": "file_server (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/reverse_proxy",
+      "file": "caddyfile__directives__reverse_proxy.md",
+      "title": "reverse_proxy (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/storage/",
+      "file": "json__storage.md",
+      "title": "json/storage/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/pki/",
+      "file": "json__apps__pki.md",
+      "title": "json/apps/pki/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/acme_server",
+      "file": "caddyfile__directives__acme_server.md",
+      "title": "acme_server (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/admin/",
+      "file": "json__admin.md",
+      "title": "json/admin/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/admin/config/",
+      "file": "json__admin__config.md",
+      "title": "json/admin/config/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/upstreams/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy__upstreams.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/upstreams/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy__health_checks__passive.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/max_fails/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy__health_checks__passive__max_fails.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/max_fails/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/unhealthy_request_count/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy__health_checks__passive__unhealthy_request_count.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/health_checks/passive/unhealthy_request_count/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/upstreams/max_requests/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy__upstreams__max_requests.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/upstreams/max_requests/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/match/host/",
+      "file": "json__apps__http__servers__routes__match__host.md",
+      "title": "json/apps/http/servers/routes/match/host/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http",
+      "file": "modules__http.md",
+      "title": "modules/http — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/tls/certificates/automate/",
+      "file": "json__apps__tls__certificates__automate.md",
+      "title": "json/apps/tls/certificates/automate/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/automatic_https/",
+      "file": "json__apps__http__servers__automatic_https.md",
+      "title": "json/apps/http/servers/automatic_https/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/automatic_https/ignore_loaded_certificates/",
+      "file": "json__apps__http__servers__automatic_https__ignore_loaded_certificates.md",
+      "title": "json/apps/http/servers/automatic_https/ignore_loaded_certificates/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/",
+      "file": "json__apps__http__servers.md",
+      "title": "json/apps/http/servers/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/pki/certificate_authorities/install_trust/",
+      "file": "json__apps__pki__certificate_authorities__install_trust.md",
+      "title": "json/apps/pki/certificate_authorities/install_trust/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/tls.issuance.acme",
+      "file": "modules__tls.issuance.acme.md",
+      "title": "modules/tls.issuance.acme — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/http_port/",
+      "file": "json__apps__http__http_port.md",
+      "title": "json/apps/http/http_port/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/https_port/",
+      "file": "json__apps__http__https_port.md",
+      "title": "json/apps/http/https_port/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/tls",
+      "file": "caddyfile__directives__tls.md",
+      "title": "tls (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/tls/automation/policies/",
+      "file": "json__apps__tls__automation__policies.md",
+      "title": "json/apps/tls/automation/policies/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/tls/automation/on_demand/",
+      "file": "json__apps__tls__automation__on_demand.md",
+      "title": "json/apps/tls/automation/on_demand/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/logging/",
+      "file": "json__logging.md",
+      "title": "json/logging/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/",
+      "file": "json__apps.md",
+      "title": "json/apps/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http.matchers.remote_ip",
+      "file": "modules__http.matchers.remote_ip.md",
+      "title": "modules/http.matchers.remote_ip — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http.handlers.reverse_proxy",
+      "file": "modules__http.handlers.reverse_proxy.md",
+      "title": "modules/http.handlers.reverse_proxy — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/logging/logs/encoder/",
+      "file": "json__logging__logs__encoder.md",
+      "title": "json/logging/logs/encoder/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/logging/logs/",
+      "file": "json__logging__logs.md",
+      "title": "json/logging/logs/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/tracing",
+      "file": "caddyfile__directives__tracing.md",
+      "title": "tracing (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/metrics",
+      "file": "caddyfile__directives__metrics.md",
+      "title": "metrics (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/root",
+      "file": "caddyfile__directives__root.md",
+      "title": "root (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http.handlers.templates",
+      "file": "modules__http.handlers.templates.md",
+      "title": "modules/http.handlers.templates — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/encode",
+      "file": "caddyfile__directives__encode.md",
+      "title": "encode (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/basic_auth",
+      "file": "caddyfile__directives__basic_auth.md",
+      "title": "basic_auth (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/route",
+      "file": "caddyfile__directives__route.md",
+      "title": "route (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/handle",
+      "file": "caddyfile__directives__handle.md",
+      "title": "handle (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/handle_path",
+      "file": "caddyfile__directives__handle_path.md",
+      "title": "handle_path (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/bind",
+      "file": "caddyfile__directives__bind.md",
+      "title": "bind (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/",
+      "file": "json__apps__http.md",
+      "title": "json/apps/http/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/import",
+      "file": "caddyfile__directives__import.md",
+      "title": "import (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/invoke",
+      "file": "caddyfile__directives__invoke.md",
+      "title": "invoke (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/storage/file_system/",
+      "file": "json__storage__file_system.md",
+      "title": "json/storage/file_system/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/log",
+      "file": "caddyfile__directives__log.md",
+      "title": "log (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/listener_wrappers/",
+      "file": "json__apps__http__servers__listener_wrappers.md",
+      "title": "json/apps/http/servers/listener_wrappers/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/listener_wrappers/http_redirect/",
+      "file": "json__apps__http__servers__listener_wrappers__http_redirect.md",
+      "title": "json/apps/http/servers/listener_wrappers/http_redirect/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/listener_wrappers/proxy_protocol/",
+      "file": "json__apps__http__servers__listener_wrappers__proxy_protocol.md",
+      "title": "json/apps/http/servers/listener_wrappers/proxy_protocol/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/timeouts",
+      "file": "caddyfile__directives__timeouts.md",
+      "title": "timeouts (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/trusted_proxies/",
+      "file": "json__apps__http__servers__trusted_proxies.md",
+      "title": "json/apps/http/servers/trusted_proxies/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/forward_auth",
+      "file": "caddyfile__directives__forward_auth.md",
+      "title": "forward_auth (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/abort",
+      "file": "caddyfile__directives__abort.md",
+      "title": "abort (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/error",
+      "file": "caddyfile__directives__error.md",
+      "title": "error (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/fs",
+      "file": "caddyfile__directives__fs.md",
+      "title": "fs (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/handle_errors",
+      "file": "caddyfile__directives__handle_errors.md",
+      "title": "handle_errors (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/header",
+      "file": "caddyfile__directives__header.md",
+      "title": "header (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/intercept",
+      "file": "caddyfile__directives__intercept.md",
+      "title": "intercept (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/log_append",
+      "file": "caddyfile__directives__log_append.md",
+      "title": "log_append (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/log_skip",
+      "file": "caddyfile__directives__log_skip.md",
+      "title": "log_skip (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/log_name",
+      "file": "caddyfile__directives__log_name.md",
+      "title": "log_name (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/map",
+      "file": "caddyfile__directives__map.md",
+      "title": "map (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/method",
+      "file": "caddyfile__directives__method.md",
+      "title": "method (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/php_fastcgi",
+      "file": "caddyfile__directives__php_fastcgi.md",
+      "title": "php_fastcgi (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/push",
+      "file": "caddyfile__directives__push.md",
+      "title": "push (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/redir",
+      "file": "caddyfile__directives__redir.md",
+      "title": "redir (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/request_body",
+      "file": "caddyfile__directives__request_body.md",
+      "title": "request_body (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/request_header",
+      "file": "caddyfile__directives__request_header.md",
+      "title": "request_header (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/respond",
+      "file": "caddyfile__directives__respond.md",
+      "title": "respond (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/rewrite",
+      "file": "caddyfile__directives__rewrite.md",
+      "title": "rewrite (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/templates",
+      "file": "caddyfile__directives__templates.md",
+      "title": "templates (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/try_files",
+      "file": "caddyfile__directives__try_files.md",
+      "title": "try_files (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/uri",
+      "file": "caddyfile__directives__uri.md",
+      "title": "uri (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/caddyfile/directives/vars",
+      "file": "caddyfile__directives__vars.md",
+      "title": "vars (Caddyfile directive) — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/match/",
+      "file": "json__apps__http__servers__routes__match.md",
+      "title": "json/apps/http/servers/routes/match/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http.handlers.vars",
+      "file": "modules__http.handlers.vars.md",
+      "title": "modules/http.handlers.vars — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/reverse_proxy/",
+      "file": "json__apps__http__servers__routes__handle__reverse_proxy.md",
+      "title": "json/apps/http/servers/routes/handle/reverse_proxy/ — Caddy Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/tls_connection_policies/client_authentication/",
+      "file": "json__apps__http__servers__tls_connection_policies__client_authentication.md",
+      "title": "json/apps/http/servers/tls_connection_policies/client_authentication/ — Caddy Documentation",
+      "depth": 3
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/tls.client_auth.verifier.leaf",
+      "file": "modules__tls.client_auth.verifier.leaf.md",
+      "title": "modules/tls.client_auth.verifier.leaf — Caddy Documentation",
+      "depth": 3
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/errors/",
+      "file": "json__apps__http__servers__errors.md",
+      "title": "json/apps/http/servers/errors/ — Caddy Documentation",
+      "depth": 3
+    },
+    {
+      "url": "https://caddyserver.com/docs/modules/http.handlers.headers",
+      "file": "modules__http.handlers.headers.md",
+      "title": "modules/http.handlers.headers — Caddy Documentation",
+      "depth": 3
+    },
+    {
+      "url": "https://caddyserver.com/docs/json/apps/http/servers/routes/handle/rewrite/",
+      "file": "json__apps__http__servers__routes__handle__rewrite.md",
+      "title": "json/apps/http/servers/routes/handle/rewrite/ — Caddy Documentation",
+      "depth": 3
+    }
+  ]
+}

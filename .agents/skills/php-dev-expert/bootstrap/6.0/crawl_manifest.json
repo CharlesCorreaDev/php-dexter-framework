@@ -1,0 +1,1100 @@
+{
+  "root_url": "https://getbootstrap.com/docs/6.0/",
+  "scope_prefix": "https://getbootstrap.com/docs/6.0/",
+  "total_pages": 182,
+  "generated_at": "2026-10-28T16:46:59Z",
+  "pages": [
+    {
+      "url": "https://getbootstrap.com/docs/6.0/",
+      "file": "index.md",
+      "title": "Install Bootstrap · Bootstrap v6.0",
+      "depth": 0
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/install/",
+      "file": "getting-started__install.md",
+      "title": "Install Bootstrap · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/ai",
+      "file": "getting-started__ai.md",
+      "title": "Using Bootstrap with AI · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/approach",
+      "file": "getting-started__approach.md",
+      "title": "Approach · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/css-variables",
+      "file": "getting-started__css-variables.md",
+      "title": "CSS variables · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/javascript",
+      "file": "getting-started__javascript.md",
+      "title": "JavaScript · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/browsers-devices",
+      "file": "getting-started__browsers-devices.md",
+      "title": "Browsers & devices · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started/accessibility",
+      "file": "getting-started__accessibility.md",
+      "title": "Accessibility · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/quickstart",
+      "file": "guides__quickstart.md",
+      "title": "CDN Quickstart · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/npm",
+      "file": "guides__npm.md",
+      "title": "Bootstrap and npm · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/webpack",
+      "file": "guides__webpack.md",
+      "title": "Bootstrap and Webpack · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/parcel",
+      "file": "guides__parcel.md",
+      "title": "Bootstrap and Parcel · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/vite",
+      "file": "guides__vite.md",
+      "title": "Bootstrap and Vite · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/contribute",
+      "file": "guides__contribute.md",
+      "title": "Contribute · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/guides/migration",
+      "file": "guides__migration.md",
+      "title": "Migration · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/overview",
+      "file": "customize__overview.md",
+      "title": "Customize · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/sass",
+      "file": "customize__sass.md",
+      "title": "Sass · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/options",
+      "file": "customize__options.md",
+      "title": "Options · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/color",
+      "file": "customize__color.md",
+      "title": "Color · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/theme",
+      "file": "customize__theme.md",
+      "title": "Theme · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/color-modes",
+      "file": "customize__color-modes.md",
+      "title": "Color modes · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/components",
+      "file": "customize__components.md",
+      "title": "Components · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/transitions",
+      "file": "customize__transitions.md",
+      "title": "Transitions · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/rtl",
+      "file": "customize__rtl.md",
+      "title": "RTL · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/optimize",
+      "file": "customize__optimize.md",
+      "title": "Optimize · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/breakpoints",
+      "file": "layout__breakpoints.md",
+      "title": "Breakpoints · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/containers",
+      "file": "layout__containers.md",
+      "title": "Containers · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/grid",
+      "file": "layout__grid.md",
+      "title": "Grid system · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/columns",
+      "file": "layout__columns.md",
+      "title": "Columns · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/gutters",
+      "file": "layout__gutters.md",
+      "title": "Gutters · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/utilities",
+      "file": "layout__utilities.md",
+      "title": "Utilities for layout · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/z-index",
+      "file": "layout__z-index.md",
+      "title": "Z-index · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/layout/css-grid",
+      "file": "layout__css-grid.md",
+      "title": "CSS Grid · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/content/reboot",
+      "file": "content__reboot.md",
+      "title": "Reboot · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/content/typography",
+      "file": "content__typography.md",
+      "title": "Typography · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/content/images",
+      "file": "content__images.md",
+      "title": "Images · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/content/tables",
+      "file": "content__tables.md",
+      "title": "Tables · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/content/prose",
+      "file": "content__prose.md",
+      "title": "Prose · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/overview",
+      "file": "forms__overview.md",
+      "title": "Forms · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/field",
+      "file": "forms__field.md",
+      "title": "Field · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/form-control",
+      "file": "forms__form-control.md",
+      "title": "Form controls · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/checkbox",
+      "file": "forms__checkbox.md",
+      "title": "Checkbox · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/radio",
+      "file": "forms__radio.md",
+      "title": "Radio · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/switch",
+      "file": "forms__switch.md",
+      "title": "Switch · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/range",
+      "file": "forms__range.md",
+      "title": "Range · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/input-group",
+      "file": "forms__input-group.md",
+      "title": "Input group · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/floating-labels",
+      "file": "forms__floating-labels.md",
+      "title": "Floating labels · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/form-adorn",
+      "file": "forms__form-adorn.md",
+      "title": "Form adorn · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/chips",
+      "file": "forms__chips.md",
+      "title": "Chips · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/combobox",
+      "file": "forms__combobox.md",
+      "title": "Combobox · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/datepicker",
+      "file": "forms__datepicker.md",
+      "title": "Datepicker · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/otp-input",
+      "file": "forms__otp-input.md",
+      "title": "OTP input · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/password-strength",
+      "file": "forms__password-strength.md",
+      "title": "Password strength · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/layout",
+      "file": "forms__layout.md",
+      "title": "Layout · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/forms/validation",
+      "file": "forms__validation.md",
+      "title": "Validation · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/accordion",
+      "file": "components__accordion.md",
+      "title": "Accordion · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/alert",
+      "file": "components__alert.md",
+      "title": "Alert · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/avatar",
+      "file": "components__avatar.md",
+      "title": "Avatar · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/badge",
+      "file": "components__badge.md",
+      "title": "Badges · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/breadcrumb",
+      "file": "components__breadcrumb.md",
+      "title": "Breadcrumb · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/button",
+      "file": "components__button.md",
+      "title": "Button · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/button-group",
+      "file": "components__button-group.md",
+      "title": "Button group · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/card",
+      "file": "components__card.md",
+      "title": "Cards · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/carousel",
+      "file": "components__carousel.md",
+      "title": "Carousel · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/close-button",
+      "file": "components__close-button.md",
+      "title": "Close button · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/collapse",
+      "file": "components__collapse.md",
+      "title": "Collapse · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/dialog",
+      "file": "components__dialog.md",
+      "title": "Dialog · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/drawer",
+      "file": "components__drawer.md",
+      "title": "Drawer · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/list-group",
+      "file": "components__list-group.md",
+      "title": "List group · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/menu",
+      "file": "components__menu.md",
+      "title": "Menu · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/nav",
+      "file": "components__nav.md",
+      "title": "Nav · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/nav-overflow",
+      "file": "components__nav-overflow.md",
+      "title": "Nav overflow · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/navbar",
+      "file": "components__navbar.md",
+      "title": "Navbar · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/pagination",
+      "file": "components__pagination.md",
+      "title": "Pagination · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/placeholder",
+      "file": "components__placeholder.md",
+      "title": "Placeholder · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/popover",
+      "file": "components__popover.md",
+      "title": "Popover · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/progress",
+      "file": "components__progress.md",
+      "title": "Progress · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/scrollspy",
+      "file": "components__scrollspy.md",
+      "title": "Scrollspy · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/spinner",
+      "file": "components__spinner.md",
+      "title": "Spinners · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/stepper",
+      "file": "components__stepper.md",
+      "title": "Stepper · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/tab",
+      "file": "components__tab.md",
+      "title": "Tab · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/toasts",
+      "file": "components__toasts.md",
+      "title": "Toasts · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/toggler",
+      "file": "components__toggler.md",
+      "title": "Toggler · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/tooltip",
+      "file": "components__tooltip.md",
+      "title": "Tooltips · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/focus-ring",
+      "file": "helpers__focus-ring.md",
+      "title": "Focus ring · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/hover-lift",
+      "file": "helpers__hover-lift.md",
+      "title": "Hover lift · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/icon-link",
+      "file": "helpers__icon-link.md",
+      "title": "Icon link · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/position",
+      "file": "helpers__position.md",
+      "title": "Position · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/stacks",
+      "file": "helpers__stacks.md",
+      "title": "Stacks · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/stretched-link",
+      "file": "helpers__stretched-link.md",
+      "title": "Stretched link · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/text-truncation",
+      "file": "helpers__text-truncation.md",
+      "title": "Text truncation · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/vertical-rule",
+      "file": "helpers__vertical-rule.md",
+      "title": "Vertical rule · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/helpers/visually-hidden",
+      "file": "helpers__visually-hidden.md",
+      "title": "Visually hidden · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/api",
+      "file": "utilities__api.md",
+      "title": "Utility API · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/colors",
+      "file": "utilities__colors.md",
+      "title": "Colors · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/background",
+      "file": "utilities__background.md",
+      "title": "Background · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/color-scheme",
+      "file": "utilities__color-scheme.md",
+      "title": "Color scheme · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/theme",
+      "file": "utilities__theme.md",
+      "title": "Theme · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/aspect-ratio",
+      "file": "utilities__aspect-ratio.md",
+      "title": "Aspect ratio · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/container-queries",
+      "file": "utilities__container-queries.md",
+      "title": "Container queries · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/display",
+      "file": "utilities__display.md",
+      "title": "Display property · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/float",
+      "file": "utilities__float.md",
+      "title": "Float · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/object-fit",
+      "file": "utilities__object-fit.md",
+      "title": "Object fit · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/overflow",
+      "file": "utilities__overflow.md",
+      "title": "Overflow · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/position",
+      "file": "utilities__position.md",
+      "title": "Position · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/visibility",
+      "file": "utilities__visibility.md",
+      "title": "Visibility · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/z-index",
+      "file": "utilities__z-index.md",
+      "title": "Z-index · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/align-content",
+      "file": "utilities__align-content.md",
+      "title": "Align content · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/align-items",
+      "file": "utilities__align-items.md",
+      "title": "Align items · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/align-self",
+      "file": "utilities__align-self.md",
+      "title": "Align self · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/flex",
+      "file": "utilities__flex.md",
+      "title": "Flex · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/gap",
+      "file": "utilities__gap.md",
+      "title": "Gap · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/grid",
+      "file": "utilities__grid.md",
+      "title": "Grid · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/justify-content",
+      "file": "utilities__justify-content.md",
+      "title": "Justify content · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/justify-items",
+      "file": "utilities__justify-items.md",
+      "title": "Justify items · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/place-items",
+      "file": "utilities__place-items.md",
+      "title": "Place items · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/width",
+      "file": "utilities__width.md",
+      "title": "Width · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/margin",
+      "file": "utilities__margin.md",
+      "title": "Margin · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/padding",
+      "file": "utilities__padding.md",
+      "title": "Padding · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/space",
+      "file": "utilities__space.md",
+      "title": "Space · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/font-family",
+      "file": "utilities__font-family.md",
+      "title": "Font family · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/font-size",
+      "file": "utilities__font-size.md",
+      "title": "Font size · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/font-style",
+      "file": "utilities__font-style.md",
+      "title": "Font style · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/font-weight",
+      "file": "utilities__font-weight.md",
+      "title": "Font weight · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/line-height",
+      "file": "utilities__line-height.md",
+      "title": "Line height · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/link",
+      "file": "utilities__link.md",
+      "title": "Link · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/text-alignment",
+      "file": "utilities__text-alignment.md",
+      "title": "Text alignment · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/text-decoration",
+      "file": "utilities__text-decoration.md",
+      "title": "Text decoration · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/text-transform",
+      "file": "utilities__text-transform.md",
+      "title": "Text transform · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/text-wrapping",
+      "file": "utilities__text-wrapping.md",
+      "title": "Text wrapping · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/vertical-align",
+      "file": "utilities__vertical-align.md",
+      "title": "Vertical alignment · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/border",
+      "file": "utilities__border.md",
+      "title": "Border · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/border-color",
+      "file": "utilities__border-color.md",
+      "title": "Border color · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/border-radius",
+      "file": "utilities__border-radius.md",
+      "title": "Border radius · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/divide",
+      "file": "utilities__divide.md",
+      "title": "Divide · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/pointer-events",
+      "file": "utilities__pointer-events.md",
+      "title": "Pointer events · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/user-select",
+      "file": "utilities__user-select.md",
+      "title": "User select · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/motion",
+      "file": "utilities__motion.md",
+      "title": "Motion · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/opacity",
+      "file": "utilities__opacity.md",
+      "title": "Opacity · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/utilities/shadows",
+      "file": "utilities__shadows.md",
+      "title": "Shadows · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples",
+      "file": "examples.md",
+      "title": "Examples · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/getting-started",
+      "file": "getting-started.md",
+      "title": "Install Bootstrap · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/starter-template",
+      "file": "examples__starter-template.md",
+      "title": "Starter Template · Bootstrap v6.0",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/buttons",
+      "file": "components__buttons.md",
+      "title": "Button · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/menus",
+      "file": "components__menus.md",
+      "title": "Menu · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/customize/css-variables/",
+      "file": "customize__css-variables.md",
+      "title": "CSS variables · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/grid/",
+      "file": "examples__grid.md",
+      "title": "Grid Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/alerts",
+      "file": "components__alerts.md",
+      "title": "Alert · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/tooltips/",
+      "file": "components__tooltips.md",
+      "title": "Tooltips · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/headers/",
+      "file": "examples__headers.md",
+      "title": "Headers · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/heroes/",
+      "file": "examples__heroes.md",
+      "title": "Heroes · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/features/",
+      "file": "examples__features.md",
+      "title": "Features · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/sidebars/",
+      "file": "examples__sidebars.md",
+      "title": "Sidebars · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/footers/",
+      "file": "examples__footers.md",
+      "title": "Footers · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/menus/",
+      "file": "examples__menus.md",
+      "title": "Menus · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/list-groups/",
+      "file": "examples__list-groups.md",
+      "title": "List groups · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/dialogs/",
+      "file": "examples__dialogs.md",
+      "title": "Dialogs · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/breadcrumbs/",
+      "file": "examples__breadcrumbs.md",
+      "title": "Breadcrumbs · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/buttons/",
+      "file": "examples__buttons.md",
+      "title": "Buttons · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/jumbotrons/",
+      "file": "examples__jumbotrons.md",
+      "title": "Jumbotrons · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/album/",
+      "file": "examples__album.md",
+      "title": "Album example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/pricing/",
+      "file": "examples__pricing.md",
+      "title": "Pricing example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/checkout/",
+      "file": "examples__checkout.md",
+      "title": "Checkout example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/product/",
+      "file": "examples__product.md",
+      "title": "Product example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/cover/",
+      "file": "examples__cover.md",
+      "title": "Cover Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/carousel/",
+      "file": "examples__carousel.md",
+      "title": "Carousel Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/blog/",
+      "file": "examples__blog.md",
+      "title": "Blog Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/dashboard/",
+      "file": "examples__dashboard.md",
+      "title": "Dashboard Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/sign-in/",
+      "file": "examples__sign-in.md",
+      "title": "Signin Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/sticky-footer/",
+      "file": "examples__sticky-footer.md",
+      "title": "Sticky Footer Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/sticky-footer-navbar/",
+      "file": "examples__sticky-footer-navbar.md",
+      "title": "Sticky Footer Navbar Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/jumbotron/",
+      "file": "examples__jumbotron.md",
+      "title": "Jumbotron example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/cheatsheet/",
+      "file": "examples__cheatsheet.md",
+      "title": "Cheatsheet · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/navbars/",
+      "file": "examples__navbars.md",
+      "title": "Navbar Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/navbars-drawer/",
+      "file": "examples__navbars-drawer.md",
+      "title": "Navbar Template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/drawer-navbar/",
+      "file": "examples__drawer-navbar.md",
+      "title": "Drawer navbar template · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/navbar-static/",
+      "file": "examples__navbar-static.md",
+      "title": "Top navbar example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/navbar-fixed/",
+      "file": "examples__navbar-fixed.md",
+      "title": "Fixed top navbar example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/navbar-bottom/",
+      "file": "examples__navbar-bottom.md",
+      "title": "Bottom navbar example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/examples/masonry/",
+      "file": "examples__masonry.md",
+      "title": "Masonry example · Bootstrap v6.0",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/popovers",
+      "file": "components__popovers.md",
+      "title": "Popover · Bootstrap v6.0",
+      "depth": 3
+    },
+    {
+      "url": "https://getbootstrap.com/docs/6.0/components/spinners",
+      "file": "components__spinners.md",
+      "title": "Spinners · Bootstrap v6.0",
+      "depth": 3
+    }
+  ]
+}

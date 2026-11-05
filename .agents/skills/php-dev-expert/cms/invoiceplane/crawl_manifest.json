@@ -1,0 +1,374 @@
+{
+  "root_url": "** https://invoiceplane.com/development",
+  "scope_prefix": "** https://invoiceplane.com/development",
+  "total_pages": 61,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://invoiceplane.com/development",
+      "file": "dev__invoiceplane_com_development.md",
+      "title": "InvoicePlane - Help developing - InvoicePlane - An Open Source Invoicing Application",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0",
+      "file": "wiki__en__1.0.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/general/about",
+      "file": "wiki__en__1.0__general__about.md",
+      "title": "About InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/general/changelog",
+      "file": "wiki__en__1.0__general__changelog.md",
+      "title": "Laravel",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/general/faq",
+      "file": "wiki__en__1.0__general__faq.md",
+      "title": "InvoicePlane 1 FAQ - InvoicePlane Community Forums",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/general/license",
+      "file": "wiki__en__1.0__general__license.md",
+      "title": "License for InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/getting-started/installation",
+      "file": "wiki__en__1.0__getting-started__installation.md",
+      "title": "Installation",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/getting-started/quickstart",
+      "file": "wiki__en__1.0__getting-started__quickstart.md",
+      "title": "Quickstart",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/getting-started/requirements",
+      "file": "wiki__en__1.0__getting-started__requirements.md",
+      "title": "Requirements",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/getting-started/updating-ip",
+      "file": "wiki__en__1.0__getting-started__updating-ip.md",
+      "title": "Update InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/modules/clients",
+      "file": "wiki__en__1.0__modules__clients.md",
+      "title": "Clients",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.0/modules/quotes",
+      "file": "wiki__en__1.0__modules__quotes.md",
+      "title": "Quotes",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5",
+      "file": "wiki__en__1.5.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/general/about",
+      "file": "wiki__en__1.5__general__about.md",
+      "title": "About InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/general/changelog",
+      "file": "wiki__en__1.5__general__changelog.md",
+      "title": "Changelog",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/general/faq",
+      "file": "wiki__en__1.5__general__faq.md",
+      "title": "InvoicePlane 1 FAQ - InvoicePlane Community Forums",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/general/license",
+      "file": "wiki__en__1.5__general__license.md",
+      "title": "License for InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/getting-started/installation",
+      "file": "wiki__en__1.5__getting-started__installation.md",
+      "title": "Installation",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/getting-started/quickstart",
+      "file": "wiki__en__1.5__getting-started__quickstart.md",
+      "title": "Quickstart",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/getting-started/requirements",
+      "file": "wiki__en__1.5__getting-started__requirements.md",
+      "title": "Requirements",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/getting-started/updating-ip",
+      "file": "wiki__en__1.5__getting-started__updating-ip.md",
+      "title": "Update InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/modules/clients",
+      "file": "wiki__en__1.5__modules__clients.md",
+      "title": "Clients",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/modules/quotes",
+      "file": "wiki__en__1.5__modules__quotes.md",
+      "title": "Quotes",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.5/settings/custom-fields",
+      "file": "wiki__en__1.5__settings__custom-fields.md",
+      "title": "Custom Fields",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6",
+      "file": "wiki__en__1.6.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/general/about",
+      "file": "wiki__en__1.6__general__about.md",
+      "title": "About InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/general/changelog",
+      "file": "wiki__en__1.6__general__changelog.md",
+      "title": "Changelog",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/general/faq",
+      "file": "wiki__en__1.6__general__faq.md",
+      "title": "FAQ - Frequently Asked Questions",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/general/license",
+      "file": "wiki__en__1.6__general__license.md",
+      "title": "License for InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/getting-started/installation",
+      "file": "wiki__en__1.6__getting-started__installation.md",
+      "title": "Installation",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/getting-started/quickstart",
+      "file": "wiki__en__1.6__getting-started__quickstart.md",
+      "title": "Quickstart",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/getting-started/requirements",
+      "file": "wiki__en__1.6__getting-started__requirements.md",
+      "title": "Requirements",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/getting-started/updating-ip",
+      "file": "wiki__en__1.6__getting-started__updating-ip.md",
+      "title": "Update InvoicePlane",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules",
+      "file": "wiki__en__1.6__modules.md",
+      "title": "Modules",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/clients",
+      "file": "wiki__en__1.6__modules__clients.md",
+      "title": "Clients",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/invoices",
+      "file": "wiki__en__1.6__modules__invoices.md",
+      "title": "Invoices",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/payments",
+      "file": "wiki__en__1.6__modules__payments.md",
+      "title": "Payments",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/products",
+      "file": "wiki__en__1.6__modules__products.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/quotes",
+      "file": "wiki__en__1.6__modules__quotes.md",
+      "title": "Quotes",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/recurring-invoices",
+      "file": "wiki__en__1.6__modules__recurring-invoices.md",
+      "title": "Recurring Invoices",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/settings",
+      "file": "wiki__en__1.6__modules__settings.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/modules/tasks-projects",
+      "file": "wiki__en__1.6__modules__tasks-projects.md",
+      "title": "Tasks and Projects",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/custom-fields",
+      "file": "wiki__en__1.6__settings__custom-fields.md",
+      "title": "Custom Fields",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/email-templates",
+      "file": "wiki__en__1.6__settings__email-templates.md",
+      "title": "Email Templates",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/email",
+      "file": "wiki__en__1.6__settings__email.md",
+      "title": "Email Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/general",
+      "file": "wiki__en__1.6__settings__general.md",
+      "title": "General Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/invoice-groups",
+      "file": "wiki__en__1.6__settings__invoice-groups.md",
+      "title": "Invoice Groups",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/invoices",
+      "file": "wiki__en__1.6__settings__invoices.md",
+      "title": "Invoice Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/online-payments",
+      "file": "wiki__en__1.6__settings__online-payments.md",
+      "title": "Merchant Account Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/payment-methods",
+      "file": "wiki__en__1.6__settings__payment-methods.md",
+      "title": "Payment Methods",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/quotes",
+      "file": "wiki__en__1.6__settings__quotes.md",
+      "title": "Quote Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/taxes",
+      "file": "wiki__en__1.6__settings__taxes.md",
+      "title": "Tax Settings",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/taxrates",
+      "file": "wiki__en__1.6__settings__taxrates.md",
+      "title": "Taxrates",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/updatecheck",
+      "file": "wiki__en__1.6__settings__updatecheck.md",
+      "title": "Updatecheck",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/settings/user-accounts",
+      "file": "wiki__en__1.6__settings__user-accounts.md",
+      "title": "User Accounts",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/system/importing-data",
+      "file": "wiki__en__1.6__system__importing-data.md",
+      "title": "Importing Data",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/system/translation-localization",
+      "file": "wiki__en__1.6__system__translation-localization.md",
+      "title": "Translation / Localization",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/system/upgrade-from-fusioninvoice",
+      "file": "wiki__en__1.6__system__upgrade-from-fusioninvoice.md",
+      "title": "Upgrade form FusionInvoice",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/templates/customize-templates",
+      "file": "wiki__en__1.6__templates__customize-templates.md",
+      "title": "Customize Templates",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/en/1.6/templates/using-templates",
+      "file": "wiki__en__1.6__templates__using-templates.md",
+      "title": "Using Templates",
+      "depth": 1
+    },
+    {
+      "url": "** https://wiki.invoiceplane.com/",
+      "file": "wiki__index.md",
+      "title": "InvoicePlane Wiki",
+      "depth": 1
+    }
+  ]
+}

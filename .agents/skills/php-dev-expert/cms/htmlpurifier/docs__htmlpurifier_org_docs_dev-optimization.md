@@ -1,0 +1,22 @@
+# Optimization - HTML Purifier
+
+> **Fonte / Source:** http://htmlpurifier.org/docs/dev-optimization.html
+
+---
+
+# Optimization
+
+Filed under Development
+
+Return to the [index](index.html).
+
+[HTML Purifier](http://htmlpurifier.org/) End-User Documentation
+
+Here are some possible optimization techniques we can apply to code sections if
+they turn out to be slow. Be sure not to prematurely optimize: if you get
+that itch, put it here!
+
+- Make Tokens Flyweights (may prove problematic, probably not worth it)
+- Rewrite regexps into PHP code
+- Batch regexp validation (do as many per function call as possible)
+- Parallelize strategies

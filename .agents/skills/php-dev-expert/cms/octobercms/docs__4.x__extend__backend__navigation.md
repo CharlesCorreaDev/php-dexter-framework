@@ -1,0 +1,181 @@
+# Navigation - October CMS - 4.x
+
+> **Fonte / Source:** https://docs.octobercms.com/4.x/extend/backend/navigation.html
+
+---
+
+# Navigation
+
+Learn how to include new menu items in the backend panel.
+
+- [Navigation Counters](docs__4.x__extend__backend__navigation.md#navigation-counters)
+- [Item Display Types](docs__4.x__extend__backend__navigation.md#item-display-types)
+- [Extending the Backend Menu](docs__4.x__extend__backend__navigation.md#extending-the-backend-menu)
+
+Plugins can extend the backend navigation menus by overriding the `registerNavigation` method of the [plugin registration file](docs__4.x__extend__extending.md). This section shows you how to add menu items to the backend navigation area. The following is an example of registering a top-level navigation menu item with two sub-menu items.
+
+```
+public function registerNavigation()
+{
+    return [
+        'blog' => [
+            'label' => 'Blog',
+            'url' => Backend::url('acme/blog/posts'),
+            'icon' => 'icon-pencil',
+            'permissions' => ['acme.blog.*'],
+            'order' => 500,
+
+            'sideMenu' => [
+                'posts' => [
+                    'label' => 'Posts',
+                    'icon' => 'icon-copy',
+                    'url' => Backend::url('acme/blog/posts'),
+                    'permissions' => ['acme.blog.access_posts'],
+                ],
+                'categories' => [
+                    'label' => 'Categories',
+                    'icon' => 'icon-copy',
+                    'url' => Backend::url('acme/blog/categories'),
+                    'permissions' => ['acme.blog.access_categories'],
+                ]
+            ]
+        ]
+    ];
+}
+```
+
+When you register the backend navigation you can use [localization strings](docs__4.x__extend__multisite__localization.md) for the `label` values. Backend navigation can also be controlled by the `permissions` values and correspond to defined [backend user permissions](docs__4.x__extend__backend__permissions.md). The order in which the backend navigation appears on the overall navigation menu items, is controlled by the `order` value. Higher numbers mean that the item will appear later on in the order of menu items while lower numbers mean that it will appear earlier on.
+
+To make the sub-menu items visible, you may set the navigation context in the [backend controller](docs__4.x__extend__system__controllers.md) using the `BackendMenu::setContext` method. This will make the parent menu item active and display the children in the side menu.
+
+| Property | Description |
+| --- | --- |
+| **label** | specifies the menu label localization string key, required. |
+| **order** | a numerical weight when determining the display order. |
+| **icon** | an icon name from the [October CMS icon collection](docs__4.x__element__available-icons.md), optional. |
+| **iconSvg** | an SVG icon to be used in place of the standard icon, the SVG icon should be a rectangle and can support colors, optional. |
+| **url** | the URL the menu item should point to (eg. `Backend::url('author/plugin/controller/action')`, required. |
+| **counter** | a numeric value to output near the menu icon. The value should be a number or a callable returning a number, optional. |
+| **counterLabel** | a string value to describe the numeric reference in counter, optional. |
+| **attributes** | an associative array of attributes and values to apply to the menu item, optional. |
+| **permissions** | an array of permissions the backend user must have in order to view the menu item (Note: direct access of URLs still requires separate permission checks), optional. |
+| **sideMenu** | an array of sub-menu items sharing the same configuration as parent menu items, optional. |
+| **itemType** | specifies a display type for the item, sub-menu items only. Supported: `primary`, `link`, `ruler`, `section`. Default: `link`. |
+| **visibleOn** | used by sub-menu items, provides a list of other items, when active makes this item visible, optional. |
+
+The following are system generated value and are not provided when registering the navigation items.
+
+| Key | Description |
+| --- | --- |
+| **code** | a string value that acts as an unique identifier for that menu option. |
+| **owner** | a string value that specifies the menu items owner plugin or module in the format "Author.Plugin". |
+
+## [#](#navigation-counters) Navigation Counters
+
+Navigation items support specifying a counter to indicate that there are items that require attention. These properties are available to parent and child menu items alike. Use the **counter** and **counterLabel** to show a numeric counter.
+
+```
+'blog' => [
+    // ...
+    'counter' => [\Author\Plugin\Classes\MyMenuCounterService::class, 'getCounterMethod'],
+    'counterLabel' => 'Label describing a dynamic menu counter',
+],
+```
+
+## [#](#item-display-types) Item Display Types
+
+Sub-menu items support different display types using the `itemType` property, including user-interface elements. Set the type to `section` to display a navigation section. Prefixing the key name with an underscore (`_`) is a good way to communicate that it is a UI element.
+
+```
+'_section1' => [
+    'itemType' => 'section',
+    'label' => 'Advanced',
+],
+```
+
+It might be useful to combine a section with a navigation divider placed above it. Set the type to `ruler` to display a divider.
+
+```
+'_ruler1' => [
+    'itemType' => 'ruler',
+],
+```
+
+To display a call to action, set the type to `primary` to display the link as a primary button.
+
+```
+'people_create' => [
+    'label' => 'New Person',
+    'icon' => 'icon-plus',
+    'url' => Backend::url('acme/blog/people/create'),
+    'itemType' => 'primary',
+],
+```
+
+It can also be useful to provide multiple `primary` links and display them conditionally using the `visibleOn` property. The following will show the **New Person** button when the **people** submenu is active, and likewise for the **New Post** and **posts** submenu item.
+
+```
+'people_create' => [
+    'label' => 'New Person',
+    'icon' => 'icon-plus',
+    'url' => Backend::url('acme/blog/people/create'),
+    'itemType' => 'primary',
+    'visibleOn' => 'people',
+],
+'post_create' => [
+    'label' => 'New Post',
+    'icon' => 'icon-plus',
+    'url' => Backend::url('acme/blog/people/create'),
+    'itemType' => 'primary',
+    'visibleOn' => 'posts',
+],
+```
+
+## [#](#extending-the-backend-menu) Extending the Backend Menu
+
+The `backend.menu.extendItems` [event listener](docs__4.x__extend__extending.md) can be used to modify the existing navigation items, after the system and plugins have registered their navigation items. The event returns a navigation `$manager` instance that supports the following methods.
+
+| Method | Description |
+| --- | --- |
+| **addMainMenuItems($owner, $definitions)** | Add or update a main menu definition |
+| **getMainMenuItem($owner, $code)** | Retrieve an existing main menu definition |
+| **removeMainMenuItem($owner, $code)** | Delete an existing main menu definition |
+| **addSideMenuItems($owner, $code, $definitions)** | Add or update a side menu definition |
+| **getSideMenuItem($owner, $code, $sideCode)** | Retrieve an existing side menu definition |
+| **removeSideMenuItem($owner, $code, $sideCode)** | Delete an existing side menu definition |
+
+When retrieving a menu item, the object supports method chaining to update its properties. The following example will replace the label for the Editor with **Code Editor**.
+
+```
+Event::listen('backend.menu.extendItems', function($manager) {
+    $manager->getMainMenuItem('October.Editor', 'editor')->label('Code Editor');
+});
+```
+
+The next example will change the label to **News** and add a **9** counter to the Acme Blog plugin.
+
+```
+Event::listen('backend.menu.extendItems', function($manager) {
+    $manager->getMainMenuItem('Acme.Blog', 'blog')
+        ->getSideMenuItem('posts')
+        ->label('News')
+        ->counter(9);
+});
+```
+
+Similarly, we can remove the menu items using the same event. The following example will remove all items, remove a single item, and remove multiple items, respectively.
+
+```
+Event::listen('backend.menu.extendItems', function($manager) {
+    $manager->removeMainMenuItem('Acme.Blog', 'blog');
+
+    $manager->removeSideMenuItem('Acme.Blog', 'blog', 'posts');
+
+    $manager->removeSideMenuItems('Acme.Blog', 'blog', [
+        'posts',
+        'categories'
+    ]);
+});
+```
+
+← [Building Console Commands](docs__4.x__extend__console-commands.md)[Users](docs__4.x__extend__backend__users.md) →

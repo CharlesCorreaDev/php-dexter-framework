@@ -1,0 +1,87 @@
+# Inicializa um contexto secretstream para criptografia
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/function.sodium-crypto-secretstream-xchacha20poly1305-init-push.php
+
+---
+
+# sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push
+
+(PHP 7 >= 7.2.0, PHP 8)
+
+sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push — Inicializa um contexto secretstream para criptografia
+
+### Descrição
+
+function **sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push**(#[[\SensitiveParameter](class.sensitiveparameter.md)] [string](language.types.string.md) `$key`): [array](language.types.array.md)
+
+Inicializa um contexto secretstream para criptografia.
+
+### Parâmetros
+
+`key`
+:   Chave de criptografia. Veja [sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen()](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md).
+
+### Valor Retornado
+
+Um array com dois valores de string:
+
+- O estado do secretstream, necessário para novos avanços
+- O cabeçalho secretstream, que precisa ser fornecido ao destinatário para que ele possa extrair dados
+
+### Examples
+
+**Exemplo #1 Exemplo de **sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()****
+
+```
+<?php
+function encrypt_file(string $inputFilePath, string $outputFilePath, string $key): void
+{
+    [$state, $header] = sodium_crypto_secretstream_xchacha20poly1305_init_push($key);
+
+    $inputFile = fopen($inputFilePath, 'rb');
+    $outputFile = fopen($outputFilePath, 'wb');
+    // Escreve o cabeçalho:
+    fwrite($outputFile, $header);
+    $inputFileSize = fstat($inputFile)['size'];
+
+    // Criptografa o arquivo e grava seu conteúdo no arquivo de saída:
+    for ($i = 0; $i < $inputFileSize; $i += 8175) {
+        $ptxt_chunk = fread($inputFile, 8175);
+        $ctxt_chunk = sodium_crypto_secretstream_xchacha20poly1305_push($state, $ptxt_chunk);
+        fwrite($outputFile, $ctxt_chunk);
+    }
+
+    sodium_memzero($state);
+    fclose($inputFile);
+    fclose($outputFile);
+}
+
+// sodium_crypto_secretstream_xchacha20poly1305_keygen()
+$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);
+
+file_put_contents('hello.txt', 'Hello world!');
+encrypt_file('hello.txt', 'hello.txt.encrypted', $key);
+var_dump(sodium_bin2hex(file_get_contents('hello.txt.encrypted')));
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+string(106) "971e33b255f0990ef3931caf761c59136efa77b434832f28ec719e3ff73f5aec38b3bba1574ab5b70a8844d8da36a668e802cfea2c"
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

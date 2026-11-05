@@ -1,0 +1,302 @@
+{
+  "root_url": "https://fatfreeframework.com/3.9/development",
+  "scope_prefix": "https://fatfreeframework.com/3.9/",
+  "total_pages": 49,
+  "generated_at": "2026-10-28T16:39:01Z",
+  "pages": [
+    {
+      "url": "https://fatfreeframework.com/3.9/api-reference",
+      "file": "api-reference.md",
+      "title": "API Reference | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/audit",
+      "file": "audit.md",
+      "title": "Audit | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/auth",
+      "file": "auth.md",
+      "title": "Auth | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/base",
+      "file": "base.md",
+      "title": "Base | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/basket",
+      "file": "basket.md",
+      "title": "Basket | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/bcrypt",
+      "file": "bcrypt.md",
+      "title": "Bcrypt | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/cache",
+      "file": "cache.md",
+      "title": "Cache | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/cursor",
+      "file": "cursor.md",
+      "title": "Cursor | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/databases",
+      "file": "databases.md",
+      "title": "Databases | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/development",
+      "file": "development.md",
+      "title": "Development | Fat-Free Framework for PHP",
+      "depth": 0
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/extended-templating",
+      "file": "extended-templating.md",
+      "title": "Extended Templating | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/framework-variables",
+      "file": "framework-variables.md",
+      "title": "Framework Variables | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/geo",
+      "file": "geo.md",
+      "title": "Geo | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/getting-started",
+      "file": "getting-started.md",
+      "title": "Getting Started | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/google-static-maps",
+      "file": "google-static-maps.md",
+      "title": "Google Static Maps V2 | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/home",
+      "file": "home.md",
+      "title": "Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/image",
+      "file": "image.md",
+      "title": "Image | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/iso",
+      "file": "iso.md",
+      "title": "ISO | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/jig-mapper",
+      "file": "jig-mapper.md",
+      "title": "Jig-Mapper | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/jig",
+      "file": "jig.md",
+      "title": "Jig | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/log",
+      "file": "log.md",
+      "title": "Log | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/magic",
+      "file": "magic.md",
+      "title": "Magic | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/markdown",
+      "file": "markdown.md",
+      "title": "Markdown | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/matrix",
+      "file": "matrix.md",
+      "title": "Matrix | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/mongo-mapper",
+      "file": "mongo-mapper.md",
+      "title": "Mongo-Mapper | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/mongo",
+      "file": "mongo.md",
+      "title": "Mongo | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/oauth2",
+      "file": "oauth2.md",
+      "title": "OAuth2 | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/openid",
+      "file": "openid.md",
+      "title": "OpenID | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/optimization",
+      "file": "optimization.md",
+      "title": "Optimization | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/pingback",
+      "file": "pingback.md",
+      "title": "Pingback | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/plug-ins",
+      "file": "plug-ins.md",
+      "title": "Plug-ins | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/prefab-registry",
+      "file": "prefab-registry.md",
+      "title": "Prefab & Registry | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/preview",
+      "file": "preview.md",
+      "title": "Preview | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/quick-reference",
+      "file": "quick-reference.md",
+      "title": "Quick Reference | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/routing-engine",
+      "file": "routing-engine.md",
+      "title": "Routing Engine | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/session",
+      "file": "session.md",
+      "title": "Session | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/smtp",
+      "file": "smtp.md",
+      "title": "SMTP | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/sql-mapper",
+      "file": "sql-mapper.md",
+      "title": "SQL-Mapper | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/sql",
+      "file": "sql.md",
+      "title": "Sql | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/system-requirements",
+      "file": "system-requirements.md",
+      "title": "System Requirements | Fat-Free Framework for PHP",
+      "depth": 2
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/template",
+      "file": "template.md",
+      "title": "Template | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/test",
+      "file": "test.md",
+      "title": "Test | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/unit-testing",
+      "file": "unit-testing.md",
+      "title": "Unit Testing | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/user-guide",
+      "file": "user-guide.md",
+      "title": "User Guide | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/utf-unicode-string-manager",
+      "file": "utf-unicode-string-manager.md",
+      "title": "UTF-Unicode-string-manager | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/view",
+      "file": "view.md",
+      "title": "View | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/views-and-templates",
+      "file": "views-and-templates.md",
+      "title": "Views and Templates | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/web",
+      "file": "web.md",
+      "title": "Web | Fat-Free Framework for PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://fatfreeframework.com/3.9/websocket",
+      "file": "websocket.md",
+      "title": "WebSocket | Fat-Free Framework for PHP",
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+# Examples
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/seaslog.examples.php
+
+---
+
+# Examples
+
+**Exemplo #1 Obtendo e definindo o caminho base**
+
+```
+<?php
+$basePath1 = SeasLog::getBasePath();
+
+SeasLog::setBasePath('/log/base_test');
+$basePath2 = SeasLog::getBasePath();
+
+var_dump($basePath1,$basePath2);
+
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+string(12) "/var/log/www"
+string(14) "/log/base_test"
+```
+
+**Exemplo #2 Obtendo e definindo o registrador**
+
+```
+<?php
+$lastLogger1 = SeasLog::getLastLogger();
+
+SeasLog::setLogger('testModule/app1');
+$lastLogger2 = SeasLog::getLastLogger();
+
+var_dump($lastLogger1,$lastLogger2);
+
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+string(7) "default"
+string(15) "testModule/app1"
+```
+
+**Exemplo #3 Registro de gravação rápida**
+
+```
+<?php
+SeasLog::log(SEASLOG_ERROR,'este é um teste de erro gerado por ::log');
+SeasLog::debug('esta é uma informação de depuração criada por {userName}',array('{userName}' => 'maria'));
+SeasLog::info('este é um registro de informação');
+SeasLog::notice('este é um registro de nota');
+SeasLog::warning('seu {website} estava indisponível, favor {action} o quanto antes!',array('{website}' => 'github.com','{action}' => 'reiniciar'));
+SeasLog::error('um registro de erro');
+SeasLog::critical('alguma coisa crítica ocorreu');
+SeasLog::alert('Sim, esta é uma {messageName}',array('{messageName}' => 'mensagem_de_alerta'));
+SeasLog::emergency('Acontecendo agora, a casa ao lado está completamente em chamas! {note}',array('{note}' => 'É brincadeira!'));
+?>
+```
+
+Como padrão, *seaslog.default\_template = "%T | %L | %P | %Q | %t | %M"*.
+Isso significa que, como padrão, o estilo de registro é: `{dateTime} | {level} | {pid} | {uniqid} | {timeStamp} | {logInfo}`.
+
+O exemplo acima produzirá
+algo semelhante a:
+
+*seaslog.appender = 1*
+
+```
+2014-07-27 08:53:52 | ERROR | 23625 | 599159975a9ff | 1406422432.786 | este é um teste de erro gerado por log
+2014-07-27 08:53:52 | DEBUG | 23625 | 599159975a9ff | 1406422432.786 | esta é uma informação de depuração criada por maria
+2014-07-27 08:53:52 | INFO | 23625 | 599159975a9ff | 1406422432.787 | este é um registro de informação
+2014-07-27 08:53:52 | NOTICE | 23625 | 599159975a9ff | 1406422432.787 | este é um registro de nota
+2014-07-27 08:53:52 | WARNING | 23625 | 599159975a9ff | 1406422432.787 | seu github.com estava indisponível, favor reiniciar o quanto antes!
+2014-07-27 08:53:52 | ERROR | 23625 | 599159975a9ff | 1406422432.787 | um registro de erro
+2014-07-27 08:53:52 | CRITICAL | 23625 | 599159975a9ff | 1406422432.787 | alguma coisa crítica ocorreu
+2014-07-27 08:53:52 | EMERGENCY | 23625 | 599159975a9ff | 1406422432.787 | Acontecendo agora, a casa ao lado está completamente em chamas! É brincadeira!
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+*seaslog.appender = 2* ou *seaslog.appender = 3*
+
+```
+O estilo de registro fica formatado assim:
+<15>1 2017-08-27T01:24:59+08:00 vagrant-ubuntu-trusty test/logger[27171]: 2016-06-25 00:59:43 | DEBUG | 21423 | 599157af4e937 | 1466787583.322 | esta é uma informação de depuração criada por maria
+<14>1 2017-08-27T01:24:59+08:00 vagrant-ubuntu-trusty test/logger[27171]: 2016-06-25 00:59:43 | INFO | 21423 | 599157af4e937 | 1466787583.323 | este é um registro de informação
+<13>1 2017-08-27T01:24:59+08:00 vagrant-ubuntu-trusty test/logger[27171]: 2016-06-25 00:59:43 | NOTICE | 21423 | 599157af4e937 | 1466787583.324 | este é um registro de nota
+```
+
+**Exemplo #4 Contagem rápida de algum tipo de valor de contagem de registro**
+
+*SeasLog* obtém o valor de contagem de `grep -wc`, usa o pipe do sistema e retorna para o PHP (array ou int).
+
+```
+<?php
+$countResult1 = SeasLog::analyzerCount();
+$countResult2 = SeasLog::analyzerCount(SEASLOG_WARNING);
+$countResult3 = SeasLog::analyzerCount(SEASLOG_ERROR,date('Ymd',time()));
+
+var_dump($countResult1,$countResult2,$countResult3);
+
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+array(8) {
+  ["DEBUG"]=>
+  int(3)
+  ["INFO"]=>
+  int(3)
+  ["NOTICE"]=>
+  int(3)
+  ["WARNING"]=>
+  int(3)
+  ["ERROR"]=>
+  int(6)
+  ["CRITICAL"]=>
+  int(3)
+  ["ALERT"]=>
+  int(3)
+  ["EMERGENCY"]=>
+  int(3)
+}
+int(7)
+int(1)
+```
+
+**Exemplo #5 Adquirindo o tipo de lista de registros**
+
+*SeasLog* obtém o valor de contagem de `grep -w`, usa o pipe do sistema e retorna o array para o PHP.
+
+```
+<?php
+$detailErrorArray = SeasLog::analyzerDetail(SEASLOG_ERROR);
+var_dump($detailErrorArray);
+
+var_dump(SeasLog::analyzerDetail(SEASLOG_ERROR,date('Ymd',time())));
+?>
+```
+
+O exemplo acima produzirá
+algo semelhante a:
+
+```
+array(6) {
+  [0] =>
+  string(83) "2014-02-24 00:14:02 | ERROR | 8568 | 599157af4e937 | 1393172042.717 | erro de teste 3 "
+  [1] =>
+  string(83) "2014-02-24 00:14:04 | ERROR | 8594 | 5991576584446 | 1393172044.104 | erro de teste 3 "
+  [2] =>
+  string(83) "2014-02-24 00:14:04 | ERROR | 8620 | 1502697015147 | 1393172044.862 | erro de teste 3 "
+  [3] =>
+  string(83) "2014-02-24 00:14:05 | ERROR | 8646 | 599159975a9ff | 1393172045.989 | erro de teste 3 "
+  [4] =>
+  string(83) "2014-02-24 00:14:07 | ERROR | 8672 | 599159986ec28 | 1393172047.882 | erro de teste 3 "
+  [5] =>
+  string(83) "2014-02-24 00:14:08 | ERROR | 8698 | 5991599981cec | 1393172048.736 | erro de teste 3 "
+}
+
+array(2) {
+  [0] =>
+  string(83) "2014-02-24 00:14:02 | ERROR | 8568 | 599157af4e937 | 1393172042.717 | erro de teste 3 "
+  [1] =>
+  string(83) "2014-02-24 00:14:04 | ERROR | 8594 | 5991576584446 | 1393172044.104 | erro de teste 3 "
+}
+```
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

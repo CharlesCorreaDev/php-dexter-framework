@@ -1,0 +1,332 @@
+# Range · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/forms/range
+
+---
+
+# Range
+
+Use our custom range inputs for consistent cross-browser styling with a filled track, value bubble, and tick marks.
+
+Requires JS
+
+Layer: `forms`
+
+MDN[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/range)
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/forms/range)
+
+On this page…
+
+##### On this page
+
+## Overview
+
+The native `<input type="range">` is hard to style and can’t show a filled track in a consistent, cross-browser way using CSS alone—only Firefox offers `::-moz-range-progress`, and CSS can’t read an input’s value. So our range is a small **JavaScript component**: wrap an `<input class="form-range-input">` in `.form-range` and the plugin keeps a `--bs-range-fill` custom property (0–1) in sync, which the CSS uses to draw the fill, the value bubble, and tick marks.
+
+The `.form-range` wrapper owns the component’s tokens, so the input and any decorations inherit them. Every `.form-range` on the page is initialized automatically.
+
+Example range
+
+HTML
+
+```
+<label for="range1" class="form-label">Example range</label>
+<div class="form-range">
+  <input type="range" class="form-range-input" id="range1">
+</div>
+```
+
+## Theme colors
+
+Modify the appearance of the range by adding the `.theme-{color}` class to the `.form-range` wrapper. This will set the track fill and thumb color to the theme color.
+
+HTML
+
+```
+<div class="form-range theme-primary">
+  <input type="range" class="form-range-input" aria-label="Example primary range">
+</div>
+<div class="form-range theme-accent">
+  <input type="range" class="form-range-input" aria-label="Example accent range">
+</div>
+<div class="form-range theme-success">
+  <input type="range" class="form-range-input" aria-label="Example success range">
+</div>
+<div class="form-range theme-danger">
+  <input type="range" class="form-range-input" aria-label="Example danger range">
+</div>
+<div class="form-range theme-warning">
+  <input type="range" class="form-range-input" aria-label="Example warning range">
+</div>
+<div class="form-range theme-info">
+  <input type="range" class="form-range-input" aria-label="Example info range">
+</div>
+<div class="form-range theme-inverse">
+  <input type="range" class="form-range-input" aria-label="Example inverse range">
+</div>
+<div class="form-range theme-secondary">
+  <input type="range" class="form-range-input" aria-label="Example secondary range">
+</div>
+```
+
+## Disabled
+
+Add the `disabled` boolean attribute on the input to give it a grayed out appearance, remove pointer events, and prevent focusing.
+
+Disabled range
+
+HTML
+
+```
+<label for="disabledRange" class="form-label">Disabled range</label>
+<div class="form-range">
+  <input type="range" class="form-range-input" id="disabledRange" disabled>
+</div>
+```
+
+## Min and max
+
+Range inputs have implicit values for `min` and `max`—`0` and `100`, respectively. You may specify new values for those using the `min` and `max` attributes.
+
+Example range
+
+HTML
+
+```
+<label for="range2" class="form-label">Example range</label>
+<div class="form-range">
+  <input type="range" class="form-range-input" min="0" max="5" id="range2">
+</div>
+```
+
+## Steps
+
+By default, range inputs “snap” to integer values. To change this, you can specify a `step` value. In the example below, we double the number of steps by using `step="0.5"`.
+
+Example range
+
+HTML
+
+```
+<label for="range3" class="form-label">Example range</label>
+<div class="form-range">
+  <input type="range" class="form-range-input" min="0" max="5" step="0.5" id="range3">
+</div>
+```
+
+## Value bubble
+
+Add `data-bs-bubble` to the wrapper to show a value bubble that follows the thumb. The bubble reuses our [tooltip](components__tooltips.md) styles.
+
+Brightness
+
+HTML
+
+```
+<label for="rangeBubble" class="form-label">Brightness</label>
+<div class="form-range" data-bs-bubble>
+  <input type="range" class="form-range-input" min="0" max="100" value="60" id="rangeBubble">
+</div>
+```
+
+## Tick marks
+
+Link a `<datalist>` to the input with the `list` attribute and the plugin renders a tick mark for each `<option>`, positioned at its value (even when the values are unevenly spaced). An `<option>`’s `label` is shown beneath its tick.
+
+Temperature
+
+HTML
+
+```
+<label for="rangeTicks" class="form-label">Temperature</label>
+<div class="form-range">
+  <input type="range" class="form-range-input" min="0" max="100" step="25" value="50" list="rangeTicksList" id="rangeTicks">
+</div>
+<datalist id="rangeTicksList">
+  <option value="0" label="Cold"></option>
+  <option value="25"></option>
+  <option value="50" label="Mild"></option>
+  <option value="75"></option>
+  <option value="100" label="Hot"></option>
+</datalist>
+```
+
+## With form field
+
+Wrap the `.form-range` in a `.form-field` to pair it with a label and description.
+
+VolumeAdjust the volume level.
+
+HTML
+
+```
+<div class="form-field">
+  <label for="rangeField" class="form-label">Volume</label>
+  <div class="form-range" data-bs-bubble>
+    <input type="range" class="form-range-input" id="rangeField">
+  </div>
+  <small class="form-text">Adjust the volume level.</small>
+</div>
+```
+
+## Usage
+
+Every `.form-range` is initialized automatically on page load—the component is JavaScript-driven, so the fill won’t render without the plugin.
+
+### Via data attributes
+
+| Attribute | Description |
+| --- | --- |
+| `data-bs-bubble` | Add to the `.form-range` wrapper to show a [value bubble](#value-bubble). |
+| `list` (on the input) + `<datalist>` | Renders [tick marks](#tick-marks) from the datalist options. |
+
+HTML
+
+```
+          <div class="form-range" data-bs-bubble>
+  <input type="range" class="form-range-input" min="0" max="100" value="40">
+</div>
+```
+
+### Via JavaScript
+
+JavaScript
+
+```
+          const element = document.querySelector('.form-range')
+const range = new bootstrap.Range(element, {
+  bubble: true,
+  formatter: value => `${value}%`
+})
+```
+
+### Dependencies
+
+The range plugin requires the following JavaScript files if you’re building Bootstrap’s JS from source:
+
+| File | Description |
+| --- | --- |
+| `js/src/range.ts` | Main range component |
+| `js/src/base-component.ts` | Base component class |
+| `js/src/dom/data.ts` | Element data store |
+| `js/src/dom/event-handler.ts` | Event handling utilities |
+| `js/src/dom/manipulator.ts` | Data attribute manipulation |
+| `js/src/dom/selector-engine.ts` | DOM selector utilities |
+| `js/src/util/config.ts` | Configuration base class |
+| `js/src/util/index.ts` | Core utility functions |
+
+### Options
+
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| `bubble` | boolean | `false` | Show a value bubble above the thumb. |
+| `formatter` | function | `null` | `(value) => string` used for the bubble and tick label text. |
+
+### Methods
+
+| Method | Description |
+| --- | --- |
+| `update()` | Recompute the fill from the input’s current value. Useful after setting the value programmatically. |
+| `dispose()` | Destroys the instance and removes the bubble and tick marks it created. |
+| `getInstance()` | Static method to get the instance associated with a `.form-range` element. |
+| `getOrCreateInstance()` | Static method to get the instance, or create one if it doesn’t exist. |
+
+### Events
+
+| Event | Description |
+| --- | --- |
+| `changed.bs.range` | Fired on the input when the value updates (on `input` and `change`). The event’s `value` property holds the current numeric value. |
+
+JavaScript
+
+```
+          const input = document.querySelector('.form-range-input')
+
+input.addEventListener('changed.bs.range', event => {
+  console.log('Value:', event.value)
+})
+```
+
+## CSS
+
+### Variables
+
+Range use local CSS variables on `.form-range` for real-time customization. Values for the CSS variables are generated from Sass maps unique to each component and applied to the aforementioned class.
+
+[scss/forms/\_form-range.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/forms/_form-range.scss)
+
+```
+// stylelint-disable-next-line scss/dollar-variable-default
+$range-tokens: defaults(
+  (
+    --range-track-width: 100%,
+    --range-track-height: .5rem,
+    --range-track-cursor: pointer,
+    --range-track-bg: var(--bg-3),
+    --range-track-border-radius: 1rem,
+    --range-track-fill-bg: var(--theme-bg, var(--primary-base)),
+    --range-track-disabled-bg: color-mix(in oklch, var(--bg-4), var(--fg-3)),
+    --range-thumb-width: 1rem,
+    --range-thumb-height: var(--range-thumb-width),
+    --range-thumb-bg: var(--theme-bg, var(--primary-base)),
+    --range-thumb-border: var(--range-thumb-bg) solid var(--border-color),
+    --range-thumb-border-radius: 1rem,
+    --range-thumb-box-shadow: "0 1px 2px rgb(0 0 0 / 7.5%), 0 2px 4px rgb(0 0 0 / 7.5%)",
+    --range-thumb-active-bg: color-mix(in oklch, var(--theme-bg, var(--primary-base)) 70%, var(--bg-body)),
+    --range-thumb-disabled-bg: var(--fg-3),
+    --range-thumb-transition-property: "background-color, border-color, box-shadow",
+    --range-thumb-transition-duration: .15s,
+    --range-thumb-transition-timing: ease-in-out,
+    --range-tick-width: var(--border-width),
+    --range-tick-height: .5rem,
+    --range-tick-bg: var(--border-color),
+  ),
+  $range-tokens
+);
+```
+
+### Sass mixins
+
+Two mixins generate the vendor-specific styles for the range’s track and thumb. Note that selectors for pseudo-elements in WebKit and Firefox cannot be combined—each must be used in a separate CSS rule otherwise the styles will not apply.
+
+[scss/forms/\_form-range.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/forms/_form-range.scss)
+
+```
+@mixin range-thumb() {
+  width: var(--range-thumb-width);
+  height: var(--range-thumb-height);
+  appearance: none;
+  @include gradient-bg(var(--range-thumb-bg));
+  border: var(--range-thumb-border);
+  @include border-radius(var(--range-thumb-border-radius));
+  @include box-shadow(var(--range-thumb-box-shadow));
+  @include transition-props(
+    var(--range-thumb-transition-property),
+    var(--range-thumb-transition-duration),
+    var(--range-thumb-transition-timing)
+  );
+
+  &:active {
+    @include gradient-bg(var(--range-thumb-active-bg));
+  }
+}
+
+@mixin range-track() {
+  width: var(--range-track-width);
+  height: var(--range-track-height);
+  color: transparent;
+  cursor: var(--range-track-cursor);
+  // Fill (progress) up to the thumb. The Range plugin keeps `--range-fill` (0–1) in sync.
+  background-color: var(--range-track-bg);
+  background-image:
+    linear-gradient(
+      to right,
+      var(--range-track-fill-bg) calc(var(--range-fill, 0) * 100%),
+      transparent calc(var(--range-fill, 0) * 100%)
+    );
+  border-color: transparent;
+  @include border-radius(var(--range-track-border-radius));
+  @include box-shadow(var(--range-track-box-shadow));
+}
+```

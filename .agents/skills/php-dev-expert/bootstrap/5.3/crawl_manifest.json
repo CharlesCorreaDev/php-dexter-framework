@@ -1,0 +1,902 @@
+{
+  "root_url": "https://getbootstrap.com/docs/5.3/",
+  "scope_prefix": "https://getbootstrap.com/docs/5.3/",
+  "total_pages": 149,
+  "generated_at": "2026-10-28T16:44:42Z",
+  "pages": [
+    {
+      "url": "https://getbootstrap.com/docs/5.3/",
+      "file": "index.md",
+      "title": "Get started with Bootstrap · Bootstrap v5.3",
+      "depth": 0
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+      "file": "getting-started__introduction.md",
+      "title": "Get started with Bootstrap · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/",
+      "file": "examples.md",
+      "title": "Examples · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/download",
+      "file": "getting-started__download.md",
+      "title": "Download · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/contents",
+      "file": "getting-started__contents.md",
+      "title": "Contents · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/browsers-devices",
+      "file": "getting-started__browsers-devices.md",
+      "title": "Browsers and devices · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/javascript",
+      "file": "getting-started__javascript.md",
+      "title": "JavaScript · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/webpack",
+      "file": "getting-started__webpack.md",
+      "title": "Bootstrap and Webpack · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/parcel",
+      "file": "getting-started__parcel.md",
+      "title": "Bootstrap and Parcel · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/vite",
+      "file": "getting-started__vite.md",
+      "title": "Bootstrap and Vite · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/accessibility",
+      "file": "getting-started__accessibility.md",
+      "title": "Accessibility · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/rfs",
+      "file": "getting-started__rfs.md",
+      "title": "RFS · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/rtl",
+      "file": "getting-started__rtl.md",
+      "title": "RTL · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started/contribute",
+      "file": "getting-started__contribute.md",
+      "title": "Contribute · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/overview",
+      "file": "customize__overview.md",
+      "title": "Customize · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/sass",
+      "file": "customize__sass.md",
+      "title": "Sass · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/options",
+      "file": "customize__options.md",
+      "title": "Options · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/color",
+      "file": "customize__color.md",
+      "title": "Color · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/color-modes",
+      "file": "customize__color-modes.md",
+      "title": "Color modes · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/components",
+      "file": "customize__components.md",
+      "title": "Components · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/css-variables",
+      "file": "customize__css-variables.md",
+      "title": "CSS variables · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/customize/optimize",
+      "file": "customize__optimize.md",
+      "title": "Optimize · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/breakpoints",
+      "file": "layout__breakpoints.md",
+      "title": "Breakpoints · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/containers",
+      "file": "layout__containers.md",
+      "title": "Containers · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/grid",
+      "file": "layout__grid.md",
+      "title": "Grid system · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/columns",
+      "file": "layout__columns.md",
+      "title": "Columns · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/gutters",
+      "file": "layout__gutters.md",
+      "title": "Gutters · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/utilities",
+      "file": "layout__utilities.md",
+      "title": "Utilities for layout · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/z-index",
+      "file": "layout__z-index.md",
+      "title": "Z-index · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/layout/css-grid",
+      "file": "layout__css-grid.md",
+      "title": "CSS Grid · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/content/reboot",
+      "file": "content__reboot.md",
+      "title": "Reboot · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/content/typography",
+      "file": "content__typography.md",
+      "title": "Typography · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/content/images",
+      "file": "content__images.md",
+      "title": "Images · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/content/tables",
+      "file": "content__tables.md",
+      "title": "Tables · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/content/figures",
+      "file": "content__figures.md",
+      "title": "Figures · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/overview",
+      "file": "forms__overview.md",
+      "title": "Forms · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/form-control",
+      "file": "forms__form-control.md",
+      "title": "Form controls · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/select",
+      "file": "forms__select.md",
+      "title": "Select · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/checks-radios",
+      "file": "forms__checks-radios.md",
+      "title": "Checks and radios · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/range",
+      "file": "forms__range.md",
+      "title": "Range · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/input-group",
+      "file": "forms__input-group.md",
+      "title": "Input group · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/floating-labels",
+      "file": "forms__floating-labels.md",
+      "title": "Floating labels · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/layout",
+      "file": "forms__layout.md",
+      "title": "Layout · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/forms/validation",
+      "file": "forms__validation.md",
+      "title": "Validation · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/accordion",
+      "file": "components__accordion.md",
+      "title": "Accordion · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/alerts",
+      "file": "components__alerts.md",
+      "title": "Alerts · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/badge",
+      "file": "components__badge.md",
+      "title": "Badges · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/breadcrumb",
+      "file": "components__breadcrumb.md",
+      "title": "Breadcrumb · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/buttons",
+      "file": "components__buttons.md",
+      "title": "Buttons · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/button-group",
+      "file": "components__button-group.md",
+      "title": "Button group · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/card",
+      "file": "components__card.md",
+      "title": "Cards · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/carousel",
+      "file": "components__carousel.md",
+      "title": "Carousel · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/close-button",
+      "file": "components__close-button.md",
+      "title": "Close button · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/collapse",
+      "file": "components__collapse.md",
+      "title": "Collapse · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/dropdowns",
+      "file": "components__dropdowns.md",
+      "title": "Dropdowns · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/list-group",
+      "file": "components__list-group.md",
+      "title": "List group · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/modal",
+      "file": "components__modal.md",
+      "title": "Modal · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/navbar",
+      "file": "components__navbar.md",
+      "title": "Navbar · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/navs-tabs",
+      "file": "components__navs-tabs.md",
+      "title": "Navs and tabs · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/offcanvas",
+      "file": "components__offcanvas.md",
+      "title": "Offcanvas · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/pagination",
+      "file": "components__pagination.md",
+      "title": "Pagination · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/placeholders",
+      "file": "components__placeholders.md",
+      "title": "Placeholders · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/popovers",
+      "file": "components__popovers.md",
+      "title": "Popovers · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/progress",
+      "file": "components__progress.md",
+      "title": "Progress · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/scrollspy",
+      "file": "components__scrollspy.md",
+      "title": "Scrollspy · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/spinners",
+      "file": "components__spinners.md",
+      "title": "Spinners · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/toasts",
+      "file": "components__toasts.md",
+      "title": "Toasts · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/components/tooltips",
+      "file": "components__tooltips.md",
+      "title": "Tooltips · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/clearfix",
+      "file": "helpers__clearfix.md",
+      "title": "Clearfix · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/color-background",
+      "file": "helpers__color-background.md",
+      "title": "Color and background · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/colored-links",
+      "file": "helpers__colored-links.md",
+      "title": "Colored links · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/focus-ring",
+      "file": "helpers__focus-ring.md",
+      "title": "Focus ring · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/icon-link",
+      "file": "helpers__icon-link.md",
+      "title": "Icon link · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/position",
+      "file": "helpers__position.md",
+      "title": "Position · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/ratio",
+      "file": "helpers__ratio.md",
+      "title": "Ratios · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/stacks",
+      "file": "helpers__stacks.md",
+      "title": "Stacks · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/stretched-link",
+      "file": "helpers__stretched-link.md",
+      "title": "Stretched link · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/text-truncation",
+      "file": "helpers__text-truncation.md",
+      "title": "Text truncation · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/vertical-rule",
+      "file": "helpers__vertical-rule.md",
+      "title": "Vertical rule · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/helpers/visually-hidden",
+      "file": "helpers__visually-hidden.md",
+      "title": "Visually hidden · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/api",
+      "file": "utilities__api.md",
+      "title": "Utility API · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/background",
+      "file": "utilities__background.md",
+      "title": "Background · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/borders",
+      "file": "utilities__borders.md",
+      "title": "Borders · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/colors",
+      "file": "utilities__colors.md",
+      "title": "Colors · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/display",
+      "file": "utilities__display.md",
+      "title": "Display property · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/flex",
+      "file": "utilities__flex.md",
+      "title": "Flex · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/float",
+      "file": "utilities__float.md",
+      "title": "Float · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/interactions",
+      "file": "utilities__interactions.md",
+      "title": "Interactions · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/link",
+      "file": "utilities__link.md",
+      "title": "Link · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/object-fit",
+      "file": "utilities__object-fit.md",
+      "title": "Object fit · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/opacity",
+      "file": "utilities__opacity.md",
+      "title": "Opacity · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/overflow",
+      "file": "utilities__overflow.md",
+      "title": "Overflow · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/position",
+      "file": "utilities__position.md",
+      "title": "Position · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/shadows",
+      "file": "utilities__shadows.md",
+      "title": "Shadows · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/sizing",
+      "file": "utilities__sizing.md",
+      "title": "Sizing · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/spacing",
+      "file": "utilities__spacing.md",
+      "title": "Spacing · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/text",
+      "file": "utilities__text.md",
+      "title": "Text · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/vertical-align",
+      "file": "utilities__vertical-align.md",
+      "title": "Vertical alignment · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/visibility",
+      "file": "utilities__visibility.md",
+      "title": "Visibility · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/utilities/z-index",
+      "file": "utilities__z-index.md",
+      "title": "Z-index · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/extend/approach",
+      "file": "extend__approach.md",
+      "title": "Approach · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/extend/icons",
+      "file": "extend__icons.md",
+      "title": "Icons · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/about/overview",
+      "file": "about__overview.md",
+      "title": "About Bootstrap · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/about/team",
+      "file": "about__team.md",
+      "title": "Team · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/about/brand",
+      "file": "about__brand.md",
+      "title": "Brand guidelines · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/about/license",
+      "file": "about__license.md",
+      "title": "License FAQs · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/about/translations",
+      "file": "about__translations.md",
+      "title": "Translations · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/migration/",
+      "file": "migration.md",
+      "title": "Migrating to v5 · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/getting-started",
+      "file": "getting-started.md",
+      "title": "Get started with Bootstrap · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/starter-template",
+      "file": "examples__starter-template.md",
+      "title": "Starter Template · Bootstrap v5.3",
+      "depth": 1
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/headers/",
+      "file": "examples__headers.md",
+      "title": "Headers · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/heroes/",
+      "file": "examples__heroes.md",
+      "title": "Heroes · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/features/",
+      "file": "examples__features.md",
+      "title": "Features · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/sidebars/",
+      "file": "examples__sidebars.md",
+      "title": "Sidebars · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/footers/",
+      "file": "examples__footers.md",
+      "title": "Footers · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/dropdowns/",
+      "file": "examples__dropdowns.md",
+      "title": "Dropdowns · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/list-groups/",
+      "file": "examples__list-groups.md",
+      "title": "List groups · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/modals/",
+      "file": "examples__modals.md",
+      "title": "Modals · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/badges/",
+      "file": "examples__badges.md",
+      "title": "Badges · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/breadcrumbs/",
+      "file": "examples__breadcrumbs.md",
+      "title": "Breadcrumbs · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/buttons/",
+      "file": "examples__buttons.md",
+      "title": "Buttons · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/jumbotrons/",
+      "file": "examples__jumbotrons.md",
+      "title": "Jumbotrons · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/album/",
+      "file": "examples__album.md",
+      "title": "Album example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/pricing/",
+      "file": "examples__pricing.md",
+      "title": "Pricing example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/checkout/",
+      "file": "examples__checkout.md",
+      "title": "Checkout example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/product/",
+      "file": "examples__product.md",
+      "title": "Product example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/cover/",
+      "file": "examples__cover.md",
+      "title": "Cover Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/carousel/",
+      "file": "examples__carousel.md",
+      "title": "Carousel Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/blog/",
+      "file": "examples__blog.md",
+      "title": "Blog Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/dashboard/",
+      "file": "examples__dashboard.md",
+      "title": "Dashboard Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/sign-in/",
+      "file": "examples__sign-in.md",
+      "title": "Signin Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/sticky-footer/",
+      "file": "examples__sticky-footer.md",
+      "title": "Sticky Footer Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/",
+      "file": "examples__sticky-footer-navbar.md",
+      "title": "Sticky Footer Navbar Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/jumbotron/",
+      "file": "examples__jumbotron.md",
+      "title": "Jumbotron example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/grid/",
+      "file": "examples__grid.md",
+      "title": "Grid Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/cheatsheet/",
+      "file": "examples__cheatsheet.md",
+      "title": "Cheatsheet · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/navbars/",
+      "file": "examples__navbars.md",
+      "title": "Navbar Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/",
+      "file": "examples__navbars-offcanvas.md",
+      "title": "Navbar Template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/navbar-static/",
+      "file": "examples__navbar-static.md",
+      "title": "Top navbar example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/navbar-fixed/",
+      "file": "examples__navbar-fixed.md",
+      "title": "Fixed top navbar example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/navbar-bottom/",
+      "file": "examples__navbar-bottom.md",
+      "title": "Bottom navbar example · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/offcanvas-navbar/",
+      "file": "examples__offcanvas-navbar.md",
+      "title": "Offcanvas navbar template · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/album-rtl/",
+      "file": "examples__album-rtl.md",
+      "title": "مثال الألبوم · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/checkout-rtl/",
+      "file": "examples__checkout-rtl.md",
+      "title": "مثال إتمام الشراء · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/carousel-rtl/",
+      "file": "examples__carousel-rtl.md",
+      "title": "قالب  شرائح العرض · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/blog-rtl/",
+      "file": "examples__blog-rtl.md",
+      "title": "قالب المدونة · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/dashboard-rtl/",
+      "file": "examples__dashboard-rtl.md",
+      "title": "قالب لوحة القيادة · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/cheatsheet-rtl/",
+      "file": "examples__cheatsheet-rtl.md",
+      "title": "ورقة الغش · Bootstrap v5.3",
+      "depth": 2
+    },
+    {
+      "url": "https://getbootstrap.com/docs/5.3/examples/masonry/",
+      "file": "examples__masonry.md",
+      "title": "Masonry example · Bootstrap v5.3",
+      "depth": 2
+    }
+  ]
+}

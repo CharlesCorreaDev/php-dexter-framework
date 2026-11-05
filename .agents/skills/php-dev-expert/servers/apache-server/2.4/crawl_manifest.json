@@ -1,0 +1,1538 @@
+{
+  "root_url": "https://httpd.apache.org/docs/2.4/pt-br/",
+  "scope_prefix": "https://httpd.apache.org/docs/2.4/pt-br/",
+  "total_pages": 255,
+  "generated_at": "2026-10-28T14:51:43Z",
+  "pages": [
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/",
+      "file": "index.md",
+      "title": "Documentação do Servidor HTTP Apache Versão\n2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 0
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/",
+      "file": "mod.md",
+      "title": "Module Index - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/quickreference.html",
+      "file": "mod__quickreference.md",
+      "title": "Directive Quick Reference - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/glossary.html",
+      "file": "glossary.md",
+      "title": "Glossary - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/sitemap.html",
+      "file": "sitemap.md",
+      "title": "Sitemap - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/new_features_2_4.html",
+      "file": "new_features_2_4.md",
+      "title": "Visão geral das novas funcionalidades do Servidor HTTP Apache 2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/new_features_2_2.html",
+      "file": "new_features_2_2.md",
+      "title": "Visão geral das novas funcionalidades no Servidor HTTP Apache 2.2 - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/new_features_2_0.html",
+      "file": "new_features_2_0.md",
+      "title": "Visão Geral das novas funcionalidades do Servidor HTTP Apache 2.0 - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/upgrading.html",
+      "file": "upgrading.md",
+      "title": "Atualizando da versão 2.2 para 2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/license.html",
+      "file": "license.md",
+      "title": "The Apache License, Version 2.0 - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/install.html",
+      "file": "install.md",
+      "title": "Compilando e Instalando - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/invoking.html",
+      "file": "invoking.md",
+      "title": "Executando o Apache - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/stopping.html",
+      "file": "stopping.md",
+      "title": "Stopping and Restarting Apache HTTP Server - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mpm.html",
+      "file": "mpm.md",
+      "title": "Multi-Processing Modules (MPMs) - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/filter.html",
+      "file": "filter.md",
+      "title": "Filtros - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/handler.html",
+      "file": "handler.md",
+      "title": "Apache's Handler Use - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/expr.html",
+      "file": "expr.md",
+      "title": "Expressions in Apache HTTP Server - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/overrides.html",
+      "file": "mod__overrides.md",
+      "title": "Override Class Index for .htaccess - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/",
+      "file": "programs.md",
+      "title": "Server and Supporting Programs - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/getting-started.html",
+      "file": "getting-started.md",
+      "title": "Getting Started - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/bind.html",
+      "file": "bind.md",
+      "title": "Vinculando a Endereços e Portas - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/configuring.html",
+      "file": "configuring.md",
+      "title": "Configuration Files - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/sections.html",
+      "file": "sections.md",
+      "title": "Configuration Sections - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/caching.html",
+      "file": "caching.md",
+      "title": "Caching Guide - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/content-negotiation.html",
+      "file": "content-negotiation.md",
+      "title": "Content Negotiation - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/dso.html",
+      "file": "dso.md",
+      "title": "Dynamic Shared Object (DSO) Support - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/env.html",
+      "file": "env.md",
+      "title": "Environment Variables in Apache httpd - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/logs.html",
+      "file": "logs.md",
+      "title": "Log Files - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/urlmapping.html",
+      "file": "urlmapping.md",
+      "title": "Mapping URLs to Filesystem Locations - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/misc/perf-tuning.html",
+      "file": "misc__perf-tuning.md",
+      "title": "Apache Performance Tuning - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/misc/security_tips.html",
+      "file": "misc__security_tips.md",
+      "title": "Security Tips - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/server-wide.html",
+      "file": "server-wide.md",
+      "title": "Server-Wide Configuration - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/ssl/",
+      "file": "ssl.md",
+      "title": "Apache SSL/TLS Encryption - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/suexec.html",
+      "file": "suexec.md",
+      "title": "suEXEC Support - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/",
+      "file": "rewrite.md",
+      "title": "Guide to Apache mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/",
+      "file": "vhosts.md",
+      "title": "Apache Virtual Host documentation - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/auth.html",
+      "file": "howto__auth.md",
+      "title": "Authentication and Authorization - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/access.html",
+      "file": "howto__access.md",
+      "title": "Access Control - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/cgi.html",
+      "file": "howto__cgi.md",
+      "title": "Apache HTTP Server Tutorial: Dynamic Content with CGI - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/htaccess.html",
+      "file": "howto__htaccess.md",
+      "title": "Tutorial do Servidor HTTP Apache: arquivos .htaccess - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/ssi.html",
+      "file": "howto__ssi.md",
+      "title": "Apache httpd Tutorial: Introduction to Server Side Includes - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/public_html.html",
+      "file": "howto__public_html.md",
+      "title": "Per-user web directories - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/reverse_proxy.html",
+      "file": "howto__reverse_proxy.md",
+      "title": "Reverse Proxy Guide - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/http2.html",
+      "file": "howto__http2.md",
+      "title": "HTTP/2 guide - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/windows.html",
+      "file": "platform__windows.md",
+      "title": "Using Apache HTTP Server on Microsoft Windows - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/rpm.html",
+      "file": "platform__rpm.md",
+      "title": "Using Apache With RPM Based Systems (Redhat / CentOS / Fedora) - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/netware.html",
+      "file": "platform__netware.md",
+      "title": "Using Apache With Novell NetWare - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/ebcdic.html",
+      "file": "platform__ebcdic.md",
+      "title": "The Apache EBCDIC Port - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/",
+      "file": "developer.md",
+      "title": "Developer Documentation for the Apache HTTP Server 2.4 - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/misc/",
+      "file": "misc.md",
+      "title": "Apache Miscellaneous Documentation - Apache HTTP Server Version 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/",
+      "file": "pt-br.md",
+      "title": "Documentação do Servidor HTTP Apache Versão\n2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 1
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/directives.html",
+      "file": "mod__directives.md",
+      "title": "Directive Index - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/core.html",
+      "file": "mod__core.md",
+      "title": "core - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mpm_common.html",
+      "file": "mod__mpm_common.md",
+      "title": "mpm_common - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/event.html",
+      "file": "mod__event.md",
+      "title": "event - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/worker.html",
+      "file": "mod__worker.md",
+      "title": "worker - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mpm_netware.html",
+      "file": "mod__mpm_netware.md",
+      "title": "mpm_netware - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mpmt_os2.html",
+      "file": "mod__mpmt_os2.md",
+      "title": "mpmt_os2 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/prefork.html",
+      "file": "mod__prefork.md",
+      "title": "prefork - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mpm_winnt.html",
+      "file": "mod__mpm_winnt.md",
+      "title": "mpm_winnt - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_access_compat.html",
+      "file": "mod__mod_access_compat.md",
+      "title": "mod_access_compat - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_actions.html",
+      "file": "mod__mod_actions.md",
+      "title": "mod_actions - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_alias.html",
+      "file": "mod__mod_alias.md",
+      "title": "mod_alias - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_allowmethods.html",
+      "file": "mod__mod_allowmethods.md",
+      "title": "mod_allowmethods - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_asis.html",
+      "file": "mod__mod_asis.md",
+      "title": "mod_asis - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_auth_basic.html",
+      "file": "mod__mod_auth_basic.md",
+      "title": "mod_auth_basic - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_auth_digest.html",
+      "file": "mod__mod_auth_digest.md",
+      "title": "mod_auth_digest - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_auth_form.html",
+      "file": "mod__mod_auth_form.md",
+      "title": "mod_auth_form - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_anon.html",
+      "file": "mod__mod_authn_anon.md",
+      "title": "mod_authn_anon - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_core.html",
+      "file": "mod__mod_authn_core.md",
+      "title": "mod_authn_core - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_dbd.html",
+      "file": "mod__mod_authn_dbd.md",
+      "title": "mod_authn_dbd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_dbm.html",
+      "file": "mod__mod_authn_dbm.md",
+      "title": "mod_authn_dbm - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_file.html",
+      "file": "mod__mod_authn_file.md",
+      "title": "mod_authn_file - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authn_socache.html",
+      "file": "mod__mod_authn_socache.md",
+      "title": "mod_authn_socache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authnz_fcgi.html",
+      "file": "mod__mod_authnz_fcgi.md",
+      "title": "mod_authnz_fcgi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authnz_ldap.html",
+      "file": "mod__mod_authnz_ldap.md",
+      "title": "mod_authnz_ldap - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_core.html",
+      "file": "mod__mod_authz_core.md",
+      "title": "mod_authz_core - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_dbd.html",
+      "file": "mod__mod_authz_dbd.md",
+      "title": "mod_authz_dbd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_dbm.html",
+      "file": "mod__mod_authz_dbm.md",
+      "title": "mod_authz_dbm - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_groupfile.html",
+      "file": "mod__mod_authz_groupfile.md",
+      "title": "mod_authz_groupfile - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_host.html",
+      "file": "mod__mod_authz_host.md",
+      "title": "mod_authz_host - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_owner.html",
+      "file": "mod__mod_authz_owner.md",
+      "title": "mod_authz_owner - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_authz_user.html",
+      "file": "mod__mod_authz_user.md",
+      "title": "mod_authz_user - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_autoindex.html",
+      "file": "mod__mod_autoindex.md",
+      "title": "mod_autoindex - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_brotli.html",
+      "file": "mod__mod_brotli.md",
+      "title": "mod_brotli - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_buffer.html",
+      "file": "mod__mod_buffer.md",
+      "title": "mod_buffer - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cache.html",
+      "file": "mod__mod_cache.md",
+      "title": "mod_cache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cache_disk.html",
+      "file": "mod__mod_cache_disk.md",
+      "title": "mod_cache_disk - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cache_socache.html",
+      "file": "mod__mod_cache_socache.md",
+      "title": "mod_cache_socache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cern_meta.html",
+      "file": "mod__mod_cern_meta.md",
+      "title": "mod_cern_meta - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cgi.html",
+      "file": "mod__mod_cgi.md",
+      "title": "mod_cgi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_cgid.html",
+      "file": "mod__mod_cgid.md",
+      "title": "mod_cgid - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_charset_lite.html",
+      "file": "mod__mod_charset_lite.md",
+      "title": "mod_charset_lite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_data.html",
+      "file": "mod__mod_data.md",
+      "title": "mod_data - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dav.html",
+      "file": "mod__mod_dav.md",
+      "title": "mod_dav - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dav_fs.html",
+      "file": "mod__mod_dav_fs.md",
+      "title": "mod_dav_fs - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dav_lock.html",
+      "file": "mod__mod_dav_lock.md",
+      "title": "mod_dav_lock - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dbd.html",
+      "file": "mod__mod_dbd.md",
+      "title": "mod_dbd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_deflate.html",
+      "file": "mod__mod_deflate.md",
+      "title": "mod_deflate - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dialup.html",
+      "file": "mod__mod_dialup.md",
+      "title": "mod_dialup - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dir.html",
+      "file": "mod__mod_dir.md",
+      "title": "mod_dir - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_dumpio.html",
+      "file": "mod__mod_dumpio.md",
+      "title": "mod_dumpio - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_echo.html",
+      "file": "mod__mod_echo.md",
+      "title": "mod_echo - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_env.html",
+      "file": "mod__mod_env.md",
+      "title": "mod_env - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_example_hooks.html",
+      "file": "mod__mod_example_hooks.md",
+      "title": "mod_example_hooks - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_expires.html",
+      "file": "mod__mod_expires.md",
+      "title": "mod_expires - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_ext_filter.html",
+      "file": "mod__mod_ext_filter.md",
+      "title": "mod_ext_filter - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_file_cache.html",
+      "file": "mod__mod_file_cache.md",
+      "title": "mod_file_cache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_filter.html",
+      "file": "mod__mod_filter.md",
+      "title": "mod_filter - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_headers.html",
+      "file": "mod__mod_headers.md",
+      "title": "mod_headers - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_heartbeat.html",
+      "file": "mod__mod_heartbeat.md",
+      "title": "mod_heartbeat - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_heartmonitor.html",
+      "file": "mod__mod_heartmonitor.md",
+      "title": "mod_heartmonitor - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_http2.html",
+      "file": "mod__mod_http2.md",
+      "title": "mod_http2 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_ident.html",
+      "file": "mod__mod_ident.md",
+      "title": "mod_ident - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_imagemap.html",
+      "file": "mod__mod_imagemap.md",
+      "title": "mod_imagemap - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_include.html",
+      "file": "mod__mod_include.md",
+      "title": "mod_include - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_info.html",
+      "file": "mod__mod_info.md",
+      "title": "mod_info - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_isapi.html",
+      "file": "mod__mod_isapi.md",
+      "title": "mod_isapi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_lbmethod_bybusyness.html",
+      "file": "mod__mod_lbmethod_bybusyness.md",
+      "title": "mod_lbmethod_bybusyness - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_balancer.html",
+      "file": "mod__mod_proxy_balancer.md",
+      "title": "mod_proxy_balancer - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_lbmethod_byrequests.html",
+      "file": "mod__mod_lbmethod_byrequests.md",
+      "title": "mod_lbmethod_byrequests - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_lbmethod_bytraffic.html",
+      "file": "mod__mod_lbmethod_bytraffic.md",
+      "title": "mod_lbmethod_bytraffic - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_lbmethod_heartbeat.html",
+      "file": "mod__mod_lbmethod_heartbeat.md",
+      "title": "mod_lbmethod_heartbeat - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_ldap.html",
+      "file": "mod__mod_ldap.md",
+      "title": "mod_ldap - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_log_config.html",
+      "file": "mod__mod_log_config.md",
+      "title": "mod_log_config - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_log_debug.html",
+      "file": "mod__mod_log_debug.md",
+      "title": "mod_log_debug - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_log_forensic.html",
+      "file": "mod__mod_log_forensic.md",
+      "title": "mod_log_forensic - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_logio.html",
+      "file": "mod__mod_logio.md",
+      "title": "mod_logio - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_lua.html",
+      "file": "mod__mod_lua.md",
+      "title": "mod_lua - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_macro.html",
+      "file": "mod__mod_macro.md",
+      "title": "mod_macro - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_md.html",
+      "file": "mod__mod_md.md",
+      "title": "mod_md - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_mime.html",
+      "file": "mod__mod_mime.md",
+      "title": "mod_mime - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_mime_magic.html",
+      "file": "mod__mod_mime_magic.md",
+      "title": "mod_mime_magic - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_negotiation.html",
+      "file": "mod__mod_negotiation.md",
+      "title": "mod_negotiation - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_nw_ssl.html",
+      "file": "mod__mod_nw_ssl.md",
+      "title": "mod_nw_ssl - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_privileges.html",
+      "file": "mod__mod_privileges.md",
+      "title": "mod_privileges - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy.html",
+      "file": "mod__mod_proxy.md",
+      "title": "mod_proxy - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_ajp.html",
+      "file": "mod__mod_proxy_ajp.md",
+      "title": "mod_proxy_ajp - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_connect.html",
+      "file": "mod__mod_proxy_connect.md",
+      "title": "mod_proxy_connect - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_express.html",
+      "file": "mod__mod_proxy_express.md",
+      "title": "mod_proxy_express - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_fcgi.html",
+      "file": "mod__mod_proxy_fcgi.md",
+      "title": "mod_proxy_fcgi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_fdpass.html",
+      "file": "mod__mod_proxy_fdpass.md",
+      "title": "mod_proxy_fdpass - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_ftp.html",
+      "file": "mod__mod_proxy_ftp.md",
+      "title": "mod_proxy_ftp - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_hcheck.html",
+      "file": "mod__mod_proxy_hcheck.md",
+      "title": "mod_proxy_hcheck - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_html.html",
+      "file": "mod__mod_proxy_html.md",
+      "title": "mod_proxy_html - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_http.html",
+      "file": "mod__mod_proxy_http.md",
+      "title": "mod_proxy_http - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_http2.html",
+      "file": "mod__mod_proxy_http2.md",
+      "title": "mod_proxy_http2 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_scgi.html",
+      "file": "mod__mod_proxy_scgi.md",
+      "title": "mod_proxy_scgi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_uwsgi.html",
+      "file": "mod__mod_proxy_uwsgi.md",
+      "title": "mod_proxy_uwsgi - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_proxy_wstunnel.html",
+      "file": "mod__mod_proxy_wstunnel.md",
+      "title": "mod_proxy_wstunnel - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_ratelimit.html",
+      "file": "mod__mod_ratelimit.md",
+      "title": "mod_ratelimit - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_reflector.html",
+      "file": "mod__mod_reflector.md",
+      "title": "mod_reflector - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_remoteip.html",
+      "file": "mod__mod_remoteip.md",
+      "title": "mod_remoteip - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_reqtimeout.html",
+      "file": "mod__mod_reqtimeout.md",
+      "title": "mod_reqtimeout - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_request.html",
+      "file": "mod__mod_request.md",
+      "title": "mod_request - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_rewrite.html",
+      "file": "mod__mod_rewrite.md",
+      "title": "mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_sed.html",
+      "file": "mod__mod_sed.md",
+      "title": "mod_sed - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_session.html",
+      "file": "mod__mod_session.md",
+      "title": "mod_session - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_session_cookie.html",
+      "file": "mod__mod_session_cookie.md",
+      "title": "mod_session_cookie - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_session_crypto.html",
+      "file": "mod__mod_session_crypto.md",
+      "title": "mod_session_crypto - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_session_dbd.html",
+      "file": "mod__mod_session_dbd.md",
+      "title": "mod_session_dbd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_setenvif.html",
+      "file": "mod__mod_setenvif.md",
+      "title": "mod_setenvif - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_slotmem_plain.html",
+      "file": "mod__mod_slotmem_plain.md",
+      "title": "mod_slotmem_plain - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_slotmem_shm.html",
+      "file": "mod__mod_slotmem_shm.md",
+      "title": "mod_slotmem_shm - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_so.html",
+      "file": "mod__mod_so.md",
+      "title": "mod_so - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_socache_dbm.html",
+      "file": "mod__mod_socache_dbm.md",
+      "title": "mod_socache_dbm - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_socache_dc.html",
+      "file": "mod__mod_socache_dc.md",
+      "title": "mod_socache_dc - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_socache_memcache.html",
+      "file": "mod__mod_socache_memcache.md",
+      "title": "mod_socache_memcache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_socache_redis.html",
+      "file": "mod__mod_socache_redis.md",
+      "title": "mod_socache_redis - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_socache_shmcb.html",
+      "file": "mod__mod_socache_shmcb.md",
+      "title": "mod_socache_shmcb - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_speling.html",
+      "file": "mod__mod_speling.md",
+      "title": "mod_speling - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_ssl.html",
+      "file": "mod__mod_ssl.md",
+      "title": "mod_ssl - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_status.html",
+      "file": "mod__mod_status.md",
+      "title": "mod_status - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_substitute.html",
+      "file": "mod__mod_substitute.md",
+      "title": "mod_substitute - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_suexec.html",
+      "file": "mod__mod_suexec.md",
+      "title": "mod_suexec - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_systemd.html",
+      "file": "mod__mod_systemd.md",
+      "title": "mod_systemd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_unique_id.html",
+      "file": "mod__mod_unique_id.md",
+      "title": "mod_unique_id - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_unixd.html",
+      "file": "mod__mod_unixd.md",
+      "title": "mod_unixd - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_userdir.html",
+      "file": "mod__mod_userdir.md",
+      "title": "mod_userdir - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_usertrack.html",
+      "file": "mod__mod_usertrack.md",
+      "title": "mod_usertrack - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_version.html",
+      "file": "mod__mod_version.md",
+      "title": "mod_version - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_vhost_alias.html",
+      "file": "mod__mod_vhost_alias.md",
+      "title": "mod_vhost_alias - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_watchdog.html",
+      "file": "mod__mod_watchdog.md",
+      "title": "mod_watchdog - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/mod_xml2enc.html",
+      "file": "mod__mod_xml2enc.md",
+      "title": "mod_xml2enc - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/directive-dict.html",
+      "file": "mod__directive-dict.md",
+      "title": "Terms Used to Describe Directives - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/apxs.html",
+      "file": "programs__apxs.md",
+      "title": "apxs - APache eXtenSion tool - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/httpd.html",
+      "file": "programs__httpd.md",
+      "title": "httpd - Apache Hypertext Transfer Protocol Server - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/ssl/ssl_faq.html",
+      "file": "ssl__ssl_faq.md",
+      "title": "SSL/TLS Strong Encryption: FAQ - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/custom-error.html",
+      "file": "custom-error.md",
+      "title": "Custom Error Responses - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/socache.html",
+      "file": "socache.md",
+      "title": "Shared Object Cache in Apache HTTP Server - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/dns-caveats.html",
+      "file": "dns-caveats.md",
+      "title": "Issues Regarding DNS and Apache HTTP Server - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/name-based.html",
+      "file": "vhosts__name-based.md",
+      "title": "Name-based Virtual Host Support - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/ip-based.html",
+      "file": "vhosts__ip-based.md",
+      "title": "Apache IP-based Virtual Host Support - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/mass.html",
+      "file": "vhosts__mass.md",
+      "title": "Dynamically Configured Mass Virtual Hosting - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/examples.html",
+      "file": "vhosts__examples.md",
+      "title": "VirtualHost Examples - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/details.html",
+      "file": "vhosts__details.md",
+      "title": "An In-Depth Discussion of Virtual Host Matching - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/fd-limits.html",
+      "file": "vhosts__fd-limits.md",
+      "title": "File Descriptor Limits - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/intro.html",
+      "file": "rewrite__intro.md",
+      "title": "Apache mod_rewrite Introduction - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/remapping.html",
+      "file": "rewrite__remapping.md",
+      "title": "Redirecting and Remapping with mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/access.html",
+      "file": "rewrite__access.md",
+      "title": "Using mod_rewrite to control access - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/vhosts.html",
+      "file": "rewrite__vhosts.md",
+      "title": "Dynamic mass virtual hosts with mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/proxy.html",
+      "file": "rewrite__proxy.md",
+      "title": "Using mod_rewrite for Proxying - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/rewritemap.html",
+      "file": "rewrite__rewritemap.md",
+      "title": "Using RewriteMap - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/advanced.html",
+      "file": "rewrite__advanced.md",
+      "title": "Advanced Techniques with mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/avoid.html",
+      "file": "rewrite__avoid.md",
+      "title": "When not to use mod_rewrite - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/flags.html",
+      "file": "rewrite__flags.md",
+      "title": "RewriteRule Flags - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/tech.html",
+      "file": "rewrite__tech.md",
+      "title": "Apache mod_rewrite Technical Details - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/ssl/ssl_intro.html",
+      "file": "ssl__ssl_intro.md",
+      "title": "SSL/TLS Strong Encryption: An Introduction - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/ssl/ssl_compat.html",
+      "file": "ssl__ssl_compat.md",
+      "title": "SSL/TLS Strong Encryption: Compatibility - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/ssl/ssl_howto.html",
+      "file": "ssl__ssl_howto.md",
+      "title": "SSL/TLS Strong Encryption: How-To - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/howto/",
+      "file": "howto.md",
+      "title": "How-To / Tutorials - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/",
+      "file": "platform.md",
+      "title": "Platform Specific Notes - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/platform/win_compiling.html",
+      "file": "platform__win_compiling.md",
+      "title": "Compiling Apache httpd for Microsoft Windows - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/ab.html",
+      "file": "programs__ab.md",
+      "title": "ab - Apache HTTP server benchmarking tool - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/apachectl.html",
+      "file": "programs__apachectl.md",
+      "title": "apachectl - Apache HTTP Server Control Interface - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/configure.html",
+      "file": "programs__configure.md",
+      "title": "configure - Configure the source tree - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/dbmmanage.html",
+      "file": "programs__dbmmanage.md",
+      "title": "dbmmanage - Manage user authentication files in DBM format - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/fcgistarter.html",
+      "file": "programs__fcgistarter.md",
+      "title": "fcgistarter - Start a FastCGI program - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/htcacheclean.html",
+      "file": "programs__htcacheclean.md",
+      "title": "htcacheclean - Clean up the disk cache - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/htdbm.html",
+      "file": "programs__htdbm.md",
+      "title": "htdbm - Manipulate DBM password databases - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/htdigest.html",
+      "file": "programs__htdigest.md",
+      "title": "htdigest - manage user files for digest authentication - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/htpasswd.html",
+      "file": "programs__htpasswd.md",
+      "title": "htpasswd - Manage user files for basic authentication - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/httxt2dbm.html",
+      "file": "programs__httxt2dbm.md",
+      "title": "httxt2dbm - Generate dbm files for use with RewriteMap - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/logresolve.html",
+      "file": "programs__logresolve.md",
+      "title": "logresolve - Resolve IP-addresses to hostnames in Apache\n   log files - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/log_server_status.html",
+      "file": "programs__log_server_status.md",
+      "title": "log_server_status - Log periodic status summaries - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/rotatelogs.html",
+      "file": "programs__rotatelogs.md",
+      "title": "rotatelogs - Piped logging program to rotate Apache logs - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/split-logfile.html",
+      "file": "programs__split-logfile.md",
+      "title": "split-logfile - Split up multi-vhost logfiles - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/suexec.html",
+      "file": "programs__suexec.md",
+      "title": "suexec - Switch user before executing external programs - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/programs/other.html",
+      "file": "programs__other.md",
+      "title": "Other Programs - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/misc/relevant_standards.html",
+      "file": "misc__relevant_standards.md",
+      "title": "Relevant Standards - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/misc/password_encryptions.html",
+      "file": "misc__password_encryptions.md",
+      "title": "Password Formats - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/mod/module-dict.html",
+      "file": "mod__module-dict.md",
+      "title": "Terms Used to Describe Modules - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/API.html",
+      "file": "developer__API.md",
+      "title": "Apache 1.3 API notes - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/new_api_2_4.html",
+      "file": "developer__new_api_2_4.md",
+      "title": "API Changes in Apache HTTP Server 2.4 since 2.2 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/modguide.html",
+      "file": "developer__modguide.md",
+      "title": "Developing modules for the Apache HTTP Server 2.4 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/documenting.html",
+      "file": "developer__documenting.md",
+      "title": "Documenting code in Apache 2.4 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/hooks.html",
+      "file": "developer__hooks.md",
+      "title": "Hook Functions in the Apache HTTP Server 2.x - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/modules.html",
+      "file": "developer__modules.md",
+      "title": "Converting Modules from Apache 1.3 to Apache 2.0 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/request.html",
+      "file": "developer__request.md",
+      "title": "Request Processing in the Apache HTTP Server 2.4 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/filters.html",
+      "file": "developer__filters.md",
+      "title": "How filters work in Apache 2.0 - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/output-filters.html",
+      "file": "developer__output-filters.md",
+      "title": "Guide to writing output filters - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/thread_safety.html",
+      "file": "developer__thread_safety.md",
+      "title": "Apache HTTP Server 2.x Thread Safety Issues - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/new_features_2_4.html",
+      "file": "pt-br__new_features_2_4.md",
+      "title": "Visão geral das novas funcionalidades do Servidor HTTP Apache 2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/new_features_2_2.html",
+      "file": "pt-br__new_features_2_2.md",
+      "title": "Visão geral das novas funcionalidades no Servidor HTTP Apache 2.2 - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/new_features_2_0.html",
+      "file": "pt-br__new_features_2_0.md",
+      "title": "Visão Geral das novas funcionalidades do Servidor HTTP Apache 2.0 - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/upgrading.html",
+      "file": "pt-br__upgrading.md",
+      "title": "Atualizando da versão 2.2 para 2.4 - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/install.html",
+      "file": "pt-br__install.md",
+      "title": "Compilando e Instalando - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/invoking.html",
+      "file": "pt-br__invoking.md",
+      "title": "Executando o Apache - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/filter.html",
+      "file": "pt-br__filter.md",
+      "title": "Filtros - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/bind.html",
+      "file": "pt-br__bind.md",
+      "title": "Vinculando a Endereços e Portas - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/rewrite/htaccess.html",
+      "file": "rewrite__htaccess.md",
+      "title": "Per-directory Rewrites - Apache HTTP Server Version 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/pt-br/howto/htaccess.html",
+      "file": "pt-br__howto__htaccess.md",
+      "title": "Tutorial do Servidor HTTP Apache: arquivos .htaccess - Servidor HTTP Apache Versão 2.4",
+      "depth": 2
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/vhosts/index.html",
+      "file": "vhosts__index.md",
+      "title": "Apache Virtual Host documentation - Apache HTTP Server Version 2.4",
+      "depth": 3
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/mod_example_1.c",
+      "file": "developer__mod_example_1.c.md",
+      "title": "/docs/2.4/pt-br/developer/mod_example_1.c",
+      "depth": 3
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/pt-br/developer/mod_example_2.c",
+      "file": "developer__mod_example_2.c.md",
+      "title": "/docs/2.4/pt-br/developer/mod_example_2.c",
+      "depth": 3
+    }
+  ]
+}

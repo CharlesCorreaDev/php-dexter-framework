@@ -1,0 +1,15 @@
+# Version 4.1.8 — CodeIgniter 4.7.5 documentation
+
+> **Fonte / Source:** https://codeigniter.com/user_guide/changelogs/v4.1.8.html
+
+---
+
+# Version 4.1.8[](#version-4-1-8 "Link to this heading")
+
+Release Date: January 24, 2022
+
+**4.1.8 release of CodeIgniter4**
+
+## [SECURITY](#id1)[](#security "Link to this heading")
+
+- *XSS Vulnerability* in the `API\ResponseTrait` was fixed. See the [Security advisory](https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-7528-7jg5-6g62) for more information.

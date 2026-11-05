@@ -1,0 +1,1478 @@
+{
+  "root_url": "https://docs.litespeedtech.com/lsadc/",
+  "scope_prefix": "https://docs.litespeedtech.com/lsadc/",
+  "total_pages": 245,
+  "generated_at": "2026-10-28T15:15:06Z",
+  "pages": [
+    {
+      "url": "https://github.com/litespeedtech",
+      "file": "github__github_com_litespeedtech.md",
+      "title": "litespeedtech (LiteSpeed Tech) · GitHub",
+      "depth": 0
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/cache/",
+      "file": "lsadc__cache.md",
+      "title": "Cache | Configuration | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/changelog/",
+      "file": "lsadc__changelog.md",
+      "title": "Changelog | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/commands/",
+      "file": "lsadc__commands.md",
+      "title": "Commands Reference | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/faq/",
+      "file": "lsadc__faq.md",
+      "title": "Frequently Asked Questions | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/",
+      "file": "lsadc__index.md",
+      "title": "LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/installation/",
+      "file": "lsadc__installation.md",
+      "title": "Installation | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/moresettings/",
+      "file": "lsadc__moresettings.md",
+      "title": "More Settings | Configuration | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/security/",
+      "file": "lsadc__security.md",
+      "title": "Security | Configuration | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/settings/",
+      "file": "lsadc__settings.md",
+      "title": "Basic | Configuration | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/troubleshoot/",
+      "file": "lsadc__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsadc/zeroconf/",
+      "file": "lsadc__zeroconf.md",
+      "title": "ZeroConf | Configuration | LiteSpeed Web ADC | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/basics/",
+      "file": "lscache__basics.md",
+      "title": "LSCache Basic Concepts | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/devguide/",
+      "file": "lscache__devguide.md",
+      "title": "Overview | LSCache Developers Guide | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/devguide/advanced/",
+      "file": "lscache__devguide__advanced.md",
+      "title": "Advanced Concepts | LSCache Developers Guide | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/devguide/controls/",
+      "file": "lscache__devguide__controls.md",
+      "title": "Basic Controls | LSCache Developers Guide | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/devguide/usage/",
+      "file": "lscache__devguide__usage.md",
+      "title": "Usage Examples | LSCache Developers Guide | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/",
+      "file": "lscache__index.md",
+      "title": "What is LiteSpeed Cache? | LiteSpeed Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/",
+      "file": "lscache__litemage.md",
+      "title": "Overview | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/changelog-archive/",
+      "file": "lscache__litemage__changelog-archive.md",
+      "title": "Changelog Archive | LiteMage for Magento 1 | LiteSpeed Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/changelog-crawler/",
+      "file": "lscache__litemage__changelog-crawler.md",
+      "title": "Changelog | Crawler | LiteSpeed Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/changelog/",
+      "file": "lscache__litemage__changelog.md",
+      "title": "Changelog | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/crawler/",
+      "file": "lscache__litemage__crawler.md",
+      "title": "Crawler Script | Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/faq/",
+      "file": "lscache__litemage__faq.md",
+      "title": "FAQ | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/installation/",
+      "file": "lscache__litemage__installation.md",
+      "title": "Installation | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/settings/",
+      "file": "lscache__litemage__settings.md",
+      "title": "Configuration | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/litemage/troubleshoot/",
+      "file": "lscache__litemage__troubleshoot.md",
+      "title": "Troubleshooting | LiteMage Cache for Magento 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccc/",
+      "file": "lscache__lsccc.md",
+      "title": "Overview | LiteSpeed Cache for Craft CMS | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccc/faq/",
+      "file": "lscache__lsccc__faq.md",
+      "title": "FAQ | LiteSpeed Cache for CraftCMS | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccc/installation/",
+      "file": "lscache__lsccc__installation.md",
+      "title": "Installation | LiteSpeed Cache for Craft CMS | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccc/troubleshoot/",
+      "file": "lscache__lsccc__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for Craft CMS | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccsc/",
+      "file": "lscache__lsccsc.md",
+      "title": "Overview | LiteSpeed Cache for CS-Cart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccsc/faq/",
+      "file": "lscache__lsccsc__faq.md",
+      "title": "FAQ | LiteSpeed Cache for CS-Cart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccsc/installation/",
+      "file": "lscache__lsccsc__installation.md",
+      "title": "Installation | LiteSpeed Cache for CS-Cart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsccsc/troubleshoot/",
+      "file": "lscache__lsccsc__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for CS-Cart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdjango/",
+      "file": "lscache__lscdjango.md",
+      "title": "Overview | LiteSpeed Cache for Django | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdjango/configuration/",
+      "file": "lscache__lscdjango__configuration.md",
+      "title": "Configuration | LiteSpeed Cache for Django | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdjango/faq/",
+      "file": "lscache__lscdjango__faq.md",
+      "title": "FAQ | LiteSpeed Cache for Django | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdjango/installation/",
+      "file": "lscache__lscdjango__installation.md",
+      "title": "Installation | LiteSpeed Cache for Django | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdjango/troubleshoot/",
+      "file": "lscache__lscdjango__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for Django | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdrupal/",
+      "file": "lscache__lscdrupal.md",
+      "title": "Overview | LiteSpeed Cache for Drupal | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdrupal/faq/",
+      "file": "lscache__lscdrupal__faq.md",
+      "title": "FAQ | LiteSpeed Cache for Drupal | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdrupal/installation/",
+      "file": "lscache__lscdrupal__installation.md",
+      "title": "Installation | LiteSpeed Cache for Drupal | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdrupal/settings/",
+      "file": "lscache__lscdrupal__settings.md",
+      "title": "Configuration | LiteSpeed Cache for Drupal | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscdrupal/troubleshoot/",
+      "file": "lscache__lscdrupal__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for Drupal | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscflarem/",
+      "file": "lscache__lscflarem.md",
+      "title": "Overview | LiteSpeed Cache for Flarem | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/",
+      "file": "lscache__lscjoomla.md",
+      "title": "Overview | LiteSpeed Cache for Joomla! | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/changelog/",
+      "file": "lscache__lscjoomla__changelog.md",
+      "title": "Changelog | LiteSpeed Cache for Joomla | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/faq/",
+      "file": "lscache__lscjoomla__faq.md",
+      "title": "FAQ | LiteSpeed Cache for Joomla! | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/installation/",
+      "file": "lscache__lscjoomla__installation.md",
+      "title": "Installation | LiteSpeed Cache for Joomla! | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/settings/",
+      "file": "lscache__lscjoomla__settings.md",
+      "title": "Configuration | LiteSpeed Cache for Joomla! | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjoomla/troubleshoot/",
+      "file": "lscache__lscjoomla__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for Joomla! | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscjtl/",
+      "file": "lscache__lscjtl.md",
+      "title": "Overview | LiteSpeed Cache for JTL-Shop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsclaravel/",
+      "file": "lscache__lsclaravel.md",
+      "title": "Overview | LiteSpeed Cache for Laravel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsclaravel/faq/",
+      "file": "lscache__lsclaravel__faq.md",
+      "title": "FAQ | LiteSpeed Cache for Laravel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsclaravel/installation/",
+      "file": "lscache__lsclaravel__installation.md",
+      "title": "Installation | LiteSpeed Cache for Laravel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsclaravel/settings/",
+      "file": "lscache__lsclaravel__settings.md",
+      "title": "Configuration | LiteSpeed Cache for Laravel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lsclaravel/troubleshoot/",
+      "file": "lscache__lsclaravel__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for Laravel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscmw/",
+      "file": "lscache__lscmw.md",
+      "title": "Overview | LiteSpeed Cache for MediaWiki | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscmw/faq/",
+      "file": "lscache__lscmw__faq.md",
+      "title": "FAQ | LiteSpeed Cache for MediaWiki | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscmw/installation/",
+      "file": "lscache__lscmw__installation.md",
+      "title": "Installation | LiteSpeed Cache for MediaWiki | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscmw/settings/",
+      "file": "lscache__lscmw__settings.md",
+      "title": "Configuration | LiteSpeed Cache for MediaWiki | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscmw/troubleshoot/",
+      "file": "lscache__lscmw__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for MediaWiki | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/",
+      "file": "lscache__lscoc.md",
+      "title": "Overview | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/changelog/",
+      "file": "lscache__lscoc__changelog.md",
+      "title": "Changelog | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/faq/",
+      "file": "lscache__lscoc__faq.md",
+      "title": "FAQ | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/installation/",
+      "file": "lscache__lscoc__installation.md",
+      "title": "Installation | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/settings/",
+      "file": "lscache__lscoc__settings.md",
+      "title": "Configuration | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscoc/troubleshoot/",
+      "file": "lscache__lscoc__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for OpenCart | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/",
+      "file": "lscache__lscps.md",
+      "title": "Overview | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/changelog-crawler/",
+      "file": "lscache__lscps__changelog-crawler.md",
+      "title": "Changelog | Crawler | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/changelog/",
+      "file": "lscache__lscps__changelog.md",
+      "title": "Changelog | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/crawler/",
+      "file": "lscache__lscps__crawler.md",
+      "title": "Crawler Script | PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/faq/",
+      "file": "lscache__lscps__faq.md",
+      "title": "FAQ | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/installation/",
+      "file": "lscache__lscps__installation.md",
+      "title": "Installation | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/settings/",
+      "file": "lscache__lscps__settings.md",
+      "title": "Configuration | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscps/troubleshoot/",
+      "file": "lscache__lscps__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for PrestaShop | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/",
+      "file": "lscache__lscwp.md",
+      "title": "Overview | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/admin/",
+      "file": "lscache__lscwp__admin.md",
+      "title": "Admin | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/api/",
+      "file": "lscache__lscwp__api.md",
+      "title": "API | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/beginner/",
+      "file": "lscache__lscwp__beginner.md",
+      "title": "Beginner's Guide | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/cache/",
+      "file": "lscache__lscwp__cache.md",
+      "title": "Cache | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/cdn/",
+      "file": "lscache__lscwp__cdn.md",
+      "title": "CDN | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/cli/",
+      "file": "lscache__lscwp__cli.md",
+      "title": "WordPress CLI | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/constants/",
+      "file": "lscache__lscwp__constants.md",
+      "title": "Constants | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/crawler/",
+      "file": "lscache__lscwp__crawler.md",
+      "title": "Crawler | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/dashboard/",
+      "file": "lscache__lscwp__dashboard.md",
+      "title": "Dashboard | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/database/",
+      "file": "lscache__lscwp__database.md",
+      "title": "Database | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/faq/",
+      "file": "lscache__lscwp__faq.md",
+      "title": "FAQ | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/general/",
+      "file": "lscache__lscwp__general.md",
+      "title": "General | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/imageopt/",
+      "file": "lscache__lscwp__imageopt.md",
+      "title": "Image Optimization | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/installation/",
+      "file": "lscache__lscwp__installation.md",
+      "title": "Installation | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/metabox/",
+      "file": "lscache__lscwp__metabox.md",
+      "title": "LiteSpeed Options Metabox | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/multisite/",
+      "file": "lscache__lscwp__multisite.md",
+      "title": "Multisite Networks | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/pageopt/",
+      "file": "lscache__lscwp__pageopt.md",
+      "title": "Page Optimization | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/presets/",
+      "file": "lscache__lscwp__presets.md",
+      "title": "Presets | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/thirdparty/",
+      "file": "lscache__lscwp__thirdparty.md",
+      "title": "Third Party | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/toolbox/",
+      "file": "lscache__lscwp__toolbox.md",
+      "title": "Toolbox | Screen-by-Screen | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/troubleshoot/",
+      "file": "lscache__lscwp__troubleshoot.md",
+      "title": "Troubleshooting Guide | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/ts-cdn/",
+      "file": "lscache__lscwp__ts-cdn.md",
+      "title": "CDN Support Issues | Troubleshooting | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/ts-crawler/",
+      "file": "lscache__lscwp__ts-crawler.md",
+      "title": "Crawler Issues | Troubleshooting | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/ts-media/",
+      "file": "lscache__lscwp__ts-media.md",
+      "title": "Media Issues | Troubleshooting | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscwp/ts-optimize/",
+      "file": "lscache__lscwp__ts-optimize.md",
+      "title": "CSS/JS Issues | Troubleshooting | LSCache for WordPress | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscxf/",
+      "file": "lscache__lscxf.md",
+      "title": "Overview | LiteSpeed Cache for XenForo 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscxf/faq/",
+      "file": "lscache__lscxf__faq.md",
+      "title": "FAQ | LiteSpeed Cache for XenForo 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscxf/installation/",
+      "file": "lscache__lscxf__installation.md",
+      "title": "Installation and Configuration| LiteSpeed Cache for XenForo 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/lscxf/troubleshoot/",
+      "file": "lscache__lscxf__troubleshoot.md",
+      "title": "Troubleshooting | LiteSpeed Cache for XenForo 2 | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/noplugin/",
+      "file": "lscache__noplugin.md",
+      "title": "Overview | LiteSpeed Cache Without a Plugin | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/noplugin/installation/",
+      "file": "lscache__noplugin__installation.md",
+      "title": "Installation | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/noplugin/settings/",
+      "file": "lscache__noplugin__settings.md",
+      "title": "Configuration | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/start/",
+      "file": "lscache__start.md",
+      "title": "Getting Started | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/tips/",
+      "file": "lscache__tips.md",
+      "title": "LSCache Tips | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lscache/troubleshoot/",
+      "file": "lscache__troubleshoot.md",
+      "title": "LSCache Troubleshooting | LiteSpeed Cache | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/autoindex/",
+      "file": "lsws__autoindex.md",
+      "title": "Auto Index Script | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/awstats/",
+      "file": "lsws__awstats.md",
+      "title": "AWStats | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/benchmark/",
+      "file": "lsws__benchmark.md",
+      "title": "Benchmarking Tips | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/bubblewrap/",
+      "file": "lsws__bubblewrap.md",
+      "title": "Bubblewrap | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cgroups/",
+      "file": "lsws__cgroups.md",
+      "title": "cgroups | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/changelog/",
+      "file": "lsws__changelog.md",
+      "title": "Changelog | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cli-cgroups/",
+      "file": "lsws__cli-cgroups.md",
+      "title": "cgroups | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/commands/",
+      "file": "lsws__commands.md",
+      "title": "Commands Reference | LSWS | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/configuration/",
+      "file": "lsws__configuration.md",
+      "title": "Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/",
+      "file": "lsws__cp__cpanel.md",
+      "title": "cPanel + LiteSpeed Administration Guide | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/400-error/",
+      "file": "lsws__cp__cpanel__400-error.md",
+      "title": "400 Error with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/403-error/",
+      "file": "lsws__cp__cpanel__403-error.md",
+      "title": "403 Error with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/404-error/",
+      "file": "lsws__cp__cpanel__404-error.md",
+      "title": "404 Error with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/500-error/",
+      "file": "lsws__cp__cpanel__500-error.md",
+      "title": "500 Error | cPanel | Control Panels | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/503-error/",
+      "file": "lsws__cp__cpanel__503-error.md",
+      "title": "503 Error | cPanel | Control Panels | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/adc-zconf/",
+      "file": "lsws__cp__cpanel__adc-zconf.md",
+      "title": "Clusters with LiteSpeed Web ADC ZeroConf | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/antiddos/",
+      "file": "lsws__cp__cpanel__antiddos.md",
+      "title": "DDoS Attack Protection | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/anubis/",
+      "file": "lsws__cp__cpanel__anubis.md",
+      "title": "Anubis Protection | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/bug-report/",
+      "file": "lsws__cp__cpanel__bug-report.md",
+      "title": "Submit a Bug Report for LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/cloudflare/",
+      "file": "lsws__cp__cpanel__cloudflare.md",
+      "title": "Cloudflare Issues | cPanel | Control Panels | LiteSpeed Documentation | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/cloudlinux/",
+      "file": "lsws__cp__cpanel__cloudlinux.md",
+      "title": "CloudLinux Setup for cPanel with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/compression/",
+      "file": "lsws__cp__cpanel__compression.md",
+      "title": "Compression in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/debug-log/",
+      "file": "lsws__cp__cpanel__debug-log.md",
+      "title": "Debug Logging in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/ecc-quickstart/",
+      "file": "lsws__cp__cpanel__ecc-quickstart.md",
+      "title": "ECC Certificates | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/geoip/",
+      "file": "lsws__cp__cpanel__geoip.md",
+      "title": "GeoLocation Support in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/high-load/",
+      "file": "lsws__cp__cpanel__high-load.md",
+      "title": "High Load on LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/load-balancer/",
+      "file": "lsws__cp__cpanel__load-balancer.md",
+      "title": "Using LiteSpeed Web Server as a Load Balancer | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/long-run-script/",
+      "file": "lsws__cp__cpanel__long-run-script.md",
+      "title": "PHP Without Timeout | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/lscache/",
+      "file": "lsws__cp__cpanel__lscache.md",
+      "title": "LSCache with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/lscntr/",
+      "file": "lsws__cp__cpanel__lscntr.md",
+      "title": "LiteSpeed Containers | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/lsmcd-multi-user/",
+      "file": "lsws__cp__cpanel__lsmcd-multi-user.md",
+      "title": "LSMCD (LiteSpeed Memcached) for MultiUser | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/mod_security/",
+      "file": "lsws__cp__cpanel__mod_security.md",
+      "title": "ModSecurity/WAF in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/ocsp-stapling/",
+      "file": "lsws__cp__cpanel__ocsp-stapling.md",
+      "title": "OCSP Stapling | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/pagespeed/",
+      "file": "lsws__cp__cpanel__pagespeed.md",
+      "title": "mod_pagespeed in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/php-override/",
+      "file": "lsws__cp__cpanel__php-override.md",
+      "title": "Override PHP in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/php-selector/",
+      "file": "lsws__cp__cpanel__php-selector.md",
+      "title": "PHP Selector with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/php-timezonedb/",
+      "file": "lsws__cp__cpanel__php-timezonedb.md",
+      "title": "TimeZoneDB with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/php-user-ini/",
+      "file": "lsws__cp__cpanel__php-user-ini.md",
+      "title": "PHP Per User php.ini in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/php/",
+      "file": "lsws__cp__cpanel__php.md",
+      "title": "PHP with cPanel and LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/quic-http3/",
+      "file": "lsws__cp__cpanel__quic-http3.md",
+      "title": "QUIC and HTTP/3 Support | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/quickstart/",
+      "file": "lsws__cp__cpanel__quickstart.md",
+      "title": "Quick Start LiteSpeed Web Server with cPanel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/recaptcha/",
+      "file": "lsws__cp__cpanel__recaptcha.md",
+      "title": "CAPTCHA Protection | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/rewrite-logs/",
+      "file": "lsws__cp__cpanel__rewrite-logs.md",
+      "title": "Rewrite Logs in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/rewrite-proxy/",
+      "file": "lsws__cp__cpanel__rewrite-proxy.md",
+      "title": "Rewrite Rule Proxy with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/switch-apache/",
+      "file": "lsws__cp__cpanel__switch-apache.md",
+      "title": "Apache to LiteSpeed Web Server Migration FAQ | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/ts-cloudlinux/",
+      "file": "lsws__cp__cpanel__ts-cloudlinux.md",
+      "title": "CloudLinux Issues | Troubleshooting | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/ts-server/",
+      "file": "lsws__cp__cpanel__ts-server.md",
+      "title": "Server Issues with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/tunings/",
+      "file": "lsws__cp__cpanel__tunings.md",
+      "title": "Tuning LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/uninstall/",
+      "file": "lsws__cp__cpanel__uninstall.md",
+      "title": "Uninstall | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/websocket-proxy/",
+      "file": "lsws__cp__cpanel__websocket-proxy.md",
+      "title": "WebSocket Proxy with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/changelog/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__changelog.md",
+      "title": "Changelog | cPanel | Control Panels | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/cli-lscmctl/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__cli-lscmctl.md",
+      "title": "CLI | WP Cache Management | WHM LiteSpeed Plugin | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/cli-redis/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__cli-redis.md",
+      "title": "Cache Redis for Users CLI | WHM LiteSpeed plugin | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/cpanel-plugin/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__cpanel-plugin.md",
+      "title": "cPanel Plugin | WHM Plugin | Control Panel Plugins | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/lscntr/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__lscntr.md",
+      "title": "LiteSpeed Containers in the WHM LiteSpeed Plugin | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/switch-license/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__switch-license.md",
+      "title": "Switching Licenses with LiteSpeed Web Server WHM Plugins | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/troubleshooting/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__troubleshooting.md",
+      "title": "Troubleshooting | WHM Plugin | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/whm-install/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__whm-install.md",
+      "title": "Installation | WHM LiteSpeed Plugin | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/whm-litespeed-plugin/wp-cache-management/",
+      "file": "lsws__cp__cpanel__whm-litespeed-plugin__wp-cache-management.md",
+      "title": "WP Cache Management | WHM LiteSpeed plugin | cPanel | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cpanel/wp-protect/",
+      "file": "lsws__cp__cpanel__wp-protect.md",
+      "title": "WordPress Brute Force Protection in LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/cyberpanel/",
+      "file": "lsws__cp__cyberpanel.md",
+      "title": "CyberPanel | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/",
+      "file": "lsws__cp__directadmin.md",
+      "title": "DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/da-litespeed-plugin/changelog/",
+      "file": "lsws__cp__directadmin__da-litespeed-plugin__changelog.md",
+      "title": "Changelog | DirectAdmin | Control Panels | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/da-litespeed-plugin/cli-lscmctl/",
+      "file": "lsws__cp__directadmin__da-litespeed-plugin__cli-lscmctl.md",
+      "title": "CLI | WP Cache Management | LiteSpeed Plugin | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/da-litespeed-plugin/da-install/",
+      "file": "lsws__cp__directadmin__da-litespeed-plugin__da-install.md",
+      "title": "Installation and Configuration | LiteSpeed Plugin | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/da-litespeed-plugin/wp-cache-management/",
+      "file": "lsws__cp__directadmin__da-litespeed-plugin__wp-cache-management.md",
+      "title": "WP Cache Management | LiteSpeed Plugin | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/faq/",
+      "file": "lsws__cp__directadmin__faq.md",
+      "title": "Frequently Asked Questions | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/installation/",
+      "file": "lsws__cp__directadmin__installation.md",
+      "title": "Installation and Configuration | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/php/",
+      "file": "lsws__cp__directadmin__php.md",
+      "title": "PHP | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/directadmin/security/",
+      "file": "lsws__cp__directadmin__security.md",
+      "title": "Security | DirectAdmin | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/enhance/",
+      "file": "lsws__cp__enhance.md",
+      "title": "Overview | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/interworx/",
+      "file": "lsws__cp__interworx.md",
+      "title": "Overview | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/interworx/installation/",
+      "file": "lsws__cp__interworx__installation.md",
+      "title": "Installing LiteSpeed Web Server with Interworx | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/interworx/lscache/",
+      "file": "lsws__cp__interworx__lscache.md",
+      "title": "LSCache with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/",
+      "file": "lsws__cp__plesk.md",
+      "title": "LiteSpeed Web Server and Plesk | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/403-error/",
+      "file": "lsws__cp__plesk__403-error.md",
+      "title": "403 Error | Troubleshooting | Plesk | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/changelog/",
+      "file": "lsws__cp__plesk__changelog.md",
+      "title": "Changelog | Plesk | Control Panels | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/configuration/",
+      "file": "lsws__cp__plesk__configuration.md",
+      "title": "Configuring LiteSpeed Web Server with Plesk | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/installation/",
+      "file": "lsws__cp__plesk__installation.md",
+      "title": "Installing LiteSpeed Web Server with Plesk | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/lscntr/",
+      "file": "lsws__cp__plesk__lscntr.md",
+      "title": "LiteSpeed Containers for Plesk with LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/plesk/troubleshoot/",
+      "file": "lsws__cp__plesk__troubleshoot.md",
+      "title": "Troubleshooting LiteSpeed Web Server with Plesk | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/cp/webuzo/",
+      "file": "lsws__cp__webuzo.md",
+      "title": "LiteSpeed Web Server and Webuzo | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/",
+      "file": "lsws__extapp.md",
+      "title": "Overview | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/jsp/",
+      "file": "lsws__extapp__jsp.md",
+      "title": "JSP / CFM | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/nodejs/",
+      "file": "lsws__extapp__nodejs.md",
+      "title": "Node.js | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/perl/",
+      "file": "lsws__extapp__perl.md",
+      "title": "Perl | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/perl/configuration/",
+      "file": "lsws__extapp__perl__configuration.md",
+      "title": "Configuration | Perl | External Applications | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/",
+      "file": "lsws__extapp__php.md",
+      "title": "PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/advanced/",
+      "file": "lsws__extapp__php__advanced.md",
+      "title": "Advanced How-To | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/changelog/",
+      "file": "lsws__extapp__php__changelog.md",
+      "title": "Changelog | PHP | External Apps | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/configuration/advanced/",
+      "file": "lsws__extapp__php__configuration__advanced.md",
+      "title": "Advanced Configuration | Configuration | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/configuration/control/",
+      "file": "lsws__extapp__php__configuration__control.md",
+      "title": "Controlling LSPHP | Configuration | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/configuration/modes/",
+      "file": "lsws__extapp__php__configuration__modes.md",
+      "title": "LSPHP Modes | Configuration | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/configuration/options/",
+      "file": "lsws__extapp__php__configuration__options.md",
+      "title": "LSPHP Options | Configuration | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/extensions/",
+      "file": "lsws__extapp__php__extensions.md",
+      "title": "Extensions | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/getting_started/",
+      "file": "lsws__extapp__php__getting_started.md",
+      "title": "Getting Started | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/how-to/",
+      "file": "lsws__extapp__php__how-to.md",
+      "title": "How-To | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/performance/",
+      "file": "lsws__extapp__php__performance.md",
+      "title": "Performance | PHP | External Apps | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/troubleshooting/",
+      "file": "lsws__extapp__php__troubleshooting.md",
+      "title": "Overview | Troubleshooting | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/php/troubleshooting/503/",
+      "file": "lsws__extapp__php__troubleshooting__503.md",
+      "title": "503 Errors | Troubleshooting | PHP | External Applications | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/python/",
+      "file": "lsws__extapp__python.md",
+      "title": "Python | External Applications | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/python/changelog/",
+      "file": "lsws__extapp__python__changelog.md",
+      "title": "Changelog | Python | External Apps | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/ruby/",
+      "file": "lsws__extapp__ruby.md",
+      "title": "Ruby on Rails | External Applications | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/extapp/ruby/changelog/",
+      "file": "lsws__extapp__ruby__changelog.md",
+      "title": "Changelog | Ruby | External Apps | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/",
+      "file": "lsws__index.md",
+      "title": "Overview | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/installation/",
+      "file": "lsws__installation.md",
+      "title": "Installation | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/logging/",
+      "file": "lsws__logging.md",
+      "title": "Logging | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/namespaces/",
+      "file": "lsws__namespaces.md",
+      "title": "Namespace Containers | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/native/",
+      "file": "lsws__native.md",
+      "title": "Native Mode | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/ocsp-stapling/",
+      "file": "lsws__ocsp-stapling.md",
+      "title": "OCSP Stapling | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/realtime/",
+      "file": "lsws__realtime.md",
+      "title": "Real-Time Stats | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/recaptcha/",
+      "file": "lsws__recaptcha.md",
+      "title": "CAPTCHA | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/redirect/",
+      "file": "lsws__redirect.md",
+      "title": "Internal Redirect | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/script/",
+      "file": "lsws__script.md",
+      "title": "One-Click Script | Installation | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/security-headers/",
+      "file": "lsws__security-headers.md",
+      "title": "Security Response Headers | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/security/",
+      "file": "lsws__security.md",
+      "title": "Security | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/ssl/",
+      "file": "lsws__ssl.md",
+      "title": "SSL | Configuration | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/standalone/",
+      "file": "lsws__standalone.md",
+      "title": "Standalone | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/suexec/",
+      "file": "lsws__suexec.md",
+      "title": "SuEXEC | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/templates/",
+      "file": "lsws__templates.md",
+      "title": "Templates | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/trial/",
+      "file": "lsws__trial.md",
+      "title": "Trial License | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/troubleshooting/",
+      "file": "lsws__troubleshooting.md",
+      "title": "Troubleshooting | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/ts-http2/",
+      "file": "lsws__ts-http2.md",
+      "title": "HTTP/2 Protocol Errors | Troubleshooting | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/ts-ssl/",
+      "file": "lsws__ts-ssl.md",
+      "title": "SSL Issues | Troubleshooting | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/ts-webadmin/",
+      "file": "lsws__ts-webadmin.md",
+      "title": "WebAdmin Console Issues | Troubleshooting | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/tuning-dedicated/",
+      "file": "lsws__tuning-dedicated.md",
+      "title": "Dedicated with Large Site | Tuning Guide | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/tuning-shared/",
+      "file": "lsws__tuning-shared.md",
+      "title": "Shared Hosting Server | Tuning Guide | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/updates/",
+      "file": "lsws__updates.md",
+      "title": "Updates with lsup | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/video/",
+      "file": "lsws__video.md",
+      "title": "Video | LiteSpeed Web Server | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://docs.litespeedtech.com/lsws/visitorip/",
+      "file": "lsws__visitorip.md",
+      "title": "Show Visitor IP in Logs | LiteSpeed Documentation | LiteSpeed Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://www.litespeedtech.com/open-source",
+      "file": "opensource__www_litespeedtech_com_open-source.md",
+      "title": "Open Source - LiteSpeed Technologies",
+      "depth": 0
+    },
+    {
+      "url": "https://www.litespeedtech.com/products/litespeed-web-server",
+      "file": "product_lsws__www_litespeedtech_com_products_litespeed-web-server.md",
+      "title": "LiteSpeed Web Server - Apache Alternative - LiteSpeed Technologies",
+      "depth": 0
+    }
+  ]
+}

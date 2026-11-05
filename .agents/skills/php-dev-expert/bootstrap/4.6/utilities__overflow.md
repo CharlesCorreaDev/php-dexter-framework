@@ -1,0 +1,24 @@
+# Overflow · Bootstrap v4.6
+
+> **Fonte / Source:** https://getbootstrap.com/docs/4.6/utilities/overflow/
+
+---
+
+[View on GitHub](https://github.com/twbs/bootstrap/blob/v4.6.2/site/content/docs/4.6/utilities/overflow.md "View and edit this file on GitHub")
+
+# Overflow
+
+Use these shorthand utilities for quickly configuring how content overflows an element.
+
+Barebones `overflow` functionality is provided for two values by default, and they are not responsive.
+
+This is an example of using `.overflow-auto` on an element with set width and height dimensions. By design, this content will vertically scroll.
+
+This is an example of using `.overflow-hidden` on an element with set width and height dimensions.
+
+```
+<div class="overflow-auto">...</div>
+<div class="overflow-hidden">...</div>
+```
+
+Using Sass variables, you may customize the overflow utilities by changing the `$overflows` variable in `_variables.scss`.

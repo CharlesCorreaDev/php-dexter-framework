@@ -1,0 +1,34 @@
+# modules — Caddy Documentation
+
+> **Fonte / Source:** https://caddyserver.com/docs/modules
+
+---
+
+# All Modules
+
+This page lists all registered Caddy modules. Modules are plugins which extend Caddy's [JSON configuration structure](json.md).
+
+We recommend using your browser's "Find in page" feature for quick lookups.
+
+|  | Module ID | Description |
+| --- | --- | --- |
+
+#
+
+There is more than one module named . Choose one by its repository.
+
+**This module does not come with Caddy.** It can be added by using **[xcaddy](build.md#xcaddy)** or our **[download page](https://caddyserver.com/download)**. Non-standard modules may be developed by the community and are not officially endorsed or maintained by the Caddy project. The documentation is shown here only as a courtesy.
+  
+  
+**Code repository:** 
+  
+  
+**Custom builds:** `xcaddy build --with`
+
+## Description
+
+## Field List
+
+Fulfilled by modules in namespace:
+
+This property is **required** because it specifies the module name.

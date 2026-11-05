@@ -1,0 +1,182 @@
+{
+  "root_url": "https://www.slimframework.com/docs/v4/",
+  "scope_prefix": "https://www.slimframework.com/docs/v4/",
+  "total_pages": 29,
+  "generated_at": "2026-10-28T15:15:45Z",
+  "pages": [
+    {
+      "url": "https://www.slimframework.com/docs/v4/",
+      "file": "index.md",
+      "title": "Slim 4 Documentation - Slim Framework",
+      "depth": 0
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/start/installation.html",
+      "file": "start__installation.md",
+      "title": "Installation - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/start/web-servers.html",
+      "file": "start__web-servers.md",
+      "title": "Web Servers - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/deployment/deployment.html",
+      "file": "deployment__deployment.md",
+      "title": "Deployment - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/start/upgrade.html",
+      "file": "start__upgrade.md",
+      "title": "Upgrade Guide - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/concepts/life-cycle.html",
+      "file": "concepts__life-cycle.md",
+      "title": "Lifecycle - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/concepts/value-objects.html",
+      "file": "concepts__value-objects.md",
+      "title": "PSR-7 and Value Objects - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/concepts/middleware.html",
+      "file": "concepts__middleware.md",
+      "title": "Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/concepts/di.html",
+      "file": "concepts__di.md",
+      "title": "Dependency Container - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/objects/application.html",
+      "file": "objects__application.md",
+      "title": "Application - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/objects/request.html",
+      "file": "objects__request.md",
+      "title": "Request - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/objects/response.html",
+      "file": "objects__response.md",
+      "title": "Response - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/objects/routing.html",
+      "file": "objects__routing.md",
+      "title": "Routing - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/routing.html",
+      "file": "middleware__routing.md",
+      "title": "Routing Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/error-handling.html",
+      "file": "middleware__error-handling.md",
+      "title": "Error Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/method-overriding.html",
+      "file": "middleware__method-overriding.md",
+      "title": "Method Overriding Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/output-buffering.html",
+      "file": "middleware__output-buffering.md",
+      "title": "Output Buffering Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/body-parsing.html",
+      "file": "middleware__body-parsing.md",
+      "title": "Body Parsing Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/middleware/content-length.html",
+      "file": "middleware__content-length.md",
+      "title": "Content Length Middleware - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/cookbook/route-patterns.html",
+      "file": "cookbook__route-patterns.md",
+      "title": "Trailing / in route patterns - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/cookbook/retrieving-current-route.html",
+      "file": "cookbook__retrieving-current-route.md",
+      "title": "Retrieving Current Route - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/cookbook/database-doctrine.html",
+      "file": "cookbook__database-doctrine.md",
+      "title": "Using Doctrine with Slim - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/cookbook/enable-cors.html",
+      "file": "cookbook__enable-cors.md",
+      "title": "Setting up CORS - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/cookbook/uploading-files.html",
+      "file": "cookbook__uploading-files.md",
+      "title": "Uploading files using POST forms - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/features/templates.html",
+      "file": "features__templates.md",
+      "title": "Templates - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/features/twig-view.html",
+      "file": "features__twig-view.md",
+      "title": "Twig Templates - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/features/php-view.html",
+      "file": "features__php-view.md",
+      "title": "PHP Templates - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/contributors/strategy.html",
+      "file": "contributors__strategy.md",
+      "title": "Branching Strategy - Slim Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slimframework.com/docs/v4/contributors/guidelines.html",
+      "file": "contributors__guidelines.md",
+      "title": "Contributor Guidelines - Slim Framework",
+      "depth": 1
+    }
+  ]
+}

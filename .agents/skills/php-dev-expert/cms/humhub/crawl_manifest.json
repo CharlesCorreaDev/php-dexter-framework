@@ -1,0 +1,332 @@
+{
+  "root_url": "** https://docs.humhub.org/docs/about/contribution",
+  "scope_prefix": "** https://docs.humhub.org/docs/about/contribution",
+  "total_pages": 54,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://docs.humhub.org/docs/about/contribution",
+      "file": "docs__about__contribution.md",
+      "title": "Contribution | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/humhub",
+      "file": "docs__about__humhub.md",
+      "title": "About HumHub | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes",
+      "file": "docs__about__releasenotes__release_notes.md",
+      "title": "Overview | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_10",
+      "file": "docs__about__releasenotes__release_notes_1_10.md",
+      "title": "HumHub 1.10 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_11",
+      "file": "docs__about__releasenotes__release_notes_1_11.md",
+      "title": "HumHub 1.11 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_12",
+      "file": "docs__about__releasenotes__release_notes_1_12.md",
+      "title": "HumHub 1.12 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_13",
+      "file": "docs__about__releasenotes__release_notes_1_13.md",
+      "title": "HumHub 1.13 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_14",
+      "file": "docs__about__releasenotes__release_notes_1_14.md",
+      "title": "HumHub 1.14 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_15",
+      "file": "docs__about__releasenotes__release_notes_1_15.md",
+      "title": "HumHub 1.15 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_16",
+      "file": "docs__about__releasenotes__release_notes_1_16.md",
+      "title": "HumHub 1.16 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_17",
+      "file": "docs__about__releasenotes__release_notes_1_17.md",
+      "title": "HumHub 1.17 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_18",
+      "file": "docs__about__releasenotes__release_notes_1_18.md",
+      "title": "HumHub 1.18 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_19",
+      "file": "docs__about__releasenotes__release_notes_1_19.md",
+      "title": "HumHub 1.19 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_5",
+      "file": "docs__about__releasenotes__release_notes_1_5.md",
+      "title": "HumHub 1.5 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_6",
+      "file": "docs__about__releasenotes__release_notes_1_6.md",
+      "title": "HumHub 1.6 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_7",
+      "file": "docs__about__releasenotes__release_notes_1_7.md",
+      "title": "HumHub 1.7 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_8",
+      "file": "docs__about__releasenotes__release_notes_1_8.md",
+      "title": "HumHub 1.8 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/releasenotes/release_notes_1_9",
+      "file": "docs__about__releasenotes__release_notes_1_9.md",
+      "title": "HumHub 1.9 | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/about/support",
+      "file": "docs__about__support.md",
+      "title": "Support | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/advanced-configuration",
+      "file": "docs__admin__advanced-configuration.md",
+      "title": "Configuration Files | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/asynchronous-tasks",
+      "file": "docs__admin__asynchronous-tasks.md",
+      "title": "Asynchronous Task Processing | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/backup",
+      "file": "docs__admin__backup.md",
+      "title": "Backup & Restore HumHub | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/config-options",
+      "file": "docs__admin__config-options.md",
+      "title": "Configuration Options | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/console",
+      "file": "docs__admin__console.md",
+      "title": "Command Line Interface | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/cron-jobs",
+      "file": "docs__admin__cron-jobs.md",
+      "title": "Cron Jobs | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/dot-env",
+      "file": "docs__admin__dot-env.md",
+      "title": "Dot Env (.env) | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/installation-docker",
+      "file": "docs__admin__installation-docker.md",
+      "title": "Docker Installation | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/installation",
+      "file": "docs__admin__installation.md",
+      "title": "Web Server Installation | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/introduction",
+      "file": "docs__admin__introduction.md",
+      "title": "Getting Started | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/ldap",
+      "file": "docs__admin__ldap.md",
+      "title": "LDAP | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/logging",
+      "file": "docs__admin__logging.md",
+      "title": "Logging & Statistics | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/migrate-to-docker",
+      "file": "docs__admin__migrate-to-docker.md",
+      "title": "Migrate to Docker | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/modules",
+      "file": "docs__admin__modules.md",
+      "title": "Modules & Marketplace | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/oauth",
+      "file": "docs__admin__oauth.md",
+      "title": "OAuth / OpenID Connect | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/performance",
+      "file": "docs__admin__performance.md",
+      "title": "Performance | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/permissions",
+      "file": "docs__admin__permissions.md",
+      "title": "Permissions | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/redis",
+      "file": "docs__admin__redis.md",
+      "title": "Redis | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/requirements",
+      "file": "docs__admin__requirements.md",
+      "title": "System Requirements | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/reverse-proxy",
+      "file": "docs__admin__reverse-proxy.md",
+      "title": "Reverse Proxy | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/search",
+      "file": "docs__admin__search.md",
+      "title": "Search | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/security",
+      "file": "docs__admin__security.md",
+      "title": "Security | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/server-setup",
+      "file": "docs__admin__server-setup.md",
+      "title": "Server Setup (Linux) | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/translations",
+      "file": "docs__admin__translations.md",
+      "title": "Languages & Translations | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/troubleshooting",
+      "file": "docs__admin__troubleshooting.md",
+      "title": "Troubleshooting & Help | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/updating-migration",
+      "file": "docs__admin__updating-migration.md",
+      "title": "Migration Guide for Administrators | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/updating",
+      "file": "docs__admin__updating.md",
+      "title": "Updating HumHub | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/admin/uploads",
+      "file": "docs__admin__uploads.md",
+      "title": "File Management & Uploads | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/develop/overview",
+      "file": "docs__develop__overview.md",
+      "title": "humhub/docs/develop/intro-overview.md at develop · humhub/humhub · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/professional-edition/ee",
+      "file": "docs__professional-edition__ee.md",
+      "title": "Enterprise Edition (Legacy) | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/professional-edition/features",
+      "file": "docs__professional-edition__features.md",
+      "title": "Features | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/professional-edition/pe-intro",
+      "file": "docs__professional-edition__pe-intro.md",
+      "title": "Introduction | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/professional-edition/saas",
+      "file": "docs__professional-edition__saas.md",
+      "title": "Managed Hosting (SaaS) | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/docs/professional-edition/support",
+      "file": "docs__professional-edition__support.md",
+      "title": "Support | HumHub Documentation",
+      "depth": 1
+    },
+    {
+      "url": "** https://docs.humhub.org/",
+      "file": "index.md",
+      "title": "HumHub Documentation",
+      "depth": 1
+    }
+  ]
+}

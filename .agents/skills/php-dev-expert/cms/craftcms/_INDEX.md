@@ -1,0 +1,274 @@
+# 📚 Índice da Documentação / Documentation Index
+
+- **Fonte / Source:** ** https://craftcms.com/docs/commerce/5.x/configure
+- **Escopo / Scope:** `** https://craftcms.com/docs/commerce/5.x/configure`
+- **Total de Páginas Capturadas / Total Captured Pages:** 249
+
+---
+
+## 📂 `commerce_5x` (38)
+
+- [Configuring Commerce | Craft Commerce Documentation | 5.x](commerce_5x__configure.md) — `** https://craftcms.com/docs/commerce/5.x/configure`
+- [Address Management | Craft Commerce Documentation | 5.x](commerce_5x__development__address-management.md) — `** https://craftcms.com/docs/commerce/5.x/development/address-management`
+- [Cart | Craft Commerce Documentation | 5.x](commerce_5x__development__cart.md) — `** https://craftcms.com/docs/commerce/5.x/development/cart`
+- [Checkout | Craft Commerce Documentation | 5.x](commerce_5x__development__checkout.md) — `** https://craftcms.com/docs/commerce/5.x/development/checkout`
+- [Example Templates | Craft Commerce Documentation | 5.x](commerce_5x__development__example-templates.md) — `** https://craftcms.com/docs/commerce/5.x/development/example-templates`
+- [Making Payments | Craft Commerce Documentation | 5.x](commerce_5x__development__making-payments.md) — `** https://craftcms.com/docs/commerce/5.x/development/making-payments`
+- [Order History | Craft Commerce Documentation | 5.x](commerce_5x__development__orders.md) — `** https://craftcms.com/docs/commerce/5.x/development/orders`
+- [Saving Payment Sources | Craft Commerce Documentation | 5.x](commerce_5x__development__saving-payment-sources.md) — `** https://craftcms.com/docs/commerce/5.x/development/saving-payment-sources`
+- [Subscription Templates | Craft Commerce Documentation | 5.x](commerce_5x__development__subscription-templates.md) — `** https://craftcms.com/docs/commerce/5.x/development/subscription-templates`
+- [Events | Craft Commerce Documentation | 5.x](commerce_5x__extend__events.md) — `** https://craftcms.com/docs/commerce/5.x/extend/events`
+- [Payment Gateway Types | Craft Commerce Documentation | 5.x](commerce_5x__extend__payment-gateway-types.md) — `** https://craftcms.com/docs/commerce/5.x/extend/payment-gateway-types`
+- [Purchasable Types | Craft Commerce Documentation | 5.x](commerce_5x__extend__purchasable-types.md) — `** https://craftcms.com/docs/commerce/5.x/extend/purchasable-types`
+- [About Craft Commerce | Craft Commerce Documentation | 5.x](commerce_5x__index.md) — `** https://craftcms.com/docs/commerce/5.x/`
+- [Installation | Craft Commerce Documentation | 5.x](commerce_5x__install.md) — `** https://craftcms.com/docs/commerce/5.x/install`
+- [Console Commands | Craft Commerce Documentation | 5.x](commerce_5x__reference__console-commands.md) — `** https://craftcms.com/docs/commerce/5.x/reference/console-commands`
+- [Controller Actions | Craft Commerce Documentation | 5.x](commerce_5x__reference__controller-actions.md) — `** https://craftcms.com/docs/commerce/5.x/reference/controller-actions`
+- [Twig Filters | Craft Commerce Documentation | 5.x](commerce_5x__reference__twig.md) — `** https://craftcms.com/docs/commerce/5.x/reference/twig`
+- [Requirements | Craft Commerce Documentation | 5.x](commerce_5x__requirements.md) — `** https://craftcms.com/docs/commerce/5.x/requirements`
+- [Addresses | Craft Commerce Documentation | 5.x](commerce_5x__system__addresses.md) — `** https://craftcms.com/docs/commerce/5.x/system/addresses`
+- [Coupon Codes | Craft Commerce Documentation | 5.x](commerce_5x__system__coupon-codes.md) — `** https://craftcms.com/docs/commerce/5.x/system/coupon-codes`
+- [Payment Currencies | Craft Commerce Documentation | 5.x](commerce_5x__system__currencies.md) — `** https://craftcms.com/docs/commerce/5.x/system/currencies`
+- [Customers | Craft Commerce Documentation | 5.x](commerce_5x__system__customers.md) — `** https://craftcms.com/docs/commerce/5.x/system/customers`
+- [Discounts | Craft Commerce Documentation | 5.x](commerce_5x__system__discounts.md) — `** https://craftcms.com/docs/commerce/5.x/system/discounts`
+- [Donations | Craft Commerce Documentation | 5.x](commerce_5x__system__donations.md) — `** https://craftcms.com/docs/commerce/5.x/system/donations`
+- [Emails | Craft Commerce Documentation | 5.x](commerce_5x__system__emails.md) — `** https://craftcms.com/docs/commerce/5.x/system/emails`
+- [Payment Gateways | Craft Commerce Documentation | 5.x](commerce_5x__system__gateways.md) — `** https://craftcms.com/docs/commerce/5.x/system/gateways`
+- [Orders & Carts | Craft Commerce Documentation | 5.x](commerce_5x__system__orders-carts.md) — `** https://craftcms.com/docs/commerce/5.x/system/orders-carts`
+- [PDFs | Craft Commerce Documentation | 5.x](commerce_5x__system__pdfs.md) — `** https://craftcms.com/docs/commerce/5.x/system/pdfs`
+- [Catalog Pricing Rules | Craft Commerce Documentation | 5.x](commerce_5x__system__pricing-rules.md) — `** https://craftcms.com/docs/commerce/5.x/system/pricing-rules`
+- [Products & Variants | Craft Commerce Documentation | 5.x](commerce_5x__system__products-variants.md) — `** https://craftcms.com/docs/commerce/5.x/system/products-variants`
+- [Purchasables | Craft Commerce Documentation | 5.x](commerce_5x__system__purchasables.md) — `** https://craftcms.com/docs/commerce/5.x/system/purchasables`
+- [Sales | Craft Commerce Documentation | 5.x](commerce_5x__system__sales.md) — `** https://craftcms.com/docs/commerce/5.x/system/sales`
+- [Shipping | Craft Commerce Documentation | 5.x](commerce_5x__system__shipping.md) — `** https://craftcms.com/docs/commerce/5.x/system/shipping`
+- [Stores | Craft Commerce Documentation | 5.x](commerce_5x__system__stores.md) — `** https://craftcms.com/docs/commerce/5.x/system/stores`
+- [Subscriptions | Craft Commerce Documentation | 5.x](commerce_5x__system__subscriptions.md) — `** https://craftcms.com/docs/commerce/5.x/system/subscriptions`
+- [Tax | Craft Commerce Documentation | 5.x](commerce_5x__system__tax.md) — `** https://craftcms.com/docs/commerce/5.x/system/tax`
+- [Updating Instructions | Craft Commerce Documentation | 5.x](commerce_5x__update.md) — `** https://craftcms.com/docs/commerce/5.x/update`
+- [Upgrading from Commerce 4 | Craft Commerce Documentation | 5.x](commerce_5x__upgrade.md) — `** https://craftcms.com/docs/commerce/5.x/upgrade`
+
+## 📂 `docs_5x` (120)
+
+- [Code of Conduct | Craft CMS Documentation | 5.x](docs_5x__coc.md) — `** https://craftcms.com/docs/5.x/coc`
+- [Configuring Craft | Craft CMS Documentation | 5.x](docs_5x__configure.md) — `** https://craftcms.com/docs/5.x/configure`
+- [Hosting & Deployment | Craft CMS Documentation | 5.x](docs_5x__deploy.md) — `** https://craftcms.com/docs/5.x/deploy`
+- [Front-End Development | Craft CMS Documentation | 5.x](docs_5x__development.md) — `** https://craftcms.com/docs/5.x/development/`
+- [Accessibility | Craft CMS Documentation | 5.x](docs_5x__development__accessibility.md) — `** https://craftcms.com/docs/5.x/development/accessibility`
+- [Collections | Craft CMS Documentation | 5.x](docs_5x__development__collections.md) — `** https://craftcms.com/docs/5.x/development/collections`
+- [Eager-Loading Elements | Craft CMS Documentation | 5.x](docs_5x__development__eager-loading.md) — `** https://craftcms.com/docs/5.x/development/eager-loading`
+- [Element Queries | Craft CMS Documentation | 5.x](docs_5x__development__element-queries.md) — `** https://craftcms.com/docs/5.x/development/element-queries`
+- [Forms | Craft CMS Documentation | 5.x](docs_5x__development__forms.md) — `** https://craftcms.com/docs/5.x/development/forms`
+- [GraphQL API | Craft CMS Documentation | 5.x](docs_5x__development__graphql.md) — `** https://craftcms.com/docs/5.x/development/graphql`
+- [Image Transforms | Craft CMS Documentation | 5.x](docs_5x__development__image-transforms.md) — `** https://craftcms.com/docs/5.x/development/image-transforms`
+- [Templates | Craft CMS Documentation | 5.x](docs_5x__development__templates.md) — `** https://craftcms.com/docs/5.x/development/templates`
+- [Twig Fundamentals | Craft CMS Documentation | 5.x](docs_5x__development__twig.md) — `** https://craftcms.com/docs/5.x/development/twig`
+- [Licensing & Editions | Craft CMS Documentation | 5.x](docs_5x__editions.md) — `** https://craftcms.com/docs/5.x/editions`
+- [Extending Craft | Craft CMS Documentation | 5.x](docs_5x__extend.md) — `** https://craftcms.com/docs/5.x/extend/`
+- [Announcements | Craft CMS Documentation | 5.x](docs_5x__extend__announcements.md) — `** https://craftcms.com/docs/5.x/extend/announcements`
+- [Asset Bundles | Craft CMS Documentation | 5.x](docs_5x__extend__asset-bundles.md) — `** https://craftcms.com/docs/5.x/extend/asset-bundles`
+- [Behaviors | Craft CMS Documentation | 5.x](docs_5x__extend__behaviors.md) — `** https://craftcms.com/docs/5.x/extend/behaviors`
+- [Changelogs and Updates | Craft CMS Documentation | 5.x](docs_5x__extend__changelogs-and-updates.md) — `** https://craftcms.com/docs/5.x/extend/changelogs-and-updates`
+- [Coding Guidelines | Craft CMS Documentation | 5.x](docs_5x__extend__coding-guidelines.md) — `** https://craftcms.com/docs/5.x/extend/coding-guidelines`
+- [Console Commands | Craft CMS Documentation | 5.x](docs_5x__extend__commands.md) — `** https://craftcms.com/docs/5.x/extend/commands`
+- [Conditions | Craft CMS Documentation | 5.x](docs_5x__extend__conditions.md) — `** https://craftcms.com/docs/5.x/extend/conditions`
+- [Controllers | Craft CMS Documentation | 5.x](docs_5x__extend__controllers.md) — `** https://craftcms.com/docs/5.x/extend/controllers`
+- [Control Panel Sections | Craft CMS Documentation | 5.x](docs_5x__extend__cp-section.md) — `** https://craftcms.com/docs/5.x/extend/cp-section`
+- [Element Actions | Craft CMS Documentation | 5.x](docs_5x__extend__element-actions.md) — `** https://craftcms.com/docs/5.x/extend/element-actions`
+- [Element Exporter Types | Craft CMS Documentation | 5.x](docs_5x__extend__element-exporter-types.md) — `** https://craftcms.com/docs/5.x/extend/element-exporter-types`
+- [Element Types | Craft CMS Documentation | 5.x](docs_5x__extend__element-types.md) — `** https://craftcms.com/docs/5.x/extend/element-types`
+- [Environmental Settings | Craft CMS Documentation | 5.x](docs_5x__extend__environmental-settings.md) — `** https://craftcms.com/docs/5.x/extend/environmental-settings`
+- [Events | Craft CMS Documentation | 5.x](docs_5x__extend__events.md) — `** https://craftcms.com/docs/5.x/extend/events`
+- [Extending Twig | Craft CMS Documentation | 5.x](docs_5x__extend__extending-twig.md) — `** https://craftcms.com/docs/5.x/extend/extending-twig`
+- [Field Types | Craft CMS Documentation | 5.x](docs_5x__extend__field-types.md) — `** https://craftcms.com/docs/5.x/extend/field-types`
+- [Filesystem Types | Craft CMS Documentation | 5.x](docs_5x__extend__filesystem-types.md) — `** https://craftcms.com/docs/5.x/extend/filesystem-types`
+- [Generator | Craft CMS Documentation | 5.x](docs_5x__extend__generator.md) — `** https://craftcms.com/docs/5.x/extend/generator`
+- [Extending GraphQL | Craft CMS Documentation | 5.x](docs_5x__extend__graphql.md) — `** https://craftcms.com/docs/5.x/extend/graphql`
+- [Migrations | Craft CMS Documentation | 5.x](docs_5x__extend__migrations.md) — `** https://craftcms.com/docs/5.x/extend/migrations`
+- [How to Build a Module | Craft CMS Documentation | 5.x](docs_5x__extend__module-guide.md) — `** https://craftcms.com/docs/5.x/extend/module-guide`
+- [Plugin Editions | Craft CMS Documentation | 5.x](docs_5x__extend__plugin-editions.md) — `** https://craftcms.com/docs/5.x/extend/plugin-editions`
+- [How to Build a Plugin | Craft CMS Documentation | 5.x](docs_5x__extend__plugin-guide.md) — `** https://craftcms.com/docs/5.x/extend/plugin-guide`
+- [Plugin Settings | Craft CMS Documentation | 5.x](docs_5x__extend__plugin-settings.md) — `** https://craftcms.com/docs/5.x/extend/plugin-settings`
+- [Publishing to the Plugin Store | Craft CMS Documentation | 5.x](docs_5x__extend__plugin-store.md) — `** https://craftcms.com/docs/5.x/extend/plugin-store`
+- [Supporting Project Config | Craft CMS Documentation | 5.x](docs_5x__extend__project-config.md) — `** https://craftcms.com/docs/5.x/extend/project-config`
+- [Queue Jobs | Craft CMS Documentation | 5.x](docs_5x__extend__queue-jobs.md) — `** https://craftcms.com/docs/5.x/extend/queue-jobs`
+- [Services | Craft CMS Documentation | 5.x](docs_5x__extend__services.md) — `** https://craftcms.com/docs/5.x/extend/services`
+- [Soft Deletes | Craft CMS Documentation | 5.x](docs_5x__extend__soft-deletes.md) — `** https://craftcms.com/docs/5.x/extend/soft-deletes`
+- [Template Hooks | Craft CMS Documentation | 5.x](docs_5x__extend__template-hooks.md) — `** https://craftcms.com/docs/5.x/extend/template-hooks`
+- [Template Roots | Craft CMS Documentation | 5.x](docs_5x__extend__template-roots.md) — `** https://craftcms.com/docs/5.x/extend/template-roots`
+- [Topics | Craft CMS Documentation | 5.x](docs_5x__extend__topics.md) — `** https://craftcms.com/docs/5.x/extend/topics`
+- [Updating Plugins for Craft 5 | Craft CMS Documentation | 5.x](docs_5x__extend__updating-plugins.md) — `** https://craftcms.com/docs/5.x/extend/updating-plugins`
+- [User Permissions | Craft CMS Documentation | 5.x](docs_5x__extend__user-permissions.md) — `** https://craftcms.com/docs/5.x/extend/user-permissions`
+- [Utilities | Craft CMS Documentation | 5.x](docs_5x__extend__utilities.md) — `** https://craftcms.com/docs/5.x/extend/utilities`
+- [Widget Types | Craft CMS Documentation | 5.x](docs_5x__extend__widget-types.md) — `** https://craftcms.com/docs/5.x/extend/widget-types`
+- [About Craft CMS | Craft CMS Documentation | 5.x](docs_5x__index.md) — `** https://craftcms.com/docs/5.x/`
+- [Installation | Craft CMS Documentation | 5.x](docs_5x__install.md) — `** https://craftcms.com/docs/5.x/install`
+- [Reference | Craft CMS Documentation | 5.x](docs_5x__reference.md) — `** https://craftcms.com/docs/5.x/reference/`
+- [Console Commands | Craft CMS Documentation | 5.x](docs_5x__reference__cli.md) — `** https://craftcms.com/docs/5.x/reference/cli`
+- [Configuration Reference | Craft CMS Documentation | 5.x](docs_5x__reference__config.md) — `** https://craftcms.com/docs/5.x/reference/config/`
+- [Application Configuration | Craft CMS Documentation | 5.x](docs_5x__reference__config__app.md) — `** https://craftcms.com/docs/5.x/reference/config/app`
+- [Bootstrap Variables | Craft CMS Documentation | 5.x](docs_5x__reference__config__bootstrap.md) — `** https://craftcms.com/docs/5.x/reference/config/bootstrap`
+- [Database Connection Settings | Craft CMS Documentation | 5.x](docs_5x__reference__config__db.md) — `** https://craftcms.com/docs/5.x/reference/config/db`
+- [General Settings | Craft CMS Documentation | 5.x](docs_5x__reference__config__general.md) — `** https://craftcms.com/docs/5.x/reference/config/general`
+- [Controller Actions | Craft CMS Documentation | 5.x](docs_5x__reference__controller-actions.md) — `** https://craftcms.com/docs/5.x/reference/controller-actions`
+- [Element Types | Craft CMS Documentation | 5.x](docs_5x__reference__element-types.md) — `** https://craftcms.com/docs/5.x/reference/element-types/`
+- [Addresses | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__addresses.md) — `** https://craftcms.com/docs/5.x/reference/element-types/addresses`
+- [Assets | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__assets.md) — `** https://craftcms.com/docs/5.x/reference/element-types/assets`
+- [Categories | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__categories.md) — `** https://craftcms.com/docs/5.x/reference/element-types/categories`
+- [Entries | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__entries.md) — `** https://craftcms.com/docs/5.x/reference/element-types/entries`
+- [Globals | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__globals.md) — `** https://craftcms.com/docs/5.x/reference/element-types/globals`
+- [Tags | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__tags.md) — `** https://craftcms.com/docs/5.x/reference/element-types/tags`
+- [Users | Craft CMS Documentation | 5.x](docs_5x__reference__element-types__users.md) — `** https://craftcms.com/docs/5.x/reference/element-types/users`
+- [Custom Field Types | Craft CMS Documentation | 5.x](docs_5x__reference__field-types.md) — `** https://craftcms.com/docs/5.x/reference/field-types/`
+- [Addresses Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__addresses.md) — `** https://craftcms.com/docs/5.x/reference/field-types/addresses`
+- [Assets Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__assets.md) — `** https://craftcms.com/docs/5.x/reference/field-types/assets`
+- [Categories Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__categories.md) — `** https://craftcms.com/docs/5.x/reference/field-types/categories`
+- [Checkboxes Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__checkboxes.md) — `** https://craftcms.com/docs/5.x/reference/field-types/checkboxes`
+- [Color Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__color.md) — `** https://craftcms.com/docs/5.x/reference/field-types/color`
+- [Content Block Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__content-block.md) — `** https://craftcms.com/docs/5.x/reference/field-types/content-block`
+- [Country Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__country.md) — `** https://craftcms.com/docs/5.x/reference/field-types/country`
+- [Date Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__date-time.md) — `** https://craftcms.com/docs/5.x/reference/field-types/date-time`
+- [Dropdown Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__dropdown.md) — `** https://craftcms.com/docs/5.x/reference/field-types/dropdown`
+- [Email Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__email.md) — `** https://craftcms.com/docs/5.x/reference/field-types/email`
+- [Entries Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__entries.md) — `** https://craftcms.com/docs/5.x/reference/field-types/entries`
+- [Icon Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__icon.md) — `** https://craftcms.com/docs/5.x/reference/field-types/icon`
+- [Lightswitch Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__lightswitch.md) — `** https://craftcms.com/docs/5.x/reference/field-types/lightswitch`
+- [Link Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__link.md) — `** https://craftcms.com/docs/5.x/reference/field-types/link`
+- [Matrix Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__matrix.md) — `** https://craftcms.com/docs/5.x/reference/field-types/matrix`
+- [Money Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__money.md) — `** https://craftcms.com/docs/5.x/reference/field-types/money`
+- [Plain Text Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__plain-text.md) — `** https://craftcms.com/docs/5.x/reference/field-types/plain-text`
+- [Range Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__range.md) — `** https://craftcms.com/docs/5.x/reference/field-types/range`
+- [Table Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__table.md) — `** https://craftcms.com/docs/5.x/reference/field-types/table`
+- [Tags Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__tags.md) — `** https://craftcms.com/docs/5.x/reference/field-types/tags`
+- [Users Fields | Craft CMS Documentation | 5.x](docs_5x__reference__field-types__users.md) — `** https://craftcms.com/docs/5.x/reference/field-types/users`
+- [Twig Reference | Craft CMS Documentation | 5.x](docs_5x__reference__twig.md) — `** https://craftcms.com/docs/5.x/reference/twig/`
+- [Filters | Craft CMS Documentation | 5.x](docs_5x__reference__twig__filters.md) — `** https://craftcms.com/docs/5.x/reference/twig/filters`
+- [Functions | Craft CMS Documentation | 5.x](docs_5x__reference__twig__functions.md) — `** https://craftcms.com/docs/5.x/reference/twig/functions`
+- [Global Variables | Craft CMS Documentation | 5.x](docs_5x__reference__twig__global-variables.md) — `** https://craftcms.com/docs/5.x/reference/twig/global-variables`
+- [Tags | Craft CMS Documentation | 5.x](docs_5x__reference__twig__tags.md) — `** https://craftcms.com/docs/5.x/reference/twig/tags`
+- [Tests | Craft CMS Documentation | 5.x](docs_5x__reference__twig__tests.md) — `** https://craftcms.com/docs/5.x/reference/twig/tests`
+- [Requirements | Craft CMS Documentation | 5.x](docs_5x__requirements.md) — `** https://craftcms.com/docs/5.x/requirements`
+- [System | Craft CMS Documentation | 5.x](docs_5x__system.md) — `** https://craftcms.com/docs/5.x/system/`
+- [Command-Line Interface | Craft CMS Documentation | 5.x](docs_5x__system__cli.md) — `** https://craftcms.com/docs/5.x/system/cli`
+- [Control Panel | Craft CMS Documentation | 5.x](docs_5x__system__control-panel.md) — `** https://craftcms.com/docs/5.x/system/control-panel`
+- [Directory Structure | Craft CMS Documentation | 5.x](docs_5x__system__directory-structure.md) — `** https://craftcms.com/docs/5.x/system/directory-structure`
+- [Drafts & Revisions | Craft CMS Documentation | 5.x](docs_5x__system__drafts-revisions.md) — `** https://craftcms.com/docs/5.x/system/drafts-revisions`
+- [Elements | Craft CMS Documentation | 5.x](docs_5x__system__elements.md) — `** https://craftcms.com/docs/5.x/system/elements`
+- [Custom Fields | Craft CMS Documentation | 5.x](docs_5x__system__fields.md) — `** https://craftcms.com/docs/5.x/system/fields`
+- [Garbage Collection | Craft CMS Documentation | 5.x](docs_5x__system__gc.md) — `** https://craftcms.com/docs/5.x/system/gc`
+- [Logging | Craft CMS Documentation | 5.x](docs_5x__system__logging.md) — `** https://craftcms.com/docs/5.x/system/logging`
+- [Email | Craft CMS Documentation | 5.x](docs_5x__system__mail.md) — `** https://craftcms.com/docs/5.x/system/mail`
+- [Object Templates | Craft CMS Documentation | 5.x](docs_5x__system__object-templates.md) — `** https://craftcms.com/docs/5.x/system/object-templates`
+- [Plugins | Craft CMS Documentation | 5.x](docs_5x__system__plugins.md) — `** https://craftcms.com/docs/5.x/system/plugins`
+- [Project Config | Craft CMS Documentation | 5.x](docs_5x__system__project-config.md) — `** https://craftcms.com/docs/5.x/system/project-config`
+- [Queue | Craft CMS Documentation | 5.x](docs_5x__system__queue.md) — `** https://craftcms.com/docs/5.x/system/queue`
+- [Reference Tags | Craft CMS Documentation | 5.x](docs_5x__system__reference-tags.md) — `** https://craftcms.com/docs/5.x/system/reference-tags`
+- [Relations | Craft CMS Documentation | 5.x](docs_5x__system__relations.md) — `** https://craftcms.com/docs/5.x/system/relations`
+- [Routing | Craft CMS Documentation | 5.x](docs_5x__system__routing.md) — `** https://craftcms.com/docs/5.x/system/routing`
+- [Searching | Craft CMS Documentation | 5.x](docs_5x__system__searching.md) — `** https://craftcms.com/docs/5.x/system/searching`
+- [Sites & Localization | Craft CMS Documentation | 5.x](docs_5x__system__sites.md) — `** https://craftcms.com/docs/5.x/system/sites`
+- [User Management | Craft CMS Documentation | 5.x](docs_5x__system__user-management.md) — `** https://craftcms.com/docs/5.x/system/user-management`
+- [Running Updates | Craft CMS Documentation | 5.x](docs_5x__update.md) — `** https://craftcms.com/docs/5.x/update`
+- [Upgrading from Craft 4 | Craft CMS Documentation | 5.x](docs_5x__upgrade.md) — `** https://craftcms.com/docs/5.x/upgrade`
+
+## 📂 `docs_root` (1)
+
+- [Home | Craft Documentation](docs_root__craftcms_com_docs.md) — `** https://craftcms.com/docs/`
+
+## 📂 `kb` (80)
+
+- [Guides: Craft 101 | Craft CMS](kb__101.md) — `** https://craftcms.com/knowledge-base/101`
+- [How to Access the Control Panel from an Alternate Domain | Craft CMS](kb__access-control-panel-from-alternate-domain.md) — `** https://craftcms.com/knowledge-base/access-control-panel-from-alternate-domain`
+- [Bulk-Resaving Elements | Craft CMS](kb__bulk-resaving-elements.md) — `** https://craftcms.com/knowledge-base/bulk-resaving-elements`
+- [Choosing a Cache Duration for Assets | Craft CMS](kb__choosing-a-cache-duration-for-assets.md) — `** https://craftcms.com/knowledge-base/choosing-a-cache-duration-for-assets`
+- [Running Multiple Craft Sites with Craft Commerce | Craft CMS](kb__commerce-multiple-sites.md) — `** https://craftcms.com/knowledge-base/commerce-multiple-sites`
+- [Configuring Craft for Load-Balanced Environments | Craft CMS](kb__configuring-load-balanced-environments.md) — `** https://craftcms.com/knowledge-base/configuring-load-balanced-environments`
+- [Connecting to Multiple Databases | Craft CMS](kb__connecting-to-multiple-databases.md) — `** https://craftcms.com/knowledge-base/connecting-to-multiple-databases`
+- [Control Panel Translations | Craft CMS](kb__control-panel-translations.md) — `** https://craftcms.com/knowledge-base/control-panel-translations`
+- [Craft 4 FAQ | Craft CMS](kb__craft-4-faq.md) — `** https://craftcms.com/knowledge-base/craft-4-faq`
+- [Craft CMS and Log4j | Craft CMS](kb__craft-cms-and-log4j.md) — `** https://craftcms.com/knowledge-base/craft-cms-and-log4j`
+- [Craft CMS, argc, and argv | Craft CMS](kb__craft-cms-argc-and-argv.md) — `** https://craftcms.com/knowledge-base/craft-cms-argc-and-argv`
+- [Craft CMS and CVE-2025-32432 | Craft CMS](kb__craft-cms-cve-2025-32432.md) — `** https://craftcms.com/knowledge-base/craft-cms-cve-2025-32432`
+- [Using Organizations in Craft Console | Craft CMS](kb__craft-console-organizations.md) — `** https://craftcms.com/knowledge-base/craft-console-organizations`
+- [Craft Database Options and Best Practices | Craft CMS](kb__craft-database-options-and-best-practices.md) — `** https://craftcms.com/knowledge-base/craft-database-options-and-best-practices`
+- [Running Craft on Laravel Homestead | Craft CMS](kb__craft-laravel-homestead.md) — `** https://craftcms.com/knowledge-base/craft-laravel-homestead`
+- [Determining Which Folders in craft/storage to Add to… | Craft CMS](kb__craft-storage-gitignore.md) — `** https://craftcms.com/knowledge-base/craft-storage-gitignore`
+- [Creating SEO-Friendly Pagination Links | Craft CMS](kb__creating-seo-friendly-pagination-links.md) — `** https://craftcms.com/knowledge-base/creating-seo-friendly-pagination-links`
+- [Adding a Custom Nitro Container | Craft CMS](kb__custom-nitro-container.md) — `** https://craftcms.com/knowledge-base/custom-nitro-container`
+- [Database Character Set and Collation | Craft CMS](kb__database-character-set-and-collation.md) — `** https://craftcms.com/knowledge-base/database-character-set-and-collation`
+- [Deployment Best Practices | Craft CMS](kb__deployment-best-practices.md) — `** https://craftcms.com/knowledge-base/deployment-best-practices`
+- [Developer Plugin Store FAQ | Craft CMS](kb__developer-plugin-store-faq.md) — `** https://craftcms.com/knowledge-base/developer-plugin-store-faq`
+- [Getting Help | Craft CMS](kb__developer-support.md) — `** https://craftcms.com/knowledge-base/developer-support`
+- [Guides: Development | Craft CMS](kb__development.md) — `** https://craftcms.com/knowledge-base/development`
+- [Guides: DevOps | Craft CMS](kb__devops.md) — `** https://craftcms.com/knowledge-base/devops`
+- [Displaying a Navigation for a Structure Section | Craft CMS](kb__displaying-a-navigation-for-a-structure-section.md) — `** https://craftcms.com/knowledge-base/displaying-a-navigation-for-a-structure-section`
+- [Displaying A Category’s Related Entries | Craft CMS](kb__displaying-entries-related-to-a-category.md) — `** https://craftcms.com/knowledge-base/displaying-entries-related-to-a-category`
+- [Local Development with Docker | Craft CMS](kb__docker-for-local-development.md) — `** https://craftcms.com/knowledge-base/docker-for-local-development`
+- [Production-Ready Docker Images for Craft | Craft CMS](kb__docker-in-production.md) — `** https://craftcms.com/knowledge-base/docker-in-production`
+- [Downloading Previous Craft Versions | Craft CMS](kb__downloading-previous-craft-versions.md) — `** https://craftcms.com/knowledge-base/downloading-previous-craft-versions`
+- [Duplicating a Craft Site | Craft CMS](kb__duplicating-a-craft-site.md) — `** https://craftcms.com/knowledge-base/duplicating-a-craft-site`
+- [Editing Entries in Craft 3.7 | Craft CMS](kb__editing-entries.md) — `** https://craftcms.com/knowledge-base/editing-entries`
+- [Enabling CSRF Protection | Craft CMS](kb__enabling-csrf-protection.md) — `** https://craftcms.com/knowledge-base/enabling-csrf-protection`
+- [Enabling Fuzzy Search | Craft CMS](kb__enabling-fuzzy-search.md) — `** https://craftcms.com/knowledge-base/enabling-fuzzy-search`
+- [Enforcing SSL for Control Panel Requests | Craft CMS](kb__enforcing-ssl-for-cp-requests.md) — `** https://craftcms.com/knowledge-base/enforcing-ssl-for-cp-requests`
+- [Entry Form | Craft CMS](kb__entry-form.md) — `** https://craftcms.com/knowledge-base/entry-form`
+- [Guides: Extending Craft | Craft CMS](kb__extending-craft.md) — `** https://craftcms.com/knowledge-base/extending-craft`
+- [Finding your Craft License Keys | Craft CMS](kb__finding-your-craft-license-keys.md) — `** https://craftcms.com/knowledge-base/finding-your-craft-license-keys`
+- [Front-End User Accounts | Craft CMS](kb__front-end-user-accounts.md) — `** https://craftcms.com/knowledge-base/front-end-user-accounts`
+- [Hosting Craft 101 | Craft CMS](kb__hosting-craft-101.md) — `** https://craftcms.com/knowledge-base/hosting-craft-101`
+- [How Craft License Enforcement Works | Craft CMS](kb__how-craft-license-enforcement-works.md) — `** https://craftcms.com/knowledge-base/how-craft-license-enforcement-works`
+- [How Craft Licenses and Renewals Work | Craft CMS](kb__how-craft-licenses-and-renewals-work.md) — `** https://craftcms.com/knowledge-base/how-craft-licenses-and-renewals-work`
+- [How In-App Purchasing is Secure | Craft CMS](kb__how-in-app-purchasing-is-secure.md) — `** https://craftcms.com/knowledge-base/how-in-app-purchasing-is-secure`
+- [How to fix a “mismatched” Craft license | Craft CMS](kb__how-to-fix-a-mismatched-craft-license.md) — `** https://craftcms.com/knowledge-base/how-to-fix-a-mismatched-craft-license`
+- [Knowledge Base Home | Craft CMS](kb__index.md) — `** https://craftcms.com/knowledge-base`
+- [Guides: Licensing & Editions | Craft CMS](kb__licensing-editions.md) — `** https://craftcms.com/knowledge-base/licensing-editions`
+- [Listing Products on Sale | Craft CMS](kb__listing-products-on-sale.md) — `** https://craftcms.com/knowledge-base/listing-products-on-sale`
+- [Using Live Preview with an Alternate Control Panel Domain | Craft CMS](kb__live-preview-alternate-control-panel-domain.md) — `** https://craftcms.com/knowledge-base/live-preview-alternate-control-panel-domain`
+- [Guides: Marketing & SEO | Craft CMS](kb__marketing.md) — `** https://craftcms.com/knowledge-base/marketing`
+- [Migrating from Craft Nitro to DDEV | Craft CMS](kb__migrating-from-craft-nitro-to-ddev.md) — `** https://craftcms.com/knowledge-base/migrating-from-craft-nitro-to-ddev`
+- [More Information than You Require About Craft License Keys | Craft CMS](kb__more-information-than-you-require-about-craft-license-keys.md) — `** https://craftcms.com/knowledge-base/more-information-than-you-require-about-craft-license-keys`
+- [Guides: Performance | Craft CMS](kb__performance.md) — `** https://craftcms.com/knowledge-base/performance`
+- [Populating MySQL and MariaDB Timezone Tables | Craft CMS](kb__populating-mysql-mariadb-timezone-tables.md) — `** https://craftcms.com/knowledge-base/populating-mysql-mariadb-timezone-tables`
+- [Preparing for Craft 4 | Craft CMS](kb__preparing-for-craft-4.md) — `** https://craftcms.com/knowledge-base/preparing-for-craft-4`
+- [Guides: Privacy & GDPR | Craft CMS](kb__privacy-gdpr.md) — `** https://craftcms.com/knowledge-base/privacy-gdpr`
+- [Removing “index.php” from URLs | Craft CMS](kb__removing-index-php-from-urls.md) — `** https://craftcms.com/knowledge-base/removing-index-php-from-urls`
+- [Resaving Elements | Craft CMS](kb__resaving-elements.md) — `** https://craftcms.com/knowledge-base/resaving-elements`
+- [Resolving PHP Requirement Conflicts | Craft CMS](kb__resolving-php-requirement-conflicts.md) — `** https://craftcms.com/knowledge-base/resolving-php-requirement-conflicts`
+- [RSS and Atom Feeds | Craft CMS](kb__rss-and-atom-feeds.md) — `** https://craftcms.com/knowledge-base/rss-and-atom-feeds`
+- [Running Multiple Craft Installations from the Same Domain | Craft CMS](kb__running-multiple-craft-installations-from-the-same-domain.md) — `** https://craftcms.com/knowledge-base/running-multiple-craft-installations-from-the-same-domain`
+- [Search Form | Craft CMS](kb__search-form.md) — `** https://craftcms.com/knowledge-base/search-form`
+- [Security FAQ | Craft CMS](kb__security-faq.md) — `** https://craftcms.com/knowledge-base/security-faq`
+- [Guides: Security | Craft CMS](kb__security.md) — `** https://craftcms.com/knowledge-base/security`
+- [Sendmail and DKIM | Craft CMS](kb__sendmail-and-dkim.md) — `** https://craftcms.com/knowledge-base/sendmail-and-dkim`
+- [Setting up a Craft Project from Scratch | Craft CMS](kb__setting-up-a-craft-project-from-scratch.md) — `** https://craftcms.com/knowledge-base/setting-up-a-craft-project-from-scratch`
+- [Sharing a craft/app Folder Across Multiple Sites | Craft CMS](kb__sharing-a-craft-app-folder-across-multiple-sites.md) — `** https://craftcms.com/knowledge-base/sharing-a-craft-app-folder-across-multiple-sites`
+- [Supported Versions | Craft CMS](kb__supported-versions.md) — `** https://craftcms.com/knowledge-base/supported-versions`
+- [Troubleshooting Composer Errors | Craft CMS](kb__troubleshooting-composer-errors.md) — `** https://craftcms.com/knowledge-base/troubleshooting-composer-errors`
+- [Troubleshooting a Failed Craft Installation | Craft CMS](kb__troubleshooting-failed-installation.md) — `** https://craftcms.com/knowledge-base/troubleshooting-failed-installation`
+- [Guides: Troubleshooting | Craft CMS](kb__troubleshooting.md) — `** https://craftcms.com/knowledge-base/troubleshooting`
+- [Updating Craft 3.7.39 to a Newer Version | Craft CMS](kb__updating-from-craft-3-7-39.md) — `** https://craftcms.com/knowledge-base/updating-from-craft-3-7-39`
+- [Updating Plugins for Craft 2.5 | Craft CMS](kb__updating-plugins-for-craft-2-5.md) — `** https://craftcms.com/knowledge-base/updating-plugins-for-craft-2-5`
+- [Updating Plugins for Craft 3.1 | Craft CMS](kb__updating-plugins-for-craft-3-1.md) — `** https://craftcms.com/knowledge-base/updating-plugins-for-craft-3-1`
+- [Upgrading to Craft 3.5 | Craft CMS](kb__upgrading-to-craft-3-5.md) — `** https://craftcms.com/knowledge-base/upgrading-to-craft-3-5`
+- [Upgrading to Craft 3.6 | Craft CMS](kb__upgrading-to-craft-3-6.md) — `** https://craftcms.com/knowledge-base/upgrading-to-craft-3-6`
+- [Upgrading to Craft 3.7 | Craft CMS](kb__upgrading-to-craft-3-7.md) — `** https://craftcms.com/knowledge-base/upgrading-to-craft-3-7`
+- [Upgrading to Craft Pro | Craft CMS](kb__upgrading-to-craft-pro.md) — `** https://craftcms.com/knowledge-base/upgrading-to-craft-pro`
+- [Using Local Volumes for Development | Craft CMS](kb__using-local-volumes-for-development.md) — `** https://craftcms.com/knowledge-base/using-local-volumes-for-development`
+- [Using the Starter Project | Craft CMS](kb__using-the-starter-project.md) — `** https://craftcms.com/knowledge-base/using-the-starter-project`
+- [What Dev Mode Does | Craft CMS](kb__what-dev-mode-does.md) — `** https://craftcms.com/knowledge-base/what-dev-mode-does`
+- [What is Craft Console? | Craft CMS](kb__what-is-craft-console.md) — `** https://craftcms.com/knowledge-base/what-is-craft-console`
+
+## 📂 `kb_cat` (7)
+
+- [Guides: Commerce | Craft CMS](kb_cat__craftcms_com_knowledge-base_commerce.md) — `** https://craftcms.com/knowledge-base/commerce`
+- [Guides: Development | Craft CMS](kb_cat__craftcms_com_knowledge-base_development.md) — `** https://craftcms.com/knowledge-base/development`
+- [Guides: DevOps | Craft CMS](kb_cat__craftcms_com_knowledge-base_devops.md) — `** https://craftcms.com/knowledge-base/devops`
+- [Guides: Localization | Craft CMS](kb_cat__craftcms_com_knowledge-base_localization.md) — `** https://craftcms.com/knowledge-base/localization`
+- [Guides: Marketing & SEO | Craft CMS](kb_cat__craftcms_com_knowledge-base_marketing.md) — `** https://craftcms.com/knowledge-base/marketing`
+- [Guides: Performance | Craft CMS](kb_cat__craftcms_com_knowledge-base_performance.md) — `** https://craftcms.com/knowledge-base/performance`
+- [Guides: Security | Craft CMS](kb_cat__craftcms_com_knowledge-base_security.md) — `** https://craftcms.com/knowledge-base/security`
+
+## 📂 `site` (3)
+
+- [Accessibility | Craft CMS](site__craftcms_com_accessibility.md) — `** https://craftcms.com/accessibility`
+- [Glossary | Craft CMS](site__craftcms_com_glossary.md) — `** https://craftcms.com/glossary`
+- [Starters | Craft CMS](site__craftcms_com_starters.md) — `** https://craftcms.com/starters`

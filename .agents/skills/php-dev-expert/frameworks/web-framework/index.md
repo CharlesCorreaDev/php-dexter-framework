@@ -1,0 +1,119 @@
+# WebFramework Documentation - WebFramework
+
+> **Fonte / Source:** https://web-framework.com/
+
+---
+
+# WebFramework Documentation
+
+Welcome to the WebFramework documentation. WebFramework is a lightweight, secure-by-default PHP microframework built on top of the Slim Framework. It provides a cohesive set of services around database management, ORM, caching, authentication, middleware, templating, translations, instrumentation, and more – giving you Laravel-like features without the bloat.
+
+Perfect for developers who love Slim's simplicity but need full-featured components for building modern PHP applications and REST APIs.
+
+## Installation
+
+### Skeleton Application
+
+WebFramework is installed via Composer. You can install a skeleton application to get you started:
+
+| Bash | |
+| --- | --- |
+| ``` 1 ``` | ``` composer create-project avoutic/web-framework-skeleton ``` |
+
+### Existing project
+
+You can also add WebFramework to an existing project by installing it via Composer:
+
+| Bash | |
+| --- | --- |
+| ``` 1 ``` | ``` composer require avoutic/web-framework ``` |
+
+You then probably want to add something like the following to your `composer.json` file, to make sure the core files are installed:
+
+| JSON | |
+| --- | --- |
+| ```  1  2  3  4  5  6  7  8  9 10 ``` | ```     "scripts": {         "post-install-cmd": [             "php -r \"copy('vendor/avoutic/web-framework/public/index.php', 'public/index.php');\"",             "php -r \"copy('vendor/avoutic/web-framework/scripts/framework.php', 'framework');\""         ],         "post-update-cmd": [             "php -r \"copy('vendor/avoutic/web-framework/public/index.php', 'public/index.php');\"",             "php -r \"copy('vendor/avoutic/web-framework/scripts/framework.php', 'framework');\""         ]     }, ``` |
+
+## Directory Structure
+
+Applications using WebFramework typically have the following directory structure:
+
+- **actions**: Contains files for each endpoint and related API functions.
+- **config**: Contains the configuration files for the application.
+- **definitions**: Contains the PHP-DI definitions for the application.
+- **public**: The location for the core `index.php` and external static files like images, CSS, and JavaScript.
+- **migrations**: Contains the database migrations for the application.
+- **scripts**: Contains scripts for tasks, migrations, and other automation tasks.
+- **src**: Contains the core application/business logic and model files.
+- **templates**: Contains the templates used by the actions.
+- **tests**: Contains the tests for the application.
+- **translations**: Contains the translation files for the application.
+
+You are free to organize your project in any way you like, but the above structure is recommended. You will need to configure the PSR-4 autoloading in your `composer.json` file to match the directory structure. The skeleton uses the following configuration:
+
+| JSON | |
+| --- | --- |
+| ```  1  2  3  4  5  6  7  8  9 10 11 12 ``` | ```     "autoload": {         "psr-4": {             "App\\": "src/",             "App\\Actions\\": "actions/",             "App\\Routes\\": "routes/"         }     },     "autoload-dev": {         "psr-4": {             "WebFramework\\PHPStan\\": "vendor/avoutic/web-framework/phpstan/"         }     }, ``` |
+
+## Documentation Contents
+
+This documentation is organized into several sections, each focusing on a specific aspect of WebFramework. Click on the links below to explore each section in detail:
+
+### Getting Started
+
+- **[Installation Guide](https://github.com/avoutic/web-framework/blob/main/INSTALL.md)**: Instructions for installing WebFramework and setting up a base project.
+- **[Migration Guide](https://github.com/avoutic/web-framework/blob/main/MIGRATE.md)**: Guidance on migrating between different versions of WebFramework.
+
+### Core Concepts
+
+- **[Configuration Management](configuration.md)**: How to manage and access configuration settings in your application.
+- **[Dependency Injection](dependency-injection.md)**: How to use and configure dependency injection in WebFramework.
+- **[Entities and Repositories](entities-and-repositories.md)**: Understanding the Entity and Repository pattern in WebFramework.
+
+### HTTP & Routing
+
+- **[Routing](routing.md)**: How to set up and manage routes in your WebFramework application.
+- **[Middleware Management](middlewares.md)**: How to define and use middleware to process requests and responses.
+- **[Emitting Responses](emitting-responses.md)**: How to generate responses in actions using the ResponseEmitter or via exceptions.
+- **[Input Validation](input-validation.md)**: How to add input validation to your actions using the InputValidationService.
+- **[Templating](templating.md)**: How to use the Latte templating engine to render templates.
+
+### Authentication & Security
+
+- **[User Management Flows](user-management-flows.md)**: Understanding registration, login, password reset, and email change flows.
+
+### Data & Storage
+
+- **[Database Usage](database.md)**: How to interact with the database, including executing queries and managing transactions.
+- **[Database Migrations](database-migrations.md)**: How to manage database schema changes using the DatabaseManager.
+- **[Caching](caching.md)**: How to use caching to store and retrieve data efficiently.
+
+### Background Processing
+
+- **[Queueing](queueing.md)**: How to queue Jobs and handle them asynchronously.
+- **[Tasks](tasks.md)**: How to create and run tasks from the command line.
+
+### Observability
+
+- **[Instrumentation](instrumentation.md)**: How to instrument your application for monitoring and performance tracking.
+- **[Logging](logging.md)**: How to configure log channels and route log output.
+- **[Sanity Checks](sanity-checks.md)**: How to use the sanity check system to ensure your application environment is correct.
+
+### Utilities
+
+- **[Translations](translations.md)**: How to deploy and configure multi-lingual support in your application.
+- **[Event Handling](events.md)**: How to trigger and handle Events with EventListeners.
+- **[Modules](modules.md)**: Available installable modules that extend WebFramework functionality.
+- **[Mailing](mailing.md)**: How to send emails synchronously or asynchronously using the mail system.
+
+### Development Guide
+
+- **[Creating New Entities](new-entity.md)**: Step-by-step guide to creating new entities and repositories.
+
+## Getting Started
+
+To get started with WebFramework, follow the [Installation Guide](https://github.com/avoutic/web-framework/blob/main/INSTALL.md) to set up your project. Once installed, explore the documentation to learn how to leverage the full capabilities of WebFramework in your application.
+
+For any questions or further assistance, please refer to the documentation or reach out to the WebFramework community.
+
+Happy coding!

@@ -1,0 +1,248 @@
+{
+  "root_url": "** https://www.maianmedia.com/accounts/view/dashboard",
+  "scope_prefix": "** https://www.maianmedia.com/accounts/view/dashboard",
+  "total_pages": 40,
+  "generated_at": "2026-10-28T18:55:20Z",
+  "pages": [
+    {
+      "url": "** https://www.maianmedia.com/accounts/view/dashboard",
+      "file": "accounts__view__dashboard.md",
+      "title": "Login | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/accounts/view/reset",
+      "file": "accounts__view__reset.md",
+      "title": "Password Reset | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/affiliates",
+      "file": "affiliates.md",
+      "title": "Affiliate System | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/copyright",
+      "file": "copyright.md",
+      "title": "Copyright | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/faq",
+      "file": "faq.md",
+      "title": "Frequently Asked Questions | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/free-scripts",
+      "file": "free-scripts.md",
+      "title": "Free PHP Scripts | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/alpha-vps",
+      "file": "go__alpha-vps.md",
+      "title": "European Cloud Hosting Â· VPS, Dedicated, GPU | AlphaVPS",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/bluesky",
+      "file": "go__bluesky.md",
+      "title": "@maianmedia.bsky.social on Bluesky",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/cloud-cone",
+      "file": "go__cloud-cone.md",
+      "title": "Login — CLOUDCONE",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/ethernet-servers",
+      "file": "go__ethernet-servers.md",
+      "title": "Reliable UK Web Hosting Services Provider - Ethernet Servers Ltd",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/greencloud-vps",
+      "file": "go__greencloud-vps.md",
+      "title": "GreenCloud - Affordable KVM and Windows VPS",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/hostodo",
+      "file": "go__hostodo.md",
+      "title": "/login",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/instagram",
+      "file": "go__instagram.md",
+      "title": "Instagram",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/linkedin",
+      "file": "go__linkedin.md",
+      "title": "Maian Media | LinkedIn",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/mastodon",
+      "file": "go__mastodon.md",
+      "title": "MaianMedia (@maianmedia@mastodonapp.uk) - Mastodon App UK",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/pinterest",
+      "file": "go__pinterest.md",
+      "title": "Maian Media (maianmedia) — Perfil | Pinterest",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/reprise-hosting",
+      "file": "go__reprise-hosting.md",
+      "title": "Cheap Dedicated Servers and VPS Hosting with cPanel | REPRISE",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/ssd-nodes",
+      "file": "go__ssd-nodes.md",
+      "title": "SSD Nodes: Affordable SSD VPS Hosting | Linux VPS from $5.5/month!",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/virtono",
+      "file": "go__virtono.md",
+      "title": "Reliable and affordable cloud hosting services - Virtono.com",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/go/wdg-solutions",
+      "file": "go__wdg-solutions.md",
+      "title": "WDG Solutions | Professional PHP Applications",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/hosting",
+      "file": "hosting.md",
+      "title": "404 Page Not Found",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/",
+      "file": "index.md",
+      "title": "Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/installation-service",
+      "file": "installation-service.md",
+      "title": "Installation Service | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news",
+      "file": "latest-news.md",
+      "title": "Latest News | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-affiliate-v21-released",
+      "file": "latest-news__maian-affiliate-v21-released.md",
+      "title": "News > Maian Affiliate v2.1 Released | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-greetings-v41-released",
+      "file": "latest-news__maian-greetings-v41-released.md",
+      "title": "News > Maian Greetings v4.1 Released | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-media-is-evolving",
+      "file": "latest-news__maian-media-is-evolving.md",
+      "title": "News > Maian Media is Evolving | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-music-v41-released",
+      "file": "latest-news__maian-music-v41-released.md",
+      "title": "News > Maian Music v4.1 Released | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-pal-v21-released",
+      "file": "latest-news__maian-pal-v21-released.md",
+      "title": "News > Maian Pal v2.1 Released | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/latest-news/maian-stripe-v21-released",
+      "file": "latest-news__maian-stripe-v21-released.md",
+      "title": "News > Maian Stripe v2.1 Released | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/newsletter",
+      "file": "newsletter.md",
+      "title": "Maian Media Newsletter",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/privacy-policy",
+      "file": "privacy-policy.md",
+      "title": "Privacy Policy | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/refund-policy",
+      "file": "refund-policy.md",
+      "title": "Refund Policy | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/resellers",
+      "file": "resellers.md",
+      "title": "Resellers | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/rss",
+      "file": "rss.md",
+      "title": "Maian Media - News and Updates",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/sub-domain-licences",
+      "file": "sub-domain-licences.md",
+      "title": "Help > How To Use Domain Licence on Sub Domains | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/support",
+      "file": "support.md",
+      "title": "Help & Support | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/testimonials",
+      "file": "testimonials.md",
+      "title": "Testimonials | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/upgrades",
+      "file": "upgrades.md",
+      "title": "Upgrades | Maian Media",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.maianmedia.com/web-hosting",
+      "file": "web-hosting.md",
+      "title": "Web Hosting | Maian Media",
+      "depth": 1
+    }
+  ]
+}

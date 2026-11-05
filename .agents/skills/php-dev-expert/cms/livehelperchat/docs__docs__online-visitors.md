@@ -1,0 +1,107 @@
+# Online visitors tutorial | Live Helper chat
+
+> **Fonte / Source:** https://doc.livehelperchat.com/docs/online-visitors
+
+---
+
+On this page
+
+## My operators can't see online visitors. What am I missing?[​](#my-operators-cant-see-online-visitors-what-am-i-missing "Direct link to My operators can't see online visitors. What am I missing?")
+
+By default, if a user does not have "All departments" assigned in the user departments assignment management window, they won't see any online visitors. Here's a basic guide to what you should do:
+
+- If a user should see online visitors from all departments (with and without a department assigned), they should be assigned "All departments."
+- If an operator should only see users from specific departments, select those departments for the operator.
+- Alternatively, you can assign the "lhchat" => "sees\_all\_online\_visitors" permission to a user. This will override the assigned departments and show all online visitors.
+
+## My users lose their chat session when navigating the site, and duplicate online user records appear.[​](#my-users-lose-their-chat-session-when-navigating-the-site-and-duplicate-online-user-records-appear "Direct link to My users lose their chat session when navigating the site, and duplicate online user records appear.")
+
+There are a few common misconfigurations that can cause this:
+
+- Your site is switching between HTTP and HTTPS mode, but you have enabled HTML5 storage. HTML5 storage is separate for HTTP and HTTPS sites.
+- You have entered the site domain in the back office, but the embedded code on your site uses a different domain.
+- You have enabled "Live Helper Chat should use SSL," but the site where you have embedded the widget does not use HTTPS.
+  ![](https://livehelperchat.com/var/media/images/cookiessl.png)
+- In the embed code generation window, you have entered the domain where Live Helper Chat is installed, but not the domain of the site where it is embedded. The domain must be the site domain where Live Helper Chat is embedded.
+
+These are the most common issues. The more flexibility I provide, the more potential errors users can make. Change these values carefully if you understand the implications!
+
+## How do I send a manual message to an online visitor?[​](#how-do-i-send-a-manual-message-to-an-online-visitor "Direct link to How do I send a manual message to an online visitor?")
+
+- Generate the embed code with the "Check for messages from operator" option enabled.
+- Enable online users tracking in the online users section. This is likely already enabled. 😄
+- When you see an online user, click "Send message" to send a message to the user.
+
+## Sending messages to online visitors[​](#sending-messages-to-online-visitors "Direct link to Sending messages to online visitors")
+
+Sending a message to an online visitor involves two scenarios:
+
+- Sending an invitation – the chat won't be started until the visitor responds.
+- Sending an invitation and starting a chat – the chat starts immediately.
+
+![](/assets/images/send-message-a5e70b3c7c6afcd95db8577ea18b70a1.png)
+
+### Sending an invitation without starting a chat[​](#sending-an-invitation-without-starting-a-chat "Direct link to Sending an invitation without starting a chat")
+
+This is the preferred way to invite a visitor to chat, as it avoids creating unnecessary chats if the visitor doesn't reply.
+
+- `Assign the chat to me if the visitor replies` means the chat will be assigned to the operator who sent the invitation if the visitor replies or after the bot workflow chat becomes pending.
+
+  - This will happen even if the operator goes offline after sending the invitation.
+  - If auto-assignment is enabled and the operator doesn't accept the chat, the chat will be forwarded to the next available operator.
+  - If the operator has the `Automatically accept assigned chats` option enabled in their account and is logged into the back office, the chat will be assigned to them first.
+- `Skip bot` – the chat will skip the bot and go directly into a pending state. If `Assign the chat to me if the visitor replies` is checked, the chat will be assigned to the operator who sent the invitation.
+
+  - This will happen even if the operator goes offline after sending the invitation.
+
+In summary, the chat will always be assigned first to the operator who sent the invitation, regardless of their online/offline status or visibility settings.
+
+### Sending an invitation and starting a chat[​](#sending-an-invitation-and-starting-a-chat "Direct link to Sending an invitation and starting a chat")
+
+This will start the chat automatically as soon as the operator sends a message to the visitor.
+
+- The chat will be automatically assigned to the operator who sent the invitation, regardless of their online/offline status or visibility settings.
+
+## How passing UUID influences online visitor tracking[​](#how-passing-uuid-influences-online-visitor-tracking "Direct link to How passing UUID influences online visitor tracking")
+
+**Scenario A**
+
+- I login, and UUID is passed, and I start a chat
+- I start a chat
+- I end a chat
+- I logout and do not pass UUID anymore
+- I start a chat
+
+Outcome:
+
+- Both chats will be assigned to the same online visitor profile
+
+**Scenario B**
+
+- I login and UUID is passed and I start a chat
+- I logout and do not pass UUID anymore and I start a chat
+- I end a chat
+- I login using another account and UUID is passed now different
+- I start a chat
+
+Outcome:
+
+- First two chats will see each other
+- Third chat won't see previous two chats
+
+**Scenario C**
+
+- I login and UUID is passed and I start a chat
+- I logout and do not pass UUID anymore and I start a chat
+- I login using another account and UUID is passed now different
+- I end a chat which was started before I logged to another account
+- I start a chat being logged in another account
+
+Outcome:
+
+- First two chats will see each other
+- Third chat won't see previous two chats
+
+#### How having Elastic Search influences the flow[​](#how-having-elastic-search-influences-the-flow "Direct link to How having Elastic Search influences the flow")
+
+It does not influence flow in any way. Unless you check `Use Elastic Search for previous chats. Search By Username.` It would search previous chats by nick if Online profile record is not found.

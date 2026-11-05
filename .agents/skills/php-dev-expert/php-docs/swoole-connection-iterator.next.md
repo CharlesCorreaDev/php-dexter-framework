@@ -1,0 +1,37 @@
+# Move para a próxima conexão.
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/swoole-connection-iterator.next.php
+
+---
+
+# Swoole\Connection\Iterator::next
+
+(PECL swoole >= 1.9.0)
+
+Swoole\Connection\Iterator::next — Move para a próxima conexão.
+
+### Descrição
+
+public function **Swoole\Connection\Iterator::next**(): Connection
+
+O iterador para a próxima conexão.
+
+### Parâmetros
+
+Esta função não possui parâmetros.
+
+### Valor Retornado
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

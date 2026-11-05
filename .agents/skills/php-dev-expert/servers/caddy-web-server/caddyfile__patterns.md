@@ -1,0 +1,336 @@
+# Common Caddyfile Patterns — Caddy Documentation
+
+> **Fonte / Source:** https://caddyserver.com/docs/caddyfile/patterns
+
+---
+
+# Common Caddyfile Patterns
+
+This page demonstrates a few complete and minimal Caddyfile configurations for common use cases. These can be helpful starting points for your own Caddyfile documents.
+
+These are not drop-in solutions; you will have to customize your domain name, ports/sockets, directory paths, etc. They are intended to illustrate some of the most common configuration patterns.
+
+- [Static file server](#static-file-server)
+- [Reverse proxy](#reverse-proxy)
+- [PHP](#php)
+- [Redirect `www.` subdomain](#redirect-www-subdomain)
+- [Trailing slashes](#trailing-slashes)
+- [Wildcard certificates](#wildcard-certificates)
+- [Single-page apps (SPAs)](#single-page-apps-spas)
+- [Caddy proxying to another Caddy](#caddy-proxying-to-another-caddy)
+
+## Static file server
+
+```
+example.com {
+	root /var/www
+	file_server
+}
+```
+
+As usual, the first line is the site address. The [`root` directive](caddyfile__directives__root.md) specifies the path to the root of the site (the `*` means to match all requests, so as to disambiguate from a [path matcher](caddyfile__matchers.md#path-matchers))—change the path to your site if it isn't the current working directory. Finally, we enable the [static file server](caddyfile__directives__file_server.md).
+
+## Reverse proxy
+
+Proxy all requests:
+
+```
+example.com {
+	reverse_proxy localhost:5000
+}
+```
+
+Only proxy requests having a path starting with `/api/` and serve static files for everything else:
+
+```
+example.com {
+	root /var/www
+	reverse_proxy /api/* localhost:5000
+	file_server
+}
+```
+
+This uses a [request matcher](caddyfile__matchers.md#syntax) to match only requests that start with `/api/` and proxy them to the backend. All other requests will be served from the site [`root`](caddyfile__directives__root.md) with the [static file server](caddyfile__directives__file_server.md). This also depends on the fact that `reverse_proxy` is higher on the [directive order](caddyfile__directives.md#directive-order) than `file_server`.
+
+Serve several apps on one domain, each under its own path prefix, using [`handle_path`](caddyfile__directives__handle_path.md) to strip the prefix before proxying:
+
+```
+example.com {
+	handle_path /app1/* {
+		reverse_proxy localhost:5001
+	}
+	handle_path /app2/* {
+		reverse_proxy localhost:5002
+	}
+	handle {
+		respond "Not found" 404
+	}
+}
+```
+
+Keep in mind that most apps don't work in a "subfolder" like this unless they are configured for it, because the links, redirects and asset URLs they generate don't include the prefix. If the app has a setting for its base path or public URL, set it to the prefix, and use [`handle`](caddyfile__directives__handle.md) instead of `handle_path` if the app expects to receive the prefix in the path. Otherwise, consider giving each app its own subdomain instead.
+
+Show a maintenance page while the backend is down (for example during a deploy), instead of an error:
+
+```
+example.com {
+	reverse_proxy localhost:5000
+
+	handle_errors 502 503 {
+		root * /srv/maintenance
+		rewrite * /index.html
+		file_server
+	}
+}
+```
+
+When `reverse_proxy` can't connect to the backend, it produces a `502` error (or `503` if no upstream is available), which is then handled by [`handle_errors`](caddyfile__directives__handle_errors.md). The page is served with the error's status code, so clients and search engines know the outage is temporary.
+
+There are many more [`reverse_proxy` examples here](caddyfile__directives__reverse_proxy.md#examples).
+
+## PHP
+
+### PHP-FPM
+
+With a PHP FastCGI service running, something like this works for most modern PHP apps:
+
+```
+example.com {
+	root /srv/public
+	encode
+	php_fastcgi localhost:9000
+	file_server
+}
+```
+
+Customize the site root accordingly; this example assumes that your PHP app's webroot is within a `public` directory—requests for files that exist on disk will be served with [`file_server`](caddyfile__directives__file_server.md), and anything else will be routed to `index.php` for handling by the PHP app.
+
+You may sometimes use a unix socket to connect to PHP-FPM:
+
+```
+php_fastcgi unix//run/php/php8.5-fpm.sock
+```
+
+The [`php_fastcgi` directive](caddyfile__directives__php_fastcgi.md) is actually just a shortcut for [several pieces of configuration](caddyfile__directives__php_fastcgi.md#expanded-form).
+
+For WordPress, you may also want to block requests to sensitive paths:
+
+```
+example.com {
+	root /var/www/wordpress
+	encode
+	php_fastcgi unix//run/php/php8.5-fpm.sock
+	file_server
+
+	@blocked path /xmlrpc.php *.sql /wp-content/uploads/*.php
+	rewrite @blocked /index.php
+}
+```
+
+This blocks the XML-RPC endpoint (often targeted by brute-force attacks; remove it from the list if you use apps or plugins that need it), database dumps, and PHP scripts in the uploads directory. Blocked requests are rewritten to `index.php`, so WordPress handles them with its normal "not found" page, since it sees the original request URI.
+
+### FrankenPHP
+
+Alternatively, you may use [FrankenPHP](https://frankenphp.dev/), which is a distribution of Caddy which calls PHP directly using CGO (Go to C bindings). This can be up to 4x faster than with PHP-FPM, and even better if you can use the worker mode.
+
+```
+example.com {
+	root /srv/public
+    encode zstd br gzip
+    php_server
+}
+```
+
+## Redirect `www.` subdomain
+
+To **add** the `www.` subdomain with an HTTP redirect:
+
+```
+example.com {
+	redir https://www.{host}{uri}
+}
+
+www.example.com {
+}
+```
+
+To **remove** it:
+
+```
+www.example.com {
+	redir https://example.com{uri}
+}
+
+example.com {
+}
+```
+
+To remove it for **multiple domains** at once; this uses the `{labels.*}` placeholders which are the parts of the hostname, `0`-indexed from the right (e.g. `0`=`com`, `1`=`example-one`, `2`=`www`):
+
+```
+www.example-one.com, www.example-two.com {
+	redir https://{labels.1}.{labels.0}{uri}
+}
+
+example-one.com, example-two.com {
+}
+```
+
+## Trailing slashes
+
+You will not usually need to configure this yourself; the [`file_server` directive](caddyfile__directives__file_server.md) will automatically add or remove trailing slashes from requests by way of HTTP redirects, depending on whether the requested resource is a directory or file, respectively.
+
+However, if you need to, you can still enforce trailing slashes with your config. There are two ways to do it: internally or externally.
+
+### Internal enforcement
+
+This uses the [`rewrite`](caddyfile__directives__rewrite.md) directive. Caddy will rewrite the URI internally to add or remove the trailing slash:
+
+```
+example.com {
+	rewrite /add     /add/
+	rewrite /remove/ /remove
+}
+```
+
+Using a rewrite, requests with and without the trailing slash will be the same.
+
+### External enforcement
+
+This uses the [`redir`](caddyfile__directives__redir.md) directive. Caddy will ask the browser to change the URI to add or remove the trailing slash:
+
+```
+example.com {
+	redir /add     /add/
+	redir /remove/ /remove
+}
+```
+
+Using a redirect, the client will have to re-issue the request, enforcing a single acceptable URI for a resource.
+
+## Wildcard certificates
+
+You must enable the [ACME DNS challenge](automatic-https.md#dns-challenge) to have Caddy automatically manage wildcard certificates.
+
+To serve multiple subdomains with the same wildcard certificate, there are two configuration methods: implicitly or via route handlers.
+
+Since Caddy 2.10, Caddy will prefer to use an applicable wildcard certificate over requesting a separate certificate for a subdomain. This means that you can list your subdomains as usual, and they will automatically begin using the defined wildcard certificate:
+
+```
+*.example.com {
+	tls {
+		dns <provider_name> [<params...>]
+	}
+	abort
+}
+
+# This will use the above certificate
+foo.example.com {
+	respond "Foo!"
+}
+```
+
+Alternatively, you can make use of the [`handle` directive](caddyfile__directives__handle.md) and [`host` matchers](caddyfile__matchers.md#host) to handle them explicitly. This may be preferred if a large portion of the configuration would be shared between the hosts.
+
+```
+*.example.com {
+	tls {
+		dns <provider_name> [<params...>]
+	}
+
+	@foo host foo.example.com
+	handle @foo {
+		respond "Foo!"
+	}
+
+	@bar host bar.example.com
+	handle @bar {
+		respond "Bar!"
+	}
+
+	# Fallback for otherwise unhandled domains
+	handle {
+		abort
+	}
+}
+```
+
+## Single-page apps (SPAs)
+
+When a web page does its own routing, servers may receive lots of requests for pages that don't exist server-side, but which are renderable client-side as long as the singular index file is served instead. Web applications architected like this are known as SPAs, or single-page apps.
+
+The main idea is to have the server "try files" to see if the requested file exists server-side, and if not, fall back to an index file where the client does the routing (usually with client-side JavaScript).
+
+A typical SPA config usually looks something like this:
+
+```
+example.com {
+	root /srv
+	encode
+	try_files {path} /index.html
+	file_server
+}
+```
+
+If your SPA is coupled with an API or other server-side-only endpoints, you will want to use `handle` blocks to treat them exclusively:
+
+```
+example.com {
+	encode
+
+	handle /api/* {
+		reverse_proxy backend:8000
+	}
+
+	handle {
+		root /srv
+		try_files {path} /index.html
+		file_server
+	}
+}
+```
+
+If your `index.html` contains references to your JS/CSS assets with hashed filenames, you may want to consider adding a `Cache-Control` header to instruct clients to *not* cache it (so that if the assets change, browsers fetch the new ones). Since the `try_files` rewrite is used to serve your `index.html` from any path that doesn't match another file on disk, you can wrap the `try_files` with a `route` so that the `header` handler runs *after* the rewrite (it normally would run before due to the [directive order](caddyfile__directives.md#directive-order)):
+
+```
+route {
+	try_files {path} /index.html
+	header /index.html Cache-Control "public, max-age=0, must-revalidate"
+}
+```
+
+## Caddy proxying to another Caddy
+
+If you have one Caddy instance publicly accessible (let's call it "front"), and another Caddy instance in your private network (let's call it "back") serving your actual app, you can use the [`reverse_proxy` directive](caddyfile__directives__reverse_proxy.md) to pass requests through.
+
+Front instance:
+
+```
+foo.example.com, bar.example.com {
+	reverse_proxy 10.0.0.1:80
+}
+```
+
+Back instance:
+
+```
+{
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+http://foo.example.com {
+	reverse_proxy foo-app:8080
+}
+
+http://bar.example.com {
+	reverse_proxy bar-app:9000
+}
+```
+
+- This example serves two different domains, proxying both to the same back Caddy instance, on port `80`. Your back instance is serving the two domains different ways, so it's configured with two separate site blocks.
+- On the back, [`http://`](caddyfile__concepts.md#addresses) is used to accept HTTP on port `80`. The front instance terminates TLS, and the traffic between front and back are on a private network, so there's no need to re-encrypt it.
+- You may use a different port like `8080` on the back instance if you need to; just append `:8080` to each site address on the back's config, OR set the [`http_port` global option](caddyfile__options.md#http_port) to `8080`.
+- On the back, the [`trusted_proxies` global option](caddyfile__options.md#trusted_proxies) is used to tell Caddy to trust the front instance as a proxy. This ensures the real client IP is preserved.
+- Going further, you could have more than one back instance that you [load balance](caddyfile__directives__reverse_proxy.md#load-balancing) between. You could set up mTLS (mutual TLS) using the [`acme_server`](caddyfile__directives__acme_server.md) on the front instance such that it acts like the CA for the back instance (useful if the traffic between front and back cross untrusted networks).

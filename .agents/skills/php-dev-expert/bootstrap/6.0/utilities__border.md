@@ -1,0 +1,317 @@
+# Border · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/utilities/border
+
+---
+
+# Border
+
+Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
+
+MDN[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/utilities/border)
+
+On this page…
+
+##### On this page
+
+| Class | Styles |
+| --- | --- |
+| .border | border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); |
+| .border-0 | border: 0; |
+| .border-top | border-block-start: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); |
+| .border-top-0 | border-block-start: 0; |
+| .border-end | border-inline-end: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); |
+| .border-end-0 | border-inline-end: 0; |
+| .border-bottom | border-block-end: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); |
+| .border-bottom-0 | border-block-end: 0; |
+| .border-start | border-inline-start: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); |
+| .border-start-0 | border-inline-start: 0; |
+| .border-keyline | border-width: var(--bs-border-width-keyline); |
+| .border-1 | border-width: 1px; |
+| .border-2 | border-width: 2px; |
+| .border-3 | border-width: 3px; |
+| .border-4 | border-width: 4px; |
+| .border-5 | border-width: 5px; |
+
+## Border
+
+Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.
+
+### Additive
+
+Add borders to custom elements:
+
+HTML
+
+```
+<span class="border"></span>
+<span class="border-top"></span>
+<span class="border-end"></span>
+<span class="border-bottom"></span>
+<span class="border-start"></span>
+```
+
+### Subtractive
+
+Or remove borders:
+
+HTML
+
+```
+<span class="border border-0"></span>
+<span class="border border-top-0"></span>
+<span class="border border-end-0"></span>
+<span class="border border-bottom-0"></span>
+<span class="border border-start-0"></span>
+```
+
+## Width
+
+Border width utilities are available in increments of 1px from 0 to 5px. These set `border-width` on all sides.
+
+HTML
+
+```
+<span class="border border-keyline"></span>
+<span class="border border-1"></span>
+<span class="border border-2"></span>
+<span class="border border-3"></span>
+<span class="border border-4"></span>
+<span class="border border-5"></span>
+```
+
+### Per-side widths
+
+We do not ship per-side border width utilities. Combine a side utility with a width utility when one side needs a thicker border:
+
+HTML
+
+```
+<span class="border-top border-2"></span>
+<span class="border-end border-3"></span>
+<span class="border-bottom border-4"></span>
+<span class="border-start border-5"></span>
+```
+
+### Extend utilities
+
+Extend the border classes with our [utilities API](utilities__api.md#add-utilities) when you need different widths on different sides, without combining classes as shown above. Here‘s an example using the width longhands instead of the border shorthand so values from `$border-widths` apply cleanly.
+
+SCSS
+
+```
+          // _my-utilities.scss
+@use "sass:map";
+@use "bootstrap/scss/config" as *;
+@use "bootstrap/scss/utilities";
+
+$border-width-values: map.merge($border-widths, (keyline: var(--border-width-keyline)));
+
+$utilities: map.merge(
+  $utilities,
+  (
+    "border-top-width": (
+      property: border-block-start-width,
+      class: border-t,
+      values: $border-width-values
+    ),
+    "border-end-width": (
+      property: border-inline-end-width,
+      class: border-e,
+      values: $border-width-values
+    ),
+    "border-bottom-width": (
+      property: border-block-end-width,
+      class: border-b,
+      values: $border-width-values
+    ),
+    "border-start-width": (
+      property: border-inline-start-width,
+      class: border-s,
+      values: $border-width-values
+    )
+  )
+);
+```
+
+Load that partial before Bootstrap:
+
+SCSS
+
+```
+          // my-bootstrap.scss
+@use "my-utilities";
+@use "bootstrap/scss/bootstrap";
+```
+
+This adds classes like `.border-t-5`, `.border-e-5`, `.border-b-5`, and `.border-s-5`. Pair them with `.border` or a side utility such as `.border-bottom` so the border still has a style and color.
+
+## CSS
+
+### Variables
+
+[scss/\_root.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_root.scss)
+
+```
+--border-width: #{$border-width},
+--border-width-keyline: .5px,
+--border-style: #{$border-style},
+--border-color: light-dark(var(--gray-200), var(--gray-700)),
+--border-color-translucent: color-mix(in oklch, var(--fg-body) 15%, transparent),
+```
+
+### Sass variables
+
+[scss/\_config.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_config.scss)
+
+```
+$border-width:                1px;
+$border-widths: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$border-widths: defaults(
+  (
+    keyline: .5px,
+    1: 1px,
+    2: 2px,
+    3: 3px,
+    4: 4px,
+    5: 5px
+  ),
+  $border-widths
+);
+$border-style:                solid;
+$border-color:                color-mix(in oklch, var(--gray-100), var(--gray-200));
+```
+
+### Sass mixins
+
+[scss/mixins/\_border-radius.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/mixins/_border-radius.scss)
+
+```
+@mixin border-radius($radius: var(--radius-5), $fallback-border-radius: false) {
+  @if $enable-rounded {
+    border-radius: valid-radius($radius);
+  }
+  @else if $fallback-border-radius != false {
+    border-radius: $fallback-border-radius;
+  }
+}
+
+@mixin border-top-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-start-start-radius: valid-radius($radius);
+    border-start-end-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-end-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-start-end-radius: valid-radius($radius);
+    border-end-end-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-bottom-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-end-start-radius: valid-radius($radius);
+    border-end-end-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-start-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-start-start-radius: valid-radius($radius);
+    border-end-start-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-top-start-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-start-start-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-top-end-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-start-end-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-bottom-end-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-end-end-radius: valid-radius($radius);
+  }
+}
+
+@mixin border-bottom-start-radius($radius: var(--radius-5)) {
+  @if $enable-rounded {
+    border-end-start-radius: valid-radius($radius);
+  }
+}
+```
+
+### Sass utilities API
+
+Border utilities are declared in our utilities API in `scss/_utilities.scss`. [Learn how to use the utilities API.](utilities__api.md#using-the-api)
+
+[scss/\_utilities.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_utilities.scss)
+
+```
+"border": (
+  property: border,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-top": (
+  class: border-top,
+  property: border-block-start,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-end": (
+  property: border-inline-end,
+  class: border-end,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-bottom": (
+  property: border-block-end,
+  class: border-bottom,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-start": (
+  property: border-inline-start,
+  class: border-start,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-y": (
+  class: border-y,
+  property: border-block,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+"border-x": (
+  class: border-x,
+  property: border-inline,
+  values: (
+    null: var(--border-width) var(--border-style) var(--border-color),
+    0: 0,
+  )
+),
+```

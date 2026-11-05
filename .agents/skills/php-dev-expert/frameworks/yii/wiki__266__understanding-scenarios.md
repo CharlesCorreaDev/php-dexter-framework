@@ -1,0 +1,142 @@
+# Understanding Scenarios | Wiki | Yii PHP Framework
+
+> **Fonte / Source:** https://www.yiiframework.com/wiki/266/understanding-scenarios
+
+---
+
+## [Understanding Scenarios](wiki__266__understanding-scenarios.md)
+
+23    0
+
+39
+
+Viewed: 190 988 times
+
+Version: 1.1
+
+Category: [Tutorials](wiki__index.md)
+
+- [Form validation](wiki__index.md)
+- [model validation](wiki__index.md)
+- [Scenarios](wiki__index.md)
+- [understanding](wiki__index.md)
+- [validation rules](wiki__index.md)
+
+Written by: [![Luke Jurgs](/user/avatar/46507?v=1) Luke Jurgs](https://www.yiiframework.com/user/46507)
+
+Updated by: [![Luke Jurgs](/user/avatar/46507?v=1) Luke Jurgs](https://www.yiiframework.com/user/46507)
+
+Created: Oct 28, 2011
+
+Updated: 13 years ago
+
+1. [Specifying a scenario](#specifying-a-scenario)
+2. [Creating scenario specific validation rules](#creating-scenario-specific-validation-rules)
+3. [CActiveRecord scenarios](#cactiverecord-scenarios)
+4. [Conclusion](#conclusion)
+
+Scenarios are an extremely useful tool for separating validation tasks on any class you use derived from CModel. In this tutorial we will use CActiveRecord.
+
+#### Specifying a scenario [¶](#specifying-a-scenario)
+
+The first thing is to initialize the Model instance with a scenario. This can be done one of two ways.
+
+###### 1. New CActiveRecord instance with constructor parameter [¶](#1-new-cactiverecord-instance-with-constructor-parameter)
+
+```
+$model = new MyActiveRecord('formSubmit');
+```
+
+In this example MyActiveRecord extends CActiveRecord and formSubmit is a validation scenario.
+
+###### 2. Pre-existing CActiveRecord instance from find() or other scource [¶](#2-pre-existing-cactiverecord-instance-from-find-or-other-scource)
+
+```
+$model = MyActiveRecord::model()->find('id = :id', array(':id' => 1);
+$model->scenario = 'formSubmit';
+```
+
+This example is the same as example one except we are switching to a scenario on a pre-existing Model instance.
+
+#### Creating scenario specific validation rules [¶](#creating-scenario-specific-validation-rules)
+
+Firstly it is important to note that any rules not assigned a scenario will be applied to all scenarios. This can be useful for building a pseudo-inheritance structure of rules. Beware however that setting a validator for any property on a model marks it as safe for massive assignments unless the 'unsafe' rule is used.
+
+Further Reading:
+
+[Reference: Model rules validation](http://www.yiiframework.com/wiki/56/ "Reference: Model rules validation")
+
+[Understanding "Safe" Validation Rules](http://www.yiiframework.com/wiki/161/ "Understanding \"Safe\" Validation Rules")
+
+###### Example of scenario rules: [¶](#example-of-scenario-rules)
+
+```
+public function rules() {
+  return array(
+    array('name', 'required'),
+    array(
+      'name', 'match', 'not' => true, 'pattern' => '/[^a-zA-Z0-9 ]/',
+      'message' => 'Name must consist of letters, numbers and spaces only', 'on' => 'formSubmit'
+    ),
+  );
+}
+```
+
+Note that the rule property that specifies a scenario is 'on' so in this example if there is no scenario then the only rule that applies to name is *required*. If the Model is set to the scenario 'formSubmit' then the *required* rule will still apply but so will the match rule.
+
+So to break this down:
+
+```
+$model = new MyActiveRecord('formSubmit');
+$model->name = 'Joe Blogs';
+if ($model->validate()) {
+//this will pass validation as both the required rule and the match rule are satisfied
+}
+
+$model = new MyActiveRecord('formSubmit');
+$model->name = 'Joe Blogs - is awesome!!!!';
+if ($model->validate()) {
+//this will fail validation as the match rule is not satisfied
+}
+
+$model = new MyActiveRecord();
+$model->name = 'Joe Blogs - is awesome!!!!';
+if ($model->validate()) {
+//this will pass validation as the match rule is no longer checked
+}
+
+$model = new MyActiveRecord('formSubmit');
+$model->name = null;
+if ($model->validate()) {
+//this will fail validation as the required rule is not satisfied
+}
+
+//Note: the default scenario for CActiveRecord is 'insert' so keep this in mind
+//when using these examples
+```
+
+#### CActiveRecord scenarios [¶](#cactiverecord-scenarios)
+
+CActiveRecord sets a number of scenarios internally, any rules you set are validated against these scenarios depending on what operation is performed.
+
+###### 1. Insert [¶](#1-insert)
+
+All instances of CActiveRecord instantiated via the constructor with the *new* keyword are set to this scenario by default. Any rules with the scenario will only be validated on database insert (first call to the save() method).
+
+###### 2. Update [¶](#2-update)
+
+All instances of CActiveRecord instantiated via the find() methods are set to this scenario by default. Any rules with the scenario will only be validated on database updates (subsequent calls to the save() method).
+
+###### 3. Search [¶](#3-search)
+
+This is not used internally but it is worth a mention as all the Gii generated model and crud code uses the 'search' scenario. The models generated by Gii create a rule like:
+
+```
+array('id, email, last_ip, created, last_login', 'safe', 'on' => 'search'),
+```
+
+This allows the mass assignment of these attributes when the scenario is set to search.
+
+#### Conclusion [¶](#conclusion)
+
+Now when you validate user inputs you can stratify or separate different input rules on validation. An example of this is wanting to apply more rigid rules to users then to say internal business logic.

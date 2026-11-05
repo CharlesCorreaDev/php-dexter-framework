@@ -1,0 +1,584 @@
+{
+  "root_url": "** https://developer.matomo.org/api-reference",
+  "scope_prefix": "** https://developer.matomo.org/api-reference",
+  "total_pages": 96,
+  "generated_at": "2026-10-28T18:55:20Z",
+  "pages": [
+    {
+      "url": "** https://developer.matomo.org/api-reference",
+      "file": "api__api-reference.md",
+      "title": "Introduction: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/api-reference-introduction",
+      "file": "api__api-reference__api-reference-introduction.md",
+      "title": "Introduction: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/classes",
+      "file": "api__api-reference__classes.md",
+      "title": "Classes - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/events",
+      "file": "api__api-reference__events.md",
+      "title": "Events - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/index",
+      "file": "api__api-reference__index.md",
+      "title": "Index - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/PHP-Matomo-Tracker",
+      "file": "api__api-reference__PHP-Matomo-Tracker.md",
+      "title": "MatomoTracker - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/reporting-api-apiModule_apiAction-combinations",
+      "file": "api__api-reference__reporting-api-apiModule_apiAction-combinations.md",
+      "title": "Compatible apiModule and apiAction combinations: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/reporting-api-metadata",
+      "file": "api__api-reference__reporting-api-metadata.md",
+      "title": "Metadata: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/reporting-api-segmentation",
+      "file": "api__api-reference__reporting-api-segmentation.md",
+      "title": "Segmentation: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/reporting-api",
+      "file": "api__api-reference__reporting-api.md",
+      "title": "API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/tagmanager/javascript-api-reference",
+      "file": "api__api-reference__tagmanager__javascript-api-reference.md",
+      "title": "Tag Manager JavaScript API: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/tracking-api",
+      "file": "api__api-reference__tracking-api.md",
+      "title": "Tracking HTTP API: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/tracking-java",
+      "file": "api__api-reference__tracking-java.md",
+      "title": "Java Tracker: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/tracking-javascript",
+      "file": "api__api-reference__tracking-javascript.md",
+      "title": "JavaScript Tracking Client: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/wordpress/classes-reference",
+      "file": "api__api-reference__wordpress__classes-reference.md",
+      "title": "Classes: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/wordpress/hooks-reference",
+      "file": "api__api-reference__wordpress__hooks-reference.md",
+      "title": "Hooks: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference/wordpress/restapi-reference",
+      "file": "api__api-reference__wordpress__restapi-reference.md",
+      "title": "REST API: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/changelog",
+      "file": "api__changelog.md",
+      "title": "Matomo Platform Changelog - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/develop",
+      "file": "api__develop.md",
+      "title": "Introduction: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/content-tracking",
+      "file": "api__guides__content-tracking.md",
+      "title": "Content Tracking: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/database-schema",
+      "file": "api__guides__database-schema.md",
+      "title": "Database schema: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/integrate-introduction",
+      "file": "api__guides__integrate-introduction.md",
+      "title": "Introduction: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/querying-the-reporting-api",
+      "file": "api__guides__querying-the-reporting-api.md",
+      "title": "Querying the Reporting API: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/reporting-api-tutorial",
+      "file": "api__guides__reporting-api-tutorial.md",
+      "title": "Tutorial: Get your top 10 popular pages: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/reporting-introduction",
+      "file": "api__guides__reporting-introduction.md",
+      "title": "Accessing Matomo data: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/spa-tracking",
+      "file": "api__guides__spa-tracking.md",
+      "title": "Single-Page Application/Progressive Web App Tracking: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-api-clients",
+      "file": "api__guides__tracking-api-clients.md",
+      "title": "Tracking API Clients: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-consent",
+      "file": "api__guides__tracking-consent.md",
+      "title": "Tracking & Cookie Consent: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-introduction",
+      "file": "api__guides__tracking-introduction.md",
+      "title": "Tracking your application: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-javascript-guide",
+      "file": "api__guides__tracking-javascript-guide.md",
+      "title": "JavaScript Tracking Client: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-optout",
+      "file": "api__guides__tracking-optout.md",
+      "title": "Tracking Opt-out: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/",
+      "file": "api__index.md",
+      "title": "Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/integration",
+      "file": "api__integration.md",
+      "title": "Introduction: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/piwik-in-depth",
+      "file": "api__piwik-in-depth.md",
+      "title": "Introduction: DevelopInDepth - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/support",
+      "file": "api__support.md",
+      "title": "Community & Support: Support - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference",
+      "file": "develop__api-reference.md",
+      "title": "Introduction: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/changelog",
+      "file": "develop__changelog.md",
+      "title": "Matomo Platform Changelog - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/develop",
+      "file": "develop__develop.md",
+      "title": "Introduction: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/custom-reports",
+      "file": "develop__guides__custom-reports.md",
+      "title": "Custom Report: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/develop-introduction",
+      "file": "develop__guides__develop-introduction.md",
+      "title": "Introduction: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/dimensions",
+      "file": "develop__guides__dimensions.md",
+      "title": "Dimensions: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/distributing-your-plugin",
+      "file": "develop__guides__distributing-your-plugin.md",
+      "title": "Distributing Your Plugin: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/enrich-js-tracker",
+      "file": "develop__guides__enrich-js-tracker.md",
+      "title": "JS Tracker: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/expose-api-methods",
+      "file": "develop__guides__expose-api-methods.md",
+      "title": "API Methods: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/getting-started-part-1",
+      "file": "develop__guides__getting-started-part-1.md",
+      "title": "Setting Up: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/menus",
+      "file": "develop__guides__menus.md",
+      "title": "Menus: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/pages",
+      "file": "develop__guides__pages.md",
+      "title": "Pages: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/plugin-file",
+      "file": "develop__guides__plugin-file.md",
+      "title": "Plugin file: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/plugin-settings",
+      "file": "develop__guides__plugin-settings.md",
+      "title": "Plugin Settings: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/request-parameters",
+      "file": "develop__guides__request-parameters.md",
+      "title": "Handling Request Parameters: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/custom-tag",
+      "file": "develop__guides__tagmanager__custom-tag.md",
+      "title": "Tags: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/custom-trigger",
+      "file": "develop__guides__tagmanager__custom-trigger.md",
+      "title": "Triggers: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/custom-variable",
+      "file": "develop__guides__tagmanager__custom-variable.md",
+      "title": "Variables: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/faq",
+      "file": "develop__guides__tagmanager__faq.md",
+      "title": "Developer FAQ: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/parameters",
+      "file": "develop__guides__tagmanager__parameters.md",
+      "title": "Parameters: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/settingup",
+      "file": "develop__guides__tagmanager__settingup.md",
+      "title": "Setting Up: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/testing",
+      "file": "develop__guides__tagmanager__testing.md",
+      "title": "Testing: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/theming",
+      "file": "develop__guides__theming.md",
+      "title": "Themes: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/visualizing-report-data",
+      "file": "develop__guides__visualizing-report-data.md",
+      "title": "Report visualizations: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/widgets",
+      "file": "develop__guides__widgets.md",
+      "title": "Widgets: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/wordpress/basics",
+      "file": "develop__guides__wordpress__basics.md",
+      "title": "Basics: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/wordpress/data-access",
+      "file": "develop__guides__wordpress__data-access.md",
+      "title": "Data Access: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/wordpress/getting-started",
+      "file": "develop__guides__wordpress__getting-started.md",
+      "title": "Getting Started: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/wordpress/matomo-plugin",
+      "file": "develop__guides__wordpress__matomo-plugin.md",
+      "title": "Matomo Plugin: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/working-with-piwiks-ui",
+      "file": "develop__guides__working-with-piwiks-ui.md",
+      "title": "JavaScript and CSS: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/writing-a-record-builder",
+      "file": "develop__guides__writing-a-record-builder.md",
+      "title": "Record Builder: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/",
+      "file": "develop__index.md",
+      "title": "Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/integration",
+      "file": "develop__integration.md",
+      "title": "Introduction: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/piwik-in-depth",
+      "file": "develop__piwik-in-depth.md",
+      "title": "Introduction: DevelopInDepth - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/support",
+      "file": "develop__support.md",
+      "title": "Community & Support: Support - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/api-reference",
+      "file": "integration__api-reference.md",
+      "title": "Introduction: API Reference - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/changelog",
+      "file": "integration__changelog.md",
+      "title": "Matomo Platform Changelog - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/develop",
+      "file": "integration__develop.md",
+      "title": "Introduction: Develop - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/content-tracking",
+      "file": "integration__guides__content-tracking.md",
+      "title": "Content Tracking: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/integrate-introduction",
+      "file": "integration__guides__integrate-introduction.md",
+      "title": "Introduction: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/oauth2",
+      "file": "integration__guides__oauth2.md",
+      "title": "OAuth 2.0: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/querying-the-reporting-api",
+      "file": "integration__guides__querying-the-reporting-api.md",
+      "title": "Querying the Reporting API: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/reporting-api-clients",
+      "file": "integration__guides__reporting-api-clients.md",
+      "title": "Reporting API Clients: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/reporting-api-tutorial",
+      "file": "integration__guides__reporting-api-tutorial.md",
+      "title": "Tutorial: Get your top 10 popular pages: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/reporting-introduction",
+      "file": "integration__guides__reporting-introduction.md",
+      "title": "Accessing Matomo data: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/spa-tracking",
+      "file": "integration__guides__spa-tracking.md",
+      "title": "Single-Page Application/Progressive Web App Tracking: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/datalayer",
+      "file": "integration__guides__tagmanager__datalayer.md",
+      "title": "Data Layer: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/debugging",
+      "file": "integration__guides__tagmanager__debugging.md",
+      "title": "Debugging: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/embedding",
+      "file": "integration__guides__tagmanager__embedding.md",
+      "title": "Embedding: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/integration-plugin",
+      "file": "integration__guides__tagmanager__integration-plugin.md",
+      "title": "Integration Plugin: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tagmanager/introduction",
+      "file": "integration__guides__tagmanager__introduction.md",
+      "title": "Tag Manager: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-api-clients",
+      "file": "integration__guides__tracking-api-clients.md",
+      "title": "Tracking API Clients: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-consent",
+      "file": "integration__guides__tracking-consent.md",
+      "title": "Tracking & Cookie Consent: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-introduction",
+      "file": "integration__guides__tracking-introduction.md",
+      "title": "Tracking your application: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-javascript-guide",
+      "file": "integration__guides__tracking-javascript-guide.md",
+      "title": "JavaScript Tracking Client: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/guides/tracking-optout",
+      "file": "integration__guides__tracking-optout.md",
+      "title": "Tracking Opt-out: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/",
+      "file": "integration__index.md",
+      "title": "Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/integration",
+      "file": "integration__integration.md",
+      "title": "Introduction: Integrate - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/piwik-in-depth",
+      "file": "integration__piwik-in-depth.md",
+      "title": "Introduction: DevelopInDepth - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/support",
+      "file": "integration__support.md",
+      "title": "Community & Support: Support - Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    },
+    {
+      "url": "** https://developer.matomo.org/",
+      "file": "root__developer_matomo_org.md",
+      "title": "Matomo Analytics (formerly Piwik Analytics) - Developer Docs - v6",
+      "depth": 1
+    }
+  ]
+}

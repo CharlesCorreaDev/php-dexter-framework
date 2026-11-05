@@ -1,0 +1,936 @@
+# Button · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/components/buttons
+
+---
+
+# Button
+
+Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
+
+Layer: `components`
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/components/button)
+
+On this page…
+
+##### On this page
+
+## Base class
+
+Buttons have a standard `.btn` class that sets up basic styles such as padding and content alignment, along with fallback visual styles for basic accessibility. Change this class to another button class to apply different visual styles for a specific button variant and theme.
+
+Base class
+
+HTML
+
+```
+<button type="button" class="btn">Base class</button>
+```
+
+The `.btn` class is intended to be a starting point for your own custom button styles, while our provided button variants can be used alongside `.theme-*` classes or as a basis for your own custom styles.
+
+## Playground
+
+Bootstrap includes several button variants, each serving its own semantic purpose, with a few extras thrown in for more control. Combined with our utilities, you have a very powerful set of defaults to choose from.
+
+Color
+
+Primary
+
+[Primary](#)[Accent](#)[Success](#)[Danger](#)[Warning](#)[Info](#)[Inverse](#)[Secondary](#)
+
+Style
+
+styledsolidoutlinesubtletext
+
+Size
+
+Medium
+
+[Extra small](#)[Small](#)[Medium](#)[Large](#)
+
+Rounded
+
+defaultpillsquare
+
+Button
+
+Left icon
+
+Right icon
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary btn-sm" data-button-type="text">Button</button>
+<button type="button" class="btn-solid theme-primary" data-button-type="left-icon">
+  <svg class="bi" width="16" height="16" aria-hidden="true">
+    <use href="#arrow-left" />
+  </svg>
+  Left icon
+</button>
+<button type="button" class="btn-solid theme-primary btn-sm" data-button-type="right-icon">
+  Right icon
+  <svg class="bi" width="16" height="16" aria-hidden="true">
+    <use href="#arrow-right" />
+  </svg>
+</button>
+<button type="button" class="btn-solid btn-icon theme-primary btn-sm" data-button-type="icon-only" aria-label="Icon only">
+  <svg class="bi" width="16" height="16" aria-hidden="true">
+    <use href="#plus-lg" />
+  </svg>
+</button>
+```
+
+## Variants
+
+Compare all button variants and styles at once:
+
+Primary
+Primary
+Primary
+Primary
+Accent
+Accent
+Accent
+Accent
+Success
+Success
+Success
+Success
+Danger
+Danger
+Danger
+Danger
+Warning
+Warning
+Warning
+Warning
+Info
+Info
+Info
+Info
+Inverse
+Inverse
+Inverse
+Inverse
+Secondary
+Secondary
+Secondary
+Secondary
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary">Primary</button>
+<button type="button" class="btn-outline theme-primary">Primary</button>
+<button type="button" class="btn-subtle theme-primary">Primary</button>
+<button type="button" class="btn-text theme-primary">Primary</button>
+<button type="button" class="btn-solid theme-accent">Accent</button>
+<button type="button" class="btn-outline theme-accent">Accent</button>
+<button type="button" class="btn-subtle theme-accent">Accent</button>
+<button type="button" class="btn-text theme-accent">Accent</button>
+<button type="button" class="btn-solid theme-success">Success</button>
+<button type="button" class="btn-outline theme-success">Success</button>
+<button type="button" class="btn-subtle theme-success">Success</button>
+<button type="button" class="btn-text theme-success">Success</button>
+<button type="button" class="btn-solid theme-danger">Danger</button>
+<button type="button" class="btn-outline theme-danger">Danger</button>
+<button type="button" class="btn-subtle theme-danger">Danger</button>
+<button type="button" class="btn-text theme-danger">Danger</button>
+<button type="button" class="btn-solid theme-warning">Warning</button>
+<button type="button" class="btn-outline theme-warning">Warning</button>
+<button type="button" class="btn-subtle theme-warning">Warning</button>
+<button type="button" class="btn-text theme-warning">Warning</button>
+<button type="button" class="btn-solid theme-info">Info</button>
+<button type="button" class="btn-outline theme-info">Info</button>
+<button type="button" class="btn-subtle theme-info">Info</button>
+<button type="button" class="btn-text theme-info">Info</button>
+<button type="button" class="btn-solid theme-inverse">Inverse</button>
+<button type="button" class="btn-outline theme-inverse">Inverse</button>
+<button type="button" class="btn-subtle theme-inverse">Inverse</button>
+<button type="button" class="btn-text theme-inverse">Inverse</button>
+<button type="button" class="btn-solid theme-secondary">Secondary</button>
+<button type="button" class="btn-outline theme-secondary">Secondary</button>
+<button type="button" class="btn-subtle theme-secondary">Secondary</button>
+<button type="button" class="btn-text theme-secondary">Secondary</button>
+```
+
+Accessibility Tip: Using color to convey meaning
+
+Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies like screen readers. Please ensure the meaning is obvious from the content itself (e.g., the visible text with a [*sufficient* color contrast](getting-started__accessibility.md#color-contrast)) or is included through alternative means, such as additional text hidden with the `.visually-hidden` class.
+
+## Link buttons
+
+Use the `.btn-link` class to create a button that looks like a link.
+
+Link
+
+HTML
+
+```
+<button type="button" class="btn btn-link">Link</button>
+```
+
+Link buttons can also be styled with the theme colors.
+
+Primary
+Accent
+Success
+Danger
+Warning
+Info
+Inverse
+Secondary
+
+HTML
+
+```
+<button type="button" class="btn btn-link theme-primary">Primary</button>
+<button type="button" class="btn btn-link theme-accent">Accent</button>
+<button type="button" class="btn btn-link theme-success">Success</button>
+<button type="button" class="btn btn-link theme-danger">Danger</button>
+<button type="button" class="btn btn-link theme-warning">Warning</button>
+<button type="button" class="btn btn-link theme-info">Info</button>
+<button type="button" class="btn btn-link theme-inverse">Inverse</button>
+<button type="button" class="btn btn-link theme-secondary">Secondary</button>
+```
+
+## Styled buttons
+
+Add visual depth to solid buttons with gradients and shadows using the `.btn-styled` modifier class. This provides a more three-dimensional appearance that can be customized further with CSS variables.
+
+Primary
+Accent
+Success
+Danger
+Warning
+Info
+Inverse
+Secondary
+
+HTML
+
+```
+<button class="btn-solid btn-styled theme-primary">Primary</button>
+<button class="btn-solid btn-styled theme-accent">Accent</button>
+<button class="btn-solid btn-styled theme-success">Success</button>
+<button class="btn-solid btn-styled theme-danger">Danger</button>
+<button class="btn-solid btn-styled theme-warning">Warning</button>
+<button class="btn-solid btn-styled theme-info">Info</button>
+<button class="btn-solid btn-styled theme-inverse">Inverse</button>
+<button class="btn-solid btn-styled theme-secondary">Secondary</button>
+```
+
+The gradient and shadow can be customized via CSS variables:
+
+| Variable | Description |
+| --- | --- |
+| `--bs-btn-gradient-start` | Top of gradient (default: `rgb(255 255 255 / 12.5%)`) |
+| `--bs-btn-gradient-end` | Bottom of gradient (default: `rgb(0 0 0 / 7.5%)`) |
+| `--bs-btn-border-mix-color` | Color to mix with the button background (default: `#000`) |
+| `--bs-btn-border-mix-amount` | Amount of color to mix with the button background (default: `10%`) |
+| `--bs-btn-border-hover-mix-amount` | Amount of color to mix with the button background on hover (default: `12.5%`) |
+| `--bs-btn-border-active-mix-amount` | Amount of color to mix with the button background on active (default: `20%`) |
+| `--bs-btn-shadow` | Resting state shadow |
+| `--bs-btn-active-shadow` | Pressed/active state shadow |
+
+## Button tags
+
+The `.btn` classes are designed to be used with the `<button>` element. However, you can also use these classes on `<a>` or `<input>` elements (though some browsers may apply a slightly different rendering).
+
+When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers.
+
+[Link](#)
+Button
+
+HTML
+
+```
+<a class="btn-solid theme-primary" href="#" role="button">Link</a>
+<button class="btn-solid theme-primary" type="submit">Button</button>
+<input class="btn-solid theme-primary" type="button" value="Input">
+<input class="btn-solid theme-primary" type="submit" value="Submit">
+<input class="btn-solid theme-primary" type="reset" value="Reset">
+```
+
+## Sizes
+
+Fancy larger or smaller buttons? Add `.btn-lg` or `.btn-sm` for additional sizes.
+
+Large button
+Large button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary btn-lg">Large button</button>
+<button type="button" class="btn-solid theme-secondary btn-lg">Large button</button>
+```
+
+Small button
+Small button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary btn-sm">Small button</button>
+<button type="button" class="btn-solid theme-secondary btn-sm">Small button</button>
+```
+
+Extra small button
+Extra small button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary btn-xs">Extra small button</button>
+<button type="button" class="btn-solid theme-secondary btn-xs">Extra small button</button>
+```
+
+You can even roll your own custom sizing with CSS variables:
+
+Custom button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Custom button
+</button>
+```
+
+## Icon buttons
+
+Use `.btn-icon` for square buttons that contain only an icon. This class sets `aspect-ratio: 1` and removes padding, making the button perfectly square based on its `min-height`. Always include an `aria-label` attribute on icon-only buttons to ensure they are accessible to screen reader users.
+
+HTML
+
+```
+<button type="button" class="btn-icon" aria-label="Magic">
+  <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#magic"></use></svg>
+</button>
+<button type="button" class="btn-solid theme-primary btn-icon" aria-label="Confirm">
+  <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#check2"></use></svg>
+</button>
+<button type="button" class="btn-outline theme-secondary btn-icon" aria-label="Auto theme">
+  <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#circle-half"></use></svg>
+</button>
+<button type="button" class="btn-subtle theme-warning btn-icon" aria-label="Light theme">
+  <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#sun-fill"></use></svg>
+</button>
+```
+
+Combine with size classes for different icon button sizes:
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary btn-icon btn-xs" aria-label="Confirm">
+  <svg class="bi" width="12" height="12" fill="currentColor" aria-hidden="true"><use href="#check2"></use></svg>
+</button>
+<button type="button" class="btn-solid theme-primary btn-icon btn-sm" aria-label="Confirm">
+  <svg class="bi" width="14" height="14" fill="currentColor" aria-hidden="true"><use href="#check2"></use></svg>
+</button>
+<button type="button" class="btn-solid theme-primary btn-icon" aria-label="Confirm">
+  <svg class="bi" width="16" height="16" fill="currentColor" aria-hidden="true"><use href="#check2"></use></svg>
+</button>
+<button type="button" class="btn-solid theme-primary btn-icon btn-lg" aria-label="Confirm">
+  <svg class="bi" width="20" height="20" fill="currentColor" aria-hidden="true"><use href="#check2"></use></svg>
+</button>
+```
+
+## Disabled state
+
+Make buttons look inactive by adding the `disabled` boolean attribute to any `<button>` element. Disabled buttons have `pointer-events: none`, preventing hover and active states from triggering, and some additional styling to indicate the disabled state.
+
+Primary button
+Button
+Primary button
+Button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary" disabled>Primary button</button>
+<button type="button" class="btn-solid theme-secondary" disabled>Button</button>
+<button type="button" class="btn-outline theme-primary" disabled>Primary button</button>
+<button type="button" class="btn-outline theme-secondary" disabled>Button</button>
+```
+
+Disabled buttons using the `<a>` element behave a bit different. Use the `.disabled` class instead of the attribute on `<a>` elements to make them visually appear disabled. If you need to keep the `href` attribute, you may need additional HTML to fully disable the link functionality.
+
+Primary link
+Link
+
+HTML
+
+```
+<a class="btn-solid theme-primary disabled" role="button" aria-disabled="true">Primary link</a>
+<a class="btn-solid theme-secondary disabled" role="button" aria-disabled="true">Link</a>
+```
+
+If there’s an `href` attribute, add `tabindex="-1"` and `aria-disabled="true"` to prevent keyboard focus and assistive technologies from interacting with the link.
+
+[Primary link](#)
+[Link](#)
+
+HTML
+
+```
+<a href="#" class="btn-solid theme-primary disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+<a href="#" class="btn-solid theme-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+```
+
+You may also want to use custom JavaScript to disable the link functionality altogether.
+
+## Block buttons
+
+Use the `.d-grid` utility to create responsive stacks of full-width “block buttons”. Space them out with gap utilities.
+
+Button
+Button
+
+HTML
+
+```
+<div class="d-grid gap-2">
+  <button class="btn-solid theme-primary" type="button">Button</button>
+  <button class="btn-solid theme-primary" type="button">Button</button>
+</div>
+```
+
+Here we create a responsive variation, starting with vertically stacked buttons until the `md` breakpoint, where `.md:d-block` replaces the `.d-grid` class, thus nullifying the `gap-2` utility. Resize your browser to see them change.
+
+Button
+Button
+
+HTML
+
+```
+<div class="d-grid gap-2 md:d-block">
+  <button class="btn-solid theme-primary" type="button">Button</button>
+  <button class="btn-solid theme-primary" type="button">Button</button>
+</div>
+```
+
+You can adjust the width of your block buttons with grid column width classes. For example, for a half-width “block button”, use `.col-6`. Center it horizontally with `.mx-auto`, too.
+
+Button
+Button
+
+HTML
+
+```
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn-solid theme-primary" type="button">Button</button>
+  <button class="btn-solid theme-primary" type="button">Button</button>
+</div>
+```
+
+Additional utilities can be used to adjust the alignment of buttons when horizontal. Here we’ve taken our previous responsive example and added some flex utilities and a margin utility on the button to right-align the buttons when they’re no longer stacked.
+
+Button
+Button
+
+HTML
+
+```
+<div class="d-grid gap-2 md:d-flex md:justify-content-end">
+  <button class="btn-solid theme-primary md:me-2" type="button">Button</button>
+  <button class="btn-solid theme-primary" type="button">Button</button>
+</div>
+```
+
+## Toggle buttons
+
+Create button-like checkboxes and radio buttons by adding `.btn-check` to a `<label>` element with button classes, with a checkbox or radio input nested inside. The input is visually hidden while the label provides the button appearance. These toggle buttons can further be grouped in a [button group](components__button-group.md) if needed.
+
+Visually, these toggle buttons are identical to our [JavaScript toggle buttons](#button-plugin), but are conveyed differently by assistive technologies. Checkbox toggles will be announced by screen readers as "checked"/"not checked"as they are checkboxes under the hood. The JavaScript toggle buttons are announced as "button"/"button pressed". It’s up to you to decide which approach makes more sense for your use case.
+
+### Checkboxes
+
+Checkboxes can be checked, unchecked, or disabled. Checkbox-based toggle buttons only toggle a single button’s state.
+
+Checked
+
+Toggle
+
+Disabled
+
+HTML
+
+```
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" checked autocomplete="off">
+  Checked
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" autocomplete="off">
+  Toggle
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" disabled autocomplete="off">
+  Disabled
+</label>
+```
+
+### Radios
+
+Radios can be checked, unchecked, or disabled. Use radio-based toggle buttons to toggle states between a set of buttons that include input elements with the same `name` attribute value.
+
+Checked
+
+Toggle
+
+Disabled
+
+Toggle
+
+HTML
+
+```
+<label class="btn-check btn-solid theme-primary">
+  <input type="radio" name="options" autocomplete="off" checked>
+  Checked
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="radio" name="options" autocomplete="off">
+  Toggle
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="radio" name="options" disabled autocomplete="off">
+  Disabled
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="radio" name="options" autocomplete="off">
+  Toggle
+</label>
+```
+
+## Button plugin
+
+The button plugin allows you to create simple on/off toggle buttons.
+
+Visually, these toggle buttons are identical to our [input toggle buttons](#toggle-buttons), but are conveyed differently by assistive technologies. Checkbox toggles will be announced by screen readers as "checked"/"not checked"as they are checkboxes under the hood. The JavaScript toggle buttons are announced as "button"/"button pressed". It’s up to you to decide which approach makes more sense for your use case.
+
+### Toggle states
+
+Add `data-bs-toggle="button"` to toggle a button’s `active` state. Also add `aria-pressed` so assistive technologies announce the control as a toggle button. Use `aria-pressed="false"` for the default state. If you’re pre-toggling a button, add the `.active` class **and** `aria-pressed="true"`.
+
+Toggle button
+Active toggle button
+Disabled toggle button
+
+HTML
+
+```
+<button type="button" class="btn-solid theme-primary" data-bs-toggle="button" aria-pressed="false">Toggle button</button>
+<button type="button" class="btn-solid theme-primary active" data-bs-toggle="button" aria-pressed="true">Active toggle button</button>
+<button type="button" class="btn-solid theme-primary" disabled data-bs-toggle="button" aria-pressed="false">Disabled toggle button</button>
+```
+
+[Toggle link](#)
+[Active toggle link](#)
+Disabled toggle link
+
+HTML
+
+```
+<a href="#" class="btn-solid theme-primary" role="button" data-bs-toggle="button" aria-pressed="false">Toggle link</a>
+<a href="#" class="btn-solid theme-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle link</a>
+<a class="btn-solid theme-primary disabled" aria-disabled="true" role="button" data-bs-toggle="button" aria-pressed="false">Disabled toggle link</a>
+```
+
+`aria-pressed` has no default value. A button without it is announced as a plain button, not as a toggle. As a safety net, Bootstrap adds the missing attribute to every `[data-bs-toggle="button"]` on `DOMContentLoaded`, using the `.active` class to pick the value. Write it in your markup anyway, so the state is correct before our JavaScript runs.
+
+### Via data attributes
+
+| Attribute | Description |
+| --- | --- |
+| `data-bs-toggle="button"` | Toggles the button’s active (`pressed`) state via the Button plugin. |
+
+### Dependencies
+
+The button plugin requires the following JavaScript files if you’re building Bootstrap’s JS from source:
+
+| File | Description |
+| --- | --- |
+| `js/src/button.ts` | Main button component |
+| `js/src/base-component.ts` | Base component class |
+| `js/src/dom/data.ts` | Element data store |
+| `js/src/dom/event-handler.ts` | Event handling utilities |
+| `js/src/dom/manipulator.ts` | Data attribute manipulation |
+| `js/src/dom/selector-engine.ts` | DOM selector utilities |
+| `js/src/util/config.ts` | Configuration base class |
+| `js/src/util/index.ts` | Core utility functions |
+
+### Methods
+
+You can create a button instance with the button constructor, for example:
+
+JavaScript
+
+```
+          const bsButton = new bootstrap.Button('#myButton')
+```
+
+| Method | Description |
+| --- | --- |
+| `dispose` | Destroys an element’s button. (Removes stored data on the DOM element) |
+| `getInstance` | Static method which allows you to get the button instance associated with a DOM element, you can use it like this: `bootstrap.Button.getInstance(element)`. |
+| `getOrCreateInstance` | Static method which returns a button instance associated with a DOM element or creates a new one in case it wasn’t initialized. You can use it like this: `bootstrap.Button.getOrCreateInstance(element)`. |
+| `toggle` | Toggles push state. Gives the button the appearance that it has been activated. |
+
+For example, to toggle all buttons
+
+JavaScript
+
+```
+          document.querySelectorAll('.btn').forEach(buttonElement => {
+  const button = bootstrap.Button.getOrCreateInstance(buttonElement)
+  button.toggle()
+})
+```
+
+## CSS
+
+### Variables
+
+Buttons use CSS variables for real-time customization. These are set on the base `.btn` class and inherited by all button variants.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$button-tokens: defaults(
+  (
+    --btn-gap: var(--btn-input-gap),
+    --btn-min-height: var(--btn-input-min-height),
+    --btn-padding-x: var(--btn-input-padding-x),
+    --btn-padding-y: var(--btn-input-padding-y),
+    --btn-font-size: var(--btn-input-font-size),
+    --btn-font-weight: var(--btn-input-font-weight),
+    --btn-line-height: var(--btn-input-line-height),
+    --btn-color: var(--fg-body),
+    --btn-white-space: nowrap,
+    --btn-border-width: var(--border-width),
+    --btn-border-color: transparent,
+    --btn-border-radius: var(--radius-5),
+    --btn-hover-border-color: transparent,
+    --btn-disabled-opacity: .65,
+    --btn-transition-property: "color, background-color, border-color, box-shadow",
+    --btn-transition-duration: .15s,
+    --btn-transition-timing: ease-in-out,
+  ),
+  $button-tokens
+);
+```
+
+Each variant class (`.btn-solid`, `.btn-outline`, etc.) updates these variables based on the current theme color, allowing buttons to adapt automatically when used with `.theme-*` classes.
+
+Styled buttons use the `$button-styled-tokens` Sass map.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$button-styled-tokens: defaults(
+  (
+    --btn-gradient-start: rgb(255 255 255 / 12.5%),
+    --btn-gradient-end: rgb(0 0 0 / 7.5%) ,
+    --btn-border-mix-color: #000,
+    --btn-border-mix-amount: 10%,
+    --btn-border-hover-mix-amount: 12.5%,
+    --btn-border-active-mix-amount: 20%,
+    --btn-shadow: "0 1px 2px rgb(0 0 0 / 15%), inset 0 1px 0 rgb(255 255 255 / 10%)",
+    --btn-active-shadow: inset 0 2px 4px rgb(0 0 0 / .15),
+  ),
+  $button-styled-tokens
+);
+```
+
+Link buttons use the `$button-link-tokens` Sass map.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$button-link-tokens: defaults(
+  (
+    --btn-font-weight: var(--font-weight-normal),
+    --btn-color: var(--link-color),
+    --btn-bg: transparent,
+    --btn-border-color: transparent,
+    --btn-hover-color: var(--link-hover-color),
+    --btn-hover-bg: transparent,
+    --btn-hover-border-color: transparent,
+    --btn-active-color: var(--link-hover-color),
+    --btn-active-bg: transparent,
+    --btn-active-border-color: transparent,
+    --btn-disabled-color: var(--fg-3),
+    --btn-disabled-border-color: transparent,
+  ),
+  $button-link-tokens
+);
+```
+
+### Sass maps
+
+#### Sizes
+
+Button sizes are defined in the `$button-sizes` Sass map. Each size specifies several variables through a Sass loop. These mostly line up with textual form controls.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$button-sizes: ();
+$button-sizes: defaults(
+  ("xs", "sm", "lg"),
+  $button-sizes
+);
+```
+
+#### Variants
+
+Button variants are defined in the `$button-variants` Sass map. Each variant specifies which theme color tokens to use for its base, hover, and active states. The map uses token names (like `"bg"`, `"contrast"`, `"border"`) that reference the current theme’s color palette.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$button-variants: defaults(
+  (
+    "solid": (
+      "base": (
+        "bg": "bg",
+        "color": "contrast",
+        "border-color": "bg"
+      ),
+      "hover": (
+        "bg": "bg",
+        "border-color": "bg",
+        "color": "contrast"
+      ),
+      "active": (
+        "bg": "bg",
+        "border-color": "bg",
+        "color": "contrast"
+      )
+    ),
+    "outline": (
+      "base": (
+        "bg": "transparent",
+        "color": "fg",
+        "border-color": "border"
+      ),
+      "hover": (
+        "bg": "bg",
+        "color": "contrast",
+        "border-color": "bg"
+      ),
+      "active": (
+        "bg": "bg",
+        "color": "contrast",
+        "border-color": "bg"
+      )
+    ),
+    "subtle": (
+      "base": (
+        "bg": "bg-subtle",
+        "color": "fg",
+        "border-color": "transparent"
+      ),
+      "hover": (
+        "bg": ("bg-muted", "bg-subtle"),
+        "color": "fg-emphasis"
+      ),
+      "active": (
+        "bg": "bg-subtle",
+        "color": "fg-emphasis"
+      )
+    ),
+    "text": (
+      "base": (
+        "color": "fg",
+        "bg": "transparent",
+        "border-color": "transparent"
+      ),
+      "hover": (
+        "color": "fg",
+        "bg": "bg-subtle"
+      ),
+      "active": (
+        "color": "fg",
+        "bg": "bg-subtle"
+      )
+    )
+  ),
+  $button-variants
+);
+```
+
+To add a custom variant, extend the map before importing Bootstrap’s buttons:
+
+SCSS
+
+```
+          @use "bootstrap/scss/buttons/button" with (
+  $button-variants: (
+    "solid": ( /* ... */ ),
+    "outline": ( /* ... */ ),
+    "subtle": ( /* ... */ ),
+    "text": ( /* ... */ ),
+    "ghost": (
+      "base": (
+        "bg": "transparent",
+        "color": "text",
+        "border-color": "transparent"
+      ),
+      "hover": (
+        "bg": "bg-subtle",
+        "color": "text-emphasis"
+      ),
+      "active": (
+        "bg": "bg-subtle",
+        "color": "text-emphasis"
+      )
+    )
+  )
+);
+```
+
+To remove a variant you don’t need, use Sass’s `map.remove()`:
+
+SCSS
+
+```
+          @use "sass:map";
+
+@use "bootstrap/scss/buttons/button" as *button* with (
+  $button-variants: map.remove($button-variants, "text", "subtle")
+);
+```
+
+#### Selectors
+
+The `$btn-variant-selectors` list controls which selectors receive the base button styles (tokens, display, padding, font, etc.). By default it includes `.btn`, `.btn-link`, `.btn-icon`, and all classes generated from the `$button-variants` map. This means variant classes like `.btn-solid` work standalone without requiring `.btn`.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+$btn-variant-selectors: (string.unquote(".btn"), string.unquote(".btn-link"), string.unquote(".btn-icon"));
+@each $variant, $config in $button-variants {
+  $btn-variant-selectors: list.append($btn-variant-selectors, string.unquote(".btn-#{$variant}"), comma);
+}
+```
+
+### Sass loops
+
+#### Variant loop
+
+The variant loop iterates over `$button-variants` to generate each variant class. It sets CSS variables for base, hover, active, and disabled states using the theme color tokens defined in the map.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+@each $variant, $config in $button-variants {
+  .btn-#{$variant} {
+    @each $property, $value in map.get($button-variants, $variant, "base") {
+      @if $value == "transparent" {
+        --btn-#{$property}: transparent;
+      } @else {
+        --btn-#{$property}: var(--theme-#{$value});
+      }
+    }
+
+    @each $property, $value in map.get($button-variants, $variant, "active") {
+      @if $value == "transparent" {
+        --btn-active-#{$property}: transparent;
+      } @else if $value == "bg-subtle" {
+        --btn-active-#{$property}: var(--theme-#{$value});
+      } @else {
+        --btn-active-#{$property}: oklch(from var(--theme-#{$value}) calc(l * .9) calc(c * 1.15) h);
+      }
+    }
+    @each $property, $value in map.get($button-variants, $variant, "base") {
+      @if $value == "transparent" {
+        --btn-disabled-#{$property}: transparent;
+      } @else {
+        --btn-disabled-#{$property}: var(--theme-#{$value});
+      }
+    }
+
+    &:hover {
+      @each $property, $value in map.get($button-variants, $variant, "hover") {
+        @if $value == "transparent" {
+          --btn-hover-#{$property}: transparent;
+        } @else if meta.type-of($value) == "list" {
+          $first-value: list.nth($value, 1);
+          $second-value: list.nth($value, 2);
+          --btn-hover-#{$property}: color-mix(in oklch, var(--theme-#{$first-value}) 50%, var(--theme-#{$second-value}));
+        } @else if $value == "bg-subtle" {
+          --btn-hover-#{$property}: var(--theme-#{$value});
+        } @else {
+          --btn-hover-#{$property}: oklch(from var(--theme-#{$value}) calc(l * .95) calc(c * 1.1) h);
+        }
+      }
+    }
+
+    &:focus-visible {
+      outline-color: var(--theme-focus-ring);
+    }
+
+    &:active,
+    &.active,
+    &.btn-check:has(input:checked) {
+      @each $property, $value in map.get($button-variants, $variant, "active") {
+        @if $value == "transparent" {
+          --btn-active-#{$property}: transparent;
+        } @else if $value == "bg-subtle" {
+          --btn-active-#{$property}: var(--theme-#{$value});
+        } @else {
+          --btn-active-#{$property}: oklch(from var(--theme-#{$value}) calc(l * .9) calc(c * 1.15) h);
+        }
+      }
+    }
+
+    // Disabled state for toggle buttons
+    &:disabled,
+    &.disabled,
+    &.btn-check:has(input:disabled) {
+      @each $property, $value in map.get($button-variants, $variant, "base") {
+        @if $value == "transparent" {
+          --btn-disabled-#{$property}: transparent;
+        } @else {
+          --btn-disabled-#{$property}: var(--theme-#{$value});
+        }
+      }
+    }
+  }
+}
+```
+
+#### Size loop
+
+The size loop iterates over `$button-sizes` to generate size modifier classes, setting the appropriate CSS variables for each size, including for button groups.
+
+[scss/buttons/\_button.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/buttons/_button.scss)
+
+```
+@each $size, $_ in $button-sizes {
+  .btn-#{$size},
+  .btn-group-#{$size} > [class*="btn-"] {
+    --btn-gap: var(--btn-input-#{$size}-gap);
+    --btn-min-height: var(--btn-input-#{$size}-min-height);
+    --btn-padding-y: var(--btn-input-#{$size}-padding-y);
+    --btn-padding-x: var(--btn-input-#{$size}-padding-x);
+    --btn-font-size: var(--btn-input-#{$size}-font-size);
+    --btn-line-height: var(--btn-input-#{$size}-line-height);
+    --btn-border-radius: var(--btn-input-#{$size}-border-radius);
+  }
+}
+```

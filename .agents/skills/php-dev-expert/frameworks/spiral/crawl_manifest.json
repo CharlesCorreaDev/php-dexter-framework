@@ -1,0 +1,842 @@
+{
+  "root_url": "https://spiral.dev/docs",
+  "scope_prefix": "https://spiral.dev/docs/",
+  "total_pages": 139,
+  "generated_at": "2026-10-28T16:35:40Z",
+  "pages": [
+    {
+      "url": "https://spiral.dev/docs",
+      "file": "index.md",
+      "title": "Spiral Framework: Table of Contents",
+      "depth": 0
+    },
+    {
+      "url": "https://spiral.dev/docs/readme/current/en",
+      "file": "readme__current__en.md",
+      "title": "Spiral Framework: Table of Contents",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/overview-spiral/current/en",
+      "file": "overview-spiral__current__en.md",
+      "title": "Spiral Framework: Overview - About Framework",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-design/current/en",
+      "file": "framework-design__current__en.md",
+      "title": "Spiral Framework: Overview - Design Approach",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-lifecycle/current/en",
+      "file": "framework-lifecycle__current__en.md",
+      "title": "Spiral Framework: Overview - Application Lifecycle",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/overview-contributing/current/en",
+      "file": "overview-contributing__current__en.md",
+      "title": "Spiral Framework: Overview - Contributing",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/overview-versioning/current/en",
+      "file": "overview-versioning__current__en.md",
+      "title": "Spiral Framework: Overview - Versioning",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/license/current/en",
+      "file": "license__current__en.md",
+      "title": "Spiral Framework: Overview - License",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-installation/current/en",
+      "file": "start-installation__current__en.md",
+      "title": "Spiral Framework: Getting started - Installation",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-server/current/en",
+      "file": "start-server__current__en.md",
+      "title": "Spiral Framework: Getting started - Long running",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-structure/current/en",
+      "file": "start-structure__current__en.md",
+      "title": "Spiral Framework: Getting started - Directory Structure",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-configuration/current/en",
+      "file": "start-configuration__current__en.md",
+      "title": "Spiral Framework: Getting started - Configuration",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-http-basics/current/en",
+      "file": "start-http-basics__current__en.md",
+      "title": "Spiral Framework: Getting started - First HTTP controller",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-cli-basics/current/en",
+      "file": "start-cli-basics__current__en.md",
+      "title": "Spiral Framework: Getting started - First CLI command",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-queue-basics/current/en",
+      "file": "start-queue-basics__current__en.md",
+      "title": "Spiral Framework: Getting started - First background job",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/start-deployment/current/en",
+      "file": "start-deployment__current__en.md",
+      "title": "Spiral Framework: Getting started - Deployment",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-kernel/current/en",
+      "file": "framework-kernel__current__en.md",
+      "title": "Spiral Framework: Framework - Kernel and Environment",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-bootloaders/current/en",
+      "file": "framework-bootloaders__current__en.md",
+      "title": "Spiral Framework: Framework - Bootloaders",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-config/current/en",
+      "file": "framework-config__current__en.md",
+      "title": "Spiral Framework: Framework - Config Objects",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-dispatcher/current/en",
+      "file": "framework-dispatcher__current__en.md",
+      "title": "Spiral Framework: Framework - Dispatchers",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-interceptors/current/en",
+      "file": "framework-interceptors__current__en.md",
+      "title": "Spiral Framework: Framework - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/framework-finalizers/current/en",
+      "file": "framework-finalizers__current__en.md",
+      "title": "Spiral Framework: Framework - Finalizers",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-orm/current/en",
+      "file": "basics-orm__current__en.md",
+      "title": "Spiral Framework: The Basics - Database and ORM",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-session/current/en",
+      "file": "basics-session__current__en.md",
+      "title": "Spiral Framework: The Basics - Sessions",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-files/current/en",
+      "file": "basics-files__current__en.md",
+      "title": "Spiral Framework: The Basics - Files and Directories",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-cache/current/en",
+      "file": "basics-cache__current__en.md",
+      "title": "Spiral Framework: The Basics - Cache",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-logging/current/en",
+      "file": "basics-logging__current__en.md",
+      "title": "Spiral Framework: The Basics - Logging",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-errors/current/en",
+      "file": "basics-errors__current__en.md",
+      "title": "Spiral Framework: The Basics - Errors handling",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-debug/current/en",
+      "file": "basics-debug__current__en.md",
+      "title": "Spiral Framework: The Basics - Debugging",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-scaffolding/current/en",
+      "file": "basics-scaffolding__current__en.md",
+      "title": "Spiral Framework: The Basics - Scaffolding",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/basics-prototype/current/en",
+      "file": "basics-prototype__current__en.md",
+      "title": "Spiral Framework: The Basics - Prototyping",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-overview/current/en",
+      "file": "container-overview__current__en.md",
+      "title": "Spiral Framework: Container and DI - Overview",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-configuration/current/en",
+      "file": "container-configuration__current__en.md",
+      "title": "Spiral Framework: Container and DI - Configuration",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-attributes/current/en",
+      "file": "container-attributes__current__en.md",
+      "title": "Spiral Framework: Container and DI - Attributes",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-auto-wiring/current/en",
+      "file": "container-auto-wiring__current__en.md",
+      "title": "Spiral Framework: Container and DI - Auto Wiring",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-scopes/current/en",
+      "file": "container-scopes__current__en.md",
+      "title": "Spiral Framework: Container and DI - IOC Scopes",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/container-injectors/current/en",
+      "file": "container-injectors__current__en.md",
+      "title": "Spiral Framework: Container and DI - Injectors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-memory/current/en",
+      "file": "advanced-memory__current__en.md",
+      "title": "Spiral Framework: Advanced - Static Memory",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-attributes/current/en",
+      "file": "advanced-attributes__current__en.md",
+      "title": "Spiral Framework: Advanced - Attributes",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-prometheus-metrics/current/en",
+      "file": "advanced-prometheus-metrics__current__en.md",
+      "title": "Spiral Framework: Advanced - Application Metrics",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-telemetry/current/en",
+      "file": "advanced-telemetry__current__en.md",
+      "title": "Spiral Framework: Advanced - Application Telemetry",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-scheduler/current/en",
+      "file": "advanced-scheduler__current__en.md",
+      "title": "Spiral Framework: Advanced - Task Scheduling",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-locks/current/en",
+      "file": "advanced-locks__current__en.md",
+      "title": "Spiral Framework: Advanced - Atomic Locks",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-sendit/current/en",
+      "file": "advanced-sendit__current__en.md",
+      "title": "Spiral Framework: Advanced - Mailer",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-notifications/current/en",
+      "file": "advanced-notifications__current__en.md",
+      "title": "Spiral Framework: Advanced - Notifications",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-configuration/current/en",
+      "file": "http-configuration__current__en.md",
+      "title": "Spiral Framework: HTTP - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-lifecycle/current/en",
+      "file": "http-lifecycle__current__en.md",
+      "title": "Spiral Framework: HTTP - Request Lifecycle",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-request-response/current/en",
+      "file": "http-request-response__current__en.md",
+      "title": "Spiral Framework: HTTP - Request and Response",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-routing/current/en",
+      "file": "http-routing__current__en.md",
+      "title": "Spiral Framework: HTTP - Routing",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-middleware/current/en",
+      "file": "http-middleware__current__en.md",
+      "title": "Spiral Framework: HTTP - Middleware",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-cookies/current/en",
+      "file": "http-cookies__current__en.md",
+      "title": "Spiral Framework: HTTP - Cookies",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-csrf/current/en",
+      "file": "http-csrf__current__en.md",
+      "title": "Spiral Framework: HTTP - CSRF protection",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-openapi/current/en",
+      "file": "http-openapi__current__en.md",
+      "title": "Spiral Framework: HTTP - OpenAPI Documentation",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-errors/current/en",
+      "file": "http-errors__current__en.md",
+      "title": "Spiral Framework: HTTP - Error Pages",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/http-interceptors/current/en",
+      "file": "http-interceptors__current__en.md",
+      "title": "Spiral Framework: HTTP - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/filters-configuration/current/en",
+      "file": "filters-configuration__current__en.md",
+      "title": "Spiral Framework: Request Validation - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/filters-filter/current/en",
+      "file": "filters-filter__current__en.md",
+      "title": "Spiral Framework: Request Validation - Filter Object",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/filters-composite/current/en",
+      "file": "filters-composite__current__en.md",
+      "title": "Spiral Framework: Request Validation - Composite Filters",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/filters-interceptors/current/en",
+      "file": "filters-interceptors__current__en.md",
+      "title": "Spiral Framework: Request Validation - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/filters-bridge/current/en",
+      "file": "filters-bridge__current__en.md",
+      "title": "Spiral Framework: Request Validation - Migration from 2.x",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-getting-started/current/en",
+      "file": "data-grid-getting-started__current__en.md",
+      "title": "Spiral Framework: Data grid - Getting Started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-installation/current/en",
+      "file": "data-grid-installation__current__en.md",
+      "title": "Spiral Framework: Data grid - Installation",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-grid-schema/current/en",
+      "file": "data-grid-grid-schema__current__en.md",
+      "title": "Spiral Framework: Data grid - Grid Schema",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-input/current/en",
+      "file": "data-grid-input__current__en.md",
+      "title": "Spiral Framework: Data grid - Input Sources",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-filters/current/en",
+      "file": "data-grid-filters__current__en.md",
+      "title": "Spiral Framework: Data grid - Filters",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-values/current/en",
+      "file": "data-grid-values__current__en.md",
+      "title": "Spiral Framework: Data grid - Value Types",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-accessors/current/en",
+      "file": "data-grid-accessors__current__en.md",
+      "title": "Spiral Framework: Data grid - Value Accessors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-sorters/current/en",
+      "file": "data-grid-sorters__current__en.md",
+      "title": "Spiral Framework: Data grid - Sorters",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-pagination/current/en",
+      "file": "data-grid-pagination__current__en.md",
+      "title": "Spiral Framework: Data grid - Pagination",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/data-grid-writers/current/en",
+      "file": "data-grid-writers__current__en.md",
+      "title": "Spiral Framework: Data grid - Writers",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/security-encrypter/current/en",
+      "file": "security-encrypter__current__en.md",
+      "title": "Spiral Framework: Security - Data Encryption",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/security-rbac/current/en",
+      "file": "security-rbac__current__en.md",
+      "title": "Spiral Framework: Security - Role Based Access Control",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/security-authentication/current/en",
+      "file": "security-authentication__current__en.md",
+      "title": "Spiral Framework: Security - User Authentication",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/validation-factory/current/en",
+      "file": "validation-factory__current__en.md",
+      "title": "Spiral Framework: Validation - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/validation-spiral/current/en",
+      "file": "validation-spiral__current__en.md",
+      "title": "Spiral Framework: Validation - Spiral Validator",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/validation-symfony/current/en",
+      "file": "validation-symfony__current__en.md",
+      "title": "Spiral Framework: Validation - Symfony Validator",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/validation-laravel/current/en",
+      "file": "validation-laravel__current__en.md",
+      "title": "Spiral Framework: Validation - Laravel Validator",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-start/current/en",
+      "file": "testing-start__current__en.md",
+      "title": "Spiral Framework: Testing - Getting Started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-http/current/en",
+      "file": "testing-http__current__en.md",
+      "title": "Spiral Framework: Testing - HTTP Tests",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-storage/current/en",
+      "file": "testing-storage__current__en.md",
+      "title": "Spiral Framework: Testing - Storage Tests",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-queue/current/en",
+      "file": "testing-queue__current__en.md",
+      "title": "Spiral Framework: Testing - Queue Tests",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-mail/current/en",
+      "file": "testing-mail__current__en.md",
+      "title": "Spiral Framework: Testing - Mail Tests",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-event/current/en",
+      "file": "testing-event__current__en.md",
+      "title": "Spiral Framework: Testing - Events Tests",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/testing-database/current/en",
+      "file": "testing-database__current__en.md",
+      "title": "Spiral Framework: Testing - Database",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/console-configuration/current/en",
+      "file": "console-configuration__current__en.md",
+      "title": "Spiral Framework: Console Application - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/console-commands/current/en",
+      "file": "console-commands__current__en.md",
+      "title": "Spiral Framework: Console Application - User Commands",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/console-sequences/current/en",
+      "file": "console-sequences__current__en.md",
+      "title": "Spiral Framework: Console Application - Command Sequences",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/console-interceptors/current/en",
+      "file": "console-interceptors__current__en.md",
+      "title": "Spiral Framework: Console Application - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/websockets-configuration/current/en",
+      "file": "websockets-configuration__current__en.md",
+      "title": "Spiral Framework: WebSockets - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/websockets-services/current/en",
+      "file": "websockets-services__current__en.md",
+      "title": "Spiral Framework: WebSockets - Event handlers",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/websockets-broadcasting/current/en",
+      "file": "websockets-broadcasting__current__en.md",
+      "title": "Spiral Framework: WebSockets - Broadcasting",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/websockets-api/current/en",
+      "file": "websockets-api__current__en.md",
+      "title": "Spiral Framework: WebSockets - Centrifugo API",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/websockets-interceptors/current/en",
+      "file": "websockets-interceptors__current__en.md",
+      "title": "Spiral Framework: WebSockets - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/queue-configuration/current/en",
+      "file": "queue-configuration__current__en.md",
+      "title": "Spiral Framework: Queue and Jobs - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/queue-jobs/current/en",
+      "file": "queue-jobs__current__en.md",
+      "title": "Spiral Framework: Queue and Jobs - Job Handlers",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/queue-roadrunner/current/en",
+      "file": "queue-roadrunner__current__en.md",
+      "title": "Spiral Framework: Queue and Jobs - RoadRunner integration",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/queue-interceptors/current/en",
+      "file": "queue-interceptors__current__en.md",
+      "title": "Spiral Framework: Queue and Jobs - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/temporal-configuration/current/en",
+      "file": "temporal-configuration__current__en.md",
+      "title": "Spiral Framework: Temporal - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/temporal-usage/current/en",
+      "file": "temporal-usage__current__en.md",
+      "title": "Spiral Framework: Temporal - Usage",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/temporal-interceptors/current/en",
+      "file": "temporal-interceptors__current__en.md",
+      "title": "Spiral Framework: Temporal - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/grpc-configuration/current/en",
+      "file": "grpc-configuration__current__en.md",
+      "title": "Spiral Framework: GRPC - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/grpc-service/current/en",
+      "file": "grpc-service__current__en.md",
+      "title": "Spiral Framework: GRPC - Service Code",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/grpc-client/current/en",
+      "file": "grpc-client__current__en.md",
+      "title": "Spiral Framework: GRPC - Client SDK",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/grpc-interceptors/current/en",
+      "file": "grpc-interceptors__current__en.md",
+      "title": "Spiral Framework: GRPC - Interceptors",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/component-discoverer/current/en",
+      "file": "component-discoverer__current__en.md",
+      "title": "Spiral Framework: Components - Discoverer",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/component-reactor/current/en",
+      "file": "component-reactor__current__en.md",
+      "title": "Spiral Framework: Components - Code Generation",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-storage/current/en",
+      "file": "advanced-storage__current__en.md",
+      "title": "Spiral Framework: Components - Storage and Cloud Distribution",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-tokenizer/current/en",
+      "file": "advanced-tokenizer__current__en.md",
+      "title": "Spiral Framework: Components - Static analysis",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-serializer/current/en",
+      "file": "advanced-serializer__current__en.md",
+      "title": "Spiral Framework: Components - Serializer",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-i18n/current/en",
+      "file": "advanced-i18n__current__en.md",
+      "title": "Spiral Framework: Components - Internalization",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/advanced-events/current/en",
+      "file": "advanced-events__current__en.md",
+      "title": "Spiral Framework: Components - Events",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/views-configuration/current/en",
+      "file": "views-configuration__current__en.md",
+      "title": "Spiral Framework: Views and templating - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/views-basics/current/en",
+      "file": "views-basics__current__en.md",
+      "title": "Spiral Framework: Views and templating - Basics",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/views-plain/current/en",
+      "file": "views-plain__current__en.md",
+      "title": "Spiral Framework: Views and templating - Plain PHP",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/views-twig/current/en",
+      "file": "views-twig__current__en.md",
+      "title": "Spiral Framework: Views and templating - Twig templating",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/views-stempler/current/en",
+      "file": "views-stempler__current__en.md",
+      "title": "Spiral Framework: Views and templating - Stempler templating",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-quick-start/current/en",
+      "file": "cookbook-quick-start__current__en.md",
+      "title": "Spiral Framework: Cookbook - Quick start",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-custom-dispatcher/current/en",
+      "file": "cookbook-custom-dispatcher__current__en.md",
+      "title": "Spiral Framework: Cookbook - Custom Dispatcher",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-user-authentication/current/en",
+      "file": "cookbook-user-authentication__current__en.md",
+      "title": "Spiral Framework: Cookbook - Authentication based on JWT",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-console-validation/current/en",
+      "file": "cookbook-console-validation__current__en.md",
+      "title": "Spiral Framework: Cookbook - Console command validation",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-psr-15/current/en",
+      "file": "cookbook-psr-15__current__en.md",
+      "title": "Spiral Framework: Cookbook - Custom HTTP request handler",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-simple-chat/current/en",
+      "file": "cookbook-simple-chat__current__en.md",
+      "title": "Spiral Framework: Cookbook - Realtime chat application",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-simple-queue-system/current/en",
+      "file": "cookbook-simple-queue-system__current__en.md",
+      "title": "Spiral Framework: Cookbook - Queue system",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/cookbook-migration-from-v2/current/en",
+      "file": "cookbook-migration-from-v2__current__en.md",
+      "title": "Spiral Framework: Cookbook - Migration from v2.x",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-intro/current/en",
+      "file": "keeper-intro__current__en.md",
+      "title": "Spiral Framework: Keeper - Getting started",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-bootloaders/current/en",
+      "file": "keeper-bootloaders__current__en.md",
+      "title": "Spiral Framework: Keeper - Bootloaders",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-routing/current/en",
+      "file": "keeper-routing__current__en.md",
+      "title": "Spiral Framework: Keeper - Routing",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-sitemap/current/en",
+      "file": "keeper-sitemap__current__en.md",
+      "title": "Spiral Framework: Keeper - Sitemap and breadcrumbs",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-views/current/en",
+      "file": "keeper-views__current__en.md",
+      "title": "Spiral Framework: Keeper - Views",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/keeper-components/current/en",
+      "file": "keeper-components__current__en.md",
+      "title": "Spiral Framework: Keeper - Components",
+      "depth": 1
+    },
+    {
+      "url": "https://spiral.dev/docs/component-sendit/current/en",
+      "file": "component-sendit__current__en.md",
+      "title": "Spiral Framework: Advanced - Mailer",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/component-distribution/current/en",
+      "file": "component-distribution__current__en.md",
+      "title": "Spiral Framework: Components - Storage and Cloud Distribution",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/stempler-inheritance/current/en",
+      "file": "stempler-inheritance__current__en.md",
+      "title": "Spiral Framework: Views and templating - Stempler templating",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/extension-dotenv/current/en",
+      "file": "extension-dotenv__current__en.md",
+      "title": "Spiral Framework: Framework - Kernel and Environment",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/component-data-grid/current/en",
+      "file": "component-data-grid__current__en.md",
+      "title": "Spiral Framework: Data-Grid",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/stempler-configuration/current/en",
+      "file": "stempler-configuration__current__en.md",
+      "title": "Spiral Framework: Views and templating - Stempler templating",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/stempler-directives/current/en",
+      "file": "stempler-directives__current__en.md",
+      "title": "Spiral Framework: Views and templating - Stempler templating",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/database-configuration/current/en",
+      "file": "database-configuration__current__en.md",
+      "title": "Spiral Framework: The Basics - Database and ORM",
+      "depth": 2
+    },
+    {
+      "url": "https://spiral.dev/docs/stempler-basics/current/en",
+      "file": "stempler-basics__current__en.md",
+      "title": "Spiral Framework: Views and templating - Stempler templating",
+      "depth": 2
+    }
+  ]
+}

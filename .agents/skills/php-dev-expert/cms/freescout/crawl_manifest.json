@@ -1,0 +1,302 @@
+{
+  "root_url": "** https://freescout.net/",
+  "scope_prefix": "** https://freescout.net/",
+  "total_pages": 49,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://freescout.net/",
+      "file": "site__freescout_net.md",
+      "title": "Best open source help desk: Zendesk & Help Scout alternative",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/admin.microsoft.com",
+      "file": "wiki__admin.microsoft.com.md",
+      "title": "Home · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Background-Jobs",
+      "file": "wiki__Background-Jobs.md",
+      "title": "Background Jobs · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Backup",
+      "file": "wiki__Backup.md",
+      "title": "Backup · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Blacklists-Check",
+      "file": "wiki__Blacklists-Check.md",
+      "title": "Blacklists Check · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Choosing-a-Server",
+      "file": "wiki__Choosing-a-Server.md",
+      "title": "Choosing a Server · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Clearing-the-Cache",
+      "file": "wiki__Clearing-the-Cache.md",
+      "title": "Clearing the Cache · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Cloud-Hosted-FreeScout",
+      "file": "wiki__Cloud-Hosted-FreeScout.md",
+      "title": "Cloud Hosted FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Community-Modules",
+      "file": "wiki__Community-Modules.md",
+      "title": "Community Modules · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Configuration-Options",
+      "file": "wiki__Configuration-Options.md",
+      "title": "Configuration Options · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Connect-FreeScout-to-Google-Workspace",
+      "file": "wiki__Connect-FreeScout-to-Google-Workspace.md",
+      "title": "Connect FreeScout to Google Workspace · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Connect-FreeScout-to-Microsoft-365-Exchange-via-OAuth",
+      "file": "wiki__Connect-FreeScout-to-Microsoft-365-Exchange-via-OAuth.md",
+      "title": "Connect FreeScout to Microsoft 365 Exchange via OAuth · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Connect-G-Suite-to-FreeScout",
+      "file": "wiki__Connect-G-Suite-to-FreeScout.md",
+      "title": "Connect G Suite to FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Connect-Gmail-to-FreeScout",
+      "file": "wiki__Connect-Gmail-to-FreeScout.md",
+      "title": "Connect Gmail to FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Connect-Microsoft-Office-365-Exchange-to-FreeScout",
+      "file": "wiki__Connect-Microsoft-Office-365-Exchange-to-FreeScout.md",
+      "title": "Connect Microsoft Office 365 Exchange to FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Console-Commands",
+      "file": "wiki__Console-Commands.md",
+      "title": "Console Commands · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Debugging",
+      "file": "wiki__Debugging.md",
+      "title": "Debugging · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Development-Guide",
+      "file": "wiki__Development-Guide.md",
+      "title": "Development Guide · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FAQ",
+      "file": "wiki__FAQ.md",
+      "title": "FAQ · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Fetching-Emails",
+      "file": "wiki__Fetching-Emails.md",
+      "title": "Fetching Emails · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScount-and-Zapier",
+      "file": "wiki__FreeScount-and-Zapier.md",
+      "title": "FreeScount and Zapier · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Dependencies-Security",
+      "file": "wiki__FreeScout-Dependencies-Security.md",
+      "title": "FreeScout Dependencies Security · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Development-Process",
+      "file": "wiki__FreeScout-Development-Process.md",
+      "title": "FreeScout Development Process · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules-Dev",
+      "file": "wiki__FreeScout-Modules-Dev.md",
+      "title": "FreeScout Modules Dev · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Modules",
+      "file": "wiki__FreeScout-Modules.md",
+      "title": "FreeScout Modules · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-on-Plesk",
+      "file": "wiki__FreeScout-on-Plesk.md",
+      "title": "FreeScout on Plesk · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Plugins",
+      "file": "wiki__FreeScout-Plugins.md",
+      "title": "FreeScout Plugins · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/FreeScout-Security",
+      "file": "wiki__FreeScout-Security.md",
+      "title": "FreeScout Security · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Google-OAuth-2.0",
+      "file": "wiki__Google-OAuth-2.0.md",
+      "title": "Google OAuth 2.0 · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Hire-Developer",
+      "file": "wiki__Hire-Developer.md",
+      "title": "Hire Developer · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki",
+      "file": "wiki__index.md",
+      "title": "Home · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Installation-Guide",
+      "file": "wiki__Installation-Guide.md",
+      "title": "Installation Guide · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Integromat-Integration",
+      "file": "wiki__Integromat-Integration.md",
+      "title": "Integromat Integration · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Make-Integration",
+      "file": "wiki__Make-Integration.md",
+      "title": "Make Integration · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Migrate-to-FreeScout",
+      "file": "wiki__Migrate-to-FreeScout.md",
+      "title": "Migrate to FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Modules-Development",
+      "file": "wiki__Modules-Development.md",
+      "title": "Modules Development · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/OAuth-for-Google-and-Office-365",
+      "file": "wiki__OAuth-for-Google-and-Office-365.md",
+      "title": "OAuth for Google and Office 365 · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/One-Click-Installs",
+      "file": "wiki__One-Click-Installs.md",
+      "title": "One Click Installs · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/PHP-Timezones",
+      "file": "wiki__PHP-Timezones.md",
+      "title": "PHP Timezones · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Releases",
+      "file": "wiki__Releases.md",
+      "title": "Releases · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Sending-Emails",
+      "file": "wiki__Sending-Emails.md",
+      "title": "Sending Emails · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Sending-Issues",
+      "file": "wiki__Sending-Issues.md",
+      "title": "Sending Issues · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Sending-Methods",
+      "file": "wiki__Sending-Methods.md",
+      "title": "Home · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Todo-List",
+      "file": "wiki__Todo-List.md",
+      "title": "Todo List · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Translate",
+      "file": "wiki__Translate.md",
+      "title": "Translate · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Updating-FreeScout",
+      "file": "wiki__Updating-FreeScout.md",
+      "title": "Updating FreeScout · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Upgrade-PHP",
+      "file": "wiki__Upgrade-PHP.md",
+      "title": "Upgrade PHP · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Zapier-Integration",
+      "file": "wiki__Zapier-Integration.md",
+      "title": "Zapier Integration · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/freescout-help-desk/freescout/wiki/Hire-Developer",
+      "file": "wiki_hire__github_com_freescout-help-desk_freescout_wiki_Hire-Developer.md",
+      "title": "Hire Developer · freescout-help-desk/freescout Wiki · GitHub",
+      "depth": 1
+    }
+  ]
+}

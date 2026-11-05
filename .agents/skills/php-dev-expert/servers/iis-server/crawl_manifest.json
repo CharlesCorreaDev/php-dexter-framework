@@ -1,0 +1,908 @@
+{
+  "root_url": "https://learn.microsoft.com/pt-br/iis/",
+  "scope_prefix": "https://learn.microsoft.com/pt-br/iis/",
+  "total_pages": 150,
+  "generated_at": "2026-10-28T15:32:25Z",
+  "pages": [
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/centralized-web-farm-management",
+      "file": "overview__centralized-web-farm-management.md",
+      "title": "Gerenciamento centralizado de fazenda Web | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/",
+      "file": "index.md",
+      "title": "Documentação do ISS | Microsoft Learn",
+      "depth": 0
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/powerful-admin-tools",
+      "file": "overview__powerful-admin-tools.md",
+      "title": "Ferramentas de administração avançadas | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/delegated-remote-management",
+      "file": "overview__delegated-remote-management.md",
+      "title": "Gerenciamento Remoto Delegado | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/scalable-web-infrastructure",
+      "file": "overview__scalable-web-infrastructure.md",
+      "title": "Infraestrutura Web escalonável | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/dynamic-caching-and-compression",
+      "file": "overview__dynamic-caching-and-compression.md",
+      "title": "Cache dinâmico e compactação | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/rich-diagnostic-tools",
+      "file": "overview__rich-diagnostic-tools.md",
+      "title": "Ferramentas avançadas de diagnóstico | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/enhanced-server-protection",
+      "file": "overview__enhanced-server-protection.md",
+      "title": "Proteção avançada do servidor | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/overview/access-protection",
+      "file": "overview__access-protection.md",
+      "title": "Proteção de Acesso | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709",
+      "file": "get-started__whats-new-in-iis-10-version-1709__new-features-introduced-in-iis-10-1709.md",
+      "title": "Novos recursos introduzidos no IIS 10.0 versão 1709 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10-version-1809/new-features-introduced-in-iis-10-1809",
+      "file": "get-started__whats-new-in-iis-10-version-1809__new-features-introduced-in-iis-10-1809.md",
+      "title": "Novos recursos introduzidos no IIS 10.0, versão 1809 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10-version-1709/iis-10-version-1709-hsts",
+      "file": "get-started__whats-new-in-iis-10-version-1709__iis-10-version-1709-hsts.md",
+      "title": "Suporte ao HSTS (Segurança de Transporte Estrito) na versão 1709 do IIS 10.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-10",
+      "file": "get-started__whats-new-in-iis-10__new-features-introduced-in-iis-10.md",
+      "title": "Novos recursos introduzidos no IIS 10.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/introducing-iis-on-nano-server",
+      "file": "get-started__whats-new-in-iis-10__introducing-iis-on-nano-server.md",
+      "title": "Apresentando o IIS no Nano Server | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets",
+      "file": "get-started__whats-new-in-iis-10__iisadministration-powershell-cmdlets.md",
+      "title": "Cmdlets do PowerShell de Administração do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/http2-on-iis",
+      "file": "get-started__whats-new-in-iis-10__http2-on-iis.md",
+      "title": "HTTP/2 no IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server",
+      "file": "get-started__whats-new-in-iis-10__running-aspnet-core-with-iis-on-nano-server.md",
+      "title": "Executando o Asp.Net Core com o IIS no Nano Server | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/wildcard-host-header-support",
+      "file": "get-started__whats-new-in-iis-10__wildcard-host-header-support.md",
+      "title": "Suporte para cabeçalhos de host curinga | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/introduction-to-iis/introduction-to-iis-architecture",
+      "file": "get-started__introduction-to-iis__introduction-to-iis-architecture.md",
+      "title": "Introdução às arquiteturas do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-10/thread-pool-ideal-cpu-numa-optimization",
+      "file": "get-started__whats-new-in-iis-10__thread-pool-ideal-cpu-numa-optimization.md",
+      "title": "Otimização ideal de CPU do Pool de Threads do IIS para hardware NUMA | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/introduction-to-iis/iis-web-server-overview",
+      "file": "get-started__introduction-to-iis__iis-web-server-overview.md",
+      "title": "Visão geral do servidor Web do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/introduction-to-iis/iis-modules-overview",
+      "file": "get-started__introduction-to-iis__iis-modules-overview.md",
+      "title": "Visão geral dos módulos do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/introduction-to-iis/web-site-deployment-made-easy",
+      "file": "get-started__introduction-to-iis__web-site-deployment-made-easy.md",
+      "title": "Implantação de site facilitada | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview",
+      "file": "get-started__introduction-to-iis__hosting-friendly-web-server-platform-iis-scenario-overview.md",
+      "title": "Hosting-Friendly IIS (Web Server Platform): Visão geral do cenário | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8",
+      "file": "get-started__getting-started-with-iis__getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md",
+      "title": "Introdução ao Gerenciador do IIS no IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/getting-started-with-iis/serving-new-content",
+      "file": "get-started__getting-started-with-iis__serving-new-content.md",
+      "title": "Servindo novo conteúdo | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/getting-started-with-iis/create-a-web-site",
+      "file": "get-started__getting-started-with-iis__create-a-web-site.md",
+      "title": "Criar um site | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/getting-started-with-iis/getting-started-with-appcmdexe",
+      "file": "get-started__getting-started-with-iis__getting-started-with-appcmdexe.md",
+      "title": "Introdução ao AppCmd.exe | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/the-configuration-system-in-iis-7",
+      "file": "get-started__planning-your-iis-architecture__the-configuration-system-in-iis-7.md",
+      "title": "O sistema de configuração no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/editing-configuration-files",
+      "file": "get-started__planning-your-iis-architecture__editing-configuration-files.md",
+      "title": "Editando arquivos de configuração | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig",
+      "file": "get-started__planning-your-iis-architecture__introduction-to-applicationhostconfig.md",
+      "title": "Introdução ao ApplicationHost.config | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above",
+      "file": "get-started__planning-your-iis-architecture__getting-started-with-configuration-in-iis-7-and-above.md",
+      "title": "Introdução à configuração no IIS 7 e superior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/iis-7-and-iis-8-configuration-reference",
+      "file": "get-started__planning-your-iis-architecture__iis-7-and-iis-8-configuration-reference.md",
+      "title": "Referência de configuração do IIS 7 e IIS 8 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8",
+      "file": "get-started__planning-your-iis-architecture__deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md",
+      "title": "Aprofundamento na configuração do IIS com o IIS 7 e o IIS 8 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/feature-to-configuration-reference",
+      "file": "get-started__planning-your-iis-architecture__feature-to-configuration-reference.md",
+      "title": "Referência de funcionalidade para configuração | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis",
+      "file": "get-started__planning-your-iis-architecture__understanding-sites-applications-and-virtual-directories-on-iis.md",
+      "title": "Noções básicas sobre sites, aplicativos e diretórios virtuais no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-for-security/build-a-custom-iis-server",
+      "file": "get-started__planning-for-security__build-a-custom-iis-server.md",
+      "title": "Criar um servidor IIS 7.0 personalizado | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-your-iis-architecture/understanding-multicore-scaling-on-numa-hardware-with-iis-8",
+      "file": "get-started__planning-your-iis-architecture__understanding-multicore-scaling-on-numa-hardware-with-iis-8.md",
+      "title": "Noções básicas sobre o dimensionamento multicore no hardware NUMA com o IIS 8 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis",
+      "file": "get-started__planning-for-security__understanding-built-in-user-and-group-accounts-in-iis.md",
+      "title": "Noções básicas sobre contas de usuário e grupo do Built-In no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-for-security/how-to-use-locking-in-iis-configuration",
+      "file": "get-started__planning-for-security__how-to-use-locking-in-iis-configuration.md",
+      "title": "Como usar o bloqueio na configuração do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-for-security/set-acls-through-the-manifestxml-file",
+      "file": "get-started__planning-for-security__set-acls-through-the-manifestxml-file.md",
+      "title": "Definir ACLs por meio do arquivo Manifest.xml | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/planning-for-security/secure-content-in-iis-through-file-system-acls",
+      "file": "get-started__planning-for-security__secure-content-in-iis-through-file-system-acls.md",
+      "title": "Proteger conteúdo no IIS por meio de ACLs do sistema de arquivos | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system",
+      "file": "get-started__case-studies__case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system.md",
+      "title": "Estudo de caso: Dimensionamento do IIS 8 em um sistema de soquete HP Proliant DL980 G7 de 8 processadores | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/localized-content/iis-localized-japanese-learn-articles-and-more",
+      "file": "get-started__localized-content__iis-localized-japanese-learn-articles-and-more.md",
+      "title": "Artigos do LEARN japonês localizados e muito mais | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85",
+      "file": "get-started__whats-new-in-iis-85__enhanced-logging-for-iis85.md",
+      "title": "Registro em log avançado para o IIS 8.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-85/logging-to-etw-in-iis-85",
+      "file": "get-started__whats-new-in-iis-85__logging-to-etw-in-iis-85.md",
+      "title": "Fazer logon no Rastreamento de Eventos para Windows no IIS 8.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-85/idle-worker-process-page-out-in-iis85",
+      "file": "get-started__whats-new-in-iis-85__idle-worker-process-page-out-in-iis85.md",
+      "title": "Descarregamento de processo de trabalho ocioso no IIS 8.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-85/dynamic-site-activation-in-iis85",
+      "file": "get-started__whats-new-in-iis-85__dynamic-site-activation-in-iis85.md",
+      "title": "Ativação dinâmica do site no IIS 8.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012",
+      "file": "get-started__whats-new-in-iis-8__installing-iis-8-on-windows-server-2012.md",
+      "title": "Instalando o IIS 8 no Windows Server 2012 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-85/certificate-rebind-in-iis85",
+      "file": "get-started__whats-new-in-iis-85__certificate-rebind-in-iis85.md",
+      "title": "Reassociação de Certificado no IIS 8.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability",
+      "file": "get-started__whats-new-in-iis-8__iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability.md",
+      "title": "Suporte ao certificado SSL centralizado do IIS 8.0: escalabilidade e capacidade de gerenciamento do SSL | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management",
+      "file": "get-started__whats-new-in-iis-8__iis-80-aspnet-configuration-management.md",
+      "title": "IIS 8.0 ASP.NET Configuration Management | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions",
+      "file": "get-started__whats-new-in-iis-8__iis-80-ftp-logon-attempt-restrictions.md",
+      "title": "Restrições de tentativa de logon de FTP do IIS 8.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-cpu-throttling-sand-boxing-sites-and-applications",
+      "file": "get-started__whats-new-in-iis-8__iis-80-cpu-throttling-sand-boxing-sites-and-applications.md",
+      "title": "Limitação de CPU no IIS 8.0: Isolamento de Sites e Aplicativos | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware",
+      "file": "get-started__whats-new-in-iis-8__iis-80-multicore-scaling-on-numa-hardware.md",
+      "title": "Dimensionamento multicore do IIS 8.0 no hardware NUMA | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability",
+      "file": "get-started__whats-new-in-iis-8__iis-80-server-name-indication-sni-ssl-scalability.md",
+      "title": "Indicação de nome do servidor do IIS 8.0 (SNI): escalabilidade do SSL | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-websocket-protocol-support",
+      "file": "get-started__whats-new-in-iis-8__iis-80-websocket-protocol-support.md",
+      "title": "Suporte ao protocolo WebSocket do IIS 8.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45",
+      "file": "get-started__whats-new-in-iis-8__iis-80-using-aspnet-35-and-aspnet-45.md",
+      "title": "IIS 8.0 usando ASP.NET 3.5 e ASP.NET 4.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-application-initialization",
+      "file": "get-started__whats-new-in-iis-8__iis-80-application-initialization.md",
+      "title": "Inicialização de aplicativo do IIS 8.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions",
+      "file": "get-started__whats-new-in-iis-8__iis-80-dynamic-ip-address-restrictions.md",
+      "title": "Restrições de endereço IP dinâmico do IIS 8.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-7/iis7-and-above-security-improvements",
+      "file": "get-started__whats-new-in-iis-7__iis7-and-above-security-improvements.md",
+      "title": "Melhorias de segurança do IIS7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above",
+      "file": "get-started__whats-new-in-iis-7__changes-in-security-between-iis-60-and-iis-7-and-above.md",
+      "title": "Alterações na segurança entre o IIS 6.0 e o IIS 7 e superior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7",
+      "file": "get-started__whats-new-in-iis-7__what39s-new-for-microsoft-and-ftp-in-iis-7.md",
+      "title": "Novidades para Microsoft e FTP no IIS 7? | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7",
+      "file": "get-started__whats-new-in-iis-7__what39s-new-for-webdav-and-iis-7.md",
+      "title": "Novidades para WebDAV e IIS 7? | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008",
+      "file": "install__installing-iis-7__upgrading-to-iis-70-on-windows-server-2008.md",
+      "title": "Atualizando para o IIS 7.0 no Windows Server 2008 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/installing-necessary-iis-components-on-windows-vista",
+      "file": "install__installing-iis-7__installing-necessary-iis-components-on-windows-vista.md",
+      "title": "Instalando componentes necessários do IIS 7.0 no Windows Vista | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2",
+      "file": "install__installing-iis-7__installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md",
+      "title": "Instalando o IIS 7 no Windows Server 2008 ou no Windows Server 2008 R2 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7",
+      "file": "install__installing-iis-7__installing-iis-on-windows-vista-and-windows-7.md",
+      "title": "Instalando o IIS 7 no Windows Vista e no Windows 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/compatibility-and-feature-requirements-for-windows-vista",
+      "file": "install__installing-iis-7__compatibility-and-feature-requirements-for-windows-vista.md",
+      "title": "Compatibilidade e requisitos de recursos para o Windows Vista | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/understanding-setup-in-iis",
+      "file": "install__installing-iis-7__understanding-setup-in-iis.md",
+      "title": "Noções básicas sobre a instalação no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/installing-iis-from-the-command-line",
+      "file": "install__installing-iis-7__installing-iis-from-the-command-line.md",
+      "title": "Instalando o IIS 7.0 da linha de comando | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/using-unattended-setup-to-install-iis",
+      "file": "install__installing-iis-7__using-unattended-setup-to-install-iis.md",
+      "title": "Usando a instalação autônoma para instalar o IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/discover-installed-components",
+      "file": "install__installing-iis-7__discover-installed-components.md",
+      "title": "Descobrir componentes instalados | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/install-typical-iis-workloads",
+      "file": "install__installing-iis-7__install-typical-iis-workloads.md",
+      "title": "Instalar cargas de trabalho típicas do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/install-and-configure-iis-on-server-core",
+      "file": "install__installing-iis-7__install-and-configure-iis-on-server-core.md",
+      "title": "Instalar e configurar o IIS 7 no Server Core | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/applicationhost-helper-service",
+      "file": "install__installing-iis-7__applicationhost-helper-service.md",
+      "title": "Serviço Auxiliar do ApplicationHost | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008",
+      "file": "install__installing-iis-7__how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md",
+      "title": "Como instalar o ASP.NET 1.1 com o IIS7 no Vista e no Windows 2008 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/iis-features-and-vista-editions",
+      "file": "install__installing-iis-7__iis-features-and-vista-editions.md",
+      "title": "Recursos do IIS 7.0 e Edições do Vista | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy",
+      "file": "install__installing-publishing-technologies__installing-and-configuring-web-deploy.md",
+      "title": "Instalando e configurando a implantação da Web no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2",
+      "file": "install__installing-iis-7__install-windows-server-2008-and-windows-server-2008-r2.md",
+      "title": "Instalar o Windows Server 2008 e o Windows Server 2008 R2 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7",
+      "file": "install__installing-publishing-technologies__installing-and-configuring-ftp-7-on-iis-7.md",
+      "title": "Instalando e configurando o FTP 7 no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis",
+      "file": "install__installing-publishing-technologies__installing-and-configuring-webdav-on-iis.md",
+      "title": "Instalando e configurando o WebDAV no IIS 7 e posterior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
+      "file": "install__installing-publishing-technologies__installing-and-configuring-web-deploy-on-iis-80-or-later.md",
+      "title": "Instalando e configurando a implantação da Web no IIS 8.0 ou posterior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2",
+      "file": "install__installing-iis-85__installing-iis-85-on-windows-server-2012-r2.md",
+      "title": "Instalar o IIS 8.5 no Windows Server 2012 R2 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/select-a-provisioning-option",
+      "file": "manage__creating-websites__select-a-provisioning-option.md",
+      "title": "Selecionar uma opção de provisionamento | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/provisioning-ftp-75-sites",
+      "file": "manage__creating-websites__provisioning-ftp-75-sites.md",
+      "title": "Provisionando sites ftp 7.5 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/provisioning-iis-7-sites",
+      "file": "manage__creating-websites__provisioning-iis-7-sites.md",
+      "title": "Provisionamento de sites do IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting",
+      "file": "manage__creating-websites__provisioning-iis-7-sites-for-shared-hosting.md",
+      "title": "Provisionando sites do IIS 7 para hospedagem compartilhada | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/iis-8-new-features-overview",
+      "file": "manage__creating-websites__iis-8-new-features-overview.md",
+      "title": "Visão geral dos novos recursos do IIS 8 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/creating-websites/scenario-build-a-static-website-on-iis",
+      "file": "manage__creating-websites__scenario-build-a-static-website-on-iis.md",
+      "title": "Criar um site estático no IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/provisioining-sql-2005-resources",
+      "file": "manage__provisioning-and-managing-iis__provisioining-sql-2005-resources.md",
+      "title": "Provisionando recursos do SQL 2005 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/iis-management-and-administration",
+      "file": "manage__provisioning-and-managing-iis__iis-management-and-administration.md",
+      "title": "Gerenciamento e Administração do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/hosted-services-control-panels",
+      "file": "manage__provisioning-and-managing-iis__hosted-services-control-panels.md",
+      "title": "Painéis de controle de serviços hospedados | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/installing-iis-modules-in-shared-configuration-environments",
+      "file": "manage__provisioning-and-managing-iis__installing-iis-modules-in-shared-configuration-environments.md",
+      "title": "Instalando módulos do IIS em ambientes de configuração compartilhada | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/websitepanel",
+      "file": "manage__provisioning-and-managing-iis__websitepanel.md",
+      "title": "WebsitePanel | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/features-of-the-windows-process-activation-service-was",
+      "file": "manage__provisioning-and-managing-iis__features-of-the-windows-process-activation-service-was.md",
+      "title": "Recursos do Serviço de Ativação de Processo do Windows (WAS) | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/services-overview",
+      "file": "manage__provisioning-and-managing-iis__services-overview.md",
+      "title": "Visão geral dos serviços | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/setting-up-components",
+      "file": "manage__provisioning-and-managing-iis__setting-up-components.md",
+      "title": "Implementação de serviços | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/consuming-the-services",
+      "file": "manage__provisioning-and-managing-iis__consuming-the-services.md",
+      "title": "Consumindo os serviços | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/microsoftwebadministration",
+      "file": "manage__provisioning-and-managing-iis__microsoftwebadministration.md",
+      "title": "Microsoft.Web.Administration | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/iis-7-wmi-provider",
+      "file": "manage__provisioning-and-managing-iis__iis-7-wmi-provider.md",
+      "title": "Provedor WMI do IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/appcmdexe",
+      "file": "manage__provisioning-and-managing-iis__appcmdexe.md",
+      "title": "AppCmd.exe | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/other-managed-code-samples",
+      "file": "manage__provisioning-and-managing-iis__other-managed-code-samples.md",
+      "title": "Outros exemplos de código gerenciado | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning",
+      "file": "manage__provisioning-and-managing-iis__shared-configuration-and-remote-provisioning.md",
+      "title": "Configuração compartilhada e provisionamento remoto | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/using-managed-apis-in-iis-7",
+      "file": "manage__provisioning-and-managing-iis__using-managed-apis-in-iis-7.md",
+      "title": "Usando APIs gerenciadas no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/provisioning-options-in-iis-7",
+      "file": "manage__provisioning-and-managing-iis__provisioning-options-in-iis-7.md",
+      "title": "Opções de provisionamento no IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/configure-logging-in-iis",
+      "file": "manage__provisioning-and-managing-iis__configure-logging-in-iis.md",
+      "title": "Configurar o registro em log no IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/provisioning-sample-in-c",
+      "file": "manage__provisioning-and-managing-iis__provisioning-sample-in-c.md",
+      "title": "Exemplo de provisionamento em C# | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/provisioning-and-managing-iis/managing-iis-log-file-storage",
+      "file": "manage__provisioning-and-managing-iis__managing-iis-log-file-storage.md",
+      "title": "Gerenciando o armazenamento de arquivos de log do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/configuring-ssl-in-iis-manager",
+      "file": "manage__configuring-security__configuring-ssl-in-iis-manager.md",
+      "title": "Configurando o SSL no Gerenciador do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/using-encryption-to-protect-passwords",
+      "file": "manage__configuring-security__using-encryption-to-protect-passwords.md",
+      "title": "Usando criptografia para proteger senhas | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/application-pool-identities-and-sql-server-express",
+      "file": "manage__configuring-security__application-pool-identities-and-sql-server-express.md",
+      "title": "Identidades do Pool de Aplicativos e SQL Server Express | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/use-request-filtering",
+      "file": "manage__configuring-security__use-request-filtering.md",
+      "title": "Usar filtragem de solicitação | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/understanding-iis-url-authorization",
+      "file": "manage__configuring-security__understanding-iis-url-authorization.md",
+      "title": "Noções básicas sobre a autorização de URL do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/configuring-one-to-one-client-certificate-mappings",
+      "file": "manage__configuring-security__configuring-one-to-one-client-certificate-mappings.md",
+      "title": "Configurando mapeamentos de certificado de cliente um para um | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/how-to-set-up-ssl-on-iis",
+      "file": "manage__configuring-security__how-to-set-up-ssl-on-iis.md",
+      "title": "Como configurar o SSL no IIS 7 ou posterior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/using-dynamic-ip-restrictions",
+      "file": "manage__configuring-security__using-dynamic-ip-restrictions.md",
+      "title": "Usando restrições de IP dinâmicas | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/using-enhanced-request-filtering-features-in-iis",
+      "file": "manage__configuring-security__using-enhanced-request-filtering-features-in-iis.md",
+      "title": "Usando recursos avançados de filtragem de solicitações no IIS7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/ensure-security-isolation-for-web-sites",
+      "file": "manage__configuring-security__ensure-security-isolation-for-web-sites.md",
+      "title": "Garantir o isolamento de segurança para sites | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/application-pool-identities",
+      "file": "manage__configuring-security__application-pool-identities.md",
+      "title": "Identidades do pool de aplicativos | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging",
+      "file": "manage__configuring-security__analyzing-client-usage-data-with-iis-user-access-logging.md",
+      "title": "Análise dos dados de uso do cliente com o registro de acesso do usuário do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/configuring-security/configure-request-filtering-in-iis",
+      "file": "manage__configuring-security__configure-request-filtering-in-iis.md",
+      "title": "Configurar a Filtragem de Solicitações no IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-performance-settings/using-wsrm-to-manage-iis-7-apppool-cpu-utilization",
+      "file": "manage__managing-performance-settings__using-wsrm-to-manage-iis-7-apppool-cpu-utilization.md",
+      "title": "Usando o WSRM para gerenciar a utilização da CPU do AppPool do IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-performance-settings/improving-performance-with-native-output-caching",
+      "file": "manage__managing-performance-settings__improving-performance-with-native-output-caching.md",
+      "title": "Melhorando o desempenho com o cache de saída nativa | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-performance-settings/walkthrough-iis-output-caching",
+      "file": "manage__managing-performance-settings__walkthrough-iis-output-caching.md",
+      "title": "Passo a passo: cache de saída do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-performance-settings/configure-iis-7-output-caching",
+      "file": "manage__managing-performance-settings__configure-iis-7-output-caching.md",
+      "title": "Configurar o cache de saída do IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/delegating-configuration-to-webconfig-files",
+      "file": "manage__managing-your-configuration-settings__delegating-configuration-to-webconfig-files.md",
+      "title": "Delegando a configuração para arquivos de web.config | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration",
+      "file": "manage__managing-your-configuration-settings__configuring-a-web-farm-using-iis-shared-configuration.md",
+      "title": "Configurando um farm da Web usando a configuração compartilhada do IIS | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/adding-ie-9-mime-types-to-iis",
+      "file": "manage__managing-your-configuration-settings__adding-ie-9-mime-types-to-iis.md",
+      "title": "Adicionando tipos MIME do IE 9 ao IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above",
+      "file": "manage__managing-your-configuration-settings__metabase-compatibility-with-iis-7-and-above.md",
+      "title": "Compatibilidade do Metabase com o IIS 7 e superior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/how-to-use-metabase-compatibility-with-iis-7-and-above",
+      "file": "manage__managing-your-configuration-settings__how-to-use-metabase-compatibility-with-iis-7-and-above.md",
+      "title": "Como usar a compatibilidade do Metabase com o IIS 7 e superior | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/using-configuration-history-with-iis-7-and-iis-8",
+      "file": "manage__managing-your-configuration-settings__using-configuration-history-with-iis-7-and-iis-8.md",
+      "title": "Usando o histórico de configuração com o IIS 7 e o IIS 8 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis",
+      "file": "manage__managing-your-configuration-settings__an-overview-of-feature-delegation-in-iis.md",
+      "title": "Uma visão geral da delegação de recursos no IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/understanding-iis-configuration-delegation",
+      "file": "manage__managing-your-configuration-settings__understanding-iis-configuration-delegation.md",
+      "title": "Noções básicas sobre a delegação de configuração do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/how-to-use-configuration-delegation-in-iis",
+      "file": "manage__managing-your-configuration-settings__how-to-use-configuration-delegation-in-iis.md",
+      "title": "Como usar a delegação de configuração no IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/shared-configuration_264",
+      "file": "manage__managing-your-configuration-settings__shared-configuration_264.md",
+      "title": "Configuração compartilhada com o IIS 7 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts",
+      "file": "manage__managing-your-configuration-settings__using-configuration-editor-generate-scripts.md",
+      "title": "Usando o Editor de Configuração: gerar scripts | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/editing-collections-using-configuration-editor-complex-sections",
+      "file": "manage__managing-your-configuration-settings__editing-collections-using-configuration-editor-complex-sections.md",
+      "title": "Editando coleções usando o Editor de Configuração: Seções Complexas | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/managing-your-configuration-settings/editing-collections-with-configuration-editor",
+      "file": "manage__managing-your-configuration-settings__editing-collections-with-configuration-editor.md",
+      "title": "Editando coleções com o Editor de Configuração | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi",
+      "file": "manage__scripting__managing-applications-and-application-pools-on-iis-with-wmi.md",
+      "title": "Gerenciando aplicativos e pools de aplicativos no IIS 7.0 com WMI | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/managing-sites-with-the-iis-wmi-provider",
+      "file": "manage__scripting__managing-sites-with-the-iis-wmi-provider.md",
+      "title": "Gerenciando sites com o provedor WMI do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi",
+      "file": "manage__scripting__managing-worker-processes-and-appdomains-in-iis-with-wmi.md",
+      "title": "Gerenciando processos de trabalho e AppDomains no IIS 7 com WMI | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/how-to-use-microsoftwebadministration",
+      "file": "manage__scripting__how-to-use-microsoftwebadministration.md",
+      "title": "Como usar Microsoft.Web.Administration | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/get-to-know-the-iis-wmi-provider-using-cim-studio",
+      "file": "manage__scripting__get-to-know-the-iis-wmi-provider-using-cim-studio.md",
+      "title": "Conheça o provedor WMI do IIS 7.0 usando o CIM Studio | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa",
+      "file": "manage__scripting__accessing-configuration-sections-using-microsoftwebadministration-mwa.md",
+      "title": "Acessando seções de configuração usando Microsoft.Web.Administration (MWA) | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/powershell/writing-powershell-commandlets-for-iis",
+      "file": "manage__powershell__writing-powershell-commandlets-for-iis.md",
+      "title": "Escrevendo commandlets do PowerShell para o IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/powershell/an-introduction-to-windows-powershell-and-iis",
+      "file": "manage__powershell__an-introduction-to-windows-powershell-and-iis.md",
+      "title": "Uma introdução ao Windows PowerShell e ao IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/powershell/installing-the-iis-powershell-snap-in",
+      "file": "manage__powershell__installing-the-iis-powershell-snap-in.md",
+      "title": "Instalando o Snap-in do PowerShell do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/powershell/getting-started-with-the-iis-powershell-snap-in",
+      "file": "manage__powershell__getting-started-with-the-iis-powershell-snap-in.md",
+      "title": "Introdução ao Snap-in do PowerShell do IIS 7.0 | Microsoft Learn",
+      "depth": 1
+    },
+    {
+      "url": "https://learn.microsoft.com/pt-br/iis/manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace",
+      "file": "manage__powershell__powershell-snap-in-navigating-the-iis-snap-in-namespace.md",
+      "title": "Snap-in do PowerShell: Navegação no namespace do snap-in do IIS | Microsoft Learn",
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+# mod_info - Apache HTTP Server Version 2.2
+
+> **Fonte / Source:** https://httpd.apache.org/docs/2.2/pt-br/mod/mod_info.html
+
+---
+
+[Modules](mod.md) | [Directives](mod__directives.md) | [FAQ](http://wiki.apache.org/httpd/FAQ) | [Glossary](glossary.md) | [Sitemap](sitemap.md)
+
+Apache HTTP Server Version 2.2
+
+![](../images/feather.gif)
+
+[![<-](../images/left.gif "<-")](mod.md)
+
+[Apache](http://www.apache.org/) > [HTTP Server](http://httpd.apache.org/) > [Documentation](http://httpd.apache.org/docs/) > [Version 2.2](index.md) > [Modules](mod.md)
+
+#### Please note
+
+This document refers to the **2.2** version of Apache httpd, which is no longer maintained. The active release is documented [here](http://httpd.apache.org/docs/current). If you have not already upgraded, please follow [this link](http://httpd.apache.org/docs/current/upgrading.html) for more information.
+
+You may follow [this link](http://httpd.apache.org/docs/current/mod/mod_info.html) to go to the current version of this document.
+
+# Apache Module mod\_info
+
+|  |  |
+| --- | --- |
+| [Description:](mod__module-dict.md#Description) | Provides a comprehensive overview of the server configuration |
+| [Status:](mod__module-dict.md#Status) | Extension |
+| [Module Identifier:](mod__module-dict.md#ModuleIdentifier) | info\_module |
+| [Source File:](mod__module-dict.md#SourceFile) | mod\_info.c |
+
+### Summary
+
+To configure `mod_info`, add the following to your
+`httpd.conf` file.
+
+`<Location /server-info>  
+
+SetHandler server-info  
+</Location>`
+
+You may wish to use `mod_authz_host` inside the
+`<Location>`
+directive to limit access to your server configuration
+information:
+
+`<Location /server-info>  
+
+SetHandler server-info  
+Order deny,allow  
+Deny from all  
+Allow from yourcompany.com  
+</Location>`
+
+Once configured, the server information is obtained by
+accessing `http://your.host.example.com/server-info`
+
+### Topics
+
+- ![](../images/down.gif) [Security Issues](#security)
+- ![](../images/down.gif) [Selecting the information shown](#queries)
+- ![](../images/down.gif) [Known Limitations](#limitations)
+
+### Directives
+
+- ![](../images/down.gif) [AddModuleInfo](#addmoduleinfo)
+
+- [Comments](#comments_section)
+
+[![top](../images/up.gif)](#page-header)
+
+## Security Issues
+
+Once `mod_info` is loaded into the server, its
+handler capability is available in *all* configuration
+files, including per-directory files (*e.g.*,
+`.htaccess`). This may have security-related
+ramifications for your site.
+
+In particular, this module can leak sensitive information
+from the configuration directives of other Apache modules such as
+system paths, usernames/passwords, database names, etc. Therefore,
+this module should **only** be
+used in a controlled environment and always with caution.
+
+You will probably want to use `mod_authz_host`
+to limit access to your server configuration information.
+
+### Access control
+
+`<Location /server-info>  
+
+SetHandler server-info  
+Order allow,deny  
+# Allow access from server itself  
+Allow from 127.0.0.1  
+# Additionally, allow access from local workstation  
+Allow from 192.168.1.17  
+</Location>`
+
+[![top](../images/up.gif)](#page-header)
+
+## Selecting the information shown
+
+By default, the server information includes a list of
+all enabled modules, and for each module, a description of
+the directives understood by that module, the hooks implemented
+by that module, and the relevant directives from the current
+configuration.
+
+Other views of the configuration information are available by
+appending a query to the `server-info` request. For
+example, `http://your.host.example.com/server-info?config`
+will show all configuration directives.
+
+`?<module-name>`
+:   Only information relevant to the named module
+
+`?config`
+:   Just the configuration directives, not sorted by module
+
+`?hooks`
+:   Only the list of Hooks each module is attached to
+
+`?list`
+:   Only a simple list of enabled modules
+
+`?server`
+:   Only the basic server information
+
+[![top](../images/up.gif)](#page-header)
+
+## Known Limitations
+
+`mod_info` provides its information by reading the
+parsed configuration, rather than reading the original configuration
+file. There are a few limitations as a result of the way the parsed
+configuration tree is created:
+
+- Directives which are executed immediately rather than being
+  stored in the parsed configuration are not listed. These include
+  `ServerRoot`,
+  `LoadModule`, and
+  `LoadFile`.
+- Directives which control the configuration file itself, such as
+  `Include`,
+  `<IfModule>` and
+  `<IfDefine>` are not
+  listed, but the included configuration directives are.
+- Comments are not listed. (This may be considered a feature.)
+- Configuration directives from `.htaccess` files are
+  not listed (since they do not form part of the permanent server
+  configuration).
+- Container directives such as `<Directory>` are listed normally, but
+  `mod_info` cannot figure out the line number for the
+  closing `</Directory>`.
+- Directives generated by third party modules such as
+  [mod\_perl](http://perl.apache.org)
+  might not be listed.
+
+[![top](../images/up.gif)](#page-header)
+
+## AddModuleInfo Directive
+
+|  |  |
+| --- | --- |
+| [Description:](mod__directive-dict.md#Description) | Adds additional information to the module information displayed by the server-info handler |
+| [Syntax:](mod__directive-dict.md#Syntax) | `AddModuleInfo module-name string` |
+| [Context:](mod__directive-dict.md#Context) | server config, virtual host |
+| [Status:](mod__directive-dict.md#Status) | Extension |
+| [Module:](mod__directive-dict.md#Module) | mod\_info |
+| [Compatibility:](mod__directive-dict.md#Compatibility) | Apache 1.3 and above |
+
+This allows the content of string to be shown as
+HTML interpreted, **Additional Information** for
+the module module-name. Example:
+
+`AddModuleInfo mod_deflate.c 'See <a \  
+
+href="http://www.apache.org/docs/2.2/mod/mod_deflate.html">\  
+http://www.apache.org/docs/2.2/mod/mod_deflate.html</a>'`
+
+Available Languages: [en](https://httpd.apache.org/docs/2.2/pt-br/en/mod/mod_info.html "English") |
+[ja](https://httpd.apache.org/docs/2.2/pt-br/ja/mod/mod_info.html "Japanese") |
+[ko](https://httpd.apache.org/docs/2.2/pt-br/ko/mod/mod_info.html "Korean")
+
+[![top](../images/up.gif)](#page-header)
+
+## Comments
+
+**Notice:**  
+This is not a Q&A section. Comments placed here should be pointed towards suggestions on improving the documentation or server, and may be removed again by our moderators if they are either implemented or considered invalid/off-topic. Questions on how to manage the Apache HTTP Server should be directed at either our IRC channel, #httpd, on Libera.chat, or sent to our [mailing lists](http://httpd.apache.org/lists.html).
+
+Copyright 2018 The Apache Software Foundation.  
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+[Modules](mod.md) | [Directives](mod__directives.md) | [FAQ](http://wiki.apache.org/httpd/FAQ) | [Glossary](glossary.md) | [Sitemap](sitemap.md)

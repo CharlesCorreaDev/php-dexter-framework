@@ -1,0 +1,146 @@
+{
+  "root_url": "https://web-framework.com/",
+  "scope_prefix": "https://web-framework.com/",
+  "total_pages": 23,
+  "generated_at": "2026-10-28T15:15:19Z",
+  "pages": [
+    {
+      "url": "https://web-framework.com/",
+      "file": "index.md",
+      "title": "WebFramework Documentation - WebFramework",
+      "depth": 0
+    },
+    {
+      "url": "https://web-framework.com/configuration/",
+      "file": "configuration.md",
+      "title": "Configuration Management - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/dependency-injection/",
+      "file": "dependency-injection.md",
+      "title": "Dependency Injection - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/entities-and-repositories/",
+      "file": "entities-and-repositories.md",
+      "title": "Entities and Repositories - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/routing/",
+      "file": "routing.md",
+      "title": "Routing - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/middlewares/",
+      "file": "middlewares.md",
+      "title": "Middleware Management - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/emitting-responses/",
+      "file": "emitting-responses.md",
+      "title": "Emitting Responses - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/input-validation/",
+      "file": "input-validation.md",
+      "title": "Input Validation - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/templating/",
+      "file": "templating.md",
+      "title": "Rendering and Templating - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/user-management-flows/",
+      "file": "user-management-flows.md",
+      "title": "User Management Flows - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/database/",
+      "file": "database.md",
+      "title": "Database Usage - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/database-migrations/",
+      "file": "database-migrations.md",
+      "title": "Database Migrations - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/caching/",
+      "file": "caching.md",
+      "title": "Caching - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/queueing/",
+      "file": "queueing.md",
+      "title": "Queueing System - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/tasks/",
+      "file": "tasks.md",
+      "title": "Tasks - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/instrumentation/",
+      "file": "instrumentation.md",
+      "title": "Instrumentation - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/logging/",
+      "file": "logging.md",
+      "title": "Logging - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/sanity-checks/",
+      "file": "sanity-checks.md",
+      "title": "Sanity Check System - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/translations/",
+      "file": "translations.md",
+      "title": "Multi-Lingual Support - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/events/",
+      "file": "events.md",
+      "title": "Event System - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/modules/",
+      "file": "modules.md",
+      "title": "WebFramework Modules - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/mailing/",
+      "file": "mailing.md",
+      "title": "Mailing System - WebFramework",
+      "depth": 1
+    },
+    {
+      "url": "https://web-framework.com/new-entity/",
+      "file": "new-entity.md",
+      "title": "Creating a new Entity - WebFramework",
+      "depth": 1
+    }
+  ]
+}

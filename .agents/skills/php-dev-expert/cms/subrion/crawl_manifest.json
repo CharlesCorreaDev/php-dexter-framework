@@ -1,0 +1,152 @@
+{
+  "root_url": "** https://github.com/intelliants/subrion/wiki/Coding-Standards",
+  "scope_prefix": "** https://github.com/intelliants/subrion/wiki/Coding-Standards",
+  "total_pages": 24,
+  "generated_at": "2026-10-28T18:55:22Z",
+  "pages": [
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Coding-Standards",
+      "file": "Coding-Standards.md",
+      "title": "Coding Standards · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Debug-mode",
+      "file": "Debug-mode.md",
+      "title": "Debug mode · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Extensions",
+      "file": "Extensions.md",
+      "title": "Extensions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Home",
+      "file": "Home.md",
+      "title": "Home · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Hybrid-Auth-Configuration",
+      "file": "Hybrid-Auth-Configuration.md",
+      "title": "Hybrid Auth Configuration · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki",
+      "file": "index.md",
+      "title": "Home · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Install-extension",
+      "file": "Install-extension.md",
+      "title": "Install extension · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Install-plugin",
+      "file": "Install-plugin.md",
+      "title": "Home · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Install-template",
+      "file": "Install-template.md",
+      "title": "Install template · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Installation",
+      "file": "Installation.md",
+      "title": "Installation · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Naming-Conventions",
+      "file": "Naming-Conventions.md",
+      "title": "Naming Conventions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Package-installation",
+      "file": "Package-installation.md",
+      "title": "Package installation · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Smarty-custom-functions",
+      "file": "Smarty-custom-functions.md",
+      "title": "Smarty custom functions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Templates-structure",
+      "file": "Templates-structure.md",
+      "title": "Templates structure · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Coding-Standards",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Coding-Standards.md",
+      "title": "Coding Standards · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Debug-mode",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Debug-mode.md",
+      "title": "Debug mode · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Extensions",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Extensions.md",
+      "title": "Extensions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Hybrid-Auth-Configuration",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Hybrid-Auth-Configuration.md",
+      "title": "Hybrid Auth Configuration · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Install-extension",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Install-extension.md",
+      "title": "Install extension · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Install-template",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Install-template.md",
+      "title": "Install template · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Installation",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Installation.md",
+      "title": "Installation · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Naming-Conventions",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Naming-Conventions.md",
+      "title": "Naming Conventions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Smarty-custom-functions",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Smarty-custom-functions.md",
+      "title": "Smarty custom functions · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    },
+    {
+      "url": "** https://github.com/intelliants/subrion/wiki/Templates-structure",
+      "file": "wiki__github_com_intelliants_subrion_wiki_Templates-structure.md",
+      "title": "Templates structure · intelliants/subrion Wiki · GitHub",
+      "depth": 1
+    }
+  ]
+}

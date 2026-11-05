@@ -1,0 +1,349 @@
+# Reflexão
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/book.reflection.php
+
+---
+
+# Reflexão
+
+# Introdução
+
+O PHP vem com uma API completa de reflexão que acrescenta a capacidade de realizar
+introspecção em classes, interfaces, funções,
+métodos e extensões. Além disso, a API de reflexão oferece maneiras de
+recuperar comentários de documentação para as funções, classes e métodos.
+
+Favor observar que em algumas partes da API interna
+falta o código necessário para funcionar com a extensão de reflexão.
+Por exemplo, uma classe interna do PHP pode estar com dados de reflexão faltando para
+propriedades. Porém, estes poucos casos são considerados bugs e devem, portanto,
+ser descobertos e corrigidos.
+
+- [Examples](reflection.examples.md)
+- [Estendendo](reflection.extending.md)
+- [Reflection](class.reflection.md) — Classe Reflection
+  - [Reflection::export](reflection.export.md) — Exports
+  - [Reflection::getModifierNames](reflection.getmodifiernames.md) — Obtém os nomes dos modificadores
+- [ReflectionClass](class.reflectionclass.md) — Classe ReflectionClass
+  - [ReflectionClass::\_\_construct](reflectionclass.construct.md) — Constrói uma ReflectionClass
+  - [ReflectionClass::export](reflectionclass.export.md) — Exporta uma classe
+  - [ReflectionClass::getAttributes](reflectionclass.getattributes.md) — Obtém atributos
+  - [ReflectionClass::getConstant](reflectionclass.getconstant.md) — Obtém uma constante definida
+  - [ReflectionClass::getConstants](reflectionclass.getconstants.md) — Obtém constantes
+  - [ReflectionClass::getConstructor](reflectionclass.getconstructor.md) — Obtém o construtor da classe
+  - [ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md) — Obtém propriedades padrão
+  - [ReflectionClass::getDocComment](reflectionclass.getdoccomment.md) — Obtém comentários doc
+  - [ReflectionClass::getEndLine](reflectionclass.getendline.md) — Obtém a linha final
+  - [ReflectionClass::getExtension](reflectionclass.getextension.md) — Obtém um objeto ReflectionExtension para a extensão que definiu a classe
+  - [ReflectionClass::getExtensionName](reflectionclass.getextensionname.md) — Obtém o nome da extensão que definiu a classe
+  - [ReflectionClass::getFileName](reflectionclass.getfilename.md) — Obtém o nome do arquivo no qual a classe foi definida
+  - [ReflectionClass::getInterfaceNames](reflectionclass.getinterfacenames.md) — Obtém os nomes das interfaces
+  - [ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md) — Obtém as interfaces
+  - [ReflectionClass::getLazyInitializer](reflectionclass.getlazyinitializer.md) — Obtém o inicializador lento
+  - [ReflectionClass::getMethod](reflectionclass.getmethod.md) — Obtém um ReflectionMethod para um método de classe
+  - [ReflectionClass::getMethods](reflectionclass.getmethods.md) — Obtém um array de métodos
+  - [ReflectionClass::getModifiers](reflectionclass.getmodifiers.md) — Obtém os modificadores de classe
+  - [ReflectionClass::getName](reflectionclass.getname.md) — Obtém o nome da classe
+  - [ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md) — Obtém o nome do namespace
+  - [ReflectionClass::getParentClass](reflectionclass.getparentclass.md) — Obtém a classe pai
+  - [ReflectionClass::getProperties](reflectionclass.getproperties.md) — Obtém propriedades
+  - [ReflectionClass::getProperty](reflectionclass.getproperty.md) — Obtém um ReflectionProperty para a propriedade de uma classe
+  - [ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md) — Obtém um ReflectionClassConstant para a constante de uma classe
+  - [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md) — Obtém constantes de classe
+  - [ReflectionClass::getShortName](reflectionclass.getshortname.md) — Obtém o nome curto
+  - [ReflectionClass::getStartLine](reflectionclass.getstartline.md) — Obtém o número da linha inicial
+  - [ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md) — Obtém propriedades estáticas
+  - [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md) — Obtém o valor da propriedade estática
+  - [ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md) — RRetorna um array de aliases de trait
+  - [ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md) — Retorna um array de nomes de traits usadas por esta classe
+  - [ReflectionClass::getTraits](reflectionclass.gettraits.md) — Retorna um array de traits usadas por esta classe
+  - [ReflectionClass::hasConstant](reflectionclass.hasconstant.md) — Verifica se a constante está definida
+  - [ReflectionClass::hasMethod](reflectionclass.hasmethod.md) — Verifica se o método está definido
+  - [ReflectionClass::hasProperty](reflectionclass.hasproperty.md) — Verifica se a propriedade está definida
+  - [ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md) — Implementa interface
+  - [ReflectionClass::initializeLazyObject](reflectionclass.initializelazyobject.md) — Força a inicialização de um objeto lento
+  - [ReflectionClass::inNamespace](reflectionclass.innamespace.md) — Verifica se está no namespace
+  - [ReflectionClass::isAbstract](reflectionclass.isabstract.md) — Verifica se a classe é abstrata
+  - [ReflectionClass::isAnonymous](reflectionclass.isanonymous.md) — Verifica se uma classe é anônima
+  - [ReflectionClass::isCloneable](reflectionclass.iscloneable.md) — Retorna se esta classe é clonável
+  - [ReflectionClass::isEnum](reflectionclass.isenum.md) — Retorna se esta é um enum
+  - [ReflectionClass::isFinal](reflectionclass.isfinal.md) — Verifica se a classe é final
+  - [ReflectionClass::isInstance](reflectionclass.isinstance.md) — Verifica a classe por instância
+  - [ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md) — Verifica se a classe é instanciável
+  - [ReflectionClass::isInterface](reflectionclass.isinterface.md) — Verifica se a classe é uma interface
+  - [ReflectionClass::isInternal](reflectionclass.isinternal.md) — Verifica se a classe está definida internamente por uma extensão ou pelo núcleo
+  - [ReflectionClass::isIterable](reflectionclass.isiterable.md) — Verifica se esta classe é iterável
+  - [ReflectionClass::isIterateable](reflectionclass.isiterateable.md) — Sinônimo de ReflectionClass::isIterable
+  - [ReflectionClass::isReadOnly](reflectionclass.isreadonly.md) — Verifica se a classe é somente leitura
+  - [ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md) — Verifica se é uma subclasse
+  - [ReflectionClass::isTrait](reflectionclass.istrait.md) — Retorna se esta é uma trait
+  - [ReflectionClass::isUninitializedLazyObject](reflectionclass.isuninitializedlazyobject.md) — Verifica se um objeto é lento e não inicializado
+  - [ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md) — Verifica se foi definida pelo usuário
+  - [ReflectionClass::markLazyObjectAsInitialized](reflectionclass.marklazyobjectasinitialized.md) — Marca um objeto lento como inicializado sem chamar o inicializador ou a fábrica
+  - [ReflectionClass::newInstance](reflectionclass.newinstance.md) — Cria uma nova instância de classe a partir de determinados argumentos
+  - [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md) — Cria uma nova instância de classe a partir de determinados argumentos
+  - [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md) — Cria uma nova instância de classe sem invocar o construtor
+  - [ReflectionClass::newLazyGhost](reflectionclass.newlazyghost.md) — Cria uma nova instância de fantasma lento
+  - [ReflectionClass::newLazyProxy](reflectionclass.newlazyproxy.md) — Cria uma nova instância de proxy lento
+  - [ReflectionClass::resetAsLazyGhost](reflectionclass.resetaslazyghost.md) — Redefine um objeto e o marca como lento
+  - [ReflectionClass::resetAsLazyProxy](reflectionclass.resetaslazyproxy.md) — Redefine um objeto e o marca como lento
+  - [ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md) — Define o valor da propriedade estática pública
+  - [ReflectionClass::\_\_toString](reflectionclass.tostring.md) — Retorna a representação em string do objeto ReflectionClass
+- [ReflectionClassConstant](class.reflectionclassconstant.md) — A classe ReflectionClassConstant
+  - [ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.md) — Constrói uma ReflectionClassConstant
+  - [ReflectionClassConstant::export](reflectionclassconstant.export.md) — Exportação
+  - [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md) — Obtém atributos
+  - [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.md) — Obtém a classe declarada
+  - [ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md) — Obtém comentários doc
+  - [ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md) — Obtém os modificadores constantes da classe
+  - [ReflectionClassConstant::getName](reflectionclassconstant.getname.md) — Obtém o nome da constante
+  - [ReflectionClassConstant::getType](reflectionclassconstant.gettype.md) — Obtém o tipo de uma constante de classe
+  - [ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md) — Obtém valor
+  - [ReflectionClassConstant::hasType](reflectionclassconstant.hastype.md) — Verifica se uma constante de classe tem um tipo
+  - [ReflectionClassConstant::isDeprecated](reflectionclassconstant.isdeprecated.md) — Verifica se está descontinuada
+  - [ReflectionClassConstant::isEnumCase](reflectionclassconstant.isenumcase.md) — Verifica se a constante de classe é um caso de enumeração
+  - [ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md) — Verifica se a constante da classe é final
+  - [ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md) — Verifica se a constante da classe é privada
+  - [ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md) — Verifica se a constante de classe é protegida
+  - [ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md) — Verifica se a constante da classe é pública
+  - [ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md) — Retorna a representação em string do objeto ReflectionClassConstant
+- [ReflectionConstant](class.reflectionconstant.md) — A classe ReflectionConstant
+  - [ReflectionConstant::\_\_construct](reflectionconstant.construct.md) — Constrói um objeto ReflectionConstant
+  - [ReflectionConstant::getAttributes](reflectionconstant.getattributes.md) — Obtém atributos
+  - [ReflectionConstant::getExtension](reflectionconstant.getextension.md) — Obtém ReflectionExtension da extensão de definição
+  - [ReflectionConstant::getExtensionName](reflectionconstant.getextensionname.md) — Obtém o nome da extensão definidora
+  - [ReflectionConstant::getFileName](reflectionconstant.getfilename.md) — Obtém o nome do arquivo de definição
+  - [ReflectionConstant::getName](reflectionconstant.getname.md) — Obtém o nome
+  - [ReflectionConstant::getNamespaceName](reflectionconstant.getnamespacename.md) — Obtém o nome do namespace
+  - [ReflectionConstant::getShortName](reflectionconstant.getshortname.md) — Obtém o nome abreviado
+  - [ReflectionConstant::getValue](reflectionconstant.getvalue.md) — Obtém o valor
+  - [ReflectionConstant::isDeprecated](reflectionconstant.isdeprecated.md) — Verifica se foi descontinuada
+  - [ReflectionConstant::\_\_toString](reflectionconstant.tostring.md) — Retorna representação em string
+- [ReflectionEnum](class.reflectionenum.md) — A classe ReflectionEnum
+  - [ReflectionEnum::\_\_construct](reflectionenum.construct.md) — Instancia um objeto ReflectionEnum
+  - [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md) — Obtém o tipo de apoio de um Enum, se houver
+  - [ReflectionEnum::getCase](reflectionenum.getcase.md) — Retorna um caso específico de um Enum
+  - [ReflectionEnum::getCases](reflectionenum.getcases.md) — Retorna uma lista de todos os casos em um Enum
+  - [ReflectionEnum::hasCase](reflectionenum.hascase.md) — Verifica um caso em um Enum
+  - [ReflectionEnum::isBacked](reflectionenum.isbacked.md) — Determina se um Enum é um Backed Enum
+- [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) — A classe ReflectionEnumUnitCase
+  - [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md) — Instancia um objeto ReflectionEnumUnitCase
+  - [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md) — Obtém o reflexo do enum deste caso
+  - [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md) — Obtém o objeto enum case descrito por este objeto de reflexão
+- [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md) — A classe ReflectionEnumBackedCase
+  - [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md) — Instancia um objeto ReflectionEnumBackedCase
+  - [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md) — Obtém o valor escalar que apoia este caso Enum
+- [ReflectionZendExtension](class.reflectionzendextension.md) — A classe ReflectionZendExtension
+  - [ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md) — Clone
+  - [ReflectionZendExtension::\_\_construct](reflectionzendextension.construct.md) — Constrói um objeto ReflectionZendExtension
+  - [ReflectionZendExtension::export](reflectionzendextension.export.md) — Exporta
+  - [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md) — Obtém o autor
+  - [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md) — Obtém os direitos autorais
+  - [ReflectionZendExtension::getName](reflectionzendextension.getname.md) — Obtém o nome
+  - [ReflectionZendExtension::getURL](reflectionzendextension.geturl.md) — Obtém a URL
+  - [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md) — Obtém a versão
+  - [ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md) — Para string
+- [ReflectionExtension](class.reflectionextension.md) — Classe ReflectionExtension
+  - [ReflectionExtension::\_\_clone](reflectionextension.clone.md) — Clone
+  - [ReflectionExtension::\_\_construct](reflectionextension.construct.md) — Constrói um ReflectionExtension
+  - [ReflectionExtension::export](reflectionextension.export.md) — Exportação
+  - [ReflectionExtension::getClasses](reflectionextension.getclasses.md) — Obtém classes
+  - [ReflectionExtension::getClassNames](reflectionextension.getclassnames.md) — Obtém nomes de classes
+  - [ReflectionExtension::getConstants](reflectionextension.getconstants.md) — Obtém constantes
+  - [ReflectionExtension::getDependencies](reflectionextension.getdependencies.md) — Obtém dependências
+  - [ReflectionExtension::getFunctions](reflectionextension.getfunctions.md) — Obtém funções de extensão
+  - [ReflectionExtension::getINIEntries](reflectionextension.getinientries.md) — Obtém entradas de extensão ini
+  - [ReflectionExtension::getName](reflectionextension.getname.md) — Obtém o nome da extensão
+  - [ReflectionExtension::getVersion](reflectionextension.getversion.md) — Obtém a versão da extensão
+  - [ReflectionExtension::info](reflectionextension.info.md) — Imprime informações da extensão
+  - [ReflectionExtension::isPersistent](reflectionextension.ispersistent.md) — Retorna se esta extensão é persistente
+  - [ReflectionExtension::isTemporary](reflectionextension.istemporary.md) — Retorna se esta extensão é temporária
+  - [ReflectionExtension::\_\_toString](reflectionextension.tostring.md) — Para string
+- [ReflectionFunction](class.reflectionfunction.md) — A classe ReflectionFunction
+  - [ReflectionFunction::\_\_construct](reflectionfunction.construct.md) — Constrói um objeto ReflectionFunction
+  - [ReflectionFunction::export](reflectionfunction.export.md) — Função de exportação
+  - [ReflectionFunction::getClosure](reflectionfunction.getclosure.md) — Retorna um closure criado dinamicamente para a função
+  - [ReflectionFunction::invoke](reflectionfunction.invoke.md) — Invoca função
+  - [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md) — Invoca argumentos de função
+  - [ReflectionFunction::isAnonymous](reflectionfunction.isanonymous.md) — Verifica se uma função é anônima
+  - [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md) — Verifica se a função está desativada
+  - [ReflectionFunction::\_\_toString](reflectionfunction.tostring.md) — Retorna a representação em string do objeto ReflectionFunction
+- [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md) — A classe ReflectionFunctionAbstract
+  - [ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md) — Função de clone
+  - [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md) — Obtém atributos
+  - [ReflectionFunctionAbstract::getClosureCalledClass](reflectionfunctionabstract.getclosurecalledclass.md) — Retorna a classe correspondente a static:: dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md) — Retorna a classe correspondente ao escopo dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md) — Retorna o objeto que corresponde a $this dentro de uma closure
+  - [ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md) — Retorna um array das variáveis ​​usadas no Closure
+  - [ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md) — Obtém comentário doc
+  - [ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md) — Obtém o número da linha final
+  - [ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md) — Obtém informações da extensão
+  - [ReflectionFunctionAbstract::getExtensionName](reflectionfunctionabstract.getextensionname.md) — Obtém o nome da extensão
+  - [ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md) — Obtém o nome do arquivo
+  - [ReflectionFunctionAbstract::getName](reflectionfunctionabstract.getname.md) — Obtém o nome da função
+  - [ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md) — Obtém o nome do namespace
+  - [ReflectionFunctionAbstract::getNumberOfParameters](reflectionfunctionabstract.getnumberofparameters.md) — Obtém o número de parâmetros
+  - [ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md) — Obtém o número de parâmetros necessários
+  - [ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md) — Obtém parâmetros
+  - [ReflectionFunctionAbstract::getReturnType](reflectionfunctionabstract.getreturntype.md) — Obtém o tipo de retorno especificado de uma função
+  - [ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md) — Obtém o nome curto da função
+  - [ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md) — Obtém o número da linha inicial
+  - [ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md) — Obtém variáveis estáticas
+  - [ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md) — Retorna o tipo de retorno provisório associado à função
+  - [ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md) — Verifica se a função possui um tipo de retorno especificado
+  - [ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md) — Retorna se a função tem um tipo de retorno provisório
+  - [ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md) — Verifica se a função está no namespace
+  - [ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md) — Verifica se é um closure
+  - [ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md) — Verifica se está descontinuada
+  - [ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md) — Retorna se esta função é um gerador
+  - [ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md) — Verifica se é interno
+  - [ReflectionFunctionAbstract::isStatic](reflectiofunctionabstract.isstatic.md) — Verifica se a função é estática
+  - [ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md) — Verifica se foi definido pelo usuário
+  - [ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md) — Verifica se a função é variável
+  - [ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md) — Verifica se retorna referência
+  - [ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md) — Retorna a representação em string do objeto ReflectionFunctionAbstract
+- [ReflectionMethod](class.reflectionmethod.md) — A classe ReflectionMethod
+  - [ReflectionMethod::\_\_construct](reflectionmethod.construct.md) — Constrói um ReflectionMethod
+  - [ReflectionMethod::createFromMethodName](reflectionmethod.createfrommethodname.md) — Cria um novo ReflectionMethod
+  - [ReflectionMethod::export](reflectionmethod.export.md) — Exporta um método de reflexão
+  - [ReflectionMethod::getClosure](reflectionmethod.getclosure.md) — Retorna um closure criado dinamicamente para o método
+  - [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md) — Obtém a classe declarada para o método refletido
+  - [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md) — Obtém os modificadores do método
+  - [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md) — Obtém o protótipo do método (se houver)
+  - [ReflectionMethod::hasPrototype](reflectionmethod.hasprototype.md) — Retorna se um método tem um protótipo
+  - [ReflectionMethod::invoke](reflectionmethod.invoke.md) — Invoca
+  - [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md) — Invoca argumentos
+  - [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md) — Verifica se o método é abstrato
+  - [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md) — Verifica se o método é um construtor
+  - [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md) — Verifica se o método é um destrutor
+  - [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) — Verifica se o método é final
+  - [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) — Verifica se o método é privado
+  - [ReflectionMethod::isProtected](reflectionmethod.isprotected.md) — Verifica se o método é protegido
+  - [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) — Verifica se o método é público
+  - [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md) — Define acessibilidade do método
+  - [ReflectionMethod::\_\_toString](reflectionmethod.tostring.md) — Retorna a representação em string do objeto do método Reflection
+- [ReflectionNamedType](class.reflectionnamedtype.md) — A classe ReflectionNamedType
+  - [ReflectionNamedType::getName](reflectionnamedtype.getname.md) — Obtém o nome do tipo como uma string
+  - [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md) — Verifica se é um tipo interno
+- [ReflectionObject](class.reflectionobject.md) — A classe ReflectionObject
+  - [ReflectionObject::\_\_construct](reflectionobject.construct.md) — Constrói um ReflectionObject
+  - [ReflectionObject::export](reflectionobject.export.md) — Exporta
+- [ReflectionParameter](class.reflectionparameter.md) — A classe ReflectionParameter
+  - [ReflectionParameter::allowsNull](reflectionparameter.allowsnull.md) — Verifica se nulo é permitido
+  - [ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.md) — Retorna se este parâmetro pode ser passado por valor
+  - [ReflectionParameter::\_\_clone](reflectionparameter.clone.md) — Clone
+  - [ReflectionParameter::\_\_construct](reflectionparameter.construct.md) — Constrói
+  - [ReflectionParameter::export](reflectionparameter.export.md) — Exporta
+  - [ReflectionParameter::getAttributes](reflectionparameter.getattributes.md) — Obtém Atributos
+  - [ReflectionParameter::getClass](reflectionparameter.getclass.md) — Obtém um objeto ReflectionClass para o parâmetro que está sendo refletido ou null
+  - [ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md) — Obtém a classe declarada
+  - [ReflectionParameter::getDeclaringFunction](reflectionparameter.getdeclaringfunction.md) — Obtém a função de declaração
+  - [ReflectionParameter::getDefaultValue](reflectionparameter.getdefaultvalue.md) — Obtém o valor padrão do parâmetro
+  - [ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md) — Retorna o nome da constante do valor padrão se o valor padrão for constante ou nulo
+  - [ReflectionParameter::getName](reflectionparameter.getname.md) — Obtém o nome do parâmetro
+  - [ReflectionParameter::getPosition](reflectionparameter.getposition.md) — Obtém a posição do parâmetro
+  - [ReflectionParameter::getType](reflectionparameter.gettype.md) — Obtém o tipo de um parâmetro
+  - [ReflectionParameter::hasType](reflectionparameter.hastype.md) — Verifica se o parâmetro tem um tipo
+  - [ReflectionParameter::isArray](reflectionparameter.isarray.md) — Verifica se o parâmetro espera um array
+  - [ReflectionParameter::isCallable](reflectionparameter.iscallable.md) — Retorna se o parâmetro DEVE ser um callable
+  - [ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.md) — Verifica se um valor padrão está disponível
+  - [ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md) — Retorna se o valor padrão deste parâmetro é uma constante
+  - [ReflectionParameter::isOptional](reflectionparameter.isoptional.md) — Verifica se opcional
+  - [ReflectionParameter::isPassedByReference](reflectionparameter.ispassedbyreference.md) — Verifica se foi passado por referência
+  - [ReflectionParameter::isPromoted](reflectionparameter.ispromoted.md) — Verifica se um parâmetro está promovido a uma propriedade
+  - [ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md) — Verifica se o parâmetro é variado
+  - [ReflectionParameter::\_\_toString](reflectionparameter.tostring.md) — Para string
+- [ReflectionProperty](class.reflectionproperty.md) — A classe ReflectionProperty
+  - [ReflectionProperty::\_\_clone](reflectionproperty.clone.md) — Clone
+  - [ReflectionProperty::\_\_construct](reflectionproperty.construct.md) — Constrói um objeto ReflectionProperty
+  - [ReflectionProperty::export](reflectionproperty.export.md) — Exporta
+  - [ReflectionProperty::getAttributes](reflectionproperty.getattributes.md) — Obtém atributos
+  - [ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md) — Obtém a classe declarada
+  - [ReflectionProperty::getDefaultValue](reflectionproperty.getdefaultvalue.md) — Retorna o valor padrão declarado para uma propriedade
+  - [ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md) — Obtém o comentário doc da propriedade
+  - [ReflectionProperty::getHook](reflectionproperty.gethook.md) — Retorna um objeto de reflexão para um gancho especificado
+  - [ReflectionProperty::getHooks](reflectionproperty.gethooks.md) — Retorna um array de todos os ganchos nesta propriedade
+  - [ReflectionProperty::getMangledName](reflectionproperty.getmangledname.md) — Obtém o nome codificado da propriedade
+  - [ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md) — Obtém os modificadores de propriedade
+  - [ReflectionProperty::getName](reflectionproperty.getname.md) — Obtém o nome da propriedade
+  - [ReflectionProperty::getRawValue](reflectionproperty.getrawvalue.md) — Retorna o valor de uma propriedade, ignorando um gancho get se definido
+  - [ReflectionProperty::getSettableType](reflectionproperty.getsettabletype.md) — Retorna o tipo de parâmetro de um gancho set
+  - [ReflectionProperty::getType](reflectionproperty.gettype.md) — Obtém o tipo de uma propriedade
+  - [ReflectionProperty::getValue](reflectionproperty.getvalue.md) — Obtém o valor
+  - [ReflectionProperty::hasDefaultValue](reflectionproperty.hasdefaultvalue.md) — Verifica se a propriedade tem um valor padrão declarado
+  - [ReflectionProperty::hasHook](reflectionproperty.hashook.md) — Retorna se a propriedade tem um determinado gancho definido
+  - [ReflectionProperty::hasHooks](reflectionproperty.hashooks.md) — Retorna se a propriedade tem algum gancho definido
+  - [ReflectionProperty::hasType](reflectionproperty.hastype.md) — Verifica se a propriedade tem um tipo
+  - [ReflectionProperty::isAbstract](reflectionproperty.isabstract.md) — Determina se uma propriedade é abstrata
+  - [ReflectionProperty::isDefault](reflectionproperty.isdefault.md) — Verifica se a propriedade é uma propriedade padrão
+  - [ReflectionProperty::isDynamic](reflectionproperty.isdynamic.md) — Verifica se a propriedade é dinâmica
+  - [ReflectionProperty::isFinal](reflectionproperty.isfinal.md) — Determina se esta propriedade é final ou não
+  - [ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md) — Verifica se uma propriedade foi inicializada
+  - [ReflectionProperty::isLazy](reflectionproperty.islazy.md) — Verifica se uma propriedade é lenta
+  - [ReflectionProperty::isPrivate](reflectionproperty.isprivate.md) — Verifica se a propriedade é privada
+  - [ReflectionProperty::isPrivateSet](reflectionproperty.isprivateset.md) — Verifica se a propriedade é privada para escrita
+  - [ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md) — Verifica se a propriedade é promovida
+  - [ReflectionProperty::isProtected](reflectionproperty.isprotected.md) — Verifica se a propriedade é protegida
+  - [ReflectionProperty::isProtectedSet](reflectionproperty.isprotectedset.md) — Verifica se a propriedade está protegida para escrita
+  - [ReflectionProperty::isPublic](reflectionproperty.ispublic.md) — Verifica se a propriedade é pública
+  - [ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md) — Verifica se a propriedade é somente leitura
+  - [ReflectionProperty::isStatic](reflectionproperty.isstatic.md) — Verifica se a propriedade é estática
+  - [ReflectionProperty::isVirtual](reflectionproperty.isvirtual.md) — Determina se uma propriedade é virtual
+  - [ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md) — Define acessibilidade da propriedade
+  - [ReflectionProperty::setRawValue](reflectionproperty.setrawvalue.md) — Define o valor de uma propriedade, ignorando um gancho de configuração se definido
+  - [ReflectionProperty::setRawValueWithoutLazyInitialization](reflectionproperty.setrawvaluewithoutlazyinitialization.md) — Define o valor bruto da propriedade sem acionar a inicialização lenta
+  - [ReflectionProperty::setValue](reflectionproperty.setvalue.md) — Define valor da propriedade
+  - [ReflectionProperty::skipLazyInitialization](reflectionproperty.skiplazyinitialization.md) — Marca a propriedade como não lenta
+  - [ReflectionProperty::\_\_toString](reflectionproperty.tostring.md) — Para string
+- [ReflectionType](class.reflectiontype.md) — A classe ReflectionType
+  - [ReflectionType::allowsNull](reflectiontype.allowsnull.md) — Verifica se nulo é permitido
+  - [ReflectionType::\_\_toString](reflectiontype.tostring.md) — Para string
+- [ReflectionUnionType](class.reflectionuniontype.md) — A classe ReflectionUnionType
+  - [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md) — Retorna os tipos incluídos no tipo de união
+- [ReflectionGenerator](class.reflectiongenerator.md) — A classe ReflectionGenerator
+  - [ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md) — Constrói um objeto ReflectionGenerator
+  - [ReflectionGenerator::getExecutingFile](reflectiongenerator.getexecutingfile.md) — Obtém o nome do arquivo do gerador atualmente em execução
+  - [ReflectionGenerator::getExecutingGenerator](reflectiongenerator.getexecutinggenerator.md) — Obtém o objeto Generator em execução
+  - [ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md) — Obtém a linha do gerador atualmente em execução
+  - [ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md) — Obtém o nome da função do gerador
+  - [ReflectionGenerator::getThis](reflectiongenerator.getthis.md) — Obtém o valor $this do gerador
+  - [ReflectionGenerator::getTrace](reflectiongenerator.gettrace.md) — Obtém o rastreamento do gerador em execução
+  - [ReflectionGenerator::isClosed](reflectiongenerator.isclosed.md) — Verifica se a execução terminou
+- [ReflectionFiber](class.reflectionfiber.md) — A classe ReflectionFiber
+  - [ReflectionFiber::\_\_construct](reflectionfiber.construct.md) — Constrói um objeto ReflectionFiber
+  - [ReflectionFiber::getCallable](reflectionfiber.getcallable.md) — Obtém o callable usado para criar o Fiber
+  - [ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md) — Obtém o nome do arquivo do ponto de execução atual
+  - [ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md) — Obtém o número da linha do ponto de execução atual
+  - [ReflectionFiber::getFiber](reflectionfiber.getfiber.md) — Obtém a instância do Fiber refletida
+  - [ReflectionFiber::getTrace](reflectionfiber.gettrace.md) — Obtém o rastreamento do ponto de execução atual
+- [ReflectionIntersectionType](class.reflectionintersectiontype.md) — A classe ReflectionIntersectionType
+  - [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md) — Retorna os tipos incluídos no tipo de interseção
+- [ReflectionReference](class.reflectionreference.md) — A classe ReflectionReference
+  - [ReflectionReference::\_\_construct](reflectionreference.construct.md) — Construtor privado para proibir instanciação direta
+  - [ReflectionReference::fromArrayElement](reflectionreference.fromarrayelement.md) — Cria um ReflectionReference a partir de um elemento de array
+  - [ReflectionReference::getId](reflectionreference.getid.md) — Obtém ID exclusivo de uma referência
+- [ReflectionAttribute](class.reflectionattribute.md) — A classe ReflectionAttribute
+  - [ReflectionAttribute::\_\_construct](reflectionattribute.construct.md) — Construtor privado para evitar a instanciação direta
+  - [ReflectionAttribute::getArguments](reflectionattribute.getarguments.md) — Obtém os argumentos passados para o atributo
+  - [ReflectionAttribute::getName](reflectionattribute.getname.md) — Obtém o nome do atributo
+  - [ReflectionAttribute::getTarget](reflectionattribute.gettarget.md) — Retorna o alvo do atributo como uma máscara de bits
+  - [ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md) — Retorna se o atributo deste nome foi repetido em um elemento de código
+  - [ReflectionAttribute::newInstance](reflectionattribute.newinstance.md) — Instancia a classe de atributo representada por esta classe ReflectionAttribute e argumentos
+- [Reflector](class.reflector.md) — A interface Reflector
+  - [Reflector::export](reflector.export.md) — Exporta
+- [ReflectionException](class.reflectionexception.md) — Classe ReflectionException
+- [PropertyHookType](enum.propertyhooktype.md) — A enumeração PropertyHookType
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

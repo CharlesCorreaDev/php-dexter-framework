@@ -1,0 +1,29 @@
+# System Requirements | Fat-Free Framework for PHP
+
+> **Fonte / Source:** https://fatfreeframework.com/3.9/system-requirements
+
+---
+
+[edit](https://fatfreeframework.com/3.9/edit/system-requirements/main)
+
+# System Requirements
+
+F3 needs at least the following server configuration:
+
+**APACHE Webserver**
+
+- PHP 7.2 or higher
+- PCRE 8.02 or higher (usually shipped with PHP package, but needs to be additionally updated on CentOS or Red Hat systems)
+- mod\_rewrite and mod\_headers enabled
+- GD libary (for Image plugin)
+- cURL, sockets or stream extension (for Web plugin)
+
+Nginx and Lighttpd configurations are also possible.
+
+**PHP Modules**
+
+If you have a custom server and want to have installed everything you could probably need, here is a debian 1-liner for you (cache module not included):
+
+```
+apt-get install php8.1 php8.1-common php8.1-mysql php8.1-cgi php8.1-cli php8.1-fpm php8.1-mbstring php8.1-curl php8.1-xmlrpc php8.1-gd php8.1-zip php8.1-pdo-sqlite php8.1-xml
+```

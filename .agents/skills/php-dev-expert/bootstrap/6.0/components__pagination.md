@@ -1,0 +1,347 @@
+# Pagination · Bootstrap v6.0
+
+> **Fonte / Source:** https://getbootstrap.com/docs/6.0/components/pagination
+
+---
+
+# Pagination
+
+Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.
+
+Layer: `components`
+
+[View & Edit](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/site/src/content/docs/components/pagination)
+
+On this page…
+
+##### On this page
+
+## Overview
+
+We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping `<nav>` element to identify it as a navigation section to screen readers and other assistive technologies.
+
+In addition, as pages likely have more than one such navigation section, it’s advisable to provide a descriptive `aria-label` for the `<nav>` to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be `aria-label="Search results pages"`.
+
+HTML
+
+```
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+```
+
+## Working with icons
+
+Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with `aria` attributes.
+
+HTML
+
+```
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+```
+
+## Active
+
+Add `.active` to indicate a `.page-item` is the one currently being viewed. If using an `<a>` on the current page, `aria-current="page"` should be added for assistive technologies.
+
+HTML
+
+```
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active">
+      <a class="page-link" href="#" aria-current="page">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+```
+
+If using a non-interactive element, like a `<span>` for the current page, you may omit the `aria-current` attribute.
+
+HTML
+
+```
+          <li class="page-item active">
+  <span class="page-link">2</span>
+</li>
+```
+
+## Disabled
+
+Add `.disabled` to a `.page-item` to make it appear un-clickable. While `.disabled` uses `pointer-events: none` to disable the link‘s interactivity, that CSS property is not yet standardized and doesn’t account for keyboard navigation. As such, you should always add `tabindex="-1"` on disabled links and use custom JavaScript to fully disable their functionality.
+
+HTML
+
+```
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active">
+      <a class="page-link" href="#" aria-current="page">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+```
+
+And just like active page items, you can swap out the disabled `<a>` for a `<span>` to remove click functionality and prevent keyboard focus while retaining intended styles.
+
+HTML
+
+```
+          <li class="page-item disabled">
+  <span class="page-link">Previous</span>
+</li>
+```
+
+## Variants
+
+Add a `.theme-{color}` class to `.pagination` to apply a semantic theme color across the component, including hover, focus, and the active page item.
+
+HTML
+
+```
+<ul class="pagination theme-primary">
+  <!-- Page items here -->
+</ul>
+```
+
+## Sizing
+
+Fancy larger or smaller pagination? Add `.pagination-lg` or `.pagination-sm` for additional sizes.
+
+HTML
+
+```
+<nav aria-label="…">
+  <ul class="pagination pagination-sm">…</ul>
+</nav>
+<nav aria-label="…">
+  <ul class="pagination pagination">…</ul>
+</nav>
+<nav aria-label="…">
+  <ul class="pagination pagination-lg">…</ul>
+</nav>
+```
+
+## Alignment
+
+Change the alignment of pagination components with [flexbox utilities](utilities__flex.md). For example, with `.justify-content-center`:
+
+HTML
+
+```
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+```
+
+Or with `.justify-content-end`:
+
+HTML
+
+```
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+```
+
+## CSS
+
+### Variables
+
+Pagination use local CSS variables on `.pagination` for real-time customization. Values for the CSS variables are generated from Sass maps unique to each component and applied to the aforementioned class.
+
+[scss/\_pagination.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_pagination.scss)
+
+```
+// stylelint-disable-next-line scss/dollar-variable-default
+$pagination-tokens: defaults(
+  (
+    --pagination-min-height: var(--btn-input-min-height),
+    --pagination-padding-x: var(--btn-input-padding-x),
+    --pagination-padding-y: var(--btn-input-padding-y),
+    --pagination-font-size: var(--btn-input-font-size),
+    --pagination-color: var(--link-color),
+    --pagination-bg: var(--bg-body),
+    --pagination-border-width: var(--border-width),
+    --pagination-border-color: var(--border-color),
+    --pagination-border-radius: var(--btn-input-border-radius),
+    --pagination-hover-color: var(--link-hover-color),
+    --pagination-hover-bg: var(--bg-1),
+    --pagination-hover-border-color: var(--border-color),
+    --pagination-active-color: var(--theme-contrast, var(--primary-contrast)),
+    --pagination-active-bg: var(--theme-bg, var(--primary-bg)),
+    --pagination-active-border-color: var(--theme-bg, var(--primary-bg)),
+    --pagination-disabled-color: var(--fg-3),
+    --pagination-disabled-bg: var(--bg-2),
+    --pagination-disabled-border-color: var(--border-color),
+  ),
+  $pagination-tokens
+);
+```
+
+### Sass sizes
+
+[scss/\_pagination.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_pagination.scss)
+
+```
+$pagination-sizes: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$pagination-sizes: defaults(
+  ("sm", "lg"),
+  $pagination-sizes
+);
+// scss-docs-end pagination-sizes
+// stylelint-enable custom-property-no-missing-var-function
+
+@layer components {
+  .pagination {
+    @include tokens($pagination-tokens);
+
+    display: flex;
+    @include list-unstyled();
+  }
+
+  .page-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--pagination-min-height);
+    padding: var(--pagination-padding-y) var(--pagination-padding-x);
+    font-size: var(--pagination-font-size);
+    color: var(--theme-fg, var(--pagination-color));
+    text-decoration: none;
+    background-color: var(--pagination-bg);
+    border: var(--pagination-border-width) solid var(--pagination-border-color);
+    @include transition(color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out);
+
+    &:hover {
+      z-index: 2;
+      color: var(--theme-fg-emphasis, var(--pagination-hover-color));
+      background-color: var(--theme-bg-subtle, var(--pagination-hover-bg));
+      border-color: var(--theme-border, var(--pagination-hover-border-color));
+    }
+
+    &:focus-visible {
+      z-index: 3;
+      @include focus-ring(true, var(--theme-focus-ring, var(--focus-ring-color)));
+    }
+
+    &.active,
+    .active > & {
+      z-index: 3;
+      color: var(--theme-contrast, var(--pagination-active-color));
+      background-color: var(--theme-bg, var(--pagination-active-bg));
+      border-color: var(--theme-bg, var(--pagination-active-border-color));
+    }
+
+    &.disabled,
+    .disabled > & {
+      color: var(--pagination-disabled-color);
+      pointer-events: none;
+      background-color: var(--pagination-disabled-bg);
+      border-color: var(--pagination-disabled-border-color);
+    }
+  }
+
+  .page-item {
+    &:not(:first-child) .page-link {
+      margin-inline-start: calc(-1 * var(--pagination-border-width));
+    }
+
+    &:first-child {
+      .page-link {
+        @include border-start-radius(var(--pagination-border-radius));
+      }
+    }
+
+    &:last-child {
+      .page-link {
+        @include border-end-radius(var(--pagination-border-radius));
+      }
+    }
+  }
+
+  //
+  // Sizing
+  //
+
+  // scss-docs-start pagination-sizes-loop
+  @each $size, $_ in $pagination-sizes {
+    .pagination-#{$size} {
+      --pagination-min-height: var(--btn-input-#{$size}-min-height);
+      --pagination-padding-y: var(--btn-input-#{$size}-padding-y);
+      --pagination-padding-x: var(--btn-input-#{$size}-padding-x);
+      --pagination-font-size: var(--btn-input-#{$size}-font-size);
+      --pagination-border-radius: var(--btn-input-#{$size}-border-radius);
+    }
+  }
+```
+
+[scss/\_pagination.scss](https://github.com/twbs/bootstrap/blob/v6.0.0-alpha.1/scss/_pagination.scss)
+
+```
+@each $size, $_ in $pagination-sizes {
+  .pagination-#{$size} {
+    --pagination-min-height: var(--btn-input-#{$size}-min-height);
+    --pagination-padding-y: var(--btn-input-#{$size}-padding-y);
+    --pagination-padding-x: var(--btn-input-#{$size}-padding-x);
+    --pagination-font-size: var(--btn-input-#{$size}-font-size);
+    --pagination-border-radius: var(--btn-input-#{$size}-border-radius);
+  }
+}
+```

@@ -1,0 +1,116 @@
+# Reverse Proxy | HumHub Documentation
+
+> **Fonte / Source:** https://docs.humhub.org/docs/admin/reverse-proxy
+
+---
+
+On this page
+
+## Trusted Hosts[â](#trusted-hosts "Direct link to Trusted Hosts")
+
+If the HumHub application is working behind a reverse proxy (especially an SSL terminator), the reverse proxy must be marked as trusted host.
+
+The following headers are only accepted by a trusted host:
+
+- X-Forwarded-For
+- X-Forwarded-Host
+- X-Forwarded-Proto
+- Front-End-Https
+- X-Rewrite-Url
+
+The trusted host must be specified in the configuration file `protected/config/web.php`.
+
+**Example configuration:**
+
+```
+<?php
+
+/**
+
+* This file provides to overwrite the default HumHub / Yii configuration by your local Web environments
+
+* @see https://www.yiiframework.com/doc-2.0/guide-concept-configurations.html
+
+* @see https://docs.humhub.org/docs/admin/advanced-configuration
+
+*/
+
+return [
+
+'components' => [
+
+'request' => [
+
+'trustedHosts' => ['192.168.0.0/24']
+
+],
+
+]
+
+];
+```
+
+An array key is an IPv4 or IPv6 IP address in CIDR notation for matching a client.
+
+An array value is a list of headers to trust. These will be matched against $secureHeaders to determine which headers are allowed to be sent by a specified host. The case of the header names must be the same as specified in $secureHeaders.
+
+You can find more information in the Yii2 documentation: <https://www.yiiframework.com/doc/api/2.0/yii-web-request#$trustedHosts-detail>
+
+## HTTPS/SSL Detection[â](#httpsssl-detection "Direct link to HTTPS/SSL Detection")
+
+Typically HumHub detects the currently used protocol (HTTP or HTTPS) and uses this automatically to generate links.
+
+With an SSL Terminating ReverseProxy this should also be done using HTTP header information. If this detection fails, the generation of HTTPS URLs can be forced via the configuration files.
+
+Example (`protected/config/web.php`):
+
+```
+<?php
+
+// Enfore HTTPS link generation
+
+$_SERVER['HTTPS'] = 'on';
+
+return [
+
+// Further configuration options
+
+];
+```
+
+## Caching[â](#caching "Direct link to Caching")
+
+If the proxy also acts as a cache, it is important that query parameters are taken into account.
+
+When static files are modified (e.g. during an upgrade), HumHub automatically adds a new query parameter value (cache bust).
+
+The following paths can be cached:
+
+- /assets/\*
+- /themes/\*
+- /uploads/\*
+- /static/\*
+
+**Example NGINX caching snippet (incomplete):**
+
+```
+location ~ ^/(assets|themes|uploads|static)/.*$ {
+
+add_header                X-ECache 1;
+
+add_header                X-ECache-Key    $host$uri$is_args$args;
+
+add_header                X-ECache-Status $upstream_cache_status;
+
+proxy_ignore_headers      "Expires";
+
+proxy_ignore_headers      "Cache-Control";
+
+proxy_cache_key           "$host$uri$is_args$args";
+
+proxy_cache_valid         200 1d;
+
+proxy_pass                $target;
+
+}
+```

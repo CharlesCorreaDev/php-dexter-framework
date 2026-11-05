@@ -1,0 +1,608 @@
+{
+  "root_url": "https://symfony.com/doc",
+  "scope_prefix": "https://symfony.com/doc/",
+  "total_pages": 100,
+  "generated_at": "2026-10-28T15:33:20Z",
+  "pages": [
+    {
+      "url": "https://symfony.com/doc",
+      "file": "index.md",
+      "title": "Symfony Documentation",
+      "depth": 0
+    },
+    {
+      "url": "https://symfony.com/doc/current/contributing/index.html",
+      "file": "current__contributing__index.md",
+      "title": "Contributing (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/cloud/",
+      "file": "cloud.md",
+      "title": "Deploy Symfony on Upsun Cloud - Upsun Developer",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/setup.html",
+      "file": "8.1__setup.md",
+      "title": "Installing & Setting up the Symfony Framework (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/page_creation.html",
+      "file": "8.1__page_creation.md",
+      "title": "Create your First Page in Symfony (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/controller.html",
+      "file": "8.1__controller.md",
+      "title": "Controller (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/routing.html",
+      "file": "8.1__routing.md",
+      "title": "Routing (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/configuration.html",
+      "file": "8.1__configuration.md",
+      "title": "Configuring Symfony (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/templates.html",
+      "file": "8.1__templates.md",
+      "title": "Creating and Using Templates (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/http_kernel.html",
+      "file": "8.1__components__http_kernel.md",
+      "title": "The HttpKernel Component (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/reference/configuration/kernel.html",
+      "file": "8.1__reference__configuration__kernel.md",
+      "title": "Configuring in the Kernel (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/service_container.html",
+      "file": "8.1__service_container.md",
+      "title": "Service Container (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/event_dispatcher.html",
+      "file": "8.1__event_dispatcher.md",
+      "title": "Events and Event Listeners (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/contracts.html",
+      "file": "8.1__components__contracts.md",
+      "title": "The Contracts Component (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/bundles.html",
+      "file": "8.1__bundles.md",
+      "title": "The Bundle System (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/doctrine.html",
+      "file": "8.1__doctrine.md",
+      "title": "Databases and the Doctrine ORM (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/forms.html",
+      "file": "8.1__forms.md",
+      "title": "Forms (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/session.html",
+      "file": "8.1__session.md",
+      "title": "Sessions (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/testing.html",
+      "file": "8.1__testing.md",
+      "title": "Testing (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/cache.html",
+      "file": "8.1__cache.md",
+      "title": "Cache (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/logging.html",
+      "file": "8.1__logging.md",
+      "title": "Logging (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/controller/error_pages.html",
+      "file": "8.1__controller__error_pages.md",
+      "title": "How to Customize Error Pages (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/console.html",
+      "file": "8.1__console.md",
+      "title": "Console Commands (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/mailer.html",
+      "file": "8.1__mailer.md",
+      "title": "Sending Emails with Mailer (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/validation.html",
+      "file": "8.1__validation.md",
+      "title": "Validation (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/messenger.html",
+      "file": "8.1__messenger.md",
+      "title": "Messenger: Sync & Queued Message Handling (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/scheduler.html",
+      "file": "8.1__scheduler.md",
+      "title": "Scheduler (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/notifier.html",
+      "file": "8.1__notifier.md",
+      "title": "Creating and Sending Notifications (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/serializer.html",
+      "file": "8.1__serializer.md",
+      "title": "How to Use the Serializer (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/security.html",
+      "file": "8.1__security.md",
+      "title": "Security (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/translation.html",
+      "file": "8.1__translation.md",
+      "title": "Translations (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/security/passwords.html",
+      "file": "8.1__security__passwords.md",
+      "title": "Password Hashing and Verification (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/security/csrf.html",
+      "file": "8.1__security__csrf.md",
+      "title": "How to Implement CSRF Protection (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/security/ldap.html",
+      "file": "8.1__security__ldap.md",
+      "title": "LDAP (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/frontend.html",
+      "file": "8.1__frontend.md",
+      "title": "Front-end Tools: Handling CSS & JavaScript (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/frontend/encore/index.html",
+      "file": "8.1__frontend__encore__index.md",
+      "title": "Webpack Encore Documentation (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/frontend/asset_mapper.html",
+      "file": "8.1__frontend__asset_mapper.md",
+      "title": "AssetMapper: Simple, Modern CSS & JS Management (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/web_link.html",
+      "file": "8.1__web_link.md",
+      "title": "Asset Preloading and Resource Hints with WebLink (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/http_client.html",
+      "file": "8.1__http_client.md",
+      "title": "HTTP Client (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/filesystem.html",
+      "file": "8.1__components__filesystem.md",
+      "title": "The Filesystem Component (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/expression_language.html",
+      "file": "8.1__components__expression_language.md",
+      "title": "Expression Language (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/workflow.html",
+      "file": "8.1__workflow.md",
+      "title": "Workflow (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/lock.html",
+      "file": "8.1__components__lock.md",
+      "title": "Dealing with Concurrency with Locks (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/string.html",
+      "file": "8.1__components__string.md",
+      "title": "Creating and Manipulating Strings (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/uid.html",
+      "file": "8.1__components__uid.md",
+      "title": "The UID Component (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/webhook.html",
+      "file": "8.1__webhook.md",
+      "title": "Webhook (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/components/yaml.html",
+      "file": "8.1__components__yaml.md",
+      "title": "The Yaml Component (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/performance.html",
+      "file": "8.1__performance.md",
+      "title": "Performance (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/deployment.html",
+      "file": "8.1__deployment.md",
+      "title": "How to Deploy a Symfony Application (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/http_cache.html",
+      "file": "8.1__http_cache.md",
+      "title": "HTTP Cache (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/8.1/cloud/index.html",
+      "file": "8.1__cloud__index.md",
+      "title": "Deploy Symfony on Upsun Cloud - Upsun Developer",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/ai/index.html",
+      "file": "current__ai__index.md",
+      "title": "Symfony AI Documentation (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/contributing/code/index.html",
+      "file": "current__contributing__code__index.md",
+      "title": "Contributing Code (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/best_practices.html",
+      "file": "current__best_practices.md",
+      "title": "The Symfony Framework Best Practices (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/contributing/documentation/index.html",
+      "file": "current__contributing__documentation__index.md",
+      "title": "Contributing Documentation (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/reference/index.html",
+      "file": "current__reference__index.md",
+      "title": "Reference Documents (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/create_framework/index.html",
+      "file": "current__create_framework__index.md",
+      "title": "Create your own PHP Framework (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/contributing/code_of_conduct/code_of_conduct.html",
+      "file": "current__contributing__code_of_conduct__code_of_conduct.md",
+      "title": "Code of Conduct (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/contributing/code/security.html",
+      "file": "current__contributing__code__security.md",
+      "title": "Security Issues (Symfony Docs)",
+      "depth": 1
+    },
+    {
+      "url": "https://symfony.com/doc/current/security/passwords.html",
+      "file": "current__security__passwords.md",
+      "title": "Password Hashing and Verification (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/security.html",
+      "file": "current__security.md",
+      "title": "Security (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/components/uid.html",
+      "file": "current__components__uid.md",
+      "title": "The UID Component (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/bundles/SymfonyMakerBundle/index.html",
+      "file": "current__bundles__SymfonyMakerBundle__index.md",
+      "title": "SymfonyMakerBundle Documentation",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/security/custom_authenticator.html",
+      "file": "current__security__custom_authenticator.md",
+      "title": "How to Write a Custom Authenticator (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/security/user_providers.html",
+      "file": "current__security__user_providers.md",
+      "title": "User Providers (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/http_cache/esi.html",
+      "file": "current__http_cache__esi.md",
+      "title": "Working with Edge Side Includes (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/reference/configuration/framework.html",
+      "file": "current__reference__configuration__framework.md",
+      "title": "Framework Configuration Reference (FrameworkBundle) (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/security/csrf.html",
+      "file": "current__security__csrf.md",
+      "title": "How to Implement CSRF Protection (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/templates.html",
+      "file": "current__templates.md",
+      "title": "Creating and Using Templates (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/forms.html",
+      "file": "current__forms.md",
+      "title": "Forms (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/form/form_themes.html",
+      "file": "current__form__form_themes.md",
+      "title": "Form Theming and Customization (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/reference/configuration/security.html",
+      "file": "current__reference__configuration__security.md",
+      "title": "Security Configuration Reference (SecurityBundle) (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/reference/twig_reference.html",
+      "file": "current__reference__twig_reference.md",
+      "title": "Twig Extensions Defined by Symfony (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/setup.html",
+      "file": "current__setup.md",
+      "title": "Installing & Setting up the Symfony Framework (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/service_container/autowiring.html",
+      "file": "current__service_container__autowiring.md",
+      "title": "Defining Service Dependencies Automatically (Autowiring) (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/deployment/proxies.html",
+      "file": "current__deployment__proxies.md",
+      "title": "How to Configure Symfony to Work behind a Load Balancer or a Reverse Proxy (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/service_container.html",
+      "file": "current__service_container.md",
+      "title": "Service Container (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend.html",
+      "file": "current__frontend.md",
+      "title": "Front-end Tools: Handling CSS & JavaScript (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/security/ldap.html",
+      "file": "current__security__ldap.md",
+      "title": "LDAP (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/index.html",
+      "file": "current__frontend__encore__index.md",
+      "title": "Webpack Encore Documentation (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/asset_mapper.html",
+      "file": "current__frontend__asset_mapper.md",
+      "title": "AssetMapper: Simple, Modern CSS & JS Management (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/custom_version_strategy.html",
+      "file": "current__frontend__custom_version_strategy.md",
+      "title": "How to Use a Custom Version Strategy for Assets (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/create_ux_bundle.html",
+      "file": "current__frontend__create_ux_bundle.md",
+      "title": "Create a UX bundle (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/server-data.html",
+      "file": "current__frontend__server-data.md",
+      "title": "Passing Information from Twig to JavaScript (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/installation.html",
+      "file": "current__frontend__encore__installation.md",
+      "title": "Installing Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/css-preprocessors.html",
+      "file": "current__frontend__encore__css-preprocessors.md",
+      "title": "CSS Preprocessors: Sass, etc. with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/simple-example.html",
+      "file": "current__frontend__encore__simple-example.md",
+      "title": "Encore: Setting up your Project (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/reactjs.html",
+      "file": "current__frontend__encore__reactjs.md",
+      "title": "Enabling React.js with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/postcss.html",
+      "file": "current__frontend__encore__postcss.md",
+      "title": "PostCSS and autoprefixing (postcss-loader) with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/copy-files.html",
+      "file": "current__frontend__encore__copy-files.md",
+      "title": "Copying & Referencing Images with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/vuejs.html",
+      "file": "current__frontend__encore__vuejs.md",
+      "title": "Enabling Vue.js (vue-loader) with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/babel.html",
+      "file": "current__frontend__encore__babel.md",
+      "title": "Configuring Babel with Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/sourcemaps.html",
+      "file": "current__frontend__encore__sourcemaps.md",
+      "title": "Enabling Source Maps with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/versioning.html",
+      "file": "current__frontend__encore__versioning.md",
+      "title": "Asset Versioning with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/typescript.html",
+      "file": "current__frontend__encore__typescript.md",
+      "title": "Enabling TypeScript (ts-loader) with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/minification.html",
+      "file": "current__frontend__encore__minification.md",
+      "title": "Minifying JavaScript and CSS with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/cdn.html",
+      "file": "current__frontend__encore__cdn.md",
+      "title": "Using a CDN with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/code-splitting.html",
+      "file": "current__frontend__encore__code-splitting.md",
+      "title": "Async Code Splitting with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/split-chunks.html",
+      "file": "current__frontend__encore__split-chunks.md",
+      "title": "Preventing Duplication by \"Splitting\" Shared Code with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    },
+    {
+      "url": "https://symfony.com/doc/current/frontend/encore/url-loader.html",
+      "file": "current__frontend__encore__url-loader.md",
+      "title": "Inlining Images & Fonts in CSS with Webpack Encore (Symfony Docs)",
+      "depth": 2
+    }
+  ]
+}

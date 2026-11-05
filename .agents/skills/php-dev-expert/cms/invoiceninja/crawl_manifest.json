@@ -1,0 +1,380 @@
+{
+  "root_url": "** https://invoiceninja.github.io/docs/advanced-topics/email-customization",
+  "scope_prefix": "** https://invoiceninja.github.io/docs/advanced-topics/email-customization",
+  "total_pages": 62,
+  "generated_at": "2026-10-28T18:55:19Z",
+  "pages": [
+    {
+      "url": "** https://invoiceninja.github.io/docs/advanced-topics/email-customization",
+      "file": "docs__advanced-topics__email-customization.md",
+      "title": "Email Customization | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/auth",
+      "file": "docs__api-reference__auth.md",
+      "title": "Authentication | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/clients",
+      "file": "docs__api-reference__clients.md",
+      "title": "Clients | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/credits",
+      "file": "docs__api-reference__credits.md",
+      "title": "Credits | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/invoice-ninja-api-reference",
+      "file": "docs__api-reference__invoice-ninja-api-reference.md",
+      "title": "Invoice Ninja API Reference. | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/invoices",
+      "file": "docs__api-reference__invoices.md",
+      "title": "Invoices | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/locations",
+      "file": "docs__api-reference__locations.md",
+      "title": "Locations | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/payments",
+      "file": "docs__api-reference__payments.md",
+      "title": "Payments | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/products",
+      "file": "docs__api-reference__products.md",
+      "title": "Products | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/projects",
+      "file": "docs__api-reference__projects.md",
+      "title": "Projects | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/quotes",
+      "file": "docs__api-reference__quotes.md",
+      "title": "Quotes | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/recurring-invoices",
+      "file": "docs__api-reference__recurring-invoices.md",
+      "title": "Recurring Invoices | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/api-reference/tasks",
+      "file": "docs__api-reference__tasks.md",
+      "title": "Tasks | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/developer-guide",
+      "file": "docs__developer-guide.md",
+      "title": "Developer guide | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/developer-guide/api/authentication",
+      "file": "docs__developer-guide__api__authentication.md",
+      "title": "Authentication | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/developer-guide/payment-gateways",
+      "file": "docs__developer-guide__payment-gateways.md",
+      "title": "Payment Gateways | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/developer-guide/statics",
+      "file": "docs__developer-guide__statics.md",
+      "title": "Statics | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/editor-guides/buttons-and-icons",
+      "file": "docs__editor-guides__buttons-and-icons.md",
+      "title": "Buttons & Icons | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-custom-domain",
+      "file": "docs__hosted__hosted-custom-domain.md",
+      "title": "Hosted Custom Domain | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-delete-account",
+      "file": "docs__hosted__hosted-delete-account.md",
+      "title": "Hosted Account Deletion | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-mail",
+      "file": "docs__hosted__hosted-mail.md",
+      "title": "Hosted Mail | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-quickstart",
+      "file": "docs__hosted__hosted-quickstart.md",
+      "title": "Hosted Quick Start | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-stripe",
+      "file": "docs__hosted__hosted-stripe.md",
+      "title": "Hosted Stripe | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/hosted/hosted-troubleshooting",
+      "file": "docs__hosted__hosted-troubleshooting.md",
+      "title": "Hosted TroubleShooting | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/legal/license",
+      "file": "docs__legal__license.md",
+      "title": "license | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/env-variables",
+      "file": "docs__self-host__env-variables.md",
+      "title": "Env Variables | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/getting-started",
+      "file": "docs__self-host__getting-started.md",
+      "title": "Getting Started | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-debug-mode",
+      "file": "docs__self-host__self-host-debug-mode.md",
+      "title": "Self Host Debug Mode | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-installation",
+      "file": "docs__self-host__self-host-installation.md",
+      "title": "Self Host Installation | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-quickbooks",
+      "file": "docs__self-host__self-host-quickbooks.md",
+      "title": "Self Host QuickBooks | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-troubleshooting",
+      "file": "docs__self-host__self-host-troubleshooting.md",
+      "title": "Self Host Troubleshooting | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-updating",
+      "file": "docs__self-host__self-host-updating.md",
+      "title": "Self Host Updating | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/self-host/self-host-white-labeling",
+      "file": "docs__self-host__self-host-white-labeling.md",
+      "title": "Self Host White Labeling | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide",
+      "file": "docs__user-guide.md",
+      "title": "Get Started | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/advanced-settings",
+      "file": "docs__user-guide__advanced-settings.md",
+      "title": "Advanced Settings | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/banking",
+      "file": "docs__user-guide__banking.md",
+      "title": "Banking | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/basic-settings",
+      "file": "docs__user-guide__basic-settings.md",
+      "title": "Basic Settings | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/client-portal",
+      "file": "docs__user-guide__client-portal.md",
+      "title": "Client Portal | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/clients",
+      "file": "docs__user-guide__clients.md",
+      "title": "Clients | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/credits",
+      "file": "docs__user-guide__credits.md",
+      "title": "Credits | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/einvoicing",
+      "file": "docs__user-guide__einvoicing.md",
+      "title": "E Invoicing | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/esignatures",
+      "file": "docs__user-guide__esignatures.md",
+      "title": "E-Signatures (DocuNinja) | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/expenses",
+      "file": "docs__user-guide__expenses.md",
+      "title": "Expenses | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/faq",
+      "file": "docs__user-guide__faq.md",
+      "title": "Frequently Asked Questions | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/gateways",
+      "file": "docs__user-guide__gateways.md",
+      "title": "Payment Gateways | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/invoices",
+      "file": "docs__user-guide__invoices.md",
+      "title": "Invoices | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/payments",
+      "file": "docs__user-guide__payments.md",
+      "title": "Payments | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/products",
+      "file": "docs__user-guide__products.md",
+      "title": "Products | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/projects",
+      "file": "docs__user-guide__projects.md",
+      "title": "Projects | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/purchase-orders",
+      "file": "docs__user-guide__purchase-orders.md",
+      "title": "Purchase Orders | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/quickbooks",
+      "file": "docs__user-guide__quickbooks.md",
+      "title": "QuickBooks | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/quotes",
+      "file": "docs__user-guide__quotes.md",
+      "title": "Quotes | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/recurring-expenses",
+      "file": "docs__user-guide__recurring-expenses.md",
+      "title": "Recurring Expenses | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/recurring-invoices",
+      "file": "docs__user-guide__recurring-invoices.md",
+      "title": "Recurring Invoices | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/reports",
+      "file": "docs__user-guide__reports.md",
+      "title": "Reports | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/subscriptions",
+      "file": "docs__user-guide__subscriptions.md",
+      "title": "Payment Links | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/tasks",
+      "file": "docs__user-guide__tasks.md",
+      "title": "Tasks | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/taxes",
+      "file": "docs__user-guide__taxes.md",
+      "title": "Taxes | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/transactions",
+      "file": "docs__user-guide__transactions.md",
+      "title": "Transactions | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://invoiceninja.github.io/docs/user-guide/vendors",
+      "file": "docs__user-guide__vendors.md",
+      "title": "Vendors | Invoice Ninja",
+      "depth": 1
+    },
+    {
+      "url": "** https://forum.invoiceninja.com/",
+      "file": "forum__forum_invoiceninja_com.md",
+      "title": "Invoice Ninja | Support Forum",
+      "depth": 1
+    },
+    {
+      "url": "** https://www.invoiceninja.org/",
+      "file": "site__www_invoiceninja_org.md",
+      "title": "Invoice Ninja – e-Signing & Document Management for small business",
+      "depth": 1
+    }
+  ]
+}

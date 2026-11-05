@@ -1,0 +1,121 @@
+# System Requirements | HumHub Documentation
+
+> **Fonte / Source:** https://docs.humhub.org/docs/admin/requirements
+
+---
+
+On this page
+
+This section lists all required and recommended server settings.
+
+tip
+
+These requirements apply to a **web server installation**. If you use the [Docker installation](docs__admin__installation-docker.md) you only need Docker >= 20.10.13 with Compose v2 - the image already bundles the web server, PHP and all required extensions.
+
+## Webserver[â](#webserver "Direct link to Webserver")
+
+- [Apache Webserver](https://httpd.apache.org/) 2.4 with mod\_php or php-fpm (recommended)
+- [nginx](https://www.nginx.com/) with php-fpm
+
+## Memory[â](#memory "Direct link to Memory")
+
+Since HumHub itself can be used for a variety of use-cases, the required memory highly depends on the amount and activity within the network as well as the specific actions of the users. The minimum memory requirements of HumHub are:
+
+**RAM**
+
+- 64 MB of memory allocated to PHP
+
+**Disk space**
+
+- 500 MB for the applications
+- 100 MB for the database
+- additional space for the `uploads` directory, which grows with uploaded files, and for your backups. A well used, mature installation can easily grow to 10 GB and more.
+
+## PHP Environment[â](#php-environment "Direct link to PHP Environment")
+
+All essential requirements will be tested during the web installation and can be reviewed under
+
+`Administration -> Information -> Prerequisites`.
+
+| HumHub Version | PHP 8.5 | PHP 8.4 | PHP 8.3 | PHP 8.2 | PHP 8.1 | PHP 8.0 | PHP 7.4 | PHP 7.3 | PHP 7.2 | PHP 7.1 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1.20 (Upcoming) | Yes | **Yes** | **Yes** | Yes | No | No | No | No | No | No |
+| 1.19 | Yes | **Yes** | **Yes** | Yes | No | No | No | No | No | No |
+| 1.18 | No | Yes | **Yes** | **Yes** | No | No | No | No | No | No |
+| 1.17 | No | No | **Yes** | **Yes** | Yes | No | No | No | No | No |
+| 1.16 | No | No | **Yes** | **Yes** | **Yes** | Yes | No | No | No | No |
+| 1.15 | No | No | Yes | **Yes** | **Yes** | Yes | Yes | No | No | No |
+| 1.14 | No | No | No | **Yes** | **Yes** | Yes | Yes | No | No | No |
+| 1.13 | No | No | No | No | Yes | **Yes** | Yes | No | No | No |
+| 1.12 | No | No | No | No | Yes | **Yes** | **Yes** | No | No | No |
+| 1.11 | No | No | No | No | Yes | **Yes** | **Yes** | No | No | No |
+| 1.10 | No | No | No | No | No | **Yes** | **Yes** | Yes | No | No |
+| 1.9 | No | No | No | No | No | **Yes** | **Yes** | **Yes** | No | No |
+| 1.8 | No | No | No | No | No | Yes | **Yes** | **Yes** | Yes | No |
+| 1.7 | No | No | No | No | No | No | Yes | **Yes** | **Yes** | Yes |
+
+### Extensions[â](#extensions "Direct link to Extensions")
+
+This is just a short overview. See the [PHP Manual](https://www.php.net/manual/en/extensions.php) for more information.
+
+| Extension | Required | Description |
+| --- | --- | --- |
+| GD | Yes | With JPEG and PNG support |
+| Curl | Yes | w/ SSL Support |
+| MBString | Yes | Multibyte Support |
+| MySQL | Yes |  |
+| ZIP | Yes |  |
+| EXIF | Yes |  |
+| INTL | Yes | min ICU v49 see [Yii2 Internationalization](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-i18n#setup-environment) |
+| FileInfo | Yes |  |
+| JSON | Yes |  |
+| iconv | Yes |  |
+| Sodium | No | Mercure Real-time Push API |
+| ImageMagick | No | Better image processing, Recommended |
+| GraphicsMagick | No | Better image processing (alternative to ImageMagick) |
+| LDAP | No |  |
+| APC | No |  |
+| Memcached | No |  |
+
+## Database[â](#database "Direct link to Database")
+
+Minimum supported versions:
+
+- **MariaDB 10.11+**
+- **MySQL 8.0+**
+
+Recommended versions:
+
+- **MariaDB 11.8+**
+- **MySQL 8.4+**
+
+**Utf8mb4** character set and **InnoDB** storage engine are required.
+
+The database user requires following privileges:
+
+- SELECT
+- INSERT
+- DELETE
+- UPDATE
+- CREATE
+- ALTER
+- INDEX
+- DROP
+- REFERENCES
+
+caution
+
+**MyISAM** is not supported due to the lack of foreign keys.
+
+## Shell Access[â](#shell-access "Direct link to Shell Access")
+
+Although the installation and most parts of the configuration can be carried out without a shell access, it's highly recommended to enable shell access (e.g. ssh) in order to facilitate the [comand line interface](docs__admin__console.md).
+
+The command line interface provides important features, which are used to maintain and troubleshoot the software.
+
+## Web browser[â](#web-browser "Direct link to Web browser")
+
+- **Mozilla Firefox** (Recommended)
+- **Google Chrome** (Recommended)
+- **Microsoft Edge** (Recommended)
+- Apple Safari

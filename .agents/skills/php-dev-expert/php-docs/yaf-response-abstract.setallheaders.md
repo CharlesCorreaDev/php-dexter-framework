@@ -1,0 +1,40 @@
+# setAllHeaders
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/yaf-response-abstract.setallheaders.php
+
+---
+
+# Yaf\_Response\_Abstract::setAllHeaders
+
+(Yaf >=1.0.0)
+
+Yaf\_Response\_Abstract::setAllHeaders — setAllHeaders
+
+### Descrição
+
+protected function **Yaf\_Response\_Abstract::setAllHeaders**(): [void](language.types.void.md)
+
+**Aviso**
+
+Esta função não
+está documentada; apenas a lista de argumentos está disponível.
+
+### Parâmetros
+
+Esta função não possui parâmetros.
+
+### Valor Retornado
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});

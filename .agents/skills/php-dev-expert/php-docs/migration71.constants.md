@@ -1,0 +1,80 @@
+# Novas constantes globais
+
+> **Fonte / Source:** https://www.php.net/manual/pt_BR/migration71.constants.php
+
+---
+
+## Novas constantes globais
+
+### [Constantes Predefinidas do Núcleo](reserved.constants.md)
+
+- **`PHP_FD_SETSIZE`**
+
+### [CURL](book.curl.md)
+
+- **`CURLMOPT_PUSHFUNCTION`**
+- **`CURL_PUSH_OK`**
+- **`CURL_PUSH_DENY`**
+
+### [Filtro de Dados](book.filter.md)
+
+- **`FILTER_FLAG_EMAIL_UNICODE`**
+
+### [Processamento de Imagem e GD](book.image.md)
+
+- **`IMAGETYPE_WEBP`**
+
+### [JSON](book.json.md)
+
+- **`JSON_UNESCAPED_LINE_TERMINATORS`**
+
+### [LDAP](book.ldap.md)
+
+- **`LDAP_OPT_X_SASL_NOCANON`**
+- **`LDAP_OPT_X_SASL_USERNAME`**
+- **`LDAP_OPT_X_TLS_CACERTDIR`**
+- **`LDAP_OPT_X_TLS_CACERTFILE`**
+- **`LDAP_OPT_X_TLS_CERTFILE`**
+- **`LDAP_OPT_X_TLS_CIPHER_SUITE`**
+- **`LDAP_OPT_X_TLS_KEYFILE`**
+- **`LDAP_OPT_X_TLS_RANDOM_FILE`**
+- **`LDAP_OPT_X_TLS_CRLCHECK`**
+- **`LDAP_OPT_X_TLS_CRL_NONE`**
+- **`LDAP_OPT_X_TLS_CRL_PEER`**
+- **`LDAP_OPT_X_TLS_CRL_ALL`**
+- **`LDAP_OPT_X_TLS_DHFILE`**
+- **`LDAP_OPT_X_TLS_CRLFILE`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_MIN`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_SSL2`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_SSL3`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_TLS1_0`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_TLS1_1`**
+- **`LDAP_OPT_X_TLS_PROTOCOL_TLS1_2`**
+- **`LDAP_OPT_X_TLS_PACKAGE`**
+- **`LDAP_OPT_X_KEEPALIVE_IDLE`**
+- **`LDAP_OPT_X_KEEPALIVE_PROBES`**
+- **`LDAP_OPT_X_KEEPALIVE_INTERVAL`**
+
+### [PostgreSQL](book.pgsql.md)
+
+- **`PGSQL_NOTICE_LAST`**
+- **`PGSQL_NOTICE_ALL`**
+- **`PGSQL_NOTICE_CLEAR`**
+
+### [SPL](book.spl.md)
+
+- **`MT_RAND_PHP`**
+
+`↑` and `↓` to navigate •
+`Enter` to select •
+`Esc` to close • `/` to open
+
+document.addEventListener("DOMContentLoaded", function() {
+/\*{{{Search Modal\*/
+const language = 'local';
+initSearchModal();
+initPHPSearch(language).then((searchCallback) => {
+initSearchUI({language, searchCallback, limit: 30});
+});
+/\*}}}\*/
+});
