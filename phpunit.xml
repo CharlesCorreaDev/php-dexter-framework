@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.4/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         cacheDirectory=".phpunit.cache">
+    <testsuites>
+        <testsuite name="Unitarios">
+            <directory>testes/unitarios</directory>
+        </testsuite>
+        <testsuite name="Integracao">
+            <directory>testes/integracao</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory suffix=".php">core</directory>
+            <directory suffix=".php">backend</directory>
+            <directory suffix=".php">app</directory>
+            <directory suffix=".php">modules</directory>
+        </include>
+    </source>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_DEBUG" value="true"/>
+        <env name="APP_TIMEZONE" value="America/Sao_Paulo"/>
+    </php>
+</phpunit>
+
