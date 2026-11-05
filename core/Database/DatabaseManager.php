@@ -213,4 +213,3 @@ class DatabaseManager
         return new GramaticaPadrao($delimitador);
     }
 }
-

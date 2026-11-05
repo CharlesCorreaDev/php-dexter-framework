@@ -1,0 +1,48 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Dexter Framework
+ *
+ * @package   Dexter
+ * @author    Charles Corrêa <charlescorreaweb@gmail.com>
+ * @copyright 2026 Charles Corrêa
+ * @license   MIT
+ * @version   0.1.0-beta
+ */
+
+declare(strict_types=1);
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Dexter\Console\ConsoleApplication;
+use Dexter\Database\DatabaseManager;
+
+$caminhoEnv = __DIR__ . '/.env';
+if (file_exists($caminhoEnv)) {
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->safeLoad();
+}
+
+$driver = $_ENV['DB_DRIVER'] ?? 'sqlite';
+$banco = $_ENV['DB_DATABASE'] ?? __DIR__ . '/database/database.sqlite';
+
+$configuracoesDb = [
+    'padrao' => [
+        'driver' => $driver,
+        'host' => $_ENV['DB_HOST'] ?? '127.0.0.1',
+        'porta' => $_ENV['DB_PORT'] ?? 3306,
+        'banco' => $banco,
+        'usuario' => $_ENV['DB_USERNAME'] ?? null,
+        'senha' => $_ENV['DB_PASSWORD'] ?? null,
+        'charset' => $_ENV['DB_CHARSET'] ?? 'utf8mb4',
+    ],
+];
+
+$db = new DatabaseManager($configuracoesDb, 'padrao');
+$caminhoMigracoes = __DIR__ . '/database/migrations';
+
+$app = new ConsoleApplication($db, $caminhoMigracoes);
+$codigoSaida = $app->executar($argv);
+
+exit($codigoSaida);

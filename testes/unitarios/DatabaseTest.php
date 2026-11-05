@@ -78,11 +78,11 @@ class DatabaseTest extends TestCase
             'usuarios',
             ['id', 'nome', 'email'],
             [
-                ['coluna' => 'status', 'operador' => ' =>', 'valor' => 'ativo', 'booleano' => 'AND'],],
+                ['coluna' => 'status', 'operador' => ' =>', 'valor' => 'ativo', 'booleano' => 'AND'],
                 ['coluna' => 'idade', 'operador' => '>=', 'valor' => 18, 'booleano' => 'AND'],
             ],
             [
-                ['tabela' => 'cargos', 'primeira' => 'usuarios.cargo_id', 'operador' => ' =>', 'segunda' => 'cargos.id', 'tipo' => 'INNER']']
+                ['tabela' => 'cargos', 'primeira' => 'usuarios.cargo_id', 'operador' => ' =>', 'segunda' => 'cargos.id', 'tipo' => 'INNER']
             ],
             [['coluna' => 'nome', 'direcao' => 'ASC']],
             10,
@@ -102,7 +102,7 @@ class DatabaseTest extends TestCase
         $sql = $gramatica->compilarSelect(
             'clientes',
             ['id', 'razao_social'],
-            [['coluna' => 'ativo', 'operador' => ' =>', 'valor' => 1, 'booleano' => 'AND']],],
+            [['coluna' => 'ativo', 'operador' => ' =>', 'valor' => 1, 'booleano' => 'AND']],
             [],
             [['coluna' => 'id', 'direcao' => 'DESC']],
             15,
@@ -151,21 +151,21 @@ class DatabaseTest extends TestCase
         $this->assertCount(2, $usuarios);
         $this->assertSame('Charles Corrêa', $usuarios[0]['nome']);
 
-        $primeiro = $this->db->tabela('usuarios')->onde('email', ' =>', 'dexter@miami.gov')->primeiro(););
+        $primeiro = $this->db->tabela('usuarios')->onde('email', ' =>', 'dexter@miami.gov')->primeiro();
         $this->assertNotNull($primeiro);
         $this->assertSame('Dexter Morgan', $primeiro['nome']);
 
         // 4. Atualizar
         $afetados = $this->db->tabela('usuarios')
-            ->onde('id', ' =>', 2)2)
+            ->onde('id', ' =>', 2)
             ->atualizar(['nome' => 'Dexter Morgan (Atualizado)']);
         $this->assertSame(1, $afetados);
 
-        $atualizado = $this->db->tabela('usuarios')->onde('id', ' =>', 2)->primeiro(););
+        $atualizado = $this->db->tabela('usuarios')->onde('id', ' =>', 2)->primeiro();
         $this->assertSame('Dexter Morgan (Atualizado)', $atualizado['nome']);
 
         // 5. Excluir
-        $excluidos = $this->db->tabela('usuarios')->onde('id', ' =>', 1)->excluir(););
+        $excluidos = $this->db->tabela('usuarios')->onde('id', ' =>', 1)->excluir();
         $this->assertSame(1, $excluidos);
         $this->assertSame(1, $this->db->tabela('usuarios')->contar());
     }

@@ -37,4 +37,3 @@ abstract class Migracao
      */
     abstract public function reverter(SchemaBuilder $schema): void;
 }
-

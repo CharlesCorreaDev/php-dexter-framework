@@ -435,4 +435,3 @@ class QueryBuilder
         return $stmt;
     }
 }
-
