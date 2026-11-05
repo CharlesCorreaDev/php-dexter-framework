@@ -1,0 +1,29 @@
+:root {
+  /* ==========================================================================
+     Dexter Framework - Paleta Corporativa 90271 (Tema Light Default)
+     ========================================================================== */
+  --dx-canvas: #f2f5f9;
+  --dx-border-light: #b6c4e0;
+  --dx-accent: #869dcc;
+  --dx-terciary: #5772ac;
+  --dx-primary: #3b5998;
+  --dx-secondary: #224389;
+  --dx-navy: #14306b;
+  --dx-dark-navy: #0c1c40;
+
+  /* Variantes de Tonalidade (Tons Claros e Escuros) */
+  --dx-primary-light: #6282c0;
+  --dx-primary-dark: #2a4170;
+  --dx-secondary-light: #3d63b4;
+  --dx-secondary-dark: #162d5e;
+  --dx-terciary-light: #7c94c7;
+  --dx-terciary-dark: #3f5583;
+
+  /* Mapeamento Semântico Bootstrap 5.3 */
+  --bs-primary: var(--dx-primary);
+  --bs-secondary: var(--dx-secondary);
+  --bs-tertiary: var(--dx-terciary);
+  --bs-body-bg: var(--dx-canvas);
+  --bs-body-color: var(--dx-dark-navy);
+}
+
